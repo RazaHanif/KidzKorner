@@ -3,7 +3,8 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: black;
+    background-color: #606060;
+    padding: 1em 0em;
 }
 
 .footer-container {
@@ -18,10 +19,11 @@
 .contact-us, .preschool-hours, .indoor-hours {
     padding: 0em 1em;
     flex: 1;
+    background-color: darkblue;
+    border-radius: 1em;
 }
 
 .contact-us {
-    border: 1px solid red;
 }
 
 .contact-us a {
@@ -29,9 +31,7 @@
 }
 
 .preschool-hours {
-    border: 1px solid green;
 }
 
 .indoor-hours {
-    border: 1px solid blue;
 }
