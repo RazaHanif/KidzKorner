@@ -8,8 +8,16 @@ const Footer = () => {
                     <h2>Contact Us</h2>
                     <p>150 Nipissing Rd. 10 & 11, Milton, ON, L9T 5B3</p>
                     <p>(905) 878-4697</p>
-                    <p>info@kidzkornermilton.com</p>
-                    <p>Follow us on instagram</p>
+                    <p>
+                        <a href="mailto:info@kidzkornermilton.com">
+                            info@kidzkornermilton.com
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://www.instagram.com/kidz.kornermilton/">
+                            Follow us on Instagram
+                        </a>
+                    </p>
                 </div>
                 <div className='preschool-hours'>
                     <h2>Preschool Hours</h2>

@@ -23,6 +23,10 @@
     border: 1px solid red;
 }
 
+.contact-us a {
+    color: red;
+}
+
 .preschool-hours {
     border: 1px solid green;
 }
