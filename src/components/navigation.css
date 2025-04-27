@@ -1,10 +1,14 @@
  nav a {
     text-decoration: none;
-    color: black;
+    color: #BFB8AD;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 a.active {
-    color: darkblue;
+    color: #998888;
 }
 
 nav {
