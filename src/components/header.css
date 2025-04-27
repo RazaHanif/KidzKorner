@@ -2,9 +2,12 @@
     margin: 0.5em;
     background-color: green;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
 }
 
 .header-container {
+    width: 100%;
     border: 2px solid blue;
     margin-top: none;
     margin-left: 1em;
