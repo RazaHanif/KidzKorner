@@ -1,6 +1,5 @@
 body {
     background-color: grey;
-    border: 2px solid green;
     display: flex;
     flex-direction: column;
     color: darkgray;
@@ -17,7 +16,5 @@ a:hover {
 }
 
 .content {
-    margin-top: none;
-    border: 1px solid blue;
 }
 

@@ -20,7 +20,7 @@
 }
 
 .header-logo{
-    flex-grow: 1;
+    flex-grow: 3;
     display: flex;
     text-align: center;
     justify-content: start;
