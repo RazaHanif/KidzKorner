@@ -6,8 +6,16 @@ const Footer = () => {
             <div className='footer-container'>
                 <div className='contact-us'>
                     <h2>Contact Us</h2>
-                    <p>150 Nipissing Rd. 10 & 11, Milton, ON, L9T 5B3</p>
-                    <p>(905) 878-4697</p>
+                    <p>
+                        <a href="https://maps.app.goo.gl/TcUQhJ58bgf6tME18">
+                            150 Nipissing Rd. 10 & 11, Milton, ON, L9T 5B3
+                        </a>
+                    </p>
+                    <p>
+                        <a href="tel:+19058784697">
+                            (905) 878-4697
+                        </a>
+                    </p>
                     <p>
                         <a href="mailto:info@kidzkornermilton.com">
                             info@kidzkornermilton.com
