@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router'
+// Idk if this is the best way to do this
 import './navigation.css'
-
 
 function Navigation() {
     return(
