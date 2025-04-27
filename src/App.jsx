@@ -11,9 +11,9 @@ import Workshops from './pages/Workshops.jsx'
 function App(){
   return (
     <BrowserRouter>
-      <div className='flex flex-col min-h-screen'>
+      <div>
         <Header/>
-        <main className='flex-grow'>
+        <main>
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/childcare' element={<Childcare />} />
