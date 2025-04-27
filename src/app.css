@@ -1,0 +1,17 @@
+body {
+    background-color: grey;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+}
+
+.body {
+    margin: 0.5em;
+    border: 1px solid red;
+}
+
+.content {
+    margin: 1em;
+    border: 1px solid blue;
+}
+

@@ -1,0 +1,14 @@
+.footer {
+    background-color: brown;
+}
+
+.footer-container {
+    margin-top: none;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: none;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

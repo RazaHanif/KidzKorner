@@ -1,0 +1,14 @@
+.header {
+    background-color: green;
+}
+
+.header-container {
+    margin-top: none;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

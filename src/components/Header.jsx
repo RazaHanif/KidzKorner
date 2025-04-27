@@ -1,10 +1,11 @@
 import { NavLink } from 'react-router'
 import Navigation from './Navigation'
+import './header.css'
 
 const Header = () => {
     return (
-        <header className='site-header'>
-            <div className='container'>
+        <header className='header'>
+            <div className='header-container'>
                 <div className='header-logo'>
                     <NavLink to='/' end>
                         LOGO

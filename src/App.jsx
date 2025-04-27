@@ -7,13 +7,14 @@ import Home from './pages/Home.jsx'
 import Parties from './pages/Parties.jsx'
 import Playground from './pages/Playground.jsx'
 import Workshops from './pages/Workshops.jsx'
+import './app.css'
 
 function App(){
   return (
     <BrowserRouter>
-      <div>
+      <div className='body'>
         <Header/>
-        <main>
+        <main className='content'>
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/childcare' element={<Childcare />} />
