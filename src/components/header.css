@@ -1,5 +1,7 @@
 .header {
     margin: 0.5em;
+    width: 100%;
+    min-height: 100px;
     background-color: green;
     border: 2px solid yellow;
     border-radius: 5px;
