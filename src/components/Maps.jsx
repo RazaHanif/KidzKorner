@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-function Map() {
+function Maps() {
     const [mapUrl, setMapUrl] = useState("")
 
     useEffect( () => {
@@ -12,13 +12,16 @@ function Map() {
     if (!mapUrl) return <div>Loading map...</div>
 
     return (
-        <iframe
-        src={mapUrl}
-        allowFullScreen
-        loading="lazy"
-        style={{ width: "100%", height: "400px", border: 0 }}
-      />
+        <div className='map-container'>
+            <iframe
+                title='Kidz Korner Milton'
+                className='map'
+                src={mapUrl}
+                allowFullScreen
+                loading='lazy'
+            />
+        </div>
     )
 }
 
-export default Map
+export default Maps
