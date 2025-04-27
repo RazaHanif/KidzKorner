@@ -12,3 +12,17 @@
     color: #BFB8AD !important;
     font-size: 1.5em;
 }
+
+.navbar-collapse.show {
+    background-color: black;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.nav-link {
+    color: #BFB8AD !important;
+}
+
+.navbar-collapse {
+    transition: background-color 0.3s ease;
+}
