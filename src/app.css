@@ -5,6 +5,12 @@ body {
     flex-direction: column;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+    
+}
+
 .body {
     margin: 0.5em;
     border: 1px solid red;

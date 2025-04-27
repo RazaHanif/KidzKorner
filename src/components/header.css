@@ -25,6 +25,10 @@
     justify-content: start;
 }
 
+.header-logo a.active {
+    color: black;
+}
+
 .header-nav-links {
     text-align: center;
     flex-grow: 1;
