@@ -8,15 +8,12 @@
     height: 3em;
 }
 
-.navbar {
-    height: 3em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .navbar .container {
     border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
 }
 
 .navbar-brand {
@@ -26,7 +23,7 @@
 }
 
 .navbar-collapse.show {
-    background-color: black;
+    background-color: #823329;
     padding: 1em;
     border-radius: 10px;
 }
@@ -49,11 +46,3 @@
     border: none;
     outline: none;
 }
-
-
-/* Adjust the hamburger icon size and color
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23BFB8AD' viewBox='0 0 30 30'%3e%3cpath stroke='%23BFB8AD' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-    background-size: contain;
-    background-repeat: no-repeat;
-} */
