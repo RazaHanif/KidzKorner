@@ -8,8 +8,15 @@ import Parties from './pages/Parties.jsx'
 import Playground from './pages/Playground.jsx'
 import Workshops from './pages/Workshops.jsx'
 
-
 function App(){
+  console.log(About)
+  console.log(Home)
+  console.log(Childcare)
+  console.log(Parties)
+  console.log(Playground)
+  console.log(Workshops)
+  
+
   return (
     <Router>
       <div className='flex flex-col min-h-screen'>
