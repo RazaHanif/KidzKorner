@@ -7,27 +7,25 @@
     margin-left: 1em;
     margin-right: 1em;
     margin-bottom: 2em;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
-}
-
-.header-btns {
-    border: 2px solid pink;
-    display: flex;
-    gap: 1em;
-    margin-top: none;
-    margin-bottom: none;
-    margin-right: auto;
-    margin-left: 2em;
 }
 
 .header-nav {
     display: flex;
     justify-content: space-between;
-    margin-top: none;
-    margin-bottom: none;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin: none;
+    padding: 0.5em 1em;
 }
 
+.header-logo{
+    flex-grow: 1;
+    display: flex;
+    text-align: center;
+    justify-content: start;
+}
+
+.header-nav-links {
+    text-align: center;
+    flex-grow: 1;
+}

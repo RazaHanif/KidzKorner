@@ -6,10 +6,6 @@ const Header = () => {
     return (
         <header className='header'>
             <div className='header-container'>
-                <div className='header-btns'>
-                    <div>Call</div>
-                    <div>Email</div>
-                </div>
                 <div className='header-nav'>
                     <div className='header-logo'>
                         <NavLink to='/' end>
