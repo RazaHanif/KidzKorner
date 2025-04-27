@@ -22,7 +22,7 @@ const Header = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <div>BOB</div>
+            <span className="navbar-toggler-icon"></span>
           </button>
 
           {/* Collapsible links */}
