@@ -23,3 +23,9 @@
     color: #BFB8AD;
     text-decoration: none;
 }
+
+.contact-us a:hover {
+    text-decoration: underline;
+}
+
+
