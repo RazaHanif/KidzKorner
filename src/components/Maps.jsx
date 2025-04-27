@@ -1,22 +1,16 @@
-import { useState, useEffect } from 'react'
-
 function Maps() {
-    const [mapUrl, setMapUrl] = useState("")
+    const API_KEY = process.env.GOOGLE_MAPS_KEY
+    const address = "Kidz Korner Milton"
+    const url = `https://www.google.com/maps/embed/v1/place?key=${API_KEY}&q=${encodeURIComponent(address)}`
 
-    useEffect( () => {
-        fetch('api/maps-url')
-        .then(res => res.json())
-        .then(data => setMapUrl(data.url)) 
-    }, [])
-
-    if (!mapUrl) return <div>Loading map...</div>
+    if (!url) return <div>Loading map...</div>
 
     return (
         <div className='map-container'>
             <iframe
                 title='Kidz Korner Milton'
                 className='map'
-                src={mapUrl}
+                src={url}
                 allowFullScreen
                 loading='lazy'
             />
