@@ -1,13 +1,13 @@
 .header {
     margin: 0.5em;
     background-color: green;
+    border: 2px solid yellow;
     border-radius: 5px;
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 .header-container {
-    width: 100%;
     border: 2px solid blue;
     margin-top: none;
     margin-left: 1em;
