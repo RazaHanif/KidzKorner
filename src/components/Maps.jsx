@@ -3,12 +3,7 @@ function Maps() {
         throw new Error("Google Maps API Key is missing!")
     }
     
-    const API_KEY = process.env.GOOGLE_MAPS_KEY
-
-    const address = "Kidz Korner Milton"
-    const url = `https://www.google.com/maps/embed/v1/place?key=${API_KEY}&q=${encodeURIComponent(address)}`
-
-    if (!url) return <div>Loading map...</div>
+    const url = `https://www.google.com/maps/embed/v1/place?key=${process.env.GOOGLE_MAPS_KEY}&q=${encodeURIComponent('Kidz Korner Milton')}`
 
     return (
         <div className='map-container'>
