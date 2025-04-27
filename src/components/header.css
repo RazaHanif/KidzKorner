@@ -7,41 +7,12 @@
     align-items: center;
     height: 3em;
 }
-
-.header-container {
-    width: 100%;
-    margin-left: 1em;
-    margin-right: 1em;
-    display: flex;
-}
-
-.header-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: none;
-    padding: 0.5em 1em;
-}
-
-.header-logo {
-    padding: 4px solid yellow;
-    flex-grow: 3;
-    display: flex;
-    text-align: center;
-    justify-content: start;
-    font-size: large;
-}
-
 .header-logo a {
     text-decoration: none;
     color: #BFB8AD;
-}
-
-.header-logo a.active {
+    font-size: 1.5em;
+  }
+  
+  .header-logo a.active {
     color: #998888;
-}
-
-.header-nav-links {
-    text-align: center;
-    flex-grow: 1;
-}
+  }

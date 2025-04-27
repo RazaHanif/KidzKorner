@@ -1,27 +1,38 @@
-import { NavLink } from 'react-router'
-// Idk if this is the best way to do this
-import './navigation.css'
+import { NavLink } from 'react-router-dom';  // fix: 'react-router-dom'
+import './navigation.css';
 
 function Navigation() {
-    return(
-        <nav>
-            <NavLink to='/childcare' end>
-                Child Care
-            </NavLink>
-            <NavLink to='/parties' end>
-                Parties
-            </NavLink>
-            <NavLink to='/playground' end>
-                Playground
-            </NavLink>
-            <NavLink to='/workshop' end>
-                Workshops
-            </NavLink>
-            <NavLink to='/about' end>
-                About Us
-            </NavLink>
-        </nav>
-    )
+  return (
+    <nav>
+      <ul className="nav">
+        <li className="nav-item">
+          <NavLink to="/childcare" end className="nav-link text-light">
+            Child Care
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink to="/parties" end className="nav-link text-light">
+            Parties
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink to="/playground" end className="nav-link text-light">
+            Playground
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink to="/workshop" end className="nav-link text-light">
+            Workshops
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink to="/about" end className="nav-link text-light">
+            About Us
+          </NavLink>
+        </li>
+      </ul>
+    </nav>
+  );
 }
 
-export default Navigation
+export default Navigation;
