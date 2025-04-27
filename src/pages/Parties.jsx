@@ -1,9 +1,9 @@
 const Parties = () => {
     return (
-      <>
-          Parties
-      </>
+        <>
+            Parties
+        </>
     );
-  }
+}
   
-  export default Parties;
+export default Parties;

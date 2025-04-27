@@ -1,9 +1,9 @@
 const Childcare = () => {
     return (
-      <>
-          Childcare
-      </>
+        <>
+            Childcare
+        </>
     );
-  }
+}
   
-  export default Childcare;
+export default Childcare;

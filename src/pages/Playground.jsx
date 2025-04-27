@@ -1,9 +1,9 @@
 const Playground = () => {
     return (
-      <>
-          Playground
-      </>
+        <>
+            Playground
+        </>
     );
-  }
+}
   
-  export default Playground;
+export default Playground;
