@@ -5,12 +5,14 @@ const Header = () => {
     return (
         <header className='site-header'>
             <div className='container'>
-                <div>Logo</div>
-                <h1>Kidz Korner Milton</h1>
-
-                <nav className='site-nav'>
-                    <li></li>
-                </nav>
+                <div className='header-logo'>
+                    <NavLink to='/' end>
+                        LOGO
+                    </NavLink>
+                </div>
+                <div className='header-nav'>
+                    <Navigation />
+                </div>
             </div>
         </header>
     )
