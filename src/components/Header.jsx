@@ -1,20 +1,38 @@
-import { NavLink } from 'react-router-dom'
-import Navigation from './Navigation'
-import './header.css'
+import { NavLink } from 'react-router-dom';
+import Navigation from './Navigation';
+import './header.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Header = () => {
   return (
-    <header className="header py-2">
-      <div className="container d-flex align-items-center justify-content-between">
-        <div className="header-logo">
-          <NavLink to="/" end className="navbar-brand text-light">
+    <header>
+      <nav className="navbar navbar-expand-lg navbar-dark header">
+        <div className="container">
+          <NavLink to="/" end className="navbar-brand">
             LOGO
           </NavLink>
+
+          {/* Hamburger button */}
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+
+          {/* Collapsible links */}
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <Navigation />
+          </div>
         </div>
-        <Navigation />
-      </div>
+      </nav>
     </header>
   );
 };
 
-export default Header
+export default Header;
