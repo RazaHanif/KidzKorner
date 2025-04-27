@@ -4,11 +4,16 @@ body {
     display: flex;
     flex-direction: column;
     color: darkgray;
+    height: auto;
 }
 
 a {
     color: black;
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .content {
