@@ -10,11 +10,22 @@ import Workshops from './pages/Workshops.jsx'
 
 function App(){
   return (
-    <div className='flex flex-col min-h-screen'>
-      <main className='flex-grow'>
-        <div>Hello World!</div>
-      </main>
-    </div>
+    <Router>
+      <div className='flex flex-col min-h-screen'>
+        <Header />
+        <main className='flex-grow'>
+          <Routes>
+            <Route path='/' children={<Home />} />
+            <Route path='/childcare' children={<Childcare />} />
+            <Route path='/parties' children={<Parties />} />
+            <Route path='/playground' children={<Playground />} />
+            <Route path='/workshop' children={<Workshops />} />
+            <Route path='/about' children={<About />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
