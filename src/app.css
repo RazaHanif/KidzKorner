@@ -1,8 +1,9 @@
 body {
-    background-color: #505050;
+    background-color: blue;
 }
 
 .body {
+    background-color: red;
     display: flex;
     flex-direction: column;
     color: darkgray;
@@ -11,7 +12,7 @@ body {
 }
 
 a {
-    color: black;
+    color: red;
     text-decoration: none;
 }
 
