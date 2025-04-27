@@ -1,5 +1,5 @@
-import { NavLink } from 'react-router-dom';  // fix: 'react-router-dom'
-import './navigation.css';
+import { NavLink } from 'react-router-dom'
+import './navigation.css'
 
 function Navigation() {
   return (
@@ -35,4 +35,4 @@ function Navigation() {
   );
 }
 
-export default Navigation;
+export default Navigation

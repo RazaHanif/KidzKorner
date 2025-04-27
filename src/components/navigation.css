@@ -1,19 +1,11 @@
-nav a {
-    text-decoration: none;
-    color: #BFB8AD;
+.nav-link {
+  color: #BFB8AD;
 }
 
-nav a:hover {
-    text-decoration: underline;
+.nav-link:hover {
+  text-decoration: underline;
 }
 
-a.active {
-    color: #998888;
+.nav-link.active {
+  color: #998888;
 }
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
