@@ -1,8 +1,10 @@
 <iframe
-  src="https://www.google.com/maps/embed/v1/place?key=${}&q=KidzKorner+Milton"
   width="600"
   height="450"
-  style="border:0;"
-  allowFullScreen=""
+  style="border:0"
   loading="lazy"
-></iframe>
+  allowfullscreen
+  referrerpolicy="no-referrer-when-downgrade"
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDPny6dN9B3rJv93XQIYh3lY4DDlGC7boU
+    &q=Kidz+Korner+Milton">
+</iframe>
