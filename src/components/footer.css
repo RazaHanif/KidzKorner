@@ -17,7 +17,7 @@
 
 .contact-us, .preschool-hours, .indoor-hours {
     padding: 0em 1em;
-
+    flex: 1;
 }
 
 .contact-us {
