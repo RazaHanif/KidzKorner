@@ -1,5 +1,8 @@
 body {
-    background-color: grey;
+    background-color: #505050;
+}
+
+.body {
     display: flex;
     flex-direction: column;
     color: darkgray;
@@ -17,7 +20,7 @@ a:hover {
 }
 
 .content {
+    padding-top: 1em;
     flex-grow: 1;
-    border: 1px solid blue;
 }
 
