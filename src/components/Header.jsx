@@ -1,3 +1,6 @@
+import { NavLink } from 'react-router'
+import Navigation from './Navigation'
+
 const Header = () => {
     return (
         <header className='site-header'>
