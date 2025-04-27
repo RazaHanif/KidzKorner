@@ -1,19 +1,15 @@
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    padding: 1em 0;
     width: 100%;
     background-color: #606060;
-    padding: 1em 0em;
 }
 
 .footer-container {
-    margin-top: none;
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-bottom: none;
     display: flex;
     gap: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    
 }
 
 .contact-us, .preschool-hours, .indoor-hours {

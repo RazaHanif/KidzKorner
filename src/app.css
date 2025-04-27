@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     color: darkgray;
     height: auto;
+    min-height: 100vh;
 }
 
 a {
@@ -16,7 +17,7 @@ a:hover {
 }
 
 .content {
+    flex-grow: 1;
     border: 1px solid blue;
-    height: 100vh;
 }
 
