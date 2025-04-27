@@ -1,6 +1,6 @@
-a {
+ nav a {
     text-decoration: none;
-    color: red;
+    color: black;
 }
 
 a.active {
