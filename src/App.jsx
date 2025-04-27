@@ -9,7 +9,7 @@ import Playground from './pages/Playground'
 import Workshops from './pages/Workshops'
 
 
-const App = () => {
+function App(){
   return (
     <Router>
       <div className='flex flex-col min-h-screen'>
