@@ -1,15 +1,16 @@
 .header {
+    margin: 0.5em;
     background-color: green;
     border-radius: 5px;
 }
 
 .header-container {
+    border: 2px solid blue;
     margin-top: none;
     margin-left: 1em;
     margin-right: 1em;
     margin-bottom: 2em;
     display: flex;
-    flex-direction: column;
 }
 
 .header-nav {
@@ -20,13 +21,18 @@
     padding: 0.5em 1em;
 }
 
-.header-logo{
-    padding: 1px solid red;
+.header-logo {
+    padding: 4px solid yellow;
     flex-grow: 3;
     display: flex;
     text-align: center;
     justify-content: start;
     font-size: large;
+}
+
+.header-logo a {
+    text-decoration: none;
+    color: black;
 }
 
 .header-logo a.active {
