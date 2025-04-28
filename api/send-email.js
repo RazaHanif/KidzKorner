@@ -88,9 +88,7 @@ export default async function handler(req, res) {
         from: process.env.EMAIL_DUMMY,
         to: process.env.EMAIL_INFO,
         subject: subject,
-        text: emailContent,
-        html: emailContent.replace(/\n/g, '<br>'),
-        replyTo: data.email
+        text: emailContent
     })
 
     res.status(200).json({ success: true })
