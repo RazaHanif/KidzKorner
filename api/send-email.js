@@ -89,7 +89,7 @@ export default async function handler(req, res) {
         to: process.env.EMAIL_INFO,
         subject: subject,
         text: emailContent,
-        
+        html: emailContent.replace(/\n/g, '<br>'),
         replyTo: data.email
     })
 
