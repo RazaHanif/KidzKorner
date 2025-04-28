@@ -25,6 +25,7 @@ const Form = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    
 
     const response = await fetch('/api/sendEmail', {
       method: 'POST',
