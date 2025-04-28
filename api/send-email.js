@@ -94,7 +94,7 @@ export default async function handler(req, res) {
     }
 
     await transporter.sendMail({
-        from: `"${data.name} <process.env.EMAIL_DUMMY>`,
+        from: `"Website Inquiry <process.env.EMAIL_DUMMY>`,
         to: process.env.EMAIL_INFO,
         subject: subject,
         text: emailContent,
