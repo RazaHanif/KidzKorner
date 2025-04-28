@@ -83,15 +83,12 @@ export default async function handler(req, res) {
         emailContent = "How did you get to this route?"
     }
 
-    console.log(subject)
-    console.log(emailContent)
-
-    // await transporter.sendMail({
-    //     from: process.env.EMAIL_DUMMY,
-    //     to: process.env.EMAIL_INFO,
-    //     subject: subject,
-    //     text: emailContent
-    // })
+    await transporter.sendMail({
+        from: process.env.EMAIL_DUMMY,
+        to: process.env.EMAIL_INFO,
+        subject: subject,
+        text: emailContent
+    })
 
     res.status(200).json({ success: true })
 }
