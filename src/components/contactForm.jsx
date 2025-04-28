@@ -57,7 +57,7 @@ const ContactForm = () => {
             <input
               type="text"
               className="form-control"
-              placeholder="Spongebob Squarepants"
+              placeholder="Chilli Heeler"
               id="name"
               name="name"
               value={formData.name}
@@ -72,7 +72,7 @@ const ContactForm = () => {
             <input
               type="email"
               className="form-control"
-              placeholder="squarepants@krustykrab.com"
+              placeholder="chilli.heeler@krustykrab.com"
               id="email"
               name="email"
               value={formData.email}
