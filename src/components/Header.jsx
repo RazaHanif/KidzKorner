@@ -9,7 +9,11 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg navbar-dark header">
         <div className="container">
           <NavLink to="/" end className="navbar-brand">
-            LOGO
+            <img 
+              src='/logo.png'
+              alt='Home'
+              className='logo'
+            />
           </NavLink>
 
           {/* Hamburger button */}

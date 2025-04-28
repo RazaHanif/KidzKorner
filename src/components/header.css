@@ -1,11 +1,11 @@
 .header {
     margin: 0.5em;
-    background-color: #823329;
+    background-color: var(--contrast);
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 3em;
+    height: 5em;
 }
 
 .navbar .container {
@@ -16,19 +16,19 @@
 }
 
 .navbar-brand {
-    color: #BFB8AD !important;
-    font-size: 1.5em;
+    color: var(--text-primary) !important;
     margin-right: auto;
 }
 
 .navbar-collapse.show {
-    background-color: #823329;
+    background-color: var(--contrast);
     padding: 1em;
     border-radius: 10px;
 }
 
 .nav-link {
-    color: #BFB8AD !important;
+    font-size: 1.25em;
+    color: var(--text-primary) !important;
 }
 
 .navbar-collapse {
@@ -44,4 +44,14 @@
 
     border: none;
     outline: none;
+}
+
+.logo {
+    width: 5em;
+    height: auto;
+    transition:transform 0.4s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
 }

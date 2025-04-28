@@ -1,8 +1,8 @@
 .footer {
     padding: 1em 0;
     width: 100%;
-    background-color: #823329;
-    color: #BFB8AD;
+    background-color: var(--contrast);
+    color: var(--text-primary);
     font-size: small;
 }
 
@@ -20,11 +20,13 @@
 }
 
 .contact-us a {
-    color: #BFB8AD;
+    color: var(--text-primary);
     text-decoration: none;
+    transition: 0.2s ease;
 }
 
 .contact-us a:hover {
+    color: var(--text-contrast);
     text-decoration: underline;
 }
 

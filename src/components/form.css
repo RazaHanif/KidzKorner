@@ -1,9 +1,9 @@
 .btn {
-    border: 1px solid #823329;
-    color: #823329;
+    border: 1px solid var(--contrast);
+    color: var(--contrast);
 }
 
 .btn:hover {
-    background-color: #823329;
-    color: #BFB8AD;
+    background-color: var(--contrast);
+    color: var(--text-primary);
 }

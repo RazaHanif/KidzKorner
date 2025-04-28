@@ -1,11 +1,12 @@
 .nav-link {
-  color: #BFB8AD;
+  color: var(--text-primary) !important;
 }
 
 .nav-link:hover {
+  color: var(--text-contrast) !important;
   text-decoration: underline;
 }
 
 .nav-link.active {
-  color: #998888;
+  color: var(--text-secondary) !important;
 }

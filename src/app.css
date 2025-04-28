@@ -1,8 +1,18 @@
+:root {
+    --primary: #44BBA4;
+    --contrast: #E94F37;
+    --text-primary: #011627;
+    --text-secondary: #FBD1A2;
+    --text-contrast: #433E0E;
+    background-color: var(--primary);
+    color: var(--text-contrast)
+}
+
 .body {
-    background-color: #BFB8AD;
+    background-color: var(--primary);
     display: flex;
     flex-direction: column;
-    color: #823329;
+    color: var(--text-primary);
     height: auto;
     min-height: 100vh;
 }
@@ -26,13 +36,19 @@
     margin-bottom: 3em;
 }
 
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+    }
+}
+
 .contact-left, .contact-right {
     flex: 1;
     padding: 1em;
 }
 
 .contact-left a {
-    color: #823329;
+    color: var(--text-primary);
     text-decoration: none;
 }
 
@@ -44,4 +60,42 @@
     display: flex;
     justify-content: center;
     align-self: center;
+}
+
+.header {
+    z-index: 2;
+}
+
+.accordion {
+    z-index: 1;
+}
+
+.accordion-item {
+    background-color: var(--contrast);
+}
+
+.accordion-button {
+    background-color: var(--contrast);
+    color: var(--text-secondary);
+}
+
+.accordion-button:focus {
+    background-color: var(--contrast);
+    color: var(--text-secondary);
+}
+
+.accordion-button.collapsed {
+    background-color: var(--contrast);
+    color: var(--text-secondary);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--contrast);
+    color: var(--text-secondary);
+    box-shadow: none;
+}
+
+.accordion-body {
+    background-color: var(--contrast);
+    color: var(--text-secondary);
 }
