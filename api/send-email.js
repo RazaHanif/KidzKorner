@@ -12,14 +12,6 @@ export default async function handler(req, res) {
         return res.status(400).json({ error: 'Type field is required' })
     }
 
-    if (!isValidEmail(data.email)) {
-        return res.status(400).json({ error: 'Invalid email address' });
-    }
-      
-    if (!isValidPhone(data.phone)) {
-        return res.status(400).json({ error: 'Invalid phone number' });
-    }
-
     const transporter = nodemailer.createTransport({
         service: 'Yahoo',
         auth: {
@@ -110,14 +102,4 @@ export default async function handler(req, res) {
     })
 
     res.status(200).json({ success: true })
-}
-
-function isValidEmail(email) {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailRegex.test(email);
-}
-
-function isValidPhone(phone) {
-    const phoneRegex = /^\+?[0-9\s\-()]{7,20}$/;
-    return phoneRegex.test(phone);
 }
