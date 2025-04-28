@@ -7,6 +7,7 @@ const ContactForm = () => {
     email: '',
     phone: '',
     message: '',
+    type: 'about'
   });
 
   const [submitted, setSubmitted] = useState(false);
@@ -23,7 +24,7 @@ const ContactForm = () => {
     e.preventDefault();
     
 
-    const response = await fetch('/api/sendEmail', {
+    const response = await fetch('/api/send-email', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -63,7 +64,6 @@ const ContactForm = () => {
               value={formData.name}
               onChange={handleChange}
               required
-              disabled
             />
           </div>
 
@@ -78,7 +78,6 @@ const ContactForm = () => {
               value={formData.email}
               onChange={handleChange}
               required
-              disabled
             />
           </div>
 
@@ -93,7 +92,6 @@ const ContactForm = () => {
               value={formData.phone}
               onChange={handleChange}
               required
-              disabled
             />
           </div>
 
@@ -106,7 +104,6 @@ const ContactForm = () => {
               value={formData.message}
               onChange={handleChange}
               required
-              disabled
             />
           </div>
 

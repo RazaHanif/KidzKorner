@@ -7,10 +7,11 @@ const ChildcareForm = () => {
     email: '',
     phone: '',
     dob: '',
-    enrollmentDate: '',
+    startDate: '',
     programType: '',
     interviewTiming: '',
     message: '',
+    type: 'childcare'
   });
 
   const [submitted, setSubmitted] = useState(false);
@@ -24,9 +25,11 @@ const ChildcareForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    console.log('click')
     
 
-    const response = await fetch('/api/sendEmail', {
+    const response = await fetch('/api/send-email', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -66,7 +69,6 @@ const ChildcareForm = () => {
               value={formData.name}
               onChange={handleChange}
               required
-              disabled
             />
           </div>
 
@@ -81,7 +83,6 @@ const ChildcareForm = () => {
               value={formData.email}
               onChange={handleChange}
               required
-              disabled
             />
           </div>
 
@@ -96,7 +97,6 @@ const ChildcareForm = () => {
               value={formData.phone}
               onChange={handleChange}
               required
-              disabled
             />
           </div>
 
@@ -110,21 +110,19 @@ const ChildcareForm = () => {
               value={formData.dob}
               onChange={handleChange}
               required
-              disabled
             />
           </div>
 
           <div className="mb-3">
-            <label htmlFor="enrollmentDate" className="form-label">Enrollment Date</label>
+            <label htmlFor="startDate" className="form-label">Enrollment Date</label>
             <input
               type="date"
               className="form-control"
-              id="enrollmentDate"
-              name="enrollmentDate"
-              value={formData.enrollmentDate}
+              id="startDate"
+              name="startDate"
+              value={formData.startDate}
               onChange={handleChange}
               required
-              disabled
             />
           </div>
 
@@ -139,7 +137,7 @@ const ChildcareForm = () => {
                 value="Full Day - 9am to 3pm"
                 onChange={handleChange}
                 checked={formData.programType === 'Full Day - 9am to 3pm'}
-                disabled
+
               />
               <label className="form-check-label" htmlFor="option1">
                 Full Day - 9am to 3pm
@@ -154,7 +152,7 @@ const ChildcareForm = () => {
                 value="Half Day - 9am to 11:30am"
                 onChange={handleChange}
                 checked={formData.programType === 'Half Day - 9am to 11:30am'}
-                disabled
+
               />
               <label className="form-check-label" htmlFor="option2">
                 Half Day - 9am to 11:30am
@@ -169,7 +167,7 @@ const ChildcareForm = () => {
                 value="Half Day - 12:30pm to 3pm"
                 onChange={handleChange}
                 checked={formData.programType === 'Half Day - 12:30pm to 3pm'}
-                disabled
+
               />
               <label className="form-check-label" htmlFor="option3">
                 Half Day - 12:30pm to 3pm
@@ -187,7 +185,6 @@ const ChildcareForm = () => {
               value={formData.interviewTiming}
               onChange={handleChange}
               required
-              disabled
             />
           </div>
 
@@ -200,7 +197,6 @@ const ChildcareForm = () => {
               value={formData.message}
               onChange={handleChange}
               required
-              disabled
             />
           </div>
 

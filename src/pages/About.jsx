@@ -2,7 +2,7 @@ import ContactForm from "../components/contactForm";
 
 const About = () => {
 
-    const url = `https://www.google.com/maps/embed/v1/place?key=$AIzaSyDPny6dN9B3rJv93XQIYh3lY4DDlGC7boU&q=${encodeURIComponent("Kidz Korner Milton")}`
+    const url = `https://www.google.com/maps/embed/v1/place?key=${process.env.REACT_APP_GOOGLE_MAPS_API}&q=Kidz+Korner+Milton+Ontario`
 
     return (
         <>
@@ -49,7 +49,7 @@ const About = () => {
                     allowFullScreen=""
                     aria-hidden="false"
                     tabIndex="0"
-                    src="https://www.google.com/maps/embed/v1/place?key=$AIzaSyDPny6dN9B3rJv93XQIYh3lY4DDlGC7boU&q=Kidz+Korner+Milton"
+                    src={url}
                 />
             </div>
             <div className="contact-form">

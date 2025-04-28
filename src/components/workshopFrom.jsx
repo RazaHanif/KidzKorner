@@ -10,6 +10,7 @@ const WorkshopForm = () => {
     socialMedia: '',
     contactAgain: '',
     allergies: '',
+    type: 'workshop'
   });
 
   const [submitted, setSubmitted] = useState(false);
@@ -26,7 +27,7 @@ const WorkshopForm = () => {
     e.preventDefault();
     
 
-    const response = await fetch('/api/sendEmail', {
+    const response = await fetch('/api/send-email', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -66,7 +67,6 @@ const WorkshopForm = () => {
               value={formData.name}
               onChange={handleChange}
               required
-              disabled
             />
           </div>
 
@@ -81,7 +81,6 @@ const WorkshopForm = () => {
               value={formData.email}
               onChange={handleChange}
               required
-              disabled
             />
           </div>
 
@@ -96,7 +95,6 @@ const WorkshopForm = () => {
               value={formData.phone}
               onChange={handleChange}
               required
-              disabled
             />
           </div>
 
@@ -111,7 +109,6 @@ const WorkshopForm = () => {
                     value="Yes"
                     onChange={handleChange}
                     checked={formData.socialMedia === 'Yes'}
-                    disabled
                 />
               <label className="form-check-label" htmlFor="option1">
                 Yes
@@ -126,7 +123,6 @@ const WorkshopForm = () => {
                 value="No"
                 onChange={handleChange}
                 checked={formData.socialMedia === 'No'}
-                disabled
               />
               <label className="form-check-label" htmlFor="option2">
                 No
@@ -145,7 +141,6 @@ const WorkshopForm = () => {
                     value="Yes"
                     onChange={handleChange}
                     checked={formData.contactAgain === 'Yes'}
-                    disabled
                 />
               <label className="form-check-label" htmlFor="option1">
                 Yes
@@ -160,7 +155,6 @@ const WorkshopForm = () => {
                 value="No"
                 onChange={handleChange}
                 checked={formData.contactAgain === 'No'}
-                disabled
               />
               <label className="form-check-label" htmlFor="option2">
                 No
@@ -178,7 +172,6 @@ const WorkshopForm = () => {
                 value={formData.workshop}
                 onChange={handleChange}
                 required
-                disabled
             >
                 <option value="potteryMothersDay">Pottery - Mothers Day Session</option>
                 <option value="potteryFathersDay">Pottery - Fathers Day Session</option>
@@ -198,7 +191,6 @@ const WorkshopForm = () => {
               value={formData.allergies}
               onChange={handleChange}
               required
-              disabled
             />
           </div>
 
