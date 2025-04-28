@@ -44,7 +44,7 @@ const PartyForm = () => {
 
   return (
     <div className="container mt-5">
-      <h2 className="mb-4">Enrollment Form</h2>
+      <h2 className="mb-4">Party Inquiry Form</h2>
 
       {/* Show thank you message when form is submitted */}
       {submitted ? (

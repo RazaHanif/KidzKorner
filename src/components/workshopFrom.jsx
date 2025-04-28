@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './form.css'
 
-const PartyForm = () => {
+const WorkshopForm = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -44,7 +44,7 @@ const PartyForm = () => {
 
   return (
     <div className="container mt-5">
-      <h2 className="mb-4">Enrollment Form</h2>
+      <h2 className="mb-4">Workshop Form</h2>
 
       {/* Show thank you message when form is submitted */}
       {submitted ? (
@@ -114,18 +114,12 @@ const PartyForm = () => {
           </div>
 
           <div className="mb-3">
-            <label htmlFor="numOfGuests" className="form-label">Availability for Tour</label>
-            <input
-              type="number"
-              className="form-control"
-              placeholder="25"
-              id="numOfGuests"
-              name="numOfGuests"
-              value={formData.numOfGuests}
-              onChange={handleChange}
-              required
-              disabled
-            />
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
           </div>
 
           <div className="mb-3">
@@ -150,4 +144,4 @@ const PartyForm = () => {
   );
 };
 
-export default PartyForm;
+export default WorkshopForm;

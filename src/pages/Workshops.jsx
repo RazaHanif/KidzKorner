@@ -1,7 +1,9 @@
+import WorkshopForm from "../components/workshopFrom"
+
 const Workshops = () => {
     return (
         <>
-            Workshops
+            <WorkshopForm/>
         </>
     );
 }
