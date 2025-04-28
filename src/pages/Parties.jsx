@@ -76,6 +76,20 @@ const Parties = () => {
                         </div>
                     </div>
                 </div>
+
+                <div className="accordion-item">
+                    <h2 className="accordion-header">
+                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                            Accordion Item #5
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div className="accordion-body">
+                            item 5
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
 
