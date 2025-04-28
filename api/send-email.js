@@ -19,7 +19,7 @@ export default async function handler(req, res) {
     // Will need to create differnt routes based on differnt forms
     await transporter.sendMail({
         from: process.env.EMAIL_USER,
-        to: process.env.INFO_EMAIL,
+        to: process.env.EMAIL_USER,
         subject: subject,
         text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`
     })
