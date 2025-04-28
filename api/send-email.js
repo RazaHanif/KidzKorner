@@ -33,49 +33,49 @@ export default async function handler(req, res) {
     if (data.type === 'about') {
         subject = `General Inquiry - ${data.name}`
         emailContent = `
-            General Inquiry\n
-            Name: ${data.name}\n
-            Email: ${data.email}\n
-            Phone: ${data.phone}\n
+            General Inquiry
+            Name: ${data.name}
+            Email: ${data.email}
+            Phone: ${data.phone}
             Message: ${data.message}
         `
     }
     else if (data.type === 'childcare') {
         subject = `Childcare Inquiry - ${data.name}`
         emailContent = `
-            Childcare Inquiry\n
-            Name: ${data.name}\n
-            Email: ${data.email}\n
-            Phone: ${data.phone}\n
-            Date of Birth: ${data.dob}\n
-            Enrollment Date: ${data.startDate}\n
-            Program Type: ${data.programType}\n
-            Availability for Tour: ${data.interviewTiming}\n
+            Childcare Inquiry
+            Name: ${data.name}
+            Email: ${data.email}
+            Phone: ${data.phone}
+            Date of Birth: ${data.dob}
+            Enrollment Date: ${data.startDate}
+            Program Type: ${data.programType}
+            Availability for Tour: ${data.interviewTiming}
             Message: ${data.message}
         `
     } 
     else if (data.type === 'parties') {
         subject = `Party Inquiry - ${data.name}`
         emailContent = `
-            Party Inquiry\n
-            Name: ${data.name}\n
-            Email: ${data.email}\n
-            Phone: ${data.phone}\n
-            Party Date: ${data.partyDate}\n
-            Number of Guests: ${data.numOfGuests}\n
+            Party Inquiry
+            Name: ${data.name}
+            Email: ${data.email}
+            Phone: ${data.phone}
+            Party Date: ${data.partyDate}
+            Number of Guests: ${data.numOfGuests}
             Message: ${data.message}
         `
     }
     else if (data.type === 'workshop') {
         subject = `Workshop Inquiry - ${data.name}`
         emailContent = `
-            General Inquiry\n
-            Name: ${data.name}\n
-            Email: ${data.email}\n
-            Phone: ${data.phone}\n
-            Workshop: ${data.workshop}\n
-            Social Media Consent: ${data.socialMedia}\n
-            Contact Again Consent: ${data.contactAgain}\n
+            General Inquiry
+            Name: ${data.name}
+            Email: ${data.email}
+            Phone: ${data.phone}
+            Workshop: ${data.workshop}
+            Social Media Consent: ${data.socialMedia}
+            Contact Again Consent: ${data.contactAgain}
             Allergies: ${data.allergies}
         `
     }
