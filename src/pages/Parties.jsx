@@ -1,7 +1,10 @@
 const Parties = () => {
     return (
         <>
-            Parties
+            <h4>Drop-In Fun!</h4>
+            <p>
+                Looking for a fun and safe indoor space for your child to play?
+            </p>
         </>
     );
 }
