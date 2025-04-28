@@ -6,7 +6,7 @@ const WorkshopForm = () => {
     name: '',
     email: '',
     phone: '',
-    partyDate: '',
+    workshop: '',
     numOfGuests: '',
     message: '',
   });
@@ -114,11 +114,22 @@ const WorkshopForm = () => {
           </div>
 
           <div className="mb-3">
-            <select class="form-select" aria-label="Default select example">
-                <option selected>Open this select menu</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+            <label htmlFor="partyDate" className="form-label">Workshop</label>
+            <select 
+                className="form-select" 
+                aria-label="Class Selection"
+                id="workshop"
+                name="workshop"
+                value={formData.workshop}
+                onChange={handleChange}
+                required
+                disabled
+            >
+                <option value="potteryMothersDay">Pottery - Mothers Day Session</option>
+                <option value="potteryFathersDay">Pottery - Fathers Day Session</option>
+                <option value="potteryFiveSession">Pottery  - 5 Sessions</option>
+                <option value="CookingClassSingle">Cooking Class - 1 Session</option>
+                <option value="CookingClassFour">Cooking Class - 4 Sessions</option>
             </select>
           </div>
 
