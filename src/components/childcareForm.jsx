@@ -15,6 +15,8 @@ const ChildcareForm = () => {
   });
 
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false)
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -25,25 +27,31 @@ const ChildcareForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsSubmitting(true)
 
-    console.log('click')
-    
+    try {
+      const response = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
 
-    const response = await fetch('/api/send-email', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(formData),
-    });
+      if (response.ok) {
+        setSubmitted(true)
+      }
+      else {
+        alert('Failed to submit the form.')
+      }
 
-    const result = await response.json();
-
-    if (result.success) {
-      setSubmitted(true); // Set submitted to true when form is successful
-    } else {
-      alert('Failed to submit the form.');
+    } catch (e) {
+      alert('Failed to submit the form.')
+      console.log(e);
+    } finally {
+      setIsSubmitting(false)
     }
+
   };
 
   return (
@@ -200,7 +208,7 @@ const ChildcareForm = () => {
             />
           </div>
 
-          <button type="submit" className="btn">
+          <button type="submit" className="btn" disabled={isSubmitting}>
             Submit
           </button>
         </form>

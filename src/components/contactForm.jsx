@@ -11,6 +11,7 @@ const ContactForm = () => {
   });
 
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false)
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -22,23 +23,31 @@ const ContactForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+    setIsSubmitting(true)
 
-    const response = await fetch('/api/send-email', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(formData),
-    });
+    try {
+      const response = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
 
-    const result = await response.json();
+      if (response.ok) {
+        setSubmitted(true)
+      }
+      else {
+        alert('Failed to submit the form.')
+      }
 
-    if (result.success) {
-      setSubmitted(true);
-    } else {
-      alert('Failed to submit the form.');
+    } catch (e) {
+      alert('Failed to submit the form.')
+      console.log(e);
+    } finally {
+      setIsSubmitting(false)
     }
+
   };
 
   return (
@@ -107,7 +116,7 @@ const ContactForm = () => {
             />
           </div>
 
-          <button type="submit" className="btn">
+          <button type="submit" className="btn" disabled={isSubmitting}>
             Submit
           </button>
         </form>
