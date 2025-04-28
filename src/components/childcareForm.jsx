@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './form.css'
 
 const Form = () => {
   const [formData, setFormData] = useState({
@@ -194,7 +195,7 @@ const Form = () => {
             />
           </div>
 
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className="btn">
             Submit
           </button>
         </form>
