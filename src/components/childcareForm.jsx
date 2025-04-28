@@ -9,7 +9,7 @@ const Form = () => {
     enrollmentDate: '',
     programType: '',
     interviewTiming: '',
-    generalMessage: '',
+    message: '',
   });
 
   const [submitted, setSubmitted] = useState(false); // State for submission status
@@ -69,9 +69,7 @@ const Form = () => {
           </div>
 
           <div className="mb-3">
-            <label htmlFor="email" className="form-label">
-              Email
-            </label>
+            <label htmlFor="email" className="form-label">Email</label>
             <input
               type="email"
               className="form-control"
@@ -85,12 +83,11 @@ const Form = () => {
           </div>
 
           <div className="mb-3">
-            <label htmlFor="phone" className="form-label">
-              Phone Number
-            </label>
+            <label htmlFor="phone" className="form-label">Phone Number</label>
             <input
               type="tel"
               className="form-control"
+              placeholder="905-878-4697"
               id="phone"
               name="phone"
               value={formData.phone}
@@ -100,9 +97,7 @@ const Form = () => {
           </div>
 
           <div className="mb-3">
-            <label htmlFor="dob" className="form-label">
-              Date of Birth
-            </label>
+            <label htmlFor="dob" className="form-label">Child's Date of Birth</label>
             <input
               type="date"
               className="form-control"
@@ -115,9 +110,7 @@ const Form = () => {
           </div>
 
           <div className="mb-3">
-            <label htmlFor="enrollmentDate" className="form-label">
-              Enrollment Date
-            </label>
+            <label htmlFor="enrollmentDate" className="form-label">Enrollment Date</label>
             <input
               type="date"
               className="form-control"
@@ -135,51 +128,49 @@ const Form = () => {
               <input
                 type="radio"
                 className="form-check-input"
-                id="program1"
+                id="option1"
                 name="programType"
-                value="1"
+                value="Full Day - 9am to 3pm"
                 onChange={handleChange}
-                checked={formData.programType === '1'}
+                checked={formData.programType === 'Full Day - 9am to 3pm'}
                 required
               />
-              <label className="form-check-label" htmlFor="program1">
-                Program 1
+              <label className="form-check-label" htmlFor="option1">
+                Full Day - 9am to 3pm
               </label>
             </div>
             <div className="form-check">
               <input
                 type="radio"
                 className="form-check-input"
-                id="program2"
+                id="option2"
                 name="programType"
-                value="2"
+                value="Half Day - 9am to 11:30am"
                 onChange={handleChange}
-                checked={formData.programType === '2'}
+                checked={formData.programType === 'Half Day - 9am to 11:30am'}
               />
-              <label className="form-check-label" htmlFor="program2">
-                Program 2
+              <label className="form-check-label" htmlFor="option2">
+                Half Day - 9am to 11:30am
               </label>
             </div>
             <div className="form-check">
               <input
                 type="radio"
                 className="form-check-input"
-                id="program3"
+                id="option3"
                 name="programType"
-                value="3"
+                value="Half Day - 12:30pm to 3pm"
                 onChange={handleChange}
-                checked={formData.programType === '3'}
+                checked={formData.programType === 'Half Day - 12:30pm to 3pm'}
               />
-              <label className="form-check-label" htmlFor="program3">
-                Program 3
+              <label className="form-check-label" htmlFor="option3">
+                Half Day - 12:30pm to 3pm
               </label>
             </div>
           </fieldset>
 
           <div className="mb-3">
-            <label htmlFor="interviewTiming" className="form-label">
-              Interview Timing
-            </label>
+            <label htmlFor="interviewTiming" className="form-label">Availability for Tour</label>
             <input
               type="text"
               className="form-control"
@@ -192,14 +183,12 @@ const Form = () => {
           </div>
 
           <div className="mb-3">
-            <label htmlFor="generalMessage" className="form-label">
-              General Message
-            </label>
+            <label htmlFor="message" className="form-label">Tell us more...</label>
             <textarea
               className="form-control"
-              id="generalMessage"
-              name="generalMessage"
-              value={formData.generalMessage}
+              id="message"
+              name="message"
+              value={formData.message}
               onChange={handleChange}
               required
             />
