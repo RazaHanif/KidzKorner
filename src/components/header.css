@@ -9,7 +9,6 @@
 }
 
 .navbar .container {
-    border: 1px solid green;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -23,7 +22,7 @@
 }
 
 .navbar-collapse.show {
-    background-color: black;
+    background-color: #823329;
     padding: 1em;
     border-radius: 10px;
 }
