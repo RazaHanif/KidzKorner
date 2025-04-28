@@ -20,7 +20,9 @@ export default async function handler(req, res) {
         auth: {
           user: process.env.EMAIL_DUMMY,
           pass: process.env.EMAIL_PASS
-        }
+        },
+        logger: true,
+        debug: true
     });
       
 
@@ -31,7 +33,7 @@ export default async function handler(req, res) {
         subject = `General Inquiry - ${data.name}`
         emailContent = `
             <html>
-                <body style='font-family: Arial, sans-serif; color: #333;>
+                <body style="font-family: Arial, sans-serif; color: #333;">
                     <h1>General Inquiry</h1>
                     <p><strong>Name:</strong> ${data.name}</p>
                     <p><strong>Email:</strong> ${data.email}</p>
@@ -45,7 +47,7 @@ export default async function handler(req, res) {
         subject = `Childcare Inquiry - ${data.name}`
         emailContent = `
             <html>
-                <body style='font-family: Arial, sans-serif; color: #333;>
+                <body style="font-family: Arial, sans-serif; color: #333;">
                     <h1>Childcare Inquiry</h1>
                     <p><strong>Name:</strong> ${data.name}</p>
                     <p><strong>Email:</strong> ${data.email}</p>
@@ -63,7 +65,7 @@ export default async function handler(req, res) {
         subject = `Party Inquiry - ${data.name}`
         emailContent = `
             <html>
-                <body style='font-family: Arial, sans-serif; color: #333;>
+                <body style="font-family: Arial, sans-serif; color: #333;">
                     <h1>Party Inquiry</h1>
                     <p><strong>Name:</strong> ${data.name}</p>
                     <p><strong>Email:</strong> ${data.email}</p>
@@ -79,7 +81,7 @@ export default async function handler(req, res) {
         subject = `Workshop Inquiry - ${data.name}`
         emailContent = `
             <html>
-                <body style='font-family: Arial, sans-serif; color: #333;>
+                <body style="font-family: Arial, sans-serif; color: #333;">
                     <h1>General Inquiry</h1>
                     <p><strong>Name:</strong> ${data.name}</p>
                     <p><strong>Email:</strong> ${data.email}</p>
