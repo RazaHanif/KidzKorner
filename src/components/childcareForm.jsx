@@ -59,6 +59,7 @@ const Form = () => {
             <input
               type="text"
               className="form-control"
+              placeholder="Bob Belcher"
               id="name"
               name="name"
               value={formData.name}
@@ -74,12 +75,12 @@ const Form = () => {
             <input
               type="email"
               className="form-control"
+              placeholder="bob@bobsburgers.com"
               id="email"
               name="email"
               value={formData.email}
               onChange={handleChange}
               required
-              disabled
             />
           </div>
 
