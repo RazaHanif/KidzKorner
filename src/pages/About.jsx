@@ -45,7 +45,14 @@ const About = () => {
                 <iframe
                     title="Google Maps"
                     loading="lazy"
-                    referrerPolicy={ url }
+                    referrerPolicy="no-referrer"
+                    width="600"
+                    height="450"
+                    style={{ border: 0 }}
+                    allowFullScreen=""
+                    aria-hidden="false"
+                    tabIndex="0"
+                    src="https://www.google.com/maps/embed/v1/place?key=$AIzaSyDPny6dN9B3rJv93XQIYh3lY4DDlGC7boU&q=Kidz+Korner+Milton"
                 />
             </div>
         </>
