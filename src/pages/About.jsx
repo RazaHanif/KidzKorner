@@ -38,9 +38,6 @@ const About = () => {
                     </p>
                 </div>
             </div>
-            <div className="contact-form">
-                <ContactForm/>
-            </div>
             <div className="gmaps">
                 <iframe
                     title="Google Maps"
@@ -54,6 +51,9 @@ const About = () => {
                     tabIndex="0"
                     src="https://www.google.com/maps/embed/v1/place?key=$AIzaSyDPny6dN9B3rJv93XQIYh3lY4DDlGC7boU&q=Kidz+Korner+Milton"
                 />
+            </div>
+            <div className="contact-form">
+                <ContactForm/>
             </div>
         </>
     );
