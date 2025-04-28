@@ -29,7 +29,7 @@ export default async function handler(req, res) {
         subject = `General Inquiry - ${data.name}`
         emailContent = `You have a new general inquiry from kidzkornermilton.com\n
         Name:${data.name}\n
-        Email:${data.name}\n
+        Email:${data.email}\n
         Phone:${data.phone}\n
         Message:${data.message}\n
         \n
@@ -40,7 +40,7 @@ export default async function handler(req, res) {
         subject = `Childcare Inquiry - ${data.name}`
         emailContent = `You have a new childcare inquiry from kidzkornermilton.com\n
         Name:${data.name}\n
-        Email:${data.name}\n
+        Email:${data.email}\n
         Phone:${data.phone}\n
         Date of Birth:${data.dob}\n
         Enrollment Date:${data.startDate}\n
@@ -55,7 +55,7 @@ export default async function handler(req, res) {
         subject = `Party Inquiry - ${data.name}`
         emailContent = `You have a new party inquiry from kidzkornermilton.com\n
         Name:${data.name}\n
-        Email:${data.name}\n
+        Email:${data.email}\n
         Phone:${data.phone}\n
         Party Date:${data.partyDate}\n
         Number of Guests:${data.numOfGuests}\n
@@ -68,7 +68,7 @@ export default async function handler(req, res) {
         subject = `Workshop Inquiry - ${data.name}`
         emailContent = `You have a new workshop inquiry from kidzkornermilton.com\n
         Name:${data.name}\n
-        Email:${data.name}\n
+        Email:${data.email}\n
         Phone:${data.phone}\n
         Workshop:${data.workshop}\n
         Social Media Consent:${data.socialMedia}\n

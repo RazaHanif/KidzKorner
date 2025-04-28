@@ -5,6 +5,7 @@
 .env
 /.pnp
 .pnp.js
+.ohgitrc.json
 
 # testing
 /coverage
