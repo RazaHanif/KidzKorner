@@ -67,6 +67,7 @@ const Form = () => {
               value={formData.name}
               onChange={handleChange}
               required
+              disabled
             />
           </div>
 
@@ -81,6 +82,7 @@ const Form = () => {
               value={formData.email}
               onChange={handleChange}
               required
+              disabled
             />
           </div>
 
@@ -95,6 +97,7 @@ const Form = () => {
               value={formData.phone}
               onChange={handleChange}
               required
+              disabled
             />
           </div>
 
@@ -108,6 +111,7 @@ const Form = () => {
               value={formData.dob}
               onChange={handleChange}
               required
+              disabled
             />
           </div>
 
@@ -121,6 +125,7 @@ const Form = () => {
               value={formData.enrollmentDate}
               onChange={handleChange}
               required
+              disabled
             />
           </div>
 
@@ -135,7 +140,7 @@ const Form = () => {
                 value="Full Day - 9am to 3pm"
                 onChange={handleChange}
                 checked={formData.programType === 'Full Day - 9am to 3pm'}
-                required
+                disabled
               />
               <label className="form-check-label" htmlFor="option1">
                 Full Day - 9am to 3pm
@@ -150,6 +155,7 @@ const Form = () => {
                 value="Half Day - 9am to 11:30am"
                 onChange={handleChange}
                 checked={formData.programType === 'Half Day - 9am to 11:30am'}
+                disabled
               />
               <label className="form-check-label" htmlFor="option2">
                 Half Day - 9am to 11:30am
@@ -164,6 +170,7 @@ const Form = () => {
                 value="Half Day - 12:30pm to 3pm"
                 onChange={handleChange}
                 checked={formData.programType === 'Half Day - 12:30pm to 3pm'}
+                disabled
               />
               <label className="form-check-label" htmlFor="option3">
                 Half Day - 12:30pm to 3pm
@@ -181,6 +188,7 @@ const Form = () => {
               value={formData.interviewTiming}
               onChange={handleChange}
               required
+              disabled
             />
           </div>
 
@@ -193,6 +201,7 @@ const Form = () => {
               value={formData.message}
               onChange={handleChange}
               required
+              disabled
             />
           </div>
 
