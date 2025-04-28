@@ -13,12 +13,16 @@ export default async function handler(req, res) {
     }
 
     const transporter = nodemailer.createTransport({
-        service: 'Yahoo',
+        service: 'yahoo',
+        host: 'smtp.mail.yahoo.com',
+        port: 465,
+        secure: true,
         auth: {
-            user: process.env.EMAIL_DUMMY,
-            pass: process.env.EMAIL_PASS,
+          user: process.env.EMAIL_DUMMY,
+          pass: process.env.EMAIL_APP_PASSWORD
         }
-    })
+    });
+      
 
     let emailContent = ''
     let subject = ''
