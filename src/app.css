@@ -20,3 +20,28 @@
     font-size: xx-small;
     font-weight: bold;
 }
+
+.main {
+    display: flex;
+    margin-bottom: 3em;
+}
+
+.contact-left, .contact-right {
+    flex: 1;
+    padding: 1em;
+}
+
+.contact-left a {
+    color: #823329;
+    text-decoration: none;
+}
+
+.contact-left a:hover {
+    text-decoration: underline;
+}
+
+.gmaps {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
