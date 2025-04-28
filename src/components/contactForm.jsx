@@ -72,7 +72,7 @@ const ContactForm = () => {
             <input
               type="email"
               className="form-control"
-              placeholder="chilli@brisbaneairport.au"
+              placeholder="chilli@heelerfamily.au"
               id="email"
               name="email"
               value={formData.email}
@@ -98,7 +98,7 @@ const ContactForm = () => {
           </div>
 
           <div className="mb-3">
-            <label htmlFor="message" className="form-label">Tell us more...</label>
+            <label htmlFor="message" className="form-label">Ask us something...</label>
             <textarea
               className="form-control"
               id="message"
