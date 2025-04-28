@@ -47,8 +47,7 @@ const About = () => {
                     width="600"
                     height="450"
                     loading="lazy"
-                    allowfullscreen
-                    referrerpolicy={url}
+                    referrerPolicy={ url }
                 />
             </div>
         </>
