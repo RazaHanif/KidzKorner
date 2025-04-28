@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './form.css'
 
-const Form = () => {
+const ChildcareForm = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -13,8 +13,7 @@ const Form = () => {
     message: '',
   });
 
-  const [submitted, setSubmitted] = useState(false); // State for submission status
-
+  const [submitted, setSubmitted] = useState(false);
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -214,4 +213,4 @@ const Form = () => {
   );
 };
 
-export default Form;
+export default ChildcareForm;

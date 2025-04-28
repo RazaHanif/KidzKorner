@@ -1,3 +1,5 @@
+import PartyForm from "../components/partyForm";
+
 const Parties = () => {
     return (
         <>
@@ -23,7 +25,7 @@ const Parties = () => {
             <li>Additional Time: Extra party time available at $50 per hour.</li>
             <p className="vsmall">*Prices are subject to change without notice*</p>
 
-            <br/>
+            <PartyForm/>
         </>
     );
 }
