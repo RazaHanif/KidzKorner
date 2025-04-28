@@ -1,3 +1,5 @@
+import ChildcareForm from "../components/childcareForm";
+
 const Childcare = () => {
     return (
         <>
@@ -51,6 +53,8 @@ const Childcare = () => {
             <p>
                 📍 Ready to join us? Contact us today to learn more about our preschool program or schedule a visit!
             </p>
+            <br/>
+            <ChildcareForm/>
 
         </>
     );
