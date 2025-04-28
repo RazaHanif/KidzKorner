@@ -2,9 +2,7 @@ import ContactForm from "../components/contactForm";
 
 const About = () => {
 
-    const API_KEY = process.env.GOOGLE_MAPS_KEY
-    const address = "Kidz Korner Milton"
-    const url = `https://www.google.com/maps/embed/v1/place?key=${API_KEY}&q=${encodeURIComponent(address)}`
+    const url = `https://www.google.com/maps/embed/v1/place?key=$AIzaSyDPny6dN9B3rJv93XQIYh3lY4DDlGC7boU&q=${encodeURIComponent("Kidz Korner Milton")}`
 
     return (
         <>
@@ -50,9 +48,7 @@ const About = () => {
                     height="450"
                     loading="lazy"
                     allowfullscreen
-                    referrerpolicy="no-referrer-when-downgrade"
-                    src="https://www.google.com/maps/embed/v1/place?key=API_KEY
-                    &q=Space+Needle,Seattle+WA"
+                    referrerpolicy={url}
                 />
             </div>
         </>
