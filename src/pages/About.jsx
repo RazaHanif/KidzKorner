@@ -1,6 +1,11 @@
 import ContactForm from "../components/contactForm";
 
 const About = () => {
+
+    const API_KEY = process.env.GOOGLE_MAPS_KEY
+    const address = "Kidz Korner Milton"
+    const url = `https://www.google.com/maps/embed/v1/place?key=${API_KEY}&q=${encodeURIComponent(address)}`
+
     return (
         <>
             <div className="main">
@@ -39,7 +44,16 @@ const About = () => {
                 <ContactForm/>
             </div>
             <div className="gmaps">
-                
+                <iframe
+                    title="Google Maps"
+                    width="600"
+                    height="450"
+                    loading="lazy"
+                    allowfullscreen
+                    referrerpolicy="no-referrer-when-downgrade"
+                    src="https://www.google.com/maps/embed/v1/place?key=API_KEY
+                    &q=Space+Needle,Seattle+WA"
+                />
             </div>
         </>
     );
