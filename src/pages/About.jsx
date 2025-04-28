@@ -44,8 +44,6 @@ const About = () => {
             <div className="gmaps">
                 <iframe
                     title="Google Maps"
-                    width="600"
-                    height="450"
                     loading="lazy"
                     referrerPolicy={ url }
                 />
