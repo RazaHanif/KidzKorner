@@ -60,7 +60,7 @@ const WorkshopForm = () => {
             <input
               type="text"
               className="form-control"
-              placeholder="Spongebob Squarepants"
+              placeholder="Perry Platypus"
               id="name"
               name="name"
               value={formData.name}
@@ -75,7 +75,7 @@ const WorkshopForm = () => {
             <input
               type="email"
               className="form-control"
-              placeholder="squarepants@krustykrab.com"
+              placeholder="agentp@owca.com"
               id="email"
               name="email"
               value={formData.email}
