@@ -72,7 +72,7 @@ const ContactForm = () => {
             <input
               type="email"
               className="form-control"
-              placeholder="chilli.heeler@krustykrab.com"
+              placeholder="chilli@brisbaneairport.au"
               id="email"
               name="email"
               value={formData.email}
