@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
 import './form.css'
 
-const PartyForm = () => {
+const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     phone: '',
-    partyDate: '',
-    numOfGuests: '',
     message: '',
   });
 
@@ -100,35 +98,6 @@ const PartyForm = () => {
           </div>
 
           <div className="mb-3">
-            <label htmlFor="partyDate" className="form-label">Party Date</label>
-            <input
-              type="date"
-              className="form-control"
-              id="partyDate"
-              name="partyDate"
-              value={formData.partyDate}
-              onChange={handleChange}
-              required
-              disabled
-            />
-          </div>
-
-          <div className="mb-3">
-            <label htmlFor="numOfGuests" className="form-label">Availability for Tour</label>
-            <input
-              type="number"
-              className="form-control"
-              placeholder="25"
-              id="numOfGuests"
-              name="numOfGuests"
-              value={formData.numOfGuests}
-              onChange={handleChange}
-              required
-              disabled
-            />
-          </div>
-
-          <div className="mb-3">
             <label htmlFor="message" className="form-label">Tell us more...</label>
             <textarea
               className="form-control"
@@ -150,4 +119,4 @@ const PartyForm = () => {
   );
 };
 
-export default PartyForm;
+export default ContactForm;
