@@ -7,8 +7,9 @@ const WorkshopForm = () => {
     email: '',
     phone: '',
     workshop: '',
-    numOfGuests: '',
-    message: '',
+    socialMedia: '',
+    contactAgain: '',
+    allergies: '',
   });
 
   const [submitted, setSubmitted] = useState(false);
@@ -99,19 +100,73 @@ const WorkshopForm = () => {
             />
           </div>
 
-          <div className="mb-3">
-            <label htmlFor="partyDate" className="form-label">Party Date</label>
-            <input
-              type="date"
-              className="form-control"
-              id="partyDate"
-              name="partyDate"
-              value={formData.partyDate}
-              onChange={handleChange}
-              required
-              disabled
-            />
-          </div>
+        <fieldset className="mb-3">
+            <legend>Persmission to post on social media</legend>
+            <div className="form-check">
+                <input
+                    type="radio"
+                    className="form-check-input"
+                    id="option1"
+                    name="socialMedia"
+                    value="Yes"
+                    onChange={handleChange}
+                    checked={formData.socialMedia === 'Yes'}
+                    disabled
+                />
+              <label className="form-check-label" htmlFor="option1">
+                Yes
+              </label>
+            </div>
+            <div className="form-check">
+              <input
+                type="radio"
+                className="form-check-input"
+                id="option2"
+                name="socialMedia"
+                value="No"
+                onChange={handleChange}
+                checked={formData.socialMedia === 'No'}
+                disabled
+              />
+              <label className="form-check-label" htmlFor="option2">
+                No
+              </label>
+            </div>
+          </fieldset>
+
+        <fieldset className="mb-3">
+            <legend>Persmission to contact again</legend>
+            <div className="form-check">
+                <input
+                    type="radio"
+                    className="form-check-input"
+                    id="option1"
+                    name="contactAgain"
+                    value="Yes"
+                    onChange={handleChange}
+                    checked={formData.contactAgain === 'Yes'}
+                    disabled
+                />
+              <label className="form-check-label" htmlFor="option1">
+                Yes
+              </label>
+            </div>
+            <div className="form-check">
+              <input
+                type="radio"
+                className="form-check-input"
+                id="option2"
+                name="contactAgain"
+                value="No"
+                onChange={handleChange}
+                checked={formData.contactAgain === 'No'}
+                disabled
+              />
+              <label className="form-check-label" htmlFor="option2">
+                No
+              </label>
+            </div>
+          </fieldset>
 
           <div className="mb-3">
             <label htmlFor="partyDate" className="form-label">Workshop</label>
@@ -134,12 +189,13 @@ const WorkshopForm = () => {
           </div>
 
           <div className="mb-3">
-            <label htmlFor="message" className="form-label">Tell us more...</label>
+            <label htmlFor="message" className="form-label">Allergies</label>
             <textarea
               className="form-control"
-              id="message"
-              name="message"
-              value={formData.message}
+              placeholder="List all allergies, n/a if none."
+              id="allergies"
+              name="allergies"
+              value={formData.allergies}
               onChange={handleChange}
               required
               disabled
