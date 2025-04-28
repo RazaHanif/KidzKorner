@@ -6,11 +6,18 @@ export default async function handler(req, res) {
     }
     
     const data = req.body
-    console.log("API ROUTE HIT", data);
 
     if (!data.type) {
         console.error('Error: Missing type field')
         return res.status(400).json({ error: 'Type field is required' })
+    }
+
+    if (!isValidEmail(data.email)) {
+        return res.status(400).json({ error: 'Invalid email address' });
+    }
+      
+    if (!isValidPhone(data.phone)) {
+        return res.status(400).json({ error: 'Invalid phone number' });
     }
 
     const transporter = nodemailer.createTransport({
@@ -24,58 +31,69 @@ export default async function handler(req, res) {
     let emailContent = ''
     let subject = ''
 
-    // For now just output to terminal for now
     if (data.type === 'about') {
         subject = `General Inquiry - ${data.name}`
-        emailContent = `You have a new general inquiry from kidzkornermilton.com\n
-        Name:${data.name}\n
-        Email:${data.email}\n
-        Phone:${data.phone}\n
-        Message:${data.message}\n
-        \n
-        Send from nodemailer
+        emailContent = `
+            <html>
+                <body style='font-family: Arial, sans-serif; color: #333;>
+                    <h1>General Inquiry</h1>
+                    <p><strong>Name:</strong> ${data.name}</p>
+                    <p><strong>Email:</strong> ${data.email}</p>
+                    <p><strong>Phone:</strong> ${data.phone}</p>
+                    <p><strong>Message:</strong> ${data.message}</p>
+                </body>
+            </html>
         `
     }
     else if (data.type === 'childcare') {
         subject = `Childcare Inquiry - ${data.name}`
-        emailContent = `You have a new childcare inquiry from kidzkornermilton.com\n
-        Name:${data.name}\n
-        Email:${data.email}\n
-        Phone:${data.phone}\n
-        Date of Birth:${data.dob}\n
-        Enrollment Date:${data.startDate}\n
-        Program Type:${data.programType}\n
-        Availability for Tour:${data.interviewTiming}\n
-        Message:${data.message}\n
-        \n
-        Send from nodemailer
+        emailContent = `
+            <html>
+                <body style='font-family: Arial, sans-serif; color: #333;>
+                    <h1>Childcare Inquiry</h1>
+                    <p><strong>Name:</strong> ${data.name}</p>
+                    <p><strong>Email:</strong> ${data.email}</p>
+                    <p><strong>Phone:</strong> ${data.phone}</p>
+                    <p><strong>Date of Birth:</strong> ${data.dob}</p>
+                    <p><strong>Enrollment Date:</strong> ${data.startDate}</p>
+                    <p><strong>Program Type:</strong> ${data.programType}</p>
+                    <p><strong>Availability for Tour:</strong> ${data.interviewTiming}</p>
+                    <p><strong>Message:</strong> ${data.message}</p>
+                </body>
+            </html>
         `
     } 
     else if (data.type === 'parties') {
         subject = `Party Inquiry - ${data.name}`
-        emailContent = `You have a new party inquiry from kidzkornermilton.com\n
-        Name:${data.name}\n
-        Email:${data.email}\n
-        Phone:${data.phone}\n
-        Party Date:${data.partyDate}\n
-        Number of Guests:${data.numOfGuests}\n
-        Message:${data.message}\n
-        \n
-        Send from nodemailer
+        emailContent = `
+            <html>
+                <body style='font-family: Arial, sans-serif; color: #333;>
+                    <h1>Party Inquiry</h1>
+                    <p><strong>Name:</strong> ${data.name}</p>
+                    <p><strong>Email:</strong> ${data.email}</p>
+                    <p><strong>Phone:</strong> ${data.phone}</p>
+                    <p><strong>Party Date:</strong> ${data.partyDate}</p>
+                    <p><strong>Number of Guests:</strong> ${data.numOfGuests}</p>
+                    <p><strong>Message:</strong> ${data.message}</p>
+                </body>
+            </html>
         `
     }
     else if (data.type === 'workshop') {
         subject = `Workshop Inquiry - ${data.name}`
-        emailContent = `You have a new workshop inquiry from kidzkornermilton.com\n
-        Name:${data.name}\n
-        Email:${data.email}\n
-        Phone:${data.phone}\n
-        Workshop:${data.workshop}\n
-        Social Media Consent:${data.socialMedia}\n
-        Contact Consent:${data.contactAgain}\n
-        Allergies:${data.allergies}\n
-        \n
-        Send from nodemailer
+        emailContent = `
+            <html>
+                <body style='font-family: Arial, sans-serif; color: #333;>
+                    <h1>General Inquiry</h1>
+                    <p><strong>Name:</strong> ${data.name}</p>
+                    <p><strong>Email:</strong> ${data.email}</p>
+                    <p><strong>Phone:</strong> ${data.phone}</p>
+                    <p><strong>Workshop:</strong> ${data.workshop}</p>
+                    <p><strong>Social Media Consent:</strong> ${data.socialMedia}</p>
+                    <p><strong>Contact Again Consent:</strong> ${data.contactAgain}</p>
+                    <p><strong>Allergies:</strong> ${data.allergies}</p>
+                </body>
+            </html>
         `
     }
     else {
@@ -84,11 +102,22 @@ export default async function handler(req, res) {
     }
 
     await transporter.sendMail({
-        from: process.env.EMAIL_DUMMY,
+        from: `"${data.name} <process.env.EMAIL_DUMMY>`,
         to: process.env.EMAIL_INFO,
         subject: subject,
-        text: emailContent
+        text: emailContent,
+        replyTo: data.email
     })
 
     res.status(200).json({ success: true })
+}
+
+function isValidEmail(email) {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+}
+
+function isValidPhone(phone) {
+    const phoneRegex = /^\+?[0-9\s\-()]{7,20}$/;
+    return phoneRegex.test(phone);
 }
