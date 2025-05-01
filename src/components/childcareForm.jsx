@@ -158,13 +158,13 @@ const ChildcareForm = () => {
                 className="form-check-input"
                 id="option2"
                 name="ageGroup"
-                value="Toodler"
+                value="Toddler"
                 onChange={handleChange}
-                checked={formData.ageGroup === 'Toodler'}
+                checked={formData.ageGroup === 'Toddler'}
 
               />
               <label className="form-check-label" htmlFor="option2">
-                Toodler
+                Toddler
               </label>
             </div>
           </fieldset>

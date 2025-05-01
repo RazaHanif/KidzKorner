@@ -7,5 +7,5 @@
 }
 
 .nav-link.active {
-  color: var(--text-secondary) !important;
+  color: var(--text-contrast) !important;
 }

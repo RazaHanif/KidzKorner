@@ -5,7 +5,6 @@ const Home = () => {
                 <img 
                 src='/logo.png'
                 alt='Home'
-                className='logo'
                 />
             </div>
 

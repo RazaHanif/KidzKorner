@@ -3,11 +3,11 @@ import ChildcareForm from "../components/childcareForm";
 const Childcare = () => {
     return (
         <>
-            <h4>Child Care - Toodler & Preschool Programs</h4>
+            <h4>Child Care - Toddler & Preschool Programs</h4>
             
             <br/>
             <p>
-                Our toodler and preschool programs provides a nurturing, engaging, and stimulating enviroment designed to support your child's growth and development
+                Our toddler and preschool programs provides a nurturing, engaging, and stimulating enviroment designed to support your child's growth and development
             </p>
             <p>
                 Our curriculum is guided by the Ministry of Education's "How Does Learning Happen?" (HDLH) framework, focusing on the well-being, engagment expression and belonging of each individual child.
@@ -25,7 +25,7 @@ const Childcare = () => {
             <h5>What We Offer</h5>
             <h6>Engaging Learning Experiences</h6>
             <p>
-                Our programs is designed to foster curiosity, exploration, and imagination. Educators create meaningful invitations based on children's interests, promoting problem-solving, self-regulation, and social-emotional development.
+                Our programs are designed to foster curiosity, exploration, and imagination. Educators create meaningful invitations based on children's interests, promoting problem-solving, self-regulation, and social-emotional development.
             </p>
             <h6>Interactive & Play-Based Learning</h6>
             <p>
@@ -33,7 +33,7 @@ const Childcare = () => {
             </p>
             <h6>Parent Communication & Learning Documentation</h6>
             <p>
-                We believe in strong parent-educator partnerships. Children’s learning is documented and shared within the center and through a secure mobile app. Parents will receive daily updates about their child’s day. 
+                We believe in strong parent-educator partnerships. Children's learning is documented and shared within the center and through a secure mobile app. Parents will receive daily updates about their child's day. 
             </p>
             <h6>Nutritious Meals & Snacks</h6>
             <p>
