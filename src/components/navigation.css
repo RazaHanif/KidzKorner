@@ -3,7 +3,6 @@
 }
 
 .nav-link:hover {
-  color: var(--text-contrast) !important;
   text-decoration: underline;
 }
 

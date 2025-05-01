@@ -1,8 +1,10 @@
 :root {
     --primary: #44BBA4;
+    --primary: #219ebc;
     --contrast: #E94F37;
+    --contrast: #ffb703;
     --text-primary: #011627;
-    --text-secondary: #FBD1A2;
+    --text-secondary: #219ebc;
     --text-contrast: #433E0E;
     background-color: var(--primary);
     color: var(--text-contrast)
@@ -24,6 +26,17 @@
     margin-bottom: 1em;
     padding: 0.5em;
     flex-grow: 1;
+}
+
+.homeLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeLogo img {
+    width: 25em;
+    height: auto;
 }
 
 .vsmall {

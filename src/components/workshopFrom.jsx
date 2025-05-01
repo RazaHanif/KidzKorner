@@ -181,11 +181,12 @@ const WorkshopForm = () => {
                 onChange={handleChange}
                 required
             >
-                <option value="potteryMothersDay">Pottery - Mothers Day Session</option>
-                <option value="potteryFathersDay">Pottery - Fathers Day Session</option>
-                <option value="potteryFiveSession">Pottery  - 5 Sessions</option>
-                <option value="CookingClassSingle">Cooking Class - 1 Session</option>
-                <option value="CookingClassFour">Cooking Class - 4 Sessions</option>
+                <option value="" selected disabled hidden>Choose a workshop</option>
+                <option value="Pottery - Mothers Day">Pottery - Mothers Day Session</option>
+                <option value="Pottery - Fathers Day">Pottery - Fathers Day Session</option>
+                <option value="Pottery - 5 Sessions">Pottery  - 5 Sessions</option>
+                <option value="Cooking Class - Single Session">Cooking Class - 1 Session</option>
+                <option value="Little Sahaba's - 4 Week">Little Sahaba's - 4 Sessions</option>
             </select>
           </div>
 

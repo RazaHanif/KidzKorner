@@ -119,7 +119,7 @@ const PartyForm = () => {
           </div>
 
           <div className="mb-3">
-            <label htmlFor="numOfGuests" className="form-label">Availability for Tour</label>
+            <label htmlFor="numOfGuests" className="form-label">Number of Guests</label>
             <input
               type="number"
               className="form-control"

@@ -33,7 +33,7 @@ const Playground = () => {
                     </h2>
                     <div id="flush-collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div className="accordion-body">
-                            <h4>$13 | 1 Child & 1 Adult</h4>
+                            <h4>$10 | 1 Child & 1 Adult</h4>
                         </div>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ const Playground = () => {
                     </h2>
                     <div id="flush-collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div className="accordion-body">
-                            <h4>$22 | 2 Children & 1 Adult</h4>
+                            <h4>$18 | 2 Children & 1 Adult</h4>
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@ const Playground = () => {
                     </h2>
                     <div id="flush-collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div className="accordion-body">
-                            <h4>$35 | 3-4 Children & 1 Adult</h4>
+                            <h4>$30 | 3-4 Children & 1 Adult</h4>
                         </div>
                     </div>
                 </div>
@@ -72,7 +72,7 @@ const Playground = () => {
                     </h2>
                     <div id="flush-collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div className="accordion-body">
-                            <h4>$25 | 2 Children & 2 Adults</h4>
+                            <h4>$20 | 2 Children & 2 Adults</h4>
                         </div>
                     </div>
                 </div>
@@ -85,7 +85,7 @@ const Playground = () => {
                     </h2>
                     <div id="flush-collapseFive" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div className="accordion-body">
-                            <h4>$45 | 3-5 Children & 3 Adults</h4>
+                            <h4>$40 | 3-5 Children & 3 Adults</h4>
                         </div>
                     </div>
                 </div>

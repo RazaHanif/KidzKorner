@@ -30,7 +30,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="col-md-4 mb-3">
-            <h5>Preschool Hours</h5>
+            <h5>Child Care Hours</h5>
             <p>Monday to Friday - 9:00am to 3:00pm</p>
           </div>
           <div className="col-md-4 mb-3">

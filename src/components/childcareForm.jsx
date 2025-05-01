@@ -8,6 +8,7 @@ const ChildcareForm = () => {
     phone: '',
     dob: '',
     startDate: '',
+    ageGroup: '',
     programType: '',
     interviewTiming: '',
     message: '',
@@ -134,6 +135,39 @@ const ChildcareForm = () => {
             />
           </div>
 
+          <fieldset className="mb-3">
+            <legend>Age Group</legend>
+            <div className="form-check">
+              <input
+                type="radio"
+                className="form-check-input"
+                id="option1"
+                name="ageGroup"
+                value="Preschool"
+                onChange={handleChange}
+                checked={formData.ageGroup === 'Preschool'}
+
+              />
+              <label className="form-check-label" htmlFor="option1">
+                Preschool
+              </label>
+            </div>
+            <div className="form-check">
+              <input
+                type="radio"
+                className="form-check-input"
+                id="option2"
+                name="ageGroup"
+                value="Toodler"
+                onChange={handleChange}
+                checked={formData.ageGroup === 'Toodler'}
+
+              />
+              <label className="form-check-label" htmlFor="option2">
+                Toodler
+              </label>
+            </div>
+          </fieldset>
           <fieldset className="mb-3">
             <legend>Program Type</legend>
             <div className="form-check">

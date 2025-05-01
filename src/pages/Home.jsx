@@ -1,6 +1,14 @@
 const Home = () => {
     return (
         <>
+            <div className="homeLogo">
+                <img 
+                src='/logo.png'
+                alt='Home'
+                className='logo'
+                />
+            </div>
+
             <h4>Alittle about us.</h4>
             <p>
                 Kidz Korner is a family-owned business located in the heart of Milton, Ontario. Our commitment to providing loving, nurturing care has earned us the trust of many families and community resources, creating a multi-generational legacy..

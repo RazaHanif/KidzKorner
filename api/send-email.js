@@ -49,6 +49,7 @@ export default async function handler(req, res) {
             Phone: ${data.phone}\n
             Date of Birth: ${data.dob}\n
             Enrollment Date: ${data.startDate}\n
+            Age Group: ${data.ageGroup}\n
             Program Type: ${data.programType}\n
             Availability for Tour: ${data.interviewTiming}\n
             Message: ${data.message}
