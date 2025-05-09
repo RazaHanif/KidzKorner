@@ -12,7 +12,6 @@ export default async function handler(req, res) {
         return res.status(400).json({ error: 'Type field is required' })
     }
 
-    // Fix this to run on Kidzkorner domain
     const transporter = nodemailer.createTransport({
         host: 'smtp.gmail.com',
         port: 465,
@@ -21,8 +20,6 @@ export default async function handler(req, res) {
           user: process.env.EMAIL_INFO,
           pass: process.env.EMAIL_PASS
         },
-        // logger: true,
-        // debug: true
     });
       
 
