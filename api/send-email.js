@@ -90,7 +90,8 @@ export default async function handler(req, res) {
             from: `"Kidz Korner Website" <${process.env.EMAIL_INFO}>`,
             to: process.env.EMAIL_INFO,
             subject: subject,
-            text: emailContent
+            text: emailContent,
+            replyTo: data.email
         })
         res.status(200).json({ success: true })
     } catch (err) {
@@ -102,7 +103,4 @@ export default async function handler(req, res) {
             error: 'Failed to send email', 
         })
     }
-
-
-
 }
