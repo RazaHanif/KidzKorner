@@ -12,17 +12,17 @@ export default async function handler(req, res) {
         return res.status(400).json({ error: 'Type field is required' })
     }
 
+    // Fix this to run on Kidzkorner domain
     const transporter = nodemailer.createTransport({
-        service: 'Yahoo',
-        host: 'smtp.mail.yahoo.com',
+        host: 'smtp.gmail.com',
         port: 465,
         secure: true,
         auth: {
-          user: process.env.EMAIL_DUMMY,
+          user: process.env.EMAIL_INFO,
           pass: process.env.EMAIL_PASS
         },
-        logger: true,
-        debug: true
+        // logger: true,
+        // debug: true
     });
       
 
@@ -85,12 +85,24 @@ export default async function handler(req, res) {
         emailContent = "How did you get to this route?"
     }
 
-    await transporter.sendMail({
-        from: process.env.EMAIL_DUMMY,
-        to: process.env.EMAIL_INFO,
-        subject: subject,
-        text: emailContent
-    })
+    try {
+        await transporter.sendMail({
+            from: `"Kidz Korner Website" <${process.env.EMAIL_INFO}>`,
+            to: process.env.EMAIL_INFO,
+            subject: subject,
+            text: emailContent
+        })
+        res.status(200).json({ success: true })
+    } catch (err) {
+        console.log('Failed to send email')
+        console.log(err)
 
-    res.status(200).json({ success: true })
+        res.status(500).json({ 
+            success: false, 
+            error: 'Failed to send email', 
+        })
+    }
+
+
+
 }
