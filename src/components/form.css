@@ -14,7 +14,6 @@ form {
 }
 
 .btn {
-    width: 10%;
     align-self: start;
     border: 3px solid var(--form-secondary);
     color: var(--form-text-primary);
