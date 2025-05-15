@@ -26,7 +26,11 @@ const Workshops = () => {
                     </h2>
                     <div id="flush-collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div className="accordion-body">
-                            <p>$35 | For more details check our instagram!</p>
+                            <p>
+                                $35 | <a href="https://www.instagram.com/kidz.kornermilton/">
+                                    For more deails check our Instagram!
+                                </a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -40,6 +44,23 @@ const Workshops = () => {
                     <div id="flush-collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div className="accordion-body">
                             <p>$140 | 4 Sessions Every Sunday - 10 am to 2 pm</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div className="accordion-item">
+                    <h2 className="accordion-header">
+                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                            Grounded Growth Circle
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div className="accordion-body">
+                            <p>
+                                <a href="https://www.instagram.com/kidz.kornermilton/">
+                                    For more deails check our Instagram!
+                                </a>
+                            </p>
                         </div>
                     </div>
                 </div>

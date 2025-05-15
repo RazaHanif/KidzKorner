@@ -4,6 +4,11 @@
     --text-primary: #011627;
     --text-secondary: #433E0E;
     --text-contrast: #44BBA4;
+    --form-primary: #79CFBE;
+    --form-secondary: #44BBA4;
+    --form-contrast: #FFB703;
+    --form-text-primary: #fff;
+    --form-text-contrast: #000;
     background-color: var(--primary);
     color: var(--text-contrast)
 }
@@ -109,4 +114,13 @@
 .accordion-body {
     background-color: var(--contrast);
     color: var(--text-secondary);
+}
+
+.accordion-body a {
+    color: var(--text-secondary);
+    text-decoration: none;
+}
+
+.accordion-body a:hover {
+    text-decoration: underline;
 }

@@ -78,8 +78,10 @@ export default async function handler(req, res) {
         `
     }
     else {
-        subject = "IDK"
-        emailContent = "How did you get to this route?"
+        res.status(500).json({ 
+            success: false, 
+            error: '...Huh!', 
+        })
     }
 
     try {
