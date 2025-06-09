@@ -39,14 +39,6 @@ const SummerCamp = () => {
                 Multi week and sibling discounts available<br></br>
                 All materials and ingredients included
             </p>
-
-    name: '',
-    email: '',
-    phone: '',
-    dob: '',
-    startDate: '',
-    message: '',
-    type: 'summercamp'
             <SummercampForm/>
         </>
     );
