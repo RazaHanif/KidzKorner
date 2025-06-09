@@ -6,7 +6,7 @@ const Parties = () => {
             <h4>Host Your Child's Party at Kidz Korner</h4>
 
             <h6>
-                Make your child’s special day unforgettable with a Kidz Korner Party! Enjoy exclusive access to our indoor playground—just for you and your invited family and friends.
+                Make your child's special day unforgettable with a Kidz Korner Party! Enjoy exclusive access to our indoor playground—just for you and your invited family and friends.
             </h6>
 
             <h5>Party Package:</h5>
@@ -21,8 +21,9 @@ const Parties = () => {
 
             <h5>Pricing & Booking Details:</h5>
             <li>Price: $395 + tax</li>
-            <li>Deposit: A $200 non-refundable deposit is required at the time of booking</li>
+            <li>Full payment required at time of booking.</li>
             <li>Additional Time: Extra party time available at $50 per hour.</li>
+            <li>Prior approval of all 3rd party vendors is required.</li>
             <p className="vsmall">*Prices are subject to change without notice*</p>
 
             <PartyForm/>

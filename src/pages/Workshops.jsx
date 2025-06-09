@@ -7,12 +7,12 @@ const Workshops = () => {
                 <div className="accordion-item">
                     <h2 className="accordion-header">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                           Pottery
+                           Paint Night
                         </button>
                     </h2>
                     <div id="flush-collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div className="accordion-body">
-                            <p>Paint Night - 5 pm to 7 pm</p>
+                            <p>5 pm to 7 pm</p>
                         </div>
                     </div>
                 </div>

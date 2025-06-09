@@ -3,11 +3,11 @@ import ChildcareForm from "../components/childcareForm";
 const Childcare = () => {
     return (
         <>
-            <h4>Child Care - Toddler & Preschool Programs</h4>
+            <h4>Child Care - Toddler, Preschool, & After School Programs</h4>
             
             <br/>
             <p>
-                Our toddler and preschool programs provides a nurturing, engaging, and stimulating enviroment designed to support your child's growth and development
+                Kidz Korner is a licensed child care centre. Our toddler, preschool, & after school programs provides a nurturing, engaging, and stimulating enviroment designed to support your child's growth and development
             </p>
             <p>
                 Our curriculum is guided by the Ministry of Education's "How Does Learning Happen?" (HDLH) framework, focusing on the well-being, engagment expression and belonging of each individual child.
@@ -19,6 +19,7 @@ const Childcare = () => {
             <li>Full Day 9:00 am - 3:00 pm</li>
             <li>Half Day - Morning 9:00 am - 11:30 am</li>
             <li>Half Day - Afternoon  12:30 pm - 3:00 pm</li>
+            <li>After School  3:00 pm - 7:00 pm</li>
             
             <br/>
 
