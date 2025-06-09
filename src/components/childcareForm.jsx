@@ -185,6 +185,7 @@ const ChildcareForm = () => {
                 Full Day - 9am to 3pm
               </label>
             </div>
+
             <div className="form-check">
               <input
                 type="radio"
@@ -200,6 +201,7 @@ const ChildcareForm = () => {
                 Half Day - 9am to 11:30am
               </label>
             </div>
+
             <div className="form-check">
               <input
                 type="radio"
@@ -213,6 +215,22 @@ const ChildcareForm = () => {
               />
               <label className="form-check-label" htmlFor="option3">
                 Half Day - 12:30pm to 3pm
+              </label>
+            </div>
+            
+            <div className="form-check">
+              <input
+                type="radio"
+                className="form-check-input"
+                id="option3"
+                name="programType"
+                value="After School - 3pm to 7pm"
+                onChange={handleChange}
+                checked={formData.programType === 'After School - 3pm to 7pm'}
+
+              />
+              <label className="form-check-label" htmlFor="option3">
+                After School - 3pm to 7pm
               </label>
             </div>
           </fieldset>
