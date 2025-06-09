@@ -77,6 +77,18 @@ export default async function handler(req, res) {
             Allergies: ${data.allergies}
         `
     }
+    else if (data.type === 'summercamp') {
+        subject = `Summer Camp Inquiry - ${data.name}`
+        emailContent = `
+            Summer Camp Inquiry\n
+            Name: ${data.name}\n
+            Email: ${data.email}\n
+            Phone: ${data.phone}\n
+            Date of Birth: ${data.dob}\n
+            Enrollment Date: ${data.startDate}\n
+            Message: ${data.message}
+        `
+    }
     else {
         res.status(500).json({ 
             success: false, 
