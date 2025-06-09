@@ -53,6 +53,11 @@ function Navigation() {
         </NavLink>
       </li>
       <li className="nav-item">
+        <NavLink to="/summer-camp" end className="nav-link" onClick={closeNavbar}>
+          Summer Camp
+        </NavLink>
+      </li>
+      <li className="nav-item">
         <NavLink to="/about" end className="nav-link" onClick={closeNavbar}>
           About Us
         </NavLink>

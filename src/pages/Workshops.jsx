@@ -3,7 +3,7 @@ import WorkshopForm from "../components/workshopFrom"
 const Workshops = () => {
     return (
         <>
-                        <div className="accordion accordion-flush" id="accordionFlushExample">
+            <div className="accordion accordion-flush" id="accordionFlushExample">
                 <div className="accordion-item">
                     <h2 className="accordion-header">
                         <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -12,8 +12,7 @@ const Workshops = () => {
                     </h2>
                     <div id="flush-collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div className="accordion-body">
-                            <p>$45 | Mothers Day Class - 5 pm to 7 pm</p>
-                            <p>$45 | Fathers Day Class - 5 pm to 7 pm</p>
+                            <p>Paint Night - 5 pm to 7 pm</p>
                         </div>
                     </div>
                 </div>
@@ -27,7 +26,7 @@ const Workshops = () => {
                     <div id="flush-collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div className="accordion-body">
                             <p>
-                                $35 | <a href="https://www.instagram.com/kidz.kornermilton/">
+                                <a href="https://www.instagram.com/kidz.kornermilton/">
                                     For more deails check our Instagram!
                                 </a>
                             </p>
@@ -43,7 +42,7 @@ const Workshops = () => {
                     </h2>
                     <div id="flush-collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                         <div className="accordion-body">
-                            <p>$140 | 4 Sessions Every Sunday - 10 am to 2 pm</p>
+                            <p>4 Sessions Every Saturday - 10 am to 2 pm</p>
                         </div>
                     </div>
                 </div>
@@ -60,6 +59,21 @@ const Workshops = () => {
                                 <a href="https://www.instagram.com/kidz.kornermilton/">
                                     For more deails check our Instagram!
                                 </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div className="accordion-item">
+                    <h2 className="accordion-header">
+                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                            Coding Class
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div className="accordion-body">
+                            <p>
+                                Intro to Python - 8 Week Summer Crash Course
                             </p>
                         </div>
                     </div>

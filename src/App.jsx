@@ -7,6 +7,7 @@ import Home from './pages/Home.jsx'
 import Parties from './pages/Parties.jsx'
 import Playground from './pages/Playground.jsx'
 import Workshops from './pages/Workshops.jsx'
+import SummerCamp from './pages/SummerCamp.jsx'
 import './app.css'
 
 function App(){
@@ -21,6 +22,7 @@ function App(){
             <Route path='/parties' element={<Parties />} />
             <Route path='/playground' element={<Playground />} />
             <Route path='/workshop' element={<Workshops />} />
+            <Route path='/summer-camp' element={<SummerCamp />} />
             <Route path='/about' element={<About />} />
           </Routes>
         </main>
