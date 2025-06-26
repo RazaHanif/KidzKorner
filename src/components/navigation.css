@@ -3,9 +3,9 @@
 }
 
 .nav-link:hover {
-  text-decoration: underline;
+  color: var(--form-text-primary) !important
 }
 
 .nav-link.active {
-  color: var(--text-contrast) !important;
+  text-decoration: underline;
 }

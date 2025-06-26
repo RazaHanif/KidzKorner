@@ -1,12 +1,13 @@
 :root {
-    --primary: #44BBA4;
-    --contrast: #FFB703;
+    --primary: #EEF7FB;
+    --secondary: #72188B;
+    --contrast: #72188B;
     --text-primary: #011627;
-    --text-secondary: #433E0E;
-    --text-contrast: #44BBA4;
-    --form-primary: #79CFBE;
-    --form-secondary: #44BBA4;
-    --form-contrast: #FFB703;
+    --text-secondary: #72188B;
+    --text-contrast: #EECBF6;
+    --form-primary: #EECBF6;
+    --form-secondary: #EEF7FB;
+    --form-contrast: #72188B;
     --form-text-primary: #fff;
     --form-text-contrast: #000;
     background-color: var(--primary);
@@ -87,32 +88,32 @@
 }
 
 .accordion-item {
-    background-color: var(--contrast);
+    background-color: var(--form-primary);
 }
 
 .accordion-button {
-    background-color: var(--contrast);
+    background-color: var(--form-primary);
     color: var(--text-secondary);
 }
 
 .accordion-button:focus {
-    background-color: var(--contrast);
+    background-color: var(--form-primary);
     color: var(--text-secondary);
 }
 
 .accordion-button.collapsed {
-    background-color: var(--contrast);
+    background-color: var(--form-primary);
     color: var(--text-secondary);
 }
 
 .accordion-button:not(.collapsed) {
-    background-color: var(--contrast);
+    background-color: var(--form-primary);
     color: var(--text-secondary);
     box-shadow: none;
 }
 
 .accordion-body {
-    background-color: var(--contrast);
+    background-color: var(--form-primary);
     color: var(--text-secondary);
 }
 

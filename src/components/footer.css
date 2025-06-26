@@ -2,7 +2,7 @@
     padding: 1em 0;
     width: 100%;
     background-color: var(--contrast);
-    color: var(--text-primary);
+    color: var(--text-contrast);
     font-size: small;
 }
 
@@ -20,13 +20,13 @@
 }
 
 .contact-us a {
-    color: var(--text-primary);
+    color: var(--text-contrast);
     text-decoration: none;
     transition: 0.2s ease;
 }
 
 .contact-us a:hover {
-    color: var(--text-contrast);
+    /* color: var(--text-primary); */
     text-decoration: underline;
 }
 

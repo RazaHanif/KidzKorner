@@ -1,6 +1,6 @@
 .header {
     margin: 0.5em;
-    background-color: var(--contrast);
+    background-color: var(--secondary);
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -16,7 +16,7 @@
 }
 
 .navbar-brand {
-    color: var(--text-primary) !important;
+    color: var(--text-contrast) !important;
     margin-right: auto;
 }
 
@@ -28,7 +28,7 @@
 
 .nav-link {
     font-size: 1.25em;
-    color: var(--text-primary) !important;
+    color: var(--text-contrast) !important;
 }
 
 .navbar-collapse {
