@@ -7,7 +7,7 @@ const Childcare = () => {
                 <div className="text-3xl font-bold">
                     Child Care 
                 </div>
-                <div className="text-xl font-bold">
+                <div className="text-xl font-bold self-center">
                     Toddler, Preschool, & After School Programs
                 </div>    
             </div>
@@ -22,7 +22,7 @@ const Childcare = () => {
             </div>
 
             <div className="flex flex-col justify-center items-start w-3/4">
-                <div className="text-xl font-bold">
+                <div className="text-xl font-bold self-center">
                     Program Options - Full & Half Days
                 </div>
                 <div className="flex flex-col justify-center items-start w-3/4">
@@ -41,8 +41,8 @@ const Childcare = () => {
                 </div>
             </div>
             
-            <div className="flex flex-col justify-center items-center gap-2 w-full">
-                <div className="text-xl font-bold">
+            <div className="flex flex-col justify-center items-start w-3/4">
+                <div className="text-xl font-bold self-center">
                     What We Offer
                 </div>
                 <div className="flex flex-col justify-center items-start w-3/4 gap-1">
