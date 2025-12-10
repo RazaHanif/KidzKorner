@@ -2,7 +2,7 @@ import CampForm from "../components/CampForm";
 
 const Camp = () => {
     return (
-        <div className="flex flex-col justify-center w-full">
+        <div className="flex flex-col justify-center items-center w-full">
             <div className="flex flex-col justify-center items-center w-full">
                 <div className="text-3xl font-bold mb-4">
                     School Age Camp!
@@ -12,11 +12,10 @@ const Camp = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4">
-
-                <h5 className="self-center">
+            <div className="flex flex-col justify-center items-start w-3/4">
+                <div className="self-center text-xl font-bold">
                     Camp Dates
-                </h5>
+                </div>
                 <p>
                     Winter Break, March Break, PA Days, Summer Vacation
                 </p>
@@ -25,10 +24,10 @@ const Camp = () => {
                 </p>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4">
-                <h5 className="self-center">
+            <div className="flex flex-col justify-center items-start w-3/4">
+                <div className="self-center text-xl font-bold">
                     Arts Classes
-                </h5>
+                </div>
                 <p>
                     Campers explore a wide range of mediums and techniques
                 </p>
@@ -40,10 +39,10 @@ const Camp = () => {
                 </p>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4">
-                <h5 className="self-center">
+            <div className="flex flex-col justify-center items-start w-3/4">
+                <div className="self-center text-xl font-bold">
                     Cooking Classes
-                </h5>
+                </div>
                 <p>
                     Each week features fun, age-appropriate kitchen adventures
                 </p>
@@ -54,20 +53,20 @@ const Camp = () => {
                 </p>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4">
-                <h5 className="self-center">
+            <div className="flex flex-col justify-center items-start w-3/4">
+                <div className="self-center text-xl font-bold">
                     Ages
-                </h5>
+                </div>
                 <p>
                     Open to children ages 4+, grouped by age for activities
                 </p>
 
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4">
-                <h5 className="self-center">
+            <div className="flex flex-col justify-center items-start w-3/4">
+                <div className="self-center text-xl font-bold">
                     Cost: $35/Day
-                </h5>
+                </div>
                 <p>
                     Limited Spots Available<br/>
                     Small Class Size for more 1 on 1 support<br/>
@@ -76,7 +75,7 @@ const Camp = () => {
                 </p>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4">
+            <div className="flex flex-col justify-center items-start w-3/4">
                 <CampForm/>
             </div>
         </div>
