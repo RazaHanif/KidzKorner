@@ -1,5 +1,18 @@
-import React, { useState } from 'react';
-import './form.css'
+import { ChevronDownIcon } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import { Calendar } from "@/components/ui/calendar"
+import { Input } from "@/components/ui/input"
+import { Label } from "@/components/ui/label"
+import {
+  RadioGroup,
+  RadioGroupItem,
+} from "@/components/ui/radio-group"
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover"
+import { useState } from 'react';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -53,75 +66,94 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="container mt-5">
-      <h2 className="mb-4">Contact Us</h2>
+    <div className="flex flex-col justify-center items-center w-full p-2">
 
       {/* Show thank you message when form is submitted */}
-      {submitted ? (
-        <div className="alert alert-success">
+      { submitted ? (
+        <div className="flex flex-col justify-center items-center w-1/2 text-black bg-card border-2 border-gray-200 rounded-lg">
           Form submitted, thank you!
         </div>
       ) : (
-        <form onSubmit={handleSubmit}>
-
-          <div className="mb-3">
-            <label htmlFor="name" className="form-label">Name</label>
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Chilli Heeler"
-              id="name"
-              name="name"
-              value={formData.name}
-              onChange={handleChange}
-              required
-            />
+        <div className='flex flex-col justify-center items-center w-1/2'>
+          <div className='flex flex-col justify-center items-center w-full text-2xl font-bold text-black'>
+              Childcare Enrollment Form
           </div>
+          <form 
+            onSubmit={handleSubmit}
+            className='w-3/4 flex flex-col justify-center items-center gap-2 border-2 border-gray-200 bg-card rounded-lg pt-4'
+          >
+            <div 
+              className="grid items-center gap-2 w-4/5 p-2"
+            >
+              <Label 
+                htmlFor="name"
+              >
+                Name
+              </Label>
+              <Input
+                type="text"
+                placeholder="Chilli Heeler"
+                id="name"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
+                required
+              />
+            </div>
 
-          <div className="mb-3">
-            <label htmlFor="email" className="form-label">Email</label>
-            <input
-              type="email"
-              className="form-control"
-              placeholder="chilli@heelerfamily.au"
-              id="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              required
-            />
-          </div>
+            <div 
+              className="grid items-center gap-2 w-4/5 p-2"
+            >
+              <Label htmlFor="email" className="form-label">Email</Label>
+              <Input
+                type="email"
+                placeholder="chilli@heelerfamily.au"
+                id="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                required
+              />
+            </div>
 
-          <div className="mb-3">
-            <label htmlFor="phone" className="form-label">Phone Number</label>
-            <input
-              type="tel"
-              className="form-control"
-              placeholder="905-878-4697"
-              id="phone"
-              name="phone"
-              value={formData.phone}
-              onChange={handleChange}
-              required
-            />
-          </div>
+            <div 
+              className="grid items-center gap-2 w-4/5 p-2"
+            >
+              <Label htmlFor="phone" className="form-label">Phone Number</Label>
+              <Input
+                type="tel"
+                placeholder="905-878-4697"
+                id="phone"
+                name="phone"
+                value={formData.phone}
+                onChange={handleChange}
+                required
+              />
+            </div>
 
-          <div className="mb-3">
-            <label htmlFor="message" className="form-label">Ask us something...</label>
-            <textarea
-              className="form-control"
-              id="message"
-              name="message"
-              value={formData.message}
-              onChange={handleChange}
-              required
-            />
-          </div>
+            <div 
+              className="grid items-center gap-2 w-4/5 p-2"
+            >
+              <Label htmlFor="message" className="form-label">Ask us something...</Label>
+              <Input
+                type="text"
+                id="message"
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
+                required
+              />
+            </div>
 
-          <button type="submit" className="btn" disabled={isSubmitting}>
-            Submit
-          </button>
-        </form>
+            <Button
+              type='submit'
+              disabled={isSubmitting}
+              className="mb-4"
+            >
+              Submit
+            </Button>
+          </form>
+        </div>
       )}
     </div>
   );

@@ -88,7 +88,6 @@ const PartyForm = () => {
               </Label>
               <Input
                 type="text"
-                className="form-control"
                 placeholder="Spongebob Squarepants"
                 id="name"
                 name="name"
@@ -108,7 +107,6 @@ const PartyForm = () => {
               </Label>
               <Input
                 type="email"
-                className="form-control"
                 placeholder="squarepants@krustykrab.com"
                 id="email"
                 name="email"
@@ -128,7 +126,6 @@ const PartyForm = () => {
               </Label>
               <Input
                 type="tel"
-                className="form-control"
                 placeholder="905-878-4697"
                 id="phone"
                 name="phone"
@@ -148,7 +145,6 @@ const PartyForm = () => {
               </Label>
               <Input
                 type="date"
-                className="form-control"
                 id="partyDate"
                 name="partyDate"
                 value={formData.partyDate}
@@ -207,7 +203,6 @@ const PartyForm = () => {
               </Label>
               <Input
                 type="number"
-                className="form-control"
                 placeholder="25"
                 id="numOfGuests"
                 name="numOfGuests"
@@ -227,7 +222,6 @@ const PartyForm = () => {
               ...</Label>
               <Input
                 type='text'
-                className="form-control"
                 id="message"
                 name="message"
                 value={formData.message}

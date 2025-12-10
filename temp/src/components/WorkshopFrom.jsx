@@ -113,7 +113,6 @@ return (
               </label>
               <Input
                 type="email"
-                className="form-control"
                 placeholder="agentp@owca.com"
                 id="email"
                 name="email"
@@ -133,7 +132,6 @@ return (
               </label>
               <Input
                 type="tel"
-                className="form-control"
                 placeholder="905-878-4697"
                 id="phone"
                 name="phone"
@@ -291,7 +289,6 @@ return (
               </Label>
               <Input
                 type="text"
-                className="form-control"
                 placeholder="List all allergies, n/a if none."
                 id="allergies"
                 name="allergies"
