@@ -1,0 +1,11 @@
+.nav-link {
+  color: var(--text-primary) !important;
+}
+
+.nav-link:hover {
+  color: var(--form-text-primary) !important
+}
+
+.nav-link.active {
+  text-decoration: underline;
+}

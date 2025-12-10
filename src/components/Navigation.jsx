@@ -31,7 +31,12 @@ function Navigation() {
           };
 
   return (
-    <ul className="navbar-nav ms-auto">
+    <ul className="navbar-nav ms-auto flex flex-row">
+      <li className="nav-item">
+        <NavLink to="/" end className="nav-link" onClick={closeNavbar}>
+          Home
+        </NavLink>
+      </li>
       <li className="nav-item">
         <NavLink to="/childcare" end className="nav-link" onClick={closeNavbar}>
           Child Care
@@ -53,8 +58,8 @@ function Navigation() {
         </NavLink>
       </li>
       <li className="nav-item">
-        <NavLink to="/summer-camp" end className="nav-link" onClick={closeNavbar}>
-          Summer Camp
+        <NavLink to="/camp" end className="nav-link" onClick={closeNavbar}>
+          School Age Camp
         </NavLink>
       </li>
       <li className="nav-item">

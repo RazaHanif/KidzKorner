@@ -224,13 +224,13 @@ const ChildcareForm = () => {
                 className="form-check-input"
                 id="option3"
                 name="programType"
-                value="After School - 3pm to 7pm"
+                value="After School - 3pm to 6pm"
                 onChange={handleChange}
-                checked={formData.programType === 'After School - 3pm to 7pm'}
+                checked={formData.programType === 'After School - 3pm to 6pm'}
 
               />
               <label className="form-check-label" htmlFor="option3">
-                After School - 3pm to 7pm
+                After School - 3pm to 6pm
               </label>
             </div>
           </fieldset>

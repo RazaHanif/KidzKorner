@@ -56,7 +56,7 @@ const ChildcareForm = () => {
 
   return (
     <div className="container mt-5">
-      <h2 className="mb-4">Summer Camp Enrollment Form</h2>
+      <h2 className="mb-4">Camp Enrollment Form</h2>
 
       {/* Show thank you message when form is submitted */}
       {submitted ? (
@@ -121,18 +121,79 @@ const ChildcareForm = () => {
             />
           </div>
 
-          <div className="mb-3">
-            <label htmlFor="startDate" className="form-label">Enrollment Date</label>
-            <input
-              type="date"
-              className="form-control"
-              id="startDate"
-              name="startDate"
-              value={formData.startDate}
-              onChange={handleChange}
-              required
-            />
-          </div>
+          <fieldset className="mb-3">
+            <label htmlFor="startDate" className="form-label">
+              Session
+            </label>
+            <div className='form-check'>
+              <input
+                type="radio"
+                className="form-check-input"
+                id="option1"
+                name="startDate"
+                value='Winter Break'
+                onChange={handleChange}
+                checked={formData.startDate === 'WinterBreak'}
+                required
+              />
+              <label 
+                className='form-check-label'
+                htmlFor='option1'>
+                  Winter Break
+              </label>
+            </div>
+            <div className='form-check'>
+              <input
+                type="radio"
+                className="form-check-input"
+                id="option1"
+                name="startDate"
+                value='March Break'
+                onChange={handleChange}
+                checked={formData.startDate === 'March Break'}
+                required
+              />
+              <label 
+                className='form-check-label'
+                htmlFor='option1'>
+                  March Break
+              </label>
+            </div>
+            <div className='form-check'>
+              <input
+                type="radio"
+                className="form-check-input"
+                id="option1"
+                name="startDate"
+                value='Summer Break'
+                onChange={handleChange}
+                checked={formData.startDate === 'Summer Break'}
+                required
+              />
+              <label 
+                className='form-check-label'
+                htmlFor='option1'>
+                  Summer Break
+              </label>
+            </div>
+            <div className='form-check'>
+              <input
+                type="radio"
+                className="form-check-input"
+                id="option1"
+                name="startDate"
+                value='PA Day'
+                onChange={handleChange}
+                checked={formData.startDate === 'PA Day'}
+                required
+              />
+              <label 
+                className='form-check-label'
+                htmlFor='option1'>
+                  PA Day
+              </label>
+            </div>
+          </fieldset>
           <div className="mb-3">
             <label htmlFor="message" className="form-label">Tell us more...</label>
             <textarea

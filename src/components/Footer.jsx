@@ -32,11 +32,12 @@ const Footer = () => {
           <div className="col-md-4 mb-3">
             <h5>Child Care Hours</h5>
             <p>Monday to Friday - 9:00am to 3:00pm</p>
+            <p>After School | 3:00pm to 6:00pm</p>
           </div>
           <div className="col-md-4 mb-3">
             <h5>Indoor Playground Hours</h5>
-            <p>Monday to Friday - 9:00am to 3:00pm</p>
-            <p>Saturday to Sunday - Parties Only</p>
+            <p>Drop In Play | Monday to Friday - 3:00pm to 6:00pm</p>
+            <p>Parties | Saturday to Sunday</p>
           </div>
         </div>
       </div>

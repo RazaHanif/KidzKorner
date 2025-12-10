@@ -1,11 +1,12 @@
 const Home = () => {
     return (
         <>
-            <div className="homeLogo">
-                <img 
+            <div className="flex justify-center items-center">
+                {/* <img 
                 src='/logo.png'
                 alt='Home'
-                />
+                className="w-full"
+                /> */}
             </div>
 
             <h4>Alittle about us.</h4>

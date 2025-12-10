@@ -1,0 +1,57 @@
+.header {
+    margin: 0.5em;
+    background-color: var(--secondary);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+}
+
+.navbar-brand {
+    color: var(--text-contrast) !important;
+    margin-right: auto;
+}
+
+.navbar-collapse.show {
+    background-color: var(--contrast);
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.nav-link {
+    font-size: 1.25em;
+    color: var(--text-contrast) !important;
+}
+
+.navbar-collapse {
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    outline: none;
+}
+
+.logo {
+    width: 5em;
+    height: auto;
+    transition:transform 0.4s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}

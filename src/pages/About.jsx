@@ -31,10 +31,13 @@ const About = () => {
                         Child Care: Monday to Friday - 9am to 3pm
                     </p>
                     <p>
-                        Indoor Playground: Monday to Friday - 9am to 3pm
+                        After Schhol: Monday to Friday - 3pm to 6pm
                     </p>
                     <p>
-                        Playground open for parties - Saturday & Sunday
+                        Indoor Playground Drop In: Monday to Friday - 3pm to 6pm
+                    </p>
+                    <p>
+                        Playground Open For Parties - Saturday & Sunday
                     </p>
                 </div>
             </div>

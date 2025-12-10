@@ -10,11 +10,11 @@ const Parties = () => {
             </h6>
 
             <h5>Party Package:</h5>
-            <li>3 hours of private playground access</li>
+            <li>3.5 hours of private playground access</li>
             <li>Complimentary tea and coffee for guests</li>
             <li>Bring your own food at no extra charge (peanut/nut-free)</li>
-            <li>Bring your own decorations to personalize the space. We do offer in house decoration arrangements. </li>
-            <li>Max capacity: 50 guests (seating available for up to 30 adults)</li>
+            <li>Bring your own decorations to personalize the space.</li>
+            <li>Max capacity: 50 guests (seating available for up to 40 adults)</li>
             <li>Extra 15 minutes before & after for setup and wrap-up—free of charge</li>
 
             <br/>

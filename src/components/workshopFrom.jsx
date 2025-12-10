@@ -183,10 +183,9 @@ const WorkshopForm = () => {
             >
                 <option value="" selected disabled hidden>Choose a workshop</option>
                 <option value="Paint Night">Paint Night</option>
-                <option value="Cooking Class - Single Session">Cooking Class - 1 Session</option>
-                <option value="Little Sahaba's - 4 Week">Little Sahaba's - 4 Sessions</option>
-                <option value="Grounded Growth Circle">Grounded Growth Circle</option>
-                <option value="Coding Class - Summer Session">Coding Class - Summer Session</option>
+                <option value="Cooking Class">Cooking Class</option>
+                <option value="Little Sahaba's">Little Sahaba's</option>
+                <option value="Mommy & Me">Mommy & Me</option>
             </select>
           </div>
 

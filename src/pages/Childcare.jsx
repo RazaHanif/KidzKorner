@@ -19,7 +19,7 @@ const Childcare = () => {
             <li>Full Day 9:00 am - 3:00 pm</li>
             <li>Half Day - Morning 9:00 am - 11:30 am</li>
             <li>Half Day - Afternoon  12:30 pm - 3:00 pm</li>
-            <li>After School  3:00 pm - 7:00 pm</li>
+            <li>After School  3:00 pm - 6:00 pm</li>
             
             <br/>
 

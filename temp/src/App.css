@@ -1,0 +1,91 @@
+a {
+  cursor: pointer;
+}
+
+.content {
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  flex-grow: 1;
+}
+
+.vsmall {
+  font-size: xx-small;
+  font-weight: bold;
+}
+.main {
+  display: flex;
+  margin-bottom: 3em;
+}
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+}
+.contact-left, .contact-right {
+  flex: 1;
+  padding: 1em;
+}
+.contact-left a {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+.contact-left a:hover {
+  text-decoration: underline;
+}
+.gmaps {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.header {
+  z-index: 2;
+}
+.accordion {
+  z-index: 1;
+}
+.accordion-item {
+  background-color: var(--form-primary);
+}
+.accordion-button {
+  background-color: var(--form-primary);
+  color: var(--text-secondary);
+}
+.accordion-button:focus {
+  background-color: var(--form-primary);
+  color: var(--text-secondary);
+}
+.accordion-button.collapsed {
+  background-color: var(--form-primary);
+  color: var(--text-secondary);
+}
+.accordion-button:not(.collapsed) {
+  background-color: var(--form-primary);
+  color: var(--text-secondary);
+  box-shadow: none;
+}
+.accordion-body {
+  background-color: var(--form-primary);
+  color: var(--text-secondary);
+}
+.accordion-body a {
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+.accordion-body a:hover {
+  text-decoration: underline;
+}
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
+@layer properties {
+  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
+    *, ::before, ::after, ::backdrop {
+      --tw-border-style: solid;
+    }
+  }
+}
