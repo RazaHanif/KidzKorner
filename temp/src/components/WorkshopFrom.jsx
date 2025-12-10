@@ -84,11 +84,16 @@ return (
             onSubmit={handleSubmit}
             className='w-3/4 flex flex-col justify-center items-center gap-2 border-2 border-gray-200 bg-card rounded-lg pt-4'
           >
-            <div className="mb-3">
-              <label htmlFor="name" className="form-label">Name</label>
-              <input
+            <div 
+              className="grid items-center gap-2 w-4/5 p-2"
+            >
+              <label 
+                htmlFor="name" 
+              >
+                Name
+              </label>
+              <Input
                 type="text"
-                className="form-control"
                 placeholder="Perry Platypus"
                 id="name"
                 name="name"
@@ -98,9 +103,15 @@ return (
               />
             </div>
 
-            <div className="mb-3">
-              <label htmlFor="email" className="form-label">Email</label>
-              <input
+            <div 
+              className="grid items-center gap-2 w-4/5 p-2"
+            >
+              <label 
+                htmlFor="email"
+              >
+                Email
+              </label>
+              <Input
                 type="email"
                 className="form-control"
                 placeholder="agentp@owca.com"
@@ -112,9 +123,15 @@ return (
               />
             </div>
 
-            <div className="mb-3">
-              <label htmlFor="phone" className="form-label">Phone Number</label>
-              <input
+            <div 
+              className="grid items-center gap-2 w-4/5 p-2"
+            >
+              <label 
+                htmlFor="phone"
+              >
+                Phone Number
+              </label>
+              <Input
                 type="tel"
                 className="form-control"
                 placeholder="905-878-4697"
@@ -126,71 +143,77 @@ return (
               />
             </div>
 
-          <fieldset className="mb-3">
-              <legend>Persmission to post on social media</legend>
-              <div className="form-check">
-                  <input
-                      type="radio"
-                      className="form-check-input"
-                      id="option1"
-                      name="socialMedia"
-                      value="Yes"
-                      onChange={handleChange}
-                      checked={formData.socialMedia === 'Yes'}
+            <div 
+              className="grid items-center gap-2 w-4/5 p-2"
+            >
+              <Label>
+                Permission to post on social media?
+              </Label>
+              <RadioGroup 
+                value={formData.socialMedia}
+                onValueChange={(value) => setFormData(prev => ({...prev, socialMedia: value}))}
+              >
+                <div className="flex items-center gap-3">
+                  <RadioGroupItem 
+                    value="Yes" 
+                    id="radio-1" 
                   />
-                <label className="form-check-label" htmlFor="option1">
-                  Yes
-                </label>
-              </div>
-              <div className="form-check">
-                <input
-                  type="radio"
-                  className="form-check-input"
-                  id="option2"
-                  name="socialMedia"
-                  value="No"
-                  onChange={handleChange}
-                  checked={formData.socialMedia === 'No'}
-                />
-                <label className="form-check-label" htmlFor="option2">
-                  No
-                </label>
-              </div>
-            </fieldset>
-
-          <fieldset className="mb-3">
-              <legend>Persmission to contact again</legend>
-              <div className="form-check">
-                  <input
-                      type="radio"
-                      className="form-check-input"
-                      id="option1"
-                      name="contactAgain"
-                      value="Yes"
-                      onChange={handleChange}
-                      checked={formData.contactAgain === 'Yes'}
+                  <Label 
+                    htmlFor="radio-1"
+                  >
+                    Yes
+                  </Label>
+                </div>
+                <div className="flex items-center gap-3">
+                  <RadioGroupItem 
+                    value="No" 
+                    id="radio-2" 
                   />
-                <label className="form-check-label" htmlFor="option1">
-                  Yes
-                </label>
-              </div>
-              <div className="form-check">
-                <input
-                  type="radio"
-                  className="form-check-input"
-                  id="option2"
-                  name="contactAgain"
-                  value="No"
-                  onChange={handleChange}
-                  checked={formData.contactAgain === 'No'}
-                />
-                <label className="form-check-label" htmlFor="option2">
-                  No
-                </label>
-              </div>
-            </fieldset>
+                  <Label 
+                    htmlFor="radio-2"
+                  >
+                    No
+                  </Label>
+                </div>
+              </RadioGroup>
+            </div>
 
-            <div className="mb-3">
+            <div 
+              className="grid items-center gap-2 w-4/5 p-2"
+            >
+              <Label>
+                Permission to contact again?
+              </Label>
+              <RadioGroup 
+                value={formData.contactAgain}
+                onValueChange={(value) => setFormData(prev => ({...prev, contactAgain: value}))}
+              >
+                <div className="flex items-center gap-3">
+                  <RadioGroupItem 
+                    value="Yes" 
+                    id="radio-1" 
+                  />
+                  <Label 
+                    htmlFor="radio-1"
+                  >
+                    Yes
+                  </Label>
+                </div>
+                <div className="flex items-center gap-3">
+                  <RadioGroupItem 
+                    value="No" 
+                    id="radio-2" 
+                  />
+                  <Label 
+                    htmlFor="radio-2"
+                  >
+                    No
+                  </Label>
+                </div>
+              </RadioGroup>
+            </div>
+
+            <div className="grid items-center gap-2 w-4/5 p-2">
               <label htmlFor="partyDate" className="form-label">Workshop</label>
               <select 
                   className="form-select" 
@@ -209,7 +232,7 @@ return (
               </select>
             </div>
 
-            <div className="mb-3">
+            <div className="grid items-center gap-2 w-4/5 p-2">
               <Label 
                 htmlFor="message" 
               >
