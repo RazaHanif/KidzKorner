@@ -232,7 +232,7 @@ return (
                 id="workshop"
                 name="workshop"
                 value={formData.workshop}
-                onChange={handleChange}
+                onValueChange={handleChange}
                 required  
               >
                 <SelectTrigger className="w-full">
