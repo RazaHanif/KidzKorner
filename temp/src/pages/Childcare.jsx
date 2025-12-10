@@ -2,7 +2,7 @@ import ChildcareForm from "../components/ChildcareForm";
 
 const Childcare = () => {
     return (
-        <div className="flex flex-col justify-center gap-2 w-full">
+        <div className="flex flex-col justify-center items-center gap-2 w-full">
             <div className="flex flex-col justify-center items-center w-full">
                 <h3>
                     Child Care 
