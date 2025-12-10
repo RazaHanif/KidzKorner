@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router';
+import { Link } from 'react-router-dom';
 import Navigation from './Navigation';
 // import './header.css';
 
@@ -7,13 +7,13 @@ const Header = () => {
     <div>
       <div className="flex flex-row p-2">
         <div className="flex flex-row justify-between w-full p-2 border-2 rounded-md">
-          <NavLink to="/" end>
+          <Link to="/" end>
             <img 
               src='/logo.png'
               alt='Home'
               className='w-20'
             />
-          </NavLink>
+          </Link>
 
           {/* Hamburger button
           <button

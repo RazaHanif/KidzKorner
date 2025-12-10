@@ -8,7 +8,7 @@ const KKAccordion = ({ AccordionItems }) => {
         <Accordion
             type="single"
             collapsible
-            className="w-full bg-secondary rounded-2xl"
+            className="w-full bg-card"
             defaultValue="item-1"
         >
             { AccordionItems }

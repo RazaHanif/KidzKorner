@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { NavLink } from 'react-router';
+import { Link } from 'react-router-dom';
 import './navigation.css';
 
 function Navigation() {
@@ -33,34 +33,34 @@ function Navigation() {
   return (
     <ul className="navbar-nav ms-auto flex flex-row gap-2">
       <li className="nav-item">
-        <NavLink to="/childcare" end className="nav-link" onClick={closeNavbar}>
+        <Link to="/childcare" end className="nav-link" onClick={closeNavbar}>
           Child Care
-        </NavLink>
+        </Link>
       </li>
       <li className="nav-item">
-        <NavLink to="/parties" end className="nav-link" onClick={closeNavbar}>
+        <Link to="/parties" end className="nav-link" onClick={closeNavbar}>
           Parties
-        </NavLink>
+        </Link>
       </li>
       <li className="nav-item">
-        <NavLink to="/playground" end className="nav-link" onClick={closeNavbar}>
+        <Link to="/playground" end className="nav-link" onClick={closeNavbar}>
           Playground
-        </NavLink>
+        </Link>
       </li>
       <li className="nav-item">
-        <NavLink to="/workshop" end className="nav-link" onClick={closeNavbar}>
+        <Link to="/workshop" end className="nav-link" onClick={closeNavbar}>
           Workshops
-        </NavLink>
+        </Link>
       </li>
       <li className="nav-item">
-        <NavLink to="/camp" end className="nav-link" onClick={closeNavbar}>
+        <Link to="/camp" end className="nav-link" onClick={closeNavbar}>
           Camp
-        </NavLink>
+        </Link>
       </li>
       <li className="nav-item">
-        <NavLink to="/about" end className="nav-link" onClick={closeNavbar}>
+        <Link to="/about" end className="nav-link" onClick={closeNavbar}>
           About Us
-        </NavLink>
+        </Link>
       </li>
     </ul>
   );
