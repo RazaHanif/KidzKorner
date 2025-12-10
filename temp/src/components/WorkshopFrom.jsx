@@ -12,6 +12,13 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover"
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select"
 import { useState } from 'react';
 
 const WorkshopForm = () => {
@@ -214,6 +221,49 @@ return (
             </div>
 
             <div className="grid items-center gap-2 w-4/5 p-2">
+              <Label 
+                htmlFor="workshop"
+              >
+                Workshop
+              </Label>
+              <Select
+                id="workshop"
+                name="workshop"
+                value={formData.workshop}
+                onChange={handleChange}
+                required  
+              >
+                <SelectTrigger className="w-full">
+                  <SelectValue 
+                    placeholder="Choose a workshop" 
+                  />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem 
+                    value="Paint Night"
+                  >
+                    Paint Night
+                  </SelectItem>
+                  <SelectItem 
+                    value="Cooking Class"
+                  >
+                    Cooking Class
+                  </SelectItem>
+                  <SelectItem 
+                    value="Little Sahaba's"
+                  >
+                    Little Sahaba's
+                  </SelectItem>
+                  <SelectItem 
+                    value="Mommy & Me"
+                  >
+                    Mommy & Me
+                  </SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+{/* 
+            <div className="grid items-center gap-2 w-4/5 p-2">
               <label htmlFor="partyDate" className="form-label">Workshop</label>
               <select 
                   className="form-select" 
@@ -230,7 +280,8 @@ return (
                   <option value="Little Sahaba's">Little Sahaba's</option>
                   <option value="Mommy & Me">Mommy & Me</option>
               </select>
-            </div>
+            </div> 
+*/}
 
             <div className="grid items-center gap-2 w-4/5 p-2">
               <Label 
