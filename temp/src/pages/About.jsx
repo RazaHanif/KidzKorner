@@ -13,28 +13,32 @@ const About = () => {
                     >
                         Contact Us
                     </div>
-                    
-                    <p>
-                        <a 
-                            href="https://maps.app.goo.gl/TcUQhJ58bgf6tME18"
-                        >
-                            150 Nipissing Rd. 10 & 11, Milton, ON, L9T 5B3
-                        </a>
-                    </p>
-                    <p>
-                        <a 
-                            href="tel:+19058784697"
-                        >
-                            (905) 878-4697
-                        </a>
-                    </p>
-                    <p>
-                        <a 
-                            href="mailto:info@kidzkornermilton.com"
-                        >
-                            info@kidzkornermilton.com
-                        </a>
-                    </p>
+                    <div>
+                        <div className="text-red-500">
+                            <a 
+                                href="https://maps.app.goo.gl/TcUQhJ58bgf6tME18"
+                                className="text-green-500"
+                            >
+                                150 Nipissing Rd. 10 & 11, Milton, ON, L9T 5B3
+                            </a>
+                        </div>
+                        <div className="text-red-500">
+                            <a 
+                                href="tel:+19058784697"
+                                className="text-green-500"
+                            >
+                                (905) 878-4697
+                            </a>
+                        </div>
+                        <div className="text-red-500">
+                            <a 
+                                href="mailto:info@kidzkornermilton.com"
+                                className="text-green-500"
+                            >
+                                info@kidzkornermilton.com
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
                 <div className="flex-1 flex flex-col justify-center items-center w-3/4">
@@ -43,19 +47,20 @@ const About = () => {
                     >
                         Hours
                     </div>
-                    
-                    <p>
-                        Child Care: Monday to Friday - 9am to 3pm
-                    </p>
-                    <p>
-                        After Schhol: Monday to Friday - 3pm to 6pm
-                    </p>
-                    <p>
-                        Indoor Playground Drop In: Monday to Friday - 3pm to 6pm
-                    </p>
-                    <p>
-                        Playground Open For Parties - Saturday & Sunday
-                    </p>
+                    <div>
+                        <div>
+                            Child Care: Monday to Friday - 9am to 3pm
+                        </div>
+                        <div>
+                            After Schhol: Monday to Friday - 3pm to 6pm
+                        </div>
+                        <div>
+                            Indoor Playground Drop In: Monday to Friday - 3pm to 6pm
+                        </div>
+                        <div>
+                            Playground Open For Parties - Saturday & Sunday
+                        </div>
+                    </div>
                 </div>
             </div>
 
