@@ -15,7 +15,9 @@ import {
 import {
   Select,
   SelectContent,
+  SelectGroup,
   SelectItem,
+  SelectLabel,
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
@@ -239,26 +241,31 @@ return (
                   />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem 
-                    value="Paint Night"
-                  >
-                    Paint Night
-                  </SelectItem>
-                  <SelectItem 
-                    value="Cooking Class"
-                  >
-                    Cooking Class
-                  </SelectItem>
-                  <SelectItem 
-                    value="Little Sahaba's"
-                  >
-                    Little Sahaba's
-                  </SelectItem>
-                  <SelectItem 
-                    value="Mommy & Me"
-                  >
-                    Mommy & Me
-                  </SelectItem>
+                  <SelectGroup>
+                    <SelectLabel>
+                      Workshops
+                    </SelectLabel>
+                    <SelectItem 
+                      value="Paint Night"
+                      >
+                      Paint Night
+                    </SelectItem>
+                    <SelectItem 
+                      value="Cooking Class"
+                      >
+                      Cooking Class
+                    </SelectItem>
+                    <SelectItem 
+                      value="Little Sahaba's"
+                      >
+                      Little Sahaba's
+                    </SelectItem>
+                    <SelectItem 
+                      value="Mommy & Me"
+                      >
+                      Mommy & Me
+                    </SelectItem>
+                  </SelectGroup>
                 </SelectContent>
               </Select>
             </div>
