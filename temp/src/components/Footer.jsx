@@ -1,5 +1,5 @@
 // import 'bootstrap/dist/css/bootstrap.min.css';
-// import './footer.css';
+// import './footer.css';q
 
 const Footer = () => {
   return (
