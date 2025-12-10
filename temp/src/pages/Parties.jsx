@@ -3,22 +3,22 @@ import PartyForm from "../components/PartyForm";
 const Parties = () => {
     return (
         <div className="flex flex-col justify-center items-center w-full">
-            <div className="flex flex-col justify-center items-center w-full">
+            <div className="flex flex-col justify-center items-center w-full mb-4">
                 <div className="text-3xl font-bold">
                     Host Your Child's Party at Kidz Korner
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-full">
+            <div className="flex flex-col justify-center items-start w-3/4">
                 <div className="text-md">
                     Make your child's special day unforgettable with a Kidz Korner Party! Enjoy exclusive access to our indoor playground, just for you and your invited family and friends.
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-full">
-                <h5 className="self-center text-xl font-bold">
+            <div className="flex flex-col justify-center items-start w-3/4">
+                <div className="self-center text-xl font-bold">
                     Party Package
-                </h5>
+                </div>
                 <div className="text-md">
                     3.5 hours of private access
                 </div>
@@ -39,13 +39,13 @@ const Parties = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-full">
-                <h5 className="self-center text-xl font-bold">
+            <div className="flex flex-col justify-center items-start w-3/4">
+                <div className="self-center text-xl font-bold">
                     Pricing & Booking Details
-                </h5>
-                <p className="font-bold">
+                </div>
+                <div className="text-lg font-bold">
                     $395 + tax
-                </p>
+                </div>
                 <div className="text-md">
                     Full payment required at time of booking.
                 </div>
@@ -55,12 +55,12 @@ const Parties = () => {
                 <div className="text-md">
                     Prior approval of all 3rd party vendors is required.
                 </div>
-                <p className="text-sm">
+                <div className="text-sm">
                     *Prices are subject to change without notice*
-                </p>
+                </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-full">
+            <div className="flex flex-col justify-center items-start w-3/4">
                 <PartyForm/>
             </div>
 

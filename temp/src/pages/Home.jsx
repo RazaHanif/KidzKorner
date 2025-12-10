@@ -1,7 +1,7 @@
 const Home = () => {
     return (
         <div className="flex flex-col justify-center items-center p-4">
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center w-3/4">
                 <img 
                 src='/logo.png'
                 alt='Home'
@@ -9,7 +9,7 @@ const Home = () => {
                 />
             </div>
 
-            <div className="flex flex-col justify-center items-center gap-2">
+            <div className="flex flex-col justify-center items-center gap-2 w-3/4">
                 <div className="text-2xl">
                     Alittle about us.
                 </div>

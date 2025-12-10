@@ -5,7 +5,7 @@ const About = () => {
     const url = `https://www.google.com/maps/embed/v1/place?key=${import.meta.env.VITE_GOOGLE_MAPS_API}&q=Kidz+Korner+Milton+Ontario`
 
     return (
-        <div className="flex flex-col justify-center w-full">
+        <div className="flex flex-col justify-center items-center gap-2 w-full">
             <div className="flex flex-col md:flex-row justify-center items-center w-full">
                 <div className="flex-1 p-2 w-full flex flex-col justify-center items-start">
                     <h4 className="self-center">
