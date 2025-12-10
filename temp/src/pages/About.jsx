@@ -6,11 +6,14 @@ const About = () => {
 
     return (
         <div className="flex flex-col justify-center items-center gap-2 w-full">
-            <div className="flex flex-col md:flex-row justify-center items-center w-full">
-                <div className="flex-1 p-2 w-full flex flex-col justify-center items-start">
-                    <h4 className="self-center">
+            <div className="flex flex-col md:flex-row justify-center items-center w-3/4">
+                <div className="flex-1 flex flex-col justify-center items-center w-3/4">
+                    <div 
+                        className="text-xl font-bold"
+                    >
                         Contact Us
-                    </h4>
+                    </div>
+                    
                     <p>
                         <a 
                             href="https://maps.app.goo.gl/TcUQhJ58bgf6tME18"
@@ -34,10 +37,13 @@ const About = () => {
                     </p>
                 </div>
 
-                <div className="flex-1 p-2 w-full flex flex-col justify-center items-start">
-                    <h4 className="self-center">
+                <div className="flex-1 flex flex-col justify-center items-center w-3/4">
+                    <div 
+                        className="text-xl font-bold"
+                    >
                         Hours
-                    </h4>
+                    </div>
+                    
                     <p>
                         Child Care: Monday to Friday - 9am to 3pm
                     </p>
