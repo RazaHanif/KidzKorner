@@ -170,82 +170,67 @@ const CampForm = () => {
               </Popover>
             </div>
 
-            <fieldset className="grid items-center gap-2 w-4/5 p-2">
-              <Label htmlFor="startDate">
+                        <div 
+              className="grid items-center gap-2 w-4/5 p-2"
+            >
+              <Label>
                 Session
               </Label>
-              <div className='form-check'>
-                <Input
-                  type="radio"
-                  className="form-check-input"
-                  id="option1"
-                  name="startDate"
-                  value='Winter Break'
-                  onChange={handleChange}
-                  checked={formData.startDate === 'WinterBreak'}
-                  required
-                />
-                <Label 
-                  className='form-check-label'
-                  htmlFor='option1'>
+              <RadioGroup 
+                value={formData.startDate}
+                onValueChange={(value) => setFormData(prev => ({...prev, startDate: value}))}
+              >
+                <div className="flex items-center gap-3">
+                  <RadioGroupItem 
+                    value="Winter Break" 
+                    id="radio-1" 
+                  />
+                  <Label 
+                    htmlFor="radio-1"
+                  >
                     Winter Break
-                </Label>
-              </div>
-              <div className='form-check'>
-                <Input
-                  type="radio"
-                  className="form-check-input"
-                  id="option1"
-                  name="startDate"
-                  value='March Break'
-                  onChange={handleChange}
-                  checked={formData.startDate === 'March Break'}
-                  required
-                />
-                <Label 
-                  className='form-check-label'
-                  htmlFor='option1'>
+                  </Label>
+                </div>
+                <div className="flex items-center gap-3">
+                  <RadioGroupItem 
+                    value="March Break" 
+                    id="radio-2" 
+                  />
+                  <Label 
+                    htmlFor="radio-2"
+                  >
                     March Break
-                </Label>
-              </div>
-              <div className='form-check'>
-                <Input
-                  type="radio"
-                  className="form-check-input"
-                  id="option1"
-                  name="startDate"
-                  value='Summer Break'
-                  onChange={handleChange}
-                  checked={formData.startDate === 'Summer Break'}
-                  required
-                />
-                <Label 
-                  className='form-check-label'
-                  htmlFor='option1'>
+                  </Label>
+                </div>
+                <div className="flex items-center gap-3">
+                  <RadioGroupItem 
+                    value="Summer Break" 
+                    id="radio-3" 
+                  />
+                  <Label 
+                    htmlFor="radio-3"
+                  >
                     Summer Break
-                </Label>
-              </div>
-              <div className='form-check'>
-                <Input
-                  type="radio"
-                  className="form-check-input"
-                  id="option1"
-                  name="startDate"
-                  value='PA Day'
-                  onChange={handleChange}
-                  checked={formData.startDate === 'PA Day'}
-                  required
-                />
-                <Label 
-                  className='form-check-label'
-                  htmlFor='option1'>
+                  </Label>
+                </div>
+                <div className="flex items-center gap-3">
+                  <RadioGroupItem 
+                    value="PA Day" 
+                    id="radio-4" 
+                  />
+                  <Label 
+                    htmlFor="radio-4"
+                  >
                     PA Day
-                </Label>
-              </div>
-            </fieldset>
+                  </Label>
+                </div>
+              </RadioGroup>
+            </div>
+
             <div className="grid items-center gap-2 w-4/5 p-2">
               <Label htmlFor="message">Tell us more...</Label>
-              <textarea
+              <Input
+                type="text"
                 id="message"
                 name="message"
                 value={formData.message}
