@@ -1,5 +1,14 @@
 import PropTypes from "prop-types";
 import {
+  Card,
+  CardAction,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
+import {
   Accordion,
 } from "@/components/ui/accordion"
 
