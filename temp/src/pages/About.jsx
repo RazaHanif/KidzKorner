@@ -6,7 +6,7 @@ const About = () => {
 
     return (
         <div className="flex flex-col justify-center items-center gap-2 w-full">
-            <div className="flex flex-col md:flex-row justify-center items-center w-3/4">
+            <div className="flex flex-col md:flex-row justify-center items-center w-3/4 m-4">
                 <div className="flex-1 flex flex-col justify-center items-center w-3/4">
                     <div 
                         className="text-xl font-bold"
@@ -14,26 +14,23 @@ const About = () => {
                         Contact Us
                     </div>
                     <div>
-                        <div className="text-red-500">
+                        <div>
                             <a 
                                 href="https://maps.app.goo.gl/TcUQhJ58bgf6tME18"
-                                className="text-green-500"
                             >
                                 150 Nipissing Rd. 10 & 11, Milton, ON, L9T 5B3
                             </a>
                         </div>
-                        <div className="text-red-500">
+                        <div>
                             <a 
                                 href="tel:+19058784697"
-                                className="text-green-500"
                             >
                                 (905) 878-4697
                             </a>
                         </div>
-                        <div className="text-red-500">
+                        <div>
                             <a 
                                 href="mailto:info@kidzkornermilton.com"
-                                className="text-green-500"
                             >
                                 info@kidzkornermilton.com
                             </a>
