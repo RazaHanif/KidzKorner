@@ -14,14 +14,20 @@ import {
 
 const KKAccordion = ({ AccordionItems }) => {
     return (
-        <Accordion
-            type="single"
-            collapsible
-            className="w-full bg-card"
-            defaultValue="item-1"
+        <Card 
+            className='w-3/4'
         >
-            { AccordionItems }
-        </Accordion>
+            <CardContent>
+                <Accordion
+                    type="single"
+                    collapsible
+                    className="w-full bg-card"
+                    defaultValue="item-1"
+                >
+                    { AccordionItems }
+                </Accordion>
+            </CardContent>
+        </Card>
     )
 }
 
