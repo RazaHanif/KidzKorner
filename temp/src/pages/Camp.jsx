@@ -16,50 +16,50 @@ const Camp = () => {
                 <div className="self-center text-xl font-bold">
                     Camp Dates
                 </div>
-                <p>
+                <div>
                     Winter Break, March Break, PA Days, Summer Vacation
-                </p>
-                <p>
+                </div>
+                <div>
                     Monday to Friday | 9:00 AM - 5:00 PM
-                </p>
+                </div>
             </div>
 
             <div className="flex flex-col justify-center items-start w-3/4">
                 <div className="self-center text-xl font-bold">
                     Arts Classes
                 </div>
-                <p>
+                <div>
                     Campers explore a wide range of mediums and techniques
-                </p>
-                <p>
+                </div>
+                <div>
                     Painting & Drawing<br/>
                     Printmaking<br/>
                     Mixed Media & Collage<br/>
                     End of term art gallery
-                </p>
+                </div>
             </div>
 
             <div className="flex flex-col justify-center items-start w-3/4">
                 <div className="self-center text-xl font-bold">
                     Cooking Classes
                 </div>
-                <p>
+                <div>
                     Each week features fun, age-appropriate kitchen adventures
-                </p>
-                <p>
+                </div>
+                <div>
                     Hands-on cooking and baking<br/>
                     International cuisines<br/>
                     Kitchen safety & teamwork
-                </p>
+                </div>
             </div>
 
             <div className="flex flex-col justify-center items-start w-3/4">
                 <div className="self-center text-xl font-bold">
                     Ages
                 </div>
-                <p>
+                <div>
                     Open to children ages 4+, grouped by age for activities
-                </p>
+                </div>
 
             </div>
 
@@ -67,12 +67,12 @@ const Camp = () => {
                 <div className="self-center text-xl font-bold">
                     Cost: $35/Day
                 </div>
-                <p>
+                <div>
                     Limited Spots Available<br/>
                     Small Class Size for more 1 on 1 support<br/>
                     Sibling discounts available<br/>
                     All materials included
-                </p>
+                </div>
             </div>
 
             <div className="flex flex-col justify-center items-start w-3/4">
