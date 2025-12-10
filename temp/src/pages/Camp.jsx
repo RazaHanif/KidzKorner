@@ -12,7 +12,7 @@ const Camp = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-start w-3/4">
+            <div className="flex flex-col justify-center items-start w-3/4 gap-1">
                 <div className="self-center text-xl font-bold">
                     Camp Dates
                 </div>
@@ -24,7 +24,7 @@ const Camp = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-start w-3/4">
+            <div className="flex flex-col justify-center items-start w-3/4 gap-1">
                 <div className="self-center text-xl font-bold">
                     Arts Classes
                 </div>
@@ -39,7 +39,7 @@ const Camp = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-start w-3/4">
+            <div className="flex flex-col justify-center items-start w-3/4 gap-1">
                 <div className="self-center text-xl font-bold">
                     Cooking Classes
                 </div>
@@ -53,7 +53,7 @@ const Camp = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-start w-3/4">
+            <div className="flex flex-col justify-center items-start w-3/4 gap-1">
                 <div className="self-center text-xl font-bold">
                     Ages
                 </div>
@@ -63,7 +63,7 @@ const Camp = () => {
 
             </div>
 
-            <div className="flex flex-col justify-center items-start w-3/4">
+            <div className="flex flex-col justify-center items-start w-3/4 gap-1">
                 <div className="self-center text-xl font-bold">
                     Cost: $35/Day
                 </div>
@@ -75,7 +75,7 @@ const Camp = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-start w-3/4">
+            <div className="flex flex-col justify-center items-start w-3/4 gap-1">
                 <CampForm/>
             </div>
         </div>
