@@ -68,159 +68,174 @@ const WorkshopForm = () => {
   };
 
 return (
-    <div className="container mt-5">
-      <h2 className="mb-4">Workshop Form</h2>
+<div className="flex flex-col justify-center items-center w-full p-2">
 
       {/* Show thank you message when form is submitted */}
-      {submitted ? (
-        <div className="alert alert-success">
+      { submitted ? (
+        <div className="flex flex-col justify-center items-center w-1/2 text-black bg-card border-2 border-gray-200 rounded-lg">
           Form submitted, thank you!
         </div>
       ) : (
-        <form onSubmit={handleSubmit}>
-
-          <div className="mb-3">
-            <label htmlFor="name" className="form-label">Name</label>
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Perry Platypus"
-              id="name"
-              name="name"
-              value={formData.name}
-              onChange={handleChange}
-              required
-            />
+        <div className='flex flex-col justify-center items-center w-1/2'>
+          <div className='flex flex-col justify-center items-center w-full text-2xl font-bold text-black'>
+              Childcare Enrollment Form
           </div>
-
-          <div className="mb-3">
-            <label htmlFor="email" className="form-label">Email</label>
-            <input
-              type="email"
-              className="form-control"
-              placeholder="agentp@owca.com"
-              id="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              required
-            />
-          </div>
-
-          <div className="mb-3">
-            <label htmlFor="phone" className="form-label">Phone Number</label>
-            <input
-              type="tel"
-              className="form-control"
-              placeholder="905-878-4697"
-              id="phone"
-              name="phone"
-              value={formData.phone}
-              onChange={handleChange}
-              required
-            />
-          </div>
-
-        <fieldset className="mb-3">
-            <legend>Persmission to post on social media</legend>
-            <div className="form-check">
-                <input
-                    type="radio"
-                    className="form-check-input"
-                    id="option1"
-                    name="socialMedia"
-                    value="Yes"
-                    onChange={handleChange}
-                    checked={formData.socialMedia === 'Yes'}
-                />
-              <label className="form-check-label" htmlFor="option1">
-                Yes
-              </label>
-            </div>
-            <div className="form-check">
+          <form 
+            onSubmit={handleSubmit}
+            className='w-3/4 flex flex-col justify-center items-center gap-2 border-2 border-gray-200 bg-card rounded-lg pt-4'
+          >
+            <div className="mb-3">
+              <label htmlFor="name" className="form-label">Name</label>
               <input
-                type="radio"
-                className="form-check-input"
-                id="option2"
-                name="socialMedia"
-                value="No"
-                onChange={handleChange}
-                checked={formData.socialMedia === 'No'}
-              />
-              <label className="form-check-label" htmlFor="option2">
-                No
-              </label>
-            </div>
-          </fieldset>
-
-        <fieldset className="mb-3">
-            <legend>Persmission to contact again</legend>
-            <div className="form-check">
-                <input
-                    type="radio"
-                    className="form-check-input"
-                    id="option1"
-                    name="contactAgain"
-                    value="Yes"
-                    onChange={handleChange}
-                    checked={formData.contactAgain === 'Yes'}
-                />
-              <label className="form-check-label" htmlFor="option1">
-                Yes
-              </label>
-            </div>
-            <div className="form-check">
-              <input
-                type="radio"
-                className="form-check-input"
-                id="option2"
-                name="contactAgain"
-                value="No"
-                onChange={handleChange}
-                checked={formData.contactAgain === 'No'}
-              />
-              <label className="form-check-label" htmlFor="option2">
-                No
-              </label>
-            </div>
-          </fieldset>
-
-          <div className="mb-3">
-            <label htmlFor="partyDate" className="form-label">Workshop</label>
-            <select 
-                className="form-select" 
-                aria-label="Class Selection"
-                id="workshop"
-                name="workshop"
-                value={formData.workshop}
+                type="text"
+                className="form-control"
+                placeholder="Perry Platypus"
+                id="name"
+                name="name"
+                value={formData.name}
                 onChange={handleChange}
                 required
+              />
+            </div>
+
+            <div className="mb-3">
+              <label htmlFor="email" className="form-label">Email</label>
+              <input
+                type="email"
+                className="form-control"
+                placeholder="agentp@owca.com"
+                id="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                required
+              />
+            </div>
+
+            <div className="mb-3">
+              <label htmlFor="phone" className="form-label">Phone Number</label>
+              <input
+                type="tel"
+                className="form-control"
+                placeholder="905-878-4697"
+                id="phone"
+                name="phone"
+                value={formData.phone}
+                onChange={handleChange}
+                required
+              />
+            </div>
+
+          <fieldset className="mb-3">
+              <legend>Persmission to post on social media</legend>
+              <div className="form-check">
+                  <input
+                      type="radio"
+                      className="form-check-input"
+                      id="option1"
+                      name="socialMedia"
+                      value="Yes"
+                      onChange={handleChange}
+                      checked={formData.socialMedia === 'Yes'}
+                  />
+                <label className="form-check-label" htmlFor="option1">
+                  Yes
+                </label>
+              </div>
+              <div className="form-check">
+                <input
+                  type="radio"
+                  className="form-check-input"
+                  id="option2"
+                  name="socialMedia"
+                  value="No"
+                  onChange={handleChange}
+                  checked={formData.socialMedia === 'No'}
+                />
+                <label className="form-check-label" htmlFor="option2">
+                  No
+                </label>
+              </div>
+            </fieldset>
+
+          <fieldset className="mb-3">
+              <legend>Persmission to contact again</legend>
+              <div className="form-check">
+                  <input
+                      type="radio"
+                      className="form-check-input"
+                      id="option1"
+                      name="contactAgain"
+                      value="Yes"
+                      onChange={handleChange}
+                      checked={formData.contactAgain === 'Yes'}
+                  />
+                <label className="form-check-label" htmlFor="option1">
+                  Yes
+                </label>
+              </div>
+              <div className="form-check">
+                <input
+                  type="radio"
+                  className="form-check-input"
+                  id="option2"
+                  name="contactAgain"
+                  value="No"
+                  onChange={handleChange}
+                  checked={formData.contactAgain === 'No'}
+                />
+                <label className="form-check-label" htmlFor="option2">
+                  No
+                </label>
+              </div>
+            </fieldset>
+
+            <div className="mb-3">
+              <label htmlFor="partyDate" className="form-label">Workshop</label>
+              <select 
+                  className="form-select" 
+                  aria-label="Class Selection"
+                  id="workshop"
+                  name="workshop"
+                  value={formData.workshop}
+                  onChange={handleChange}
+                  required
+              >
+                  <option value="" selected disabled hidden>Choose a workshop</option>
+                  <option value="Paint Night">Paint Night</option>
+                  <option value="Cooking Class">Cooking Class</option>
+                  <option value="Little Sahaba's">Little Sahaba's</option>
+                  <option value="Mommy & Me">Mommy & Me</option>
+              </select>
+            </div>
+
+            <div className="mb-3">
+              <Label 
+                htmlFor="message" 
+              >
+                Allergies
+              </Label>
+              <Input
+                type="text"
+                className="form-control"
+                placeholder="List all allergies, n/a if none."
+                id="allergies"
+                name="allergies"
+                value={formData.allergies}
+                onChange={handleChange}
+                required
+              />
+            </div>
+            
+            <Button
+              type='submit'
+              disabled={isSubmitting}
+              className="mb-4"
             >
-                <option value="" selected disabled hidden>Choose a workshop</option>
-                <option value="Paint Night">Paint Night</option>
-                <option value="Cooking Class">Cooking Class</option>
-                <option value="Little Sahaba's">Little Sahaba's</option>
-                <option value="Mommy & Me">Mommy & Me</option>
-            </select>
-          </div>
-
-          <div className="mb-3">
-            <label htmlFor="message" className="form-label">Allergies</label>
-            <textarea
-              className="form-control"
-              placeholder="List all allergies, n/a if none."
-              id="allergies"
-              name="allergies"
-              value={formData.allergies}
-              onChange={handleChange}
-              required
-            />
-          </div>
-
-          <button type="submit" className="btn" disabled={isSubmitting}>
-            Submit
-          </button>
-        </form>
+              Submit
+            </Button>
+          </form>
+        </div>
       )}
     </div>
   );
