@@ -1,17 +1,10 @@
-import { ChevronDownIcon } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { Calendar } from "@/components/ui/calendar"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import {
   RadioGroup,
   RadioGroupItem,
 } from "@/components/ui/radio-group"
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@/components/ui/popover"
 import {
   Select,
   SelectContent,
@@ -48,31 +41,29 @@ const WorkshopForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true)
-    console.log(formData)
-    setSubmitted(true)
 
-    // try {
-    //   const response = await fetch('/api/send-email', {
-    //     method: 'POST',
-    //     headers: {
-    //       'Content-Type': 'application/json',
-    //     },
-    //     body: JSON.stringify(formData),
-    //   });
+    try {
+      const response = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
 
-    //   if (response.ok) {
-    //     setSubmitted(true)
-    //   }
-    //   else {
-    //     alert('Failed to submit the form.')
-    //   }
+      if (response.ok) {
+        setSubmitted(true)
+      }
+      else {
+        alert('Failed to submit the form.')
+      }
 
-    // } catch (e) {
-    //   alert('Failed to submit the form.')
-    //   console.log(e);
-    // } finally {
-    //   setIsSubmitting(false)
-    // }
+    } catch (e) {
+      alert('Failed to submit the form.')
+      console.log(e);
+    } finally {
+      setIsSubmitting(false)
+    }
 
   };
 
