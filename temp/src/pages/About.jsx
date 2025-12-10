@@ -7,7 +7,7 @@ const About = () => {
     return (
         <div className="flex flex-col justify-center items-center gap-2 w-full">
             <div className="flex flex-col md:flex-row justify-center items-center w-3/4 m-4">
-                <div className="flex-1 flex flex-col justify-center items-center w-3/4">
+                <div className="flex-1 flex flex-col justify-center items-start w-3/4">
                     <div 
                         className="text-xl font-bold"
                     >
@@ -38,7 +38,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="flex-1 flex flex-col justify-center items-center w-3/4">
+                <div className="flex-1 flex flex-col justify-center items-start w-3/4">
                     <div 
                         className="text-xl font-bold"
                     >
@@ -76,7 +76,7 @@ const About = () => {
                 />
             </div>
             
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center w-full">
                 <ContactForm/>
             </div>
         </div>
