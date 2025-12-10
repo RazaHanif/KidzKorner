@@ -45,31 +45,29 @@ const ChildcareForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true)
-    console.log(formData)
-    setSubmitted(true)
 
-    // try {
-    //   const response = await fetch('/api/send-email', {
-    //     method: 'POST',
-    //     headers: {
-    //       'Content-Type': 'application/json',
-    //     },
-    //     body: JSON.stringify(formData),
-    //   });
+    try {
+      const response = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
 
-    //   if (response.ok) {
-    //     setSubmitted(true)
-    //   }
-    //   else {
-    //     alert('Failed to submit the form.')
-    //   }
+      if (response.ok) {
+        setSubmitted(true)
+      }
+      else {
+        alert('Failed to submit the form.')
+      }
 
-    // } catch (e) {
-    //   alert('Failed to submit the form.')
-    //   console.log(e);
-    // } finally {
-    //   setIsSubmitting(false)
-    // }
+    } catch (e) {
+      alert('Failed to submit the form.')
+      console.log(e);
+    } finally {
+      setIsSubmitting(false)
+    }
 
   };
 
