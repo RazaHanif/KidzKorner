@@ -232,7 +232,9 @@ return (
                 id="workshop"
                 name="workshop"
                 value={formData.workshop}
-                onValueChange={handleChange}
+                onValueChange={(value) => {
+                  setFormData(prev => ({ ...prev, workshop: value}))
+                }}
                 required  
               >
                 <SelectTrigger className="w-full">
