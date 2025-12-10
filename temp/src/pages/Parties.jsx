@@ -4,9 +4,9 @@ const Parties = () => {
     return (
         <div className="flex flex-col justify-center w-full">
             <div className="flex flex-col justify-center items-center w-full">
-                <h3>
+                <div className="text-2xl">
                     Host Your Child's Party at Kidz Korner
-                </h3>
+                </div>
             </div>
 
             <div className="flex flex-col justify-center items-start w-full">
