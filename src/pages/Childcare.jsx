@@ -44,9 +44,9 @@ const Childcare = () => {
                         </div>
                     </div>
                     <img 
-                    src='/K_K_38.jpg'
-                    alt='Kids doing an activity'
-                    className="w-3xs rounded-lg border-2 shadow-lg"
+                        src='/K_K_38.jpg'
+                        alt='Kids doing an activity'
+                        className="w-3xs rounded-lg border-2 shadow-lg"
                     />
                 </div>
             </div>

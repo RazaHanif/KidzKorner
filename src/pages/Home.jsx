@@ -10,9 +10,9 @@ const Home = () => {
             <div className="flex flex-col justify-center items-center w-3/4">
                 <div className="flex md:flex-row flex-col justify-center items-center gap-4">
                     <img 
-                    src='/K_K_39.jpg'
-                    alt='Kidz Korner Store Front'
-                    className="w-3xs rounded-lg border-2 shadow-lg"
+                        src='/K_K_39.jpg'
+                        alt='Kidz Korner Store Front'
+                        className="w-3xs rounded-lg border-2 shadow-lg"
                     />
                     <div className="w-1/2 flex justify-center items-center">
                         Kidz Korner is a family-owned business located in the heart of Milton, Ontario. 
@@ -24,9 +24,9 @@ const Home = () => {
                         Our dedicated educators work closely with families to foster a strong sense of connection and support. With decades of experience in early childhood education, we are proud to help families navigate the important developmental milestones of the early years. We are here to support your child's growth, development, and well-being every step of the way.
                     </div>
                     <img 
-                    src='/K_K_8.jpg'
-                    alt='Kids playing in sand pit'
-                    className="w-3xs rounded-lg border-2 shadow-lg"
+                        src='/K_K_8.jpg'
+                        alt='Kids playing in sand pit'
+                        className="w-3xs rounded-lg border-2 shadow-lg"
                     />
                     <div className="md:hidden w-1/2 flex justify-center items-center">
                         Our dedicated educators work closely with families to foster a strong sense of connection and support. With decades of experience in early childhood education, we are proud to help families navigate the important developmental milestones of the early years. We are here to support your child's growth, development, and well-being every step of the way.
