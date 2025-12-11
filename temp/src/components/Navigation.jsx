@@ -83,72 +83,48 @@ function Navigation() {
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent className=''>
-            <DropdownMenuItem  
-              className={({ isActive }) => 
-                isActive ? 'underline underline-offset-2' : ''
-              }
-              asChild>
-              <NavLink 
+            <DropdownMenuItem  asChild>
+              <NavLink
                 to="/childcare" 
                 end
               >
                 Child Care
               </NavLink>
             </DropdownMenuItem>
-            <DropdownMenuItem  
-              className={({ isActive }) => 
-                isActive ? 'underline underline-offset-2' : ''
-              }
-              asChild>
-              <NavLink 
+            <DropdownMenuItem  asChild>
+              <NavLink
                 to="/parties" 
                 end
               >
                 Parties
               </NavLink>
             </DropdownMenuItem>
-            <DropdownMenuItem  
-              className={({ isActive }) => 
-                isActive ? 'underline underline-offset-2' : ''
-              }
-              asChild>
-              <NavLink 
+            <DropdownMenuItem  asChild>
+              <NavLink
                 to="/playground" 
                 end
               >
                 Playground
               </NavLink>
             </DropdownMenuItem>
-            <DropdownMenuItem  
-              className={({ isActive }) => 
-                isActive ? 'underline underline-offset-2' : ''
-              }
-              asChild>
-              <NavLink 
+            <DropdownMenuItem  asChild>
+              <NavLink
                 to="/workshop" 
                 end
               >
                 Workshop
               </NavLink>
             </DropdownMenuItem>
-            <DropdownMenuItem  
-              className={({ isActive }) => 
-                isActive ? 'underline underline-offset-2' : ''
-              }
-              asChild>
-              <NavLink 
+            <DropdownMenuItem  asChild>
+              <NavLink
                 to="/camp" 
                 end
               >
                 Camp
               </NavLink>
             </DropdownMenuItem>
-            <DropdownMenuItem  
-              className={({ isActive }) => 
-                isActive ? 'underline underline-offset-2' : ''
-              }
-              asChild>
-              <NavLink 
+            <DropdownMenuItem  asChild>
+              <NavLink
                 to="/about" 
                 end
               >
