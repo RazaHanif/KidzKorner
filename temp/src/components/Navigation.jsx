@@ -87,6 +87,7 @@ function Navigation() {
               <NavLink 
                 to="/childcare" 
                 end
+                className
               >
                 Child Care
               </NavLink>
@@ -95,6 +96,7 @@ function Navigation() {
               <NavLink 
                 to="/parties" 
                 end
+                className
               >
                 Parties
               </NavLink>
@@ -103,6 +105,7 @@ function Navigation() {
               <NavLink 
                 to="/playground" 
                 end
+                className
               >
                 Playground
               </NavLink>
@@ -111,6 +114,7 @@ function Navigation() {
               <NavLink 
                 to="/workshop" 
                 end
+                className
               >
                 Workshop
               </NavLink>
@@ -119,6 +123,7 @@ function Navigation() {
               <NavLink 
                 to="/camp" 
                 end
+                className
               >
                 Camp
               </NavLink>
@@ -127,6 +132,7 @@ function Navigation() {
               <NavLink 
                 to="/about" 
                 end
+                className
               >
                 About Us
               </NavLink>
