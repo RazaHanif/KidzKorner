@@ -2,20 +2,20 @@ import PartyForm from "../components/PartyForm";
 
 const Parties = () => {
     return (
-        <div className="flex flex-col justify-center items-center w-full">
+        <div className="flex flex-col justify-center items-center w-full gap-2">
             <div className="flex flex-col justify-center items-center w-full mb-4">
                 <div className="text-3xl font-bold">
                     Host Your Child's Party at Kidz Korner
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-start w-3/4">
+            <div className="flex flex-col justify-center items-start w-3/4 border-3">
                 <div className="text-md">
                     Make your child's special day unforgettable with a Kidz Korner Party! Enjoy exclusive access to our indoor playground, just for you and your invited family and friends.
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-start w-3/4">
+            <div className="flex flex-col justify-center items-start w-3/4 border-3">
                 <div className="self-center text-xl font-bold">
                     Party Package
                 </div>
@@ -39,7 +39,7 @@ const Parties = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-start w-3/4">
+            <div className="flex flex-col justify-center items-start w-3/4 border-3">
                 <div className="self-center text-xl font-bold">
                     Pricing & Booking Details
                 </div>
@@ -60,7 +60,7 @@ const Parties = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-start w-3/4">
+            <div className="flex flex-col justify-center items-start w-3/4 border-3">
                 <PartyForm/>
             </div>
 
