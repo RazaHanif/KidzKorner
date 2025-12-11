@@ -87,7 +87,9 @@ function Navigation() {
               <NavLink 
                 to="/childcare" 
                 end
-                className
+                className={({ isActive }) => 
+                  isActive ? 'underline underline-offset-2' : ''
+                }
               >
                 Child Care
               </NavLink>
@@ -96,7 +98,9 @@ function Navigation() {
               <NavLink 
                 to="/parties" 
                 end
-                className
+                className={({ isActive }) => 
+                  isActive ? 'underline underline-offset-2' : ''
+                }
               >
                 Parties
               </NavLink>
@@ -105,7 +109,9 @@ function Navigation() {
               <NavLink 
                 to="/playground" 
                 end
-                className
+                className={({ isActive }) => 
+                  isActive ? 'underline underline-offset-2' : ''
+                }
               >
                 Playground
               </NavLink>
@@ -114,7 +120,9 @@ function Navigation() {
               <NavLink 
                 to="/workshop" 
                 end
-                className
+                className={({ isActive }) => 
+                  isActive ? 'underline underline-offset-2' : ''
+                }
               >
                 Workshop
               </NavLink>
@@ -123,7 +131,9 @@ function Navigation() {
               <NavLink 
                 to="/camp" 
                 end
-                className
+                className={({ isActive }) => 
+                  isActive ? 'underline underline-offset-2' : ''
+                }
               >
                 Camp
               </NavLink>
@@ -132,7 +142,9 @@ function Navigation() {
               <NavLink 
                 to="/about" 
                 end
-                className
+                className={({ isActive }) => 
+                  isActive ? 'underline underline-offset-2' : ''
+                }
               >
                 About Us
               </NavLink>
