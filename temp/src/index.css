@@ -90,7 +90,7 @@
   --sidebar-accent-foreground: oklch(0 0 0);
   --sidebar-border: oklch(0.3867 0 0);
   --sidebar-ring: oklch(0.8027 0.1355 349.2347);
-  --font-sans: Poppins, sans-serif;
+  --font-sans: var(--font-poppins), sans-serif;
   --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   --font-mono: Roboto Mono, monospace;
   --radius: 0.5rem;
@@ -147,6 +147,9 @@
   --font-sans: var(--font-sans);
   --font-mono: var(--font-mono);
   --font-serif: var(--font-serif);
+  --font-poppins: "Poppins";
+  --font-roboto-mono: "Roboto-Mono";
+
 
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
