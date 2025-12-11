@@ -19,6 +19,7 @@ function Navigation() {
           to="/childcare" 
           end
           className={({ isActive }) =>
+            
             isActive
               ? "underline underline-offset-2"
               : "duration-300 ease-in-out hover:scale-110 border-2 border-red-500 p-2"
@@ -31,6 +32,7 @@ function Navigation() {
           to="/parties" 
           end
           className={({ isActive }) =>
+            
             isActive
               ? "underline underline-offset-2"
               : "duration-300 ease-in-out hover:scale-110 border-2 border-red-500 p-2"
@@ -43,6 +45,7 @@ function Navigation() {
           to="/playground" 
           end
           className={({ isActive }) =>
+            
             isActive
               ? "underline underline-offset-2"
               : "duration-300 ease-in-out hover:scale-110 border-2 border-red-500 p-2"
@@ -55,6 +58,7 @@ function Navigation() {
           to="/workshop" 
           end
           className={({ isActive }) =>
+            
             isActive
               ? "underline underline-offset-2"
               : "duration-300 ease-in-out hover:scale-110 border-2 border-red-500 p-2"
@@ -67,6 +71,7 @@ function Navigation() {
           to="/camp" 
           end
           className={({ isActive }) =>
+            
             isActive
               ? "underline underline-offset-2"
               : "duration-300 ease-in-out hover:scale-110 border-2 border-red-500 p-2"
@@ -79,6 +84,7 @@ function Navigation() {
           to="/about" 
           end
           className={({ isActive }) =>
+            
             isActive
               ? "underline underline-offset-2"
               : "duration-300 ease-in-out hover:scale-110 border-2 border-red-500 p-2"
