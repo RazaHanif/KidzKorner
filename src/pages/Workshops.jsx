@@ -9,19 +9,14 @@ const Workshops = () => {
             </div>
             <div className="flex md:flex-row flex-col justify-between items-center w-3/4">
                 <img 
-                    src='/K_K_3.jpg'
-                    alt='Kidz Korner Store Front'
-                    className="w-3xs rounded-lg border-2 shadow-lg"
-                />
-                <img 
                     src='/K_K_11.jpg'
                     alt='Kidz Korner Store Front'
                     className="w-3xs rounded-lg border-2 shadow-lg"
                 />
                 <img 
-                    src='/K_K_17.jpg'
+                    src='/K_K_23.jpg'
                     alt='Kidz Korner Store Front'
-                    className="w-3xs rounded-lg border-2 shadow-lg"
+                    className="w-xs rounded-lg border-2 shadow-lg"
                 />
                 <img 
                     src='/K_K_32.jpg'

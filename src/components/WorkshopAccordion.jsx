@@ -10,7 +10,8 @@ const WorkshopAccordion = () => {
                         Trigger={"Paint Night"}
                         Content={
                             <a 
-                            href="https://www.instagram.com/kidz.kornermilton/"
+                                href="https://www.instagram.com/kidz.kornermilton/"
+                                className="hover:underline"
                             >
                                 For more deails check our Instagram!
                             </a>
@@ -21,7 +22,8 @@ const WorkshopAccordion = () => {
                         Trigger={"Cooking Class"}
                         Content={
                             <a 
-                            href="https://www.instagram.com/kidz.kornermilton/"
+                                href="https://www.instagram.com/kidz.kornermilton/"
+                                className="hover:underline"
                             >
                                 For more deails check our Instagram!
                             </a>
@@ -32,7 +34,8 @@ const WorkshopAccordion = () => {
                         Trigger={"Little Sahaba's"}
                         Content={
                             <a 
-                            href="https://www.instagram.com/kidz.kornermilton/"
+                                href="https://www.instagram.com/kidz.kornermilton/"
+                                className="hover:underline"
                             >
                                 For more deails check our Instagram!
                             </a>
@@ -43,7 +46,8 @@ const WorkshopAccordion = () => {
                         Trigger={"Mommy & Me"}
                         Content={
                             <a 
-                            href="https://www.instagram.com/kidz.kornermilton/"
+                                href="https://www.instagram.com/kidz.kornermilton/"
+                                className="hover:underline"
                             >
                                 For more deails check our Instagram!
                             </a>

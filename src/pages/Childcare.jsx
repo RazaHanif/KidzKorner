@@ -14,9 +14,9 @@ const Childcare = () => {
             
             <div className="flex md:flex-row flex-col justify-evenly items-center w-3/4">
                 <img 
-                    src='/K_K_23.jpg'
+                    src='/K_K_17.jpg'
                     alt='Kid making crafts'
-                    className="w-xs rounded-lg border-2 shadow-lg"
+                    className="w-3xs rounded-lg border-2 shadow-lg"
                 />
                 <div className="flex flex-col justify-center items-center w-1/2">
                     Kidz Korner is a licensed child care centre. Our toddler, preschool, & after school programs provides a nurturing, engaging, and stimulating enviroment designed to support your child's growth and development
