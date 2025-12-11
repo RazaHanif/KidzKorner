@@ -13,7 +13,7 @@ function Navigation() {
   return (
     <>
       <div 
-        className="hidden md:flex flex-row w-3/4 text-xl lg:text-2xl justify-between items-center gap-2"
+        className="hidden lg:flex flex-row w-3/4 text-xl lg:text-2xl justify-between items-center gap-2 text-nowrap"
       >
         <Link 
           to="/childcare" 
@@ -57,7 +57,7 @@ function Navigation() {
           About Us
         </Link>
       </div>
-      <div className='md:hidden flex flex-col justify-center items-center'>
+      <div className='lg:hidden flex flex-col justify-center items-center'>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant='outline'>
