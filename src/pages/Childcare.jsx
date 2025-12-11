@@ -55,8 +55,8 @@ const Childcare = () => {
                 <div className="text-xl font-bold self-center">
                     What We Offer
                 </div>
-                <div className="flex flex-col justify-center items-center">
-                    <div className="flex flex-col justify-center items-start w-3/4 gap-1">
+                <div className="flex flex-col justify-center items-center gap-4">
+                    <div className="flex flex-col justify-center items-start md:w-3/4 gap-1">
                         <div className="text-lg">
                             Engaging Learning Experiences
                         </div>
@@ -64,7 +64,7 @@ const Childcare = () => {
                             Our programs are designed to foster curiosity, exploration, and imagination. Educators create meaningful invitations based on children's interests, promoting problem-solving, self-regulation, and social-emotional development.
                         </div>
                     </div>
-                    <div className="flex flex-col justify-center items-start w-3/4 gap-1">
+                    <div className="flex flex-col justify-center items-start md:w-3/4 gap-1">
                         <div className="text-lg">
                             Interactive & Play-Based Learning
                         </div>
@@ -72,7 +72,7 @@ const Childcare = () => {
                             Children engage in group time, open play, indoor playground exploration, and hands-on activities that support learning through play.
                         </div>
                     </div>
-                    <div className="flex flex-col justify-center items-start w-3/4 gap-1">
+                    <div className="flex flex-col justify-center items-start md:w-3/4 gap-1">
                         <div className="text-lg">
                             Parent Communication & Learning Documentation
                         </div>
@@ -80,7 +80,7 @@ const Childcare = () => {
                             We believe in strong parent-educator partnerships. Children's learning is documented and shared within the center and through a secure mobile app. Parents will receive daily updates about their child's day. 
                         </div>
                     </div>
-                    <div className="flex flex-col justify-center items-start w-3/4 gap-1">
+                    <div className="flex flex-col justify-center items-start md:w-3/4 gap-1">
                         <div className="text-lg">
                             Nutritious Meals & Snacks
                         </div>
@@ -89,7 +89,7 @@ const Childcare = () => {
 
                         </div>
                     </div>
-                    <div className="flex flex-col justify-center items-start w-3/4 gap-1">
+                    <div className="flex flex-col justify-center items-start md:w-3/4 gap-1">
                         <div className="text-lg">
                             Mixed-Age Classrooms
                         </div>
@@ -97,7 +97,7 @@ const Childcare = () => {
                             Our mixed-age groupings create a family-like environment, allowing older children to develop leadership skills while younger children benefit from peer mentorship.
                         </div>
                     </div>
-                    <div className="flex flex-col justify-center items-start w-3/4 gap-1">
+                    <div className="flex flex-col justify-center items-start md:w-3/4 gap-1">
                         <div className="text-lg">
                             Our Educators
                         </div>
@@ -108,7 +108,7 @@ const Childcare = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 gap-1">
+            <div className="flex flex-col justify-center items-center md:w-3/4 gap-1">
                 <div className="flex justify-center items-center">
                     Ready to join us? Contact us today to learn more about our preschool programs or schedule a visit! 
                 </div>
