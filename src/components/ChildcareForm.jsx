@@ -157,7 +157,7 @@ const ChildcareForm = () => {
                     id="dob"
                     name="dob"
                     value={formData.dob}
-                    onChange={handleChange}
+                    // onChange={handleChange}
                     className="w-full justify-between font-normal"
                   >
                     {formData.dob ? formData.dob : "Select date"}
@@ -197,7 +197,7 @@ const ChildcareForm = () => {
                     id="startDate"
                     name="startDate"
                     value={formData.startDate}
-                    onChange={handleChange}
+                    // onChange={handleChange}
                     className="w-full justify-between font-normal"
                   >
                     {formData.startDate ? formData.startDate : "Select date"}
