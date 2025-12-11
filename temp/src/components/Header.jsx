@@ -5,9 +5,8 @@ import Navigation from './Navigation';
 const Header = () => {
   return (
     <div className='flex flex-row justify-center items-center p-2 w-full'>
-      <div className="flex flex-row justify-between items-center w-full p-2 border-2 border-amber-500 rounded-md bg-primary">
+      <div className="flex flex-row justify-between items-center w-full p-2 rounded-md bg-primary">
         <Link 
-          className='border-2 border-red-500'
           to="/" 
           end>
           <img 
@@ -19,7 +18,7 @@ const Header = () => {
 
         {/* Collapsible links */}
         <div 
-          className='flex-1 flex flex-row justify-end items-center border-2 border-blue-500'
+          className='flex-1 flex flex-row justify-end items-center p-2'
         >
           <Navigation />
         </div>

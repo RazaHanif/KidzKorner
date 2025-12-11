@@ -5,18 +5,15 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-// import './navigation.css';
 
 function Navigation() {
 
   return (
     <>
       <div 
-        className="hidden md:flex flex-row w-full lg:w-3/4 justify-between gap-2 border-2 border-red-500 text-2xl"
+        className="hidden md:flex flex-row w-3/4 text-xl lg:text-2xl justify-between items-center gap-2"
       >
         <Link 
           to="/childcare" 
@@ -60,15 +57,15 @@ function Navigation() {
           About Us
         </Link>
       </div>
-      <div className='flex-1 flex justify-center items-center'>
+      <div className='md:hidden flex flex-col justify-center items-center'>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <Button variant='secondary'>
+            <Button variant='outline'>
               <Menu />
             </Button>
           </DropdownMenuTrigger>
-          <DropdownMenuContent>
-            <DropdownMenuItem asChild>
+          <DropdownMenuContent className=''>
+            <DropdownMenuItem  asChild>
               <Link 
                 to="/childcare" 
                 end
@@ -76,7 +73,7 @@ function Navigation() {
                 Child Care
               </Link>
             </DropdownMenuItem>
-            <DropdownMenuItem asChild>
+            <DropdownMenuItem  asChild>
               <Link 
                 to="/parties" 
                 end
@@ -84,7 +81,7 @@ function Navigation() {
                 Parties
               </Link>
             </DropdownMenuItem>
-            <DropdownMenuItem asChild>
+            <DropdownMenuItem  asChild>
               <Link 
                 to="/playground" 
                 end
@@ -92,7 +89,7 @@ function Navigation() {
                 Playground
               </Link>
             </DropdownMenuItem>
-            <DropdownMenuItem asChild>
+            <DropdownMenuItem  asChild>
               <Link 
                 to="/workshop" 
                 end
@@ -100,7 +97,7 @@ function Navigation() {
                 Workshop
               </Link>
             </DropdownMenuItem>
-            <DropdownMenuItem asChild>
+            <DropdownMenuItem  asChild>
               <Link 
                 to="/camp" 
                 end
@@ -108,7 +105,7 @@ function Navigation() {
                 Camp
               </Link>
             </DropdownMenuItem>
-            <DropdownMenuItem asChild>
+            <DropdownMenuItem  asChild>
               <Link 
                 to="/about" 
                 end
