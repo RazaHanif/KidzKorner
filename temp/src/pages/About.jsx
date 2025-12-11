@@ -20,8 +20,8 @@ const About = () => {
                                 href="tel:+19058784697"
                                 className="hover:underline flex flex-row"
                             >
-                                <Phone />
-                                <div>
+                                <Phone className="w-8"/>
+                                <div className="font-semibold">
                                     (905) 878-4697
                                 </div>
                             </a>
@@ -30,8 +30,9 @@ const About = () => {
                             <a 
                                 href="mailto:info@kidzkornermilton.com"
                                 className="hover:underline flex flex-row"
-                            >   <Mail />
-                                <div>
+                            >   
+                                <Mail className="w-8"/>
+                                <div className="font-semibold">
                                     info@kidzkornermilton.com
                                 </div>
                             </a>
@@ -41,8 +42,8 @@ const About = () => {
                                 href="https://maps.app.goo.gl/TcUQhJ58bgf6tME18"
                                 className="hover:underline flex flex-row"
                             >
-                                <MapPin />
-                                <div>
+                                <MapPin className="w-8"/>
+                                <div className="font-semibold">
                                     150 Nipissing Rd. 10 & 11, Milton, ON, L9T 5B3
                                 </div>
                             </a>
@@ -57,16 +58,16 @@ const About = () => {
                         Hours
                     </div>
                     <div className="flex flex-col justify-center items-start w-full gap-2">
-                        <div>
+                        <div className="font-semibold">
                             Child Care: Monday to Friday - 9am to 3pm
                         </div>
-                        <div>
+                        <div className="font-semibold">
                             After Schhol: Monday to Friday - 3pm to 6pm
                         </div>
-                        <div>
+                        <div className="font-semibold">
                             Indoor Playground Drop In: Monday to Friday - 3pm to 6pm
                         </div>
-                        <div>
+                        <div className="font-semibold">
                             Playground Open For Parties - Saturday & Sunday
                         </div>
                     </div>
