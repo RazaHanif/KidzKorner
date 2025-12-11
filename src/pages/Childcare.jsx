@@ -7,7 +7,7 @@ const Childcare = () => {
                 <div className="text-3xl font-bold">
                     Child Care 
                 </div>
-                <div className="text-xl font-bold self-center">
+                <div className="text-xl font-bold text-center">
                     Toddler, Preschool, & After School Programs
                 </div>    
             </div>
@@ -18,17 +18,17 @@ const Childcare = () => {
                     alt='Kids doing an activity'
                     className="w-3xs rounded-lg border-2 shadow-lg"
                 />
-                <div className="flex flex-col justify-center items-center w-1/2">
+                <div className="flex flex-col justify-center items-center md:w-1/2 w-full">
                     Kidz Korner is a licensed child care centre. Our toddler, preschool, & after school programs provides a nurturing, engaging, and stimulating enviroment designed to support your child's growth and development
                     Our curriculum is guided by the Ministry of Education's "How Does Learning Happen?" (HDLH) framework, focusing on the well-being, engagment expression and belonging of each individual child.
                 </div>
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4">
-                <div className="text-xl font-bold self-center">
+                <div className="text-xl font-bold text-center">
                     Program Options - Full & Half Days
                 </div>
-                <div className="flex md:flex-row flex-col justify-evenly items-center w-full">
+                <div className="flex md:flex-row flex-col md:justify-evenly justify-center items-center w-full">
                     <div className="flex flex-col justify-center">
                         <div className="text-lg">
                             Full Day 9:00 am - 3:00 pm
