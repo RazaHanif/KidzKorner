@@ -164,7 +164,7 @@ const ChildcareForm = () => {
                     <ChevronDownIcon />
                   </Button>
                 </PopoverTrigger>
-                <PopoverContent className="w-full p-0" side="bottom" align="start">
+                <PopoverContent className="w-full p-0" side="bottom" align="start" avoidCollisions={false}>
                   <Calendar
                     mode="single"
                     name="dob"
@@ -204,7 +204,7 @@ const ChildcareForm = () => {
                     <ChevronDownIcon />
                   </Button>
                 </PopoverTrigger>
-                <PopoverContent className="w-full p-0" side="bottom" align="start">
+                <PopoverContent className="w-full p-0" side="bottom" align="start" avoidCollisions={false}>
                   <Calendar
                     mode="single"
                     name="startDate"
