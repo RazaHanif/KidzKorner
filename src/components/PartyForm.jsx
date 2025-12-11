@@ -200,8 +200,8 @@ const PartyForm = () => {
               <Label 
                 htmlFor="message"
               >
-                Tell us more
-              ...</Label>
+                Tell us more...
+              </Label>
               <Input
                 type='text'
                 id="message"
