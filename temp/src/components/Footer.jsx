@@ -78,8 +78,16 @@ const Footer = () => {
           After School Hours
         </div>
         <div className="flex-1 flex flex-col justify-start items-start gap-2">
-          <div>
-            Monday to Friday - 3:00pm to 6:00pm
+          <div className="flex flex-col lg:flex-row lg:gap-2">
+            <div>
+              Monday to Friday
+            </div>
+            <div className="hidden lg:flex">
+              -
+            </div>
+            <div>
+              3:00pm to 6:00pm
+            </div>
           </div>
         </div>
       </div>
