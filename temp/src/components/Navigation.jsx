@@ -21,7 +21,7 @@ function Navigation() {
           className={({ isActive }) =>
             isActive
               ? "underline underline-offset-2"
-              : "duration-300 ease-in-out hover:scale-110"
+              : "duration-300 ease-in-out hover:scale-100 hover:animate-bounce border-2 border-red-500 p-2"
           }
         >
           Child Care
@@ -33,7 +33,7 @@ function Navigation() {
           className={({ isActive }) =>
             isActive
               ? "underline underline-offset-2"
-              : "duration-300 ease-in-out hover:scale-110"
+              : "duration-300 ease-in-out hover:scale-100 hover:animate-bounce border-2 border-red-500 p-2"
           }
         >
           Parties
@@ -45,7 +45,7 @@ function Navigation() {
           className={({ isActive }) =>
             isActive
               ? "underline underline-offset-2"
-              : "duration-300 ease-in-out hover:scale-110"
+              : "duration-300 ease-in-out hover:scale-100 hover:animate-bounce border-2 border-red-500 p-2"
           }
         >
           Playground
@@ -57,7 +57,7 @@ function Navigation() {
           className={({ isActive }) =>
             isActive
               ? "underline underline-offset-2"
-              : "duration-300 ease-in-out hover:scale-110"
+              : "duration-300 ease-in-out hover:scale-100 hover:animate-bounce border-2 border-red-500 p-2"
           }
         >
           Workshops
@@ -69,7 +69,7 @@ function Navigation() {
           className={({ isActive }) =>
             isActive
               ? "underline underline-offset-2"
-              : "duration-300 ease-in-out hover:scale-110"
+              : "duration-300 ease-in-out hover:scale-100 hover:animate-bounce border-2 border-red-500 p-2"
           }
         >
           Camp
@@ -81,7 +81,7 @@ function Navigation() {
           className={({ isActive }) =>
             isActive
               ? "underline underline-offset-2"
-              : "duration-300 ease-in-out hover:scale-110"
+              : "duration-300 ease-in-out hover:scale-100 hover:animate-bounce border-2 border-red-500 p-2"
           }
         >
           About Us
