@@ -164,7 +164,7 @@ const ChildcareForm = () => {
                     <ChevronDownIcon />
                   </Button>
                 </PopoverTrigger>
-                <PopoverContent className="w-auto overflow-hidden p-0" align="start">
+                <PopoverContent className="w-auto p-0" side='bottom' align="start">
                   <Calendar
                     mode="single"
                     name="dob"
