@@ -12,9 +12,9 @@ const Playground = () => {
             <div className="flex flex-col justify-center items-center w-3/4 border-4">
                 <div className="border-4 flex md:flex-row flex-col justify-center items-center gap-2">
                     <img 
-                        src='/K_K_39.jpg'
+                        src='/K_K_20.jpg'
                         alt='Kidz Korner Store Front'
-                        className="w-3xs rounded-lg border-2 shadow-lg"
+                        className="w-xs rounded-lg border-2 shadow-lg"
                     />
                     <div>
                         Looking for a fun and safe indoor space for your child to play?<br/>
@@ -24,16 +24,23 @@ const Playground = () => {
                 <div className="text-xl font-bold self-center border-4">
                     What We Offer
                 </div>
-                <div className="border-4">
+                <div className="border-4 flex md:flex-row flex-col justify-center items-center gap-2">
                     <div>
-                        A varity of skill-building play areas for your child to explore and enjoy.
+                        <div>
+                            A varity of skill-building play areas for your child to explore and enjoy.
+                        </div>
+                        <div>
+                            A perfect escape from the heat, cold, rain or snow.
+                        </div>
+                        <div>
+                            Convenient facilities with two washrooms, diaper changing stations, and step stools.
+                        </div>
                     </div>
-                    <div>
-                        A perfect escape from the heat, cold, rain or snow.
-                    </div>
-                    <div>
-                        Convenient facilities with two washrooms, diaper changing stations, and step stools.
-                    </div>
+                    <img 
+                        src='/K_K_30.jpg'
+                        alt='Kidz Korner Store Front'
+                        className="w-3xs rounded-lg border-2 shadow-lg"
+                    />
                 </div>
 
             </div>
