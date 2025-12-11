@@ -117,10 +117,10 @@ const Childcare = () => {
             </div>
 
         </div>
-            <div className="relative w-full">
-                <ChildcareForm/>
-            </div>
-            </>
+        <div className="relative w-full">
+            <ChildcareForm/>
+        </div>
+        </>
     );
 }
   
