@@ -4,14 +4,14 @@ import Navigation from './Navigation';
 const Header = () => {
   return (
     <div className='flex flex-row justify-center p-2 w-full'>
-      <div className="flex flex-row justify-between items-center w-full p-2 rounded-md bg-primary">
+      <div className="flex flex-row justify-between items-center w-full pr-2 rounded-md bg-primary">
         <Link 
-          to="/" 
-          end>
+          to="/"
+        >
           <img 
             src='/logo.png'
             alt='Home'
-            className='w-25 hover:scale-110 duration-300 ease-in-out'
+            className='w-30 hover:scale-110 duration-300 ease-in-out'
           />
         </Link>
 

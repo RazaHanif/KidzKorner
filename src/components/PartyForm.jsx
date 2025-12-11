@@ -148,14 +148,14 @@ const PartyForm = () => {
                     id="partyDate"
                     name="partyDate"
                     value={formData.partyDate}
-                    // onChange={handleChange}
+                    onChange={handleChange}
                     className="w-full justify-between font-normal"
                   >
                     {formData.partyDate ? formData.partyDate : "Select date"}
                     <ChevronDownIcon />
                   </Button>
                 </PopoverTrigger>
-                <PopoverContent className="w-full p-0" side="bottom" align="start" avoidCollisions={false} forceMount asChild>
+                <PopoverContent className="w-full p-0" side="bottom" align="start" avoidCollisions={false} forceMount>
                   <Calendar
                     mode="single"
                     name="partyDate"

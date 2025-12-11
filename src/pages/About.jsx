@@ -77,7 +77,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="flex justify-center items-center md:w-full w-3/4">
+            <div className="flex justify-center items-center md:w-[600px] w-full rounded-lg border-2 shadow-lg overflow-hidden">
                 <iframe
                     title="Google Maps"
                     loading="lazy"
@@ -89,6 +89,7 @@ const About = () => {
                     aria-hidden="false"
                     tabIndex="0"
                     src={url}
+                    className="border-4"
                 />
             </div>
             

@@ -8,7 +8,7 @@ import {
 const KKAccordionItem = ({ Trigger, Content, Num }) => {
     return (
         <AccordionItem 
-            className="bg-card border-black w-full"
+            className="bg-card border-secondary w-full"
             value={`item-${Num}`}
         >
             <AccordionTrigger 

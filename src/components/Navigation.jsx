@@ -19,7 +19,7 @@ function Navigation() {
           to="/childcare" 
           end
           className={({ isActive }) =>
-            `duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
+            `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
           }
         >
           Child Care
@@ -29,7 +29,7 @@ function Navigation() {
           to="/parties" 
           end
           className={({ isActive }) =>
-            `duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
+            `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
           }
         >
           Parties
@@ -39,7 +39,7 @@ function Navigation() {
           to="/playground" 
           end
           className={({ isActive }) =>
-            `duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
+            `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
           }
         >
           Playground
@@ -49,7 +49,7 @@ function Navigation() {
           to="/workshop" 
           end
           className={({ isActive }) =>
-            `duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
+            `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
           }
         >
           Workshops
@@ -59,7 +59,7 @@ function Navigation() {
           to="/camp" 
           end
           className={({ isActive }) =>
-            `duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
+            `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
           }
         >
           Camp
@@ -69,7 +69,7 @@ function Navigation() {
           to="/about" 
           end
           className={({ isActive }) =>
-            `duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
+            `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
           }
         >
           About Us

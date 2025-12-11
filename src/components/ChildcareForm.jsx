@@ -157,14 +157,14 @@ const ChildcareForm = () => {
                     id="dob"
                     name="dob"
                     value={formData.dob}
-                    // onChange={handleChange}
+                    onChange={handleChange}
                     className="w-full justify-between font-normal"
                   >
                     {formData.dob ? formData.dob : "Select date"}
                     <ChevronDownIcon />
                   </Button>
                 </PopoverTrigger>
-                <PopoverContent className="w-full p-0" side="bottom" align="start" avoidCollisions={false} forceMount asChild>
+                <PopoverContent className="w-full p-0" side="bottom" align="start" avoidCollisions={false} forceMount>
                   <Calendar
                     mode="single"
                     name="dob"
@@ -197,14 +197,14 @@ const ChildcareForm = () => {
                     id="startDate"
                     name="startDate"
                     value={formData.startDate}
-                    // onChange={handleChange}
+                    onChange={handleChange}
                     className="w-full justify-between font-normal"
                   >
                     {formData.startDate ? formData.startDate : "Select date"}
                     <ChevronDownIcon />
                   </Button>
                 </PopoverTrigger>
-                <PopoverContent className="w-full p-0" side="bottom" align="start" avoidCollisions={false} forceMount asChild>
+                <PopoverContent className="w-full p-0" side="bottom" align="start" avoidCollisions={false} forceMount>
                   <Calendar
                     mode="single"
                     name="startDate"
