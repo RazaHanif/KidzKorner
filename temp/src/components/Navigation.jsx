@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { Button } from "@/components/ui/button"
 import { Menu } from 'lucide-react';
 import {
@@ -15,47 +15,77 @@ function Navigation() {
       <div 
         className="hidden lg:flex flex-row w-2xl text-xl lg:text-2xl justify-between items-center gap-2 text-nowrap"
       >
-        <Link 
+        <NavLink 
           to="/childcare" 
           end
+          className={({ isActive }) =>
+            isActive
+              ? "text-secondary underline underline-offset-2"
+              : "hover:underline underline-offset-2 hover:text-secondary transition-colors"
+          }
         >
           Child Care
-        </Link>
+        </NavLink>
 
-        <Link 
+        <NavLink 
           to="/parties" 
           end
+          className={({ isActive }) =>
+            isActive
+              ? "text-secondary underline underline-offset-2"
+              : "hover:underline underline-offset-2 hover:text-secondary transition-colors"
+          }
         >
           Parties
-        </Link>
+        </NavLink>
 
-        <Link 
+        <NavLink 
           to="/playground" 
           end
+          className={({ isActive }) =>
+            isActive
+              ? "text-secondary underline underline-offset-2"
+              : "hover:underline underline-offset-2 hover:text-secondary transition-colors"
+          }
         >
           Playground
-        </Link>
+        </NavLink>
 
-        <Link 
+        <NavLink 
           to="/workshop" 
           end
+          className={({ isActive }) =>
+            isActive
+              ? "text-secondary underline underline-offset-2"
+              : "hover:underline underline-offset-2 hover:text-secondary transition-colors"
+          }
         >
           Workshops
-        </Link>
+        </NavLink>
 
-        <Link 
+        <NavLink 
           to="/camp" 
           end
+          className={({ isActive }) =>
+            isActive
+              ? "text-secondary underline underline-offset-2"
+              : "hover:underline underline-offset-2 hover:text-secondary transition-colors"
+          }
         >
           Camp
-        </Link>
+        </NavLink>
 
-        <Link 
+        <NavLink 
           to="/about" 
           end
+          className={({ isActive }) =>
+            isActive
+              ? "text-secondary underline underline-offset-2"
+              : "hover:underline underline-offset-2 hover:text-secondary transition-colors"
+          }
         >
           About Us
-        </Link>
+        </NavLink>
       </div>
       <div className='lg:hidden flex flex-col justify-center items-center'>
         <DropdownMenu>
@@ -66,52 +96,52 @@ function Navigation() {
           </DropdownMenuTrigger>
           <DropdownMenuContent className=''>
             <DropdownMenuItem  asChild>
-              <Link 
+              <NavLink 
                 to="/childcare" 
                 end
               >
                 Child Care
-              </Link>
+              </NavLink>
             </DropdownMenuItem>
             <DropdownMenuItem  asChild>
-              <Link 
+              <NavLink 
                 to="/parties" 
                 end
               >
                 Parties
-              </Link>
+              </NavLink>
             </DropdownMenuItem>
             <DropdownMenuItem  asChild>
-              <Link 
+              <NavLink 
                 to="/playground" 
                 end
               >
                 Playground
-              </Link>
+              </NavLink>
             </DropdownMenuItem>
             <DropdownMenuItem  asChild>
-              <Link 
+              <NavLink 
                 to="/workshop" 
                 end
               >
                 Workshop
-              </Link>
+              </NavLink>
             </DropdownMenuItem>
             <DropdownMenuItem  asChild>
-              <Link 
+              <NavLink 
                 to="/camp" 
                 end
               >
                 Camp
-              </Link>
+              </NavLink>
             </DropdownMenuItem>
             <DropdownMenuItem  asChild>
-              <Link 
+              <NavLink 
                 to="/about" 
                 end
               >
                 About Us
-              </Link>
+              </NavLink>
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
