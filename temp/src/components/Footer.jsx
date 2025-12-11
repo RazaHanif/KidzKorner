@@ -1,39 +1,63 @@
 const Footer = () => {
   return (
-    <div className="footer py-4 bg-amber-500">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-4 mb-3 contact-us">
-            <h5>Contact Us</h5>
-            <p>
-              <a href="https://maps.app.goo.gl/TcUQhJ58bgf6tME18">
+    <div className="bg-red-500">
+      <div className="bg-blue-500">
+        <div className="bg-green-500">
+          <div className="bg-yellow-500">
+            <div className="text-xl">
+              Contact Us
+            </div>
+            <div>
+              <a 
+                href="https://maps.app.goo.gl/TcUQhJ58bgf6tME18"
+              >
                 150 Nipissing Rd. 10 & 11, Milton, ON, L9T 5B3
               </a>
-            </p>
-            <p>
-              <a href="tel:+19058784697">
+            </div>
+            <div>
+              <a 
+                href="tel:+19058784697"
+              >
                 (905) 878-4697
               </a>
-            </p>
-            <p>
-              <a href="mailto:info@kidzkornermilton.com">
+            </div>
+            <div>
+              <a 
+                href="mailto:info@kidzkornermilton.com"
+              >
                 info@kidzkornermilton.com
               </a>
-            </p>
-            <p>
-              <a href="https://www.instagram.com/kidz.kornermilton/">
+            </div>
+            <div>
+              <a 
+                href="https://www.instagram.com/kidz.kornermilton/"
+              >
                 Follow us on Instagram
               </a>
-            </p>
+            </div>
           </div>
-          <div className="col-md-4 mb-3">
-            <h5>Child Care Hours</h5>
-            <p>Monday to Friday - 9:00am to 3:00pm</p>
+
+          <div className="bg-purple-500">
+            <div className="text-xl">
+                Child Care Hours</div>
+            <div>
+              Monday to Friday - 9:00am to 3:00pm
+            </div>
+            <div>
+              After School | 3:00pm to 6:00pm
+            </div>
           </div>
-          <div className="col-md-4 mb-3">
-            <h5>Indoor Playground Hours</h5>
-            <p>Monday to Friday - 9:00am to 3:00pm</p>
-            <p>Saturday to Sunday - Parties Only</p>
+
+          <div className="bg-pink-500">
+            <div className="text-xl">
+              Indoor Playground Hours
+            </div>
+            <div>
+              Drop In Play | Monday to Friday - 3:00pm to 6:00pm
+            </div>
+            <div>
+              Parties | Saturday to Sunday
+            </div>
           </div>
         </div>
       </div>

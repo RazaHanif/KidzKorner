@@ -40,31 +40,29 @@ const CampForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true)
-    console.log(formData)
-    setSubmitted(true)
 
-    // try {
-    //   const response = await fetch('/api/send-email', {
-    //     method: 'POST',
-    //     headers: {
-    //       'Content-Type': 'application/json',
-    //     },
-    //     body: JSON.stringify(formData),
-    //   });
+    try {
+      const response = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
 
-    //   if (response.ok) {
-    //     setSubmitted(true)
-    //   }
-    //   else {
-    //     alert('Failed to submit the form.')
-    //   }
+      if (response.ok) {
+        setSubmitted(true)
+      }
+      else {
+        alert('Failed to submit the form.')
+      }
 
-    // } catch (e) {
-    //   alert('Failed to submit the form.')
-    //   console.log(e);
-    // } finally {
-    //   setIsSubmitting(false)
-    // }
+    } catch (e) {
+      alert('Failed to submit the form.')
+      console.log(e);
+    } finally {
+      setIsSubmitting(false)
+    }
 
   };
 
@@ -73,11 +71,11 @@ const CampForm = () => {
 
       {/* Show thank you message when form is submitted */}
       { submitted ? (
-        <div className="flex flex-col justify-center items-center w-1/2 text-black bg-card border-2 border-gray-200 rounded-lg">
+        <div className="flex flex-col justify-center items-center w-lg text-black bg-card border-2 border-gray-200 rounded-lg">
           Form submitted, thank you!
         </div>
       ) : (
-        <div className='flex flex-col justify-center items-center w-1/2'>
+        <div className='flex flex-col justify-center items-center w-lg'>
           <div className='flex flex-col justify-center items-center w-full text-2xl font-bold text-black'>
               Childcare Enrollment Form
           </div>

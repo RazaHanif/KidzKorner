@@ -57,11 +57,11 @@ const ContactForm = () => {
 
       {/* Show thank you message when form is submitted */}
       { submitted ? (
-        <div className="flex flex-col justify-center items-center w-1/2 text-black bg-card border-2 border-gray-200 rounded-lg">
+        <div className="flex flex-col justify-center items-center w-lg text-black bg-card border-2 border-gray-200 rounded-lg">
           Form submitted, thank you!
         </div>
       ) : (
-        <div className='flex flex-col justify-center items-center w-1/2'>
+        <div className='flex flex-col justify-center items-center w-lg'>
           <div className='flex flex-col justify-center items-center w-full text-2xl font-bold text-black'>
               Childcare Enrollment Form
           </div>
