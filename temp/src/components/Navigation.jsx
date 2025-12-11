@@ -63,21 +63,57 @@ function Navigation() {
       <div className='flex-1 flex justify-center items-center'>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <Button varient='outline'>
+            <Button variant='secondary'>
               <Menu />
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent>
-            <DropdownMenuLabel>
-              Pages
-            </DropdownMenuLabel>
-            <DropdownMenuSeparator />
+            <DropdownMenuItem asChild>
+              <Link 
+                to="/childcare" 
+                end
+              >
+                Child Care
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem asChild>
+              <Link 
+                to="/parties" 
+                end
+              >
+                Parties
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem asChild>
+              <Link 
+                to="/playground" 
+                end
+              >
+                Playground
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem asChild>
+              <Link 
+                to="/workshop" 
+                end
+              >
+                Workshop
+              </Link>
+            </DropdownMenuItem>
             <DropdownMenuItem asChild>
               <Link 
                 to="/camp" 
                 end
               >
                 Camp
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem asChild>
+              <Link 
+                to="/about" 
+                end
+              >
+                About Us
               </Link>
             </DropdownMenuItem>
           </DropdownMenuContent>
