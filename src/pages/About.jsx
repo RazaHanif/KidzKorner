@@ -1,4 +1,3 @@
-import { Mail, MapPin, Phone } from "lucide-react";
 import ContactForm from "../components/ContactForm";
 
 const About = () => {
@@ -18,7 +17,6 @@ const About = () => {
                                 href="tel:+19058784697"
                                 className="hover:underline flex flex-row"
                             >
-                                <Phone className="w-8"/>
                                 <div className="font-semibold">
                                     (905) 878-4697
                                 </div>
@@ -29,7 +27,6 @@ const About = () => {
                                 href="mailto:info@kidzkornermilton.com"
                                 className="hover:underline flex flex-row"
                             >   
-                                <Mail className="w-8"/>
                                 <div className="font-semibold">
                                     info@kidzkornermilton.com
                                 </div>
@@ -40,7 +37,6 @@ const About = () => {
                                 href="https://maps.app.goo.gl/TcUQhJ58bgf6tME18"
                                 className="hover:underline flex flex-row"
                             >
-                                <MapPin className="w-8"/>
                                 <div className="font-semibold">
                                     150 Nipissing Rd. 10 & 11, Milton, ON, L9T 5B3
                                 </div>
@@ -57,13 +53,13 @@ const About = () => {
                     />
                 </div>
 
-                <div className="flex-1 flex flex-col justify-center items-end w-3/4 gap-2">
+                <div className="flex-1 flex flex-col justify-center items-center w-3/4 gap-2">
                     <div 
-                        className="text-xl font-bold"
+                        className="text-xl font-bold md:self-end text-center"
                     >
                         Hours
                     </div>
-                    <div className="flex flex-col justify-center items-end text-end w-full gap-2">
+                    <div className="flex flex-col justify-center items-end md:text-end w-full gap-2">
                         <div className="font-semibold">
                             Child Care: Monday to Friday - 9am to 3pm
                         </div>
@@ -80,7 +76,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center md:w-full w-3/4">
                 <iframe
                     title="Google Maps"
                     loading="lazy"
