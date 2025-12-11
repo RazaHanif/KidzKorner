@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { Button } from "@/components/ui/button"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -58,16 +59,28 @@ function Navigation() {
           About Us
         </Link>
       </div>
-      <div>
+      <div className='bg-blue-500 flex-1 flex justify-center items-center'>
         <DropdownMenu>
-          <DropdownMenuTrigger>Open</DropdownMenuTrigger>
+          <DropdownMenuTrigger asChild>
+            <Button 
+              varient='outline'
+            >
+              Open
+            </Button>
+          </DropdownMenuTrigger>
           <DropdownMenuContent>
-            <DropdownMenuLabel>My Account</DropdownMenuLabel>
+            <DropdownMenuLabel>
+              Pages
+            </DropdownMenuLabel>
             <DropdownMenuSeparator />
-            <DropdownMenuItem>Profile</DropdownMenuItem>
-            <DropdownMenuItem>Billing</DropdownMenuItem>
-            <DropdownMenuItem>Team</DropdownMenuItem>
-            <DropdownMenuItem>Subscription</DropdownMenuItem>
+            <DropdownMenuItem asChild>
+              <Link 
+                to="/camp" 
+                end
+              >
+                Camp
+              </Link>
+            </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
       </div>
