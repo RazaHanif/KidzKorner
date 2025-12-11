@@ -21,23 +21,30 @@ const Childcare = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-start w-3/4">
+            <div className="flex flex-col justify-center items-center w-3/4">
                 <div className="text-xl font-bold self-center">
                     Program Options - Full & Half Days
                 </div>
-                <div className="flex flex-col justify-center items-start w-3/4">
-                    <div className="text-md">
-                        Full Day 9:00 am - 3:00 pm
+                <div className="flex flex-row justify-evenly w-full">
+                    <div className="flex flex-col justify-center">
+                        <div className="text-lg">
+                            Full Day 9:00 am - 3:00 pm
+                        </div>
+                        <div className="text-lg">
+                            Half Day - Morning 9:00 am - 11:30 am
+                        </div>
+                        <div className="text-lg">
+                            Half Day - Afternoon  12:30 pm - 3:00 pm
+                        </div>
+                        <div className="text-lg">
+                            After School  3:00 pm - 6:00 pm
+                        </div>
                     </div>
-                    <div className="text-md">
-                        Half Day - Morning 9:00 am - 11:30 am
-                    </div>
-                    <div className="text-md">
-                        Half Day - Afternoon  12:30 pm - 3:00 pm
-                    </div>
-                    <div className="text-md">
-                        After School  3:00 pm - 6:00 pm
-                    </div>
+                    <img 
+                    src='/K_K_38.jpg'
+                    alt='Kidz Korner Store Front'
+                    className="w-3xs rounded-lg border-2 shadow-lg"
+                    />
                 </div>
             </div>
             
