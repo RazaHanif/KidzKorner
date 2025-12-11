@@ -18,7 +18,7 @@ const Camp = () => {
                 </div>
                 <div className="flex md:flex-row flex-col justify-center items-center gap-2">
                     <img 
-                        src='/K_K_1.jpg'
+                        src='/K_K_12.jpg'
                         alt='Play Structure'
                         className="w-xs rounded-lg border-2 shadow-lg"
                     />
