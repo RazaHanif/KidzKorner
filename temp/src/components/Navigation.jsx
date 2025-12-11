@@ -20,8 +20,8 @@ function Navigation() {
           end
           className={({ isActive }) =>
             isActive
-              ? "text-secondary underline underline-offset-2"
-              : "hover:underline underline-offset-2 hover:text-secondary transition-colors"
+              ? "underline underline-offset-2"
+              : "hover:text-secondary transition-colors"
           }
         >
           Child Care
@@ -32,8 +32,8 @@ function Navigation() {
           end
           className={({ isActive }) =>
             isActive
-              ? "text-secondary underline underline-offset-2"
-              : "hover:underline underline-offset-2 hover:text-secondary transition-colors"
+              ? "underline underline-offset-2"
+              : "hover:text-secondary transition-colors"
           }
         >
           Parties
@@ -44,8 +44,8 @@ function Navigation() {
           end
           className={({ isActive }) =>
             isActive
-              ? "text-secondary underline underline-offset-2"
-              : "hover:underline underline-offset-2 hover:text-secondary transition-colors"
+              ? "underline underline-offset-2"
+              : "hover:text-secondary transition-colors"
           }
         >
           Playground
@@ -56,8 +56,8 @@ function Navigation() {
           end
           className={({ isActive }) =>
             isActive
-              ? "text-secondary underline underline-offset-2"
-              : "hover:underline underline-offset-2 hover:text-secondary transition-colors"
+              ? "underline underline-offset-2"
+              : "hover:text-secondary transition-colors"
           }
         >
           Workshops
@@ -68,8 +68,8 @@ function Navigation() {
           end
           className={({ isActive }) =>
             isActive
-              ? "text-secondary underline underline-offset-2"
-              : "hover:underline underline-offset-2 hover:text-secondary transition-colors"
+              ? "underline underline-offset-2"
+              : "hover:text-secondary transition-colors"
           }
         >
           Camp
@@ -80,8 +80,8 @@ function Navigation() {
           end
           className={({ isActive }) =>
             isActive
-              ? "text-secondary underline underline-offset-2"
-              : "hover:underline underline-offset-2 hover:text-secondary transition-colors"
+              ? "underline underline-offset-2"
+              : "hover:text-secondary transition-colors"
           }
         >
           About Us
