@@ -63,7 +63,7 @@ function Navigation() {
       <div className='flex-1 flex justify-center items-center'>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <Button>
+            <Button varient='outline'>
               <Menu />
             </Button>
           </DropdownMenuTrigger>
