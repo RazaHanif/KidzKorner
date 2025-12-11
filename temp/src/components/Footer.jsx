@@ -1,3 +1,5 @@
+import { MapPin } from "lucide-react";
+
 const Footer = () => {
   return (
     <div className="flex flex-col md:flex-row justify-center w-full bg-primary">
@@ -6,14 +8,6 @@ const Footer = () => {
           Contact Us
         </div>
         <div className="flex-1 flex flex-col justify-start items-start gap-2">
-          <div>
-            <a 
-              href="https://maps.app.goo.gl/TcUQhJ58bgf6tME18"
-              className="hover:underline"
-            >
-              150 Nipissing Rd. 10 & 11, Milton, ON, L9T 5B3
-            </a>
-          </div>
           <div>
             <a 
               href="tel:+19058784697"
@@ -28,6 +22,17 @@ const Footer = () => {
               className="hover:underline"
             >
               info@kidzkornermilton.com
+            </a>
+          </div>
+          <div>
+            <a 
+              href="https://maps.app.goo.gl/TcUQhJ58bgf6tME18"
+              className="hover:underline flex flex-row"
+            >
+              <MapPin />
+              <div>
+                150 Nipissing Rd. 10 & 11, Milton, ON
+              </div>
             </a>
           </div>
           <div>
@@ -49,11 +54,20 @@ const Footer = () => {
           <div>
             Monday to Friday - 9:00am to 3:00pm
           </div>
+        </div>
+      </div>
+
+      <div className="flex-1 flex flex-col justify-center p-2 gap-2">
+        <div className="text-xl flex justify-start items-start">
+          After School Hours
+        </div>
+        <div className="flex-1 flex flex-col justify-start items-start gap-2">
           <div>
-            After School | 3:00pm to 6:00pm
+            Monday to Friday - 3:00pm to 6:00pm
           </div>
         </div>
       </div>
+
 
       <div className="flex-1 flex flex-col justify-center p-2 gap-2">
         <div className="text-xl flex justify-start items-start">
@@ -61,10 +75,10 @@ const Footer = () => {
         </div>
         <div className="flex-1 flex flex-col justify-start items-start gap-2">
           <div>
-            Drop In Play | Monday to Friday - 3:00pm to 6:00pm
+            Monday to Friday - 3:00pm to 6:00pm
           </div>
           <div>
-            Parties | Saturday to Sunday
+            Saturday to Sunday - Parties Only
           </div>
         </div>
       </div>
