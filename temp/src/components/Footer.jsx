@@ -64,11 +64,11 @@ const Footer = () => {
           Child Care Hours
         </div>
         <div className="flex-1 flex flex-col justify-start items-start gap-2">
-          <div className="flex flex-col lg:flex-row lg:gap-2 justify-center items-center">
+          <div className="flex md:flex-col lg:flex-row flex-row md:gap-0 lg:gap-1 gap-1 justify-center items-center">
             <div>
               Monday to Friday
             </div>
-            <div className="hidden lg:flex">
+            <div className="md:hidden lg:flex flex">
               -
             </div>
             <div>
@@ -86,11 +86,11 @@ const Footer = () => {
           After School Hours
         </div>
         <div className="flex-1 flex flex-col justify-start items-start gap-2">
-          <div className="flex flex-col lg:flex-row lg:gap-2 justify-center items-center">
+          <div className="flex md:flex-col lg:flex-row flex-row md:gap-0 lg:gap-1 gap-1 justify-center items-center">
             <div>
               Monday to Friday
             </div>
-            <div className="hidden lg:flex">
+            <div className="md:hidden lg:flex flex">
               -
             </div>
             <div>
@@ -108,22 +108,22 @@ const Footer = () => {
           Indoor Playground Hours
         </div>
         <div className="flex-1 flex flex-col justify-start items-start gap-2">
-          <div className="flex flex-col lg:flex-row lg:gap-2 justify-center items-center">
+          <div className="flex md:flex-col lg:flex-row flex-row md:gap-0 lg:gap-1 gap-1 justify-center items-center">
             <div>
               Monday to Friday
             </div>
-            <div className="hidden lg:flex">
+            <div className="md:hidden lg:flex flex">
               -
             </div>
             <div>
               3:00pm to 6:00pm
             </div>
           </div>
-          <div className="flex flex-col lg:flex-row lg:gap-2 justify-center items-center">
+          <div className="flex md:flex-col lg:flex-row flex-row md:gap-0 lg:gap-1 gap-1 justify-center items-center">
             <div>
               Saturday to Sunday
             </div>
-            <div className="hidden lg:flex">
+            <div className="md:hidden lg:flex flex">
               -
             </div>
             <div>
