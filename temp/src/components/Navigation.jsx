@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button"
+import { Menu } from 'lucide-react';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -59,13 +60,11 @@ function Navigation() {
           About Us
         </Link>
       </div>
-      <div className='bg-blue-500 flex-1 flex justify-center items-center'>
+      <div className='flex-1 flex justify-center items-center'>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <Button 
-              varient='outline'
-            >
-              Open
+            <Button>
+              <Menu />
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent>
