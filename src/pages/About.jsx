@@ -7,7 +7,7 @@ const About = () => {
 
     return (
         <div className="flex flex-col justify-center items-center gap-2 w-full">
-            <div className="flex flex-col md:flex-row justify-center items-center w-3/4 m-4">
+            <div className="flex flex-col md:flex-row justify-center items-center w-3/4 m-4 gap-4">
                 <div className="flex-1 flex flex-col justify-center items-start w-3/4 gap-2">
                     <div 
                         className="text-xl font-bold"
@@ -51,13 +51,21 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="flex-1 flex flex-col justify-center items-start w-3/4 gap-2">
+                <div>
+                    <img 
+                        src='/K_K_2.jpg'
+                        alt='Truck in corn pit'
+                        className="w-3xs rounded-lg border-2 shadow-lg"
+                    />
+                </div>
+
+                <div className="flex-1 flex flex-col justify-center items-end w-3/4 gap-2">
                     <div 
                         className="text-xl font-bold"
                     >
                         Hours
                     </div>
-                    <div className="flex flex-col justify-center items-start w-full gap-2">
+                    <div className="flex flex-col justify-center items-end text-end w-full gap-2">
                         <div className="font-semibold">
                             Child Care: Monday to Friday - 9am to 3pm
                         </div>

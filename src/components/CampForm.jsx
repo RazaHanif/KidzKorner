@@ -77,7 +77,7 @@ const CampForm = () => {
       ) : (
         <div className='flex flex-col justify-center items-center w-lg'>
           <div className='flex flex-col justify-center items-center w-full text-2xl font-bold text-black'>
-              Childcare Enrollment Form
+              Camp Enrollment Form
           </div>
           <form 
             onSubmit={handleSubmit}
