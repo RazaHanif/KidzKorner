@@ -3,7 +3,7 @@ import Navigation from './Navigation';
 
 const Header = () => {
   return (
-    <div className='flex flex-row justify-center items-center p-2 w-full'>
+    <div className='flex flex-row justify-center p-2 w-full'>
       <div className="flex flex-row justify-between items-center w-full p-2 rounded-md bg-primary">
         <Link 
           to="/" 
@@ -11,7 +11,7 @@ const Header = () => {
           <img 
             src='/logo.png'
             alt='Home'
-            className='w-25'
+            className='w-25 hover:scale-110 duration-300 ease-in-out'
           />
         </Link>
 
