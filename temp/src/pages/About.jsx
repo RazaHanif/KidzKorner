@@ -1,3 +1,4 @@
+import { Mail, MapPin, Phone } from "lucide-react";
 import ContactForm from "../components/ContactForm";
 
 const About = () => {
@@ -7,47 +8,55 @@ const About = () => {
     return (
         <div className="flex flex-col justify-center items-center gap-2 w-full">
             <div className="flex flex-col md:flex-row justify-center items-center w-3/4 m-4">
-                <div className="flex-1 flex flex-col justify-center items-start w-3/4">
+                <div className="flex-1 flex flex-col justify-center items-start w-3/4 gap-2">
                     <div 
                         className="text-xl font-bold"
                     >
                         Contact Us
                     </div>
-                    <div>
-                        <div>
-                            <a 
-                                href="https://maps.app.goo.gl/TcUQhJ58bgf6tME18"
-                                className="hover:underline"
-                            >
-                                150 Nipissing Rd. 10 & 11, Milton, ON, L9T 5B3
-                            </a>
-                        </div>
+                    <div className="flex flex-col justify-center items-start w-full gap-2">
                         <div>
                             <a 
                                 href="tel:+19058784697"
-                                className="hover:underline"
+                                className="hover:underline flex flex-row"
                             >
-                                (905) 878-4697
+                                <Phone />
+                                <div>
+                                    (905) 878-4697
+                                </div>
                             </a>
                         </div>
                         <div>
                             <a 
                                 href="mailto:info@kidzkornermilton.com"
-                                className="hover:underline"
+                                className="hover:underline flex flex-row"
+                            >   <Mail />
+                                <div>
+                                    info@kidzkornermilton.com
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a 
+                                href="https://maps.app.goo.gl/TcUQhJ58bgf6tME18"
+                                className="hover:underline flex flex-row"
                             >
-                                info@kidzkornermilton.com
+                                <MapPin />
+                                <div>
+                                    150 Nipissing Rd. 10 & 11, Milton, ON, L9T 5B3
+                                </div>
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <div className="flex-1 flex flex-col justify-center items-start w-3/4">
+                <div className="flex-1 flex flex-col justify-center items-start w-3/4 gap-2">
                     <div 
                         className="text-xl font-bold"
                     >
                         Hours
                     </div>
-                    <div>
+                    <div className="flex flex-col justify-center items-start w-full gap-2">
                         <div>
                             Child Care: Monday to Friday - 9am to 3pm
                         </div>
