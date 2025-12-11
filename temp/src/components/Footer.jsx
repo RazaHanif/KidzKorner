@@ -64,7 +64,7 @@ const Footer = () => {
           Child Care Hours
         </div>
         <div className="flex-1 flex flex-col justify-start items-start gap-2">
-          <div className="flex flex-col lg:flex-row lg:gap-2">
+          <div className="flex flex-col lg:flex-row lg:gap-2 justify-center items-center">
             <div>
               Monday to Friday
             </div>
@@ -86,7 +86,7 @@ const Footer = () => {
           After School Hours
         </div>
         <div className="flex-1 flex flex-col justify-start items-start gap-2">
-          <div className="flex flex-col lg:flex-row lg:gap-2">
+          <div className="flex flex-col lg:flex-row lg:gap-2 justify-center items-center">
             <div>
               Monday to Friday
             </div>
@@ -108,7 +108,7 @@ const Footer = () => {
           Indoor Playground Hours
         </div>
         <div className="flex-1 flex flex-col justify-start items-start gap-2">
-          <div className="flex flex-col lg:flex-row lg:gap-2">
+          <div className="flex flex-col lg:flex-row lg:gap-2 justify-center items-center">
             <div>
               Monday to Friday
             </div>
@@ -119,13 +119,16 @@ const Footer = () => {
               3:00pm to 6:00pm
             </div>
           </div>
-        </div>
-        <div className="flex-1 flex flex-col justify-start items-start gap-2">
-          <div>
-            Monday to Friday - 3:00pm to 6:00pm
-          </div>
-          <div>
-            Saturday to Sunday - Parties Only
+          <div className="flex flex-col lg:flex-row lg:gap-2 justify-center items-center">
+            <div>
+              Saturday to Sunday
+            </div>
+            <div className="hidden lg:flex">
+              -
+            </div>
+            <div>
+              Parties Only
+            </div>
           </div>
         </div>
       </div>
