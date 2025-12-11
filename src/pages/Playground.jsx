@@ -2,7 +2,7 @@ import PlaygroundAccordion from "../components/playgroundAccordion";
 
 const Playground = () => {
     return (
-        <div className="flex flex-col justify-center items-center w-full">
+        <div className="flex flex-col justify-center items-center w-full gap-2">
             <div className="flex flex-col justify-center items-center w-full mb-4">
                 <div className="text-3xl font-bold mb-4">
                     Drop-In Fun!
