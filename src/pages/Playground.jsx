@@ -15,6 +15,7 @@ const Playground = () => {
                         src='/K_K_20.jpg'
                         alt='Play Structure'
                         className="w-xs rounded-lg border-2 shadow-lg"
+                        loading="lazy"
                     />
                     <div>
                         Looking for a fun and safe indoor space for your child to play?<br/>
@@ -40,6 +41,7 @@ const Playground = () => {
                         src='/K_K_30.jpg'
                         alt='Kids on climbing structure'
                         className="w-3xs rounded-lg border-2 shadow-lg"
+                        loading="lazy"
                     />
                 </div>
 

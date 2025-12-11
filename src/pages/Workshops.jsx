@@ -11,17 +11,20 @@ const Workshops = () => {
                 <img 
                     src='/K_K_11.jpg'
                     alt='Kid playing with dinos'
-                    className="w-3xs rounded-lg border-2 shadow-lg"
+                        className="w-3xs rounded-lg border-2 shadow-lg"
+                        loading="lazy"
                 />
                 <img 
                     src='/K_K_23.jpg'
                     alt='Kid doing activity'
-                    className="w-xs rounded-lg border-2 shadow-lg"
+                        className="w-xs rounded-lg border-2 shadow-lg"
+                        loading="lazy"
                 />
                 <img 
                     src='/K_K_32.jpg'
                     alt='Kid tie dyeing shirt'
-                    className="w-3xs rounded-lg border-2 shadow-lg"
+                        className="w-3xs rounded-lg border-2 shadow-lg"
+                        loading="lazy"
                 />
             </div>
             <div className="flex justify-center items-center w-3/4">

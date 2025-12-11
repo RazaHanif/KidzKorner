@@ -44,6 +44,7 @@ const Parties = () => {
                         src='/K_K_29.jpg'
                         alt='Kid admiring cake'
                         className="w-3xs rounded-lg border-2 shadow-lg"
+                        loading="lazy"
                     />
                 </div>
             </div>
@@ -60,6 +61,7 @@ const Parties = () => {
                         src='/K_K_18.jpg'
                         alt='Playground view'
                         className="w-xs rounded-lg border-2 shadow-lg"
+                        loading="lazy"
                     />
                     <div>
                         <div>

@@ -13,6 +13,7 @@ const Home = () => {
                         src='/K_K_39.jpg'
                         alt='Kidz Korner Store Front'
                         className="w-3xs rounded-lg border-2 shadow-lg"
+                        loading="lazy"
                     />
                     <div className="md:w-1/2 w-full flex justify-center items-center">
                         Kidz Korner is a family-owned business located in the heart of Milton, Ontario. 
@@ -27,6 +28,7 @@ const Home = () => {
                         src='/K_K_8.jpg'
                         alt='Kids playing in sand pit'
                         className="w-3xs rounded-lg border-2 shadow-lg"
+                        loading="lazy"
                     />
                     <div className="md:hidden md:w-1/2 w-full flex justify-center items-center">
                         Our dedicated educators work closely with families to foster a strong sense of connection and support. With decades of experience in early childhood education, we are proud to help families navigate the important developmental milestones of the early years. We are here to support your child's growth, development, and well-being every step of the way.

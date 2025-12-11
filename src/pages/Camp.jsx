@@ -24,6 +24,7 @@ const Camp = () => {
                         src='/K_K_6.jpg'
                         alt='Truck in corn pit'
                         className="w-3xs rounded-lg border-2 shadow-lg"
+                        loading="lazy"
                     /> */}
                     <div className="flex flex-col justify-center items-start">
                         <div>
@@ -57,6 +58,7 @@ const Camp = () => {
                         src='/K_K_6.jpg'
                         alt='Truck in corn pit'
                         className="w-3xs rounded-lg border-2 shadow-lg"
+                        loading="lazy"
                     /> */}
                 </div>
             </div>
@@ -70,6 +72,7 @@ const Camp = () => {
                         src='/K_K_6.jpg'
                         alt='Truck in corn pit'
                         className="w-3xs rounded-lg border-2 shadow-lg"
+                        loading="lazy"
                     /> */}
                     <div className="flex flex-col justify-center items-start">
                         <div>
