@@ -16,6 +16,7 @@ function Navigation() {
         className="hidden lg:flex flex-row w-3/4 text-xl lg:text-2xl justify-between items-center gap-2 text-nowrap"
       >
         <Link 
+          className='text-red-500 hover:text-red-200'
           to="/childcare" 
           end
         >
