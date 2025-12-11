@@ -1,6 +1,3 @@
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import './footer.css';q
-
 const Footer = () => {
   return (
     <div className="footer py-4 bg-amber-500">
