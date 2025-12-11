@@ -4,8 +4,6 @@ const About = () => {
 
     const url = `https://www.google.com/maps/embed/v1/place?key=${import.meta.env.VITE_GOOGLE_MAPS_API}&q=Kidz+Korner+Milton+Ontario`
 
-    console.log(import.meta.env.VITE_GOOGLE_MAPS_API)
-
     return (
         <div className="flex flex-col justify-center items-center gap-2 w-full">
             <div className="flex flex-col md:flex-row justify-center items-center w-3/4 m-4 gap-4">
