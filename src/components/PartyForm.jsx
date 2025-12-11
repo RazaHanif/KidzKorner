@@ -135,24 +135,6 @@ const PartyForm = () => {
               />
             </div>
 
-            {/* <div 
-              className="grid items-center gap-2 w-4/5 p-2"
-            >
-              <Label 
-                htmlFor="partyDate"
-              >
-                Party Date
-              </Label>
-              <Input
-                type="date"
-                id="partyDate"
-                name="partyDate"
-                value={formData.partyDate}
-                onChange={handleChange}
-                required
-              />
-            </div>
-            */}
             <div className="grid items-center gap-2 w-4/5 p-2">
               <Label 
                 htmlFor="partyDate" 
@@ -173,7 +155,7 @@ const PartyForm = () => {
                     <ChevronDownIcon />
                   </Button>
                 </PopoverTrigger>
-                <PopoverContent className="w-auto overflow-hidden p-0" align="start">
+                <PopoverContent className="w-full p-0" side="bottom" align="start">
                   <Calendar
                     mode="single"
                     name="partyDate"

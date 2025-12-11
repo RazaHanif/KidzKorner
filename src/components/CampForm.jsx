@@ -77,7 +77,7 @@ const CampForm = () => {
       ) : (
         <div className='flex flex-col justify-center items-center w-lg'>
           <div className='flex flex-col justify-center items-center w-full text-2xl font-bold text-black'>
-              Childcare Enrollment Form
+              Camp Enrollment Form
           </div>
           <form 
             onSubmit={handleSubmit}
@@ -148,7 +148,7 @@ const CampForm = () => {
                     <ChevronDownIcon />
                   </Button>
                 </PopoverTrigger>
-                <PopoverContent className="w-auto overflow-hidden p-0" align="start">
+                <PopoverContent className="w-full p-0" side="bottom" align="start">
                   <Calendar
                     mode="single"
                     name="dob"
