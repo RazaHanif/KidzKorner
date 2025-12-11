@@ -9,58 +9,69 @@ const Parties = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-start w-3/4 border-3">
-                <div className="text-md">
+            <div className="flex flex-col justify-center items-center w-3/4 border-3">
+                <div className="flex flex-col justify-center items-center w-3/4">
                     Make your child's special day unforgettable with a Kidz Korner Party! Enjoy exclusive access to our indoor playground, just for you and your invited family and friends.
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-start w-3/4 border-3">
+            <div className="flex flex-col justify-center items-center w-3/4 border-3">
                 <div className="self-center text-xl font-bold">
                     Party Package
                 </div>
-                <div className="text-md">
-                    3.5 hours of private access
-                </div>
-                <div className="text-md">
-                    Complimentary tea and coffee for guests
-                </div>
-                <div className="text-md">
-                    Bring your own food at no extra charge (peanut/nut-free)
-                </div>
-                <div className="text-md">
-                    Bring your own decorations to personalize the space.
-                </div>
-                <div className="text-md">
-                    Max capacity: 50 guests (seating available for up to 40 adults)
-                </div>
-                <div className="text-md">
-                    Extra 15 minutes before & after for setup and wrap-up. Free of charge
+                <div className="flex flex-row justify-center items-center gap-2">
+                    <div className="border-4">
+                        <div>
+                            3.5 hours of private access
+                        </div>
+                        <div>
+                            Complimentary tea and coffee for guests
+                        </div>
+                        <div>
+                            Bring your own food at no extra charge (peanut/nut-free)
+                        </div>
+                        <div>
+                            Bring your own decorations to personalize the space.
+                        </div>
+                        <div>
+                            Max capacity: 50 guests (seating available for up to 40 adults)
+                        </div>
+                        <div>
+                            Extra 15 minutes before & after for setup and wrap-up. Free of charge
+                        </div>
+                    </div>
+                    <img 
+                        src='/K_K_29.jpg'
+                        alt='Kidz Korner Store Front'
+                        className="w-3xs rounded-lg border-2 shadow-lg"
+                    />
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-start w-3/4 border-3">
+            <div className="flex flex-col justify-center items-center w-3/4 border-3">
                 <div className="self-center text-xl font-bold">
                     Pricing & Booking Details
                 </div>
                 <div className="text-lg font-bold">
                     $395 + tax
                 </div>
-                <div className="text-md">
-                    Full payment required at time of booking.
-                </div>
-                <div className="text-md">
-                    Additional Time: Extra party time available at $50 per hour.
-                </div>
-                <div className="text-md">
-                    Prior approval of all 3rd party vendors is required.
-                </div>
-                <div className="text-sm">
-                    *Prices are subject to change without notice*
+                <div className="flex flex-col justify-center items-start">
+                    <div>
+                        Full payment required at time of booking.
+                    </div>
+                    <div>
+                        Additional Time: Extra party time available at $50 per hour.
+                    </div>
+                    <div>
+                        Prior approval of all 3rd party vendors is required.
+                    </div>
+                    <div className="text-sm self-center">
+                        *Prices are subject to change without notice*
+                    </div>
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-start w-3/4 border-3">
+            <div className="flex flex-col justify-center items-center w-3/4 border-3">
                 <PartyForm/>
             </div>
 
