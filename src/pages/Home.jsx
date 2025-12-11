@@ -3,7 +3,7 @@ const Home = () => {
         <div className="flex flex-col justify-center items-center p-4">
             <div className="flex justify-center items-center w-3/4">
                 <img 
-                src='/logo.png'
+                src='/K_K_38'
                 alt='Home'
                 className="w-md"
                 />
