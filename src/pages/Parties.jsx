@@ -4,13 +4,13 @@ const Parties = () => {
     return (
         <div className="flex flex-col justify-center items-center w-full gap-2">
             <div className="flex flex-col justify-center items-center w-full mb-4">
-                <div className="text-3xl font-bold">
+                <div className="text-3xl font-bold text-center">
                     Host Your Child's Party at Kidz Korner
                 </div>
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4">
-                <div className="flex flex-col justify-center items-center w-3/4">
+                <div className="flex flex-col justify-center items-center md:w-3/4">
                     Make your child's special day unforgettable with a Kidz Korner Party! Enjoy exclusive access to our indoor playground, just for you and your invited family and friends.
                 </div>
             </div>
