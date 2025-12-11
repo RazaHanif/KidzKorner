@@ -71,7 +71,7 @@ const CampForm = () => {
 
       {/* Show thank you message when form is submitted */}
       { submitted ? (
-        <div className="flex flex-col justify-center items-center w-lg text-black bg-card border-2 border-gray-200 rounded-lg">
+        <div className="flex flex-col justify-center items-center w-lg text-black bg-card border-2 rounded-lg">
           Form submitted, thank you!
         </div>
       ) : (
@@ -81,7 +81,7 @@ const CampForm = () => {
           </div>
           <form 
             onSubmit={handleSubmit}
-            className='w-3/4 flex flex-col justify-center items-center gap-2 border-2 border-gray-200 bg-card rounded-lg pt-4'
+            className='w-3/4 flex flex-col justify-center items-center gap-2 border-2 bg-card rounded-lg pt-4'
           >
             <div 
               className="grid items-center gap-2 w-4/5 p-2"
@@ -239,6 +239,7 @@ const CampForm = () => {
 
             <Button
               type='submit'
+              variant='outline'
               disabled={isSubmitting}
               className="mb-4"
             >

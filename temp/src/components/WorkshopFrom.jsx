@@ -72,7 +72,7 @@ return (
 
       {/* Show thank you message when form is submitted */}
       { submitted ? (
-        <div className="flex flex-col justify-center items-center w-lg text-black bg-card border-2 border-gray-200 rounded-lg">
+        <div className="flex flex-col justify-center items-center w-lg text-black bg-card border-2 rounded-lg">
           Form submitted, thank you!
         </div>
       ) : (
@@ -82,7 +82,7 @@ return (
           </div>
           <form 
             onSubmit={handleSubmit}
-            className='w-3/4 flex flex-col justify-center items-center gap-2 border-2 border-gray-200 bg-card rounded-lg pt-4'
+            className='w-3/4 flex flex-col justify-center items-center gap-2 border-2 bg-card rounded-lg pt-4'
           >
             <div 
               className="grid items-center gap-2 w-4/5 p-2"
@@ -260,26 +260,6 @@ return (
                 </SelectContent>
               </Select>
             </div>
-{/* 
-            <div className="grid items-center gap-2 w-4/5 p-2">
-              <label htmlFor="partyDate" className="form-label">Workshop</label>
-              <select 
-                  className="form-select" 
-                  aria-label="Class Selection"
-                  id="workshop"
-                  name="workshop"
-                  value={formData.workshop}
-                  onChange={handleChange}
-                  required
-              >
-                  <option value="" selected disabled hidden>Choose a workshop</option>
-                  <option value="Paint Night">Paint Night</option>
-                  <option value="Cooking Class">Cooking Class</option>
-                  <option value="Little Sahaba's">Little Sahaba's</option>
-                  <option value="Mommy & Me">Mommy & Me</option>
-              </select>
-            </div> 
-*/}
 
             <div className="grid items-center gap-2 w-4/5 p-2">
               <Label 
@@ -300,6 +280,7 @@ return (
             
             <Button
               type='submit'
+              variant='outline'
               disabled={isSubmitting}
               className="mb-4"
             >
