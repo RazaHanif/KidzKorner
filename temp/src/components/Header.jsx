@@ -4,21 +4,24 @@ import Navigation from './Navigation';
 
 const Header = () => {
   return (
-    <div>
-      <div className="flex flex-row p-2">
-        <div className="flex flex-row justify-between w-full p-2 border-2 rounded-md">
-          <Link to="/" end>
-            <img 
-              src='/logo.png'
-              alt='Home'
-              className='w-20'
-            />
-          </Link>
+    <div className='flex flex-row justify-center items-center p-2 w-full'>
+      <div className="flex flex-row justify-between items-center w-full p-2 border-2 border-amber-500 rounded-md bg-primary">
+        <Link 
+          className='border-2 border-red-500'
+          to="/" 
+          end>
+          <img 
+            src='/logo.png'
+            alt='Home'
+            className='w-25'
+          />
+        </Link>
 
-          {/* Collapsible links */}
-          <div>
-            <Navigation />
-          </div>
+        {/* Collapsible links */}
+        <div 
+          className='flex-1 flex flex-row justify-center items-center border-2 border-blue-500'
+        >
+          <Navigation />
         </div>
       </div>
     </div>
