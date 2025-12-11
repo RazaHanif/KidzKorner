@@ -21,7 +21,7 @@ function Navigation() {
           className={({ isActive }) =>
             isActive
               ? "underline underline-offset-2"
-              : "hover:text-secondary transition-colors"
+              : "hover:text-chart-4 transition-colors"
           }
         >
           Child Care
@@ -33,7 +33,7 @@ function Navigation() {
           className={({ isActive }) =>
             isActive
               ? "underline underline-offset-2"
-              : "hover:text-secondary transition-colors"
+              : "hover:text-chart-4 transition-colors"
           }
         >
           Parties
@@ -45,7 +45,7 @@ function Navigation() {
           className={({ isActive }) =>
             isActive
               ? "underline underline-offset-2"
-              : "hover:text-secondary transition-colors"
+              : "hover:text-chart-4 transition-colors"
           }
         >
           Playground
@@ -57,7 +57,7 @@ function Navigation() {
           className={({ isActive }) =>
             isActive
               ? "underline underline-offset-2"
-              : "hover:text-secondary transition-colors"
+              : "hover:text-chart-4 transition-colors"
           }
         >
           Workshops
@@ -69,7 +69,7 @@ function Navigation() {
           className={({ isActive }) =>
             isActive
               ? "underline underline-offset-2"
-              : "hover:text-secondary transition-colors"
+              : "hover:text-chart-4 transition-colors"
           }
         >
           Camp
@@ -81,7 +81,7 @@ function Navigation() {
           className={({ isActive }) =>
             isActive
               ? "underline underline-offset-2"
-              : "hover:text-secondary transition-colors"
+              : "hover:text-chart-4 transition-colors"
           }
         >
           About Us
