@@ -13,7 +13,7 @@ function Navigation() {
   return (
     <>
       <div 
-        className="hidden lg:flex flex-row w-2xl text-xl lg:text-2xl justify-between items-center gap-2 text-nowrap"
+        className="hidden lg:flex flex-row w-3xl text-xl lg:text-2xl justify-between items-center gap-4 text-nowrap"
       >
         <NavLink 
           to="/childcare" 
@@ -21,7 +21,7 @@ function Navigation() {
           className={({ isActive }) =>
             isActive
               ? "underline underline-offset-2"
-              : "hover:text-chart-4 transition-colors"
+              : "duration-300 ease-in-out hover:scale-110"
           }
         >
           Child Care
@@ -33,7 +33,7 @@ function Navigation() {
           className={({ isActive }) =>
             isActive
               ? "underline underline-offset-2"
-              : "hover:text-chart-4 transition-colors"
+              : "duration-300 ease-in-out hover:scale-110"
           }
         >
           Parties
@@ -45,7 +45,7 @@ function Navigation() {
           className={({ isActive }) =>
             isActive
               ? "underline underline-offset-2"
-              : "hover:text-chart-4 transition-colors"
+              : "duration-300 ease-in-out hover:scale-110"
           }
         >
           Playground
@@ -57,7 +57,7 @@ function Navigation() {
           className={({ isActive }) =>
             isActive
               ? "underline underline-offset-2"
-              : "hover:text-chart-4 transition-colors"
+              : "duration-300 ease-in-out hover:scale-110"
           }
         >
           Workshops
@@ -69,7 +69,7 @@ function Navigation() {
           className={({ isActive }) =>
             isActive
               ? "underline underline-offset-2"
-              : "hover:text-chart-4 transition-colors"
+              : "duration-300 ease-in-out hover:scale-110"
           }
         >
           Camp
@@ -81,7 +81,7 @@ function Navigation() {
           className={({ isActive }) =>
             isActive
               ? "underline underline-offset-2"
-              : "hover:text-chart-4 transition-colors"
+              : "duration-300 ease-in-out hover:scale-110"
           }
         >
           About Us
