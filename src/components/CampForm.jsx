@@ -141,14 +141,14 @@ const CampForm = () => {
                     id="dob"
                     name="dob"
                     value={formData.dob}
-                    onChange={handleChange}
+                    // onChange={handleChange}
                     className="w-full justify-between font-normal"
                   >
                     {formData.dob ? formData.dob : "Select date"}
                     <ChevronDownIcon />
                   </Button>
                 </PopoverTrigger>
-                <PopoverContent className="w-full p-0" side="bottom" align="start">
+                <PopoverContent className="w-full p-0" side="bottom" align="start" avoidCollisions={false} forceMount asChild>
                   <Calendar
                     mode="single"
                     name="dob"
