@@ -19,7 +19,7 @@ const Parties = () => {
                 <div className="self-center text-xl font-bold">
                     Party Package
                 </div>
-                <div className="flex flex-row justify-center items-center gap-2">
+                <div className="flex md:flex-row flex-col justify-center items-center gap-2">
                     <div>
                         <div>
                             3.5 hours of private access
@@ -55,7 +55,7 @@ const Parties = () => {
                 <div className="text-lg font-bold">
                     $395 + tax
                 </div>
-                <div className="flex flex-row justify-center items-center gap-2">
+                <div className="flex md:flex-row flex-col justify-center items-center gap-2">
                     <img 
                         src='/K_K_18.jpg'
                         alt='Playground view'

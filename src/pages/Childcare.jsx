@@ -12,7 +12,7 @@ const Childcare = () => {
                 </div>    
             </div>
             
-            <div className="flex flex-row justify-evenly items-center w-3/4">
+            <div className="flex md:flex-row flex-col justify-evenly items-center w-3/4">
                 <img 
                     src='/K_K_23.jpg'
                     alt='Kid making crafts'
@@ -28,7 +28,7 @@ const Childcare = () => {
                 <div className="text-xl font-bold self-center">
                     Program Options - Full & Half Days
                 </div>
-                <div className="flex flex-row justify-evenly w-full">
+                <div className="flex md:flex-row flex-col justify-evenly items-center w-full">
                     <div className="flex flex-col justify-center">
                         <div className="text-lg">
                             Full Day 9:00 am - 3:00 pm
