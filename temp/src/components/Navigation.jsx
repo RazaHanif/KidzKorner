@@ -4,38 +4,56 @@ import { Link } from 'react-router-dom';
 function Navigation() {
 
   return (
-    <ul className="navbar-nav ms-auto flex flex-row gap-2">
-      <li className="nav-item">
-        <Link to="/childcare" end>
+    <>
+      <div 
+        className="hidden md:flex flex-row w-full lg:w-3/4 justify-between gap-2 border-2 border-red-500 text-2xl"
+      >
+        <Link 
+          to="/childcare" 
+          end
+        >
           Child Care
         </Link>
-      </li>
-      <li className="nav-item">
-        <Link to="/parties" end>
+
+        <Link 
+          to="/parties" 
+          end
+        >
           Parties
         </Link>
-      </li>
-      <li className="nav-item">
-        <Link to="/playground" end>
+
+        <Link 
+          to="/playground" 
+          end
+        >
           Playground
         </Link>
-      </li>
-      <li className="nav-item">
-        <Link to="/workshop" end>
+
+        <Link 
+          to="/workshop" 
+          end
+        >
           Workshops
         </Link>
-      </li>
-      <li className="nav-item">
-        <Link to="/camp" end>
+
+        <Link 
+          to="/camp" 
+          end
+        >
           Camp
         </Link>
-      </li>
-      <li className="nav-item">
-        <Link to="/about" end>
+
+        <Link 
+          to="/about" 
+          end
+        >
           About Us
         </Link>
-      </li>
-    </ul>
+      </div>
+      <div>
+
+      </div>
+    </>
   );
 }
 
