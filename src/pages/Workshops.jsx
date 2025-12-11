@@ -1,5 +1,5 @@
-import WorkshopAccordion from "../components/WorkshopAccordion";
-import WorkshopForm from "../components/WorkshopFrom"
+import WorkshopAccordion from "@/components/WorkshopAccordion";
+import WorkshopForm from "@/components/WorkshopFrom"
 
 const Workshops = () => {
     return (

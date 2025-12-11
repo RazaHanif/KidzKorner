@@ -1,4 +1,4 @@
-import ChildcareForm from "../components/ChildcareForm";
+import ChildcareForm from "@/components/ChildcareForm";
 
 const Childcare = () => {
     return (

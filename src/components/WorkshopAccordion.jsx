@@ -1,5 +1,5 @@
-import KKAccordion from "./KKAccordion"
-import KKAccordionItem from "./KKAccordionItem"
+import KKAccordion from "@/components/KKAccordion"
+import KKAccordionItem from "@/components/KKAccordionItem"
 
 const WorkshopAccordion = () => {
     return (

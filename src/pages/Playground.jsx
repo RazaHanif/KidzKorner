@@ -1,4 +1,4 @@
-import PlaygroundAccordion from "../components/playgroundAccordion";
+import PlaygroundAccordion from "@/components/PlaygroundAccordion";
 
 const Playground = () => {
     return (

@@ -1,4 +1,4 @@
-import CampForm from "../components/CampForm";
+import CampForm from "@/components/CampForm";
 
 const Camp = () => {
     return (

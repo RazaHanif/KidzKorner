@@ -1,4 +1,4 @@
-import PartyForm from "../components/PartyForm";
+import PartyForm from "@/components/PartyForm";
 
 const Parties = () => {
     return (
