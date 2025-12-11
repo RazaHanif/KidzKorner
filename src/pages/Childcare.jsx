@@ -113,7 +113,9 @@ const Childcare = () => {
                     Ready to join us? Contact us today to learn more about our preschool programs or schedule a visit! 
                 </div>
 
-                <ChildcareForm/>
+                <div className="relative w-full">
+                    <ChildcareForm/>
+                </div>
             </div>
 
         </div>
