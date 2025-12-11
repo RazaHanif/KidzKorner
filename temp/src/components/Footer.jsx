@@ -2,7 +2,7 @@ import { Instagram, Mail, MapPin, Phone } from "lucide-react";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-center w-full bg-primary border-t border-chart-4">
+    <div className="flex flex-col md:flex-row justify-center w-full bg-primary border-t border-chart-4 p-4">
       <div className="flex-1 flex flex-col justify-center items-center gap-2">
         <div className="text-xl flex justify-center items-center w-full">
           Contact Us
