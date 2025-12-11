@@ -7,7 +7,7 @@ const Workshops = () => {
             <div className="flex justify-center items-center w-3/4">
                 <WorkshopAccordion />
             </div>
-            <div className="flex md:flex-row flex-col justify-between items-center w-3/4">
+            <div className="flex md:flex-row flex-col justify-between items-center w-3/4 gap-2">
                 <img 
                     src='/K_K_11.jpg'
                     alt='Kid playing with dinos'

@@ -1,12 +1,7 @@
 import PropTypes from "prop-types";
 import {
   Card,
-  CardAction,
   CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
 } from "@/components/ui/card"
 import {
   Accordion,
@@ -15,7 +10,7 @@ import {
 const KKAccordion = ({ AccordionItems }) => {
     return (
         <Card 
-            className='w-3/4'
+            className='md:w-3/4 w-full'
         >
             <CardContent>
                 <Accordion
