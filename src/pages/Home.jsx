@@ -25,7 +25,7 @@ const Home = () => {
                     </div>
                     <img 
                     src='/K_K_8.jpg'
-                    alt='Kidz Korner Store Front'
+                    alt='Kids playing in sand pit'
                     className="w-3xs rounded-lg border-2 shadow-lg"
                     />
                     <div className="md:hidden w-1/2 flex justify-center items-center">

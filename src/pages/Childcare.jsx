@@ -15,8 +15,8 @@ const Childcare = () => {
             <div className="flex flex-row justify-evenly items-center w-3/4">
                 <img 
                     src='/K_K_23.jpg'
-                    alt='Kidz Korner Store Front'
-                    className="w-2xs rounded-lg border-2 shadow-lg"
+                    alt='Kid making crafts'
+                    className="w-xs rounded-lg border-2 shadow-lg"
                 />
                 <div className="flex flex-col justify-center items-center w-1/2">
                     Kidz Korner is a licensed child care centre. Our toddler, preschool, & after school programs provides a nurturing, engaging, and stimulating enviroment designed to support your child's growth and development
@@ -45,7 +45,7 @@ const Childcare = () => {
                     </div>
                     <img 
                     src='/K_K_38.jpg'
-                    alt='Kidz Korner Store Front'
+                    alt='Kids doing an activity'
                     className="w-3xs rounded-lg border-2 shadow-lg"
                     />
                 </div>

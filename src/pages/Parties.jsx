@@ -9,18 +9,18 @@ const Parties = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 border-3">
+            <div className="flex flex-col justify-center items-center w-3/4">
                 <div className="flex flex-col justify-center items-center w-3/4">
                     Make your child's special day unforgettable with a Kidz Korner Party! Enjoy exclusive access to our indoor playground, just for you and your invited family and friends.
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 border-3">
+            <div className="flex flex-col justify-center items-center w-3/4">
                 <div className="self-center text-xl font-bold">
                     Party Package
                 </div>
                 <div className="flex flex-row justify-center items-center gap-2">
-                    <div className="border-4">
+                    <div>
                         <div>
                             3.5 hours of private access
                         </div>
@@ -42,36 +42,43 @@ const Parties = () => {
                     </div>
                     <img 
                         src='/K_K_29.jpg'
-                        alt='Kidz Korner Store Front'
+                        alt='Kid admiring cake'
                         className="w-3xs rounded-lg border-2 shadow-lg"
                     />
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 border-3">
+            <div className="flex flex-col justify-center items-center w-3/4">
                 <div className="self-center text-xl font-bold">
                     Pricing & Booking Details
                 </div>
                 <div className="text-lg font-bold">
                     $395 + tax
                 </div>
-                <div className="flex flex-col justify-center items-start">
+                <div className="flex flex-row justify-center items-center gap-2">
+                    <img 
+                        src='/K_K_18.jpg'
+                        alt='Playground view'
+                        className="w-xs rounded-lg border-2 shadow-lg"
+                    />
                     <div>
-                        Full payment required at time of booking.
-                    </div>
-                    <div>
-                        Additional Time: Extra party time available at $50 per hour.
-                    </div>
-                    <div>
-                        Prior approval of all 3rd party vendors is required.
-                    </div>
-                    <div className="text-sm self-center">
-                        *Prices are subject to change without notice*
+                        <div>
+                            Full payment required at time of booking.
+                        </div>
+                        <div>
+                            Additional Time: Extra party time available at $50 per hour.
+                        </div>
+                        <div>
+                            Prior approval of all 3rd party vendors is required.
+                        </div>
+                        <div className="text-sm">
+                            *Prices are subject to change without notice*
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 border-3">
+            <div className="flex flex-col justify-center items-center w-3/4">
                 <PartyForm/>
             </div>
 
