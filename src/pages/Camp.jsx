@@ -12,19 +12,29 @@ const Camp = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-start w-3/4 gap-1">
+            <div className="flex flex-col justify-center items-center w-3/4 gap-2">
                 <div className="self-center text-xl font-bold">
                     Camp Dates
                 </div>
-                <div>
-                    Winter Break, March Break, PA Days, Summer Vacation
-                </div>
-                <div>
-                    Monday to Friday | 9:00 AM - 5:00 PM
+                <div className="flex md:flex-row flex-col justify-center items-center gap-2">
+                    <img 
+                        src='/K_K_1.jpg'
+                        alt='Play Structure'
+                        className="w-xs rounded-lg border-2 shadow-lg"
+                    />
+                    <div>
+                        <div>
+                            Monday to Friday | 9:00 AM - 5:00 PM
+                        </div>
+                        <div>
+                            Winter Break, March Break, PA Days, Summer Vacation
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-start w-3/4 gap-1">
+            <div className="flex flex-col justify-center items-center w-3/4 gap-2">
                 <div className="self-center text-xl font-bold">
                     Arts Classes
                 </div>
@@ -39,7 +49,7 @@ const Camp = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-start w-3/4 gap-1">
+            <div className="flex flex-col justify-center items-center w-3/4 gap-2">
                 <div className="self-center text-xl font-bold">
                     Cooking Classes
                 </div>
@@ -53,7 +63,7 @@ const Camp = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-start w-3/4 gap-1">
+            <div className="flex flex-col justify-center items-center w-3/4 gap-2">
                 <div className="self-center text-xl font-bold">
                     Ages
                 </div>
@@ -63,7 +73,7 @@ const Camp = () => {
 
             </div>
 
-            <div className="flex flex-col justify-center items-start w-3/4 gap-1">
+            <div className="flex flex-col justify-center items-center w-3/4 gap-2">
                 <div className="self-center text-xl font-bold">
                     Cost: $35/Day
                 </div>
@@ -75,7 +85,7 @@ const Camp = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-start w-3/4 gap-1">
+            <div className="flex flex-col justify-center items-center w-3/4 gap-2">
                 <CampForm/>
             </div>
         </div>

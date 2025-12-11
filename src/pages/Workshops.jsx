@@ -10,17 +10,17 @@ const Workshops = () => {
             <div className="flex md:flex-row flex-col justify-between items-center w-3/4">
                 <img 
                     src='/K_K_11.jpg'
-                    alt='Kidz Korner Store Front'
+                    alt='Kid playing with dinos'
                     className="w-3xs rounded-lg border-2 shadow-lg"
                 />
                 <img 
                     src='/K_K_23.jpg'
-                    alt='Kidz Korner Store Front'
+                    alt='Kid doing activity'
                     className="w-xs rounded-lg border-2 shadow-lg"
                 />
                 <img 
                     src='/K_K_32.jpg'
-                    alt='Kidz Korner Store Front'
+                    alt='Kid tie dyeing shirt'
                     className="w-3xs rounded-lg border-2 shadow-lg"
                 />
             </div>
