@@ -17,6 +17,7 @@ const About = () => {
                         <div>
                             <a 
                                 href="https://maps.app.goo.gl/TcUQhJ58bgf6tME18"
+                                className="hover:underline"
                             >
                                 150 Nipissing Rd. 10 & 11, Milton, ON, L9T 5B3
                             </a>
@@ -24,6 +25,7 @@ const About = () => {
                         <div>
                             <a 
                                 href="tel:+19058784697"
+                                className="hover:underline"
                             >
                                 (905) 878-4697
                             </a>
@@ -31,6 +33,7 @@ const About = () => {
                         <div>
                             <a 
                                 href="mailto:info@kidzkornermilton.com"
+                                className="hover:underline"
                             >
                                 info@kidzkornermilton.com
                             </a>
