@@ -9,11 +9,11 @@ const Playground = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 border-4">
-                <div className="border-4 flex md:flex-row flex-col justify-center items-center gap-2">
+            <div className="flex flex-col justify-center items-center w-3/4">
+                <div className="flex md:flex-row flex-col justify-center items-center gap-2">
                     <img 
                         src='/K_K_20.jpg'
-                        alt='Kidz Korner Store Front'
+                        alt='Play Structure'
                         className="w-xs rounded-lg border-2 shadow-lg"
                     />
                     <div>
@@ -21,10 +21,10 @@ const Playground = () => {
                         Our indoor playground is open for drop-in play from 3 pm to 6 pm Monday to Friday
                     </div>
                 </div>
-                <div className="text-xl font-bold self-center border-4">
+                <div className="text-xl font-bold self-center">
                     What We Offer
                 </div>
-                <div className="border-4 flex md:flex-row flex-col justify-center items-center gap-2">
+                <div className="flex md:flex-row flex-col justify-center items-center gap-2">
                     <div>
                         <div>
                             A varity of skill-building play areas for your child to explore and enjoy.
@@ -38,7 +38,7 @@ const Playground = () => {
                     </div>
                     <img 
                         src='/K_K_30.jpg'
-                        alt='Kidz Korner Store Front'
+                        alt='Kids on climbing structure'
                         className="w-3xs rounded-lg border-2 shadow-lg"
                     />
                 </div>

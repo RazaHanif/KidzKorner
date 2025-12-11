@@ -7,6 +7,28 @@ const Workshops = () => {
             <div className="flex justify-center items-center w-3/4">
                 <WorkshopAccordion />
             </div>
+            <div>
+                <img 
+                    src='/K_K_39.jpg'
+                    alt='Kidz Korner Store Front'
+                    className="w-3xs rounded-lg border-2 shadow-lg"
+                />
+                <img 
+                    src='/K_K_39.jpg'
+                    alt='Kidz Korner Store Front'
+                    className="w-3xs rounded-lg border-2 shadow-lg"
+                />
+                <img 
+                    src='/K_K_39.jpg'
+                    alt='Kidz Korner Store Front'
+                    className="w-3xs rounded-lg border-2 shadow-lg"
+                />
+                <img 
+                    src='/K_K_39.jpg'
+                    alt='Kidz Korner Store Front'
+                    className="w-3xs rounded-lg border-2 shadow-lg"
+                />
+            </div>
             <div className="flex justify-center items-center w-3/4">
                 <WorkshopForm/>
             </div>
