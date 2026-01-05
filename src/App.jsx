@@ -8,6 +8,7 @@ import Parties from './pages/Parties.jsx'
 import Playground from './pages/Playground.jsx'
 // import Workshops from './pages/Workshops.jsx'
 import Camp from './pages/Camp.jsx'
+import NotFound from './pages/NotFound.jsx'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           {/* <Route path='/workshop' element={<Workshops />} /> */}
           <Route path='/camp' element={<Camp />} />
           <Route path='/about' element={<About />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </div>
       <Footer/>
