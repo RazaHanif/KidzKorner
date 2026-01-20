@@ -34,7 +34,7 @@
   --sidebar-accent-foreground: oklch(0 0 0);
   --sidebar-border: oklch(0.8699 0 0);
   --sidebar-ring: oklch(0.5547 0.2503 297.0156);
-  --font-sans: Poppins, sans-serif;
+  --font-sans: "Montserrat", sans-serif;
   --font-serif: ui-serif, serif;
   --font-mono: Roboto Mono, monospace;
   --radius: 0.5rem;
@@ -89,7 +89,7 @@
   --sidebar-accent-foreground: oklch(0 0 0);
   --sidebar-border: oklch(0.3867 0 0);
   --sidebar-ring: oklch(0.5547 0.2503 297.0156);
-  --font-sans: Poppins, sans-serif;
+  --font-sans: "Montserrat", sans-serif;
   --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   --font-mono: Roboto Mono, monospace;
   --radius: 0.5rem;
