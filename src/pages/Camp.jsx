@@ -20,12 +20,12 @@ const Camp = () => {
                     Camp Dates
                 </div>
                 <div className="flex md:flex-row flex-col justify-center items-center gap-2">
-                    {/* <img 
-                        src='/K_K_6.jpg'
-                        alt='Truck in corn pit'
+                    <img 
+                        src='/K_K_11.jpg'
+                        alt='Kids Playing with Dinos'
                         className="w-3xs rounded-lg border-2 shadow-lg"
                         loading="lazy"
-                    /> */}
+                    />
                     <div className="flex flex-col justify-center items-start">
                         <div>
                             Monday to Friday | 9:00 AM - 5:00 PM
@@ -54,12 +54,12 @@ const Camp = () => {
                             End of term art gallery
                         </div>
                     </div>
-                    {/* <img 
-                        src='/K_K_6.jpg'
-                        alt='Truck in corn pit'
+                    <img 
+                        src='/K_K_23.jpg'
+                        alt='Kids doing activity'
                         className="w-3xs rounded-lg border-2 shadow-lg"
                         loading="lazy"
-                    /> */}
+                    />
                 </div>
             </div>
 
@@ -68,12 +68,12 @@ const Camp = () => {
                     Cooking Classes
                 </div>
                 <div className="flex md:flex-row flex-col justify-center items-center gap-2">
-                    {/* <img 
-                        src='/K_K_6.jpg'
-                        alt='Truck in corn pit'
+                    <img 
+                        src='/K_K_32.jpg'
+                        alt='Kids doing tyedye'
                         className="w-3xs rounded-lg border-2 shadow-lg"
                         loading="lazy"
-                    /> */}
+                    />
                     <div className="flex flex-col justify-center items-start">
                         <div>
                             <div>

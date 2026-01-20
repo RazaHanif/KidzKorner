@@ -17,8 +17,8 @@ export default async function handler(req, res) {
         port: 465,
         secure: true,
         auth: {
-          user: process.env.EMAIL_INFO,
-          pass: process.env.EMAIL_PASS
+          user: import.meta.env.EMAIL_INFO,
+          pass: import.meta.env.EMAIL_PASS
         },
     });
       
@@ -64,19 +64,19 @@ export default async function handler(req, res) {
             Message: ${data.message}
         `
     }
-    else if (data.type === 'workshop') {
-        subject = `Workshop Inquiry - ${data.name}`
-        emailContent = `
-            General Inquiry\n
-            Name: ${data.name}\n
-            Email: ${data.email}\n
-            Phone: ${data.phone}\n
-            Workshop: ${data.workshop}\n
-            Social Media Consent: ${data.socialMedia}\n
-            Contact Again Consent: ${data.contactAgain}\n
-            Allergies: ${data.allergies}
-        `
-    }
+    // else if (data.type === 'workshop') {
+    //     subject = `Workshop Inquiry - ${data.name}`
+    //     emailContent = `
+    //         General Inquiry\n
+    //         Name: ${data.name}\n
+    //         Email: ${data.email}\n
+    //         Phone: ${data.phone}\n
+    //         Workshop: ${data.workshop}\n
+    //         Social Media Consent: ${data.socialMedia}\n
+    //         Contact Again Consent: ${data.contactAgain}\n
+    //         Allergies: ${data.allergies}
+    //     `
+    // }
     else if (data.type === 'summercamp') {
         subject = `Summer Camp Inquiry - ${data.name}`
         emailContent = `
@@ -98,8 +98,8 @@ export default async function handler(req, res) {
 
     try {
         await transporter.sendMail({
-            from: `"Kidz Korner Website" <${process.env.EMAIL_INFO}>`,
-            to: process.env.EMAIL_INFO,
+            from: `"Kidz Korner Website" <${import.meta.env.EMAIL_INFO}>`,
+            to: import.meta.env.EMAIL_INFO,
             subject: subject,
             text: emailContent,
             replyTo: data.email
