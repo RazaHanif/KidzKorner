@@ -28,8 +28,7 @@ const Camp = () => {
             </div>
 
                         <div className="flex flex-col justify-center items-center w-3/4 gap-2">
-                <div className="self-center text-xl font-bold">
-                    Cost: $35/Day
+                <div className="self-center">
                     <Card className="w-full">
                         <CardHeader>
                             <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
@@ -54,12 +53,6 @@ const Camp = () => {
             
                         </CardContent>
                     </Card>
-                </div>
-                <div>
-                    Limited Spots Available<br/>
-                    Small Class Size for more 1 on 1 support<br/>
-                    Sibling discounts available<br/>
-                    All materials included
                 </div>
             </div>
 
