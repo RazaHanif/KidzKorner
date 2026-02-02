@@ -36,16 +36,16 @@ const Camp = () => {
                     </CardHeader>
                     <CardContent>
                         <ul className="flex flex-col gap-2 list-disc pl-6">
-                            <li key={4}>
+                            <li key={1}>
                                 Full Time & Part Time Options
                             </li>
-                            <li key={1}>
+                            <li key={2}>
                                 Small class sizes for more 1 on 1 support
                             </li>
-                            <li key={2}>
+                            <li key={3}>
                                 Siblings discounts available
                             </li>
-                            <li key={3}>
+                            <li key={4}>
                                 All materials included
                             </li>
                         </ul>
