@@ -28,7 +28,7 @@ const Parties = () => {
                 desc={"4.5"}
                 bullet={[
                     "Includes everything in Tiny Tornado Plus",
-                    ""
+                    "2 Jumbo Cheese Pizza's"
                 ]}
             />
             
