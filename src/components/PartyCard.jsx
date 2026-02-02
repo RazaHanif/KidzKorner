@@ -19,8 +19,13 @@ const PartyCard = ({ title, price, desc }) => {
                     { price }
                 </CardDescription>
             </CardHeader>
-            <CardContent className="bg-green-500">
-                { desc }
+            <CardContent>
+                <div>
+                    Bullet Points
+                </div>
+                <div>
+                    { desc }
+                </div>
             </CardContent>
         </Card>
     )
