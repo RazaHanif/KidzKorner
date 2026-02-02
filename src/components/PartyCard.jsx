@@ -24,6 +24,7 @@ const PartyCard = ({ title, price, desc, bullet = [] }) => {
                     { desc }
                 </div>
                 <ul className="flex flex-col gap-2 list-disc pl-6">
+                    <li></li>
                     {bullet.map(item => (
                         <li key={item}>{item}</li>
                     ))}

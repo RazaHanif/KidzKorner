@@ -26,8 +26,8 @@ const Parties = () => {
             <PartyCard 
                 title={"Platnium Play Package"} 
                 price={"550"} 
-                desc={"4.5"}
-                time={"3.5"}
+                desc={"desc"}
+                time={"4.5"}
                 bullet={[
                     "Includes everything in Tiny Tornado Plus",
                     "2 Jumbo Cheese Pizza's"
@@ -37,8 +37,8 @@ const Parties = () => {
             <PartyCard 
                 title={"VIP Package"} 
                 price={"750"} 
-                desc={"5.5"}
-                time={"3.5"}
+                desc={"desc"}
+                time={"5.5"}
                 bullet={[
                     "Includes everything in Tiny Tornado & Platnium Play Package",
                     ""
