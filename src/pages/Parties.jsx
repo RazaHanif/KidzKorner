@@ -48,15 +48,8 @@ const Parties = () => {
                         Additonal hour of access (<span className="font-bold">4.5</span> Total)
                     </li>,
                     <li key={3}>
-                        Bring your own food at no additional and use out kithcen space
-                        <div className="font-bold text-xs">Strict Nut-Free Poilcy for childrens safety</div>
+                        2 Jumbo Cheese Pizza's
                     </li>,
-                    <li key={4}>
-                        Bring your own decorations to transform the space
-                    </li>,
-                    <li key={5}>
-                        Bring up to 50 guests
-                    </li>
                 ]}
             />
             
@@ -66,8 +59,15 @@ const Parties = () => {
                 desc={"desc"}
                 time={"5.5"}
                 bullet={[
-                    "Includes everything in Tiny Tornado & Platnium Play Package",
-                    ""
+                    <div key={1} className="font-bold text-xs">
+                        Includes everything in Tiny Tornado Package plus
+                    </div>,
+                    <li key={2}>
+                        Additonal hour of access (<span className="font-bold">4.5</span> Total)
+                    </li>,
+                    <li key={3}>
+                        2 Jumbo Cheese Pizza's
+                    </li>,
                 ]}
             />
 
