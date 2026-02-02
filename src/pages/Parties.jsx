@@ -27,7 +27,7 @@ const Parties = () => {
                 price={"550"} 
                 desc={"4.5"}
                 bullet={[
-                    "Everything included in Tiny Tornado Plus",
+                    "Includes everything in Tiny Tornado Plus",
                     ""
                 ]}
             />
