@@ -10,7 +10,7 @@ import {
 
 const PartyCard = ({ title, price, desc, bullet = [] }) => {
     return (
-        <Card className="w-2/3">
+        <Card className="w-1/3">
             <CardHeader>
                 <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
                     { title }
