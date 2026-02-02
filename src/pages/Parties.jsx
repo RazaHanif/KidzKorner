@@ -10,11 +10,23 @@ const Parties = () => {
                 </div>
             </div>
 
-            <PartyCard title={"Tiny Tornado Party"} price={"price"} desc={"desc"}/>
+            <PartyCard 
+                title={"Tiny Tornado Package"} 
+                price={"$395+tax"} 
+                desc={"desc"}
+            />
 
-            <PartyCard title={"Platnium Play Party"} price={"price"} desc={"desc"}/>
+            <PartyCard 
+                title={"Platnium Play Package"} 
+                price={"$550+tax"} 
+                desc={"desc"}
+            />
             
-            <PartyCard title={"title"} price={"price"} desc={"desc"}/>
+            <PartyCard 
+                title={"VIP Package"} 
+                price={"$750+tax"} 
+                desc={"desc"}
+            />
 
             <div className="flex flex-col justify-center items-center w-3/4">
                 <div className="flex flex-col justify-center items-center md:w-3/4">
