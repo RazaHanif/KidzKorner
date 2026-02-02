@@ -6,19 +6,19 @@ const Parties = () => {
         <div className="flex flex-col justify-center items-center w-full gap-2">
             <div className="flex flex-col justify-center items-center w-full mb-4">
                 <div className="text-3xl font-bold text-center">
-                    Host Your Child's Party at Kidz Korner
+                    Host Your Child"s Party at Kidz Korner
                 </div>
             </div>
 
             <PartyCard 
                 title={"Tiny Tornado Package"} 
                 price={"395"} 
-                desc={`Enjoy ${<span className="font-bold">3.5 hours</span>}3.5 hours of private venue access and full use of our indoor play space for your guests!`}
+                desc={"Enjoy 3.5 hours of private venue access and full use of our indoor play space for your guests!"}
                 bullet={[
-                    'Complimentary Tea & Coffee Station for Adults',
-                    'Bring your own food at no aditional cost ( Strict NUT free policy for childrens safety)',
-                    'Bring your own decoration to transform the space',
-                    'Bring up to 50 guests'
+                    "Complimentary Tea & Coffee Station for Adults",
+                    "Bring your own food at no aditional cost ( Strict NUT free policy for childrens safety)",
+                    "Bring your own decoration to transform the space",
+                    "Bring up to 50 guests"
                 ]}
             />
 
@@ -27,7 +27,7 @@ const Parties = () => {
                 price={"550"} 
                 desc={"desc"}
                 bullet={[
-                    'point 1',
+                    "point 1",
                 ]}
             />
             
@@ -36,13 +36,13 @@ const Parties = () => {
                 price={"750"} 
                 desc={"desc"}
                 bullet={[
-                    'point 1',
+                    "point 1",
                 ]}
             />
 
             <div className="flex flex-col justify-center items-center w-3/4">
                 <div className="flex flex-col justify-center items-center md:w-3/4">
-                    Make your child's special day unforgettable with a Kidz Korner Party! Enjoy exclusive access to our indoor playground, just for you and your invited family and friends.
+                    Make your child"s special day unforgettable with a Kidz Korner Party! Enjoy exclusive access to our indoor playground, just for you and your invited family and friends.
                 </div>
             </div>
 
@@ -72,8 +72,8 @@ const Parties = () => {
                         </div>
                     </div>
                     <img 
-                        src='/K_K_29.jpg'
-                        alt='Kid admiring cake'
+                        src="/K_K_29.jpg"
+                        alt="Kid admiring cake"
                         className="w-3xs rounded-lg border-2 shadow-lg"
                         loading="lazy"
                     />
@@ -89,8 +89,8 @@ const Parties = () => {
                 </div>
                 <div className="flex md:flex-row flex-col justify-center items-center gap-2">
                     <img 
-                        src='/K_K_18.jpg'
-                        alt='Playground view'
+                        src="/K_K_18.jpg"
+                        alt="Playground view"
                         className="w-xs rounded-lg border-2 shadow-lg"
                         loading="lazy"
                     />
