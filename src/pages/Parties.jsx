@@ -91,7 +91,7 @@ const Parties = () => {
                         <div>
                             Prior approval of all 3rd party vendors is required.
                         </div>
-                        <div className="text-sm">
+                        <div className="text-sm font-semibold">
                             *Prices are subject to change without notice*
                         </div>
                     </div>
