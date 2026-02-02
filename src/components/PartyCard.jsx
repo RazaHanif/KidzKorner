@@ -25,7 +25,7 @@ const PartyCard = ({ title, price, desc, bullet = [] }) => {
                 </div>
                 <ul>
                     {bullet.map(item => (
-                        <li>{item.point}</li>
+                        <li key={item}>{item.point}</li>
                     ))}
                 </ul>
 
