@@ -12,7 +12,7 @@ const PartyCard = ({ title, price, desc }) => {
     return (
         <Card>
         <CardHeader>
-            <CardTitle>
+            <CardTitle className="bg-red-500">
                 { title }
             </CardTitle>
             <CardDescription>
