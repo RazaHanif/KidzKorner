@@ -41,8 +41,8 @@ const Parties = () => {
                 desc={"desc"}
                 time={"4.5"}
                 bullet={[
-                    <div>
-                        Includes everything in Tiny Tornado Package plus,
+                    <div key={1} className="font-bold text-xs">
+                        Includes everything in Tiny Tornado Package plus
                     </div>,
                     <li key={2}>
                         Up to <span className="font-bold">3.5</span> hours of private access
