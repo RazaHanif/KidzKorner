@@ -54,7 +54,7 @@ const Parties = () => {
             <PartyCard 
                 title={"VIP Package"} 
                 price={"750"} 
-                desc={"The ultimate private party package with "}
+                desc={"The ultimate private party package with extended time, "}
                 bullet={[
                     <div key={1} className="font-bold text-xs">
                         Includes everything in the Tiny Tornado Package & the Platnium Play Package plus
