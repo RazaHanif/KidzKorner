@@ -12,7 +12,7 @@ const PartyCard = () => {
     return (
         <Card>
         <CardHeader>
-            <CardTitle>Card Title</CardTitle>
+            <CardTitle>Title</CardTitle>
             <CardDescription>Card Description</CardDescription>
             <CardAction>Card Action</CardAction>
         </CardHeader>
