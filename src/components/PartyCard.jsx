@@ -8,7 +8,7 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 
-const PartyCard = ({ title, price, desc, time, bullet = [] }) => {
+const PartyCard = ({ title, price, desc, bullet = [] }) => {
     return (
         <Card className="w-3/4">
             <CardHeader>
@@ -24,7 +24,6 @@ const PartyCard = ({ title, price, desc, time, bullet = [] }) => {
                     { desc }
                 </div>
                 <ul className="flex flex-col gap-2 list-disc pl-6">
-                    <li>Up to <span className="font-bold">{ time }</span> hours of private access (addititonal cost for extra time)</li>
                     {bullet.map(item => (
                         item
                     ))}

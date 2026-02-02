@@ -16,6 +16,7 @@ const Parties = () => {
                 desc={"Enjoy exclusive venue access and full use of our indoor playspace for your guests!"}
                 time={"3.5"}
                 bullet={[
+                    
                     "Complimentary Tea & Coffee Station for Adults",
                     "Bring your own food at no aditional cost (Strict Nut-Free policy for childrens safety)",
                     "Bring your own decoration to transform the space",
