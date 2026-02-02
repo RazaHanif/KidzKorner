@@ -8,12 +8,12 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 
-const PartyCard = () => {
+const PartyCard = ({ title, }) => {
     return (
         <Card>
         <CardHeader>
             <CardTitle>
-                
+                { title }
             </CardTitle>
             <CardDescription>
                 
