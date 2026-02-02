@@ -16,7 +16,7 @@ const Parties = () => {
                 desc={"Enjoy exclusive venue access and full use of our indoor playspace for your guests!"}
                 bullet={[
                     <li key={1}>
-                        <span className="font-bold">3.5</span> hours of private access
+                        <span className="font-bold">3.5</span> Hours of Private Access
                     </li>,
                     <li key={2}>
                         Complimentary Tea & Coffee Station for Adults
@@ -43,7 +43,7 @@ const Parties = () => {
                         Includes everything in the Tiny Tornado Package plus
                     </div>,
                     <li key={2}>
-                        Additonal hour of access (<span className="font-bold">4.5</span> Total)
+                        <span className="font-bold">4.5</span> Hours of Private Access
                     </li>,
                     <li key={3}>
                         2 Jumbo Cheese Pizza's
