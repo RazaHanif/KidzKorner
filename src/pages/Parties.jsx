@@ -14,21 +14,27 @@ const Parties = () => {
                 title={"Tiny Tornado Package"} 
                 price={"395"} 
                 desc={"Enjoy 3.5 hours of private venue access and full use of our indoor play space for your guests!"}
-                bullet={[{id: 1, point: 'point 1'}]}
+                bullet={[
+                    {id: 1, point: 'point 1'},
+                ]}
             />
 
             <PartyCard 
                 title={"Platnium Play Package"} 
                 price={"550"} 
                 desc={"desc"}
-                bullet={[{id: 1, point: 'point 1'}]}
+                bullet={[
+                    {id: 1, point: 'point 1'},
+                ]}
             />
             
             <PartyCard 
                 title={"VIP Package"} 
                 price={"750"} 
                 desc={"desc"}
-                bullet={[{id: 1, point: 'point 1'}]}
+                bullet={[
+                    {id: 1, point: 'point 1'},
+                ]}
             />
 
             <div className="flex flex-col justify-center items-center w-3/4">
