@@ -70,6 +70,9 @@ const Parties = () => {
                     </li>,
                 ]}
             />
+            <div>
+                
+            </div>
 
             <div className="flex flex-col justify-center items-center w-3/4">
                 <div className="flex flex-col justify-center items-center md:w-3/4">
