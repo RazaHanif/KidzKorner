@@ -15,6 +15,18 @@ const Camp = () => {
                 </div>
             </div>
 
+                        <div className="flex flex-col justify-center items-center w-3/4 gap-2">
+                <div className="self-center text-xl font-bold">
+                    Cost: $35/Day
+                </div>
+                <div>
+                    Limited Spots Available<br/>
+                    Small Class Size for more 1 on 1 support<br/>
+                    Sibling discounts available<br/>
+                    All materials included
+                </div>
+            </div>
+
             <div className="flex flex-col justify-center items-center w-3/4 gap-2">
                 <div className="self-center text-xl font-bold">
                     Camp Dates
