@@ -12,7 +12,7 @@ const PartyCard = ({ title, price, desc, bullet = [] }) => {
     return (
         <Card className="w-3/4">
             <CardHeader>
-                <CardTitle className="p-2 bg-accent flex justify-center items-center rounded-md text-lg">
+                <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
                     { title }
                 </CardTitle>
                 <CardDescription className="p-2 bg-accent flex justify-center items-center rounded-md text-bold text-lg">
