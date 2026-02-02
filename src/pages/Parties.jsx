@@ -81,9 +81,6 @@ const Parties = () => {
 
 
             <div className="flex flex-col justify-center items-center w-3/4">
-                <div className="self-center text-xl font-bold">
-                    Party Package
-                </div>
                 <div className="flex md:flex-row flex-col justify-center items-center gap-2">
                     <div>
                         <div>
