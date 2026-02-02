@@ -10,11 +10,11 @@ const Parties = () => {
                 </div>
             </div>
 
-            <PartyCard title={"test"} price={"test"} desc={"test"}/>
+            <PartyCard title={"title"} price={"price"} desc={"desc"}/>
 
-            <PartyCard title={"test"} price={"test"} desc={"test"}/>
+            <PartyCard title={"title"} price={"price"} desc={"desc"}/>
             
-            <PartyCard title={"test"} price={"test"} desc={"test"}/>
+            <PartyCard title={"title"} price={"price"} desc={"desc"}/>
 
             <div className="flex flex-col justify-center items-center w-3/4">
                 <div className="flex flex-col justify-center items-center md:w-3/4">
