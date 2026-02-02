@@ -10,6 +10,12 @@ const Parties = () => {
                 </div>
             </div>
 
+            <div className="flex flex-col justify-center items-center w-3/4">
+                <div className="flex flex-col justify-center items-center md:w-3/4">
+                    Make your child's special day unforgettable with a Kidz Korner Party! Enjoy exclusive access to our indoor playground, just for you and your invited guests.
+                </div>
+            </div>
+
             <div className="flex flex-1 flex-col md:flex-row justify-center gap-4">
                 <PartyCard 
                     title={"Tiny Tornado Package"} 
@@ -73,11 +79,6 @@ const Parties = () => {
                 />
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4">
-                <div className="flex flex-col justify-center items-center md:w-3/4">
-                    Make your child's special day unforgettable with a Kidz Korner Party! Enjoy exclusive access to our indoor playground, just for you and your invited family and friends.
-                </div>
-            </div>
 
             <div className="flex flex-col justify-center items-center w-3/4">
                 <div className="self-center text-xl font-bold">
