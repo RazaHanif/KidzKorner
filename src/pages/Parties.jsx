@@ -19,8 +19,9 @@ const Parties = () => {
                     <li key={"1"}>
                         Up to <span className="font-bold">3.5</span> hours of private access
                     </li>,
-                    
-                    "Complimentary Tea & Coffee Station for Adults",
+                    <li key={"2"}>
+                        Complimentary Tea & Coffee Station for Adults
+                    </li>,
                     "Bring your own food at no aditional cost (Strict Nut-Free policy for childrens safety)",
                     "Bring your own decoration to transform the space",
                     "Bring up to 50 guests",
