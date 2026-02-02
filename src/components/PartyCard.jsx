@@ -20,12 +20,7 @@ const PartyCard = ({ title, price, desc,  }) => {
                 </CardDescription>
             </CardHeader>
             <CardContent>
-                <div>
-                    Bullet Points
-                </div>
-                <div>
-                    { desc }
-                </div>
+                { desc }
             </CardContent>
         </Card>
     )
