@@ -10,7 +10,7 @@ import {
 
 const PartyCard = ({ title, price, desc }) => {
     return (
-        <Card className="bg-blue-500 w-3/4">
+        <Card className="w-3/4">
             <CardHeader className="bg-purple-500">
                 <CardTitle className="bg-red-500">
                     { title }
