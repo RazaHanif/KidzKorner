@@ -14,18 +14,21 @@ const Parties = () => {
                 title={"Tiny Tornado Package"} 
                 price={"395"} 
                 desc={"desc"}
+                bullet={[]}
             />
 
             <PartyCard 
                 title={"Platnium Play Package"} 
                 price={"550"} 
                 desc={"desc"}
+                bullet={[]}
             />
             
             <PartyCard 
                 title={"VIP Package"} 
                 price={"750"} 
                 desc={"desc"}
+                bullet={[]}
             />
 
             <div className="flex flex-col justify-center items-center w-3/4">
