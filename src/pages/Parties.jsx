@@ -45,7 +45,7 @@ const Parties = () => {
                         Includes everything in Tiny Tornado Package plus
                     </div>,
                     <li key={2}>
-                        Up to <span className="font-bold">3.5</span> hours of private access
+                        Additonal hour of access (<span className="font-bold">4.5</span> Total)
                     </li>,
                     <li key={3}>
                         Bring your own food at no additional and use out kithcen space
