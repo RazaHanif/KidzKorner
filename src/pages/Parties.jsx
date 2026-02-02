@@ -1,5 +1,5 @@
 import PartyForm from "@/components/PartyForm";
-import PartyCard from "../components/PartyCard";
+import PartyCard from "@/components/PartyCard";
 
 const Parties = () => {
     return (
