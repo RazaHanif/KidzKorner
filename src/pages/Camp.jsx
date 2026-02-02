@@ -21,39 +21,34 @@ const Camp = () => {
                 </div>
                 <div>
                     Open to children ages 4+, grouped by age for activities
-
-
-                    ### only 13 kids enrolled
                 </div>
             </div>
 
-                        <div className="flex flex-col justify-center items-center w-3/4 gap-2">
-                <div className="self-center">
-                    <Card className="w-full">
-                        <CardHeader>
-                            <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
-                                $35/Day
-                            </CardTitle>
-                            <CardDescription className="p-2 bg-accent flex justify-center items-center rounded-md text-bold text-lg">
-                                <span className="text-xs">Limited Spots Available</span>
-                            </CardDescription>
-                        </CardHeader>
-                        <CardContent>
-                            <ul className="flex flex-col gap-2 list-disc pl-6">
-                                <li key={1}>
-                                    Small class sizes for more 1 on 1 support
-                                </li>
-                                <li key={2}>
-                                    Siblings discounts available
-                                </li>
-                                <li key={3}>
-                                    All materials included
-                                </li>
-                            </ul>
-            
-                        </CardContent>
-                    </Card>
-                </div>
+            <div className="flex flex-col justify-center items-center w-3/4 gap-2">
+                <Card className="w-full">
+                    <CardHeader>
+                        <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
+                            $35/Day
+                        </CardTitle>
+                        <CardDescription className="p-2 bg-accent flex justify-center items-center rounded-md text-bold text-lg">
+                            <span className="text-xs">Limited Spots Available</span>
+                        </CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                        <ul className="flex flex-col gap-2 list-disc pl-6">
+                            <li key={1}>
+                                Small class sizes for more 1 on 1 support
+                            </li>
+                            <li key={2}>
+                                Siblings discounts available
+                            </li>
+                            <li key={3}>
+                                All materials included
+                            </li>
+                        </ul>
+        
+                    </CardContent>
+                </Card>
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-2">
