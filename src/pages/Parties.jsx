@@ -15,11 +15,11 @@ const Parties = () => {
                 price={"395"} 
                 desc={"Enjoy 3.5 hours of private venue access and full use of our indoor play space for your guests!"}
                 bullet={[
-                    {id: 1, point: 'Complimentary Tea & Coffee Station for Adults'},
-                    {id: 1, point: 'point 1'},
-                    {id: 1, point: 'point 1'},
-                    {id: 1, point: 'point 1'},
-                    {id: 1, point: 'point 1'},
+                    {point: 'Complimentary Tea & Coffee Station for Adults'},
+                    {point: 'point 1'},
+                    {point: 'point 1'},
+                    {point: 'point 1'},
+                    {point: 'point 1'},
                 ]}
             />
 
@@ -28,7 +28,7 @@ const Parties = () => {
                 price={"550"} 
                 desc={"desc"}
                 bullet={[
-                    {id: 1, point: 'point 1'},
+                    {point: 'point 1'},
                 ]}
             />
             
@@ -37,7 +37,7 @@ const Parties = () => {
                 price={"750"} 
                 desc={"desc"}
                 bullet={[
-                    {id: 1, point: 'point 1'},
+                    {point: 'point 1'},
                 ]}
             />
 
