@@ -26,11 +26,12 @@ const Parties = () => {
                         Bring your own food at no additional and use out kithcen space
                         <div className="font-bold text-xs">Strict Nut-Free Poilcy for childrens safety</div>
                     </li>,
-                    
-                    "Bring your own food at no aditional cost (Strict Nut-Free policy for childrens safety)",
-                    "Bring your own decoration to transform the space",
-                    "Bring up to 50 guests",
-
+                    <li key={4}>
+                        Bring your own decorations to transform the space
+                    </li>,
+                    <li key={5}>
+                        Bring up to 50 guests
+                    </li>
                 ]}
             />
 
