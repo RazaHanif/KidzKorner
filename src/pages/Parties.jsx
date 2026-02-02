@@ -73,7 +73,7 @@ const Parties = () => {
 
             <div className="flex flex-col justify-center items-center w-3/4">
                 <div className="flex flex-col justify-center items-center md:w-3/4">
-                    Make your child"s special day unforgettable with a Kidz Korner Party! Enjoy exclusive access to our indoor playground, just for you and your invited family and friends.
+                    Make your child's special day unforgettable with a Kidz Korner Party! Enjoy exclusive access to our indoor playground, just for you and your invited family and friends.
                 </div>
             </div>
 
