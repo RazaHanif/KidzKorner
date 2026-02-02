@@ -63,7 +63,10 @@ const Parties = () => {
                         Additonal hour of access (<span className="font-bold">5.5</span> Total)
                     </li>,
                     <li key={3}>
-                        
+                        Table Cloths Setup
+                    </li>,
+                    <li key={4}>
+                        Kids Activity Table
                     </li>,
                 ]}
             />
