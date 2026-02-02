@@ -25,7 +25,7 @@ const Camp = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-2">
-                <Card className="w-full">
+                <Card className="">
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
                             $35/Day
