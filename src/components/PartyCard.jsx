@@ -20,7 +20,7 @@ const PartyCard = ({ title, price, desc, bullet = [] }) => {
                 </CardDescription>
             </CardHeader>
             <CardContent>
-                <div className="border p-2">
+                <div className="p-2">
                     { desc }
                 </div>
                 <ul className="flex flex-col gap-2 list-disc pl-6">
