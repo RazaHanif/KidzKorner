@@ -63,7 +63,7 @@ const Parties = () => {
                         Additonal hour of access (<span className="font-bold">5.5</span> Total)
                     </li>,
                     <li key={3}>
-                        2 Jumbo Cheese Pizza's
+                        
                     </li>,
                 ]}
             />
