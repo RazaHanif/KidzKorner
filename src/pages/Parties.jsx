@@ -10,7 +10,7 @@ const Parties = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col md:flex-row gap-4">
+            <div className="border flex flex-1 flex-col md:flex-row justify-center items-center gap-4">
                 <PartyCard 
                     title={"Tiny Tornado Package"} 
                     price={"395"} 
