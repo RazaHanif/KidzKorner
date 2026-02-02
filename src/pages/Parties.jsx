@@ -90,12 +90,6 @@ const Parties = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4">
-                <div className="self-center text-xl font-bold">
-                    Pricing & Booking Details
-                </div>
-                <div className="text-lg font-bold">
-                    $395 + tax
-                </div>
                 <div className="flex md:flex-row flex-col justify-center items-center gap-2">
                     <img 
                         src="/K_K_18.jpg"
