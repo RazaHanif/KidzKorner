@@ -8,7 +8,7 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 
-const PartyCard = ({ title, price, desc }) => {
+const PartyCard = ({ title, price, desc,  }) => {
     return (
         <Card className="w-3/4">
             <CardHeader>
