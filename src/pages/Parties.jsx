@@ -10,9 +10,9 @@ const Parties = () => {
                 </div>
             </div>
 
-            <PartyCard title={"title"} price={"price"} desc={"desc"}/>
+            <PartyCard title={"Tiny Tornado Party"} price={"price"} desc={"desc"}/>
 
-            <PartyCard title={"title"} price={"price"} desc={"desc"}/>
+            <PartyCard title={"Platnium Play Party"} price={"price"} desc={"desc"}/>
             
             <PartyCard title={"title"} price={"price"} desc={"desc"}/>
 
