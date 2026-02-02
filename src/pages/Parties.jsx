@@ -24,7 +24,7 @@ const Parties = () => {
                     </li>,
                     <li key={3}>
                         Bring your own food at no additional cost
-                        <span></span>
+                        <div className="font-bold text-xs">Strict Nut-Free Poilcy for childrens safety</div>
                     </li>,
                     "Bring your own food at no aditional cost (Strict Nut-Free policy for childrens safety)",
                     "Bring your own decoration to transform the space",
