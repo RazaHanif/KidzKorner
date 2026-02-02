@@ -31,7 +31,7 @@ const Camp = () => {
                             $35/Day
                         </CardTitle>
                         <CardDescription className="p-2 bg-accent flex justify-center items-center rounded-md text-bold text-lg">
-                            <span className="text-xs">Limited Spots Available</span>
+                            <span className="text-xs text-center">Limited Spots Available - only 13 children per group</span>
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
