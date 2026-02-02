@@ -39,6 +39,9 @@ const Camp = () => {
                             <li key={1}>
                                 Small class sizes for more 1 on 1 support
                             </li>
+                            <li key={1}>
+                                Small class sizes for more 1 on 1 support
+                            </li>
                             <li key={2}>
                                 Siblings discounts available
                             </li>
