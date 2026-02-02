@@ -25,7 +25,7 @@ const Parties = () => {
             <PartyCard 
                 title={"Platnium Play Package"} 
                 price={"550"} 
-                desc={"desc"}
+                desc={"Enjoy 4.5 hours of "}
                 bullet={[
                     "point 1",
                 ]}
