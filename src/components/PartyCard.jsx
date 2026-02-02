@@ -8,7 +8,7 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 
-const PartyCard = ({ title, }) => {
+const PartyCard = ({ title, price, desc }) => {
     return (
         <Card>
         <CardHeader>
@@ -16,16 +16,12 @@ const PartyCard = ({ title, }) => {
                 { title }
             </CardTitle>
             <CardDescription>
-                
+                { price }
             </CardDescription>
-            <CardAction>Card Action</CardAction>
         </CardHeader>
         <CardContent>
-            <p>Card Content</p>
+            { desc }
         </CardContent>
-        <CardFooter>
-            <p>Card Footer</p>
-        </CardFooter>
         </Card>
     )
 }
