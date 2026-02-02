@@ -26,7 +26,7 @@ const Childcare = () => {
 
             <div className="flex flex-col justify-center items-center w-3/4">
                 <div className="text-xl font-bold text-center">
-                    Program Options - Full & Half Days
+                    Program Options - Full Time & Part Time Care
                 </div>
                 <div className="flex md:flex-row flex-col md:justify-evenly justify-center items-center w-full">
                     <div className="flex flex-col justify-center">
