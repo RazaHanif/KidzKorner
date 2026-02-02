@@ -95,20 +95,26 @@ const Parties = () => {
                             *Prices are subject to change without notice*
                         </div>
                     </div>
+            </div>
+
+            <div className="flex flex-col justify-center items-center w-3/4">
+                <div className="flex md:flex-row flex-col justify-center items-center gap-2">
                     <img 
                         src="/K_K_29.jpg"
                         alt="Kid admiring cake"
                         className="w-3xs rounded-lg border-2 shadow-lg"
                         loading="lazy"
                     />
-            </div>
-
-            <div className="flex flex-col justify-center items-center w-3/4">
-                <div className="flex md:flex-row flex-col justify-center items-center gap-2">
                     <img 
                         src="/K_K_18.jpg"
                         alt="Playground view"
                         className="w-xs rounded-lg border-2 shadow-lg"
+                        loading="lazy"
+                    />
+                    <img 
+                        src="/K_K_29.jpg"
+                        alt="Kid admiring cake"
+                        className="w-3xs rounded-lg border-2 shadow-lg"
                         loading="lazy"
                     />
                 </div>
