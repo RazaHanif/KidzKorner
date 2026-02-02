@@ -41,8 +41,22 @@ const Parties = () => {
                 desc={"desc"}
                 time={"4.5"}
                 bullet={[
-                    "Includes everything in Tiny Tornado Plus",
-                    "2 Jumbo Cheese Pizza's"
+                    <div>
+                        Includes everything in Tiny Tornado Package plus,
+                    </div>,
+                    <li key={2}>
+                        Up to <span className="font-bold">3.5</span> hours of private access
+                    </li>,
+                    <li key={3}>
+                        Bring your own food at no additional and use out kithcen space
+                        <div className="font-bold text-xs">Strict Nut-Free Poilcy for childrens safety</div>
+                    </li>,
+                    <li key={4}>
+                        Bring your own decorations to transform the space
+                    </li>,
+                    <li key={5}>
+                        Bring up to 50 guests
+                    </li>
                 ]}
             />
             
