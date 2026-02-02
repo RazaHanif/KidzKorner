@@ -12,8 +12,12 @@ const PartyCard = () => {
     return (
         <Card>
         <CardHeader>
-            <CardTitle>Title</CardTitle>
-            <CardDescription>Card Description</CardDescription>
+            <CardTitle>
+                
+            </CardTitle>
+            <CardDescription>
+                
+            </CardDescription>
             <CardAction>Card Action</CardAction>
         </CardHeader>
         <CardContent>
