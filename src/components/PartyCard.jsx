@@ -21,7 +21,7 @@ const PartyCard = ({ title, price, desc, bullet = [] }) => {
             </CardHeader>
             <CardContent>
                 <div className="">
-                    Enoy <span className="font-bold">{ desc }</span>
+                    Enoy <span className="font-bold">{ desc }</span> 
                 </div>
                 <ul>
                     {bullet.map(item => (
