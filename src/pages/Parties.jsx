@@ -12,19 +12,19 @@ const Parties = () => {
 
             <PartyCard 
                 title={"Tiny Tornado Package"} 
-                price={"$395+tax"} 
+                price={"395"} 
                 desc={"desc"}
             />
 
             <PartyCard 
                 title={"Platnium Play Package"} 
-                price={"$550+tax"} 
+                price={"550"} 
                 desc={"desc"}
             />
             
             <PartyCard 
                 title={"VIP Package"} 
-                price={"$750+tax"} 
+                price={"750"} 
                 desc={"desc"}
             />
 
