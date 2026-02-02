@@ -15,29 +15,6 @@ const Parties = () => {
                     Make your child's special day unforgettable with a Kidz Korner Party! Enjoy exclusive access to our indoor playground, just for you and your invited guests.
                 </div>
             </div>
-            
-            <div className="flex flex-col justify-center items-center w-3/4">
-                <div className="flex md:flex-row flex-col justify-center items-center gap-2">
-                    <img 
-                        src="/K_K_29.jpg"
-                        alt="Kid admiring cake"
-                        className="w-3xs rounded-lg border-2 shadow-lg"
-                        loading="lazy"
-                    />
-                    <img 
-                        src="/K_K_18.jpg"
-                        alt="Playground view"
-                        className="w-xs rounded-lg border-2 shadow-lg"
-                        loading="lazy"
-                    />
-                    <img 
-                        src="/K_K_29.jpg"
-                        alt="Kid admiring cake"
-                        className="w-3xs rounded-lg border-2 shadow-lg"
-                        loading="lazy"
-                    />
-                </div>
-            </div>
 
             <div className="flex flex-1 flex-col md:flex-row justify-center gap-4">
                 <PartyCard 
@@ -120,6 +97,29 @@ const Parties = () => {
                     </div>
             </div>
 
+            
+            <div className="flex flex-col justify-center items-center w-3/4">
+                <div className="flex md:flex-row flex-col justify-center items-center gap-2">
+                    <img 
+                        src="/K_K_29.jpg"
+                        alt="Kid admiring cake"
+                        className="w-3xs rounded-lg border-2 shadow-lg"
+                        loading="lazy"
+                    />
+                    <img 
+                        src="/K_K_18.jpg"
+                        alt="Playground view"
+                        className="w-xs rounded-lg border-2 shadow-lg"
+                        loading="lazy"
+                    />
+                    <img 
+                        src="/K_K_29.jpg"
+                        alt="Kid admiring cake"
+                        className="w-3xs rounded-lg border-2 shadow-lg"
+                        loading="lazy"
+                    />
+                </div>
+            </div>
 
             <div className="flex flex-col justify-center items-center w-3/4">
                 <PartyForm/>
