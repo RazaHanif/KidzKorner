@@ -12,6 +12,9 @@ const Camp = () => {
                 </div>
                 <div>
                     Open to children ages 4+, grouped by age for activities
+
+
+                    ### only 13 kids enrolled
                 </div>
             </div>
 
