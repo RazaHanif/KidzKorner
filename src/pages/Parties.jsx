@@ -40,7 +40,7 @@ const Parties = () => {
                 desc={"desc"}
                 bullet={[
                     <div key={1} className="font-bold text-xs">
-                        Includes everything in Tiny Tornado Package plus
+                        Includes everything in the Tiny Tornado Package plus
                     </div>,
                     <li key={2}>
                         Additonal hour of access (<span className="font-bold">4.5</span> Total)
@@ -57,10 +57,10 @@ const Parties = () => {
                 desc={"desc"}
                 bullet={[
                     <div key={1} className="font-bold text-xs">
-                        Includes everything in Tiny Tornado Package plus
+                        Includes everything in the Tiny Tornado Package & the Platnium Play Package plus
                     </div>,
                     <li key={2}>
-                        Additonal hour of access (<span className="font-bold">4.5</span> Total)
+                        Additonal hour of access (<span className="font-bold">5.5</span> Total)
                     </li>,
                     <li key={3}>
                         2 Jumbo Cheese Pizza's
