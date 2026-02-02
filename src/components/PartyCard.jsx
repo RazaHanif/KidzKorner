@@ -21,7 +21,7 @@ const PartyCard = ({ title, price, desc, bullet = [] }) => {
             </CardHeader>
             <CardContent>
                 <div className="border p-2">
-                    Enjoy { desc } hours of private venue access and full use of our indoor playspace for your guests!
+                    { desc }
                 </div>
                 <ul className="flex flex-col gap-2 list-disc pl-6">
                     {bullet.map(item => (
