@@ -1,4 +1,5 @@
 import PartyForm from "@/components/PartyForm";
+import PartyCard from "../components/PartyCard";
 
 const Parties = () => {
     return (
@@ -8,6 +9,8 @@ const Parties = () => {
                     Host Your Child's Party at Kidz Korner
                 </div>
             </div>
+
+            <PartyCard />
 
             <div className="flex flex-col justify-center items-center w-3/4">
                 <div className="flex flex-col justify-center items-center md:w-3/4">
