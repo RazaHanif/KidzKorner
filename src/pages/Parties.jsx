@@ -37,7 +37,7 @@ const Parties = () => {
             <PartyCard 
                 title={"Platnium Play Package"} 
                 price={"550"} 
-                desc={"Elevate your experience with extended time and food inclusions"}
+                desc={"Elevate your experience with extended time and food inclusions!"}
                 bullet={[
                     <div key={1} className="font-bold text-xs">
                         Includes everything in the Tiny Tornado Package plus
@@ -54,7 +54,7 @@ const Parties = () => {
             <PartyCard 
                 title={"VIP Package"} 
                 price={"750"} 
-                desc={"The ultimate private party package with extended time, "}
+                desc={"The ultimate private party package with extended time, decor upgrades and interactive party features!"}
                 bullet={[
                     <div key={1} className="font-bold text-xs">
                         Includes everything in the Tiny Tornado Package & the Platnium Play Package plus
@@ -66,7 +66,7 @@ const Parties = () => {
                         DIY Ballon Arch & Table Cloths provided for self-setup
                     </li>,
                     <li key={4}>
-                        Kids Activity Table
+                        Kidz Activity Table
                     </li>,
                 ]}
             />
