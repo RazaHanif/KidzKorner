@@ -81,34 +81,12 @@ const Parties = () => {
 
 
             <div className="flex flex-col justify-center items-center w-3/4">
-                <div className="flex md:flex-row flex-col justify-center items-center gap-2">
-                    <div>
-                        <div>
-                            3.5 hours of private access
-                        </div>
-                        <div>
-                            Complimentary tea and coffee for guests
-                        </div>
-                        <div>
-                            Bring your own food at no extra charge (peanut/nut-free)
-                        </div>
-                        <div>
-                            Bring your own decorations to personalize the space.
-                        </div>
-                        <div>
-                            Max capacity: 50 guests (seating available for up to 40 adults)
-                        </div>
-                        <div>
-                            Extra 15 minutes before & after for setup and wrap-up. Free of charge
-                        </div>
-                    </div>
                     <img 
                         src="/K_K_29.jpg"
                         alt="Kid admiring cake"
                         className="w-3xs rounded-lg border-2 shadow-lg"
                         loading="lazy"
                     />
-                </div>
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4">
