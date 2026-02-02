@@ -16,12 +16,15 @@ const Parties = () => {
                 desc={"Enjoy exclusive venue access and full use of our indoor playspace for your guests!"}
                 time={"3.5"}
                 bullet={[
+                    <li key={"1"}>
+                        Up to <span className="font-bold">3.5</span> hours of private access
+                    </li>,
                     
                     "Complimentary Tea & Coffee Station for Adults",
                     "Bring your own food at no aditional cost (Strict Nut-Free policy for childrens safety)",
                     "Bring your own decoration to transform the space",
                     "Bring up to 50 guests",
-                    <li key={"time"}>Up to <span className="font-bold">3.5</span> hours of private access (addititonal cost for extra time)</li>,
+
                 ]}
             />
 
