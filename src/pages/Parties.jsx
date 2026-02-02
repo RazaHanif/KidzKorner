@@ -14,7 +14,6 @@ const Parties = () => {
                 title={"Tiny Tornado Package"} 
                 price={"395"} 
                 desc={"Enjoy exclusive venue access and full use of our indoor playspace for your guests!"}
-                time={"3.5"}
                 bullet={[
                     <li key={1}>
                         Up to <span className="font-bold">3.5</span> hours of private access
@@ -39,7 +38,6 @@ const Parties = () => {
                 title={"Platnium Play Package"} 
                 price={"550"} 
                 desc={"desc"}
-                time={"4.5"}
                 bullet={[
                     <div key={1} className="font-bold text-xs">
                         Includes everything in Tiny Tornado Package plus
@@ -57,7 +55,6 @@ const Parties = () => {
                 title={"VIP Package"} 
                 price={"750"} 
                 desc={"desc"}
-                time={"5.5"}
                 bullet={[
                     <div key={1} className="font-bold text-xs">
                         Includes everything in Tiny Tornado Package plus
