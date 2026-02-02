@@ -8,7 +8,7 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 
-const PartyCard = ({ title, price, desc,  }) => {
+const PartyCard = ({ title, price, desc, bullet = [] }) => {
     return (
         <Card className="w-3/4">
             <CardHeader>
@@ -21,9 +21,13 @@ const PartyCard = ({ title, price, desc,  }) => {
             </CardHeader>
             <CardContent>
                 <div>
-                    
+                    { desc }
                 </div>
-                { desc }
+                <ul>
+                    {bullet.map(item => (
+                        <li key={item.id}>{item.name}</li>
+                    ))}
+                </ul>
 
             </CardContent>
         </Card>
