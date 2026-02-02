@@ -13,7 +13,7 @@ const Parties = () => {
             <PartyCard 
                 title={"Tiny Tornado Package"} 
                 price={"395"} 
-                desc={"Enjoy 3.5 hours of private venue access and full "}
+                desc={"Enjoy 3.5 hours of private venue access and full use of our indoor play space for your guests!"}
                 bullet={[{id: 1, point: 'point 1'}]}
             />
 
