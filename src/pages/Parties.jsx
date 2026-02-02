@@ -81,6 +81,20 @@ const Parties = () => {
 
 
             <div className="flex flex-col justify-center items-center w-3/4">
+                    <div>
+                        <div>
+                            Full payment required at time of booking.
+                        </div>
+                        <div>
+                            Additional Time: Extra party time available at $50 per hour.
+                        </div>
+                        <div>
+                            Prior approval of all 3rd party vendors is required.
+                        </div>
+                        <div className="text-sm">
+                            *Prices are subject to change without notice*
+                        </div>
+                    </div>
                     <img 
                         src="/K_K_29.jpg"
                         alt="Kid admiring cake"
@@ -97,20 +111,6 @@ const Parties = () => {
                         className="w-xs rounded-lg border-2 shadow-lg"
                         loading="lazy"
                     />
-                    <div>
-                        <div>
-                            Full payment required at time of booking.
-                        </div>
-                        <div>
-                            Additional Time: Extra party time available at $50 per hour.
-                        </div>
-                        <div>
-                            Prior approval of all 3rd party vendors is required.
-                        </div>
-                        <div className="text-sm">
-                            *Prices are subject to change without notice*
-                        </div>
-                    </div>
                 </div>
             </div>
 
