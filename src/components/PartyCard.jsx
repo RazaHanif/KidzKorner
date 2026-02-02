@@ -15,7 +15,7 @@ const PartyCard = ({ title, price, desc }) => {
                 <CardTitle className="p-2 bg-accent flex justify-center items-center rounded-md">
                     { title }
                 </CardTitle>
-                <CardDescription className="p-2">
+                <CardDescription className="p-2 bg-accent flex justify-center items-center rounded-md">
                     { price }
                 </CardDescription>
             </CardHeader>
