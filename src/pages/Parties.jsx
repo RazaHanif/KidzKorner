@@ -17,9 +17,6 @@ const Parties = () => {
                 bullet={[
                     'Complimentary Tea & Coffee Station for Adults',
                     'point 1',
-                    'point 1',
-                    'point 1',
-                    'point 1',
                 ]}
             />
 
