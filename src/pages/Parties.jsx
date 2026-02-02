@@ -16,7 +16,7 @@ const Parties = () => {
                 desc={"3.5"}
                 bullet={[
                     "Complimentary Tea & Coffee Station for Adults",
-                    "Bring your own food at no aditional cost ( Strict NUT free policy for childrens safety)",
+                    "Bring your own food at no aditional cost (Strict NUT free policy for childrens safety)",
                     "Bring your own decoration to transform the space",
                     "Bring up to 50 guests"
                 ]}
