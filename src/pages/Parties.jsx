@@ -10,7 +10,7 @@ const Parties = () => {
                 </div>
             </div>
 
-            <PartyCard />
+            <PartyCard title={"test"} price={"test"} desc={"test"}/>
 
             <div className="flex flex-col justify-center items-center w-3/4">
                 <div className="flex flex-col justify-center items-center md:w-3/4">
