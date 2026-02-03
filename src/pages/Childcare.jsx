@@ -58,7 +58,7 @@ const Childcare = () => {
                         <div className="text-lg">
                             Interactive & Play-Based Learning
                         </div>
-                        <div>
+                        <div className="text-justify">
                             Children engage in group time, open play, indoor playground exploration, and hands-on activities that support learning through play.
                         </div>
                     </div>
