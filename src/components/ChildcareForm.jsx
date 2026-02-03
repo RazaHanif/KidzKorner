@@ -313,7 +313,7 @@ const ChildcareForm = () => {
                   <Label 
                     htmlFor="radio-4"
                   >
-                    After School - 3pm to 6pm
+                    Before / After School Care
                   </Label>
                 </div>
               </RadioGroup>
