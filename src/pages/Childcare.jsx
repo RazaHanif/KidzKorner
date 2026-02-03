@@ -50,7 +50,7 @@ const Childcare = () => {
                         <div className="text-lg">
                             Engaging Learning Experiences
                         </div>
-                        <div className="text-justify">
+                        <div>
                             Our programs are designed to foster curiosity, exploration, and imagination. Educators create meaningful invitations based on children's interests, promoting problem-solving, self-regulation, and social-emotional development.
                         </div>
                     </div>
@@ -58,7 +58,7 @@ const Childcare = () => {
                         <div className="text-lg">
                             Interactive & Play-Based Learning
                         </div>
-                        <div className="text-justify">
+                        <div>
                             Children engage in group time, open play, indoor playground exploration, and hands-on activities that support learning through play.
                         </div>
                     </div>
@@ -66,7 +66,7 @@ const Childcare = () => {
                         <div className="text-lg">
                             Parent Communication & Learning Documentation
                         </div>
-                        <div className="text-justify">
+                        <div>
                             We believe in strong parent-educator partnerships. Children's learning is documented and shared within the center and through a secure mobile app. Parents will receive daily updates about their child's day. 
                         </div>
                     </div>
@@ -74,7 +74,7 @@ const Childcare = () => {
                         <div className="text-lg">
                             Nutritious Meals & Snacks
                         </div>
-                        <div className="text-justify">
+                        <div>
                             Delicious and balanced hot lunches and snacks are prepared on-site using a family-style dining approach. We accommodate dietary restrictions and maintain a peanut/nut-free environment. 
 
                         </div>
@@ -83,7 +83,7 @@ const Childcare = () => {
                         <div className="text-lg">
                             Mixed-Age Classrooms
                         </div>
-                        <div className="text-justify">
+                        <div>
                             Our mixed-age groupings create a family-like environment, allowing older children to develop leadership skills while younger children benefit from peer mentorship.
                         </div>
                     </div>
@@ -91,7 +91,7 @@ const Childcare = () => {
                         <div className="text-lg">
                             Our Educators
                         </div>
-                        <div className="text-justify">
+                        <div>
                             Our team of qualified Early Childhood Educators (ECEs) provides a safe, engaging, and responsive learning environment. They encourage choice, independence, and active play, fostering a love for learning from an early age.
                         </div>
                     </div>
