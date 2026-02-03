@@ -18,7 +18,7 @@ const Playground = () => {
                         loading="lazy"
                     />
                     <div>
-                        Looking for a fun and safe indoor space for your child to play? Our indoor playground is open for drop-in play from Monday to Friday. It includes a variety
+                        Looking for a fun and safe indoor space for your child to play? Our indoor playground is open for drop-in play from Monday to Friday. It includes a variety of skill-building play areas for your child to explore and enjoy.
                     </div>
                 </div>
                 <div className="text-xl font-bold self-center mt-4">
