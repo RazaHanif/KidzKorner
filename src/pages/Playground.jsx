@@ -33,7 +33,7 @@ const Playground = () => {
                             A perfect escape from the heat, cold, rain or snow.
                         </div>
                         <div>
-                            Family friendly facilities with two washrooms and diaper changing stations.
+                            Family friendly facilities with two washrooms and diaper changing station.
                         </div>
                     </div>
                     <img 
