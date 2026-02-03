@@ -125,17 +125,15 @@ const Camp = () => {
                                 Each week features fun, age-appropriate kitchen adventures
                             </li>
                             <li key={2}>
-                                Painting and Drawing
+                                Hands-on cooking and baking
                             </li>
                             <li key={3}>
-                                Printmaking
+                                International cuisines
                             </li>
                             <li key={4}>
-                                Mixed Media and Collage
+                                Kitchen safety & teamwork
                             </li>
-                            <li key={5}>
-                                End of term art gallery
-                            </li>
+
                         </ul>
                     </CardContent>
                 </Card>
