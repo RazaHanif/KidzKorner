@@ -34,7 +34,7 @@ const CampTimeTable = () => {
                 </TableRow>
                 <TableRow>
                     <TableCell>
-                        Monday to Friday
+                        Winter Break, March Break, Pa Days, Summer Vacation
                     </TableCell>
                 </TableRow>
                 {routine.map((item) => (
