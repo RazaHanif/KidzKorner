@@ -11,7 +11,9 @@ import {
 const ChildcareTimeTable = () => {
     return (
         <Table>
-            <TableCaption>A list of your recent invoices.</TableCaption>
+            <TableCaption>
+                Kidz Korner Daily Routine
+            </TableCaption>
             <TableHeader>
                 <TableRow>
                 <TableHead className="w-[100px]">Invoice</TableHead>
