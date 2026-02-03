@@ -11,7 +11,7 @@ const Playground = () => {
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
                 <div className="flex md:flex-row flex-col justify-center items-center">
-                    Looking for a fun and safe indoor space for your child to play? Our indoor playground is open for drop-in play from Monday to Friday. It includes a variety of skill-building play areas for your child to explore and enjoy. The space is infant and toddler friendly play area. Come on in to perfect escape from the heat, cold, rain or snow.
+                    Looking for a fun and safe indoor space for your child to play? Our indoor playground is open for drop-in play from Monday to Friday. It includes a variety of skill-building play areas for your child to explore and enjoy. The space is infant and toddler friendly play area. Come on in to escape from the heat, cold, rain or snow.
                 </div>
 
                 <div className="flex md:flex-row flex-col justify-center items-center gap-4">
