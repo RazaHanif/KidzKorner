@@ -26,9 +26,7 @@ const Playground = () => {
                 </div>
                 <div className="flex md:flex-row flex-col justify-center items-center gap-4">
                     <div>
-                        <div>
                             The space is Infant & Toddler friendly play area. Come on in to perfect escape from the heat, cold, rain or snow.
-                        </div>
                     </div>
                     <img 
                         src='/K_K_30.jpg'
