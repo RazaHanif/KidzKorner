@@ -47,7 +47,7 @@ const Childcare = () => {
                 </div>
                 <div className="flex flex-col justify-center items-center gap-4">
                     <div className="flex flex-col justify-center items-start md:w-3/4 gap-1">
-                        <div className="text-lg">
+                        <div className="text-lg font-semibold">
                             Engaging Learning Experiences
                         </div>
                         <div>
@@ -55,7 +55,7 @@ const Childcare = () => {
                         </div>
                     </div>
                     <div className="flex flex-col justify-center items-start md:w-3/4 gap-1">
-                        <div className="text-lg">
+                        <div className="text-lg font-semibold">
                             Interactive & Play-Based Learning
                         </div>
                         <div>
@@ -63,7 +63,7 @@ const Childcare = () => {
                         </div>
                     </div>
                     <div className="flex flex-col justify-center items-start md:w-3/4 gap-1">
-                        <div className="text-lg">
+                        <div className="text-lg font-semibold">
                             Parent Communication & Learning Documentation
                         </div>
                         <div>
@@ -71,7 +71,7 @@ const Childcare = () => {
                         </div>
                     </div>
                     <div className="flex flex-col justify-center items-start md:w-3/4 gap-1">
-                        <div className="text-lg">
+                        <div className="text-lg font-semibold">
                             Nutritious Meals & Snacks
                         </div>
                         <div>
@@ -80,7 +80,7 @@ const Childcare = () => {
                         </div>
                     </div>
                     <div className="flex flex-col justify-center items-start md:w-3/4 gap-1">
-                        <div className="text-lg">
+                        <div className="text-lg font-semibold">
                             Mixed-Age Classrooms
                         </div>
                         <div>
@@ -88,7 +88,7 @@ const Childcare = () => {
                         </div>
                     </div>
                     <div className="flex flex-col justify-center items-start md:w-3/4 gap-1">
-                        <div className="text-lg">
+                        <div className="text-lg font-semibold">
                             Our Educators
                         </div>
                         <div>
