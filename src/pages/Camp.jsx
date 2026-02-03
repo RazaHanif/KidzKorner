@@ -101,7 +101,7 @@ const Camp = () => {
                                 Mixed Media and Collage
                             </li>
                             <li key={5}>
-                                All materials included
+                                End of term art gallery
                             </li>
                         </ul>
         
