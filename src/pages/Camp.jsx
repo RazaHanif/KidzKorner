@@ -9,7 +9,7 @@ import CampForm from "@/components/CampForm";
 
 const Camp = () => {
     return (
-        <div className="flex flex-col justify-center items-center w-full gap-2">
+        <div className="flex flex-col justify-center items-center w-full gap-2 text-justify">
             <div className="flex flex-col justify-center items-center w-full mb-4">
                 <div className="text-3xl font-bold mb-4">
                     School Age Camp!
