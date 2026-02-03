@@ -5,15 +5,6 @@ import {
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
-import {
-  Table,
-  TableBody,
-  TableCaption,
-  TableCell,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from "@/components/ui/table"
 import CampForm from "@/components/CampForm";
 import CampTimeTable from "@/components/CampTimeTable";
 
