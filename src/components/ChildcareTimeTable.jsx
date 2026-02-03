@@ -10,8 +10,6 @@ import {
 
 const ChildcareTimeTable = () => {
     return (
-        
-
         <Table>
             <TableCaption>
                 Kidz Korner Daily Routine
