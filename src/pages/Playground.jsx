@@ -2,7 +2,7 @@ import PlaygroundAccordion from "@/components/PlaygroundAccordion";
 
 const Playground = () => {
     return (
-        <div className="flex flex-col justify-center items-center w-full gap-2 text-justify">
+        <div className="flex flex-col justify-center items-center w-full gap-4 text-justify">
             <div className="flex flex-col justify-center items-center w-full mb-4">
                 <div className="text-3xl font-bold mb-4">
                     Drop-In Fun!
@@ -10,7 +10,7 @@ const Playground = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4">
-                <div className="flex md:flex-row flex-col justify-center items-center gap-2">
+                <div className="flex md:flex-row flex-col justify-center items-center gap-4">
                     <img 
                         src='/K_K_20.jpg'
                         alt='Play Structure'
@@ -25,7 +25,7 @@ const Playground = () => {
                 <div className="text-xl font-bold self-center">
                     What We Offer
                 </div>
-                <div className="flex md:flex-row flex-col justify-center items-center gap-2">
+                <div className="flex md:flex-row flex-col justify-center items-center gap-4">
                     <div>
                         <div>
                             A varity of skill-building play areas for your child to explore and enjoy.
