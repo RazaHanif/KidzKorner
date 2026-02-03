@@ -5,7 +5,7 @@ const Parties = () => {
     return (
         <div className="flex flex-col justify-center items-center w-full gap-2">
             <div className="flex flex-col justify-center items-center w-full">
-                <div className="text-3xl font-semibold text-center">
+                <div className="text-3xl font-bold text-center">
                     Host Your Child's Party at Kidz Korner
                 </div>
             </div>
