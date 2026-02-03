@@ -18,7 +18,7 @@ const CampTimeTable = () => {
     return (
         <Table className="text-center">
             <TableBody>
-                <TableRow>
+                <TableRow className="border">
                     <TableCell>
                         Monday to Friday | 9:00 AM - 5:00 PM
                     </TableCell>
