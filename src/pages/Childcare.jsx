@@ -92,7 +92,7 @@ const Childcare = () => {
                             Our Educators
                         </div>
                         <div>
-                            Our team of qualified Early Childhood Educators (ECEs) provides a safe, engaging, and responsive learning environment. They encourage choice, independence, and active play, fostering a love for learning from an early age.
+                            Our team of qualified Registered Early Childhood Educators (ECEs) provides a safe, engaging, and responsive learning environment. They encourage choice, independence, and active play, fostering a love for learning from an early age.
                         </div>
                     </div>
                 </div>
