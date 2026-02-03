@@ -1,5 +1,6 @@
 import ChildcareForm from "@/components/ChildcareForm";
 import ChildcareTimeTable from "../components/ChildcareTimeTable";
+import TimeTable from "../components/TimeTable";
 
 const Childcare = () => {
     return (
@@ -30,21 +31,7 @@ const Childcare = () => {
                 </div>
                 <div className="flex md:flex-row flex-col md:justify-evenly justify-center items-center w-full">
                     <div className="flex flex-col justify-center">
-                        <div className="text-lg">
-                            Before School 7:30 am - 9:00 am
-                        </div>
-                        <div className="text-lg">
-                            Full Day 9:00 am - 3:00 pm
-                        </div>
-                        <div className="text-lg">
-                            Half Day - Morning 9:00 am - 11:30 am
-                        </div>
-                        <div className="text-lg">
-                            Half Day - Afternoon  12:30 pm - 3:00 pm
-                        </div>
-                        <div className="text-lg">
-                            After School  3:00 pm - 6:00 pm
-                        </div>
+                        <TimeTable />
                     </div>
                     <img 
                     src='/K_K_17.jpg'
