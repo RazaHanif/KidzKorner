@@ -66,9 +66,6 @@ const ChildcareTimeTable = () => {
 
     return (
         <Table>
-            <TableCaption>
-                Kidz Korner Daily Routine
-            </TableCaption>
             <TableHeader>
                 <TableRow>
                     <TableHead>Time</TableHead>
