@@ -24,6 +24,19 @@ const CampTimeTable = () => {
                 </TableRow>
             </TableHeader>
             <TableBody>
+                <TableRow>
+                    <TableCell>
+                        Monday to Friday
+                    </TableCell>
+                    <TableCell>
+                        9:00am - 5:00pm
+                    </TableCell>
+                </TableRow>
+                <TableRow>
+                    <TableCell>
+                        Monday to Friday
+                    </TableCell>
+                </TableRow>
                 {routine.map((item) => (
                     <TableRow key={item}>
                         <TableCell>{item.time}</TableCell>
