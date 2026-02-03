@@ -14,6 +14,50 @@ const ChildcareTimeTable = () => {
             time: "9:00am - 9:30am",
             program: "Arrival & Calm Starts"
         },
+        {
+            time: "9:30am - 10:00am",
+            program: "Arts & Crafts"
+        },
+        {
+            time: "9:00am - 9:30am",
+            program: "Arrival & Calm Starts"
+        },
+        {
+            time: "9:00am - 9:30am",
+            program: "Arrival & Calm Starts"
+        },
+        {
+            time: "9:00am - 9:30am",
+            program: "Arrival & Calm Starts"
+        },
+        {
+            time: "9:00am - 9:30am",
+            program: "Arrival & Calm Starts"
+        },
+        {
+            time: "9:00am - 9:30am",
+            program: "Arrival & Calm Starts"
+        },
+        {
+            time: "9:00am - 9:30am",
+            program: "Arrival & Calm Starts"
+        },
+        {
+            time: "9:00am - 9:30am",
+            program: "Arrival & Calm Starts"
+        },
+        {
+            time: "9:00am - 9:30am",
+            program: "Arrival & Calm Starts"
+        },
+        {
+            time: "9:00am - 9:30am",
+            program: "Arrival & Calm Starts"
+        },
+        {
+            time: "9:00am - 9:30am",
+            program: "Arrival & Calm Starts"
+        },
     ]
 
     return (
