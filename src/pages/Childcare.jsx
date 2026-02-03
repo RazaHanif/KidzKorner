@@ -19,6 +19,7 @@ const Childcare = () => {
                     className="w-3xs rounded-lg border-2 shadow-lg"
                 />
                 <div className="flex flex-col justify-center items-center md:w-1/2 w-full">
+                    Kidz Korner is a high quality child care centre.
                     Kidz Korner is a licensed child care centre. Our toddler, preschool, & after school programs provides a nurturing, engaging, and stimulating enviroment designed to support your child's growth and development
                     Our curriculum is guided by the Ministry of Education's "How Does Learning Happen?" (HDLH) framework, focusing on the well-being, engagment expression and belonging of each individual child.
                 </div>
