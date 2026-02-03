@@ -17,19 +17,10 @@ const CampTimeTable = () => {
 
     return (
         <Table>
-            <TableHeader>
-                <TableRow>
-                    <TableHead>Time</TableHead>
-                    <TableHead>Program</TableHead>
-                </TableRow>
-            </TableHeader>
             <TableBody>
                 <TableRow>
                     <TableCell>
-                        Monday to Friday
-                    </TableCell>
-                    <TableCell>
-                        9:00am - 5:00pm
+                        Monday to Friday | 9:00 AM - 5:00 PM
                     </TableCell>
                 </TableRow>
                 <TableRow>
