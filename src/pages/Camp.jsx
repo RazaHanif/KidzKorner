@@ -122,7 +122,7 @@ const Camp = () => {
                     <CardContent>
                         <ul className="flex flex-col gap-2 list-disc pl-6">
                             <li key={1}>
-                                Campers explore a wide range of mediums and techniques
+                                Each week features fun, age-appropriate kitchen adventures
                             </li>
                             <li key={2}>
                                 Painting and Drawing
