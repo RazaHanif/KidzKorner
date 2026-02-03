@@ -27,11 +27,11 @@ const ChildcareTimeTable = () => {
             program: "Programming"
         },
         {
-            time: "9:00am - 9:30am",
-            program: "Arrival & Calm Starts"
+            time: "10:45am - 11:00am",
+            program: "Cirlce Time"
         },
         {
-            time: "9:00am - 9:30am",
+            time: "11:00am - 11:30am",
             program: "Arrival & Calm Starts"
         },
         {
