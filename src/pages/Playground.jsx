@@ -3,8 +3,8 @@ import PlaygroundAccordion from "@/components/PlaygroundAccordion";
 const Playground = () => {
     return (
         <div className="flex flex-col justify-center items-center w-full gap-4 text-justify">
-            <div className="flex flex-col justify-center items-center w-full mb-4">
-                <div className="text-3xl font-bold mb-4">
+            <div className="flex flex-col justify-center items-center w-full">
+                <div className="text-3xl font-bold">
                     Drop-In Fun!
                 </div>
             </div>
