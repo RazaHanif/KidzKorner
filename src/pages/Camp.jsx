@@ -75,12 +75,6 @@ const Camp = () => {
                     />
                     <div className="flex flex-col justify-center items-start">
                         <CampTimeTable />
-                        <div>
-                            Monday to Friday | 9:00 AM - 5:00 PM
-                        </div>
-                        <div>
-                            Winter Break, March Break, PA Days, Summer Vacation
-                        </div>
                     </div>
 
                 </div>
