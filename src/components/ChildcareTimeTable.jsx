@@ -12,7 +12,7 @@ const ChildcareTimeTable = () => {
     const routine = [
         {
             time: "9:00am - 9:30am",
-            program: "Entry"
+            program: "Arrival & Calm Starts"
         },
     ]
 
