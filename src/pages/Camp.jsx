@@ -107,21 +107,7 @@ const Camp = () => {
         
                     </CardContent>
                 </Card>
-                <div className="self-center text-xl font-bold">
-                    Arts Classes
-                </div>
                 <div className="flex md:flex-row flex-col justify-center items-center gap-2">
-                    <div className="flex flex-col justify-center items-start">
-                        <div>
-                            Campers explore a wide range of mediums and techniques
-                        </div>
-                        <div>
-                            Painting & Drawing<br/>
-                            Printmaking<br/>
-                            Mixed Media & Collage<br/>
-                            End of term art gallery
-                        </div>
-                    </div>
                     <img 
                         src='/K_K_23.jpg'
                         alt='Kids doing activity'
