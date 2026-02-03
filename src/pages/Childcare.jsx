@@ -8,7 +8,7 @@ const Childcare = () => {
                     Child Care 
                 </div>
                 <div className="text-xl font-bold text-center">
-                    Toddler, Preschool, & After School Programs
+                    Toddler, Preschool, & Before/After School Programs
                 </div>    
             </div>
             
