@@ -112,7 +112,7 @@ const Camp = () => {
                 <Card className="">
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
-                            Art Class
+                            Cooking Class
                         </CardTitle>
                         <CardDescription className="p-2 bg-accent flex justify-center items-center rounded-md text-bold text-lg hidden">
                             <span className="text-xs text-center">
