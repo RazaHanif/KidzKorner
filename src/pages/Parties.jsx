@@ -81,7 +81,7 @@ const Parties = () => {
 
 
             <div className="flex flex-col justify-center items-center w-3/4 m-4">
-                    <div>
+                    <div className="text-justify">
                         <div>
                             Full payment required at time of booking.
                         </div>
