@@ -27,9 +27,6 @@ const Playground = () => {
                 <div className="flex md:flex-row flex-col justify-center items-center gap-4">
                     <div>
                         <div>
-                            A varity of skill-building play areas for your child to explore and enjoy.
-                        </div>
-                        <div>
                             Infant & Toddler friendly play area.
                         </div>
                         <div>
