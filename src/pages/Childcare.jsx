@@ -23,7 +23,7 @@ const Childcare = () => {
                     Our curriculum is guided by the Ministry of Education's <span className="italic">"How Does Learning Happen?" (HDLH)</span> framework, focusing on the well-being, engagment expression and belonging of each individual child.
                 </div>
                 <div>
-                    Our experienced and caring childcare educators strive to build strong relationships with children and families, ensuring 
+                    Our experienced and caring childcare educators strive to build strong relationships with children and families, ensuring individualized attention and consistent communication
                 </div>
             </div>
 
