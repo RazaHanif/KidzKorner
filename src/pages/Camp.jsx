@@ -76,6 +76,34 @@ const Camp = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-2">
+                                <Card className="">
+                    <CardHeader>
+                        <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
+                            Art Class
+                        </CardTitle>
+                        <CardDescription className="p-2 bg-accent flex justify-center items-center rounded-md text-bold text-lg hidden">
+                            <span className="text-xs text-center">
+                            </span>
+                        </CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                        <ul className="flex flex-col gap-2 list-disc pl-6">
+                            <li key={1}>
+                                Full Time & Part Time Options
+                            </li>
+                            <li key={2}>
+                                Small class sizes for more 1 on 1 support
+                            </li>
+                            <li key={3}>
+                                Siblings discounts available
+                            </li>
+                            <li key={4}>
+                                All materials included
+                            </li>
+                        </ul>
+        
+                    </CardContent>
+                </Card>
                 <div className="self-center text-xl font-bold">
                     Arts Classes
                 </div>
