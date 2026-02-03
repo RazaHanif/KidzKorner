@@ -1,6 +1,6 @@
 import ChildcareForm from "@/components/ChildcareForm";
-import ChildcareTimeTable from "../components/ChildcareTimeTable";
-import TimeTable from "../components/TimeTable";
+import ChildcareTimeTable from "@/components/ChildcareTimeTable";
+import TimeTable from "@/components/TimeTable";
 
 const Childcare = () => {
     return (
