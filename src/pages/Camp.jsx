@@ -104,17 +104,48 @@ const Camp = () => {
                                 End of term art gallery
                             </li>
                         </ul>
-        
                     </CardContent>
                 </Card>
             </div>
 
-                    <img 
-                        src='/K_K_23.jpg'
-                        alt='Kids doing activity'
-                        className="w-3xs rounded-lg border-2 shadow-lg"
-                        loading="lazy"
-                    />
+            <Card className="">
+                <CardHeader>
+                    <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
+                        Art Class
+                    </CardTitle>
+                    <CardDescription className="p-2 bg-accent flex justify-center items-center rounded-md text-bold text-lg hidden">
+                        <span className="text-xs text-center">
+                        </span>
+                    </CardDescription>
+                </CardHeader>
+                <CardContent>
+                    <ul className="flex flex-col gap-2 list-disc pl-6">
+                        <li key={1}>
+                            Campers explore a wide range of mediums and techniques
+                        </li>
+                        <li key={2}>
+                            Painting and Drawing
+                        </li>
+                        <li key={3}>
+                            Printmaking
+                        </li>
+                        <li key={4}>
+                            Mixed Media and Collage
+                        </li>
+                        <li key={5}>
+                            End of term art gallery
+                        </li>
+                    </ul>
+    
+                </CardContent>
+            </Card>
+
+            <img 
+                src='/K_K_23.jpg'
+                alt='Kids doing activity'
+                className="w-3xs rounded-lg border-2 shadow-lg"
+                loading="lazy"
+            />
             <div className="flex flex-col justify-center items-center w-3/4 gap-2">
                 <div className="self-center text-xl font-bold">
                     Cooking Classes
