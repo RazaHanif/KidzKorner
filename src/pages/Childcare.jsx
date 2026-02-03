@@ -67,7 +67,7 @@ const Childcare = () => {
                             Parent Communication & Learning Documentation
                         </div>
                         <div>
-                            We believe in strong parent-educator partnerships. Children's learning is documented and shared within the center and through a secure mobile app. Parents will receive daily updates about their child's day. 
+                            We believe in strong parent-educator partnerships. Children's learning is documented and shared within the center and through a secure mobile app. Parents will receive daily updates about their child's day.
                         </div>
                     </div>
                     <div className="flex flex-col justify-center items-start md:w-3/4 gap-1">
