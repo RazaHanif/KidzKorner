@@ -30,6 +30,9 @@ const Playground = () => {
                             A varity of skill-building play areas for your child to explore and enjoy.
                         </div>
                         <div>
+                            Infant & Toddler friendly play area.
+                        </div>
+                        <div>
                             A perfect escape from the heat, cold, rain or snow.
                         </div>
                         <div>
