@@ -107,16 +107,14 @@ const Camp = () => {
         
                     </CardContent>
                 </Card>
-                <div className="flex md:flex-row flex-col justify-center items-center gap-2">
+            </div>
+
                     <img 
                         src='/K_K_23.jpg'
                         alt='Kids doing activity'
                         className="w-3xs rounded-lg border-2 shadow-lg"
                         loading="lazy"
                     />
-                </div>
-            </div>
-
             <div className="flex flex-col justify-center items-center w-3/4 gap-2">
                 <div className="self-center text-xl font-bold">
                     Cooking Classes
