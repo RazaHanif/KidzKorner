@@ -43,19 +43,19 @@ const ChildcareTimeTable = () => {
             program: "Lunch"
         },
         {
-            time: "9:00am - 9:30am",
+            time: "12:15pm - 1:30pm",
             program: "Arrival & Calm Starts"
         },
         {
-            time: "9:00am - 9:30am",
+            time: "9:00pm - 9:30pm",
             program: "Arrival & Calm Starts"
         },
         {
-            time: "9:00am - 9:30am",
+            time: "9:00pm - 9:30pm",
             program: "Arrival & Calm Starts"
         },
         {
-            time: "9:00am - 9:30am",
+            time: "9:00pm - 9:30pm",
             program: "Arrival & Calm Starts"
         },
     ]
