@@ -109,7 +109,7 @@ const Childcare = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center md:w-3/4 gap-1">
-                <div className="flex w-2/3">
+                <div className="flex w-2/3 text-justify">
                     Ready to join us? Contact us today to learn more about our preschool programs or schedule a visit! 
                 </div>
 
