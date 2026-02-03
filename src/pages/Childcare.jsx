@@ -4,7 +4,7 @@ import TimeTable from "@/components/TimeTable";
 
 const Childcare = () => {
     return (
-        <div className="flex flex-col justify-center items-center gap-2 w-full text-justify">
+        <div className="flex flex-col justify-center items-center gap-4 w-full text-justify">
             <div className="flex flex-col justify-center items-center w-full mb-4">
                 <div className="text-3xl font-bold">
                     Child Care 
