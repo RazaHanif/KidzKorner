@@ -76,7 +76,7 @@ const ChildcareTimeTable = () => {
                 {routine.map((item) => (
                     <TableRow key={item}>
                         <TableCell>{item.time}</TableCell>
-                        <TableCell className="">{item.program}</TableCell>
+                        <TableCell className="text-wrap">{item.program}</TableCell>
                     </TableRow>
                 ))}
             </TableBody>
