@@ -27,10 +27,12 @@ const Camp = () => {
                 <Card className="">
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
-                            $35/Day
+                            $175/Week
                         </CardTitle>
                         <CardDescription className="p-2 bg-accent flex justify-center items-center rounded-md text-bold text-lg">
-                            <span className="text-xs text-center">Limited Spots Available - only 13 children per group</span>
+                            <span className="text-xs text-center">
+                                Limited Spots Available - only 13 children per group
+                            </span>
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
@@ -54,9 +56,6 @@ const Camp = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-2">
-                <div className="self-center text-xl font-bold">
-                    Camp Dates
-                </div>
                 <div className="flex md:flex-row flex-col justify-center items-center gap-2">
                     <img 
                         src='/K_K_11.jpg'
