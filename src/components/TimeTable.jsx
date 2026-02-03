@@ -2,8 +2,6 @@ import {
   Table,
   TableBody,
   TableCell,
-  TableHead,
-  TableHeader,
   TableRow,
 } from "@/components/ui/table"
 
@@ -33,17 +31,11 @@ const TimeTable = () => {
 
     return (
         <Table>
-            <TableHeader>
-                <TableRow>
-                    <TableHead>Time</TableHead>
-                    <TableHead>Program</TableHead>
-                </TableRow>
-            </TableHeader>
             <TableBody>
                 {timetable.map((item) => (
                     <TableRow key={item}>
                         <TableCell>{item.session}</TableCell>
-                        <TableCell  className="whitespace-normal wrap-break-word">{item.time}</TableCell>
+                        <TableCell>{item.time}</TableCell>
                     </TableRow>
                 ))}
             </TableBody>
