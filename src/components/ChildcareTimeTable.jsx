@@ -44,7 +44,7 @@ const ChildcareTimeTable = () => {
         },
         {
             time: "12:15pm - 1:30pm",
-            program: "Rest & Mindfulness for Full Day Children / Arts & Crafts "
+            program: "Rest & Mindfulness for Full Day Children OR Arts & Crafts / Sensory Play for Half Day Children"
         },
         {
             time: "1:30pm - 1:45pm",
