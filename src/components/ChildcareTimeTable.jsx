@@ -35,11 +35,11 @@ const ChildcareTimeTable = () => {
             program: "Indoor Playground & Gross Motor Development"
         },
         {
-            time: "11:30am - 11:45am",
-            program: "Washroom Routine"
+            time: "11:30am - 12:00pm",
+            program: "Lunch & Washroom Routine"
         },
         {
-            time: "11:45am - 12:15am",
+            time: "12:00pm - 12:15am",
             program: "Arrival & Calm Starts"
         },
         {
