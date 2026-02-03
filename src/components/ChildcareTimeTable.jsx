@@ -60,7 +60,7 @@ const ChildcareTimeTable = () => {
         },
         {
             time: "2:30pm - 3:00pm",
-            program: "Programming"
+            program: "Table Activity & Dismissal"
         },
     ]
 
