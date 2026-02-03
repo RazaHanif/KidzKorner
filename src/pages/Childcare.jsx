@@ -30,6 +30,9 @@ const Childcare = () => {
                 <div className="flex md:flex-row flex-col md:justify-evenly justify-center items-center w-full">
                     <div className="flex flex-col justify-center">
                         <div className="text-lg">
+                            Before School 7:30 am - 9:00 am
+                        </div>
+                        <div className="text-lg">
                             Full Day 9:00 am - 3:00 pm
                         </div>
                         <div className="text-lg">
