@@ -113,7 +113,7 @@ const Childcare = () => {
 
             <div className="flex flex-col justify-center items-center md:w-3/4 gap-1 m-4">
                 <div className="text-lg font-semibold">Kidz Korner Daily Routine</div>
-                <div className="text-lg font-semibold">Kidz Korner Daily Routine</div>
+                <div className="text-sm">Here's what our day looks like!</div>
                 <ChildcareTimeTable />
             </div>
 
