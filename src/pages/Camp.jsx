@@ -15,6 +15,7 @@ import {
   TableRow,
 } from "@/components/ui/table"
 import CampForm from "@/components/CampForm";
+import CampTimeTable from "@/components/CampTimeTable";
 
 const Camp = () => {
     return (
@@ -73,6 +74,7 @@ const Camp = () => {
                         loading="lazy"
                     />
                     <div className="flex flex-col justify-center items-start">
+                        <CampTimeTable />
                         <div>
                             Monday to Friday | 9:00 AM - 5:00 PM
                         </div>

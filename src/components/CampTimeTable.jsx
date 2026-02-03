@@ -7,7 +7,7 @@ import {
   TableRow,
 } from "@/components/ui/table"
 
-const ChildcareTimeTable = () => {
+const CampTimeTable = () => {
     const routine = [
         {
             time: "9:00am - 9:30am",
@@ -83,4 +83,4 @@ const ChildcareTimeTable = () => {
     )
 }
 
-export default ChildcareTimeTable;
+export default CampTimeTable;
