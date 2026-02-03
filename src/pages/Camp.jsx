@@ -89,15 +89,18 @@ const Camp = () => {
                     <CardContent>
                         <ul className="flex flex-col gap-2 list-disc pl-6">
                             <li key={1}>
-                                Full Time & Part Time Options
+                                Campers explore a wide range of mediums and techniques
                             </li>
                             <li key={2}>
-                                Small class sizes for more 1 on 1 support
+                                Painting and Drawing
                             </li>
                             <li key={3}>
-                                Siblings discounts available
+                                Printmaking
                             </li>
                             <li key={4}>
+                                Mixed Media and Collage
+                            </li>
+                            <li key={5}>
                                 All materials included
                             </li>
                         </ul>
