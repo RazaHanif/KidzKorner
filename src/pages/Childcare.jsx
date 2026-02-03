@@ -50,7 +50,7 @@ const Childcare = () => {
                         <div className="text-lg">
                             Engaging Learning Experiences
                         </div>
-                        <div>
+                        <div className="">
                             Our programs are designed to foster curiosity, exploration, and imagination. Educators create meaningful invitations based on children's interests, promoting problem-solving, self-regulation, and social-emotional development.
                         </div>
                     </div>
