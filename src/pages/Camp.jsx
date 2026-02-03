@@ -145,29 +145,12 @@ const Camp = () => {
                     className="w-3xs rounded-lg border-2 shadow-lg"
                     loading="lazy"
                 />
-                <div className="self-center text-xl font-bold">
-                    Cooking Classes
-                </div>
-                <div className="flex md:flex-row flex-col justify-center items-center gap-2">
-                    <img 
-                        src='/K_K_32.jpg'
-                        alt='Kids doing tyedye'
-                        className="w-3xs rounded-lg border-2 shadow-lg"
-                        loading="lazy"
-                    />
-                    <div className="flex flex-col justify-center items-start">
-                        <div>
-                            <div>
-                                Each week features fun, age-appropriate kitchen adventures
-                            </div>
-                            <div>
-                                Hands-on cooking and baking<br/>
-                                International cuisines<br/>
-                                Kitchen safety & teamwork
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <img 
+                    src='/K_K_32.jpg'
+                    alt='Kids doing tyedye'
+                    className="w-3xs rounded-lg border-2 shadow-lg"
+                    loading="lazy"
+                />
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-2">
