@@ -16,7 +16,7 @@ const CampTimeTable = () => {
     ]
 
     return (
-        <Table>
+        <Table className="text-center">
             <TableBody>
                 <TableRow>
                     <TableCell>
