@@ -23,7 +23,7 @@ const Childcare = () => {
                     Our curriculum is guided by the Ministry of Education's <span className="italic">"How Does Learning Happen?" (HDLH)</span> framework, focusing on the well-being, engagment expression and belonging of each individual child.
                 </div>
                 <div className="flex flex-col justify-center md:w-1/2 w-full m-4">
-                    Our experienced and caring childcare educators strive to build strong relationships with children and families, ensuring individualized attention and consistent communication. With high quality programs, qualified educators and a vibrant learning space, including our most unique feature, the indoor playground
+                    Our experienced and caring childcare educators strive to build strong relationships with children and families, ensuring individualized attention and consistent communication. With high quality programs, qualified educators and a vibrant learning space, including our most unique feature, the indoor playground. Kidz Korner provides a balanced approach to learning, play, and care
                 </div>
             </div>
 
