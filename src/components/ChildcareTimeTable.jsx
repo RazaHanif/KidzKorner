@@ -32,14 +32,14 @@ const ChildcareTimeTable = () => {
         },
         {
             time: "11:00am - 11:30am",
-            program: "Arrival & Calm Starts"
+            program: "Indoor Playground & Gross Motor Development"
         },
         {
-            time: "9:00am - 9:30am",
-            program: "Arrival & Calm Starts"
+            time: "11:30am - 11:45am",
+            program: "Washroom Routine"
         },
         {
-            time: "9:00am - 9:30am",
+            time: "11:45am - 12:15am",
             program: "Arrival & Calm Starts"
         },
         {
