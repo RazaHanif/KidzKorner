@@ -145,24 +145,15 @@ const Footer = () => {
 
               <TableRow className="whitespace-normal wrap-break-word border-none">
                 <TableCell className="whitespace-normal wrap-break-word border-none">
-                  <Phone />
+                  <Instagram />
                 </TableCell>
                 <TableCell className="whitespace-normal wrap-break-word border-none text-end">
-                  <a 
-                    href="tel:+19058784697"
-                    className="hover:underline flex flex-row gap-2 text-end"
-                  >
-                    <div className="w-full">
-                      (905) 878-4697
-                    </div>
-                  </a>
                   <a 
                     href="https://www.instagram.com/kidz.kornermilton/"
                     className="hover:underline flex flex-row gap-2 text-end"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Instagram />
                     <div className="w-full">
                       Follow us on Instagram
                     </div>
