@@ -75,7 +75,7 @@ const Camp = () => {
                                 </ul>
                             </li>
                             <li className="font-semibold">
-                                Children bring their own lunches / snacks
+                                Children bring their own lunches and snacks
                             </li>
                             <li className="font-semibold">
                                 <span className="font-semibold">
