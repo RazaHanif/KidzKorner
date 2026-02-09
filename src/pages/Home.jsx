@@ -12,7 +12,7 @@ const Home = () => {
                     <img 
                         src='/K_K_39.jpg'
                         alt='Kidz Korner Store Front'
-                        className="w-3xs rounded-lg border-2 shadow-lg"
+                        className="w-xs rounded-lg border-2 shadow-lg"
                         loading="lazy"
                     />
                     <div className="md:w-1/2 w-full flex justify-center items-center">
