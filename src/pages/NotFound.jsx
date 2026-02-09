@@ -10,6 +10,9 @@ const NotFound = () => {
 
       <div className="w-full flex flex-col justify-center items-center gap-4 text-muted-foreground">
         <div className="text-6xl font-[ui]">🛝</div>
+        <div>
+          
+        </div>
         <div>Oops! This page ran off to play!</div>
       </div>
 
