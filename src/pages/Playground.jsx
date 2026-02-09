@@ -22,7 +22,6 @@ const Playground = () => {
             </div>
 
             <div>
-
                 <div className="flex md:flex-row flex-col justify-center items-center gap-4">
                     <img 
                         src='/K_K_20.jpg'
