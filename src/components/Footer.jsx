@@ -156,6 +156,17 @@ const Footer = () => {
                       (905) 878-4697
                     </div>
                   </a>
+                  <a 
+                    href="https://www.instagram.com/kidz.kornermilton/"
+                    className="hover:underline flex flex-row gap-2 text-end"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Instagram />
+                    <div className="w-full">
+                      Follow us on Instagram
+                    </div>
+                  </a>
                 </TableCell>
               </TableRow>
             </TableBody>
