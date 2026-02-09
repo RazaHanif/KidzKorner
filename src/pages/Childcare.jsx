@@ -72,7 +72,7 @@ const Childcare = () => {
                     Program Options - Full Time & Part Time Care
                 </div>
                 <div className="flex md:flex-row flex-col md:justify-evenly justify-center items-center w-full">
-                    <div className="flex flex-col justify-center">
+                    <div className="flex flex-col justify-center m-4 md:m-0">
                         <TimeTable />
                     </div>
                     <img 
