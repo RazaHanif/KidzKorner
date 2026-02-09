@@ -79,7 +79,11 @@ const Camp = () => {
                             </li>
                             <li>
                                 <span className="font-semibold">
-                                    <a href="www.google.com">
+                                    <a
+                                        href="https://www.instagram.com/kidz.kornermilton/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
                                         Activities / Weekly Camp Theme will be posted on our Instagram Page
                                     </a>
                                 </span>
