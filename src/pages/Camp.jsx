@@ -77,7 +77,7 @@ const Camp = () => {
                             <li className="font-semibold">
                                 Children bring their own lunches and snacks
                             </li>
-                            <li className="font-semibold">
+                            <li>
                                 <span className="font-semibold">
                                     Activities / Weekly Camp Theme will be posted on our Instagram Page
                                 </span>
