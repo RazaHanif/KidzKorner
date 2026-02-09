@@ -72,6 +72,15 @@ const Camp = () => {
                             <li className="font-semibold">
                                 Siblings Discount
                             </li>
+                            <li>
+                                <span className="font-semibold">
+                                    Qualified Staff On-site
+                                </span>
+                                <span> </span>
+                                <span>
+                                    CPR First Aid
+                                </span>
+                            </li>
                         </ul>
                     </CardContent>
                 </Card>
