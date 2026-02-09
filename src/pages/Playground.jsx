@@ -27,6 +27,12 @@ const Playground = () => {
                         className="w-3xs rounded-lg border-2 shadow-lg"
                         loading="lazy"
                     />
+                    <img 
+                        src='/K_K_20.jpg'
+                        alt='Play Structure'
+                        className="w-xs rounded-lg border-2 shadow-lg"
+                        loading="lazy"
+                    />
                 </div>
 
             </div>
