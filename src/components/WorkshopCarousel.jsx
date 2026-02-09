@@ -40,22 +40,29 @@ const WorkshopCarousel = () => {
             <CarouselContent>
                 <CarouselItem>
                     { workshopCard(
-                        "",
-                        "$",
+                        "Paint Night",
+                        "$250",
                         ""
                     )}
                 </CarouselItem>
                 <CarouselItem>
                     { workshopCard(
-                        "",
-                        "$",
+                        "Cooking Class",
+                        "$250",
                         ""
                     )}
                 </CarouselItem>
                 <CarouselItem>
                     { workshopCard(
-                        "",
-                        "$",
+                        "Little Sahaba's",
+                        "$250",
+                        ""
+                    )}
+                </CarouselItem>
+                <CarouselItem>
+                    { workshopCard(
+                        "Mommy & Me",
+                        "$250",
                         ""
                     )}
                 </CarouselItem>
