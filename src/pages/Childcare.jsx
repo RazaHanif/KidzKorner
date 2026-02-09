@@ -21,12 +21,24 @@ const Childcare = () => {
                 </div>    
             </div>
             
-            <div className="flex md:flex-row flex-col justify-evenly items-center w-3/4">
+            <div className="flex md:flex-row flex-col justify-evenly items-center w-3/4 gap-4">
                 <img 
                     src='/K_K_38.jpg'
                     alt='Kids doing an activity'
                     className="w-3xs rounded-lg border-2 shadow-lg"
                 />
+                <img 
+                    src='/K_K_38.jpg'
+                    alt='Kids doing an activity'
+                    className="w-3xs rounded-lg border-2 shadow-lg"
+                />
+                <img 
+                    src='/K_K_38.jpg'
+                    alt='Kids doing an activity'
+                    className="w-3xs rounded-lg border-2 shadow-lg"
+                />
+            </div>
+            <div className="flex md:flex-row flex-col justify-evenly items-center w-3/4">                
                 <div className="flex flex-col justify-center md:w-1/2 w-full m-4">
                     <Card className="flex-1">
                         <CardHeader>
