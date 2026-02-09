@@ -33,7 +33,7 @@ const Camp = () => {
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
-                        <ul className="flex flex-col gap-4">
+                        <ul className="flex flex-col gap-4 text-sm">
                             <li className="font-semibold">
                                 Full Time & Part Time Options
                                 <ul className="font-normal pl-6">
