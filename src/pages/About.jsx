@@ -25,7 +25,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="flex justify-center items-center md:w-3/4 w-full rounded-lg border-2 shadow-lg overflow-hidden">
+            <div className="flex justify-center items-center md:w-3/4 w-full rounded-lg border-2 shadow-lg overflow-hidden mb-4">
                 <iframe
                     title="Google Maps"
                     loading="lazy"
