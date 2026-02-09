@@ -69,8 +69,15 @@ const Camp = () => {
                                     4 Years Old to 13 Years Old
                                 </span>
                             </li>
-                            <li className="font-semibold">
-                                All materials included
+                            <li>
+                                <span className="font-semibold">
+                                    Ages:
+                                </span>
+                                <span> </span>
+                                <span>
+                                    4 Years Old to 13 Years Old
+                                </span>
+                                Siblings Discount
                             </li>
                         </ul>
                     </CardContent>
