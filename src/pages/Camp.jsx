@@ -181,8 +181,8 @@ const Camp = () => {
                 </Card>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 gap-4">
-                                <Card className="flex-1">
+            <div className="flex flex-col justify-center items-center w-3/4 md:w-1/3 gap-4">
+                <Card className="flex-1">
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
                             Camp Schedule
