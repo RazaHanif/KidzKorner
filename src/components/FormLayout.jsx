@@ -1,7 +1,13 @@
+/* 
+    TODO: TEST
+*/
+
+
 const FormLayout = ({ title, form, handleSubmit, submitted }) => {
     return (
         <div className="w-full">
             { submitted ? (
+                // TEST THIS
                 <div 
                     className="flex flex-col justify-center items-center w-lg text-black bg-card border-2 rounded-lg"
                 >
