@@ -20,7 +20,7 @@ const Parties = () => {
                 <PartyCard 
                     title={"Tiny Tornado Package"} 
                     price={"395"} 
-                    desc={"Enjoy exclusive venue access and full use of our indoor playspace for your guests!"}
+                    desc={"Enjoy exclusive venue access and full use of our indoor play space for your guests!"}
                     bullet={[
                         <li key={1}>
                             <span className="font-semibold">3.5</span> Hours of Private Access
@@ -30,7 +30,7 @@ const Parties = () => {
                         </li>,
                         <li key={3}>
                             Bring your own food at no additional and use out kitchen space
-                            <div className="font-semibold text-xs">Strict Nut-Free Poilcy for childrens safety</div>
+                            <div className="font-semibold text-xs">Strict Nut-Free Policy for children's safety</div>
                         </li>,
                         <li key={4}>
                             Bring your own decorations to transform the space
