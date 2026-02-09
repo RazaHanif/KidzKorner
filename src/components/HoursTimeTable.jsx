@@ -42,7 +42,7 @@ const HoursTimeTable = () => {
                         <TableCell className='font-semibold'>
                             {item.session}
                         </TableCell>
-                        <TableCell>
+                        <TableCell className='text-end'>
                             {item.time}
                         </TableCell>
                     </TableRow>
