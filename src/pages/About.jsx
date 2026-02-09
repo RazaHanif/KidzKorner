@@ -23,28 +23,6 @@ const About = () => {
                 <div>
                     <HoursTimeTable />
                 </div>
-
-                <div className="flex-1 flex flex-col justify-center items-center w-3/4 gap-2">
-                    <div 
-                        className="text-xl font-bold md:self-end text-center"
-                    >
-                        Hours
-                    </div>
-                    <div className="flex flex-col justify-center items-end md:text-end w-full gap-2">
-                        <div className="font-semibold">
-                            Child Care: Monday to Friday - 9am to 3pm
-                        </div>
-                        <div className="font-semibold">
-                            After Schhol: Monday to Friday - 3pm to 6pm
-                        </div>
-                        <div className="font-semibold">
-                            Indoor Playground Drop In: Monday to Friday - 3pm to 6pm
-                        </div>
-                        <div className="font-semibold">
-                            Playground Open For Parties - Saturday & Sunday
-                        </div>
-                    </div>
-                </div>
             </div>
 
             <div className="flex justify-center items-center md:w-[600px] w-full rounded-lg border-2 shadow-lg overflow-hidden">
