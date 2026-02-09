@@ -38,7 +38,7 @@ const Camp = () => {
                                 Full Time & Part Time Options
                                 <ul className="font-normal pl-6">
                                     <li>
-                                        Camps run during: PD Days, March Break, Summer Vacation, and Winter Breaks.
+                                        Camps run during PD Days, March Breaks, Summer Vacations, and Winter Breaks.
                                     </li>
                                     <li>
                                         Families can enroll for 2, 3, or 5 days a week.
