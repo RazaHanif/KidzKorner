@@ -126,9 +126,9 @@ const Camp = () => {
                         <ul className="flex flex-col gap-4">
                             <li>
                                 <span className="font-semibold">
-                                    Campers explore a wide range of mediums and techniques
+                                    Campers explore a wide range of mediums and techniques such as:
                                 </span>
-                                <ul className="font-normal pl-6">
+                                <ul className="font-normal pl-6 list-disc">
                                     <li>
                                         Printmaking
                                     </li>
