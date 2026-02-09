@@ -71,7 +71,7 @@ const Camp = () => {
                             </li>
                             <li>
                                 <span className="font-semibold">
-                                    Siblings Dicount
+                                    Siblings Discount
                                 </span>
                                 <span> </span>
                                 <span>
