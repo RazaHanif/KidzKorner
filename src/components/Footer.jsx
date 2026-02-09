@@ -18,7 +18,7 @@ const Footer = () => {
             <div>
               Monday to Friday
             </div>
-            <div className="md:hidden lg:flex flex">
+            <div className="md:hidden flex">
               -
             </div>
             <div>
@@ -40,7 +40,7 @@ const Footer = () => {
             <div>
               Monday to Friday
             </div>
-            <div className="md:hidden lg:flex flex">
+            <div className="md:hidden flex">
               -
             </div>
             <div>
@@ -62,7 +62,7 @@ const Footer = () => {
             <div>
               Monday to Friday
             </div>
-            <div className="md:hidden lg:flex flex">
+            <div className="md:hidden flex">
               -
             </div>
             <div>
@@ -73,7 +73,7 @@ const Footer = () => {
             <div>
               Saturday to Sunday
             </div>
-            <div className="md:hidden lg:flex flex">
+            <div className="md:hidden flex">
               -
             </div>
             <div>
