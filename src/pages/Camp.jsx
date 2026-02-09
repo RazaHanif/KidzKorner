@@ -75,9 +75,6 @@ const Camp = () => {
                                 </ul>
                             </li>
                             <li className="font-semibold">
-                                Access to indoor playground and large open space for gross motor activities
-                            </li>
-                            <li className="font-semibold">
                                 Children bring their own lunches / snacks
                             </li>
                             <li className="font-semibold">
