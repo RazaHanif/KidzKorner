@@ -38,6 +38,7 @@ const Childcare = () => {
                     className="w-3xs rounded-lg border-2 shadow-lg"
                 />
             </div>
+            
             <div className="flex md:flex-row flex-col justify-evenly items-center w-3/4">                
                 <div className="flex flex-col justify-center md:w-1/2 w-full m-4">
                     <Card className="flex-1">
