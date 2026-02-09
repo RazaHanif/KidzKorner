@@ -107,7 +107,7 @@ const Childcare = () => {
                 </div>
             </div>
 
-                <Card className>
+                <Card className="flex flex-col justify-center w-3/4 border-4 border-red-500 p-4">
                     <CardHeader className="hidden">
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
                             Childcare
