@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import Image from "../components/Image";
 
 const NotFound = () => {
   return (
