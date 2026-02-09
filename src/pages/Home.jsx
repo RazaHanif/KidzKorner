@@ -7,7 +7,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 text-justify">
+            <div className="flex flex-col justify-center items-center md:w-3/4 w-full text-justify">
                 <div className="flex md:flex-row flex-col justify-center items-center gap-4">
                     <img 
                         src='/K_K_39.jpg'
