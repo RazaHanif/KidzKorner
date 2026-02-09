@@ -172,7 +172,7 @@ const Camp = () => {
                                         Measuring, cutting, and cleaning ingredients
                                     </li>
                                     <li>
-                                        
+                                        Recipes will be made using a variety of cooking methods
                                     </li>
                                 </ul>
                             </li>
