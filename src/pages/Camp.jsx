@@ -49,7 +49,7 @@ const Camp = () => {
                                 </ul>
                             </li>
                             <li key={2}>
-                                Program Hours 9AM - 5PM
+                                Program Hours 9:00AM - 5:00PM
                             </li>
                             <li key={3}>
                                 Siblings discounts available
