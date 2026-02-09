@@ -23,7 +23,7 @@ const Playground = () => {
             </div>
 
             <div className="flex md:flex-row flex-col justify-evenly items-center w-3/4">
-                <Card className="flex-1">
+                <Card className="w-1/2">
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
                             Drop In
