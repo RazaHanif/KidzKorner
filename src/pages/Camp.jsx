@@ -91,6 +91,9 @@ const Camp = () => {
                             <li className="font-semibold">
                                 Children bring their own lunches / snacks
                             </li>
+                            <li className="font-semibold">
+                                Activities / 
+                            </li>
                         </ul>
                     </CardContent>
                 </Card>
