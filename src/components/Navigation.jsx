@@ -44,7 +44,7 @@ function Navigation() {
         >
           Playground
         </NavLink>
-
+{/* 
         <NavLink 
           to="/workshop" 
           end
@@ -54,7 +54,7 @@ function Navigation() {
         >
           Workshops
         </NavLink>
-
+ */}
         <NavLink 
           to="/camp" 
           end
