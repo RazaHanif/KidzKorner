@@ -71,13 +71,11 @@ const Camp = () => {
                             </li>
                             <li>
                                 <span className="font-semibold">
-                                    Ages:
+                                    Siblings Dicount
                                 </span>
                                 <span> </span>
                                 <span>
-                                    4 Years Old to 13 Years Old
                                 </span>
-                                Siblings Discount
                             </li>
                         </ul>
                     </CardContent>
