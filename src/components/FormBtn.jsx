@@ -21,7 +21,7 @@ const FormBtn = ({title, form}) => {
             <SheetTrigger asChild>
                 <FloatingButton />
             </SheetTrigger>
-            <SheetContent showCloseButton={false} className="overflow-y-auto h-full">
+            <SheetContent showCloseButton={false} className="overflow-y-auto h-full" asChild>
                 <SheetHeader>
                     <SheetTitle>
                         { title }
