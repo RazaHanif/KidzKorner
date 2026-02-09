@@ -76,16 +76,12 @@ const Camp = () => {
                                 <span className="font-semibold">
                                     Qualified Staff On-site
                                 </span>
-                                <span> </span>
                                <ul className="font-normal pl-6">
                                     <li>
-                                        Camps run during: PD Days, March Break, Summer Vacation, and Winter Breaks.
+                                        Registered Early Childhood Educator (RECE)
                                     </li>
                                     <li>
-                                        Families can enroll for 2, 3, or 5 days a week.
-                                    </li>
-                                    <li className="text-xs font-semibold">
-                                        *Center is closed on Civic Holiday, Christmas Eve, Christmas Day, New Years Eve, and New Years Day*
+                                        CPR & First Aid Certified
                                     </li>
                                 </ul>
                             </li>
