@@ -49,10 +49,10 @@ const Camp = () => {
                                 </ul>
                             </li>
                             <li className="font-semibold">
-                                Program Hours 9:00AM - 5:00PM
+                                Program Hours: 9:00AM - 5:00PM
                             </li>
                             <li className="font-semibold">
-                                Siblings discounts available
+                                Ages: 4 Years - 13 
                             </li>
                             <li className="font-semibold">
                                 All materials included
