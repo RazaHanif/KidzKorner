@@ -49,10 +49,13 @@ const Camp = () => {
                                 </ul>
                             </li>
                             <li className="font-semibold">
-                                Program Hours: 
-                                    <span className="font-normal">
-                                        9:00AM - 5:00PM
-                                    </span>
+                                <span>
+                                    Program Hours:
+                                </span>
+                                <span> </span>
+                                <span className="font-normal">
+                                    9:00AM - 5:00PM
+                                </span>
                             </li>
                             <li className="font-semibold">
                                 Ages: 4 Years - 13 
