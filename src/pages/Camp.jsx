@@ -83,6 +83,7 @@ const Camp = () => {
                                         href="https://www.instagram.com/kidz.kornermilton/"
                                         target="_blank"
                                         rel="noopener noreferrer"
+                                        className="hover:underline"
                                     >
                                         Activities / Weekly Camp Theme will be posted on our Instagram Page
                                     </a>
