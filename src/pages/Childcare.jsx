@@ -43,10 +43,10 @@ const Childcare = () => {
                 <Card className="flex-1">
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
-                            Title
+                            Childcare
                         </CardTitle>
                         <CardDescription className="p-2 bg-accent hidden rounded-md text-bold text-lg">
-                            Title
+                            Childcare
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
