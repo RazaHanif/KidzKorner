@@ -55,7 +55,7 @@ const Camp = () => {
                                 <span className="font-semibold">
                                     Program Hours:
                                 </span>
-                                <span> </span>
+                                {'\u00A0'}
                                 <span>
                                     9:00AM - 5:00PM
                                 </span>
@@ -64,7 +64,7 @@ const Camp = () => {
                                 <span className="font-semibold">
                                     Ages:
                                 </span>
-                                <span> </span>
+                                {'\u00A0'}
                                 <span>
                                     4 Years Old to 13 Years Old
                                 </span>
