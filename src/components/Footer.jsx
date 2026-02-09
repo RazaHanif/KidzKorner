@@ -98,7 +98,12 @@ const Footer = () => {
                   <Phone />
                 </TableCell>
                 <TableCell className="whitespace-normal wrap-break-word border-none text-end">
-                  
+                  <a 
+                    href="tel:+19058784697"
+                    className="hover:underline flex flex-row gap-2"
+                  >
+                    (905) 878-4697
+                  </a>
                 </TableCell>
               </TableRow>
             </TableBody>
