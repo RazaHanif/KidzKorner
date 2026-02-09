@@ -23,7 +23,7 @@ const Camp = () => {
                 </div>
             </div>
 
-            <div className="flex md:flex-row flex-col justify-center items-center w-3/4 gap-2">
+            <div className="flex md:flex-row flex-col justify-center w-3/4 gap-2">
                 <Card className="flex-1">
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
