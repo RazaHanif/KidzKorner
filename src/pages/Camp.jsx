@@ -84,7 +84,8 @@ const Camp = () => {
                                     rel="noopener noreferrer"
                                     className="hover:underline font-semibold"
                                 >
-                                    Activities / Weekly Camp Theme will be posted on our Instagram Page
+                                    Visit our Instagram to see
+                                    Activities / Weekly Camp Themes
                                 </a>
                             </li>
                             {/* <li className="text-xs font-semibold">
