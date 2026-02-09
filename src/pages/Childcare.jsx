@@ -87,6 +87,11 @@ const Childcare = () => {
                     alt='Kid playing with blocks'
                     className="w-3xs rounded-lg border-2 shadow-lg"
                     />
+                    <img 
+                    src='/K_K_17.jpg'
+                    alt='Kid playing with blocks'
+                    className="w-3xs rounded-lg border-2 shadow-lg"
+                    />
             </div>
 
             <div className="flex flex-col justify-center w-3/4 border-4 border-red-500 p-4">
