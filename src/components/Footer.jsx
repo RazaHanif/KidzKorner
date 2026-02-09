@@ -16,11 +16,11 @@ const Footer = () => {
         <div className="w-3/4">
           <Table className="w-full border-none">
             <TableBody>
-              <TableRow>
-                <TableCell>
+              <TableRow className="whitespace-normal wrap-break-word">
+                <TableCell className="whitespace-normal wrap-break-word">
                   Monday to Friday
                 </TableCell>
-                <TableCell className="text-end">
+                <TableCell className="whitespace-normal wrap-break-word text-end">
                   9:00am to 3:00pm
                 </TableCell>
               </TableRow>
