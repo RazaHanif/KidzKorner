@@ -121,6 +121,9 @@ const Camp = () => {
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
+                        <ul className="font-normal pl-6 list-disc">
+                            <li>Arrival</li>
+                        </ul>
                         <div className="">
                             Arrival, Morning Snack, Programming, Circle Time, Cooking / Art Activity, Lunch, Afternoon Rest, Snack, Programming, Dismissal
                         </div>
