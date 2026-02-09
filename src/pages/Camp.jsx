@@ -187,39 +187,16 @@ const Camp = () => {
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
                             Camp Schedule
                         </CardTitle>
-                        <CardDescription className="p-2 bg-accent flex justify-center items-center rounded-md text-bold text-lg">
-                            <span className="text-xs text-center">
-                                2 Days a week
-                            </span>
+                        <CardDescription className="hidden">
+                            Camp Schedule
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
-                    <ul className="flex flex-col gap-4">
-                            <li>
-                                <span className="font-semibold">
-                                    Campers will engage in a variety of cooking experiences such as:
-                                </span>
-                                <ul className="font-normal pl-6 list-disc">
-                                    <li>
-                                        Learning about kitchen safety and hygiene
-                                    </li>
-                                    <li>
-                                        Measuring, cutting, and cleaning ingredients
-                                    </li>
-                                    <li>
-                                        Recipes will be made using various cooking methods
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
+                        <div className="">
+                            Arrival, Morning Snack, Programming, Circle Time, Cooking / Art Activity, Lunch, Afternoon Rest, Snack, Programming, Dismissal
+                        </div>
                     </CardContent>
                 </Card>
-                <div className="text-xl font-semibold">
-                    Camp Schedule Includes
-                </div>
-                <div className="">
-                    Arrival, Morning Snack, Programming, Circle Time, Cooking / Art Activity, Lunch, Afternoon Rest, Snack, Programming, Dismissal
-                </div>
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
