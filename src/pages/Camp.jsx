@@ -41,10 +41,10 @@ const Camp = () => {
                                 Full Time & Part Time Options
                                 <ul>
                                     <li>
-                                        Camp's run during: PD Days, March Break, Summer Vacation, and Winter Breaks.
+                                        Camps run during: PD Days, March Break, Summer Vacation, and Winter Breaks.
                                     </li>
-                                    <li>
-                                        *Center is closed on Civic Holidays, Christmas Eve, Christmas, New Years Eve, and New Years Day*
+                                    <li className="text-xs font-semibold">
+                                        *Center is closed on Civic Holiday, Christmas Eve, Christmas Day, New Years Eve, and New Years Day*
                                     </li>
                                 </ul>
                             </li>
