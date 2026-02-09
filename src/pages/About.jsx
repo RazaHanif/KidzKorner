@@ -17,12 +17,6 @@ const About = () => {
                         src='/K_K_2.jpg'
                         alt='Kid making silly face'
                     />
-                    <img 
-                        src='/K_K_2.jpg'
-                        alt='Kid making silly face'
-                        className="w-3xs rounded-lg border-2 shadow-lg"
-                        loading="lazy"
-                    />
                 </div>
 
                 <div>
