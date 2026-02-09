@@ -133,25 +133,9 @@ const Camp = () => {
             </div>
 
             <div className="flex md:flex-row flex-col justify-between items-center w-3/4 gap-4">
-                <img 
-                    src='/K_K_32.jpg'
-                    alt='Kids doing tye dye'
-                    className="w-3xs rounded-lg border-2 shadow-lg"
-                    loading="lazy"
-                />
                 <Image src='/K_K_32.jpg' alt='Kids doing tye dye' />
-                <img 
-                    src='/K_K_32.jpg'
-                    alt='Kids doing tye dye'
-                    className="w-3xs rounded-lg border-2 shadow-lg"
-                    loading="lazy"
-                />
-                <img 
-                    src='/K_K_32.jpg'
-                    alt='Kids doing tye dye'
-                    className="w-3xs rounded-lg border-2 shadow-lg"
-                    loading="lazy"
-                />
+                <Image src='/K_K_32.jpg' alt='Kids doing tye dye' />
+                <Image src='/K_K_32.jpg' alt='Kids doing tye dye' />
             </div>
 
             <div className="flex md:flex-row flex-col justify-center w-3/4 gap-4">
@@ -226,24 +210,9 @@ const Camp = () => {
             </div>
 
             <div className="flex md:flex-row flex-col justify-between items-center w-3/4 gap-4">
-                <img 
-                    src='/K_K_32.jpg'
-                    alt='Kids doing tye dye'
-                    className="w-3xs rounded-lg border-2 shadow-lg"
-                    loading="lazy"
-                />
-                <img 
-                    src='/K_K_32.jpg'
-                    alt='Kids doing tye dye'
-                    className="w-3xs rounded-lg border-2 shadow-lg"
-                    loading="lazy"
-                />
-                <img 
-                    src='/K_K_32.jpg'
-                    alt='Kids doing tye dye'
-                    className="w-3xs rounded-lg border-2 shadow-lg"
-                    loading="lazy"
-                />
+                <Image src='/K_K_32.jpg' alt='Kids doing tye dye' />
+                <Image src='/K_K_32.jpg' alt='Kids doing tye dye' />
+                <Image src='/K_K_32.jpg' alt='Kids doing tye dye' />
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
