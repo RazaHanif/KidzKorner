@@ -39,10 +39,10 @@ const HoursTimeTable = () => {
             <TableBody>
                 {timetable.map((item) => (
                     <TableRow key={item}>
-                        <TableCell className='font-semibold'>
+                        <TableCell className='font-semibold whitespace-normal wrap-break-word'>
                             {item.session}
                         </TableCell>
-                        <TableCell className='text-end '>
+                        <TableCell className='text-end whitespace-normal wrap-break-word'>
                             {item.time}
                         </TableCell>
                     </TableRow>
