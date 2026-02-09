@@ -32,9 +32,23 @@ const Footer = () => {
       <div className="border-r border-chart-4 md:flex hidden m-2"></div>
       <div className="border-t border-chart-4 md:hidden flex m-2"></div>      
 
-      <div className="flex-1 flex flex-col justify-center items-center gap-2">
+      <div className="flex-1 flex flex-col justify-start items-center gap-2">
         <div className="text-xl flex justify-center items-center w-full">
           After School Hours
+        </div>
+        <div className="w-3/4 md:w-full">
+          <Table className="w-full border-none">
+            <TableBody>
+              <TableRow className="whitespace-normal wrap-break-word">
+                <TableCell className="whitespace-normal wrap-break-word">
+                  Monday to Friday
+                </TableCell>
+                <TableCell className="whitespace-normal wrap-break-word text-end">
+                  9:00am to 3:00pm
+                </TableCell>
+              </TableRow>
+            </TableBody>
+          </Table>
         </div>
         <div className="flex-1 flex flex-col justify-start items-start gap-2">
           <div className="flex md:flex-col lg:flex-row flex-row md:gap-0 lg:gap-1 gap-1 justify-center items-center">
