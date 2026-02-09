@@ -65,23 +65,14 @@ const Camp = () => {
                                     Ages
                                 </span>
                                 {'\u00A0'}
-                                <span>
-                                    4 Years Old to 13 Years Old
-                                </span>
                                 <ul className="font-normal pl-6">
                                     <li>
-                                        9:00AM - 5:00PM
+                                        4 Years Old to 13 Years Old
                                     </li>
                                     <li>
-                                        Monday - Friday
-                                    </li>
-                                    <li>
-                                        Families can enroll for 2, 3, or 5 days a week.
+                                        Siblings Discount Available
                                     </li>
                                 </ul>
-                            </li>
-                            <li className="font-semibold">
-                                Siblings Discount
                             </li>
                             <li>
                                 <span className="font-semibold">
