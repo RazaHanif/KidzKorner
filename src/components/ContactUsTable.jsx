@@ -21,8 +21,9 @@ const ContactUsTable = () => {
     */
     const timetable = [
         {
-            href: "tel:+19058784697"
-            
+            title: "Phone",
+            href: "tel:+19058784697",
+            text: "(905) 878-4697"
         },
         {
 
