@@ -32,6 +32,7 @@ const WorkshopCarousel = () => {
                 <CardContent>
                     <div className="border-4 border-red-500 flex md:flex-row flex-col justify-around items-center">
                         { content }
+                        { content.map()}
 
                     </div>
                 </CardContent>
