@@ -64,7 +64,7 @@ const Parties = () => {
                     desc={"The ultimate private party package with extended time, decor upgrades and interactive party features!"}
                     bullet={[
                         <div key={1} className="font-semibold text-xs">
-                            Includes everything in the Tiny Tornado Package & the Platnium Play Package plus
+                            Includes everything in the Tiny Tornado Package & the Platinum Play Package plus
                         </div>,
                         <li key={2}>
                             <span className="font-semibold">5.5</span> Hours of Private Access
