@@ -100,9 +100,11 @@ const Footer = () => {
                 <TableCell className="whitespace-normal wrap-break-word border-none text-end">
                   <a 
                     href="tel:+19058784697"
-                    className="hover:underline flex flex-row gap-2"
+                    className="hover:underline flex flex-row gap-2 text-end"
                   >
-                    (905) 878-4697
+                    <div className="w-full">
+                      (905) 878-4697
+                    </div>
                   </a>
                 </TableCell>
               </TableRow>
