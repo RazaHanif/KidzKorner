@@ -99,19 +99,9 @@ const Parties = () => {
 
             <div className="flex flex-col justify-center items-center w-3/4">
                 <div className="flex md:flex-row flex-col justify-between items-center gap-2 w-full">
-                    <Image src='/K_K_29.jpg' alt='Kidz Korner Store Front' />
-                    <img 
-                        src="/K_K_18.jpg"
-                        alt="Playground view"
-                        className="w-xs rounded-lg border-2 shadow-lg"
-                        loading="lazy"
-                    />
-                    <img 
-                        src="/K_K_29.jpg"
-                        alt="Kid admiring cake"
-                        className="w-3xs rounded-lg border-2 shadow-lg"
-                        loading="lazy"
-                    />
+                    <Image src='/K_K_29.jpg' alt='Kid Admiring Cake' />
+                    <Image src='/K_K_29.jpg' alt='Kid Admiring Cake' />
+                    <Image src='/K_K_29.jpg' alt='Kid Admiring Cake' />
                 </div>
             </div>
 
