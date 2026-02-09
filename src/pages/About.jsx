@@ -1,10 +1,12 @@
 import ContactForm from "@/components/ContactForm";
+import ContactUsTable from "../components/ContactUsTable";
 
 const About = () => {
 
     return (
         <div className="flex flex-col justify-center items-center gap-2 w-full text-justify">
             <div className="flex flex-col md:flex-row justify-center items-center w-3/4 m-4 gap-4">
+                <ContactUsTable />
                 <div className="flex-1 flex flex-col justify-center items-center w-3/4 gap-2">
                     <div className="text-xl font-bold md:self-start text-center">
                         Contact Us
