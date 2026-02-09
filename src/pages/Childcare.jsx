@@ -156,7 +156,7 @@ const Childcare = () => {
 
             </div>
 
-            <div className="relative w-full border">
+            <div className="w-full">
                 <ChildcareForm/>
             </div>
 
