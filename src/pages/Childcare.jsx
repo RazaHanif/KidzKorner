@@ -89,13 +89,10 @@ const Childcare = () => {
                         Interactive & Play Based Learning
                     </div>
                     <div className="border-2 border-blue-500">
-                        Parent communication and learning docs
+                        Parent communication and monthly prog reports
                     </div>
                     <div className="border-2 border-blue-500">
                         Nutrioutes means and snacks
-                    </div>
-                    <div className="border-2 border-blue-500">
-                        Mixed age Classrooms
                     </div>
                     <div className="border-2 border-blue-500">
                        Our Educatprs
