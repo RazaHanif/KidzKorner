@@ -126,12 +126,18 @@ const Childcare = () => {
                             <div className="">
                                 weekly art and cooking classes
                             </div>
+                            <div className="self-stretch w-px bg-border mx-4 md:block hidden" />
+                            <hr className="md:hidden"/>
                             <div className="">
                                 strong parent teacher communication and monthly prog reports
                             </div>
+                            <div className="self-stretch w-px bg-border mx-4 md:block hidden" />
+                            <hr className="md:hidden"/>
                             <div className="">
                                 freshly cooked nutrioutes meals and snacks
                             </div>
+                            <div className="self-stretch w-px bg-border mx-4 md:block hidden" />
+                            <hr className="md:hidden"/>
                             <div className="">
                             Our registed early childhood Educatprs rece
                             </div>
