@@ -36,7 +36,7 @@ const WorkshopCarousel = () => {
                                 key={image.alt}
                                 src={image.imageLink}
                                 alt={image.alt}
-                                className="w-1/4 rounded-lg border-2 shadow-lg"
+                                className="md:w-1/4 w-sm rounded-lg border-2 shadow-lg"
                                 loading="lazy"
                             />   
 
