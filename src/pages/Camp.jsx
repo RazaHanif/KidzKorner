@@ -83,14 +83,14 @@ const Camp = () => {
                 />
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 gap-2">
+            {/* <div className="flex flex-col justify-center items-center w-3/4 gap-2">
                 <div className="flex md:flex-row flex-col justify-center items-center gap-2">
                     <div className="flex flex-col justify-center items-start">
                         <CampTimeTable />
                     </div>
 
                 </div>
-            </div>
+            </div> */}
 
             <div className="flex md:flex-row flex-col justify-center items-center w-3/4 gap-2">
                 <Card className="flex-1">
