@@ -62,7 +62,7 @@ const Footer = () => {
         <div className="w-3/4 md:w-full border-2 border-green-500">
           <Table className="w-full border-none">
             <TableBody>
-              <TableRow className="whitespace-normal wrap-break-word border-none">
+              <TableRow className="whitespace-normal wrap-break-word border-none border-5">
                 <TableCell className="whitespace-normal wrap-break-word border-none">
                   Monday to Friday
                 </TableCell>
