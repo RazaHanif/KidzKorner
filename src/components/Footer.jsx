@@ -115,11 +115,11 @@ const Footer = () => {
                 </TableCell>
                 <TableCell className="whitespace-normal wrap-break-word border-none text-end">
                   <a 
-                    href="tel:+19058784697"
-                    className="hover:underline flex flex-row gap-2 text-end"
+                    href="mailto:info@kidzkornermilton.com"
+                    className="hover:underline flex flex-row gap-2"
                   >
-                    <div className="w-full">
-                      (905) 878-4697
+                    <div className="text-end">
+                      info@kidzkornermilton.com
                     </div>
                   </a>
                 </TableCell>
