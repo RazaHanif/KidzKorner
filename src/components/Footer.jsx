@@ -13,20 +13,19 @@ const Footer = () => {
         <div className="text-xl flex justify-center items-center w-full">
           Child Care Hours
         </div>
-        <div>
-
-        <Table className="border-4 w-3/4 self-center">
-          <TableBody>
-            <TableRow>
-              <TableCell>
-                Monday to Friday
-              </TableCell>
-              <TableCell className="text-end">
-                9:00am to 3:00pm
-              </TableCell>
-            </TableRow>
-          </TableBody>
-        </Table>
+        <div className="w-3/4">
+          <Table className="w-full border-none">
+            <TableBody>
+              <TableRow>
+                <TableCell>
+                  Monday to Friday
+                </TableCell>
+                <TableCell className="text-end">
+                  9:00am to 3:00pm
+                </TableCell>
+              </TableRow>
+            </TableBody>
+          </Table>
         </div>
       </div>
 
