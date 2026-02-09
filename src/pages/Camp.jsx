@@ -63,7 +63,6 @@ const Camp = () => {
                                 <span className="font-semibold">
                                     Ages
                                 </span>
-                                {'\u00A0'}
                                 <ul className="font-normal pl-6">
                                     <li>
                                         4 Years Old to 13 Years Old
