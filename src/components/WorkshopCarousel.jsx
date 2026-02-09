@@ -42,7 +42,7 @@ const WorkshopCarousel = () => {
                     { workshopCard(
                         "Paint Night",
                         "$250",
-                        ""
+                        {}
                     )}
                 </CarouselItem>
                 <CarouselItem>
