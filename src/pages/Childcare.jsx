@@ -39,8 +39,7 @@ const Childcare = () => {
                 />
             </div>
 
-            <div className="flex md:flex-row flex-col justify-evenly items-center w-3/4">                
-                <div className="flex flex-col justify-center md:w-1/2 w-full m-4">
+            <div className="flex md:flex-row flex-col justify-evenly items-center w-3/4">
                     <Card className="flex-1">
                         <CardHeader>
                             <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
@@ -58,7 +57,6 @@ const Childcare = () => {
                             </div>
                         </CardContent>
                     </Card>
-                </div>
             </div>
 
 
