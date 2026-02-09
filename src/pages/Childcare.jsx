@@ -118,20 +118,20 @@ const Childcare = () => {
                     </CardHeader>
                     <CardContent>
                         <div className="flex md:flex-row flex-col text-center">
-                            <div className="border-2 border-blue-500">
+                            <div className="">
                                 Interactive & Play Based Learning
                             </div>
-                            <div></div>
-                            <div className="border-2 border-blue-500">
+                            <hr></hr>
+                            <div className="">
                                 weekly art and cooking classes
                             </div>
-                            <div className="border-2 border-blue-500">
+                            <div className="">
                                 strong parent teacher communication and monthly prog reports
                             </div>
-                            <div className="border-2 border-blue-500">
+                            <div className="">
                                 freshly cooked nutrioutes meals and snacks
                             </div>
-                            <div className="border-2 border-blue-500">
+                            <div className="">
                             Our registed early childhood Educatprs rece
                             </div>
                         </div>
