@@ -31,7 +31,7 @@ const Camp = () => {
                         </CardTitle>
                         <CardDescription className="p-2 bg-accent flex justify-center items-center rounded-md text-bold text-lg">
                             <span className="text-xs text-center">
-                                Limited Spots Available - only 13 children per group
+                                To preserve the quality of our program, summer camp enrollment is limited to a maximum of 13 children.
                             </span>
                         </CardDescription>
                     </CardHeader>
