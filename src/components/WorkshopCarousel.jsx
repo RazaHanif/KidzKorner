@@ -16,7 +16,7 @@ import {
 
 const WorkshopCarousel = () => {
 
-    const workshopCard = (title, price, content=[] ) => {
+    const workshopCard = (title, price, content=[], description ) => {
         return (
             <Card>
                 <CardHeader>
@@ -30,7 +30,7 @@ const WorkshopCarousel = () => {
                     </CardDescription>
                 </CardHeader>
                 <CardContent>
-                    <div className="flex md:flex-row flex-col justify-around items-center gap-4 mb-4">
+                    <div className="flex md:flex-row flex-col justify-around items-center gap-4">
                         { content.map((image) => (
                             <img
                                 key={image.alt}
@@ -41,8 +41,18 @@ const WorkshopCarousel = () => {
                             />   
                         ))}
                     </div>
-                    <div className="flex w-full justify-center">
-                        desc & insta link
+                    <div className="flex w-full justify-center m-4">
+                        { description }
+                    </div>
+                    <div>
+                        <a
+                            href="https://www.instagram.com/kidz.kornermilton/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:underline"
+                        >
+                            For more information please visit our instagram
+                        </a>
                     </div>
                 </CardContent>
             </Card>
@@ -69,7 +79,8 @@ const WorkshopCarousel = () => {
                                 imageLink: '/K_K_20.jpg',
                                 alt: 'Play Structure'
                             },
-                        ]
+                        ],
+                        "Information about this Workshop"
                     )}
                 </CarouselItem>
                 <CarouselItem>
@@ -89,7 +100,8 @@ const WorkshopCarousel = () => {
                                 imageLink: '/K_K_20.jpg',
                                 alt: 'Play Structure'
                             },
-                        ]
+                        ],
+                        "Information about this Workshop"
                     )}
                 </CarouselItem>
                 <CarouselItem>
@@ -109,7 +121,8 @@ const WorkshopCarousel = () => {
                                 imageLink: '/K_K_20.jpg',
                                 alt: 'Play Structure'
                             },
-                        ]
+                        ],
+                        "Information about this Workshop"
                     )}
                 </CarouselItem>
                 <CarouselItem>
@@ -129,7 +142,8 @@ const WorkshopCarousel = () => {
                                 imageLink: '/K_K_20.jpg',
                                 alt: 'Play Structure'
                             },
-                        ]
+                        ],
+                        "Information about this Workshop"
                     )}
                 </CarouselItem>
             </CarouselContent>
