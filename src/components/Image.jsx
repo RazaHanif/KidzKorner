@@ -3,7 +3,7 @@ const Image = ({src, alt}) => {
         <img 
             src={src}
             alt={alt}
-            className="w-3xs rounded-lg border-2 shadow-lg"
+            className="md:w-3xs w-full rounded-lg border-2 shadow-lg"
             loading="lazy"
         />
     )
