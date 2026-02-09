@@ -40,10 +40,10 @@ const Workshops = () => {
             <div className="flex justify-center items-center w-3/4">
                 <WorkshopForm/>
             </div>
-            <FormBtn 
+            {/* <FormBtn 
                 title={"Workshop Form"}
                 form={<WorkshopForm />}
-            />
+            /> */}
         </div>
     );
 }
