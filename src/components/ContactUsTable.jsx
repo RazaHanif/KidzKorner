@@ -29,9 +29,6 @@ const ContactUsTable = () => {
                 {timetable.map((item) => (
                     <TableRow key={item}>
                         <TableCell>
-                            {item.title}
-                        </TableCell>
-                        <TableCell>
                             <a
                                 href={item.href}
                                 className="hover:underline flex flex-row"
