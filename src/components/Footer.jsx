@@ -1,4 +1,10 @@
 import { Instagram, Mail, MapPin, Phone } from "lucide-react";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableRow,
+} from "@/components/ui/table"
 
 const Footer = () => {
   return (
