@@ -71,7 +71,7 @@ const ChildcareForm = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center p-2">
+    <div className="flex flex-col justify-center items-center w-3/4 p-2">
 
       {/* Show thank you message when form is submitted */}
       { submitted ? (
@@ -79,7 +79,7 @@ const ChildcareForm = () => {
           Form submitted, thank you!
         </div>
       ) : (
-        <div className='flex flex-col justify-center items-center w-lg'>
+        <div className='flex flex-col justify-center items-center w-full'>
           <div className='flex flex-col justify-center items-center w-full text-2xl font-bold text-black'>
               Child Care Enrollment Form
           </div>
