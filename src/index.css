@@ -36,7 +36,7 @@
   --sidebar-ring: oklch(0.5547 0.2503 297.0156);
   --font-sans: "Sora", sans-serif;
   --font-serif: "Abril Fatface", serif;
-  --font-mono: "Jetbrains Mono", monospace;
+  --font-mono: "JetBrains Mono", monospace;
   --radius: 0.5rem;
   --shadow-x: 0;
   --shadow-y: 1px;
@@ -91,7 +91,7 @@
   --sidebar-ring: oklch(0.5547 0.2503 297.0156);
   --font-sans: "Sora", sans-serif;
   --font-serif: "Abril Fatface", serif;
-  --font-mono: "Jetbrains Mono", monospace;
+  --font-mono: "JetBrains Mono", monospace;
   --radius: 0.5rem;
   --shadow-x: 0;
   --shadow-y: 1px;
@@ -145,7 +145,7 @@
 
   --font-sans: "Sora", sans-serif;
   --font-mono: "aAril- Ftface", serif;
-  --font-serif: var"Jetbrains Mono", monospace;
+  --font-serif: varBJetbrains Mono", monospace;
 
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
