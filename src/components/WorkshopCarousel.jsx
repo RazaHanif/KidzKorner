@@ -16,7 +16,7 @@ import {
 
 const WorkshopCarousel = () => {
 
-    const workshopCard = (title, price, content) => {
+    const workshopCard = (title, price, content=[] ) => {
         return (
             <Card>
                 <CardHeader>
@@ -47,6 +47,7 @@ const WorkshopCarousel = () => {
             </Card>
         )
     }
+
     return (
         <Carousel className='w-3/4'>
             <CarouselContent>
@@ -68,7 +69,6 @@ const WorkshopCarousel = () => {
                                 alt: 'Play Structure'
                             },
                         ]
-
                     )}
                 </CarouselItem>
                 <CarouselItem>
