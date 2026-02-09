@@ -41,14 +41,14 @@ const ContactUsTable = () => {
                         <TableCell className='font-semibold'>
                             {item.title}
                         </TableCell>
-                        <TableCell>
+                        <TableCell  className="text-end whitespace-normal wrap-break-word border">
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer" 
                                 href={item.href}
                                 className="hover:underline flex flex-row"
                             >
-                                <div className="text-end whitespace-normal wrap-break-word border">
+                                <div>
                                     {item.text}
                                 </div>
                             </a>
