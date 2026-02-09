@@ -31,8 +31,16 @@ const WorkshopCarousel = () => {
                 </CardHeader>
                 <CardContent>
                     <div className="border-4 border-red-500 flex md:flex-row flex-col justify-around items-center">
-                        { content }
-                        { content.map()}
+                        { content.map((image) => (
+                            <img
+                                key={image.alt}
+                                src={image.imageLink}
+                                alt={image.alt}
+                                className="w-1/4 rounded-lg border-2 shadow-lg"
+                                loading="lazy"
+                            />   
+
+                        ))}
 
                     </div>
                 </CardContent>
@@ -46,28 +54,21 @@ const WorkshopCarousel = () => {
                     { workshopCard(
                         "Paint Night",
                         "$250",
-                        (
-                            <>
-                                <img 
-                                    src='/K_K_20.jpg'
-                                    alt='Play Structure'
-                                    className="w-1/4 rounded-lg border-2 shadow-lg"
-                                    loading="lazy"
-                                    />   
-                                <img 
-                                    src='/K_K_20.jpg'
-                                    alt='Play Structure'
-                                    className="w-xs rounded-lg border-2 shadow-lg"
-                                    loading="lazy"
-                                    />   
-                                <img 
-                                    src='/K_K_20.jpg'
-                                    alt='Play Structure'
-                                    className="w-xs rounded-lg border-2 shadow-lg"
-                                    loading="lazy"
-                                />   
-                            </>
-                        )
+                        [
+                            {
+                                imageLink: '/K_K_20.jpg',
+                                alt: 'Play Structure'
+                            },
+                            {
+                                imageLink: '/K_K_20.jpg',
+                                alt: 'Play Structure'
+                            },
+                            {
+                                imageLink: '/K_K_20.jpg',
+                                alt: 'Play Structure'
+                            },
+                        ]
+
                     )}
                 </CarouselItem>
                 <CarouselItem>
