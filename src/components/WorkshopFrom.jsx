@@ -75,7 +75,6 @@ return (
           Form submitted, thank you!
         </div>
       ) : (
-        <div className='flex flex-col justify-center items-center w-full'>
           <form 
             onSubmit={handleSubmit}
             className='w-3/4 flex flex-col justify-center items-center gap-2 border-2 bg-card rounded-lg pt-4'
@@ -283,7 +282,6 @@ return (
               Submit
             </Button>
           </form>
-        </div>
       )}
     </div>
   );
