@@ -74,19 +74,6 @@ const Camp = () => {
                                     </li>
                                 </ul>
                             </li>
-                            <li>
-                                <span className="font-semibold">
-                                    Qualified Staff On-site
-                                </span>
-                               <ul className="font-normal pl-6">
-                                    <li>
-                                        Registered Early Childhood Educator (RECE)
-                                    </li>
-                                    <li>
-                                        CPR & First Aid Certified
-                                    </li>
-                                </ul>
-                            </li>
                             <li className="font-semibold">
                                 Access to indoor playground and large open space for gross motor activities
                             </li>
