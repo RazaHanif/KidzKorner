@@ -88,9 +88,9 @@ const Camp = () => {
                                     Activities / Weekly Camp Themes
                                 </a>
                             </li>
-                            {/* <li className="text-xs font-semibold">
-                                *Center is closed on Civic Holiday, Christmas Eve, Christmas Day, New Years Eve, and New Years Day*
-                            </li> */}
+                            <li className="text-xs font-semibold">
+                                Center is closed on Civic Holiday, Christmas Eve, Christmas Day, New Years Eve, and New Years Day
+                            </li>
                         </ul>
                     </CardContent>
                 </Card>
