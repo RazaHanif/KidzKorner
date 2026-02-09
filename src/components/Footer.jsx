@@ -108,6 +108,52 @@ const Footer = () => {
                   </a>
                 </TableCell>
               </TableRow>
+
+              <TableRow className="whitespace-normal wrap-break-word border-none">
+                <TableCell className="whitespace-normal wrap-break-word border-none">
+                  <Mail />
+                </TableCell>
+                <TableCell className="whitespace-normal wrap-break-word border-none text-end">
+                  <a 
+                    href="tel:+19058784697"
+                    className="hover:underline flex flex-row gap-2 text-end"
+                  >
+                    <div className="w-full">
+                      (905) 878-4697
+                    </div>
+                  </a>
+                </TableCell>
+              </TableRow>
+              <TableRow className="whitespace-normal wrap-break-word border-none">
+                <TableCell className="whitespace-normal wrap-break-word border-none">
+                  <Phone />
+                </TableCell>
+                <TableCell className="whitespace-normal wrap-break-word border-none text-end">
+                  <a 
+                    href="tel:+19058784697"
+                    className="hover:underline flex flex-row gap-2 text-end"
+                  >
+                    <div className="w-full">
+                      (905) 878-4697
+                    </div>
+                  </a>
+                </TableCell>
+              </TableRow>
+              <TableRow className="whitespace-normal wrap-break-word border-none">
+                <TableCell className="whitespace-normal wrap-break-word border-none">
+                  <Phone />
+                </TableCell>
+                <TableCell className="whitespace-normal wrap-break-word border-none text-end">
+                  <a 
+                    href="tel:+19058784697"
+                    className="hover:underline flex flex-row gap-2 text-end"
+                  >
+                    <div className="w-full">
+                      (905) 878-4697
+                    </div>
+                  </a>
+                </TableCell>
+              </TableRow>
             </TableBody>
           </Table>
         </div>
