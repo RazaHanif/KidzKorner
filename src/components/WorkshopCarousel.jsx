@@ -30,7 +30,7 @@ const WorkshopCarousel = () => {
                     </CardDescription>
                 </CardHeader>
                 <CardContent>
-                    <div className="flex md:flex-row flex-col justify-around items-center gap-4">
+                    <div className="flex md:flex-row flex-col justify-around items-center gap-4 mb-4">
                         { content.map((image) => (
                             <img
                                 key={image.alt}
@@ -40,6 +40,9 @@ const WorkshopCarousel = () => {
                                 loading="lazy"
                             />   
                         ))}
+                    </div>
+                    <div className="flex w-full justify-center">
+                        desc & insta link
                     </div>
                 </CardContent>
             </Card>
