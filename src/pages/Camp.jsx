@@ -98,6 +98,7 @@ const Camp = () => {
                     className="w-sm rounded-lg border-2 shadow-lg"
                     loading="lazy"
                 />
+                <Image src='/K_K_11.jpg' alt='Kids doing tye dye' />
             </div>
 
             <div className="flex flex-col justify-center w-3/4 md:w-1/3 gap-4">
