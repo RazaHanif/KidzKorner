@@ -62,6 +62,11 @@ const Childcare = () => {
                     />
                 </div>
             </div>
+
+            <div className="flex flex-col justify-center items-start w-3/4 border-4 border-red-500">
+                
+
+            </div>
             
             <div className="flex flex-col justify-center items-start w-3/4">
                 <div className="text-xl font-bold self-center">
