@@ -11,7 +11,9 @@ const About = () => {
                     </div>
                     <div className="flex flex-col justify-center items-start w-full gap-2">
                         <div>
-                            <a 
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer" 
                                 href="tel:+19058784697"
                                 className="hover:underline flex flex-row"
                             >
@@ -21,7 +23,9 @@ const About = () => {
                             </a>
                         </div>
                         <div>
-                            <a 
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer" 
                                 href="mailto:info@kidzkornermilton.com"
                                 className="hover:underline flex flex-row"
                             >   
@@ -31,7 +35,9 @@ const About = () => {
                             </a>
                         </div>
                         <div>
-                            <a 
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer" 
                                 href="https://maps.app.goo.gl/TcUQhJ58bgf6tME18"
                                 className="hover:underline flex flex-row"
                             >
