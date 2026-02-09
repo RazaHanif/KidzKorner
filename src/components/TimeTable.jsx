@@ -31,16 +31,6 @@ const TimeTable = () => {
 
     return (
         <Table>
-            <TableHeader>
-                <TableRow>
-                    <TableHead>
-                        Time
-                    </TableHead>
-                    <TableHead>
-                        Program
-                    </TableHead>
-                </TableRow>
-            </TableHeader>
             <TableBody>
                 {timetable.map((item) => (
                     <TableRow key={item}>
