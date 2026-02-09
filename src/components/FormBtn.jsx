@@ -26,7 +26,7 @@ const FormBtn = ({title, form}) => {
                         { title }
                     </DialogTitle>
                     <DialogDescription className="hidden">
-                        form
+                        Form dialog
                     </DialogDescription>
                 </DialogHeader>
                     { form }
