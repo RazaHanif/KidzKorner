@@ -159,6 +159,15 @@ const Camp = () => {
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
+                                                <ul className="flex flex-col gap-4">
+                            <li>
+                                <span className="font-semibold">
+                                    Campers explore a wide range of mediums and techniques such as:
+                                </span>
+                                <ul className="font-normal pl-6 list-disc">
+                                </ul>
+                            </li>
+                        </ul>
                         <ul className="flex flex-col gap-4">
                             <li>
                                 Each week features fun, age-appropriate kitchen adventures
