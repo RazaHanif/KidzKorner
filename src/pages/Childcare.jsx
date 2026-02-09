@@ -50,7 +50,7 @@ const Childcare = () => {
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
-                        <div className="flex flex-col md:flex-row justify-around">
+                        <div className="flex flex-col justify-around">
                             <span>
                                 Kidz Korner is a licensed child care centre dedicated to providing high quality early learning and care. We offer toddler, preschool, & before/after school programs. Our curriculum is guided by the
                             </span>
