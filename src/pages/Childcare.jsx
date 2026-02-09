@@ -26,17 +26,14 @@ const Childcare = () => {
                 <Image
                     src='/K_K_38.jpg'
                     alt='Kids doing an activity'
-                    className="md:w-3xs w-full rounded-lg border-2 shadow-lg"
                 />
                 <Image
                     src='/K_K_38.jpg'
                     alt='Kids doing an activity'
-                    className="md:w-3xs w-full rounded-lg border-2 shadow-lg"
                 />
                 <Image
                     src='/K_K_38.jpg'
                     alt='Kids doing an activity'
-                    className="md:w-3xs w-full rounded-lg border-2 shadow-lg"
                 />
             </div>
 
@@ -79,7 +76,6 @@ const Childcare = () => {
                     <Image
                     src='/K_K_17.jpg'
                     alt='Kid playing with blocks'
-                    className="md:w-3xs w-full rounded-lg border-2 shadow-lg"
                     />
                 </div>
             </div>
@@ -124,17 +120,14 @@ const Childcare = () => {
                     <Image
                     src='/K_K_17.jpg'
                     alt='Kid playing with blocks'
-                    className="md:w-3xs w-full rounded-lg border-2 shadow-lg"
                     />
                     <Image
                     src='/K_K_17.jpg'
                     alt='Kid playing with blocks'
-                    className="md:w-3xs w-full rounded-lg border-2 shadow-lg"
                     />
                     <Image
                     src='/K_K_17.jpg'
                     alt='Kid playing with blocks'
-                    className="md:w-3xs w-full rounded-lg border-2 shadow-lg"
                     />
             </div>
 
