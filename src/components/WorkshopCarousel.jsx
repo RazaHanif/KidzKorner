@@ -30,6 +30,9 @@ const WorkshopCarousel = () => {
                     </CardDescription>
                 </CardHeader>
                 <CardContent>
+                    <div className="border-4 border-red-500">
+
+                    </div>
                     { content }
                 </CardContent>
             </Card>
