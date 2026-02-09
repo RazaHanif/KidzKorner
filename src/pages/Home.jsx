@@ -25,6 +25,9 @@ const Home = () => {
                                 Kidz Korner is a family-owned business located in the heart of Milton, Ontario.
                                 We offer license, high quality child care for toddlers and preschoolers along with before and after school programs and licensed school age camps.
                             </span>
+                            <span>
+                                
+                            </span>
                             Camps are offered during PA / PD days, March / Summer / Winter breaks.
                             Our commitment to providing loving, nurturing care has earned us the trust of many families and community resources, creating a multi-generational legacy. 
                             We believe in child-led learning. 
