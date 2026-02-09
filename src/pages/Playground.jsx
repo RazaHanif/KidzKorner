@@ -21,28 +21,25 @@ const Playground = () => {
                 <PlaygroundAccordion />
             </div>
 
-            <div>
-                <div className="flex md:flex-row flex-col justify-center items-center gap-4">
-                    <img 
-                        src='/K_K_20.jpg'
-                        alt='Play Structure'
-                        className="w-xs rounded-lg border-2 shadow-lg"
-                        loading="lazy"
-                    />
-                    <img 
-                        src='/K_K_30.jpg'
-                        alt='Kids on climbing structure'
-                        className="w-3xs rounded-lg border-2 shadow-lg"
-                        loading="lazy"
-                    />
-                    <img 
-                        src='/K_K_20.jpg'
-                        alt='Play Structure'
-                        className="w-xs rounded-lg border-2 shadow-lg"
-                        loading="lazy"
-                    />
-                </div>
-
+            <div className="flex md:flex-row flex-col justify-between items-center gap-4">
+                <img 
+                    src='/K_K_20.jpg'
+                    alt='Play Structure'
+                    className="w-xs rounded-lg border-2 shadow-lg"
+                    loading="lazy"
+                />
+                <img 
+                    src='/K_K_30.jpg'
+                    alt='Kids on climbing structure'
+                    className="w-3xs rounded-lg border-2 shadow-lg"
+                    loading="lazy"
+                />
+                <img 
+                    src='/K_K_20.jpg'
+                    alt='Play Structure'
+                    className="w-xs rounded-lg border-2 shadow-lg"
+                    loading="lazy"
+                />
             </div>
         </div>
     );
