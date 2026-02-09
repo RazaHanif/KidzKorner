@@ -92,14 +92,13 @@ const Parties = () => {
                             Prior approval of all 3rd party vendors is required.
                         </div>
                         <div className="text-sm font-semibold">
-                            *Prices are subject to change without notice*
+                            Prices are subject to change without notice
                         </div>
                     </div>
             </div>
 
-            
-            <div className="flex flex-col justify-center items-center w-3/4">
-                <div className="flex md:flex-row flex-col justify-center items-center gap-2">
+            <div className="flex flex-col justify-center items-center w-3/4 border">
+                <div className="flex md:flex-row flex-col justify-between items-center gap-2 w-full">
                     <img 
                         src="/K_K_29.jpg"
                         alt="Kid admiring cake"
