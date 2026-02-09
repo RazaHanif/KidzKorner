@@ -52,16 +52,16 @@ const Camp = () => {
                         </ul>
                     </CardContent>
                 </Card>
+                <img 
+                    src='/K_K_11.jpg'
+                    alt='Kids Playing with Dinos'
+                    className="w-3xs rounded-lg border-2 shadow-lg"
+                    loading="lazy"
+                />
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-2">
                 <div className="flex md:flex-row flex-col justify-center items-center gap-2">
-                    <img 
-                        src='/K_K_11.jpg'
-                        alt='Kids Playing with Dinos'
-                        className="w-3xs rounded-lg border-2 shadow-lg"
-                        loading="lazy"
-                    />
                     <div className="flex flex-col justify-center items-start">
                         <CampTimeTable />
                     </div>
