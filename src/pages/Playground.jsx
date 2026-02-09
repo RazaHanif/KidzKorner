@@ -29,12 +29,6 @@ const Playground = () => {
                     loading="lazy"
                 />
                 <img 
-                    src='/K_K_20.jpg'
-                    alt='Play Structure'
-                    className="w-xs rounded-lg border-2 shadow-lg"
-                    loading="lazy"
-                />
-                <img 
                     src='/K_K_30.jpg'
                     alt='Kids on climbing structure'
                     className="w-3xs rounded-lg border-2 shadow-lg"
