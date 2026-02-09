@@ -16,11 +16,11 @@ const Footer = () => {
         <div className="w-3/4 md:w-full">
           <Table className="w-full border-none">
             <TableBody>
-              <TableRow className="whitespace-normal wrap-break-word">
-                <TableCell className="whitespace-normal wrap-break-word">
+              <TableRow className="whitespace-normal wrap-break-word border-none">
+                <TableCell className="whitespace-normal wrap-break-word border-none">
                   Monday to Friday
                 </TableCell>
-                <TableCell className="whitespace-normal wrap-break-word text-end">
+                <TableCell className="whitespace-normal wrap-break-word border-none text-end">
                   9:00am to 3:00pm
                 </TableCell>
               </TableRow>
@@ -39,11 +39,11 @@ const Footer = () => {
         <div className="w-3/4 md:w-full">
           <Table className="w-full border-none">
             <TableBody>
-              <TableRow className="whitespace-normal wrap-break-word">
-                <TableCell className="whitespace-normal wrap-break-word">
+              <TableRow className="whitespace-normal wrap-break-word border-none">
+                <TableCell className="whitespace-normal wrap-break-word border-none">
                   Monday to Friday
                 </TableCell>
-                <TableCell className="whitespace-normal wrap-break-word text-end">
+                <TableCell className="whitespace-normal wrap-break-word border-none text-end">
                   3:00pm to 6:00pm
                 </TableCell>
               </TableRow>
@@ -62,19 +62,19 @@ const Footer = () => {
         <div className="w-3/4 md:w-full">
           <Table className="w-full border-none">
             <TableBody>
-              <TableRow className="whitespace-normal wrap-break-word">
-                <TableCell className="whitespace-normal wrap-break-word">
+              <TableRow className="whitespace-normal wrap-break-word border-none">
+                <TableCell className="whitespace-normal wrap-break-word border-none">
                   Monday to Friday
                 </TableCell>
-                <TableCell className="whitespace-normal wrap-break-word text-end">
+                <TableCell className="whitespace-normal wrap-break-word border-none text-end">
                   3:00pm to 6:00pm
                 </TableCell>
               </TableRow>
-              <TableRow className="whitespace-normal wrap-break-word">
-                <TableCell className="whitespace-normal wrap-break-word">
+              <TableRow className="whitespace-normal wrap-break-word border-none">
+                <TableCell className="whitespace-normal wrap-break-word border-none">
                   Saturday to Sunday
                 </TableCell>
-                <TableCell className="whitespace-normal wrap-break-word text-end">
+                <TableCell className="whitespace-normal wrap-break-word border-none text-end">
                   Parties Only
                 </TableCell>
               </TableRow>
