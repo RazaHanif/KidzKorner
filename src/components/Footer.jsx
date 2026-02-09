@@ -124,6 +124,7 @@ const Footer = () => {
                   </a>
                 </TableCell>
               </TableRow>
+
               <TableRow className="whitespace-normal wrap-break-word border-none">
                 <TableCell className="whitespace-normal wrap-break-word border-none">
                   <Phone />
@@ -139,6 +140,7 @@ const Footer = () => {
                   </a>
                 </TableCell>
               </TableRow>
+              
               <TableRow className="whitespace-normal wrap-break-word border-none">
                 <TableCell className="whitespace-normal wrap-break-word border-none">
                   <Phone />
