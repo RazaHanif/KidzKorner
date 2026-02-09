@@ -1,6 +1,7 @@
 import WorkshopAccordion from "@/components/WorkshopAccordion";
 import WorkshopForm from "@/components/WorkshopFrom"
 import WorkshopCarousel from "../components/WorkshopCarousel";
+import FormBtn from "../components/FormBtn";
 
 const Workshops = () => {
     return (
@@ -39,6 +40,10 @@ const Workshops = () => {
             <div className="flex justify-center items-center w-3/4">
                 <WorkshopForm/>
             </div>
+            <FormBtn 
+                title={"Workshop Form"}
+                form={<WorkshopForm />}
+            />
         </div>
     );
 }
