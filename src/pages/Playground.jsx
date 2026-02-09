@@ -26,14 +26,15 @@ const Playground = () => {
                 <Card className="flex-1">
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
-                            Title
+                            Drop In
                         </CardTitle>
-                        <CardDescription className="p-2 bg-accent hidden rounded-md text-bold text-lg">
-                            title
+                        <CardDescription className="p-2 bg-accent flex justify-center items-center rounded-md text-bold text-lg">
+                            $15 per Family
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
                         <div className="flex flex-col md:flex-row justify-around">
+                            Open from 3-6 pm
                             
                         </div>
                     </CardContent>
