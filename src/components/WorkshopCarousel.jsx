@@ -75,21 +75,60 @@ const WorkshopCarousel = () => {
                     { workshopCard(
                         "Cooking Class",
                         "$250",
-                        ""
+                        [
+                            {
+                                imageLink: '/K_K_20.jpg',
+                                alt: 'Play Structure'
+                            },
+                            {
+                                imageLink: '/K_K_20.jpg',
+                                alt: 'Play Structure'
+                            },
+                            {
+                                imageLink: '/K_K_20.jpg',
+                                alt: 'Play Structure'
+                            },
+                        ]
                     )}
                 </CarouselItem>
                 <CarouselItem>
                     { workshopCard(
                         "Little Sahaba's",
                         "$250",
-                        ""
+                        [
+                            {
+                                imageLink: '/K_K_20.jpg',
+                                alt: 'Play Structure'
+                            },
+                            {
+                                imageLink: '/K_K_20.jpg',
+                                alt: 'Play Structure'
+                            },
+                            {
+                                imageLink: '/K_K_20.jpg',
+                                alt: 'Play Structure'
+                            },
+                        ]
                     )}
                 </CarouselItem>
                 <CarouselItem>
                     { workshopCard(
                         "Mommy & Me",
                         "$250",
-                        ""
+                        [
+                            {
+                                imageLink: '/K_K_20.jpg',
+                                alt: 'Play Structure'
+                            },
+                            {
+                                imageLink: '/K_K_20.jpg',
+                                alt: 'Play Structure'
+                            },
+                            {
+                                imageLink: '/K_K_20.jpg',
+                                alt: 'Play Structure'
+                            },
+                        ]
                     )}
                 </CarouselItem>
             </CarouselContent>
