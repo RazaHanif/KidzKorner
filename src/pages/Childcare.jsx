@@ -42,7 +42,7 @@ const Childcare = () => {
             <div className="flex md:flex-row flex-col justify-evenly items-center w-3/4">
                 <Card className="flex-1">
                     <CardHeader>
-                        <CardDescription className="p-2 bg-accent hidden rounded-md text-bold text-lg">
+                        <CardDescription className="bg-accent hidden rounded-md text-bold text-lg">
                             Childcare
                         </CardDescription>
                     </CardHeader>
