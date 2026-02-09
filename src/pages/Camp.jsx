@@ -23,7 +23,7 @@ const Camp = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 gap-2">
+            <div className="flex md:flex-row flex-col justify-center items-center w-3/4 gap-2">
                 <Card className="flex-1">
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
@@ -55,7 +55,7 @@ const Camp = () => {
                 <img 
                     src='/K_K_11.jpg'
                     alt='Kids Playing with Dinos'
-                    className="w-3xs rounded-lg border-2 shadow-lg"
+                    className="w-sm rounded-lg border-2 shadow-lg"
                     loading="lazy"
                 />
             </div>
