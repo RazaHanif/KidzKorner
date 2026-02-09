@@ -69,8 +69,11 @@ const Childcare = () => {
                 </div>
                 <div className="flex">
                     <div className="border-2 border-blue-500">Engaging Learning Experiences</div>
-                    <div className="border-2 border-blue-500">Engaging Learning Experiences</div>
-                    <div className="border-2 border-blue-500">Engaging Learning Experiences</div>
+                    <div className="border-2 border-blue-500">Interactive & Play Based Learning</div>
+                    <div className="border-2 border-blue-500">Parent communication and learning docs</div>
+                    <div className="border-2 border-blue-500">Parent communication and learning docs</div>
+                    <div className="border-2 border-blue-500">Parent communication and learning docs</div>
+                    <div className="border-2 border-blue-500">Parent communication and learning docs</div>
                 </div>
 
             </div>
