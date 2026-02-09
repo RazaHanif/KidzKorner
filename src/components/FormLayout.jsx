@@ -9,7 +9,7 @@ const FormLayout = ({ title, form, handleSubmit, submitted }) => {
             { submitted ? (
                 // TEST THIS
                 <div 
-                    className="flex flex-col justify-center items-center w-lg text-black bg-card border-2 rounded-lg"
+                    className='w-full flex flex-col justify-center items-center gap-2 border-2 bg-card rounded-lg shadow-lg py-4'
                 >
                     Form submitted, thank you!
                 </div>
