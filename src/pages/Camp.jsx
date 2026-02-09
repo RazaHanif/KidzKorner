@@ -185,6 +185,9 @@ const Camp = () => {
                 <div>
                     Camp Schedule Includes
                 </div>
+                <div>
+                    Arrival, Morning Snack, Programming, Circle Time, Cooking / Art Activity, Lunch, Afternoon Rest, Snack, Programming, Dismissal
+                </div>
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
