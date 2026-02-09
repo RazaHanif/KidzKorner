@@ -121,6 +121,7 @@ const Childcare = () => {
                             <div className="border-2 border-blue-500">
                                 Interactive & Play Based Learning
                             </div>
+                            <div></div>
                             <div className="border-2 border-blue-500">
                                 weekly art and cooking classes
                             </div>
