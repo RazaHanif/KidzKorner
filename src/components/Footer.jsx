@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="text-xl flex justify-center items-center w-full">
           Child Care Hours
         </div>
-        <Table className="border-4 border-red-400">
+        <Table className="border-none">
           <TableBody>
             <TableRow>
               <TableCell>
