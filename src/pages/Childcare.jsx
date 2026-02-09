@@ -118,19 +118,19 @@ const Childcare = () => {
                     </CardHeader>
                     <CardContent>
                         <div className="flex md:flex-row flex-col justify-evenly text-justify">
-                            <div className="md:border-r-2 md:border-b-0 border-b-2">
+                            <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
                                 Interactive & Play Based Learning
                             </div>
-                            <div className="md:border-r-2 md:border-b-0 border-b-2">
+                            <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
                                 weekly art and cooking classes
                             </div>
-                            <div className="md:border-r-2 md:border-b-0 border-b-2">
+                            <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
                                 strong parent teacher communication and monthly prog reports
                             </div>
-                            <div className="md:border-r-2 md:border-b-0 border-b-2">
+                            <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
                                 freshly cooked nutrioutes meals and snacks
                             </div>
-                            <div className="md:border-r-2 md:border-b-0 border-b-2">
+                            <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
                             Our registed early childhood Educatprs rece
                             </div>
                         </div>
