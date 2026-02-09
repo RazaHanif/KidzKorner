@@ -64,19 +64,25 @@ const WorkshopForm = () => {
     } finally {
       setIsSubmitting(false)
     }
+
   };
 
-  return (
-    <div className="flex flex-col justify-center items-center">
+return (
+<div className="flex flex-col justify-center items-center w-full p-2">
+
       {/* Show thank you message when form is submitted */}
       { submitted ? (
         <div className="flex flex-col justify-center items-center w-lg text-black bg-card border-2 rounded-lg">
           Form submitted, thank you!
         </div>
       ) : (
+        <div className='flex flex-col justify-center items-center w-lg'>
+          <div className='flex flex-col justify-center items-center w-full text-2xl font-bold text-black'>
+              Workshop Enrollment Form
+          </div>
           <form 
             onSubmit={handleSubmit}
-            className='w-full flex flex-col justify-center items-center gap-2 border-2 bg-card rounded-lg pt-4'
+            className='w-3/4 flex flex-col justify-center items-center gap-2 border-2 bg-card rounded-lg pt-4'
           >
             <div 
               className="grid items-center gap-2 w-4/5 p-2"
@@ -281,6 +287,7 @@ const WorkshopForm = () => {
               Submit
             </Button>
           </form>
+        </div>
       )}
     </div>
   );
