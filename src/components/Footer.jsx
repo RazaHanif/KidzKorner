@@ -9,8 +9,8 @@ import {
 const Footer = () => {
   return (
     <div className="flex flex-col md:flex-row justify-center w-full bg-primary border-t border-chart-4 p-4 text-primary-foreground">
-      <div className="flex-1 flex flex-col justify-start items-center gap-2">
-        <div className="text-xl flex justify-center items-center w-full">
+      <div className="flex-1 flex flex-col justify-start items-center gap-2 border-blue-500 border-2">
+        <div className="text-xl flex justify-center items-center w-full border-2 border-red-500">
           Child Care Hours
         </div>
         <div className="w-3/4 md:w-full">
@@ -32,8 +32,8 @@ const Footer = () => {
       <div className="border-r border-chart-4 md:flex hidden m-2"></div>
       <div className="border-t border-chart-4 md:hidden flex m-2"></div>      
 
-      <div className="flex-1 flex flex-col justify-start items-center gap-2">
-        <div className="text-xl flex justify-center items-center w-full">
+      <div className="flex-1 flex flex-col justify-start items-center gap-2 border-blue-500 border-2">
+        <div className="text-xl flex justify-center items-center w-full border-2 border-red-500">
           After School Hours
         </div>
         <div className="w-3/4 md:w-full">
@@ -55,8 +55,8 @@ const Footer = () => {
       <div className="border-r border-chart-4 md:flex hidden m-2"></div>
       <div className="border-t border-chart-4 md:hidden flex m-2"></div>
 
-      <div className="flex-1 flex flex-col justify-start items-center gap-2">
-        <div className="text-xl flex justify-center items-center w-full">
+      <div className="flex-1 flex flex-col justify-start items-center gap-2 border-blue-500 border-2">
+        <div className="text-xl flex justify-center items-center w-full border-2 border-red-500">
           Indoor Playground Hours
         </div>
         <div className="w-3/4 md:w-full">
