@@ -39,7 +39,7 @@ const WorkshopCarousel = () => {
         )
     }
     return (
-        <Carousel>
+        <Carousel className='w-3/4'>
             <CarouselContent>
                 <CarouselItem>
                     { workshopCard(
