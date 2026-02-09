@@ -19,7 +19,7 @@ const FormLayout = ({ title, form, handleSubmit, submitted }) => {
                     className='w-full flex flex-col justify-center items-center gap-2 border-2 bg-card rounded-lg shadow-lg py-4'
                 >
                     <div 
-                        className='flex flex-col justify-center items-center w-full text-2xl font-bold text-black'
+                        className='text-2xl font-semibold underline'
                     >
                         {title}
                     </div>
