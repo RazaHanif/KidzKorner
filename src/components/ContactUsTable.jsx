@@ -42,8 +42,8 @@ const ContactUsTable = () => {
         },
         {
             title: "Email",
-            href: "tel:+19058784697",
-            text: "(905) 878-4697"
+            href: "mailto:info@kidzkornermilton.com",
+            text: "info@kidzkornermilton.com"
         },
         {
             title: "Phone",
