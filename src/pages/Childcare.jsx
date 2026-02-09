@@ -38,7 +38,7 @@ const Childcare = () => {
                     className="w-3xs rounded-lg border-2 shadow-lg"
                 />
             </div>
-            
+
             <div className="flex md:flex-row flex-col justify-evenly items-center w-3/4">                
                 <div className="flex flex-col justify-center md:w-1/2 w-full m-4">
                     <Card className="flex-1">
@@ -70,12 +70,25 @@ const Childcare = () => {
                     <div className="flex flex-col justify-center">
                         <TimeTable />
                     </div>
+                </div>
+            </div>
+
+            <div className="flex md:flex-row flex-col justify-evenly items-center w-3/4 gap-4">
                     <img 
                     src='/K_K_17.jpg'
                     alt='Kid playing with blocks'
                     className="w-3xs rounded-lg border-2 shadow-lg"
                     />
-                </div>
+                    <img 
+                    src='/K_K_17.jpg'
+                    alt='Kid playing with blocks'
+                    className="w-3xs rounded-lg border-2 shadow-lg"
+                    />
+                    <img 
+                    src='/K_K_17.jpg'
+                    alt='Kid playing with blocks'
+                    className="w-3xs rounded-lg border-2 shadow-lg"
+                    />
             </div>
 
             <div className="flex flex-col justify-center w-3/4 border-4 border-red-500 p-4">
