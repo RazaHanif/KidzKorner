@@ -6,7 +6,7 @@ import Childcare from './pages/Childcare.jsx'
 import Home from './pages/Home.jsx'
 import Parties from './pages/Parties.jsx'
 import Playground from './pages/Playground.jsx'
-// import Workshops from './pages/Workshops.jsx'
+import Workshops from './pages/Workshops.jsx'
 import Camp from './pages/Camp.jsx'
 import NotFound from './pages/NotFound.jsx'
 
@@ -20,7 +20,7 @@ function App() {
           <Route path='/childcare' element={<Childcare />} />
           <Route path='/parties' element={<Parties />} />
           <Route path='/playground' element={<Playground />} />
-          {/* <Route path='/workshop' element={<Workshops />} /> */}
+          <Route path='/workshop' element={<Workshops />} />
           <Route path='/camp' element={<Camp />} />
           <Route path='/about' element={<About />} />
           <Route path='*' element={<NotFound />} />
