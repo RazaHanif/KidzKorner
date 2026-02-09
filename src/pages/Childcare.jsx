@@ -73,10 +73,7 @@ const Childcare = () => {
                     <div className="flex flex-col justify-center m-4 md:m-0">
                         <TimeTable />
                     </div>
-                    <Image
-                    src='/K_K_17.jpg'
-                    alt='Kid playing with blocks'
-                    />
+                    <Image src='/K_K_17.jpg' alt='Kid playing with blocks' />
                 </div>
             </div>
 
@@ -117,18 +114,9 @@ const Childcare = () => {
 
             
             <div className="flex md:flex-row flex-col justify-between items-center w-3/4 gap-4">
-                    <Image
-                    src='/K_K_17.jpg'
-                    alt='Kid playing with blocks'
-                    />
-                    <Image
-                    src='/K_K_17.jpg'
-                    alt='Kid playing with blocks'
-                    />
-                    <Image
-                    src='/K_K_17.jpg'
-                    alt='Kid playing with blocks'
-                    />
+                    <Image src='/K_K_17.jpg' alt='Kid playing with blocks' />
+                    <Image src='/K_K_17.jpg' alt='Kid playing with blocks' />
+                    <Image src='/K_K_17.jpg' alt='Kid playing with blocks' />
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-1 m-4 overflow-x-auto">
