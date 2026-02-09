@@ -130,29 +130,18 @@ const Camp = () => {
                                 </span>
                                 <ul className="font-normal pl-6">
                                     <li>
-                                        9:00AM - 5:00PM
+                                        Painting and Drawing
                                     </li>
                                     <li>
-                                        Monday - Friday
+                                        Printmaking
                                     </li>
                                     <li>
-                                        Families can enroll for 2, 3, or 5 days a week.
+                                        Mixed Media and Collage
+                                    </li>
+                                    <li>
+                                        End of term art gallery
                                     </li>
                                 </ul>
-                            </li>
-                            <li>
-                            </li>
-                            <li>
-                                Painting and Drawing
-                            </li>
-                            <li>
-                                Printmaking
-                            </li>
-                            <li>
-                                Mixed Media and Collage
-                            </li>
-                            <li>
-                                End of term art gallery
                             </li>
                         </ul>
                     </CardContent>
