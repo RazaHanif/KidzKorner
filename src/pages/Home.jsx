@@ -15,14 +15,14 @@ const Home = () => {
                         className="w-3xs md:w-xs rounded-lg border-2 shadow-lg"
                         loading="lazy"
                     />
-                    <div className="border border-4">
+                    <div className="border-4">
                         
-                    </div>
-                    <div className="md:w-1/2 w-full flex justify-center items-center m-4 flex-1">
-                        Kidz Korner is a family-owned business located in the heart of Milton, Ontario.
-                        We offer license, high quality child care for toddlers and preschoolers along with before and after school programs and licensed school age camps.
-                        Camps are offered during PA / PD days, March / Summer / Winter breaks.
-                        Our commitment to providing loving, nurturing care has earned us the trust of many families and community resources, creating a multi-generational legacy. We believe in child-led learning. By observing, engaging with, and reflecting on each child's experiences, we create a learning environment that is both inclusive and adaptable to each child's needs. Here at Kidz Korner
+                        <div className="md:w-1/2 w-full flex justify-center items-center m-4 flex-1">
+                            Kidz Korner is a family-owned business located in the heart of Milton, Ontario.
+                            We offer license, high quality child care for toddlers and preschoolers along with before and after school programs and licensed school age camps.
+                            Camps are offered during PA / PD days, March / Summer / Winter breaks.
+                            Our commitment to providing loving, nurturing care has earned us the trust of many families and community resources, creating a multi-generational legacy. We believe in child-led learning. By observing, engaging with, and reflecting on each child's experiences, we create a learning environment that is both inclusive and adaptable to each child's needs. Here at Kidz Korner
+                        </div>
                     </div>
                 </div>
                 <div className="flex md:flex-row flex-col justify-center items-center gap-4">
