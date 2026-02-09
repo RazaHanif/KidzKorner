@@ -50,7 +50,6 @@ const Camp = () => {
                                 All materials included
                             </li>
                         </ul>
-        
                     </CardContent>
                 </Card>
             </div>
