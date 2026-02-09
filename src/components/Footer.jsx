@@ -163,56 +163,6 @@ const Footer = () => {
             </TableBody>
           </Table>
         </div>
-        <div className="flex-1 flex flex-col justify-start items-start gap-2">
-          <div>
-            <a 
-              href="tel:+19058784697"
-              className="hover:underline flex flex-row gap-2"
-            >
-              <Phone />
-              <div>
-                (905) 878-4697
-              </div>
-            </a>
-          </div>
-          <div>
-            <a 
-              href="mailto:info@kidzkornermilton.com"
-              className="hover:underline flex flex-row gap-2"
-            >
-              <Mail />
-              <div>
-                info@kidzkornermilton.com
-              </div>
-            </a>
-          </div>
-          <div>
-            <a 
-              href="https://maps.app.goo.gl/TcUQhJ58bgf6tME18"
-              className="hover:underline flex flex-row gap-2"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <MapPin />
-              <div>
-                150 Nipissing Rd. 10 & 11, Milton, ON
-              </div>
-            </a>
-          </div>
-          <div>
-            <a 
-              href="https://www.instagram.com/kidz.kornermilton/"
-              className="hover:underline flex flex-row gap-2"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Instagram />
-              <div>
-                Follow us on Instagram
-              </div>
-            </a>
-          </div>
-        </div>
       </div>
 
     </div>
