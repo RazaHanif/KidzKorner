@@ -72,10 +72,10 @@ const Footer = () => {
               </TableRow>
               <TableRow className="whitespace-normal wrap-break-word">
                 <TableCell className="whitespace-normal wrap-break-word">
-                  Monday to Friday
+                  Saturday to Sunday
                 </TableCell>
                 <TableCell className="whitespace-normal wrap-break-word text-end">
-                  3:00pm to 6:00pm
+                  Parties Only
                 </TableCell>
               </TableRow>
             </TableBody>
