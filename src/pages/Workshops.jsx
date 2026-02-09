@@ -9,7 +9,7 @@ const Workshops = () => {
                 <div className="text-3xl font-bold mb-4">
                     Workshops
                 </div>
-                <div className="flex justify-center items-center w-3/4 mb-4">
+                <div className="flex justify-center items-center w-full mb-4">
                     <WorkshopCarousel />
                 </div>
             </div>
