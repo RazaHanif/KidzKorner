@@ -6,7 +6,6 @@ import {
     CardTitle,
 } from "@/components/ui/card"
 import CampForm from "@/components/CampForm";
-import CampTimeTable from "@/components/CampTimeTable";
 
 const Camp = () => {
     return (
