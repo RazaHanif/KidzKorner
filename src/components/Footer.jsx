@@ -13,7 +13,9 @@ const Footer = () => {
         <div className="text-xl flex justify-center items-center w-full">
           Child Care Hours
         </div>
-        <Table className="border-none">
+        <div>
+
+        <Table className="border-4 w-3/4 self-center">
           <TableBody>
             <TableRow>
               <TableCell>
@@ -25,18 +27,6 @@ const Footer = () => {
             </TableRow>
           </TableBody>
         </Table>
-        <div className="flex-1 flex flex-col justify-start items-start gap-2">
-          <div className="flex md:flex-col lg:flex-row flex-row md:gap-0 lg:gap-1 gap-1 justify-center items-center">
-            <div>
-              Monday to Friday
-            </div>
-            <div className="md:hidden flex">
-              -
-            </div>
-            <div>
-              9:00am to 3:00pm
-            </div>
-          </div>
         </div>
       </div>
 
