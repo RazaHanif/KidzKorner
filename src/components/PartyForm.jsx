@@ -61,157 +61,159 @@ const PartyForm = () => {
 
   };
 
-  <FormLayout 
-    title={"Party Inquiry Form"}
-    handleSubmit={handleSubmit}
-    submitted={submitted}
-    form={
-      <>
-      <div 
-              className="grid items-center gap-2 w-4/5 p-2"
-            >
-              <Label 
-                htmlFor="name"
+  return (
+    <FormLayout 
+      title={"Party Inquiry Form"}
+      handleSubmit={handleSubmit}
+      submitted={submitted}
+      form={
+        <>
+        <div 
+                className="grid items-center gap-2 w-4/5 p-2"
               >
-                Name
-              </Label>
-              <Input
-                type="text"
-                placeholder="Spongebob Squarepants"
-                id="name"
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-                required
-              />
-            </div>
+                <Label 
+                  htmlFor="name"
+                >
+                  Name
+                </Label>
+                <Input
+                  type="text"
+                  placeholder="Spongebob Squarepants"
+                  id="name"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  required
+                />
+              </div>
 
-            <div 
-              className="grid items-center gap-2 w-4/5 p-2"
-            >
-              <Label 
-                htmlFor="email"
+              <div 
+                className="grid items-center gap-2 w-4/5 p-2"
               >
-                Email
-              </Label>
-              <Input
-                type="email"
-                placeholder="squarepants@krustykrab.com"
-                id="email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                required
-              />
-            </div>
+                <Label 
+                  htmlFor="email"
+                >
+                  Email
+                </Label>
+                <Input
+                  type="email"
+                  placeholder="squarepants@krustykrab.com"
+                  id="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  required
+                />
+              </div>
 
-            <div 
-              className="grid items-center gap-2 w-4/5 p-2"
-            >
-              <Label 
-                htmlFor="phone"
+              <div 
+                className="grid items-center gap-2 w-4/5 p-2"
               >
-                Phone Number
-              </Label>
-              <Input
-                type="tel"
-                placeholder="905-878-4697"
-                id="phone"
-                name="phone"
-                value={formData.phone}
-                onChange={handleChange}
-                required
-              />
-            </div>
+                <Label 
+                  htmlFor="phone"
+                >
+                  Phone Number
+                </Label>
+                <Input
+                  type="tel"
+                  placeholder="905-878-4697"
+                  id="phone"
+                  name="phone"
+                  value={formData.phone}
+                  onChange={handleChange}
+                  required
+                />
+              </div>
 
-            <div className="grid items-center gap-2 w-4/5 p-2">
-              <Label 
-                htmlFor="partyDate" 
+              <div className="grid items-center gap-2 w-4/5 p-2">
+                <Label 
+                  htmlFor="partyDate" 
+                >
+                  Party Date
+                </Label>
+                <Popover open={openPartyDate} onOpenChange={setOpenPartyDate}>
+                  <PopoverTrigger asChild>
+                    <Button
+                      variant="outline"
+                      id="partyDate"
+                      name="partyDate"
+                      value={formData.partyDate}
+                      onChange={handleChange}
+                      className="w-full justify-between font-normal"
+                    >
+                      {formData.partyDate ? formData.partyDate : "Select date"}
+                      <ChevronDownIcon />
+                    </Button>
+                  </PopoverTrigger>
+                  <PopoverContent className="w-full p-0" side="bottom" align="start" avoidCollisions={false} forceMount>
+                    <Calendar
+                      mode="single"
+                      name="partyDate"
+                      selected={formData.partyDate ? new Date(formData.partyDate) : undefined}
+                      onSelect={(date) => {
+                        if (date instanceof Date && !isNaN(date.getTime())) {
+                          setFormData((prev) => ({
+                            ...prev,
+                            partyDate: date.toISOString().split('T')[0],
+                          }));
+                          setOpenPartyDate(false);
+                        }
+                      }}
+                      captionLayout="dropdown"
+                    />
+                  </PopoverContent>
+                </Popover>
+              </div>
+
+              <div 
+                className="grid items-center gap-2 w-4/5 p-2"
               >
-                Party Date
-              </Label>
-              <Popover open={openPartyDate} onOpenChange={setOpenPartyDate}>
-                <PopoverTrigger asChild>
-                  <Button
-                    variant="outline"
-                    id="partyDate"
-                    name="partyDate"
-                    value={formData.partyDate}
-                    onChange={handleChange}
-                    className="w-full justify-between font-normal"
-                  >
-                    {formData.partyDate ? formData.partyDate : "Select date"}
-                    <ChevronDownIcon />
-                  </Button>
-                </PopoverTrigger>
-                <PopoverContent className="w-full p-0" side="bottom" align="start" avoidCollisions={false} forceMount>
-                  <Calendar
-                    mode="single"
-                    name="partyDate"
-                    selected={formData.partyDate ? new Date(formData.partyDate) : undefined}
-                    onSelect={(date) => {
-                      if (date instanceof Date && !isNaN(date.getTime())) {
-                        setFormData((prev) => ({
-                          ...prev,
-                          partyDate: date.toISOString().split('T')[0],
-                        }));
-                        setOpenPartyDate(false);
-                      }
-                    }}
-                    captionLayout="dropdown"
-                  />
-                </PopoverContent>
-              </Popover>
-            </div>
+                <Label 
+                  htmlFor="numOfGuests"
+                >
+                  Number of Guests
+                </Label>
+                <Input
+                  type="number"
+                  placeholder="25"
+                  id="numOfGuests"
+                  name="numOfGuests"
+                  value={formData.numOfGuests}
+                  onChange={handleChange}
+                  required
+                />
+              </div>
 
-            <div 
-              className="grid items-center gap-2 w-4/5 p-2"
-            >
-              <Label 
-                htmlFor="numOfGuests"
+              <div 
+                className="grid items-center gap-2 w-4/5 p-2"
               >
-                Number of Guests
-              </Label>
-              <Input
-                type="number"
-                placeholder="25"
-                id="numOfGuests"
-                name="numOfGuests"
-                value={formData.numOfGuests}
-                onChange={handleChange}
-                required
-              />
-            </div>
+                <Label 
+                  htmlFor="message"
+                >
+                  Tell us more...
+                </Label>
+                <Input
+                  type='text'
+                  id="message"
+                  name="message"
+                  value={formData.message}
+                  onChange={handleChange}
+                  required
+                />
+              </div>
 
-            <div 
-              className="grid items-center gap-2 w-4/5 p-2"
-            >
-              <Label 
-                htmlFor="message"
+              <Button
+                type='submit'
+                variant='outline'
+                disabled={isSubmitting}
+                className="mb-4"
               >
-                Tell us more...
-              </Label>
-              <Input
-                type='text'
-                id="message"
-                name="message"
-                value={formData.message}
-                onChange={handleChange}
-                required
-              />
-            </div>
-
-            <Button
-              type='submit'
-              variant='outline'
-              disabled={isSubmitting}
-              className="mb-4"
-            >
-              Submit
-            </Button>
-      </>
-    }
-  />
+                Submit
+              </Button>
+        </>
+      }
+    />
+  )
   // return (
   //   <div className="flex flex-col justify-center items-center w-full p-2">
 
