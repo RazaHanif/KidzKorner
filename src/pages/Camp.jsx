@@ -18,9 +18,6 @@ const Camp = () => {
                 <div>
                     Our Camp offers hands-on experiences in both the visual arts and culinary arts, perfect for young artists and aspiring chefs alike.
                 </div>
-                <div>
-                    Open to children ages 4+, grouped by age for activities
-                </div>
             </div>
 
             <div className="flex md:flex-row flex-col justify-center w-3/4 gap-4">
