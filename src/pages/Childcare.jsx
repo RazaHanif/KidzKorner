@@ -39,7 +39,9 @@ const Childcare = () => {
                         </CardHeader>
                         <CardContent>
                             <div className="flex flex-col md:flex-row justify-around">
-                                Kidz Korner is a licensed child care centre dedicated to providing high quality early learning and care. We offer toddler, preschool, & before/after school programs. Our curriculum is guided by the Ministry of Education's "How Does Learning Happen?" (HDLH) framework, focusing on the well-being, engagement, expression and belonging of each individual child. Our experienced early childhood educators strive to build strong relationships with children and families, ensuring individualized attention and consistent communication. With high quality programs, qualified educators and a vibrant learning space, including our most unique feature, the indoor playground. Kidz Korner provides a balanced approach to learning, play, and care. We are commited to supporting families and helping every child thrive.
+                                Kidz Korner is a licensed child care centre dedicated to providing high quality early learning and care. We offer toddler, preschool, & before/after school programs. Our curriculum is guided by the Ministry of Education's "How Does Learning Happen?" (HDLH) framework, focusing on the well-being, engagement, expression and belonging of each individual child. 
+                                
+                                Our experienced early childhood educators strive to build strong relationships with children and families, ensuring individualized attention and consistent communication. With high quality programs, qualified educators and a vibrant learning space, including our most unique feature, the indoor playground. Kidz Korner provides a balanced approach to learning, play, and care. We are commited to supporting families and helping every child thrive.
                             </div>
                         </CardContent>
                     </Card>
