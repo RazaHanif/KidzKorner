@@ -77,9 +77,17 @@ const Camp = () => {
                                     Qualified Staff On-site
                                 </span>
                                 <span> </span>
-                                <span>
-                                    CPR First Aid
-                                </span>
+                               <ul className="font-normal pl-6">
+                                    <li>
+                                        Camps run during: PD Days, March Break, Summer Vacation, and Winter Breaks.
+                                    </li>
+                                    <li>
+                                        Families can enroll for 2, 3, or 5 days a week.
+                                    </li>
+                                    <li className="text-xs font-semibold">
+                                        *Center is closed on Civic Holiday, Christmas Eve, Christmas Day, New Years Eve, and New Years Day*
+                                    </li>
+                                </ul>
                             </li>
                         </ul>
                     </CardContent>
