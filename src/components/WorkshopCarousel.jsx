@@ -50,7 +50,7 @@ const WorkshopCarousel = () => {
                                 <img 
                                     src='/K_K_20.jpg'
                                     alt='Play Structure'
-                                    className="w-xs rounded-lg border-2 shadow-lg"
+                                    className="w-1/4 rounded-lg border-2 shadow-lg"
                                     loading="lazy"
                                     />   
                                 <img 
