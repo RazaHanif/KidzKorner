@@ -67,8 +67,12 @@ const ChildcareTimeTable = () => {
         <Table>
             <TableHeader>
                 <TableRow>
-                    <TableHead>Time</TableHead>
-                    <TableHead>Program</TableHead>
+                    <TableHead>
+                        Time
+                    </TableHead>
+                    <TableHead>
+                        Program
+                    </TableHead>
                 </TableRow>
             </TableHeader>
             <TableBody>
