@@ -57,13 +57,13 @@ const Camp = () => {
                                     9:00AM - 5:00PM
                                 </span>
                             </li>
-                            <li className="font-semibold">
+                            <li>
                                 <span className="font-semibold">
                                     Ages:
                                 </span>
                                 <span> </span>
                                 <span>
-                                    9:00AM - 5:00PM
+                                    4 Years Old to 13 Years Old
                                 </span>
                             </li>
                             <li className="font-semibold">
