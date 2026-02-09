@@ -15,7 +15,7 @@ function App() {
   return (
     <div className='flex-1 flex flex-col w-full min-h-screen'>
       <Header/>
-      <div className='flex-1 flex flex-col w-full p-4'>
+      <div className='flex-1 flex flex-col w-full p-4 relative'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/childcare' element={<Childcare />} />
