@@ -27,10 +27,6 @@ const HoursTimeTable = () => {
             session: "Half Day - Morning",
             time: "Monday to Friday - 9:00am - 3:00pm"
         },
-        {
-            session: "Half Day - Afternoon",
-            time: "Monday to Friday - 9:00am - 3:00pm"
-        },
     ]
 
     return (
