@@ -17,7 +17,7 @@ const NotFound = () => {
               fill="currentColor"
               aria-hidden="true"
             >
-
+              <path d="slide.svg" />
             </svg>
         </div>
         <div>Oops! This page ran off to play!</div>
