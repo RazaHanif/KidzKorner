@@ -182,7 +182,7 @@ const Camp = () => {
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
-                                                <ul className="flex flex-col gap-4">
+                        <ul className="flex flex-col gap-4">
                             <li>
                                 <span className="font-semibold">
                                     Campers will engage in a variety of cooking experiences such as:
