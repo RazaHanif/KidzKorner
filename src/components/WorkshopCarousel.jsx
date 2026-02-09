@@ -30,10 +30,10 @@ const WorkshopCarousel = () => {
                     </CardDescription>
                 </CardHeader>
                 <CardContent>
-                    <div className="border-4 border-red-500">
+                    <div className="border-4 border-red-500 flex md:flex-row flex-col justify-around items-center">
+                        { content }
 
                     </div>
-                    { content }
                 </CardContent>
             </Card>
         )
