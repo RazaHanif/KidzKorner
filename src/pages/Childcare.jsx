@@ -69,6 +69,8 @@ const Childcare = () => {
                 </div>
                 <div className="flex">
                     <div className="border-2 border-blue-500">Engaging Learning Experiences</div>
+                    <div className="border-2 border-blue-500">Engaging Learning Experiences</div>
+                    <div className="border-2 border-blue-500">Engaging Learning Experiences</div>
                 </div>
 
             </div>
