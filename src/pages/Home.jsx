@@ -3,7 +3,7 @@ import Image from "../components/Image";
 const Home = () => {
     return (
         <div className="flex flex-col justify-center items-center gap-2 w-full">
-            <div className="font-bold text-6xl font-serif text-destructive-foreground animate-bounce absolute bg-destructive p-8 rounded-full">
+            <div className="font-bold text-6xl font-serif text-destructive-foreground animate-bounce absolute bg-destructive p-8 rounded-full border-4 border-primary">
                 TEST THE FORMS
             </div>
             <div className="md:hidden flex flex-col justify-center items-center w-full mb-4">
