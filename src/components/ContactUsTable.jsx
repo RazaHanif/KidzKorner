@@ -42,11 +42,8 @@ const ContactUsTable = () => {
             <TableBody>
                 {timetable.map((item) => (
                     <TableRow key={item}>
-                        <TableCell className='font-semibold'>
-                            {item.session}
-                        </TableCell>
                         <TableCell>
-                            {item.time}
+                            {item}
                         </TableCell>
                     </TableRow>
                 ))}
