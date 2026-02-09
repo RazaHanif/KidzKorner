@@ -87,11 +87,7 @@ const Camp = () => {
                             </li>
                             <li>
                                 <span className="font-semibold">
-                                    Access to indoor 
-                                </span>
-                                <span> </span>
-                                <span>
-                                    4 Years Old to 13 Years Old
+                                    Access to indoor playground and large open space for gross motor activities
                                 </span>
                             </li>
                         </ul>
