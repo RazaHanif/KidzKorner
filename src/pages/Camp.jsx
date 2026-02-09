@@ -169,6 +169,9 @@ const Camp = () => {
                                         Learning about kitchen safety and hygiene
                                     </li>
                                     <li>
+                                        Measuring, cutting, and cleaning ingredients
+                                    </li>
+                                    <li>
                                         
                                     </li>
                                 </ul>
