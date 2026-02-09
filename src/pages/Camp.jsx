@@ -44,7 +44,7 @@ const Camp = () => {
                                         Camps run during: PD Days, March Break, Summer Vacation, and Winter Breaks.
                                     </li>
                                     <li>
-                                        Camps run during: PD Days, March Break, Summer Vacation, and Winter Breaks.
+                                        Families can enroll for 2, 3, or 5 days a week.
                                     </li>
                                     <li className="text-xs font-semibold">
                                         *Center is closed on Civic Holiday, Christmas Eve, Christmas Day, New Years Eve, and New Years Day*
