@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="text-xl flex justify-center items-center w-full">
           Child Care Hours
         </div>
-        <div className="w-3/4 md:w-full border-2 border-green-500 flex-1">
+        <div className="w-3/4 md:w-full flex-1">
           <Table className="w-full border-none">
             <TableBody>
               <TableRow className="whitespace-normal wrap-break-word border-none">
@@ -36,7 +36,7 @@ const Footer = () => {
         <div className="text-xl flex justify-center items-center w-full">
           After School Hours
         </div>
-        <div className="w-3/4 md:w-full border-2 border-green-500 flex-1">
+        <div className="w-3/4 md:w-full flex-1">
           <Table className="w-full border-none">
             <TableBody>
               <TableRow className="whitespace-normal wrap-break-word border-none">
@@ -59,7 +59,7 @@ const Footer = () => {
         <div className="text-xl flex justify-center items-center w-full">
           Indoor Playground Hours
         </div>
-        <div className="w-3/4 md:w-full border-2 border-green-500 flex-1">
+        <div className="w-3/4 md:w-full flex-1">
           <Table className="w-full border-none">
             <TableBody>
               <TableRow className="whitespace-normal wrap-break-word border-none">
@@ -90,7 +90,7 @@ const Footer = () => {
         <div className="text-xl flex justify-center items-center w-full">
           Contact Us
         </div>
-        <div className="w-3/4 md:w-full border-2 border-green-500 flex-1">
+        <div className="w-3/4 md:w-full flex-1">
           <Table className="w-full border-none">
             <TableBody>
               <TableRow className="whitespace-normal wrap-break-word border-none">
