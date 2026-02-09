@@ -99,15 +99,6 @@ const Camp = () => {
                 />
             </div>
 
-            {/* <div className="flex flex-col justify-center items-center w-3/4 gap-4">
-                <div className="flex md:flex-row flex-col justify-center items-center gap-4">
-                    <div className="flex flex-col justify-center items-start">
-                        <CampTimeTable />
-                    </div>
-
-                </div>
-            </div> */}
-
             <div className="flex flex-col justify-center w-3/4 md:w-1/3 gap-4">
                 <Card className="flex-1">
                     <CardHeader>
