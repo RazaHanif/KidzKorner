@@ -107,38 +107,38 @@ const Childcare = () => {
                 </div>
             </div>
 
-                <Card className="flex flex-col justify-center w-3/4">
-                    <CardHeader>
-                        <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
-                            What We Offer!
-                        </CardTitle>
-                        <CardDescription className="p-2 bg-accent hidden rounded-md text-bold text-lg">
-                            What we offer
-                        </CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                        <div className="flex md:flex-row flex-col justify-evenly text-center">
-                            <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
-                                Interactive & Play Based Learning
-                            </div>
-                            <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
-                                Weekly Art & Cooking Classes
-                            </div>
-                            <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
-                                Strong Parent Teacher Communication
-                            </div>
-                            <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
-                                Monthly Progress Reports
-                            </div>
-                            <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
-                                Freshly cooked Nutritious Meals & Snacks
-                            </div>
-                            <div className="p-4">
-                                Registered Early Childhood Educators (RECE)
-                            </div>
+            <Card className="flex flex-col justify-center w-3/4">
+                <CardHeader>
+                    <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
+                        What We Offer!
+                    </CardTitle>
+                    <CardDescription className="p-2 bg-accent hidden rounded-md text-bold text-lg">
+                        What we offer
+                    </CardDescription>
+                </CardHeader>
+                <CardContent>
+                    <div className="flex md:flex-row flex-col justify-evenly text-center">
+                        <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
+                            Interactive & Play Based Learning
                         </div>
-                    </CardContent>
-                </Card>
+                        <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
+                            Weekly Art & Cooking Classes
+                        </div>
+                        <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
+                            Strong Parent Teacher Communication
+                        </div>
+                        <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
+                            Monthly Progress Reports
+                        </div>
+                        <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
+                            Freshly cooked Nutritious Meals & Snacks
+                        </div>
+                        <div className="p-4">
+                            Registered Early Childhood Educators (RECE)
+                        </div>
+                    </div>
+                </CardContent>
+            </Card>
             
             <div className="flex md:flex-row flex-col justify-around items-center w-3/4 gap-4">
                     <img 
