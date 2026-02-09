@@ -98,7 +98,7 @@ const Footer = () => {
                   <Phone />
                 </TableCell>
                 <TableCell className="whitespace-normal wrap-break-word border-none text-end">
-                  3:00pm to 6:00pm
+                  
                 </TableCell>
               </TableRow>
             </TableBody>
