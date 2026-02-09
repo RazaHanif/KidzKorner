@@ -1,5 +1,5 @@
 import WorkshopCarousel from "../components/WorkshopCarousel";
-import WorkshopFormBtn from "../components/WorkshopFormBtn";
+import WorkshopFormBtn from "../components/FormBtn";
 
 
 const Test = () => {

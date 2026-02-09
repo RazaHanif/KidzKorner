@@ -11,7 +11,7 @@ import FloatingButton from "@/components/FloatingButton";
 import { useState } from "react";
 
 // Should take in a list of people to message and display, clicking on them takes you to that chat or creates a new chat
-const WorkshopFormBtn = () => {
+const FormBtn = (title, form) => {
 
     const [ open, setOpen ] = useState(false)
 
@@ -23,10 +23,10 @@ const WorkshopFormBtn = () => {
             <DialogContent>
                 <DialogHeader>
                     <DialogTitle>
-                        Workshop Enrollment Form
+                        { title }
                     </DialogTitle>
                 </DialogHeader>
-                    <WorkshopForm />
+                    { form }
                 <DialogFooter>
                 </DialogFooter>
             </DialogContent>
@@ -34,4 +34,4 @@ const WorkshopFormBtn = () => {
     )
 }
 
-export default WorkshopFormBtn 
+export default FormBtn 
