@@ -134,13 +134,24 @@ const Footer = () => {
                     href="tel:+19058784697"
                     className="hover:underline flex flex-row gap-2 text-end"
                   >
+                    <a 
+                    href="https://maps.app.goo.gl/TcUQhJ58bgf6tME18"
+                    className="hover:underline flex flex-row gap-2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <div className="w-full">
                       (905) 878-4697
                     </div>
                   </a>
+              <MapPin />
+              <div>
+                150 Nipissing Rd. 10 & 11, Milton, ON
+              </div>
+            </a>
                 </TableCell>
               </TableRow>
-              
+
               <TableRow className="whitespace-normal wrap-break-word border-none">
                 <TableCell className="whitespace-normal wrap-break-word border-none">
                   <Phone />
