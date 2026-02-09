@@ -110,7 +110,7 @@ const Camp = () => {
                 </div>
             </div> */}
 
-                        <div className="flex flex-col justify-center w-3/4 md:w-1/3 gap-4">
+            <div className="flex flex-col justify-center w-3/4 md:w-1/3 gap-4">
                 <Card className="flex-1">
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
@@ -121,18 +121,23 @@ const Camp = () => {
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
-                        <ul className="font-normal pl-6 list-disc">
-                            <li>Arrival</li>
-                            <li>Morning Snack</li>
-                            <li>Programming</li>
-                            <li>Cirlce Time</li>
-                            <li>Cooking / Art Activity</li>
-                            <li>Lunch</li>
-                            <li>Afternoon Rest</li>
-                            <li>Snack</li>
-                            <li>Programming</li>
-                            <li>Dismissal</li>
-                        </ul>
+                        <div className="border flex">
+                            <ul className="font-normal pl-6 list-disc">
+                                <li>Arrival</li>
+                                <li>Morning Snack</li>
+                                <li>Programming</li>
+                                <li>Circle Time</li>
+                                <li>Cooking / Art Activity</li>
+                            </ul>
+                            <ul className="font-normal pl-6 list-disc">
+                                <li>Lunch</li>
+                                <li>Afternoon Rest</li>
+                                <li>Snack</li>
+                                <li>Programming</li>
+                                <li>Dismissal</li>
+                            </ul>
+
+                        </div>
                     </CardContent>
                 </Card>
             </div>
