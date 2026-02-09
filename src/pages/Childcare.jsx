@@ -108,28 +108,16 @@ const Childcare = () => {
             </div>
 
                 <Card className="flex flex-col justify-center w-3/4 border-4 border-red-500 p-4">
-                    <CardHeader className="hidden">
+                    <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
-                            Childcare
+                            What We Offer!
                         </CardTitle>
                         <CardDescription className="p-2 bg-accent hidden rounded-md text-bold text-lg">
-                            Childcare
+                            What we offer
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
-                        <div className="flex flex-col justify-center items-center w-full text-center">
-                            <span>
-                                Kidz Korner is a licensed child care centre dedicated to providing high quality early learning and care. We offer toddler, preschool, & before/after school programs. Our curriculum is guided by the
-                            </span>
-                            <span className="italic self-center">
-                                Ministry of Education's "How Does Learning Happen?" (HDLH) 
-                            </span>
-                            <span>
-                                framework. Focusing on the well-being, engagement, expression and belonging of each individual child. 
-                                Our educators provide a high quality programs and a vibrant learning space, including our most unique feature, the indoor playground.
-                                We provide a variety of care options to meet each families unique needs.
-                            </span>
-                        </div>
+
                     </CardContent>
                 </Card>
             
