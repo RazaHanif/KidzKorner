@@ -9,21 +9,32 @@ import {
 } from "@/components/ui/table"
 
 const ContactUsTable = () => {
+    /* 
+                                <a
+                                href="tel:+19058784697"
+                                className="hover:underline flex flex-row"
+                            >
+                                <div className="font-semibold">
+                                    (905) 878-4697
+                                </div>
+                            </a>
+    */
     const timetable = [
         {
-            time: "7:30am - 9:00am"
+            href: "tel:+19058784697"
+            
         },
         {
-            time: "9:00am - 3:00pm"
+
         },
         {
-            time: "9:00am - 11:30am"
+
         },
         {
-            time: "12:30am - 3:00pm"
+
         },
         {
-            time: "3:00pm - 6:00pm"
+
         },
     ]
 
