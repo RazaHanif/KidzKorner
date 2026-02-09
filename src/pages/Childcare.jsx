@@ -130,7 +130,7 @@ const Childcare = () => {
                             <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
                                 freshly cooked nutrioutes meals and snacks
                             </div>
-                            <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
+                            <div className="p-4">
                             Our registed early childhood Educatprs rece
                             </div>
                         </div>
