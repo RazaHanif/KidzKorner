@@ -92,7 +92,7 @@ const Camp = () => {
                         </ul>
                     </CardContent>
                 </Card>
-                <Image src='/K_K_11.jpg' alt='Kids Playing with Dinosaur' />
+                <Image src='/K_K_11.jpg' alt='Kids Playing with Dinosaur' w="w-sm"/>
             </div>
 
             <div className="flex flex-col justify-center w-3/4 md:w-1/3 gap-4">

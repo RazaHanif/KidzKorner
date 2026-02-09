@@ -1,9 +1,10 @@
-const Image = ({src, alt, }) => {
+const Image = ({src, alt, w='md:w-3xs w-full'}) => {
+    const style = `${w} rounded-lg border-2 shadow-lg`
     return (
         <img 
             src={src}
             alt={alt}
-            className="md:w-3xs w-full rounded-lg border-2 shadow-lg"
+            className={style}
             loading="lazy"
         />
     )
