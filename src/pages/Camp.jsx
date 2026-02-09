@@ -180,7 +180,10 @@ const Camp = () => {
                     </CardContent>
                 </Card>
             </div>
-            
+
+            <div>
+                
+            </div>
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
                 <img 
                     src='/K_K_23.jpg'
