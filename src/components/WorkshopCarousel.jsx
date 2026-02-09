@@ -43,12 +43,26 @@ const WorkshopCarousel = () => {
                         "Paint Night",
                         "$250",
                         (
-                            <img 
-                                src='/K_K_20.jpg'
-                                alt='Play Structure'
-                                className="w-xs rounded-lg border-2 shadow-lg"
-                                loading="lazy"
-                            />   
+                            <>
+                                <img 
+                                    src='/K_K_20.jpg'
+                                    alt='Play Structure'
+                                    className="w-xs rounded-lg border-2 shadow-lg"
+                                    loading="lazy"
+                                    />   
+                                <img 
+                                    src='/K_K_20.jpg'
+                                    alt='Play Structure'
+                                    className="w-xs rounded-lg border-2 shadow-lg"
+                                    loading="lazy"
+                                    />   
+                                <img 
+                                    src='/K_K_20.jpg'
+                                    alt='Play Structure'
+                                    className="w-xs rounded-lg border-2 shadow-lg"
+                                    loading="lazy"
+                                />   
+                            </>
                         )
                     )}
                 </CarouselItem>
