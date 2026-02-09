@@ -13,7 +13,7 @@ const HoursTimeTable = () => {
     const timetable = [
         {
             session: "Child Care",
-            time: "7:30am - 9:00am"
+            time: "Monday to Friday - 9:00am - 3:00pm"
         },
         {
             session: "Full Day",
