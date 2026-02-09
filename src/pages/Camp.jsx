@@ -85,6 +85,15 @@ const Camp = () => {
                                     </li>
                                 </ul>
                             </li>
+                            <li>
+                                <span className="font-semibold">
+                                    Access to indoor 
+                                </span>
+                                <span> </span>
+                                <span>
+                                    4 Years Old to 13 Years Old
+                                </span>
+                            </li>
                         </ul>
                     </CardContent>
                 </Card>
