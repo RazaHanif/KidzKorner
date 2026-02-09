@@ -22,14 +22,9 @@ const FormBtn = ({title, form}) => {
                 <FloatingButton />
             </SheetTrigger>
             <SheetContent showCloseButton={false} className="overflow-y-auto h-full">
-                <SheetHeader>
-                    <SheetTitle>
-                        { title }
-                    </SheetTitle>
-                    <SheetDescription className='hidden'>
-                        { title }
-                    </SheetDescription>
-                </SheetHeader>
+                <SheetDescription className='hidden'>
+                    { title }
+                </SheetDescription>
                 { form }
             </SheetContent>
         </Sheet>
