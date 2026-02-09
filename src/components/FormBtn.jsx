@@ -16,7 +16,7 @@ const FormBtn = ({title, form}) => {
     const [ open, setOpen ] = useState(false)
 
     return (
-        <Dialog open={open} onOpenChange={setOpen}>
+        <Dialog open={open} onOpenChange={setOpen} className='overflow-y-auto'>
             <DialogTrigger asChild>
                 <FloatingButton />
             </DialogTrigger>
