@@ -93,7 +93,7 @@ const About = () => {
                 />
             </div>
             
-            <div className="flex justify-center items-center w-full">
+            <div className="flex flex-col justify-center items-center w-3/4 gap-4">
                 <ContactForm/>
             </div>
         </div>

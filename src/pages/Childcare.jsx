@@ -156,7 +156,7 @@ const Childcare = () => {
 
             </div>
 
-            <div className="w-full">
+            <div className="flex flex-col justify-center items-center w-3/4 gap-4">
                 <ChildcareForm/>
             </div>
 
