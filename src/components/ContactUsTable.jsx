@@ -9,33 +9,12 @@ import {
 } from "@/components/ui/table"
 
 const ContactUsTable = () => {
-    /* 
-                                <a
-                                href="tel:+19058784697"
-                                className="hover:underline flex flex-row"
-                            >
-                                <div className="font-semibold">
-                                    (905) 878-4697
-                                </div>
-                            </a>
-    */
+
     const timetable = [
         {
             title: "Phone",
             href: "tel:+19058784697",
             text: "(905) 878-4697"
-        },
-        {
-
-        },
-        {
-
-        },
-        {
-
-        },
-        {
-
         },
     ]
 
@@ -50,7 +29,14 @@ const ContactUsTable = () => {
                 {timetable.map((item) => (
                     <TableRow key={item}>
                         <TableCell>
-                            {item}
+                            <a
+                                href="tel:+19058784697"
+                                className="hover:underline flex flex-row"
+                            >
+                                <div className="font-semibold">
+                                    (905) 878-4697
+                                </div>
+                            </a>
                         </TableCell>
                     </TableRow>
                 ))}
