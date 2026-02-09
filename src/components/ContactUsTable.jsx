@@ -38,6 +38,9 @@ const ContactUsTable = () => {
             <TableBody>
                 {timetable.map((item) => (
                     <TableRow key={item}>
+                        <TableCell className='font-semibold'>
+                            {item.title}
+                        </TableCell>
                         <TableCell>
                             <a
                                 target="_blank"
@@ -45,7 +48,7 @@ const ContactUsTable = () => {
                                 href={item.href}
                                 className="hover:underline flex flex-row"
                             >
-                                <div className="font-semibold">
+                                <div>
                                     {item.text}
                                 </div>
                             </a>
