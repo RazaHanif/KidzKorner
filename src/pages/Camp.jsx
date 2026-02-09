@@ -121,7 +121,6 @@ const Camp = () => {
                                 <li>Programming</li>
                                 <li>Dismissal</li>
                             </ul>
-
                         </div>
                     </CardContent>
                 </Card>
