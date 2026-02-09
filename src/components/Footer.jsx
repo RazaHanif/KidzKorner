@@ -19,7 +19,7 @@ const Footer = () => {
               <TableCell>
                 Monday to Friday
               </TableCell>
-              <TableCell>
+              <TableCell className="text-end">
                 9:00am to 3:00pm
               </TableCell>
             </TableRow>
