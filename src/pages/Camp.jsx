@@ -79,7 +79,9 @@ const Camp = () => {
                             </li>
                             <li>
                                 <span className="font-semibold">
-                                    Activities / Weekly Camp Theme will be posted on our Instagram Page
+                                    <a href="www.google.com">
+                                        Activities / Weekly Camp Theme will be posted on our Instagram Page
+                                    </a>
                                 </span>
                                 {'\u00A0'}
                                 <span>
