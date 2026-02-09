@@ -68,6 +68,7 @@ const Camp = () => {
                                 <span>
                                     4 Years Old to 13 Years Old
                                 </span>
+                                
                             </li>
                             <li className="font-semibold">
                                 Siblings Discount
@@ -100,6 +101,9 @@ const Camp = () => {
                                     [LINK]
                                 </span>
                             </li>
+                            {/* <li className="text-xs font-semibold">
+                                *Center is closed on Civic Holiday, Christmas Eve, Christmas Day, New Years Eve, and New Years Day*
+                            </li> */}
                         </ul>
                     </CardContent>
                 </Card>
