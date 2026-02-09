@@ -118,7 +118,7 @@ const Childcare = () => {
                     </CardHeader>
                     <CardContent>
                         <div className="flex md:flex-row flex-col text-center">
-                            <div className="md:border-r">
+                            <div className="">
                                 Interactive & Play Based Learning
                             </div>
                             <div className="">
