@@ -46,13 +46,6 @@ const Camp = () => {
                             </li>
                             <li>
                                 <span className="font-semibold">
-                                    Program Hours:
-                                </span>
-                                {'\u00A0'}
-                                <span>
-                                    9:00AM - 5:00PM
-                                </span>
-                                <span className="font-semibold">
                                     Program Hours
                                 </span>
                                 <ul className="font-normal pl-6">
