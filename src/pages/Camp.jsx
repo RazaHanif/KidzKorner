@@ -69,13 +69,8 @@ const Camp = () => {
                                     4 Years Old to 13 Years Old
                                 </span>
                             </li>
-                            <li>
-                                <span className="font-semibold">
-                                    Siblings Discount
-                                </span>
-                                <span> </span>
-                                <span>
-                                </span>
+                            <li className="font-semibold">
+                                Siblings Discount
                             </li>
                         </ul>
                     </CardContent>
