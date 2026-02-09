@@ -7,8 +7,8 @@ const About = () => {
 
     return (
         <div className="flex flex-col justify-center items-center gap-2 w-full text-justify">
-            <div className="flex flex-col justify-center items-center w-3/4 m-4 gap-4 border">
-                <div className="border flex-1">
+            <div className="flex flex-col justify-center items-center w-3/4 m-4 gap-4">
+                <div className="border">
                     <ContactUsTable />
                 </div>
 
@@ -19,7 +19,7 @@ const About = () => {
                     />
                 </div>
 
-                <div className="border flex-1">
+                <div className="border">
                     <HoursTimeTable />
                 </div>
             </div>
