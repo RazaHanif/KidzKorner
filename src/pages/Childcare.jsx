@@ -68,15 +68,15 @@ const Childcare = () => {
                     <div className="flex flex-col justify-center">
                         <TimeTable />
                     </div>
-                </div>
-            </div>
-
-            <div className="flex md:flex-row flex-col justify-around items-center w-3/4 gap-4">
                     <img 
                     src='/K_K_17.jpg'
                     alt='Kid playing with blocks'
                     className="w-3xs rounded-lg border-2 shadow-lg"
                     />
+                </div>
+            </div>
+
+            <div className="flex md:flex-row flex-col justify-around items-center w-3/4 gap-4">
                     <img 
                     src='/K_K_17.jpg'
                     alt='Kid playing with blocks'
