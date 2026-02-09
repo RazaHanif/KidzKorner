@@ -2,9 +2,9 @@ const Home = () => {
     return (
         <div className="flex flex-col justify-center items-center gap-2 w-full">
             <div className="flex flex-col justify-center items-center w-full mb-4">
-                <div className="text-3xl font-bold">
+                {/* <div className="text-3xl font-bold">
                     Get to know us! 
-                </div>
+                </div> */}
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 text-justify">
