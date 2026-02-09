@@ -124,10 +124,15 @@ const Camp = () => {
                         <ul className="font-normal pl-6 list-disc">
                             <li>Arrival</li>
                             <li>Morning Snack</li>
+                            <li>Programming</li>
+                            <li>Cirlce Time</li>
+                            <li>Cooking / Art Activity</li>
+                            <li>Lunch</li>
+                            <li>Afternoon Rest</li>
+                            <li>Snack</li>
+                            <li>Programming</li>
+                            <li>Dismissal</li>
                         </ul>
-                        <div className="">
-                            Arrival, Morning Snack, Programming, Circle Time, Cooking / Art Activity, Lunch, Afternoon Rest, Snack, Programming, Dismissal
-                        </div>
                     </CardContent>
                 </Card>
             </div>
