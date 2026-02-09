@@ -232,7 +232,7 @@ const Camp = () => {
                 </Card>
             </div>
 
-            <div className="flex md:flex-row flex-col justify-center items-center w-3/4 gap-4">
+            <div className="flex md:flex-row flex-col justify-evenly items-center w-3/4 gap-4">
                 <img 
                     src='/K_K_32.jpg'
                     alt='Kids doing tye dye'
