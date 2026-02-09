@@ -1,4 +1,11 @@
 import PlaygroundAccordion from "@/components/PlaygroundAccordion";
+import {
+    Card,
+    CardContent,
+    CardDescription,
+    CardHeader,
+    CardTitle,
+} from "@/components/ui/card"
 
 const Playground = () => {
     return (
@@ -27,9 +34,7 @@ const Playground = () => {
                     </CardHeader>
                     <CardContent>
                         <div className="flex flex-col md:flex-row justify-around">
-                            Kidz Korner is a licensed child care centre dedicated to providing high quality early learning and care. We offer toddler, preschool, & before/after school programs. Our curriculum is guided by the Ministry of Education's "How Does Learning Happen?" (HDLH) framework, focusing on the well-being, engagement, expression and belonging of each individual child. 
-                            Our educators provide a high quality programs and a vibrant learning space, including our most unique feature, the indoor playground.
-                            We provide a variety of care options to meet each families unique needs.
+                            
                         </div>
                     </CardContent>
                 </Card>
