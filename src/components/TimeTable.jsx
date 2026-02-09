@@ -34,7 +34,7 @@ const TimeTable = () => {
             <TableBody>
                 {timetable.map((item) => (
                     <TableRow key={item}>
-                        <TableCell>{item.session}</TableCell>
+                        <TableCell className='font-semibold font-mono'>{item.session}</TableCell>
                         <TableCell>{item.time}</TableCell>
                     </TableRow>
                 ))}
