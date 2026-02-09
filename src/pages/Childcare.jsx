@@ -25,6 +25,36 @@ const Childcare = () => {
                 </div>
             </div>
 
+            <Card className="flex-1">
+                <CardHeader>
+                    <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
+                        Title
+                    </CardTitle>
+                    <CardDescription className="p-2 bg-accent hidden rounded-md text-bold text-lg">
+                        title
+                    </CardDescription>
+                </CardHeader>
+                <CardContent>
+                    <div className="flex flex-col md:flex-row justify-around">
+                        <ul className="font-normal pl-6 list-disc">
+                            <li>Arrival</li>
+                            <li>Morning Snack</li>
+                            <li>Programming</li>
+                            <li>Circle Time</li>
+                            <li>Cooking / Art Activity</li>
+                        </ul>
+                        <ul className="font-normal pl-6 list-disc">
+                            <li>Lunch</li>
+                            <li>Afternoon Rest</li>
+                            <li>Snack</li>
+                            <li>Programming</li>
+                            <li>Dismissal</li>
+                        </ul>
+
+                    </div>
+                </CardContent>
+            </Card>
+
             <div className="flex flex-col justify-center items-center w-3/4">
                 <div className="text-xl font-bold text-center">
                     Program Options - Full Time & Part Time Care
