@@ -67,7 +67,7 @@ const WorkshopForm = () => {
 
   };
 
-return (
+  return (
     <div className="flex flex-col justify-center items-center">
       {/* Show thank you message when form is submitted */}
       { submitted ? (
