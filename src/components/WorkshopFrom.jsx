@@ -64,7 +64,6 @@ const WorkshopForm = () => {
     } finally {
       setIsSubmitting(false)
     }
-
   };
 
   return (
