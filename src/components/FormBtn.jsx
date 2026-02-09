@@ -17,7 +17,7 @@ const FormBtn = ({title, form}) => {
     const [ open, setOpen ] = useState(false)
 
     return (
-        <Sheet open={open} onOpenChange={setOpen}>
+        <Sheet open={open} onOpenChange={setOpen} className='overflow-auto'>
             <SheetTrigger asChild>
                 <FloatingButton />
             </SheetTrigger>
