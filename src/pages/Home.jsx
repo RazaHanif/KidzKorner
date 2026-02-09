@@ -16,7 +16,7 @@ const Home = () => {
                         loading="lazy"
                     />
                     <div className="border-4 flex flex-col justify-center items-center w-full p-4">
-                        <div className="text-3xl font-bold self-start">
+                        <div className="hidden md:block text-3xl font-bold self-start">
                             Welcome to Kidz Korner
                         </div>
                         
