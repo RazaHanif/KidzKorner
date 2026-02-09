@@ -30,7 +30,7 @@ const About = () => {
                     title="Google Maps"
                     loading="lazy"
                     referrerPolicy="no-referrer"
-                    width="600"
+                    width="900"
                     height="450"
                     style={{ border: 0 }}
                     allowFullScreen=""
