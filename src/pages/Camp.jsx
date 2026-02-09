@@ -182,10 +182,10 @@ const Camp = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
-                <div>
+                <div className="text-xl font-semibold">
                     Camp Schedule Includes
                 </div>
-                <div>
+                <div className="">
                     Arrival, Morning Snack, Programming, Circle Time, Cooking / Art Activity, Lunch, Afternoon Rest, Snack, Programming, Dismissal
                 </div>
             </div>
