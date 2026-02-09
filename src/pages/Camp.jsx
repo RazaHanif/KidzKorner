@@ -145,19 +145,19 @@ const Camp = () => {
                         <div className="flex md:flex-row flex-col justify-center items-center w-3/4 gap-4">
                 <img 
                     src='/K_K_32.jpg'
-                    alt='Kids doing tyedye'
+                    alt='Kids doing tye dye'
                     className="w-3xs rounded-lg border-2 shadow-lg"
                     loading="lazy"
                 />
                 <img 
                     src='/K_K_32.jpg'
-                    alt='Kids doing tyedye'
+                    alt='Kids doing tye dye'
                     className="w-3xs rounded-lg border-2 shadow-lg"
                     loading="lazy"
                 />
                 <img 
                     src='/K_K_32.jpg'
-                    alt='Kids doing tyedye'
+                    alt='Kids doing tye dye'
                     className="w-3xs rounded-lg border-2 shadow-lg"
                     loading="lazy"
                 />
@@ -237,19 +237,19 @@ const Camp = () => {
             <div className="flex md:flex-row flex-col justify-center items-center w-3/4 gap-4">
                 <img 
                     src='/K_K_32.jpg'
-                    alt='Kids doing tyedye'
+                    alt='Kids doing tye dye'
                     className="w-3xs rounded-lg border-2 shadow-lg"
                     loading="lazy"
                 />
                 <img 
                     src='/K_K_32.jpg'
-                    alt='Kids doing tyedye'
+                    alt='Kids doing tye dye'
                     className="w-3xs rounded-lg border-2 shadow-lg"
                     loading="lazy"
                 />
                 <img 
                     src='/K_K_32.jpg'
-                    alt='Kids doing tyedye'
+                    alt='Kids doing tye dye'
                     className="w-3xs rounded-lg border-2 shadow-lg"
                     loading="lazy"
                 />
