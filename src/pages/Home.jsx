@@ -28,20 +28,6 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                {/* <div className="flex md:flex-row flex-col justify-center items-center gap-4">
-                    <div className="md:flex md:w-1/2 w-full hidden justify-center items-center">
-                        Our dedicated educators work closely with families to foster a strong sense of connection and support. With decades of experience in early childhood education, we are proud to help families navigate the important developmental milestones of the early years. We are here to support your child's growth, development, and well-being every step of the way.
-                    </div>
-                    <img 
-                        src='/K_K_8.jpg'
-                        alt='Kids playing in sand pit'
-                        className="w-3xs rounded-lg border-2 shadow-lg"
-                        loading="lazy"
-                    />
-                    <div className="md:hidden md:w-1/2 w-full flex justify-center items-center">
-                        Our dedicated educators work closely with families to foster a strong sense of connection and support. With decades of experience in early childhood education, we are proud to help families navigate the important developmental milestones of the early years. We are here to support your child's growth, development, and well-being every step of the way.
-                    </div>
-                </div> */}
             </div>
         </div>
     );
