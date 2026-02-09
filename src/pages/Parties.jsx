@@ -1,5 +1,6 @@
 import PartyForm from "@/components/PartyForm";
 import PartyCard from "@/components/PartyCard";
+import Image from "../components/Image";
 
 const Parties = () => {
     return (
