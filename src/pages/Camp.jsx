@@ -21,7 +21,7 @@ const Camp = () => {
             </div>
 
             <div className="flex md:flex-row flex-col justify-center w-3/4 gap-4">
-                <Card className="flex-1">
+                <Card>
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
                             $175/Week
@@ -96,7 +96,7 @@ const Camp = () => {
             </div>
 
             <div className="flex flex-col justify-center w-3/4 md:w-1/3 gap-4">
-                <Card className="flex-1">
+                <Card>
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
                             Camp Schedule
@@ -134,7 +134,7 @@ const Camp = () => {
             </div>
 
             <div className="flex md:flex-row flex-col justify-center w-3/4 gap-4">
-                <Card className="flex-1">
+                <Card>
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
                             Art Class
@@ -170,7 +170,7 @@ const Camp = () => {
                     </CardContent>
                 </Card>
 
-                <Card className="flex-1">
+                <Card>
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
                             Cooking Class
