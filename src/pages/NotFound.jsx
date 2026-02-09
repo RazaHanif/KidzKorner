@@ -11,14 +11,9 @@ const NotFound = () => {
       <div className="w-full flex flex-col justify-center items-center gap-4 text-muted-foreground">
         <div className="text-6xl font-[ui]">🛝</div>
         <div>
-            <svg
-              viewBox="0 0 24 24"
-              className="h-6 w-6 text-blue-600"
-              fill="currentColor"
-              aria-hidden="true"
-            >
-              <path d="slide.svg" />
-            </svg>
+            <img
+              src=""
+              />
         </div>
         <div>Oops! This page ran off to play!</div>
       </div>
