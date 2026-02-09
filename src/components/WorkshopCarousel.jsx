@@ -66,6 +66,7 @@ const WorkshopCarousel = () => {
                     { workshopCard(
                         "Paint Night",
                         "$250",
+                        "Information about this Workshop",
                         [
                             {
                                 imageLink: '/K_K_20.jpg',
@@ -80,13 +81,13 @@ const WorkshopCarousel = () => {
                                 alt: 'Play Structure'
                             },
                         ],
-                        "Information about this Workshop"
                     )}
                 </CarouselItem>
                 <CarouselItem>
                     { workshopCard(
                         "Cooking Class",
                         "$250",
+                        "Information about this Workshop",
                         [
                             {
                                 imageLink: '/K_K_20.jpg',
@@ -101,13 +102,13 @@ const WorkshopCarousel = () => {
                                 alt: 'Play Structure'
                             },
                         ],
-                        "Information about this Workshop"
                     )}
                 </CarouselItem>
                 <CarouselItem>
                     { workshopCard(
                         "Little Sahaba's",
                         "$250",
+                        "Information about this Workshop",
                         [
                             {
                                 imageLink: '/K_K_20.jpg',
@@ -122,13 +123,13 @@ const WorkshopCarousel = () => {
                                 alt: 'Play Structure'
                             },
                         ],
-                        "Information about this Workshop"
                     )}
                 </CarouselItem>
                 <CarouselItem>
                     { workshopCard(
                         "Mommy & Me",
                         "$250",
+                        "Information about this Workshop",
                         [
                             {
                                 imageLink: '/K_K_20.jpg',
@@ -143,7 +144,6 @@ const WorkshopCarousel = () => {
                                 alt: 'Play Structure'
                             },
                         ],
-                        "Information about this Workshop"
                     )}
                 </CarouselItem>
             </CarouselContent>
