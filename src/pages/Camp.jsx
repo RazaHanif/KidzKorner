@@ -39,7 +39,7 @@ const Camp = () => {
                         <ul className="flex flex-col gap-2">
                             <li className="font-semibold">
                                 Full Time & Part Time Options
-                                <ul>
+                                <ul className="font-normal pl-6">
                                     <li>
                                         Camps run during: PD Days, March Break, Summer Vacation, and Winter Breaks.
                                     </li>
