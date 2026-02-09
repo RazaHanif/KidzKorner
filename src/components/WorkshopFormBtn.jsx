@@ -23,7 +23,7 @@ const WorkshopFormBtn = () => {
             <DialogContent>
                 <DialogHeader>
                     <DialogTitle>
-                        Create a new chat!
+                        Workshop Enrollment Form
                     </DialogTitle>
                 </DialogHeader>
                     <WorkshopForm />
