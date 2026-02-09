@@ -13,6 +13,7 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover"
 import { useState } from 'react';
+import FormLayout from "./FormLayout"
 
 const CampForm = () => {
   const [formData, setFormData] = useState({
