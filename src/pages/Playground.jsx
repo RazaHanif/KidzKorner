@@ -23,25 +23,9 @@ const Playground = () => {
             </div>
 
             <div className="flex md:flex-row flex-col justify-between items-center gap-4 w-3/4">
-            
-                <img 
-                    src='/K_K_20.jpg'
-                    alt='Play Structure'
-                    className="w-xs rounded-lg border-2 shadow-lg"
-                    loading="lazy"
-                />
-                <img 
-                    src='/K_K_30.jpg'
-                    alt='Kids on climbing structure'
-                    className="w-3xs rounded-lg border-2 shadow-lg"
-                    loading="lazy"
-                />
-                <img 
-                    src='/K_K_20.jpg'
-                    alt='Play Structure'
-                    className="w-xs rounded-lg border-2 shadow-lg"
-                    loading="lazy"
-                />
+                <Image src='/K_K_20.jpg' alt='Play Structure' />
+                <Image src='/K_K_20.jpg' alt='Play Structure' />
+                <Image src='/K_K_20.jpg' alt='Play Structure' />
             </div>
         </div>
     );
