@@ -16,7 +16,7 @@ import {
 
 const WorkshopCarousel = () => {
 
-    const workshopCard = (title, price, content=[], description ) => {
+    const workshopCard = (title, price, description, content=[] ) => {
         return (
             <Card>
                 <CardHeader>
