@@ -162,7 +162,7 @@ const Camp = () => {
                                                 <ul className="flex flex-col gap-4">
                             <li>
                                 <span className="font-semibold">
-                                    Campers explore a wide range of mediums and techniques such as:
+                                    Campers will engage in a variety of cooking experiences such as:
                                 </span>
                                 <ul className="font-normal pl-6 list-disc">
                                 </ul>
