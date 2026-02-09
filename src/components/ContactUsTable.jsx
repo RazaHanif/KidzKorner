@@ -10,30 +10,6 @@ import {
 
 const ContactUsTable = () => {
 
-    /* 
-    <a
-        href="mailto:info@kidzkornermilton.com"
-        className="hover:underline flex flex-row"
-    >   
-        <div className="font-semibold">
-            info@kidzkornermilton.com
-        </div>
-    </a>
-</div>
-<div>
-    <a
-        target="_blank"
-        rel="noopener noreferrer" 
-        href="https://maps.app.goo.gl/TcUQhJ58bgf6tME18"
-        className="hover:underline flex flex-row"
-    >
-        <div className="font-semibold">
-            150 Nipissing Rd. 10 & 11, Milton, ON, L9T 5B3
-        </div>
-    </a>
-    
-    */
-
     const timetable = [
         {
             title: "Phone",
@@ -64,6 +40,8 @@ const ContactUsTable = () => {
                     <TableRow key={item}>
                         <TableCell>
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer" 
                                 href={item.href}
                                 className="hover:underline flex flex-row"
                             >
