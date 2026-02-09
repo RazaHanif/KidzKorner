@@ -5,9 +5,15 @@ import WorkshopCarousel from "../components/WorkshopCarousel";
 const Workshops = () => {
     return (
         <div className="flex flex-col justify-center items-center w-full gap-2">
-            <div>
-                
+            <div className="flex flex-col justify-evenly items-center w-3/4">
+                <div className="text-3xl font-bold mb-4">
+                    Workshops
+                </div>
+                <div>
+                    Our Camp offers hands-on experiences in both the visual arts and culinary arts, perfect for young artists and aspiring chefs alike.
+                </div>
             </div>
+
             <div className="flex justify-center items-center w-3/4 mb-4">
                 <WorkshopCarousel />
             </div>
