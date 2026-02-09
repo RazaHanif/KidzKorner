@@ -121,7 +121,7 @@ const Camp = () => {
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
-                        <div className="border flex">
+                        <div className="border flex flex-col md:flex-row justify-around">
                             <ul className="font-normal pl-6 list-disc border">
                                 <li>Arrival</li>
                                 <li>Morning Snack</li>
