@@ -8,40 +8,47 @@ import {
   TableRow,
 } from "@/components/ui/table"
 
-const HoursUsTable = () => {
+const ContactUsTable = () => {
+
     const timetable = [
         {
-            session: "Before School",
-            time: "7:30am - 9:00am"
+            title: "Phone",
+            href: "tel:+19058784697",
+            text: "(905) 878-4697"
         },
         {
-            session: "Full Day",
-            time: "9:00am - 3:00pm"
+            title: "Email",
+            href: "mailto:info@kidzkornermilton.com",
+            text: "info@kidzkornermilton.com"
         },
         {
-            session: "Half Day - Morning",
-            time: "9:00am - 11:30am"
-        },
-        {
-            session: "Half Day - Afternoon",
-            time: "12:30am - 3:00pm"
-        },
-        {
-            session: "After School",
-            time: "3:00pm - 6:00pm"
+            title: "Address",
+            href: "https://maps.app.goo.gl/TcUQhJ58bgf6tME18",
+            text: "150 Nipissing Rd. 10 & 11, Milton, ON, L9T 5B3"
         },
     ]
 
     return (
         <Table>
+            <TableHeader>
+                <TableHead className='text-xl font-semibold'>
+                    Contact Us
+                </TableHead>
+            </TableHeader>
             <TableBody>
                 {timetable.map((item) => (
                     <TableRow key={item}>
-                        <TableCell className='font-semibold'>
-                            {item.session}
-                        </TableCell>
                         <TableCell>
-                            {item.time}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer" 
+                                href={item.href}
+                                className="hover:underline flex flex-row"
+                            >
+                                <div className="font-semibold">
+                                    {item.text}
+                                </div>
+                            </a>
                         </TableCell>
                     </TableRow>
                 ))}
@@ -50,4 +57,4 @@ const HoursUsTable = () => {
     )
 }
 
-export default HoursUsTable;
+export default ContactUsTable;

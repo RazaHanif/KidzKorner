@@ -19,6 +19,10 @@ const About = () => {
                     />
                 </div>
 
+                <div>
+                    
+                </div>
+
                 <div className="flex-1 flex flex-col justify-center items-center w-3/4 gap-2">
                     <div 
                         className="text-xl font-bold md:self-end text-center"
