@@ -33,9 +33,8 @@ const Playground = () => {
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
-                        <div className="flex flex-col md:flex-row justify-around">
+                        <div className="">
                             Open from 3-6 pm
-                            
                         </div>
                     </CardContent>
                 </Card>
