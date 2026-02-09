@@ -37,7 +37,7 @@ const Camp = () => {
                     </CardHeader>
                     <CardContent>
                         <ul className="flex flex-col gap-2">
-                            <li key={1}>
+                            <li className="font-semibold">
                                 Full Time & Part Time Options
                                 <ul>
                                     <li>
@@ -48,13 +48,13 @@ const Camp = () => {
                                     </li>
                                 </ul>
                             </li>
-                            <li key={2}>
+                            <li className="font-semibold">
                                 Program Hours 9:00AM - 5:00PM
                             </li>
-                            <li key={3}>
+                            <li className="font-semibold">
                                 Siblings discounts available
                             </li>
-                            <li key={4}>
+                            <li className="font-semibold">
                                 All materials included
                             </li>
                         </ul>
