@@ -39,9 +39,7 @@ const WorkshopCarousel = () => {
                                 className="md:w-1/4 w-sm rounded-lg border-2 shadow-lg"
                                 loading="lazy"
                             />   
-
                         ))}
-
                     </div>
                 </CardContent>
             </Card>
