@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="text-xl flex justify-center items-center w-full border-2 border-red-500">
           Child Care Hours
         </div>
-        <div className="w-3/4 md:w-full border-2 border-green-500">
+        <div className="w-3/4 md:w-full border-2 border-green-500 flex-1">
           <Table className="w-full border-none">
             <TableBody>
               <TableRow className="whitespace-normal wrap-break-word border-none">
@@ -36,7 +36,7 @@ const Footer = () => {
         <div className="text-xl flex justify-center items-center w-full border-2 border-red-500">
           After School Hours
         </div>
-        <div className="w-3/4 md:w-full border-2 border-green-500">
+        <div className="w-3/4 md:w-full border-2 border-green-500 flex-1">
           <Table className="w-full border-none">
             <TableBody>
               <TableRow className="whitespace-normal wrap-break-word border-none">
