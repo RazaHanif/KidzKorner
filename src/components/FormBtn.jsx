@@ -21,17 +21,8 @@ const FormBtn = ({title, form}) => {
                 <FloatingButton />
             </DialogTrigger>
             <DialogContent>
-                <DialogHeader>
-                    <DialogTitle>
-                        { title }
-                    </DialogTitle>
-                    <DialogDescription className="hidden">
-                        Form dialog
-                    </DialogDescription>
-                </DialogHeader>
-                    { form }
-                <DialogFooter>
-                </DialogFooter>
+                {title}
+                {form}
             </DialogContent>
         </Dialog> 
     )
