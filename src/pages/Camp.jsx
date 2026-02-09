@@ -48,12 +48,12 @@ const Camp = () => {
                                     </li>
                                 </ul>
                             </li>
-                            <li className="font-semibold">
-                                <span>
+                            <li>
+                                <span className="font-semibold">
                                     Program Hours:
                                 </span>
                                 <span> </span>
-                                <span className="font-normal">
+                                <span>
                                     9:00AM - 5:00PM
                                 </span>
                             </li>
