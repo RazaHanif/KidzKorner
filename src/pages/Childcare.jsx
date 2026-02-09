@@ -89,7 +89,7 @@ const Childcare = () => {
                         weekly art and cooking classes
                     </div>
                     <div className="border-2 border-blue-500">
-                        Parent communication and monthly prog reports
+                        strong parent communication and monthly prog reports
                     </div>
                     <div className="border-2 border-blue-500">
                         Nutrioutes means and snacks
@@ -118,7 +118,7 @@ const Childcare = () => {
                     />
             </div>
 
-            <div className="flex flex-col justify-center items-start w-3/4">
+            {/* <div className="flex flex-col justify-center items-start w-3/4">
                 <div className="text-xl font-bold self-center">
                     What We Offer
                 </div>
@@ -173,7 +173,7 @@ const Childcare = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-1 m-4 overflow-x-auto">
                <div className="text-xl font-bold self-center">
