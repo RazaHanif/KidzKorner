@@ -42,12 +42,6 @@ const Camp = () => {
                                     <li>
                                         Camps run during PD Days, March Breaks, Summer Vacations, and Winter Breaks.
                                     </li>
-                                    <li>
-                                        Families can enroll for 2, 3, or 5 days a week.
-                                    </li>
-                                    <li className="text-xs font-semibold">
-                                        *Center is closed on Civic Holiday, Christmas Eve, Christmas Day, New Years Eve, and New Years Day*
-                                    </li>
                                 </ul>
                             </li>
                             <li>
@@ -63,13 +57,13 @@ const Camp = () => {
                                 </span>
                                 <ul className="font-normal pl-6">
                                     <li>
-M
+                                        9:00AM - 5:00PM
+                                    </li>
+                                    <li>
+                                        Monday - Friday
                                     </li>
                                     <li>
                                         Families can enroll for 2, 3, or 5 days a week.
-                                    </li>
-                                    <li className="text-xs font-semibold">
-                                        *Center is closed on Civic Holiday, Christmas Eve, Christmas Day, New Years Eve, and New Years Day*
                                     </li>
                                 </ul>
                             </li>
