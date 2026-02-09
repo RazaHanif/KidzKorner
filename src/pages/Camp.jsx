@@ -58,6 +58,7 @@ const Camp = () => {
                                 <span>
                                     9:00AM - 5:00PM
                                 </span>
+                                
                             </li>
                             <li>
                                 <span className="font-semibold">
