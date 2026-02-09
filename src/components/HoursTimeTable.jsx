@@ -16,6 +16,10 @@ const HoursTimeTable = () => {
             time: "Monday to Friday - 9:00am - 3:00pm"
         },
         {
+            session: "After School",
+            time: "3:00pm - 6:00pm"
+        },
+        {
             session: "Full Day",
             time: "9:00am - 3:00pm"
         },
@@ -26,10 +30,6 @@ const HoursTimeTable = () => {
         {
             session: "Half Day - Afternoon",
             time: "12:30am - 3:00pm"
-        },
-        {
-            session: "After School",
-            time: "3:00pm - 6:00pm"
         },
     ]
 
