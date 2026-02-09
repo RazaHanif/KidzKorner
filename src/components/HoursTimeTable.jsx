@@ -20,16 +20,16 @@ const HoursTimeTable = () => {
             time: "Monday to Friday - 3:00pm - 6:00pm"
         },
         {
-            session: "Full Day",
-            time: "9:00am - 3:00pm"
+            session: "Indoor Playground Drop In",
+            time: "Monday to Friday - 3:00pm - 6:00pm"
         },
         {
             session: "Half Day - Morning",
-            time: "9:00am - 11:30am"
+            time: "Monday to Friday - 9:00am - 3:00pm"
         },
         {
             session: "Half Day - Afternoon",
-            time: "12:30am - 3:00pm"
+            time: "Monday to Friday - 9:00am - 3:00pm"
         },
     ]
 
