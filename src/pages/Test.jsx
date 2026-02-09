@@ -1,5 +1,5 @@
-import WorkshopCarousel from "../components/WorkshopCarousel";
 import WorkshopFormBtn from "../components/FormBtn";
+import WorkshopForm from "../components/WorkshopFrom";
 
 
 const Test = () => {
@@ -7,6 +7,7 @@ const Test = () => {
         <div className="flex flex-col justify-center items-center w-full gap-2">
             <WorkshopFormBtn 
                 title={"Workshop Form"}
+                form={<WorkshopForm />}
             />
         </div>
     );
