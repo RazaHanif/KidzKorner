@@ -12,12 +12,12 @@ const About = () => {
                     <ContactUsTable />
                 </div>
 
-                <div>
+                {/* <div>
                     <Image 
                         src='/K_K_2.jpg'
                         alt='Kid making silly face'
                     />
-                </div>
+                </div> */}
 
                 <div>
                     <HoursTimeTable />
