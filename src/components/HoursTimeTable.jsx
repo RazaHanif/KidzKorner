@@ -12,19 +12,24 @@ const HoursTimeTable = () => {
 
     const timetable = [
         {
-            title: "Phone",
-            href: "tel:+19058784697",
-            text: "(905) 878-4697"
+            session: "Before School",
+            time: "7:30am - 9:00am"
         },
         {
-            title: "Email",
-            href: "mailto:info@kidzkornermilton.com",
-            text: "info@kidzkornermilton.com"
+            session: "Full Day",
+            time: "9:00am - 3:00pm"
         },
         {
-            title: "Address",
-            href: "https://maps.app.goo.gl/TcUQhJ58bgf6tME18",
-            text: "150 Nipissing Rd. 10 & 11, Milton, ON, L9T 5B3"
+            session: "Half Day - Morning",
+            time: "9:00am - 11:30am"
+        },
+        {
+            session: "Half Day - Afternoon",
+            time: "12:30am - 3:00pm"
+        },
+        {
+            session: "After School",
+            time: "3:00pm - 6:00pm"
         },
     ]
 
