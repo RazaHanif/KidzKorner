@@ -111,6 +111,8 @@ const Footer = () => {
             <a 
               href="https://maps.app.goo.gl/TcUQhJ58bgf6tME18"
               className="hover:underline flex flex-row gap-2"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <MapPin />
               <div>
@@ -122,6 +124,8 @@ const Footer = () => {
             <a 
               href="https://www.instagram.com/kidz.kornermilton/"
               className="hover:underline flex flex-row gap-2"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <Instagram />
               <div>
