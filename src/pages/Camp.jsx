@@ -116,7 +116,7 @@ const Camp = () => {
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
                             Camp Schedule
                         </CardTitle>
-                        <CardDescription className="hidden">
+                        <CardDescription className="p-2 bg-accent hidden rounded-md text-bold text-lg">
                             Camp Schedule
                         </CardDescription>
                     </CardHeader>
