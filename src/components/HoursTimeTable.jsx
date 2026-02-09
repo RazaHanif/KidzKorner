@@ -43,17 +43,11 @@ const HoursTimeTable = () => {
             <TableBody>
                 {timetable.map((item) => (
                     <TableRow key={item}>
+                        <TableCell className='font-semibold'>
+                            {item.session}
+                        </TableCell>
                         <TableCell>
-                            <a
-                                target="_blank"
-                                rel="noopener noreferrer" 
-                                href={item.href}
-                                className="hover:underline flex flex-row"
-                            >
-                                <div className="font-semibold">
-                                    {item.text}
-                                </div>
-                            </a>
+                            {item.time}
                         </TableCell>
                     </TableRow>
                 ))}
