@@ -58,7 +58,20 @@ const Camp = () => {
                                 <span>
                                     9:00AM - 5:00PM
                                 </span>
-                                
+                                <span className="font-semibold">
+                                    Program Hours
+                                </span>
+                                <ul className="font-normal pl-6">
+                                    <li>
+M
+                                    </li>
+                                    <li>
+                                        Families can enroll for 2, 3, or 5 days a week.
+                                    </li>
+                                    <li className="text-xs font-semibold">
+                                        *Center is closed on Civic Holiday, Christmas Eve, Christmas Day, New Years Eve, and New Years Day*
+                                    </li>
+                                </ul>
                             </li>
                             <li>
                                 <span className="font-semibold">
