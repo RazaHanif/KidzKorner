@@ -95,7 +95,7 @@ const Childcare = () => {
                         Nutrioutes means and snacks
                     </div>
                     <div className="border-2 border-blue-500">
-                       Our Educatprs
+                       Our registed early childhood Educatprs rece
                     </div>
                 </div>
             </div>
