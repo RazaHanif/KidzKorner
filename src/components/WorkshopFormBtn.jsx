@@ -25,7 +25,7 @@ const WorkshopFormBtn = () => {
                         Create a new chat!
                     </DialogTitle>
                 </DialogHeader>
-                    [ List of people to message ]
+                    <WorkshopForm />
                 <DialogFooter>
                 </DialogFooter>
             </DialogContent>
