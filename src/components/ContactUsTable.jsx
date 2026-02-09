@@ -34,7 +34,7 @@ const ContactUsTable = () => {
                                 className="hover:underline flex flex-row"
                             >
                                 <div className="font-semibold">
-                                    (905) 878-4697
+                                    {item.text}
                                 </div>
                             </a>
                         </TableCell>
