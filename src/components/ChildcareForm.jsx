@@ -85,7 +85,7 @@ const ChildcareForm = () => {
           </div>
           <form 
             onSubmit={handleSubmit}
-            className='w-3/4 flex flex-col justify-center items-center gap-2 border-2 bg-card rounded-lg pt-4'
+            className='w-full flex flex-col justify-center items-center gap-2 border-2 bg-card rounded-lg pt-4'
           >
             <div 
               className="grid items-center gap-2 w-4/5 p-2"
