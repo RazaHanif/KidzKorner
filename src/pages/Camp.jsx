@@ -49,7 +49,7 @@ const Camp = () => {
                                 </ul>
                             </li>
                             <li key={2}>
-                                Small class sizes for more 1 on 1 support
+                                Program Hours 9AM - 5PM
                             </li>
                             <li key={3}>
                                 Siblings discounts available
