@@ -122,12 +122,16 @@ const Childcare = () => {
                                 Interactive & Play Based Learning
                             </div>
                             <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
-                                weekly art and cooking classes
+                                Weekly Art & Cooking Classes
                             </div>
                             <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
-                                strong parent teacher communication and monthly prog reports
+                                Strong Parent Teacher Communication
                             </div>
                             <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
+                                Monthly Progress Reports
+                            </div>
+                            <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
+                                Freshly cooked Nutritous Meals & Snacks
                                 freshly cooked nutrioutes meals and snacks
                             </div>
                             <div className="p-4">
