@@ -30,7 +30,7 @@ const ContactUsTable = () => {
                     <TableRow key={item}>
                         <TableCell>
                             <a
-                                href="tel:+19058784697"
+                                href={item.href}
                                 className="hover:underline flex flex-row"
                             >
                                 <div className="font-semibold">
