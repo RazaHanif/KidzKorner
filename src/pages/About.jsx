@@ -35,7 +35,7 @@ const About = () => {
                     aria-hidden="false"
                     tabIndex="0"
                     src={`https://www.google.com/maps/embed/v1/place?key=${import.meta.env.VITE_GOOGLE_MAPS_API}&q=Kidz+Korner+Milton+Ontario`}
-                    className="border-4 w-full h-[75vw] md:"
+                    className="border-4 w-full h-[75vw] md:h-[33vw]"
                 />
             </div>
             
