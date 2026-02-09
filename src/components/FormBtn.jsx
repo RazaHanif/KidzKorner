@@ -1,12 +1,13 @@
 import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog"
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetDescription,
+  SheetFooter,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet"
 import FloatingButton from "@/components/FloatingButton";
 import { useState } from "react";
 
@@ -25,6 +26,7 @@ const FormBtn = ({title, form}) => {
                 {form}
             </DialogContent>
         </Dialog> 
+        
     )
 }
 
