@@ -58,7 +58,7 @@ const Childcare = () => {
                                 Ministry of Education's "How Does Learning Happen?" (HDLH) 
                             </span>
                             <span>
-                                framework, focusing on the well-being, engagement, expression and belonging of each individual child. 
+                                framework. Focusing on the well-being, engagement, expression and belonging of each individual child. 
                                 Our educators provide a high quality programs and a vibrant learning space, including our most unique feature, the indoor playground.
                                 We provide a variety of care options to meet each families unique needs.
                             </span>
