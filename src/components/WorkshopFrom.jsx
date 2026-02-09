@@ -76,9 +76,6 @@ return (
         </div>
       ) : (
         <div className='flex flex-col justify-center items-center w-full'>
-          <div className='flex flex-col justify-center items-center w-full text-2xl font-bold text-black'>
-              Workshop Enrollment Form
-          </div>
           <form 
             onSubmit={handleSubmit}
             className='w-3/4 flex flex-col justify-center items-center gap-2 border-2 bg-card rounded-lg pt-4'
