@@ -81,30 +81,6 @@ const Footer = () => {
             </TableBody>
           </Table>
         </div>
-        <div className="flex-1 flex flex-col justify-start items-start gap-2">
-          <div className="flex md:flex-col lg:flex-row flex-row md:gap-0 lg:gap-1 gap-1 justify-center items-center">
-            <div>
-              Monday to Friday
-            </div>
-            <div className="md:hidden flex">
-              -
-            </div>
-            <div>
-              3:00pm to 6:00pm
-            </div>
-          </div>
-          <div className="flex md:flex-col lg:flex-row flex-row md:gap-0 lg:gap-1 gap-1 justify-center items-center">
-            <div>
-              Saturday to Sunday
-            </div>
-            <div className="md:hidden flex">
-              -
-            </div>
-            <div>
-              Parties Only
-            </div>
-          </div>
-        </div>
       </div>
 
       <div className="border-r border-chart-4 md:flex hidden m-2"></div>
