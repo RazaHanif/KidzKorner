@@ -22,7 +22,13 @@ const Playground = () => {
                 </div>
             </div>
 
-            <div className="flex md:flex-row flex-col justify-evenly items-center w-3/4">
+            <div 
+                className="flex flex-col justify-center items-center w-3/4 mt-4"
+            >
+                <PlaygroundAccordion />
+            </div>
+
+            {/* <div className="flex md:flex-row flex-col justify-evenly items-center w-3/4">
                 <Card className="w-1/2">
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
@@ -38,7 +44,7 @@ const Playground = () => {
                         </div>
                     </CardContent>
                 </Card>
-            </div>
+            </div> */}
 
             <div>
 
@@ -63,9 +69,6 @@ const Playground = () => {
                     />
                 </div>
 
-            </div>
-            <div className="flex flex-col justify-center items-center w-3/4 mt-4">
-                <PlaygroundAccordion />
             </div>
         </div>
     );
