@@ -1,3 +1,5 @@
+import Image from "../components/Image";
+
 const Home = () => {
     return (
         <div className="flex flex-col justify-center items-center gap-2 w-full">
@@ -9,12 +11,7 @@ const Home = () => {
 
             <div className="flex flex-col justify-center items-center md:w-3/4 w-full text-justify">
                 <div className="flex md:flex-row flex-col justify-center items-center gap-4">
-                    <img 
-                        src='/K_K_39.jpg'
-                        alt='Kidz Korner Store Front'
-                        className="w-3/4 md:w-xs rounded-lg border-2 shadow-lg"
-                        loading="lazy"
-                    />
+                    <Image src='/K_K_39.jpg' alt='Kidz Korner Store Front' />
                     <div className="flex flex-col justify-center items-center w-full p-4">
                         <div className="hidden md:block text-3xl font-bold self-center font-serif">
                             Welcome to Kidz Korner

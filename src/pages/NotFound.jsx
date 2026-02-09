@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import Image from "../components/Image";
 
 const NotFound = () => {
   return (
@@ -11,9 +12,7 @@ const NotFound = () => {
       <div className="w-full flex flex-col justify-center items-center gap-4 text-muted-foreground">
         <div className="text-6xl font-[ui]">🛝</div>
         <div>
-            <img
-              src=""
-              />
+            <Image src='/slide.svg' alt='Kids doing tye dye' />
         </div>
         <div>Oops! This page ran off to play!</div>
       </div>
