@@ -29,8 +29,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="border-r border-chart-4 md:flex hidden"></div>
-      <div className="border-t border-chart-4 md:hidden flex m-2"></div>      
+      <div className="border-r border-chart-4 md:flex hidden" />
+      <div className="border-t border-chart-4 md:hidden flex m-2" />
 
       <div className="flex-1 flex flex-col justify-start items-center  border-blue-500 border-2">
         <div className="text-xl flex justify-center items-center w-full border-2 border-red-500">
@@ -52,8 +52,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="border-r border-chart-4 md:flex hidden"></div>
-      <div className="border-t border-chart-4 md:hidden flex m-2"></div>
+      <div className="border-r border-chart-4 md:flex hidden" />
+      <div className="border-t border-chart-4 md:hidden flex m-2" />
 
       <div className="flex-1 flex flex-col justify-start items-center  border-blue-500 border-2">
         <div className="text-xl flex justify-center items-center w-full border-2 border-red-500">
@@ -83,8 +83,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="border-r border-chart-4 md:flex hidden"></div>
-      <div className="border-t border-chart-4 md:hidden flex m-2"></div>
+      <div className="border-r border-chart-4 md:flex hidden" />
+      <div className="border-t border-chart-4 md:hidden flex m-2" />
 
       <div className="flex-1 flex flex-col justify-start items-center  border-blue-500 border-2">
         <div className="text-xl flex justify-center items-center w-full border-2 border-red-500">
