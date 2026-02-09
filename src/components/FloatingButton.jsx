@@ -6,7 +6,7 @@ const FloatingButton = ({ action = () => console.log('btn'), ...props }) => {
     return (
         <Button
             variant="btn"
-            className="sticky bottom-22 right-5 h-10 w-10 rounded-lg shadow-lg bg-primary text-primary-foreground flex items-center justify-center"
+            className="sticky bottom-4 h-10 w-10 rounded-lg shadow-lg bg-primary text-primary-foreground flex items-center justify-center"
             onClick={ action }
             {...props}
         >
