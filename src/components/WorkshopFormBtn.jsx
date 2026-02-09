@@ -32,7 +32,6 @@ const WorkshopFormBtn = () => {
             </DialogContent>
         </Dialog> 
     )
-
 }
 
 export default WorkshopFormBtn 
