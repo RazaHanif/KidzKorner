@@ -213,10 +213,16 @@ const Camp = () => {
                 </Card>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 gap-4">
+            <div className="flex md:flex-row flex-col justify-center items-center w-3/4 gap-4">
                 <img 
-                    src='/K_K_23.jpg'
-                    alt='Kids doing activity'
+                    src='/K_K_32.jpg'
+                    alt='Kids doing tyedye'
+                    className="w-3xs rounded-lg border-2 shadow-lg"
+                    loading="lazy"
+                />
+                <img 
+                    src='/K_K_32.jpg'
+                    alt='Kids doing tyedye'
                     className="w-3xs rounded-lg border-2 shadow-lg"
                     loading="lazy"
                 />
