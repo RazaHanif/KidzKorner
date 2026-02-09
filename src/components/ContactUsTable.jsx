@@ -46,9 +46,9 @@ const ContactUsTable = () => {
             text: "info@kidzkornermilton.com"
         },
         {
-            title: "Phone",
-            href: "tel:+19058784697",
-            text: "(905) 878-4697"
+            title: "Address",
+            href: "https://maps.app.goo.gl/TcUQhJ58bgf6tME18",
+            text: "150 Nipissing Rd. 10 & 11, Milton, ON, L9T 5B3"
         },
     ]
 
