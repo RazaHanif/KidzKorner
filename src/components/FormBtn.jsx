@@ -17,16 +17,22 @@ const FormBtn = ({title, form}) => {
     const [ open, setOpen ] = useState(false)
 
     return (
-        <Dialog open={open} onOpenChange={setOpen} className='overflow-x-auto'>
-            <DialogTrigger asChild>
+        <Sheet open={open} onOpenChange={setOpen}>
+            <SheetTrigger asChild>
                 <FloatingButton />
-            </DialogTrigger>
-            <DialogContent>
-                <DialogDescription className='hidden'>{title}</DialogDescription>
-                {form}
-            </DialogContent>
-        </Dialog> 
-        
+            </SheetTrigger>
+            <SheetContent showCloseButton={false}>
+                <SheetHeader>
+                    <SheetTitle>
+                        { title }
+                    </SheetTitle>
+                    <SheetDescription className='hidden'>
+                        { title }
+                    </SheetDescription>
+                </SheetHeader>
+                { form }
+            </SheetContent>
+        </Sheet>
     )
 }
 
