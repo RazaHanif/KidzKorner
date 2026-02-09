@@ -21,7 +21,7 @@ const Childcare = () => {
                 </div>    
             </div>
             
-            <div className="flex md:flex-row flex-col justify-evenly items-center w-3/4 gap-4">
+            <div className="flex md:flex-row flex-col justify-around items-center w-3/4 gap-4">
                 <img 
                     src='/K_K_38.jpg'
                     alt='Kids doing an activity'
@@ -71,7 +71,7 @@ const Childcare = () => {
                 </div>
             </div>
 
-            <div className="flex md:flex-row flex-col justify-evenly items-center w-3/4 gap-4">
+            <div className="flex md:flex-row flex-col justify-around items-center w-3/4 gap-4">
                     <img 
                     src='/K_K_17.jpg'
                     alt='Kid playing with blocks'
