@@ -131,7 +131,7 @@ const Childcare = () => {
                                 Monthly Progress Reports
                             </div>
                             <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
-                                Freshly cooked Nutritous Meals & Snacks
+                                Freshly cooked Nutritious Meals & Snacks
                                 freshly cooked nutrioutes meals and snacks
                             </div>
                             <div className="p-4">
