@@ -23,7 +23,7 @@ const Camp = () => {
                 </div>
             </div>
 
-            <div className="flex md:flex-row flex-col justify-center w-3/4 gap-2">
+            <div className="flex md:flex-row flex-col justify-center w-3/4 gap-4">
                 <Card className="flex-1">
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
@@ -36,7 +36,7 @@ const Camp = () => {
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
-                        <ul className="flex flex-col gap-2">
+                        <ul className="flex flex-col gap-4">
                             <li className="font-semibold">
                                 Full Time & Part Time Options
                                 <ul className="font-normal pl-6">
@@ -83,8 +83,8 @@ const Camp = () => {
                 />
             </div>
 
-            {/* <div className="flex flex-col justify-center items-center w-3/4 gap-2">
-                <div className="flex md:flex-row flex-col justify-center items-center gap-2">
+            {/* <div className="flex flex-col justify-center items-center w-3/4 gap-4">
+                <div className="flex md:flex-row flex-col justify-center items-center gap-4">
                     <div className="flex flex-col justify-center items-start">
                         <CampTimeTable />
                     </div>
@@ -92,7 +92,7 @@ const Camp = () => {
                 </div>
             </div> */}
 
-            <div className="flex md:flex-row flex-col justify-center items-center w-3/4 gap-2">
+            <div className="flex md:flex-row flex-col justify-center items-center w-3/4 gap-4">
                 <Card className="flex-1">
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
@@ -104,7 +104,7 @@ const Camp = () => {
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
-                        <ul className="flex flex-col gap-2 list-disc pl-6">
+                        <ul className="flex flex-col gap-4 list-disc pl-6">
                             <li key={1}>
                                 Campers explore a wide range of mediums and techniques
                             </li>
@@ -135,7 +135,7 @@ const Camp = () => {
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
-                        <ul className="flex flex-col gap-2 list-disc pl-6">
+                        <ul className="flex flex-col gap-4 list-disc pl-6">
                             <li key={1}>
                                 Each week features fun, age-appropriate kitchen adventures
                             </li>
@@ -153,7 +153,7 @@ const Camp = () => {
                     </CardContent>
                 </Card>
             </div>
-            <div className="flex flex-col justify-center items-center w-3/4 gap-2">
+            <div className="flex flex-col justify-center items-center w-3/4 gap-4">
                 <img 
                     src='/K_K_23.jpg'
                     alt='Kids doing activity'
@@ -168,7 +168,7 @@ const Camp = () => {
                 />
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 gap-2">
+            <div className="flex flex-col justify-center items-center w-3/4 gap-4">
                 <CampForm/>
             </div>
         </div>
