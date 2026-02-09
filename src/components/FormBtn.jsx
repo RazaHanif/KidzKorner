@@ -6,7 +6,6 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
-import WorkshopForm from "@/components/WorkshopFrom"
 import FloatingButton from "@/components/FloatingButton";
 import { useState } from "react";
 
