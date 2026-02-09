@@ -124,19 +124,19 @@ const Camp = () => {
                     </CardHeader>
                     <CardContent>
                         <ul className="flex flex-col gap-4 list-disc pl-6">
-                            <li key={1}>
+                            <li>
                                 Campers explore a wide range of mediums and techniques
                             </li>
-                            <li key={2}>
+                            <li>
                                 Painting and Drawing
                             </li>
-                            <li key={3}>
+                            <li>
                                 Printmaking
                             </li>
-                            <li key={4}>
+                            <li>
                                 Mixed Media and Collage
                             </li>
-                            <li key={5}>
+                            <li>
                                 End of term art gallery
                             </li>
                         </ul>
@@ -156,16 +156,16 @@ const Camp = () => {
                     </CardHeader>
                     <CardContent>
                         <ul className="flex flex-col gap-4 list-disc pl-6">
-                            <li key={1}>
+                            <li>
                                 Each week features fun, age-appropriate kitchen adventures
                             </li>
-                            <li key={2}>
+                            <li>
                                 Hands-on cooking and baking
                             </li>
-                            <li key={3}>
+                            <li>
                                 International cuisines
                             </li>
-                            <li key={4}>
+                            <li>
                                 Kitchen safety & teamwork
                             </li>
 
