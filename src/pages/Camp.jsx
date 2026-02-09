@@ -123,9 +123,24 @@ const Camp = () => {
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
-                        <ul className="flex flex-col gap-4 list-disc pl-6">
+                        <ul className="flex flex-col gap-4">
                             <li>
-                                Campers explore a wide range of mediums and techniques
+                                <span className="font-semibold">
+                                    Campers explore a wide range of mediums and techniques
+                                </span>
+                                <ul className="font-normal pl-6">
+                                    <li>
+                                        9:00AM - 5:00PM
+                                    </li>
+                                    <li>
+                                        Monday - Friday
+                                    </li>
+                                    <li>
+                                        Families can enroll for 2, 3, or 5 days a week.
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
                             </li>
                             <li>
                                 Painting and Drawing
@@ -155,7 +170,7 @@ const Camp = () => {
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
-                        <ul className="flex flex-col gap-4 list-disc pl-6">
+                        <ul className="flex flex-col gap-4">
                             <li>
                                 Each week features fun, age-appropriate kitchen adventures
                             </li>
