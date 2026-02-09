@@ -116,8 +116,9 @@ const Camp = () => {
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
                             Art Class
                         </CardTitle>
-                        <CardDescription className="p-2 bg-accent flex justify-center items-center rounded-md text-bold text-lg hidden">
+                        <CardDescription className="p-2 bg-accent flex justify-center items-center rounded-md text-bold text-lg">
                             <span className="text-xs text-center">
+                                3 Days a week
                             </span>
                         </CardDescription>
                     </CardHeader>
@@ -147,8 +148,9 @@ const Camp = () => {
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
                             Cooking Class
                         </CardTitle>
-                        <CardDescription className="p-2 bg-accent flex justify-center items-center rounded-md text-bold text-lg hidden">
+                        <CardDescription className="p-2 bg-accent flex justify-center items-center rounded-md text-bold text-lg">
                             <span className="text-xs text-center">
+                                2 Days a week
                             </span>
                         </CardDescription>
                     </CardHeader>
