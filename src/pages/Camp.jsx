@@ -166,7 +166,7 @@ const Camp = () => {
                                 </span>
                                 <ul className="font-normal pl-6 list-disc">
                                     <li>
-                                        Cooking
+                                        Learning about kitchen safety and hygiene
                                     </li>
                                     <li>
                                         
