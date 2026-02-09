@@ -95,7 +95,7 @@ const Camp = () => {
                 <Image src='/K_K_11.jpg' alt='Kids Playing with Dinosaur' w="w-sm"/>
             </div>
 
-            <div className="flex flex-col justify-center w-3/4 gap-4">
+            <div className="flex flex-col justify-center w-3/4 md:w-1/3 gap-4">
                 <Card>
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
