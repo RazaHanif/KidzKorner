@@ -17,11 +17,11 @@ const FormBtn = ({title, form}) => {
     const [ open, setOpen ] = useState(false)
 
     return (
-        <Sheet open={open} onOpenChange={setOpen} className='overflow-auto h-dvh'>
+        <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger asChild>
                 <FloatingButton />
             </SheetTrigger>
-            <SheetContent showCloseButton={false}>
+            <SheetContent showCloseButton={false} className="overflow-y-auto h-full">
                 <SheetHeader>
                     <SheetTitle>
                         { title }
