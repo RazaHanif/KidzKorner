@@ -9,14 +9,11 @@ const Workshops = () => {
                 <div className="text-3xl font-bold mb-4">
                     Workshops
                 </div>
-                <div>
-                    Our Camp offers hands-on experiences in both the visual arts and culinary arts, perfect for young artists and aspiring chefs alike.
+                <div className="flex justify-center items-center w-3/4 mb-4">
+                    <WorkshopCarousel />
                 </div>
             </div>
 
-            <div className="flex justify-center items-center w-3/4 mb-4">
-                <WorkshopCarousel />
-            </div>
 
             <div className="flex md:flex-row flex-col justify-between items-center w-3/4 gap-2">
                 <img 
