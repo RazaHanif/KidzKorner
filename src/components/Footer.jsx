@@ -9,7 +9,7 @@ import {
 const Footer = () => {
   return (
     <div className="flex flex-col md:flex-row justify-center w-full bg-primary border-t border-chart-4 p-4 text-primary-foreground">
-      <div className="flex-1 flex flex-col justify-center items-center gap-2 border-4">
+      <div className="flex-1 flex flex-col justify-start items-center gap-2 border-4">
         <div className="text-xl flex justify-center items-center w-full">
           Child Care Hours
         </div>
