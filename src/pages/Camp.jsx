@@ -165,23 +165,14 @@ const Camp = () => {
                                     Campers will engage in a variety of cooking experiences such as:
                                 </span>
                                 <ul className="font-normal pl-6 list-disc">
+                                    <li>
+                                        Cooking
+                                    </li>
+                                    <li>
+                                        
+                                    </li>
                                 </ul>
                             </li>
-                        </ul>
-                        <ul className="flex flex-col gap-4">
-                            <li>
-                                Each week features fun, age-appropriate kitchen adventures
-                            </li>
-                            <li>
-                                Hands-on cooking and baking
-                            </li>
-                            <li>
-                                International cuisines
-                            </li>
-                            <li>
-                                Kitchen safety & teamwork
-                            </li>
-
                         </ul>
                     </CardContent>
                 </Card>
