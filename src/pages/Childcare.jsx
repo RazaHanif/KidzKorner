@@ -13,7 +13,7 @@ import Image from "../components/Image";
 const Childcare = () => {
     return (
         <div className="flex flex-col justify-center items-center gap-4 w-full text-justify">
-            <div className="flex flex-col justify-center items-center w-full mb-4 font-serif">
+            <div className="flex flex-col justify-center items-center w-full mb-4">
                 <div className="text-3xl font-bold font-serif">
                     Child Care 
                 </div>
