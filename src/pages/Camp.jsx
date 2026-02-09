@@ -78,20 +78,14 @@ const Camp = () => {
                                 Children bring their own lunches and snacks
                             </li>
                             <li>
-                                <span className="font-semibold">
-                                    <a
-                                        href="https://www.instagram.com/kidz.kornermilton/"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="hover:underline"
-                                    >
-                                        Activities / Weekly Camp Theme will be posted on our Instagram Page
-                                    </a>
-                                </span>
-                                {'\u00A0'}
-                                <span>
-                                    [LINK]
-                                </span>
+                                <a
+                                    href="https://www.instagram.com/kidz.kornermilton/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="hover:underline font-semibold"
+                                >
+                                    Activities / Weekly Camp Theme will be posted on our Instagram Page
+                                </a>
                             </li>
                             {/* <li className="text-xs font-semibold">
                                 *Center is closed on Civic Holiday, Christmas Eve, Christmas Day, New Years Eve, and New Years Day*
