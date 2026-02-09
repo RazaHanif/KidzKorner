@@ -25,17 +25,17 @@ const Childcare = () => {
                 <img 
                     src='/K_K_38.jpg'
                     alt='Kids doing an activity'
-                    className="w-3xs rounded-lg border-2 shadow-lg"
+                    className="md:w-3xs w-full rounded-lg border-2 shadow-lg"
                 />
                 <img 
                     src='/K_K_38.jpg'
                     alt='Kids doing an activity'
-                    className="w-3xs rounded-lg border-2 shadow-lg"
+                    className="md:w-3xs w-full rounded-lg border-2 shadow-lg"
                 />
                 <img 
                     src='/K_K_38.jpg'
                     alt='Kids doing an activity'
-                    className="w-3xs rounded-lg border-2 shadow-lg"
+                    className="md:w-3xs w-full rounded-lg border-2 shadow-lg"
                 />
             </div>
 
@@ -79,7 +79,7 @@ const Childcare = () => {
                     <img 
                     src='/K_K_17.jpg'
                     alt='Kid playing with blocks'
-                    className="w-3xs rounded-lg border-2 shadow-lg"
+                    className="md:w-3xs w-full rounded-lg border-2 shadow-lg"
                     />
                 </div>
             </div>
@@ -112,17 +112,17 @@ const Childcare = () => {
                     <img 
                     src='/K_K_17.jpg'
                     alt='Kid playing with blocks'
-                    className="w-3xs rounded-lg border-2 shadow-lg"
+                    className="md:w-3xs w-full rounded-lg border-2 shadow-lg"
                     />
                     <img 
                     src='/K_K_17.jpg'
                     alt='Kid playing with blocks'
-                    className="w-3xs rounded-lg border-2 shadow-lg"
+                    className="md:w-3xs w-full rounded-lg border-2 shadow-lg"
                     />
                     <img 
                     src='/K_K_17.jpg'
                     alt='Kid playing with blocks'
-                    className="w-3xs rounded-lg border-2 shadow-lg"
+                    className="md:w-3xs w-full rounded-lg border-2 shadow-lg"
                     />
             </div>
 
