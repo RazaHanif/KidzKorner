@@ -121,8 +121,8 @@ const Childcare = () => {
                             <div className="">
                                 Interactive & Play Based Learning
                             </div>
-                            <div className="self-stretch w-px bg-border mx-4" />
-                            <hr />
+                            <div className="self-stretch w-px bg-border mx-4 md:block hidden" />
+                            <hr className="md:hidden"/>
                             <div className="">
                                 weekly art and cooking classes
                             </div>
