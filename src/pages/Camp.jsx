@@ -36,7 +36,7 @@ const Camp = () => {
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
-                        <ul className="flex flex-col gap-2 list-disc pl-6">
+                        <ul className="flex flex-col gap-2">
                             <li key={1}>
                                 Full Time & Part Time Options
                                 <ul>
