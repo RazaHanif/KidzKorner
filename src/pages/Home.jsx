@@ -1,6 +1,6 @@
 const Home = () => {
     return (
-        <div className="flex flex-col justify-center items-center gap-2 w-full border-4">
+        <div className="flex flex-col justify-center items-center gap-2 w-full">
             <div className="md:hidden flex flex-col justify-center items-center w-full mb-4">
                 <div className="md:hidden text-3xl font-bold">
                     Welcome to Kidz Korner
