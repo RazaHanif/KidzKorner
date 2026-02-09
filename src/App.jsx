@@ -8,6 +8,7 @@ import Parties from './pages/Parties.jsx'
 import Playground from './pages/Playground.jsx'
 import Workshops from './pages/Workshops.jsx'
 import Camp from './pages/Camp.jsx'
+import Test from './pages/Test.jsx'
 import NotFound from './pages/NotFound.jsx'
 
 function App() {
