@@ -35,14 +35,7 @@ const ContactUsTable = () => {
     return (
         <Table>
             <TableHeader>
-                <TableRow>
-                    <TableHead>
-                        Time
-                    </TableHead>
-                    <TableHead>
-                        Program
-                    </TableHead>
-                </TableRow>
+                Contact Us
             </TableHeader>
             <TableBody>
                 {timetable.map((item) => (
