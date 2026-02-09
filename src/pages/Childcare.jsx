@@ -46,7 +46,7 @@ const Childcare = () => {
                             Title
                         </CardTitle>
                         <CardDescription className="p-2 bg-accent hidden rounded-md text-bold text-lg">
-                            title
+                            Title
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
