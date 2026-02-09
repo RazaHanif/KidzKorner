@@ -1,11 +1,4 @@
 import PlaygroundAccordion from "@/components/PlaygroundAccordion";
-import {
-    Card,
-    CardContent,
-    CardDescription,
-    CardHeader,
-    CardTitle,
-} from "@/components/ui/card"
 
 const Playground = () => {
     return (
@@ -27,24 +20,6 @@ const Playground = () => {
             >
                 <PlaygroundAccordion />
             </div>
-
-            {/* <div className="flex md:flex-row flex-col justify-evenly items-center w-3/4">
-                <Card className="w-1/2">
-                    <CardHeader>
-                        <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
-                            Drop In
-                        </CardTitle>
-                        <CardDescription className="p-2 bg-accent flex justify-center items-center rounded-md text-bold text-lg">
-                            $15 per Family
-                        </CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                        <div className="">
-                            Open from 3-6 pm
-                        </div>
-                    </CardContent>
-                </Card>
-            </div> */}
 
             <div>
 
