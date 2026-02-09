@@ -92,7 +92,7 @@ const Childcare = () => {
                         strong parent communication and monthly prog reports
                     </div>
                     <div className="border-2 border-blue-500">
-                        Nutrioutes means and snacks
+                        freshly cooked nutrioutes meals and snacks
                     </div>
                     <div className="border-2 border-blue-500">
                        Our registed early childhood Educatprs rece
