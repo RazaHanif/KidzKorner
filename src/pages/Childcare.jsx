@@ -132,10 +132,9 @@ const Childcare = () => {
                             </div>
                             <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
                                 Freshly cooked Nutritious Meals & Snacks
-                                freshly cooked nutrioutes meals and snacks
                             </div>
                             <div className="p-4">
-                            Our registed early childhood Educatprs rece
+                                Registered Early Childhood Educators (RECE)
                             </div>
                         </div>
                     </CardContent>
