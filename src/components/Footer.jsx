@@ -9,7 +9,7 @@ import {
 const Footer = () => {
   return (
     <div className="flex flex-col md:flex-row justify-center w-full bg-primary border-t border-chart-4 p-4 text-primary-foreground">
-      <div className="flex-1 flex flex-col justify-start items-center gap-2 border-blue-500 border-2">
+      <div className="flex-1 flex flex-col justify-start items-center  border-blue-500 border-2">
         <div className="text-xl flex justify-center items-center w-full border-2 border-red-500">
           Child Care Hours
         </div>
@@ -32,7 +32,7 @@ const Footer = () => {
       <div className="border-r border-chart-4 md:flex hidden m-2"></div>
       <div className="border-t border-chart-4 md:hidden flex m-2"></div>      
 
-      <div className="flex-1 flex flex-col justify-start items-center gap-2 border-blue-500 border-2">
+      <div className="flex-1 flex flex-col justify-start items-center  border-blue-500 border-2">
         <div className="text-xl flex justify-center items-center w-full border-2 border-red-500">
           After School Hours
         </div>
@@ -55,7 +55,7 @@ const Footer = () => {
       <div className="border-r border-chart-4 md:flex hidden m-2"></div>
       <div className="border-t border-chart-4 md:hidden flex m-2"></div>
 
-      <div className="flex-1 flex flex-col justify-start items-center gap-2 border-blue-500 border-2">
+      <div className="flex-1 flex flex-col justify-start items-center  border-blue-500 border-2">
         <div className="text-xl flex justify-center items-center w-full border-2 border-red-500">
           Indoor Playground Hours
         </div>
@@ -86,7 +86,7 @@ const Footer = () => {
       <div className="border-r border-chart-4 md:flex hidden m-2"></div>
       <div className="border-t border-chart-4 md:hidden flex m-2"></div>
 
-      <div className="flex-1 flex flex-col justify-start items-center gap-2 border-blue-500 border-2">
+      <div className="flex-1 flex flex-col justify-start items-center  border-blue-500 border-2">
         <div className="text-xl flex justify-center items-center w-full border-2 border-red-500">
           Contact Us
         </div>
@@ -100,7 +100,7 @@ const Footer = () => {
                 <TableCell className="whitespace-normal wrap-break-word border-none text-end">
                   <a 
                     href="tel:+19058784697"
-                    className="hover:underline flex flex-row gap-2 text-end"
+                    className="hover:underline flex flex-row  text-end"
                   >
                     <div className="w-full">
                       (905) 878-4697
@@ -116,7 +116,7 @@ const Footer = () => {
                 <TableCell className="whitespace-normal wrap-break-word border-none text-end">
                   <a 
                     href="mailto:info@kidzkornermilton.com"
-                    className="hover:underline flex flex-row gap-2 text-end"
+                    className="hover:underline flex flex-row  text-end"
                   >
                     <div className="w-full">
                       info@kidzkornermilton.com
@@ -132,7 +132,7 @@ const Footer = () => {
                 <TableCell className="whitespace-normal wrap-break-word border-none text-end">
                     <a 
                     href="https://maps.app.goo.gl/TcUQhJ58bgf6tME18"
-                    className="hover:underline flex flex-row gap-2 text-end"
+                    className="hover:underline flex flex-row  text-end"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -150,7 +150,7 @@ const Footer = () => {
                 <TableCell className="whitespace-normal wrap-break-word border-none text-end">
                   <a 
                     href="https://www.instagram.com/kidz.kornermilton/"
-                    className="hover:underline flex flex-row gap-2 text-end"
+                    className="hover:underline flex flex-row  text-end"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
