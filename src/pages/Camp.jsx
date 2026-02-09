@@ -41,7 +41,7 @@ const Camp = () => {
                                 Full Time & Part Time Options
                                 <ul>
                                     <li>
-                                        
+                                        Camp's run during: PD Days
                                     </li>
                                 </ul>
                             </li>
