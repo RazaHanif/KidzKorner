@@ -10,6 +10,7 @@ const NotFound = () => {
       </div>
 
       <div className="w-full flex flex-col justify-center items-center gap-4 text-muted-foreground">
+        <div className="text-6xl font-[ui]">🎠</div>
         <div>
             <img src='/slide.svg' alt='slide' className="w-20"/>
         </div>
