@@ -36,21 +36,7 @@ const Childcare = () => {
                 </CardHeader>
                 <CardContent>
                     <div className="flex flex-col md:flex-row justify-around">
-                        <ul className="font-normal pl-6 list-disc">
-                            <li>Arrival</li>
-                            <li>Morning Snack</li>
-                            <li>Programming</li>
-                            <li>Circle Time</li>
-                            <li>Cooking / Art Activity</li>
-                        </ul>
-                        <ul className="font-normal pl-6 list-disc">
-                            <li>Lunch</li>
-                            <li>Afternoon Rest</li>
-                            <li>Snack</li>
-                            <li>Programming</li>
-                            <li>Dismissal</li>
-                        </ul>
-
+                        Kidz Korner is a licensed child care centre dedicated to providing high quality early learning and care. We offer toddler, preschool, & before/after school programs. Our curriculum is guided by the Ministry of Education's "How Does Learning Happen?" (HDLH) framework, focusing on the well-being, engagment expression and belonging of each individual child. Our experienced early childhood educators strive to build strong relationships with children and families, ensuring individualized attention and consistent communication. With high quality programs, qualified educators and a vibrant learning space, including our most unique feature, the indoor playground. Kidz Korner provides a balanced approach to learning, play, and care. We are commited to supporting families and helping every child thrive.
                     </div>
                 </CardContent>
             </Card>
