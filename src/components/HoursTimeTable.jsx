@@ -8,7 +8,7 @@ import {
   TableRow,
 } from "@/components/ui/table"
 
-const ContactUsTable = () => {
+const HoursTimeTable = () => {
 
     const timetable = [
         {
@@ -57,4 +57,4 @@ const ContactUsTable = () => {
     )
 }
 
-export default ContactUsTable;
+export default HoursTimeTable;

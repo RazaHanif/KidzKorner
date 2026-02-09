@@ -1,5 +1,6 @@
 import ContactForm from "@/components/ContactForm";
 import ContactUsTable from "../components/ContactUsTable";
+import HoursTimeTable from "../components/HoursTimeTable";
 
 const About = () => {
 
@@ -20,7 +21,7 @@ const About = () => {
                 </div>
 
                 <div>
-                    
+                    <HoursTimeTable />
                 </div>
 
                 <div className="flex-1 flex flex-col justify-center items-center w-3/4 gap-2">
