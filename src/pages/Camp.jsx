@@ -41,7 +41,10 @@ const Camp = () => {
                                 Full Time & Part Time Options
                                 <ul>
                                     <li>
-                                        Camp's run during: PD Days
+                                        Camp's run during: PD Days, March Break, Summer Vacation, and Winter Breaks.
+                                    </li>
+                                    <li>
+                                        **
                                     </li>
                                 </ul>
                             </li>
