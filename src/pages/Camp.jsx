@@ -136,10 +136,10 @@ const Camp = () => {
                                         Painting and Drawing
                                     </li>
                                     <li>
-                                        Mixed Media and Collage
+                                        Mixed Media and Collages
                                     </li>
                                     <li>
-                                        End of term art gallery
+                                        End of term art gallery for parents to view
                                     </li>
                                 </ul>
                             </li>
