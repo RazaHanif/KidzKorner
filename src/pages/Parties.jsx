@@ -29,7 +29,7 @@ const Parties = () => {
                             Complimentary Tea & Coffee Station for Adults
                         </li>,
                         <li key={3}>
-                            Bring your own food at no additional and use out kithcen space
+                            Bring your own food at no additional and use out kitchen space
                             <div className="font-semibold text-xs">Strict Nut-Free Poilcy for childrens safety</div>
                         </li>,
                         <li key={4}>
