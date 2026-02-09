@@ -84,7 +84,7 @@ const Camp = () => {
                                     rel="noopener noreferrer"
                                     className="hover:underline font-semibold"
                                 >
-                                    Click Here to visit our Instagram to see ourActivities / Weekly Camp Themes
+                                    Click Here to visit our Instagram to see our Activities / Weekly Camp Themes
                                 </a>
                             </li>
                             <li className="text-xs font-semibold">
