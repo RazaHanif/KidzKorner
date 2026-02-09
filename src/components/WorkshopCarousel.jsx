@@ -44,7 +44,7 @@ const WorkshopCarousel = () => {
                     <div className="flex w-full justify-center m-4">
                         { description }
                     </div>
-                    <div>
+                    <div className="text-center">
                         <a
                             href="https://www.instagram.com/kidz.kornermilton/"
                             target="_blank"
