@@ -4,7 +4,7 @@ import Image from "../components/Image";
 const Playground = () => {
     return (
         <div className="flex flex-col justify-center items-center w-full gap-4 text-justify">
-            <div className="flex flex-col justify-center items-center w-full">
+            <div className="flex flex-col justify-center items-center w-full font-serif">
                 <div className="text-3xl font-bold">
                     Drop-In Fun!
                 </div>
