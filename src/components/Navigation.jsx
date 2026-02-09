@@ -45,7 +45,7 @@ function Navigation() {
           Playground
         </NavLink>
 
-        {/* <NavLink 
+        <NavLink 
           to="/workshop" 
           end
           className={({ isActive }) =>
@@ -53,7 +53,7 @@ function Navigation() {
           }
         >
           Workshops
-        </NavLink> */}
+        </NavLink>
 
         <NavLink 
           to="/camp" 
