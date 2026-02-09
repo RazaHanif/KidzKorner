@@ -68,12 +68,24 @@ const Childcare = () => {
                     What We Offer
                 </div>
                 <div className="flex">
-                    <div className="border-2 border-blue-500">Engaging Learning Experiences</div>
-                    <div className="border-2 border-blue-500">Interactive & Play Based Learning</div>
-                    <div className="border-2 border-blue-500">Parent communication and learning docs</div>
-                    <div className="border-2 border-blue-500">Parent communication and learning docs</div>
-                    <div className="border-2 border-blue-500">Parent communication and learning docs</div>
-                    <div className="border-2 border-blue-500">Parent communication and learning docs</div>
+                    <div className="border-2 border-blue-500">
+                        Engaging Learning Experiences
+                    </div>
+                    <div className="border-2 border-blue-500">
+                        Interactive & Play Based Learning
+                    </div>
+                    <div className="border-2 border-blue-500">
+                        Parent communication and learning docs
+                    </div>
+                    <div className="border-2 border-blue-500">
+                        Nutrioutes means and snacks
+                    </div>
+                    <div className="border-2 border-blue-500">
+                        Mixed age Classrooms
+                    </div>
+                    <div className="border-2 border-blue-500">
+                       Our Educatprs
+                    </div>
                 </div>
 
             </div>
