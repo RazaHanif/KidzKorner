@@ -58,7 +58,13 @@ const Camp = () => {
                                 </span>
                             </li>
                             <li className="font-semibold">
-                                Ages: 4 Years - 13 
+                                <span className="font-semibold">
+                                    Ages:
+                                </span>
+                                <span> </span>
+                                <span>
+                                    9:00AM - 5:00PM
+                                </span>
                             </li>
                             <li className="font-semibold">
                                 All materials included
