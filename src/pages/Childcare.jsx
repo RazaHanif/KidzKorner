@@ -67,7 +67,7 @@ const Childcare = () => {
                 <div className="self-center">
                     What We Offer
                 </div>
-                <div className="flex text-center">
+                <div className="flex md:flex-row flex-col text-center">
                     <div className="border-2 border-blue-500">
                         Engaging Learning Experiences
                     </div>
