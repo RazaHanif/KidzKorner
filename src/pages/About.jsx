@@ -7,17 +7,17 @@ const About = () => {
 
     return (
         <div className="flex flex-col justify-center items-center gap-2 w-full text-justify">
-            <div className="flex flex-col justify-center items-center w-3/4 m-4 gap-4 border">
+            <div className="flex md:flex-row flex-col justify-center items-center w-3/4 m-4 gap-4 border">
                 <div className="border">
                     <ContactUsTable />
                 </div>
 
-                {/* <div>
+                <div>
                     <Image 
                         src='/K_K_2.jpg'
                         alt='Kid making silly face'
                     />
-                </div> */}
+                </div>
 
                 <div className="border">
                     <HoursTimeTable />
