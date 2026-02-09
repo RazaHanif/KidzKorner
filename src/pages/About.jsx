@@ -31,7 +31,7 @@ const About = () => {
                     loading="lazy"
                     referrerPolicy="no-referrer"
                     width="2000"
-                    height="450"
+                    height=""
                     style={{ border: 0 }}
                     allowFullScreen=""
                     aria-hidden="false"
