@@ -130,10 +130,10 @@ const Camp = () => {
                                 </span>
                                 <ul className="font-normal pl-6">
                                     <li>
-                                        Painting and Drawing
+                                        Printmaking
                                     </li>
                                     <li>
-                                        Printmaking
+                                        Painting and Drawing
                                     </li>
                                     <li>
                                         Mixed Media and Collage
