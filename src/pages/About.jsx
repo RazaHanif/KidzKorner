@@ -1,6 +1,7 @@
 import ContactForm from "@/components/ContactForm";
 import ContactUsTable from "../components/ContactUsTable";
 import HoursTimeTable from "../components/HoursTimeTable";
+import Image from '@/components/Image'
 
 const About = () => {
 
@@ -12,6 +13,10 @@ const About = () => {
                 </div>
 
                 <div>
+                    <Image 
+                        src='/K_K_2.jpg'
+                        alt='Kid making silly face'
+                    />
                     <img 
                         src='/K_K_2.jpg'
                         alt='Kid making silly face'
