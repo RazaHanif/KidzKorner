@@ -6,6 +6,7 @@ import {
     CardTitle,
 } from "@/components/ui/card"
 import CampForm from "@/components/CampForm";
+import Image from "../components/Image";
 
 const Camp = () => {
     return (
@@ -138,6 +139,7 @@ const Camp = () => {
                     className="w-3xs rounded-lg border-2 shadow-lg"
                     loading="lazy"
                 />
+                <Image src='/K_K_32.jpg' alt='Kids doing tye dye' />
                 <img 
                     src='/K_K_32.jpg'
                     alt='Kids doing tye dye'
