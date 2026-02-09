@@ -8,6 +8,7 @@ import {
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
+import Image from "../components/Image";
 
 const Childcare = () => {
     return (
@@ -22,17 +23,17 @@ const Childcare = () => {
             </div>
             
             <div className="flex md:flex-row flex-col justify-between items-center w-3/4 gap-4">
-                <img 
+                <Image
                     src='/K_K_38.jpg'
                     alt='Kids doing an activity'
                     className="md:w-3xs w-full rounded-lg border-2 shadow-lg"
                 />
-                <img 
+                <Image
                     src='/K_K_38.jpg'
                     alt='Kids doing an activity'
                     className="md:w-3xs w-full rounded-lg border-2 shadow-lg"
                 />
-                <img 
+                <Image
                     src='/K_K_38.jpg'
                     alt='Kids doing an activity'
                     className="md:w-3xs w-full rounded-lg border-2 shadow-lg"
@@ -75,7 +76,7 @@ const Childcare = () => {
                     <div className="flex flex-col justify-center m-4 md:m-0">
                         <TimeTable />
                     </div>
-                    <img 
+                    <Image
                     src='/K_K_17.jpg'
                     alt='Kid playing with blocks'
                     className="md:w-3xs w-full rounded-lg border-2 shadow-lg"
@@ -120,17 +121,17 @@ const Childcare = () => {
 
             
             <div className="flex md:flex-row flex-col justify-between items-center w-3/4 gap-4">
-                    <img 
+                    <Image
                     src='/K_K_17.jpg'
                     alt='Kid playing with blocks'
                     className="md:w-3xs w-full rounded-lg border-2 shadow-lg"
                     />
-                    <img 
+                    <Image
                     src='/K_K_17.jpg'
                     alt='Kid playing with blocks'
                     className="md:w-3xs w-full rounded-lg border-2 shadow-lg"
                     />
-                    <img 
+                    <Image
                     src='/K_K_17.jpg'
                     alt='Kid playing with blocks'
                     className="md:w-3xs w-full rounded-lg border-2 shadow-lg"
