@@ -31,11 +31,9 @@ const ContactUsTable = () => {
     return (
         <Table className="text-start">
             <TableHeader>
-                <TableRow>
-                    <TableHead className='text-xl font-semibold'>
-                        Contact Us
-                    </TableHead>
-                </TableRow>
+                <TableHead className='text-xl font-semibold'>
+                    Contact Us
+                </TableHead>
             </TableHeader>
             <TableBody>
                 {timetable.map((item, idx) => (
