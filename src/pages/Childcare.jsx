@@ -104,9 +104,9 @@ const Childcare = () => {
             </div>
             
             <div className="flex md:flex-row flex-col justify-between items-center w-3/4 gap-4">
-                    <Image src='/20251023_124356.jpg' alt='5' />
-                    <Image src='/Photo from Ansa.jpg' alt='6' />
-                    <Image src='/20250811_104025.jpg' alt='7' />
+                    <Image src='/20251023_124356.jpg' alt='Child Carving Pumpkin' />
+                    <Image src='/Photo from Ansa.jpg' alt='Child Whisking Eggs' />
+                    <Image src='/20250811_104025.jpg' alt='Child Making Sea Shell' />
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-1 m-4 overflow-x-auto">
