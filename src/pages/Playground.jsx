@@ -24,7 +24,7 @@ const Playground = () => {
 
             <div className="flex md:flex-row flex-col justify-between items-center gap-4 w-3/4">
                 <Image src='/' alt='1' />
-                <Image src='/' alt='2' />
+                <Image src='/20250930_142748.jpg' alt='2' />
                 <Image src='/' alt='3' />
             </div>
         </div>
