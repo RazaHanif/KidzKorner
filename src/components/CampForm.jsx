@@ -210,7 +210,7 @@ const CampForm = () => {
                   <Label 
                     htmlFor="radio-4"
                   >
-                    PA Day
+                    PD Day
                   </Label>
                 </div>
               </RadioGroup>
