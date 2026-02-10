@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Skeleton } from "@/components/ui/skeleton";
 
 const Image = ({ src, alt, w = "md:w-3xs w-full" }) => {
@@ -20,6 +20,7 @@ const Image = ({ src, alt, w = "md:w-3xs w-full" }) => {
         <img
           src={src}
           alt={alt}
+          loading="lazy"
           className={`${inner} ${loaded ? "opacity-100" : "opacity-0"}`}
           onLoad={() => {
             console.log(`${src}: onLoad`);
