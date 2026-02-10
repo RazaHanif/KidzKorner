@@ -23,7 +23,7 @@ const Childcare = () => {
             </div>
             
             <div className="flex md:flex-row flex-col justify-between items-center w-3/4 gap-4">
-                <Image src='/20251010_122316.jpg' alt='1' />
+                <Image src='/20251010_122316.jpg' alt='' />
                 <Image src='/IMG-20260108-WA0007.jpg' alt='2' />
                 <Image src='/IMG-20260209-WA0006.jpg' alt='3' />
             </div>
