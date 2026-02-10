@@ -64,7 +64,7 @@ const Childcare = () => {
                     <div className="flex flex-col justify-center m-4 md:m-0">
                         <TimeTable />
                     </div>
-                    <Image src='' alt='4' w="w-sm"/>
+                    <Image src='/20250822_121126.jpg' alt='4' w="w-sm"/>
                 </div>
             </div>
 
