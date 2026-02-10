@@ -15,7 +15,7 @@ const Camp = () => {
                 <div className="text-3xl font-bold mb-4 font-serif">
                     School Age Camp!
                 </div>
-                <div>
+                <div className="text-center">
                     Our Camp offers hands-on experiences in both the visual arts and culinary arts, perfect for young artists and aspiring chefs alike.
                 </div>
             </div>
