@@ -102,7 +102,7 @@ const Parties = () => {
                 <div className="flex md:flex-row flex-col justify-between items-center gap-2 w-full">
                     <Image src='/IMG-20250302-WA0001.jpg' alt='Girls Birthday Setup' />
                     <Image src='/IMG-20250714-WA0026.jpg' alt='Children Climbing On Structure' />
-                    <Image src='/IMG-20250519-WA0002.jpg' alt='3' />
+                    <Image src='/IMG-20250519-WA0002.jpg' alt='Child Overlooking Cake' />
                 </div>
             </div>
 
