@@ -8,12 +8,7 @@ const Image = ({ src, alt, w = "md:w-3xs w-full" }) => {
   const outer = `${w} relative`;
   const inner = "w-full h-full object-cover rounded-lg border-2 shadow-lg";
 
-  useEffect(() => {
-    setLoaded(false);
-    setErrored(false);
-  }, [src]);
-
-  console.log(`${src}: ${loaded}: ${errored}`);
+  console.log("IMG SRC:", src, typeof src);
 
   return (
     <div className={outer}>
@@ -27,8 +22,14 @@ const Image = ({ src, alt, w = "md:w-3xs w-full" }) => {
           alt={alt}
           loading="lazy"
           className={`${inner} ${loaded ? "block" : "hidden"}`}
-          onLoad={() => setLoaded(true)}
-          onError={() => setErrored(true)}
+          onLoad={() => {
+            console.log(`${src}: onLoad`);
+            setLoaded(true);
+          }}
+          onError={() => {
+            console.log(`${src}: onLoad`);
+            setErrored(true);
+          }}
         />
       )}
     </div>
