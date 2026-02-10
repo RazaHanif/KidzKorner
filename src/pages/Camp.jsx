@@ -23,8 +23,13 @@ const Camp = () => {
             <div className="flex md:flex-row flex-col justify-center w-3/4 gap-4">
                 <Card>
                     <CardHeader>
-                        <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
-                            $175/Week - Camps
+                        <CardTitle className="p-2 bg-primary text-primary-foreground flex flex-col justify-center items-center rounded-md text-lg">
+                            <div>
+                                $175/Week - Camps 
+                            </div>
+                            <div>
+                                $45/Day - PD Day
+                            </div>
                         </CardTitle>
                         <CardDescription className="p-2 bg-accent flex justify-center items-center rounded-md text-bold text-lg">
                             <span className="text-xs text-center">
