@@ -117,7 +117,7 @@ const Camp = () => {
                             <ul className="font-normal pl-6 list-disc">
                                 <li>Lunch</li>
                                 <li>Afternoon Rest</li>
-                                <li>Snack</li>
+                                <li>Afternoon Snack</li>
                                 <li>Programming</li>
                                 <li>Dismissal</li>
                             </ul>
