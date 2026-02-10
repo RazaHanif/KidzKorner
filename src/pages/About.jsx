@@ -15,7 +15,7 @@ const About = () => {
                 <div>
                     <Image 
                         src='IMG-20260208-WA0002.jpg'
-                        alt='1'
+                        alt='Child Posing'
                         w={'w-sm'}
                     />
                 </div>
