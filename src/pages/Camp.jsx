@@ -127,8 +127,8 @@ const Camp = () => {
             </div>
 
             <div className="flex md:flex-row flex-col justify-between items-center w-3/4 gap-4">
-                <Image src='/' alt='1' />
-                <Image src='/IMG-20250722-WA0017.jpg' alt='2' />
+                <Image src='/IMG-20250722-WA0017.jpg' alt='1' />
+                <Image src='/20260108_111322.jpg' alt='2' />
                 <Image src='/20250722_100154.jpg' alt='3' />
             </div>
 
