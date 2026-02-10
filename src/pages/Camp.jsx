@@ -209,9 +209,9 @@ const Camp = () => {
             </div>
 
             <div className="flex md:flex-row flex-col justify-between items-center w-3/4 gap-4">
-                <Image src='/20251106_102726.jpg' alt='4' />
-                <Image src='/20250710_144411.jpg' alt='5' />
-                <Image src='/20250808_135154.jpg' alt='6' />
+                <Image src='/20251106_102726.jpg' alt='Child Cutting Tomatos' />
+                <Image src='/20250710_144411.jpg' alt='Children Painting' />
+                <Image src='/20250808_135154.jpg' alt='Child Playing With Sensory Toy' />
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
