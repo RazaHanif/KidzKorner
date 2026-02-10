@@ -22,7 +22,7 @@ const Playground = () => {
                 <PlaygroundAccordion />
             </div>
 
-            <div className="flex md:flex-row flex-col justify-between items-center gap-4 w-3/4">
+            <div className="flex md:flex-row flex-col justify-center items-center gap-4 w-3/4">
                 {/* <Image src='/' alt='1' /> */}
                 <Image src='/20250930_142748.jpg' alt='2' w="w-md"/>
                 <Image src='/20250930_142442.jpg' alt='3' />
