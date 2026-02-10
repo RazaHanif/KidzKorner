@@ -100,9 +100,9 @@ const Parties = () => {
 
             <div className="flex flex-col justify-center items-center w-3/4">
                 <div className="flex md:flex-row flex-col justify-between items-center gap-2 w-full">
-                    <Image src='/' alt='Kid Admiring Cake' />
-                    <Image src='/' alt='Kid Admiring Cake' />
-                    <Image src='/' alt='Kid Admiring Cake' />
+                    <Image src='/' alt='1' />
+                    <Image src='/' alt='2' />
+                    <Image src='/' alt='3' />
                 </div>
             </div>
 
