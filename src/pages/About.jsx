@@ -14,8 +14,8 @@ const About = () => {
 
                 <div>
                     <Image 
-                        src='/K_K_2.jpg'
-                        alt='Kid making silly face'
+                        // src='/K_K_2.jpg'
+                        alt='1'
                         w={'w-sm'}
                     />
                 </div>
