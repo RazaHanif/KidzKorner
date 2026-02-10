@@ -20,8 +20,7 @@ const Image = ({ src, alt, w = "md:w-3xs w-full" }) => {
         <img
           src={src}
           alt={alt}
-          loading="lazy"
-          className={`${inner} ${loaded ? "block" : "hidden"}`}
+          className={`${inner} ${loaded ? "opacity-100" : "opacity-0"}`}
           onLoad={() => {
             console.log(`${src}: onLoad`);
             setLoaded(true);
