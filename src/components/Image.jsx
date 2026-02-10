@@ -8,6 +8,8 @@ const Image = ({src, alt, w='md:w-3xs w-full'}) => {
     const outer = `${w} relative`
     const inner = "w-full h-full object-cover rounded-lg border-2 shadow-lg"
 
+    console.log(`${src}: ${loaded}: ${errored}`)
+
     return (
         <div className={outer}>
             {(!src || !loaded || errored) && (
