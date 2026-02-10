@@ -76,8 +76,8 @@ const ChildcareTimeTable = () => {
                 </TableRow>
             </TableHeader>
             <TableBody>
-                {routine.map((item) => (
-                    <TableRow key={item}>
+                {routine.map((item, index) => (
+                    <TableRow key={index}>
                         <TableCell className='font-semibold'>
                             {item.time}
                         </TableCell>
