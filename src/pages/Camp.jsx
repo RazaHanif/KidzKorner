@@ -24,7 +24,7 @@ const Camp = () => {
                 <Card>
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
-                            $175/Week
+                            $175/Week - Camps
                         </CardTitle>
                         <CardDescription className="p-2 bg-accent flex justify-center items-center rounded-md text-bold text-lg">
                             <span className="text-xs text-center">
