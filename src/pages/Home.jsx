@@ -4,14 +4,14 @@ const Home = () => {
     return (
         <div className="flex flex-col justify-center items-center gap-2 w-full">
             <div className="lg:hidden flex flex-col justify-center items-center w-full mb-4">
-                <h1 className="lg:hidden text-3xl font-bold font-serif">
+                <h1 className="lg:hidden text-3xl font-bold font-serif text-center">
                     Welcome to Kidz Korner
                 </h1>
             </div>
 
             <div className="flex flex-col justify-center items-center lg:w-3/4 w-full lg:text-justify text-center">
                 <div className="flex lg:flex-row flex-col justify-center items-center gap-4">
-                    <Image src='/K_K_39.jpg' alt='Kidz Korner Store Front' w="w-md"/>
+                    <Image src='/K_K_39.jpg' alt='Kidz Korner Milton, Ontario Store Front' w="w-md"/>
                     <div className="flex flex-col justify-center items-center w-full p-4">
                         <h1 className="hidden lg:block text-3xl font-bold self-center font-serif">
                             Welcome to Kidz Korner
@@ -24,6 +24,7 @@ const Home = () => {
                                 Our commitment to providing loving, nurturing care has earned us the trust of many families and community members, creating a multi-generational legacy.
                         </p>
 
+                        <h2 className="sr-only">Our Location</h2>
                         <p className="sr-only">
                             Kidz Korner proudly serves families across Milton, Ontario, including nearby neighborhoods such as Clarke, Willmott, Scott, and surrounding areas near Derry Road and Bronte Street. Our licensed childcare centre is conveniently located to support busy parents looking for trusted daycare close to home.
                         </p>

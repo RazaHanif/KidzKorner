@@ -15,7 +15,7 @@ const About = () => {
                 <div className="flex justify-center">
                     <Image 
                         src='IMG-20260208-WA0002.jpg'
-                        alt='Child Posing'
+                        alt='Child Posing at Kidz Korner Milton, Ontario'
                         w={'w-sm'}
                     />
                 </div>

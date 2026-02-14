@@ -23,8 +23,8 @@ const Playground = () => {
             </div>
 
             <div className="flex lg:flex-row flex-col justify-center items-center gap-4 w-3/4">
-                <Image src='/20250930_142748.jpg' alt='Indoor Playground Overview' w="w-md"/>
-                <Image src='/20250930_142442.jpg' alt='Climbing Structure Overview' />
+                <Image src='/20250930_142748.jpg' alt='Kidz Korner Milton, Ontario Indoor Playground ' w="w-md"/>
+                <Image src='/20250930_142442.jpg' alt='Kidz Korner Milton, Ontario Climbing Structure ' />
             </div>
 
             <title>
