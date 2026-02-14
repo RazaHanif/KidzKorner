@@ -1,8 +1,3 @@
-/* 
-    TODO: TEST
-*/
-
-
 const FormLayout = ({ title, form, handleSubmit, submitted }) => {
     return (
         <div className="w-full md:w-3/4">

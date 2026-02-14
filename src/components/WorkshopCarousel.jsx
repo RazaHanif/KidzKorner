@@ -30,21 +30,21 @@ const WorkshopCarousel = () => {
                     </CardDescription>
                 </CardHeader>
                 <CardContent>
-                    <div className="flex md:flex-row flex-col justify-around items-center gap-4">
+                    <div className="flex lg:flex-row flex-col justify-around items-center gap-4">
                         { content.map((image) => (
                             <img
                                 key={image.alt}
                                 src={image.imageLink}
                                 alt={image.alt}
-                                className="md:w-1/4 w-sm rounded-lg border-2 shadow-lg"
+                                className="lg:w-1/4 w-sm rounded-lg border-2 shadow-lg"
                                 loading="lazy"
                             />   
                         ))}
                     </div>
-                    <div className="flex w-full justify-center m-4">
+                    <p className="flex w-full justify-center m-4">
                         { description }
-                    </div>
-                    <div className="text-center">
+                    </p>
+                    <p className="text-center">
                         <a
                             href="https://www.instagram.com/kidz.kornermilton/"
                             target="_blank"
@@ -53,7 +53,7 @@ const WorkshopCarousel = () => {
                         >
                             For more information please visit our instagram
                         </a>
-                    </div>
+                    </p>
                 </CardContent>
             </Card>
         )

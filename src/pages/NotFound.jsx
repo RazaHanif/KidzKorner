@@ -1,16 +1,16 @@
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 
 const NotFound = () => {
   return (
     <div className="flex flex-col justify-center items-center w-full p-4 gap-8">
-      <div className="w-full flex flex-col justify-end items-center text-6xl font-bold font-serif">
+      <h1 className="w-full flex flex-col justify-end items-center text-6xl font-bold font-serif">
         404
-      </div>
+      </h1>
 
       <div className="w-full flex flex-col justify-center items-center gap-4 text-muted-foreground">
-        <div className="text-6xl">🎈</div>
-        <div>Oops! This page ran off to play!</div>
+        <p className="text-6xl">🎈</p>
+        <p>Oops! This page ran off to play!</p>
       </div>
 
       <div className="w-full flex flex-col justify-start items-center">

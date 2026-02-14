@@ -4,10 +4,15 @@ import WorkshopForm from "../components/WorkshopFrom";
 
 const Test = () => {
     return (
-        <FormBtn 
-            title={"Workshop Form"}
-            form={<WorkshopForm />}
-        />
+        <>
+            <FormBtn 
+                title={"Workshop Form"}
+                form={<WorkshopForm />}
+                />
+            <title>
+                Test Page | Kidz Korner 
+            </title>
+        </>
     );
 }
   

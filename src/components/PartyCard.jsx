@@ -20,9 +20,9 @@ const PartyCard = ({ title, price, desc, bullet = [] }) => {
                 </CardDescription>
             </CardHeader>
             <CardContent>
-                <div className="p-2">
+                <p className="p-2">
                     { desc }
-                </div>
+                </p>
                 <ul className="flex flex-col gap-2 list-disc pl-6">
                     {bullet.map(item => (
                         item

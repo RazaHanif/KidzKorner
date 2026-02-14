@@ -10,7 +10,7 @@ import {
 const KKAccordion = ({ AccordionItems }) => {
     return (
         <Card 
-            className='md:w-3/4 w-full'
+            className='lg:w-3/4 w-full'
         >
             <CardContent>
                 <Accordion

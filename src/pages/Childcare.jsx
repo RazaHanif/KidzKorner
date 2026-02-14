@@ -8,27 +8,27 @@ import {
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
-import Image from "../components/Image";
+import Image from "@/components/Image"
 
 const Childcare = () => {
     return (
         <div className="flex flex-col justify-center items-center gap-4 w-full text-justify">
             <div className="flex flex-col justify-center items-center w-full mb-4">
-                <div className="text-3xl font-bold font-serif">
+                <h1 className="text-3xl font-bold font-serif">
                     Child Care 
-                </div>
-                <div className="text-xl font-bold text-center">
+                </h1>
+                <p className="text-xl font-bold text-center">
                     Toddler, Preschool, and Before/After School Programs
-                </div>    
+                </p>    
             </div>
             
-            <div className="flex md:flex-row flex-col justify-between items-center w-3/4 gap-4">
+            <div className="flex lg:flex-row flex-col justify-between items-center w-3/4 gap-4">
                 <Image src='/20251010_122316.jpg' alt='Child Playing With Magnetic Toy' />
                 <Image src='/IMG-20260108-WA0007.jpg' alt='Child Tracing Alphabets' />
                 <Image src='/IMG-20260209-WA0006.jpg' alt='Child Playing With Play-Doh' />
             </div>
 
-            <div className="flex md:flex-row flex-col justify-evenly items-center w-3/4">
+            <div className="flex lg:flex-row flex-col justify-evenly items-center w-3/4">
                 <Card>
                     <CardHeader className="hidden">
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
@@ -39,7 +39,7 @@ const Childcare = () => {
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
-                        <div className="flex flex-col justify-center items-center w-full text-center">
+                        <p className="flex flex-col justify-center items-center w-full text-center">
                             <span>
                                 Kidz Korner is a licensed child care centre dedicated to providing high quality early learning and care. We offer toddler, preschool, and before/after school programs. Our curriculum is guided by the
                             </span>
@@ -51,17 +51,17 @@ const Childcare = () => {
                                 Our educators provide a high quality programs and a vibrant learning environment, including our most unique feature, the indoor playground.
                                 We provide a variety of care options to meet each families unique needs.
                             </span>
-                        </div>
+                        </p>
                     </CardContent>
                 </Card>
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 m-4">
-                <div className="text-xl font-bold text-center md:mb-4">
+                <h1 className="text-xl font-bold text-center lg:mb-4">
                     Program Options - Full Time & Part Time Care
-                </div>
-                <div className="flex md:flex-row flex-col md:justify-evenly justify-center items-center w-full">
-                    <div className="flex flex-col justify-center m-4 md:m-0">
+                </h1>
+                <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
+                    <div className="flex flex-col justify-center m-4 lg:m-0">
                         <TimeTable />
                     </div>
                     <Image src='/20250822_121126.jpg' alt='Child Playing With Blocks' w="w-sm"/>
@@ -79,22 +79,22 @@ const Childcare = () => {
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
-                        <div className="flex md:flex-row flex-col justify-evenly text-center">
-                            <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
+                        <div className="flex lg:flex-row flex-col justify-evenly text-center">
+                            <p className="lg:border-r-2 lg:border-b-0 border-b-2 p-4">
                                 Interactive & Play Based Learning
-                            </div>
-                            <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
+                            </p>
+                            <p className="lg:border-r-2 lg:border-b-0 border-b-2 p-4">
                                 Weekly Art & Cooking Classes
-                            </div>
-                            <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
+                            </p>
+                            <p className="lg:border-r-2 lg:border-b-0 border-b-2 p-4">
                                 Strong Parent Teacher Communication
-                            </div>
-                            <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
+                            </p>
+                            <p className="lg:border-r-2 lg:border-b-0 border-b-2 p-4">
                                 Monthly Progress Reports
-                            </div>
-                            <div className="md:border-r-2 md:border-b-0 border-b-2 p-4">
+                            </p>
+                            <p className="lg:border-r-2 lg:border-b-0 border-b-2 p-4">
                                 Freshly cooked Nutritious Meals & Snacks
-                            </div>
+                            </p>
                             <div className="p-4">
                                 Registered Early Childhood Educators (RECE)
                             </div>
@@ -103,28 +103,28 @@ const Childcare = () => {
                 </Card>
             </div>
             
-            <div className="flex md:flex-row flex-col justify-between items-center w-3/4 gap-4">
+            <div className="flex lg:flex-row flex-col justify-between items-center w-3/4 gap-4">
                     <Image src='/20251023_124356.jpg' alt='Child Carving Pumpkin' />
                     <Image src='/Photo from Ansa.jpg' alt='Child Whisking Eggs' />
                     <Image src='/20250811_104025.jpg' alt='Child Making Sea Shell' />
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-1 m-4 overflow-x-auto">
-               <div className="text-xl font-bold self-center">
+               <h1 className="text-xl font-bold self-center">
                     Kidz Korner Daily Routine
-                </div>
-                <div className="text-sm">
+                </h1>
+                <p className="text-sm">
                     Here's what our day looks like!
-                </div>
-                <div className="md:w-3/4">
+                </p>
+                <div className="lg:w-3/4">
                     <ChildcareTimeTable />
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center md:w-3/4 gap-1">
-                <div className="flex w-2/3 text-center">
+            <div className="flex flex-col justify-center items-center lg:w-3/4 gap-1">
+                <p className="flex w-2/3 text-center">
                     Ready to join us? Contact us today to learn more about our preschool programs and schedule a tour of our facility! 
-                </div>
+                </p>
 
             </div>
 
@@ -132,6 +132,9 @@ const Childcare = () => {
                 <ChildcareForm/>
             </div>
 
+            <title>
+                Childcare Programs in Milton, Ontario | Licensed Daycare | Kidz Korner
+            </title>
         </div>
     );
 }

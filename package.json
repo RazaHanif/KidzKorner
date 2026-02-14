@@ -1,5 +1,5 @@
 {
-  "name": "Kidz Korner Website",
+  "name": "KidzKornerWebsite",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -31,6 +31,7 @@
     "react": "^19.2.0",
     "react-day-picker": "^9.12.0",
     "react-dom": "^19.2.0",
+    "react-helmet": "^6.1.0",
     "react-hook-form": "^7.68.0",
     "react-router": "^7.10.1",
     "react-router-dom": "^7.10.1",

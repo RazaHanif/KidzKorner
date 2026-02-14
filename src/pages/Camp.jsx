@@ -6,35 +6,35 @@ import {
     CardTitle,
 } from "@/components/ui/card"
 import CampForm from "@/components/CampForm";
-import Image from "../components/Image";
+import Image from "@/components/Image";
 
 const Camp = () => {
     return (
         <div className="flex flex-col justify-center items-center w-full gap-8 text-justify">
             <div className="flex flex-col justify-evenly items-center w-3/4">
-                <div className="text-3xl font-bold mb-4 font-serif">
+                <h1 className="text-3xl font-bold mb-4 font-serif">
                     School Age Camp!
-                </div>
-                <div className="text-center">
+                </h1>
+                <p className="text-center">
                     Our Camp offers hands-on experiences in both the visual arts and culinary arts, perfect for young artists and aspiring chefs alike.
-                </div>
+                </p>
             </div>
 
-            <div className="flex md:flex-row flex-col justify-center w-3/4 gap-4">
+            <div className="flex lg:flex-row flex-col justify-center lg:items-stretch items-center w-3/4 gap-4">
                 <Card>
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex flex-col justify-center items-center rounded-md text-lg">
-                            <div>
+                            <h1>
                                 $175/Week - Camps 
-                            </div>
-                            <div>
+                            </h1>
+                            <h1>
                                 $45/Day - PD Day
-                            </div>
+                            </h1>
                         </CardTitle>
                         <CardDescription className="p-2 bg-accent flex justify-center items-center rounded-md text-bold text-lg">
-                            <span className="text-xs text-center">
+                            <p className="text-xs text-center">
                                 To preserve the quality of our program, summer camp enrollment is limited to a maximum of 13 children.
-                            </span>
+                            </p>
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
@@ -100,7 +100,7 @@ const Camp = () => {
                 <Image src='/20250711_111518.jpg' alt='Child Playing With Dinosaurs' w="w-sm"/>
             </div>
 
-            <div className="flex flex-col justify-center w-3/4 md:w-1/3 gap-4">
+            <div className="flex flex-col justify-center w-3/4 lg:w-1/3 gap-4">
                 <Card>
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
@@ -111,7 +111,7 @@ const Camp = () => {
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
-                        <div className="flex flex-col md:flex-row justify-around">
+                        <div className="flex flex-col lg:flex-row justify-around">
                             <ul className="font-normal pl-6 list-disc">
                                 <li>Arrival</li>
                                 <li>Morning Snack</li>
@@ -131,13 +131,13 @@ const Camp = () => {
                 </Card>
             </div>
 
-            <div className="flex md:flex-row flex-col justify-between items-center w-3/4 gap-4">
+            <div className="flex lg:flex-row flex-col justify-between items-center w-3/4 gap-4">
                 <Image src='/IMG-20250722-WA0017.jpg' alt='Child Tye Dyeing Shirt' />
                 <Image src='/20260108_111322(0).jpg' alt='Children Kneading Dough' />
                 <Image src='/20250722_100154.jpg' alt='Child Painting' />
             </div>
 
-            <div className="flex md:flex-row flex-col justify-center w-3/4 gap-4">
+            <div className="flex lg:flex-row flex-col justify-center w-3/4 gap-4">
                 <Card>
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
@@ -208,7 +208,7 @@ const Camp = () => {
                 </Card>
             </div>
 
-            <div className="flex md:flex-row flex-col justify-between items-center w-3/4 gap-4">
+            <div className="flex lg:flex-row flex-col justify-between items-center w-3/4 gap-4">
                 <Image src='/20251106_102726.jpg' alt='Child Cutting Tomatos' />
                 <Image src='/20250710_144411.jpg' alt='Children Painting' />
                 <Image src='/20250808_135154.jpg' alt='Child Playing With Sensory Toy' />
@@ -217,6 +217,10 @@ const Camp = () => {
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
                 <CampForm/>
             </div>
+
+            <title>
+                Kids Camp in Milton, Ontario | Kidz Korner 
+            </title>
         </div>
     );
 }

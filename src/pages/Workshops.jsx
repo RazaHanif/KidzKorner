@@ -1,15 +1,13 @@
-import WorkshopAccordion from "@/components/WorkshopAccordion";
 import WorkshopForm from "@/components/WorkshopFrom"
-import WorkshopCarousel from "../components/WorkshopCarousel";
-import FormBtn from "../components/FormBtn";
+import WorkshopCarousel from "@/components/WorkshopCarousel";
 
 const Workshops = () => {
     return (
         <div className="flex flex-col justify-center items-center w-full gap-2">
             <div className="flex flex-col justify-evenly items-center w-3/4">
-                <div className="text-3xl font-bold mb-4">
+                <h1 className="text-3xl font-bold mb-4">
                     Workshops
-                </div>
+                </h1>
             </div>
 
             <div className="flex justify-center items-center w-full mb-4">
@@ -17,7 +15,7 @@ const Workshops = () => {
             </div>
 
 
-            <div className="flex md:flex-row flex-col justify-between items-center w-3/4 gap-2">
+            <div className="flex lg:flex-row flex-col justify-between items-center w-3/4 gap-2">
                 <img 
                     src='/K_K_11.jpg'
                     alt='Kid playing with dinos'
@@ -44,6 +42,10 @@ const Workshops = () => {
                 title={"Workshop Form"}
                 form={<WorkshopForm />}
             /> */}
+
+            <title>
+                Kids Workshops & Programs in Milton, Ontario | Kidz Korner 
+            </title>
         </div>
     );
 }

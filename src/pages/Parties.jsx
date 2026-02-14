@@ -1,23 +1,23 @@
 import PartyForm from "@/components/PartyForm";
 import PartyCard from "@/components/PartyCard";
-import Image from "../components/Image";
+import Image from "@/components/Image"
 
 const Parties = () => {
     return (
         <div className="flex flex-col justify-center items-center w-full gap-2">
             <div className="flex flex-col justify-center items-center w-full">
-                <div className="text-3xl font-bold text-center font-serif">
+                <h1 className="text-3xl font-bold text-center font-serif">
                     Host Your Child's Party at Kidz Korner
-                </div>
+                </h1>
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 m-4">
-                <div className="flex flex-col justify-center items-center md:w-3/4 text-center">
+                <p className="flex flex-col justify-center items-center lg:w-3/4 text-center">
                     Make your child's special day unforgettable with a Kidz Korner Party! Enjoy exclusive access to our indoor playground, just for you and your guests.
-                </div>
+                </p>
             </div>
 
-            <div className="flex flex-1 flex-col md:flex-row justify-center gap-4 w-3/4">
+            <div className="flex flex-1 flex-col lg:flex-row justify-center gap-4 w-3/4">
                 <PartyCard 
                     title={"Tiny Tornado Package"} 
                     price={"395"} 
@@ -83,23 +83,23 @@ const Parties = () => {
 
             <div className="flex flex-col justify-center items-center w-3/4 m-4 text-center">
                     <div>
-                        <div>
+                        <p>
                             Full payment required at time of booking.
-                        </div>
-                        <div>
+                        </p>
+                        <p>
                             Additional Time: Extra party time available at $50 per hour.
-                        </div>
-                        <div>
+                        </p>
+                        <p>
                             Prior approval of all 3rd party vendors is required.
-                        </div>
-                        <div className="text-sm font-semibold">
+                        </p>
+                        <p className="text-sm font-semibold">
                             Prices are subject to change without notice
-                        </div>
+                        </p>
                     </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4">
-                <div className="flex md:flex-row flex-col justify-between items-center gap-2 w-full">
+            <div className="flex flex-col justify-center items-center w-3/4 mb-4">
+                <div className="flex lg:flex-row flex-col justify-between items-center gap-2 w-full">
                     <Image src='/IMG-20250302-WA0001.jpg' alt='Girls Birthday Setup' />
                     <Image src='/IMG-20250714-WA0026.jpg' alt='Children Climbing On Structure' />
                     <Image src='/IMG-20250519-WA0002.jpg' alt='Child Overlooking Cake' />
@@ -110,6 +110,9 @@ const Parties = () => {
                 <PartyForm />
             </div>
 
+            <title>
+                Kids Parties in Miltion, Ontario | Kidz Korner 
+            </title>
         </div>
     );
 }

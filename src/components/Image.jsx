@@ -1,4 +1,4 @@
-const Image = ({ src, alt, w = "md:w-3xs w-full" }) => {
+const Image = ({ src, alt, w = "lg:w-3xs w-sm" }) => {
   const style = `${w} rounded-lg border-2 shadow-lg`;
 
   return (
