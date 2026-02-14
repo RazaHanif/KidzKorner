@@ -16,7 +16,8 @@ import {
 
 const WorkshopCarousel = () => {
 
-    const workshopCard = (title, price, description, content=[] ) => {
+    // const workshopCard = (title, price, description, content=[] ) => {
+    const workshopCard = (title, price, description ) => {
         return (
             <Card>
                 <CardHeader>
@@ -31,7 +32,7 @@ const WorkshopCarousel = () => {
                 </CardHeader>
                 <CardContent>
                     <div className="flex lg:flex-row flex-col justify-around items-center gap-4">
-                        { content.map((image) => (
+                        {/* { content.map((image) => (
                             <img
                                 key={image.alt}
                                 src={image.imageLink}
@@ -39,7 +40,7 @@ const WorkshopCarousel = () => {
                                 className="lg:w-1/4 w-sm rounded-lg border-2 shadow-lg"
                                 loading="lazy"
                             />   
-                        ))}
+                        ))} */}
                     </div>
                     <p className="flex w-full justify-center m-4">
                         { description }
@@ -51,7 +52,7 @@ const WorkshopCarousel = () => {
                             rel="noopener noreferrer"
                             className="hover:underline"
                         >
-                            For more information please visit our instagram
+                            Click Here to Visit our Instagram!
                         </a>
                     </p>
                 </CardContent>
@@ -66,19 +67,19 @@ const WorkshopCarousel = () => {
                     { workshopCard(
                         "Paint Night",
                         "$250",
-                        "Information about this Workshop",
+                        "For up to date info and class timings please check out our Instagram page.",
                         [
                             {
-                                imageLink: '/K_K_20.jpg',
-                                alt: 'Play Structure'
+                                imageLink: 'public/20260108_111322(0).jpg',
+                                alt: 'Kids doing activity at Kidz Korner Milton'
                             },
                             {
-                                imageLink: '/K_K_20.jpg',
-                                alt: 'Play Structure'
+                                imageLink: 'public/20260108_111322(0).jpg',
+                                alt: 'Kids doing activity at Kidz Korner Milton'
                             },
                             {
-                                imageLink: '/K_K_20.jpg',
-                                alt: 'Play Structure'
+                                imageLink: 'public/20260108_111322(0).jpg',
+                                alt: 'Kids doing activity at Kidz Korner Milton'
                             },
                         ],
                     )}
@@ -87,19 +88,19 @@ const WorkshopCarousel = () => {
                     { workshopCard(
                         "Cooking Class",
                         "$250",
-                        "Information about this Workshop",
+                        "For up to date info and class timings please check out our Instagram page.",
                         [
                             {
-                                imageLink: '/K_K_20.jpg',
-                                alt: 'Play Structure'
+                                imageLink: 'public/20260108_111322(0).jpg',
+                                alt: 'Kids doing activity at Kidz Korner Milton'
                             },
                             {
-                                imageLink: '/K_K_20.jpg',
-                                alt: 'Play Structure'
+                                imageLink: 'public/20260108_111322(0).jpg',
+                                alt: 'Kids doing activity at Kidz Korner Milton'
                             },
                             {
-                                imageLink: '/K_K_20.jpg',
-                                alt: 'Play Structure'
+                                imageLink: 'public/20260108_111322(0).jpg',
+                                alt: 'Kids doing activity at Kidz Korner Milton'
                             },
                         ],
                     )}
@@ -108,19 +109,19 @@ const WorkshopCarousel = () => {
                     { workshopCard(
                         "Little Sahaba's",
                         "$250",
-                        "Information about this Workshop",
+                        "For up to date info and class timings please check out our Instagram page.",
                         [
                             {
-                                imageLink: '/K_K_20.jpg',
-                                alt: 'Play Structure'
+                                imageLink: 'public/20260108_111322(0).jpg',
+                                alt: 'Kids doing activity at Kidz Korner Milton'
                             },
                             {
-                                imageLink: '/K_K_20.jpg',
-                                alt: 'Play Structure'
+                                imageLink: 'public/20260108_111322(0).jpg',
+                                alt: 'Kids doing activity at Kidz Korner Milton'
                             },
                             {
-                                imageLink: '/K_K_20.jpg',
-                                alt: 'Play Structure'
+                                imageLink: 'public/20260108_111322(0).jpg',
+                                alt: 'Kids doing activity at Kidz Korner Milton'
                             },
                         ],
                     )}
@@ -129,19 +130,19 @@ const WorkshopCarousel = () => {
                     { workshopCard(
                         "Mommy & Me",
                         "$250",
-                        "Information about this Workshop",
+                        "For up to date info and class timings please check out our Instagram page.",
                         [
                             {
-                                imageLink: '/K_K_20.jpg',
-                                alt: 'Play Structure'
+                                imageLink: 'public/20260108_111322(0).jpg',
+                                alt: 'Kids doing activity at Kidz Korner Milton'
                             },
                             {
-                                imageLink: '/K_K_20.jpg',
-                                alt: 'Play Structure'
+                                imageLink: 'public/20260108_111322(0).jpg',
+                                alt: 'Kids doing activity at Kidz Korner Milton'
                             },
                             {
-                                imageLink: '/K_K_20.jpg',
-                                alt: 'Play Structure'
+                                imageLink: 'public/20260108_111322(0).jpg',
+                                alt: 'Kids doing activity at Kidz Korner Milton'
                             },
                         ],
                     )}

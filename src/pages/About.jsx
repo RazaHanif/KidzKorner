@@ -47,6 +47,8 @@ const About = () => {
             <title>
                 About Our Childcare Centre in Milton, Ontario | Kidz Korner 
             </title>
+            <meta name="keywords" content="about Kidz Korner, childcare Milton, licensed daycare Milton, daycare center Milton, early learning Milton" />
+            <meta name="description" content="Learn more about Kidz Korner, a licensed childcare and daycare in Milton, Ontario. Dedicated to providing safe, nurturing, and fun learning experiences." />
         </div>
     );
 }

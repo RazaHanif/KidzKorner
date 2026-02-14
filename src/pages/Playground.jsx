@@ -30,6 +30,8 @@ const Playground = () => {
             <title>
                 Indoor Playground in Milton, Ontario | Kidz Korner 
             </title>
+            <meta name="keywords" content="indoor playground Milton, kids play area Milton, children's indoor play Milton, daycare playground Milton" />
+            <meta name="description" content="Discover Kidz Korner's indoor playground in Milton, Ontario. Safe, engaging, and fun space for children to play and socialize." />
         </div>
     );
 }

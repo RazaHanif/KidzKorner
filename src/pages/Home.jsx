@@ -28,10 +28,11 @@ const Home = () => {
                         <p className="sr-only">
                             Kidz Korner proudly serves families across Milton, Ontario, including nearby neighborhoods such as Clarke, Willmott, Scott, and surrounding areas near Derry Road and Bronte Street. Our licensed childcare centre is conveniently located to support busy parents looking for trusted daycare close to home.
                         </p>
-
                     </div>
                 </div>
             </div>
+            <meta name="keywords" content="licensed daycare Milton, childcare Milton, early learning Milton, kids programs Milton, preschool Milton" />
+            <meta name="description" content="Licensed childcare and daycare in Milton, Ontario. Kidz Korner provides a safe, nurturing environment for children to learn, grow, and thrive." />
         </div>
     );
 }

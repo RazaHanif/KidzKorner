@@ -18,6 +18,12 @@ const NotFound = () => {
           <Link to={"/"}>Go Home</Link>
         </Button>
       </div>
+
+      <title>
+          Page Not Found | Kidz Korner 
+      </title>
+      <meta name="description" content="Oops! The page you are looking for does not exist. Visit Kidz Korner, a licensed daycare and childcare centre in Milton, Ontario." />
+      <meta name="robots" content="noindex, nofollow" />
     </div>
   );
 };

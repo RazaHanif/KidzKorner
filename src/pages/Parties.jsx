@@ -113,6 +113,8 @@ const Parties = () => {
             <title>
                 Kids Parties in Miltion, Ontario | Kidz Korner 
             </title>
+            <meta name="keywords" content="kids birthday Milton, birthday party venue Milton, children parties Milton, kids party Milton, indoor party Milton" />
+            <meta name="description" content="Celebrate your child's birthday at Kidz Korner! Fun, safe, and memorable kids' birthday parties in Milton, Ontario." />
         </div>
     );
 }
