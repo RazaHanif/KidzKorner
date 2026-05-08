@@ -5,4 +5,4 @@ Disallow: /test
 Disallow: /private/
 Disallow: /config/
 
-Sitemap: https://yourwebsite.com/sitemap.xml
+Sitemap: https://www.kidzkornermilton.com/sitemap.xml
