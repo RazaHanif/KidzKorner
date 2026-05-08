@@ -5,10 +5,7 @@ import WorkshopForm from "../components/WorkshopFrom";
 const Test = () => {
     return (
         <>
-            <FormBtn 
-                title={"Workshop Form"}
-                form={<WorkshopForm />}
-                />
+            Test page idk
             <title>
                 Test Page | Kidz Korner 
             </title>
