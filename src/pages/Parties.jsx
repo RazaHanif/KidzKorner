@@ -71,7 +71,7 @@ const Parties = () => {
                             <span className="font-semibold">5.5</span> Hours of Private Access
                         </li>,
                         <li key={3}>
-                            DIY Ballon Arch & Table Cloths provided for self-setup
+                            Photobooth & Table Cloths provided for self-setup
                         </li>,
                         <li key={4}>
                             Kidz Activity Table
