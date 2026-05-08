@@ -36,7 +36,7 @@ const Home = () => {
             
             {/* Open Graph Tags */}
             <meta property="og:title" content="Kidz Korner Milton" />
-            <meta property="og:description" content="Premier childcare and birthday parties right behind the Milton GO Station." />
+            <meta property="og:description" content="Licensed childcare and daycare in Milton, Ontario. Kidz Korner provides a safe, nurturing environment for children to learn, grow, and thrive" />
             <meta property="og:type" content="website" />
             <meta property="og:url" content="https://www.kidzkornermilton.com/" />
             
