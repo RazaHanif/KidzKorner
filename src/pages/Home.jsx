@@ -34,18 +34,28 @@ const Home = () => {
             <meta name="keywords" content="licensed daycare Milton, childcare Milton, early learning Milton, kids programs Milton, preschool Milton" />
             <meta name="description" content="Licensed childcare and daycare in Milton, Ontario. Kidz Korner provides a safe, nurturing environment for children to learn, grow, and thrive." />
             
-            {/* Open Graph Tags */}
-            <meta property="og:title" content="Kidz Korner Milton" />
-            <meta property="og:description" content="Licensed childcare and daycare in Milton, Ontario. Kidz Korner provides a safe, nurturing environment for children to learn, grow, and thrive" />
-            <meta property="og:type" content="website" />
-            <meta property="og:url" content="https://www.kidzkornermilton.com/" />
+            <meta 
+                property="og:title" 
+                content="Kidz Korner Milton" 
+            />
+            <meta 
+                property="og:description" 
+                content="Licensed childcare and daycare in Milton, Ontario. Kidz Korner provides a safe, nurturing environment for children to learn, grow, and thrive" 
+            />
+            <meta 
+                property="og:type" 
+                content="website" 
+            />
+            <meta 
+                property="og:url" 
+                content="https://www.kidzkornermilton.com/" 
+            />
             
-            {/* The Image Tag - MUST be an absolute URL */}
-            <meta property="og:image" content="https://www.kidzkornermilton.com/og-image.jpg" />
-            
-            {/* Recommended for Twitter */}
-            <meta name="twitter:card" content="summary_large_image" />
-        </div>
+            <meta 
+                property="og:image" 
+                content="https://www.kidzkornermilton.com/og-image.jpg" 
+            />
+         </div>
     );
 }
   
