@@ -12,6 +12,7 @@ const Test = () => {
             <title>
                 Test Page | Kidz Korner 
             </title>
+            <meta name="robots" content="noindex, nofollow" />
         </>
     );
 }
