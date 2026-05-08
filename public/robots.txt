@@ -1,12 +1,8 @@
-# Allow all search engines to crawl the site
 User-agent: *
 
-# Block the test route so it doesn't clutter search results
 Disallow: /test
 
-# Block any private or config folders if you have them (standard for React)
 Disallow: /private/
 Disallow: /config/
 
-# Point Google directly to your sitemap (Crucial for ranking)
 Sitemap: https://yourwebsite.com/sitemap.xml
