@@ -18,6 +18,110 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "ChildCare",
+            "@id": "https://www.kidzkornermilton.com/#organization",
+            "name": "Kidz Korner",
+            "url": "https://www.kidzkornermilton.com",
+            "telephone": "+1-905-878-4697",
+            "description": "Kidz Korner is a family-owned day care and indoor playground in Milton, providing Montessori-quality care and specialized support for special needs.",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "150 Nipissing Rd Units #10 & 11",
+              "addressLocality": "Milton",
+              "addressRegion": "ON",
+              "postalCode": "L9T 5B3",
+              "addressCountry": "CA"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 43.5186,
+              "longitude": -79.8765
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "09:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Saturday", "Sunday"],
+                "description": "Open for private parties only by appointment"
+              }
+            ],
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5",
+              "reviewCount": "50"
+            }
+          },
+          {
+            "@type": "Service",
+            "name": "Full Time & Part Time Child Care",
+            "provider": { "@id": "https://www.kidzkornermilton.com/#organization" },
+            "description": "Montessori-quality child care including specialized support for children with special needs."
+          },
+          {
+            "@type": "Service",
+            "name": "Indoor Playground & Parties",
+            "provider": { "@id": "https://www.kidzkornermilton.com/#organization" },
+            "description": "Safe indoor play area available for daily drop-in use and private weekend birthday parties."
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Does Kidz Korner offer Montessori-style care?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, we provide Montessori-quality child care with a personalized, family-operated approach."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do you accommodate children with special needs?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Absolutely. We specialize in special needs child care and provide a supportive environment for all children."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Are meals provided for the children?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, we have an in-house cook who prepares a rotating seasonal menu for our students."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I book the indoor playground for a private party?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, our playground is available for private parties on weekends by appointment."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long has Kidz Korner been in business?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Kidz Korner is a family-owned business that has been serving the Milton community for over 30 years."
+                }
+              }
+            ]
+          }
+        ]
+      }
+      </script>
   </head>
   <body>
     <div id="root"></div>
