@@ -5,7 +5,7 @@ import WorkshopForm from "../components/WorkshopFrom";
 const Test = () => {
     return (
         <>
-            Test page idk
+            How did you get here this is  be here lol
             <title>
                 Test Page | Kidz Korner 
             </title>
