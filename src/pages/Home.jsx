@@ -53,7 +53,7 @@ const Home = () => {
             
             <meta 
                 property="og:image" 
-                content="https://www.kidzkornermilton.com/og-image.jpg" 
+                content="https://www.kidzkornermilton.com/K_K_39.jpg" 
             />
          </div>
     );
