@@ -56,7 +56,11 @@ const Home = () => {
             
             <meta 
                 property="og:image" 
-                content="https://www.kidzkornermilton.com/K_K_39.jpg" 
+                content="https://www.kidzkornermilton.com/og-image.jpg" 
+            />
+            <meta 
+                property="og:image:alt" 
+                content="Kidz Korner Milton, Ontario Store Front" 
             />
          </div>
     );
