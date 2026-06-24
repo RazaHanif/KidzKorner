@@ -54,7 +54,7 @@ const Parties = () => {
                             <span className="font-semibold">4.5</span> Hours of Private Access
                         </li>,
                         <li key={3}>
-                            2 Jumbo Cheese Pizza's
+                            2 X-Large Cheese Pizza's
                         </li>,
                     ]}
                 />
