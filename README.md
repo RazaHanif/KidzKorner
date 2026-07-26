@@ -59,6 +59,6 @@ Kidz Korner offers safe, nurturing early learning programs that support your chi
 
         3. Make Childcare Forms - all questions required
 
-        3. Change Forms to question by question 
+        4. Change Forms to question by question 
 
  -->
