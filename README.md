@@ -36,4 +36,12 @@ Kidz Korner offers safe, nurturing early learning programs that support your chi
                     What is the CWELCC program?
                     Indoor playground Milton
 
+            2.4 Money pages?
+                Licensed Daycare Milton
+Preschool Milton
+Toddler Daycare Milton
+Part-Time Daycare Milton
+Before & After School Care Milton
+Indoor Playground Milton
+
  -->
