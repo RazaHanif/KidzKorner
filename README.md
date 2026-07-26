@@ -26,6 +26,6 @@ Kidz Korner offers safe, nurturing early learning programs that support your chi
                 /licensed-daycare-milton
                 /part-time-daycare-milton
 
-                
+            2.3 
 
  -->
