@@ -28,16 +28,16 @@ Kidz Korner offers safe, nurturing early learning programs that support your chi
 
             2.3 Create a Blog Page with multiple blogs 
                 Best daycare in Milton
-                    How to choose a daycare
-                    Daycare cost Milton
-                    Part-time daycare Milton
-                    Preschool vs daycare
-                    When should my toddler start daycare?
-                    What is the CWELCC program?
-                    Indoor playground Milton
-                    Why an Indoor Playground Benefits Preschool Development
-                    Rainy Day Activities for Kids in Milton
-                    Indoor Playground vs Outdoor Play: Why Both Matter
+                How to choose a daycare
+                Daycare cost Milton
+                Part-time daycare Milton
+                Preschool vs daycare
+                When should my toddler start daycare?
+                What is the CWELCC program?
+                Indoor playground Milton
+                Why an Indoor Playground Benefits Preschool Development
+                Rainy Day Activities for Kids in Milton
+                Indoor Playground vs Outdoor Play: Why Both Matter
 
             2.4 Money pages?
                 Licensed Daycare Milton
