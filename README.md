@@ -46,4 +46,12 @@ Kidz Korner offers safe, nurturing early learning programs that support your chi
 
             2.5 FAQ
 
+What age can my child start?
+Do you offer flexible schedules?
+Is your daycare licensed?
+Do you provide meals?
+What should my child bring?
+Can I book a tour?
+How does enrollment work?
+
  -->
