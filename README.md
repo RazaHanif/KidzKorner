@@ -10,7 +10,7 @@ Kidz Korner offers safe, nurturing early learning programs that support your chi
             childcare & parties
 
         2. Improve SEO
-            2.1 For example, within the first paragraph, naturally mention:
+            2.1 Homepage - Make it more milton centric
 
 Licensed daycare in Milton
 Childcare in Milton
