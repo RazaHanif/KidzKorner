@@ -21,9 +21,11 @@ Kidz Korner offers safe, nurturing early learning programs that support your chi
 
             2.2 Split /childcare to 
                 /toddler-daycare-milton
-/preschool-milton
-/before-after-school-care-milton
-/licensed-daycare-milton
-/part-time-daycare-milton
+                /preschool-milton
+                /before-after-school-care-milton
+                /licensed-daycare-milton
+                /part-time-daycare-milton
+
+                
 
  -->
