@@ -9,4 +9,13 @@ Kidz Korner offers safe, nurturing early learning programs that support your chi
         1. Create ad's on google
             childcare & parties
 
+        2. Improve SEO
+            2.1 For example, within the first paragraph, naturally mention:
+
+Licensed daycare in Milton
+Childcare in Milton
+Preschool in Milton
+Toddler daycare
+Before and after school care
+
  -->
