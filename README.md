@@ -19,6 +19,6 @@ Kidz Korner offers safe, nurturing early learning programs that support your chi
                 Toddler daycare
                 Before and after school care
 
-            2.2 Split childcare 
+            2.2 Split /childcare to 
 
  -->
