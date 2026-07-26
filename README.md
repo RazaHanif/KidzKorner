@@ -35,9 +35,9 @@ Kidz Korner offers safe, nurturing early learning programs that support your chi
                     When should my toddler start daycare?
                     What is the CWELCC program?
                     Indoor playground Milton
-"Why an Indoor Playground Benefits Preschool Development"
-"Rainy Day Activities for Kids in Milton"
-"Indoor Playground vs Outdoor Play: Why Both Matter"
+"""Why an Indoor Playground Benefits Preschool Development
+"Rainy Day Activities for Kids in Milton
+"Indoor Playground vs Outdoor Play: Why Both Matter
 
             2.4 Money pages?
                 Licensed Daycare Milton
