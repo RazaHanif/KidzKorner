@@ -65,7 +65,7 @@ Kidz Korner offers safe, nurturing early learning programs that support your chi
 
 
     Monthly Cost 
-        15k
+        10 
         
 
  -->
