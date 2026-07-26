@@ -28,12 +28,12 @@ Kidz Korner offers safe, nurturing early learning programs that support your chi
 
             2.3 Create a Blog Page with multiple blogs 
                 Best daycare in Milton
-How to choose a daycare
-Daycare cost Milton
-Part-time daycare Milton
-Preschool vs daycare
-When should my toddler start daycare?
-What is the CWELCC program?
-Indoor playground Milton
+                    How to choose a daycare
+                    Daycare cost Milton
+                    Part-time daycare Milton
+                    Preschool vs daycare
+                    When should my toddler start daycare?
+                    What is the CWELCC program?
+                    Indoor playground Milton
 
  -->
