@@ -61,6 +61,6 @@ Kidz Korner offers safe, nurturing early learning programs that support your chi
 
         4. Change Forms to question by question 
 
-        i wanna at least make a few changes to get some good
+        i wanna at least make a few changes to get some good commits
 
  -->
