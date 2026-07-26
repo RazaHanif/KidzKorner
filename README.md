@@ -55,6 +55,6 @@ Kidz Korner offers safe, nurturing early learning programs that support your chi
                 What should my child bring?
                 Can I book a tour?
                 How does enrollment work?
-                How does transisiopn work 
+                How does transition work 
 
  -->
