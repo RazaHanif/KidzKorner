@@ -44,6 +44,6 @@ Kidz Korner offers safe, nurturing early learning programs that support your chi
                 Before & After School Care Milton
                 Indoor Playground Milton
 
-            2.5
+            2.5 FAQ
 
  -->
