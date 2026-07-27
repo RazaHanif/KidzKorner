@@ -46,7 +46,7 @@ const Home = () => {
                         </p>
 
                         <p>
-
+                            We welcome children from neighborhoods across Milton, including Clarke, Scott, Willmott, Beaty, Harrison, Dempsey, Timberlea, and surrounding communities throughout the Halton Region. Whether you're searching for a trusted daycare in Milton or reliable childcare close to home, Kidz Korner provides a safe, nurturing environment where children can learn, grow, and thrive.
                         </p>
 
                     </div>
