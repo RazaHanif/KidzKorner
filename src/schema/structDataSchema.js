@@ -190,7 +190,7 @@ export const breadcrumbSchema = ({breadcrumb}) => {
             {
                 "@type": "ListItem",
                 "position": 1,
-                "name": "",
+                "name": "Home",
                 "item": ""
             },
             breadcrumb
