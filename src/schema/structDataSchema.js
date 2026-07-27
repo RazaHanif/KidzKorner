@@ -63,7 +63,7 @@ export const localBusinessSchema = {
             "@type": "Offer",
             "itemOffered": {
                 "@type": "Service",
-                "name": "Toddler Daycare",
+                "name": "Preschool Daycare",
                 "description": "Licensed daycare program for toddlers in Milton, Ontario."
             }
         },
