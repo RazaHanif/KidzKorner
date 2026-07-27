@@ -105,13 +105,6 @@ const Home = () => {
                 </div>
             </div>
 
-
-{/* 
-    LocalBusiness
-    Organization
-    WebSite
-*/}
-
             <StructData schema={localBusinessSchema} />
             <StructData schema={organizationSchema} />
             <StructData schema={websiteSchema} />
