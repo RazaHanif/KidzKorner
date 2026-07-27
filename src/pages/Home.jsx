@@ -69,7 +69,9 @@ const Home = () => {
 
                     </div>
 
-
+                    <div className="flex flex-col justify-center items-center w-full p-4">
+                        
+                    </div>
                         <h2>Our Programs</h2>
                         <p>Briefly introduce
 
