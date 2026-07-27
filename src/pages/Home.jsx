@@ -57,7 +57,7 @@ const Home = () => {
                         <h2>
                             Why Families Choose Kidz Korner
                         </h2>
-                        <p>
+                        <p className="w-full flex justify-center items-center m-4 flex-1">
                             licensed educators
                             safe environment
                             family owned
@@ -71,7 +71,7 @@ const Home = () => {
 
                     <div className="flex flex-col justify-center items-center w-full p-4">
                         <h2>Our Programs</h2>
-                        <p>
+                        <p className="w-full flex justify-center items-center m-4 flex-1">
                             Briefly introduce
                             Toddler Daycare
                             Preschool
@@ -90,7 +90,7 @@ const Home = () => {
                         <h2>
                             Why Choose a Licensed Daycare?
                         </h2>
-                        <p>
+                        <p className="w-full flex justify-center items-center m-4 flex-1">
                             Parents search this constantly.
                             Explain:
 
