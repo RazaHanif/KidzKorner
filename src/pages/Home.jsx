@@ -22,8 +22,7 @@ const Home = () => {
                         </h2>
 
                         <p className="w-full flex justify-center items-center m-4 flex-1">
-                            Kidz Korner is a family-owned, licensed daycare in
-                            Milton, Ontario, providing high-quality childcare in Milton for local families. 
+                            Kidz Korner is a family-owned, licensed daycare in Milton, Ontario, providing high-quality childcare in Milton for local families. 
                             We offer daycare for
                             toddlers and preschoolers in Milton, before and
                             after school care, and licensed school-age camps
