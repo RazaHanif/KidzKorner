@@ -37,7 +37,7 @@ const Home = () => {
                         </p>
 
                         <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
-                            Our Location
+                            Licensed Daycare Conveniently Located in Milton
                         </h2>
                         <p className="w-full flex justify-center items-center m-4 flex-1">
                             Kidz Korner welcomes families from across Milton, including Clarke, Scott, Willmott, Beaty, Harrison, Dempsey, Timberlea, and nearby communities.
