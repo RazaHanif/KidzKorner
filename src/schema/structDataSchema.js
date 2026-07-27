@@ -29,7 +29,20 @@ export const localBusinessSchema = {
     },
 
     // Business Hours
-    "openingHours": "Mo,Tu,We,Th,Fr 09:00-15:00",
+    "openingHoursSpecification": [
+    {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+    }
+],
 
     // Social / External Profiles
     "sameAs": [
