@@ -80,21 +80,17 @@ const Home = () => {
                     </div>
 
                     <div className="flex flex-col justify-center items-center w-full p-4">
-                        <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
-                            Why Choose a Licensed Daycare?
-                        </h2>
-                        <p className="w-full flex justify-center items-center m-4 flex-1">
-                            Parents search this constantly.
-                            Explain:
+                      <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
+  The Benefits of Choosing a Licensed Daycare
+</h2>
 
-                            Ministry regulations
-                            safety
-                            inspections
-                            educator qualifications
-                            curriculum
+<p className="w-full flex justify-center items-center m-4 flex-1">
+  Choosing a licensed daycare gives parents confidence that their child is learning and growing in a safe, regulated environment. Licensed childcare centres in Ontario must meet standards established by the Ministry of Education, including health and safety requirements, educator qualifications, staff-to-child ratios, and ongoing inspections to help ensure high-quality care.
+</p>
 
-                            Google loves educational content.
-                        </p>
+<p className="w-full flex justify-center items-center m-4 flex-1">
+  At Kidz Korner, we follow Ontario's licensed childcare standards while delivering a play-based curriculum that supports every child's development. Our focus is on creating a nurturing environment where children feel secure, develop important life skills, and build a strong foundation for future learning, while parents enjoy peace of mind knowing their child is in experienced and caring hands.
+</p>
                     </div>
 
 
