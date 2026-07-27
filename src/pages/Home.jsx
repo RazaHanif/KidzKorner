@@ -53,11 +53,11 @@ const Home = () => {
 
                     <div className="flex flex-col justify-center items-center w-full p-4">
                         <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
-                        Why Families Choose Kidz Korner
+                            Why Families Choose Kidz Korner
                         </h2>
 
                         <p className="w-full flex justify-center items-center m-4 flex-1">
-                        At Kidz Korner, we're committed to providing a safe, welcoming, and engaging environment where children feel supported every day. As a family-owned licensed daycare in Milton, we understand how important it is for parents to find childcare they can trust. Our caring team of licensed educators builds meaningful relationships with every child, encouraging confidence, curiosity, and independence through learning and play.
+                            At Kidz Korner, we're committed to providing a safe, welcoming, and engaging environment where children feel supported every day. As a family-owned licensed daycare in Milton, we understand how important it is for parents to find childcare they can trust. Our caring team of licensed educators builds meaningful relationships with every child, encouraging confidence, curiosity, and independence through learning and play.
                         </p>
 
                         <p className="w-full flex justify-center items-center m-4 flex-1">
