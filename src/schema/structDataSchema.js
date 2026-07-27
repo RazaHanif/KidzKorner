@@ -1,3 +1,4 @@
+const URL = "https://www.kidzkornermilton.com/"
 const BUSINESS_ID = "https://www.kidzkornermilton.com/#business"
 const ORGANIZATION_ID = "https://www.kidzkornermilton.com/#organization"
 const WEBSITE_ID = "https://www.kidzkornermilton.com/#website"
