@@ -2,7 +2,7 @@ export const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
 
-    "name": "",
+    "name": "Kidz Korner",
     "description": "",
     "url": "",
     "logo": "",
