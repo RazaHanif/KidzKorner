@@ -91,11 +91,8 @@ const Home = () => {
                         </h2>
 
                         <p className="w-full flex justify-center items-center m-4 flex-1">
-                            Choosing a licensed daycare gives parents confidence
-                            that their child is learning and growing in a safe,
-                            regulated environment. 
-                            Licensed childcare centres in
-                            Ontario must meet standards established by the Ministry of Education, including health and safety requirements, educator qualifications, staff-to-child ratios, and ongoing inspections to help ensure high-quality care.
+                            Choosing a licensed daycare gives parents confidence that their child is learning and growing in a safe, regulated environment. 
+                            Licensed childcare centres in Ontario must meet standards established by the Ministry of Education, including health and safety requirements, educator qualifications, staff-to-child ratios, and ongoing inspections to help ensure high-quality care.
                         </p>
 
                         <p className="w-full flex justify-center items-center m-4 flex-1">
