@@ -70,8 +70,7 @@ const Home = () => {
                             environment. 
                             With years of experience serving Milton
                             families, we take pride in creating a community
-                            where children receive personalized attention and
-                            parents feel like part of the Kidz Korner family.
+                            where children receive personalized attention and parents feel like part of the Kidz Korner family.
                         </p>
                     </div>
 
