@@ -14,7 +14,7 @@ export const localBusinessSchema = {
     // Physical Location
     "address": {
         "@type": "PostalAddress",
-        "streetAddress": "",
+        "streetAddress": "150 Nipissing Road",
         "addressLocality": "",
         "addressRegion": "",
         "postalCode": "",
