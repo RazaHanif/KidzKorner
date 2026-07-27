@@ -142,7 +142,7 @@ export const organizationSchema = {
     "@id": "https://www.kidzkornermilton.com/#",
     "name": "Kidz Korner",
     "url": URL,
-    "logo": "",
+    "logo": "https://www.kidzkornermilton.com/logo.png",
     "description": "",
 
     // Contact Information
