@@ -2,9 +2,7 @@ export const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
 
-    // Basic Business Information
     "name": "",
-    "alternateName": "",
     "description": "",
     "url": "",
     "logo": "",
