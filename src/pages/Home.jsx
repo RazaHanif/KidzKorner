@@ -1,11 +1,5 @@
 import Image from "@/components/Image";
 
-/* 
-LocalBusiness
-Organization
-WebSite
-*/
-
 const Home = () => {
     return (
         <div className="flex flex-col justify-center items-center gap-2 w-full">
