@@ -13,17 +13,6 @@ const Home = () => {
                 <div className="flex lg:flex-row flex-col justify-center items-center gap-4">
                     <Image src='/K_K_39.jpg' alt='Kidz Korner licensed daycare in  Milton' w="w-md"/>
                     <div className="flex flex-col justify-center items-center w-full p-4">
-                        {/* <h1 className="hidden lg:block text-3xl font-bold self-center font-serif">
-                            Licensed Daycare & Childcare in Milton
-                        </h1> */}
-                        
-                        {/* <p className="w-full flex justify-center items-center m-4 flex-1">
-                                Kidz Korner is a family-owned business located in the heart of Milton, Ontario.
-                                We offer licensed high quality child care for toddlers, preschoolers, before / after school programs, and licensed school age camps.
-                                Camps are offered during PA / PD days, March breaks, Summer breaks, and Winter breaks.
-                                Our commitment to providing loving, nurturing care has earned us the trust of many families and community members, creating a multi-generational legacy.
-                        </p> */}
-
                         <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
                             Why Families Choose Kidz Korner ?? [might switch]
                         </h2>
