@@ -66,7 +66,6 @@ const Home = () => {
                             small class sizes (if applicable)
                             years serving Milton
                         </p>
-
                     </div>
 
                     <div className="flex flex-col justify-center items-center w-full p-4">
