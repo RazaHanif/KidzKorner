@@ -13,9 +13,9 @@ const Home = () => {
                 <div className="flex lg:flex-row flex-col justify-center items-center gap-4">
                     <Image src='/K_K_39.jpg' alt='Kidz Korner Milton, Ontario Store Front' w="w-md"/>
                     <div className="flex flex-col justify-center items-center w-full p-4">
-                        <h1 className="hidden lg:block text-3xl font-bold self-center font-serif">
+                        {/* <h1 className="hidden lg:block text-3xl font-bold self-center font-serif">
                             Licensed Daycare & Childcare in Milton
-                        </h1>
+                        </h1> */}
                         
                         {/* 
                             Licensed daycare in Milton
