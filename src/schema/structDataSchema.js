@@ -18,6 +18,9 @@ export const localBusinessSchema = {
     "url": URL,
     "description": "Kidz Korner Milton is a licensed daycare and childcare centre providing toddler daycare, preschool programs, before and after school care, and children's camps for families in Milton, Ontario.",
     "logo": "https://www.kidzkornermilton.com/logo.png",
+    "image": [
+        "https://www.kidzkornermilton.com/K_K_39.jpg"
+    ],
     "telephone": PHONE,
     "email": EMAIL,
     "address": {
