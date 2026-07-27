@@ -176,22 +176,20 @@ export const websiteSchema = {
     },
 };
 
-export const breadcrumbSchema = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
+export const breadcrumbSchema = ({breadcrumb}) => {
 
-    "itemListElement": [
-        {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "",
-            "item": ""
-        },
-        {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "",
-            "item": ""
-        }
-    ]
+    return {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "",
+                "item": ""
+            },
+            breadcrumb
+        ]
+    }
 };
