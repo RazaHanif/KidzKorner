@@ -5,7 +5,6 @@ export const localBusinessSchema = {
     "name": "Kidz Korner",
     "url": "https://www.kidzkornermilton.com/",
 
-    // Idk how to include thes
     "logo": "",
     "image": "",
 
