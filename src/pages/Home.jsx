@@ -44,7 +44,9 @@ const Home = () => {
 
                         </p>
 
-                        <h2 className="">Our Location</h2>
+                        <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
+                            Our Location
+                        </h2>
                         <p className="">
                             Kidz Korner welcomes families from across Milton, including Clarke, Scott, Willmott, Beaty, Harrison, Dempsey, Timberlea, and nearby communities.
                             Our licensed childcare centre is conveniently located to support busy parents looking for trusted daycare close to home.
