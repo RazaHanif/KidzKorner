@@ -24,8 +24,8 @@ export const localBusinessSchema = {
     // Geographic Coordinates
     "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "40.741895",
-        "longitude": "-73.989308"
+        "latitude": "43.520355957183526",
+        "longitude": "-79.87087932528735"
     },
 
     // Business Hours
