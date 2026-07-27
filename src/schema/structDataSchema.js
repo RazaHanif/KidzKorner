@@ -18,7 +18,7 @@ export const localBusinessSchema = {
         "addressLocality": "Milton",
         "addressRegion": "ON",
         "postalCode": "L9T 5B3",
-        "addressCountry": "Canada"
+        "addressCountry": "CA"
     },
 
     // Geographic Coordinates
