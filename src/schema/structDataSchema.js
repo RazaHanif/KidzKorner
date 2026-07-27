@@ -56,7 +56,7 @@ export const localBusinessSchema = {
             "latitude": "43.526646",
             "longitude": "-79.891205°"
         },
-        "geoRadius": 1000
+        "geoRadius": 30000
     },
 
     // Parent Organization Reference (optional)
