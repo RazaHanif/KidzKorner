@@ -1,5 +1,6 @@
 const BUSINESS_ID = "https://www.kidzkornermilton.com/#business"
 const ORGANIZATION_ID = "https://www.kidzkornermilton.com/#organization"
+const WEBSITE_ID = "https://www.kidzkornermilton.com/#website"
 
 
 export const localBusinessSchema = {
