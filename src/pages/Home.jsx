@@ -75,7 +75,7 @@ Each with a "Learn More" link.
 
 This creates stronger internal linking.</p>
 
-                        <h2>Why Families Choose Kidz Korner</h2>
+                        <h2>Why Choose a Licensed Daycare?</h2>
                         <p></p>
 
 
