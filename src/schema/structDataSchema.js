@@ -107,7 +107,7 @@ export const localBusinessSchema = {
         "geoMidpoint": {
             "@type": "GeoCoordinates",
             "latitude": "43.526646",
-            "longitude": "-79.891205°"
+            "longitude": "-79.891205"
         },
         "geoRadius": 30000
     },
