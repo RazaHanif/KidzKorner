@@ -60,7 +60,6 @@ const Home = () => {
                 name="keywords" 
                 content="licensed daycare Milton, childcare Milton, early learning Milton, kids programs Milton, preschool Milton" 
             />
-
             <meta 
                 name="description"
                 content="Looking for a licensed daycare in Milton? Kidz Korner provides trusted childcare, toddler daycare, preschool programs, before and after school care, and licensed camps for local families."
