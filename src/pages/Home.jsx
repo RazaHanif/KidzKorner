@@ -1,6 +1,6 @@
 import Image from "@/components/Image";
 import StructData from "../components/StructData";
-import { localBusinessSchema } from "../schema/structDataSchema";
+import { localBusinessSchema, organizationSchema } from "../schema/structDataSchema";
 
 const Home = () => {
     return (
@@ -113,7 +113,7 @@ const Home = () => {
 */}
 
             <StructData schema={localBusinessSchema} />
-            <StructData schema={localBusinessSchema} />
+            <StructData schema={organizationSchema} />
             <StructData schema={localBusinessSchema} />
 
             <title>Licensed Daycare in Milton, Ontario | Kidz Korner</title>
