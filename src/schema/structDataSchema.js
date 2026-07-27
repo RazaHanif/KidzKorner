@@ -176,6 +176,7 @@ export const websiteSchema = {
     },
 };
 
+
 export const breadcrumbSchema = ({breadcrumb}) => {
     /* 
         name: "Home"
