@@ -14,7 +14,7 @@ const Home = () => {
                     <Image src='/K_K_39.jpg' alt='Kidz Korner licensed daycare in  Milton' w="w-md"/>
                     <div className="flex flex-col justify-center items-center w-full p-4">
                         <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
-                            Why Families Choose Kidz Korner
+                            A Trusted Licensed Daycare in Milton
                         </h2>
 
                         <p className="w-full flex justify-center items-center m-4 flex-1"> 
