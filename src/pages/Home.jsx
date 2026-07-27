@@ -54,7 +54,7 @@ const Home = () => {
                     </div>
 
                     <div className="flex flex-col justify-center items-center w-full p-4">
-                        <h2>
+                        <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
                             Why Families Choose Kidz Korner
                         </h2>
                         <p className="w-full flex justify-center items-center m-4 flex-1">
@@ -70,7 +70,7 @@ const Home = () => {
                     </div>
 
                     <div className="flex flex-col justify-center items-center w-full p-4">
-                        <h2>Our Programs</h2>
+                        <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">Our Programs</h2>
                         <p className="w-full flex justify-center items-center m-4 flex-1">
                             Briefly introduce
                             Toddler Daycare
@@ -87,7 +87,7 @@ const Home = () => {
                     </div>
 
                     <div className="flex flex-col justify-center items-center w-full p-4">
-                        <h2>
+                        <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
                             Why Choose a Licensed Daycare?
                         </h2>
                         <p className="w-full flex justify-center items-center m-4 flex-1">
