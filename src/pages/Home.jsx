@@ -95,15 +95,16 @@ const Home = () => {
                         </h2>
                         <p>
                             Parents search this constantly.
-Explain:
+                            Explain:
 
-Ministry regulations
-safety
-inspections
-educator qualifications
-curriculum
+                            Ministry regulations
+                            safety
+                            inspections
+                            educator qualifications
+                            curriculum
 
-Google loves educational content.</p>
+                            Google loves educational content.
+                        </p>
 
                 </div>
             </div>
