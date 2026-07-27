@@ -91,9 +91,10 @@ const Home = () => {
                     </div>
 
                         <h2>
-                            Why Choose a Licensed Daycare?</h2>
-                        <p>Parents search this constantly.
-
+                            Why Choose a Licensed Daycare?
+                        </h2>
+                        <p>
+                            Parents search this constantly.
 Explain:
 
 Ministry regulations
