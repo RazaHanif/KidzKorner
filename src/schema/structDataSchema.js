@@ -92,7 +92,6 @@ export const localBusinessSchema = {
         }
     ],
 
-    // Area Served
     "areaServed": [
         {
             "@type": "City",
