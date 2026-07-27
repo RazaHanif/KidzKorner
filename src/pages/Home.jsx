@@ -25,7 +25,7 @@ const Home = () => {
                         </p> */}
 
                         <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
-                            Trusted Licensed Daycare
+                            Licensed Daycare Conveniently Located in Milton
                         </h2>
 
                         <p className="w-full flex justify-center items-center m-4 flex-1"> 
