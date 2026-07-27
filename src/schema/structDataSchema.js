@@ -167,8 +167,7 @@ export const websiteSchema = {
 
     "@id": WEBSITE_ID,
 
-    // Website Information
-    "url": "",
+    "url": URL,
     "name": "",
     "description": "",
 
