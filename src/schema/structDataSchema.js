@@ -53,7 +53,7 @@ export const localBusinessSchema = {
         "@type": "GeoCircle",
         "geoMidpoint": {
             "@type": "GeoCoordinates",
-            "latitude": 41.108237,
+            "latitude": 43.526646,
             "longitude": -80.642982
         },
         "geoRadius": 1000
