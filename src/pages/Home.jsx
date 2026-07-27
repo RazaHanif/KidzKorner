@@ -74,38 +74,38 @@ const Home = () => {
                     </div>
 
                     <div>
-                        
-                    </div>
-                    <div className="flex flex-col justify-center items-center w-full p-4">
-                        <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
-                            Programs for Every Stage of Early Learning
-                        </h2>
 
-                        <p className="w-full flex justify-center items-center m-4 flex-1">
-                            Kidz Korner offers licensed childcare programs designed to support children through every stage of their early learning journey. 
-                            From curious toddlers taking their first steps toward independence to preschoolers preparing for kindergarten, our programs provide age-appropriate learning experiences that encourage growth, creativity, and confidence.
-                        </p>
+                        <div className="flex flex-col justify-center items-center w-full p-4">
+                            <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
+                                Programs for Every Stage of Early Learning
+                            </h2>
 
-                        <p className="w-full flex justify-center items-center m-4 flex-1">
-                            We proudly offer Toddler Daycare, Preschool, Before & After School Care, Summer Camps, March Break Camps, and PA Day Programs for Milton families.
-                            Every program combines structured learning, creative play, outdoor activities, and opportunities to build friendships in a safe and supportive environment.
-                        </p>
-                    </div>
+                            <p className="w-full flex justify-center items-center m-4 flex-1">
+                                Kidz Korner offers licensed childcare programs designed to support children through every stage of their early learning journey. 
+                                From curious toddlers taking their first steps toward independence to preschoolers preparing for kindergarten, our programs provide age-appropriate learning experiences that encourage growth, creativity, and confidence.
+                            </p>
 
-                    <div className="flex flex-col justify-center items-center w-full p-4">
-                        <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
-                            The Benefits of Choosing a Licensed Daycare
-                        </h2>
+                            <p className="w-full flex justify-center items-center m-4 flex-1">
+                                We proudly offer Toddler Daycare, Preschool, Before & After School Care, Summer Camps, March Break Camps, and PA Day Programs for Milton families.
+                                Every program combines structured learning, creative play, outdoor activities, and opportunities to build friendships in a safe and supportive environment.
+                            </p>
+                        </div>
 
-                        <p className="w-full flex justify-center items-center m-4 flex-1">
-                            Choosing a licensed daycare gives parents confidence that their child is learning and growing in a safe, regulated environment. 
-                            Licensed childcare centres in Ontario must meet standards established by the Ministry of Education, including health and safety requirements, educator qualifications, staff-to-child ratios, and ongoing inspections to help ensure high-quality care.
-                        </p>
+                        <div className="flex flex-col justify-center items-center w-full p-4">
+                            <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
+                                The Benefits of Choosing a Licensed Daycare
+                            </h2>
 
-                        <p className="w-full flex justify-center items-center m-4 flex-1">
-                            At Kidz Korner, we follow Ontario's licensed childcare standards while delivering a play-based curriculum that supports every child's development.
-                            Our focus is on creating a nurturing environment where children feel secure, develop important life skills, and build a strong foundation for future learning, while parents enjoy peace of mind knowing their child is in experienced and caring hands.
-                        </p>
+                            <p className="w-full flex justify-center items-center m-4 flex-1">
+                                Choosing a licensed daycare gives parents confidence that their child is learning and growing in a safe, regulated environment. 
+                                Licensed childcare centres in Ontario must meet standards established by the Ministry of Education, including health and safety requirements, educator qualifications, staff-to-child ratios, and ongoing inspections to help ensure high-quality care.
+                            </p>
+
+                            <p className="w-full flex justify-center items-center m-4 flex-1">
+                                At Kidz Korner, we follow Ontario's licensed childcare standards while delivering a play-based curriculum that supports every child's development.
+                                Our focus is on creating a nurturing environment where children feel secure, develop important life skills, and build a strong foundation for future learning, while parents enjoy peace of mind knowing their child is in experienced and caring hands.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
