@@ -33,7 +33,7 @@ const Home = () => {
                 </div>
 
                 <div className="flex lg:flex-row lg:justify-between lg:items-stretch flex-col justify-center items-center w-full lg:text-justify text-center">
-                    <div className="flex flex-col bg-amber-500 p-2">
+                    <div className="flex flex-col bg-amber-500 m-2">
                         <div className="flex flex-col justify-center items-center w-full p-4">
                             <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
                                 Licensed Daycare Conveniently Located in Milton
@@ -73,7 +73,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className="flex flex-col bg-amber-500 p-2">
+                    <div className="flex flex-col bg-amber-500 m-2">
                         <div className="flex flex-col justify-center items-center w-full p-4">
                             <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
                                 Programs for Every Stage of Early Learning
