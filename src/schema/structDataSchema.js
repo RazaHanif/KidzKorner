@@ -1,3 +1,5 @@
+const BUSINESS_ID = "https://www.kidzkornermilton.com/"
+
 export const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
