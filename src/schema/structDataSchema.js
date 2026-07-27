@@ -31,9 +31,6 @@ export const localBusinessSchema = {
     // Business Hours
     "openingHours": "Mo,Tu,We,Th,Fr 09:00-15:00",
 
-    // Price Information (optional)
-    "priceRange": "",
-
     // Social / External Profiles
     "sameAs": [
         ""
