@@ -34,44 +34,44 @@ const Home = () => {
 
                 <div className="flex lg:flex-row lg:justify-between lg:items-stretch flex-col justify-center items-center w-full lg:text-justify text-center">
                     <div>
-                        
-                    </div>
-                    <div className="flex flex-col justify-center items-center w-full p-4">
-                        <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
-                            Licensed Daycare Conveniently Located in Milton
-                        </h2>
-                        <p className="w-full flex justify-center items-center m-4 flex-1">
-                            Kidz Korner is proud to serve Milton families with high-quality licensed childcare in a convenient, accessible location. 
-                            Situated near Highway 401 and just minutes from downtown Milton, our daycare makes daily drop-offs and pick-ups easy for busy parents commuting throughout the area.
-                        </p>
 
-                        <p className="w-full flex justify-center items-center m-4 flex-1">
-                            We welcome children from neighborhoods across
-                            Milton, including Clarke, Scott, Willmott, Beaty,
-                            Harrison, Dempsey, Timberlea, and surrounding
-                            communities throughout the Halton Region. Whether
-                            you're searching for a trusted daycare in Milton or
-                            reliable childcare close to home, Kidz Korner
-                            provides a safe, nurturing environment where
-                            children can learn, grow, and thrive.
-                        </p>
-                    </div>
+                        <div className="flex flex-col justify-center items-center w-full p-4">
+                            <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
+                                Licensed Daycare Conveniently Located in Milton
+                            </h2>
+                            <p className="w-full flex justify-center items-center m-4 flex-1">
+                                Kidz Korner is proud to serve Milton families with high-quality licensed childcare in a convenient, accessible location. 
+                                Situated near Highway 401 and just minutes from downtown Milton, our daycare makes daily drop-offs and pick-ups easy for busy parents commuting throughout the area.
+                            </p>
 
-                    <div className="flex flex-col justify-center items-center w-full p-4">
-                        <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
-                            Why Families Choose Kidz Korner
-                        </h2>
+                            <p className="w-full flex justify-center items-center m-4 flex-1">
+                                We welcome children from neighborhoods across
+                                Milton, including Clarke, Scott, Willmott, Beaty,
+                                Harrison, Dempsey, Timberlea, and surrounding
+                                communities throughout the Halton Region. Whether
+                                you're searching for a trusted daycare in Milton or
+                                reliable childcare close to home, Kidz Korner
+                                provides a safe, nurturing environment where
+                                children can learn, grow, and thrive.
+                            </p>
+                        </div>
 
-                        <p className="w-full flex justify-center items-center m-4 flex-1">
-                            At Kidz Korner, we're committed to providing a safe, welcoming, and engaging environment where children feel supported every day. 
-                            As a family-owned licensed daycare in Milton, we understand how important it is for parents to find childcare they can trust. 
-                            Our caring team of licensed educators builds meaningful relationships with every child, encouraging confidence, curiosity, and independence through learning and play.
-                        </p>
+                        <div className="flex flex-col justify-center items-center w-full p-4">
+                            <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
+                                Why Families Choose Kidz Korner
+                            </h2>
 
-                        <p className="w-full flex justify-center items-center m-4 flex-1">
-                            Our play-based approach helps children develop social, emotional, physical, and cognitive skills while having fun in a nurturing classroom environment. 
-                            With years of experience serving Milton families, we take pride in creating a community where children receive personalized attention and parents feel like part of the Kidz Korner family.
-                        </p>
+                            <p className="w-full flex justify-center items-center m-4 flex-1">
+                                At Kidz Korner, we're committed to providing a safe, welcoming, and engaging environment where children feel supported every day. 
+                                As a family-owned licensed daycare in Milton, we understand how important it is for parents to find childcare they can trust. 
+                                Our caring team of licensed educators builds meaningful relationships with every child, encouraging confidence, curiosity, and independence through learning and play.
+                            </p>
+
+                            <p className="w-full flex justify-center items-center m-4 flex-1">
+                                Our play-based approach helps children develop social, emotional, physical, and cognitive skills while having fun in a nurturing classroom environment. 
+                                With years of experience serving Milton families, we take pride in creating a community where children receive personalized attention and parents feel like part of the Kidz Korner family.
+                            </p>
+                        </div>
                     </div>
 
                     <div className="flex flex-col justify-center items-center w-full p-4">
