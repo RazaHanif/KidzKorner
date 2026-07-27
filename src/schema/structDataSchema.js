@@ -117,17 +117,17 @@ export const localBusinessSchema = {
         {
             "@type": "City",
             "name": "Halton Hills"
-        }
-    ],
-    "serviceArea": {
-        "@type": "GeoCircle",
-        "geoMidpoint": {
-            "@type": "GeoCoordinates",
-            "latitude": "43.526646",
-            "longitude": "-79.891205"
         },
-        "geoRadius": 20000
-    },
+        {
+            "@type": "GeoCircle",
+            "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": "43.526646",
+                "longitude": "-79.891205"
+            },
+            "geoRadius": 20000
+        },
+    ]
 };
 
 export const organizationSchema = {
