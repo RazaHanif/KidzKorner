@@ -1,4 +1,4 @@
-export const businessSchema = {
+export const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "Kidz Korner Milton",
