@@ -62,7 +62,18 @@ small class sizes (if applicable)
 years serving Milton</p>
 
                         <h2>Our Programs</h2>
-                        <p></p>
+                        <p>Briefly introduce
+
+Toddler Daycare
+Preschool
+Before & After School Care
+Summer Camps
+March Break Camps
+PA Day Programs
+
+Each with a "Learn More" link.
+
+This creates stronger internal linking.</p>
 
                         <h2>Why Families Choose Kidz Korner</h2>
                         <p></p>
