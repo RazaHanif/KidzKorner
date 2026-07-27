@@ -3,7 +3,7 @@ import Image from "@/components/Image";
 const Home = () => {
     return (
         <div className="flex flex-col justify-center items-center gap-2 w-full">
-            <div className="lg:hidden flex flex-col justify-center items-center w-full mb-4">
+            <div className=" flex flex-col justify-center items-center w-full mb-4">
                 <h1 className=" text-3xl font-bold font-serif text-center">
                     Licensed Daycare & Childcare in Milton
                 </h1>
