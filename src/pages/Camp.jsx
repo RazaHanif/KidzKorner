@@ -8,6 +8,12 @@ import {
 import CampForm from "@/components/CampForm";
 import Image from "@/components/Image";
 
+/* 
+LocalBusiness
+Service
+BreadcrumbList
+ */
+
 const Camp = () => {
     return (
         <div className="flex flex-col justify-center items-center w-full gap-8 text-justify">
