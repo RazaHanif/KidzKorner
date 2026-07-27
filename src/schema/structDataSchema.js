@@ -179,7 +179,7 @@ export const websiteSchema = {
 export const breadcrumbSchema = ({breadcrumb}) => {
     /* 
         name: "Home"
-        item: "https"
+        item: "https://www.kidzkorner"
     */
 
     return {
