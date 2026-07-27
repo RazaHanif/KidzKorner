@@ -54,9 +54,6 @@ const Home = () => {
                     </div>
 
                     <div className="flex flex-col justify-center items-center w-full p-4">
-
-                    </div>
-
                         <h2>Why Families Choose Kidz Korner</h2>
                         <p>licensed educators
 safe environment
@@ -65,6 +62,9 @@ nurturing staff
 learning through play
 small class sizes (if applicable)
 years serving Milton</p>
+
+                    </div>
+
 
                         <h2>Our Programs</h2>
                         <p>Briefly introduce
