@@ -129,7 +129,6 @@ export const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
 
-    // Unique Entity Identifier
     "@id": "",
 
     // Organization Information
