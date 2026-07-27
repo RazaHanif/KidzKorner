@@ -175,7 +175,7 @@ export const websiteSchema = {
     },
 };
 
-export const breadcrumbSchema = ({breadcrumb}) => {
+export const breadcrumbSchema = ({ breadcrumbs }) => {
     /* 
         name: "Home"
         item: "https://www.kidzkornermilton.com/"
@@ -185,14 +185,6 @@ export const breadcrumbSchema = ({breadcrumb}) => {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
 
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.kidzkornermilton.com/"
-            },
-            breadcrumb
-        ]
+        "itemListElement": breadcrumbs
     }
 };
