@@ -1,4 +1,4 @@
-const Image = ({ src, alt, w = "lg:w-3xs w-sm" }) => {
+const StructData = ({ src, alt, w = "lg:w-3xs w-sm" }) => {
   const style = `${w} rounded-lg border-2 shadow-lg`;
 
   return (
@@ -11,4 +11,4 @@ const Image = ({ src, alt, w = "lg:w-3xs w-sm" }) => {
   );
 };
 
-export default Image;
+export default StructData;
