@@ -1,7 +1,5 @@
 const URL = "https://www.kidzkornermilton.com/"
-const SAME_AS = [
-        "https://www.instagram.com/kidz.kornermilton/"
-    ]
+const SAME_AS = [ "https://www.instagram.com/kidz.kornermilton/" ]
 const BUSINESS_ID = "https://www.kidzkornermilton.com/#business"
 const ORGANIZATION_ID = "https://www.kidzkornermilton.com/#organization"
 const WEBSITE_ID = "https://www.kidzkornermilton.com/#website"
