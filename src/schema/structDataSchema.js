@@ -168,7 +168,7 @@ export const websiteSchema = {
     "@id": WEBSITE_ID,
 
     "url": URL,
-    "name": "",
+    "name": "Kidz Korner",
     "description": "",
 
     // Website Owner
