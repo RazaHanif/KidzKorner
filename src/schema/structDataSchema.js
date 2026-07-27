@@ -9,7 +9,7 @@ export const localBusinessSchema = {
 
     // Contact Information
     "telephone": "+19058784697",
-    "email": "",
+    "email": "info@kidzkornermilton.com",
 
     // Physical Location
     "address": {
