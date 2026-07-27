@@ -97,7 +97,6 @@ PA Day Programs
 Why Choose a Licensed Daycare?
 </h2>
 <p className="w-full flex justify-center items-center m-4 flex-1">
-Parents search this constantly.
 Explain:
 
 Ministry regulations
