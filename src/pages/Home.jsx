@@ -76,7 +76,17 @@ Each with a "Learn More" link.
 This creates stronger internal linking.</p>
 
                         <h2>Why Choose a Licensed Daycare?</h2>
-                        <p></p>
+                        <p>Parents search this constantly.
+
+Explain:
+
+Ministry regulations
+safety
+inspections
+educator qualifications
+curriculum
+
+Google loves educational content.</p>
 
 
                         
