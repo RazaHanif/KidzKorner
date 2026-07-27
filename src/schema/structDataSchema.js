@@ -17,8 +17,8 @@ export const localBusinessSchema = {
         "streetAddress": "150 Nipissing Rd Units #10 & 11",
         "addressLocality": "Milton",
         "addressRegion": "ON",
-        "postalCode": "",
-        "addressCountry": ""
+        "postalCode": "L9T 5B3",
+        "addressCountry": "Canada"
     },
 
     // Geographic Coordinates
