@@ -171,9 +171,8 @@ export const websiteSchema = {
     "name": "Kidz Korner",
     "description": "",
 
-    // Website Owner
     "publisher": {
-        "@id": ""
+        "@id": ORGANIZATION_ID
     },
 
     // Search Functionality (optional)
