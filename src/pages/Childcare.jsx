@@ -10,6 +10,8 @@ import {
 } from "@/components/ui/card"
 import Image from "@/components/Image"
 
+
+
 const Childcare = () => {
     return (
         <div className="flex flex-col justify-center items-center gap-4 w-full text-justify">
