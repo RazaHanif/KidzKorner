@@ -178,7 +178,8 @@ export const websiteSchema = {
 
 export const breadcrumbSchema = ({breadcrumb}) => {
     /* 
-    
+        name: "Home"
+        item: "https"
     */
 
     return {
