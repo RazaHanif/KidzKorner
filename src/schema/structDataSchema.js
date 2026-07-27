@@ -67,14 +67,6 @@ export const localBusinessSchema = {
             "@type": "Offer",
             "itemOffered": {
                 "@type": "Service",
-                "name": "Preschool Daycare",
-                "description": "Licensed daycare program for preschoolers in Milton, Ontario."
-            }
-        },
-        {
-            "@type": "Offer",
-            "itemOffered": {
-                "@type": "Service",
                 "name": "Preschool Program",
                 "description": "Early learning preschool program focused on social, emotional, and developmental growth."
             }
