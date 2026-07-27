@@ -102,9 +102,29 @@ export const localBusinessSchema = {
     ],
 
     // Area Served
-
-
-    "areaServed": {
+    "areaServed": [
+        {
+            "@type": "City",
+            "name": "Milton"
+        },
+        {
+            "@type": "City",
+            "name": "Oakville"
+        },
+        {
+            "@type": "City",
+            "name": "Burlington"
+        },
+        {
+            "@type": "City",
+            "name": "Mississauga"
+        },
+        {
+            "@type": "City",
+            "name": "Halton Hills"
+        }
+    ],
+    "serviceArea": {
         "@type": "GeoCircle",
         "geoMidpoint": {
             "@type": "GeoCoordinates",
