@@ -40,7 +40,7 @@ const Home = () => {
                             Situated near Highway 401 and just minutes from downtown Milton, our daycare makes daily drop-offs and pick-ups easy for busy parents commuting throughout the area.
                         </p>
 
-                        <p>
+                        <p className="w-full flex justify-center items-center m-4 flex-1">
                             We welcome children from neighborhoods across
                             Milton, including Clarke, Scott, Willmott, Beaty,
                             Harrison, Dempsey, Timberlea, and surrounding
