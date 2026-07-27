@@ -134,3 +134,39 @@ export const localBusinessSchema = {
         "geoRadius": 20000
     },
 };
+
+export const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+
+    // Unique Entity Identifier
+    "@id": "",
+
+    // Organization Information
+    "name": "",
+    "url": "",
+    "logo": "",
+    "description": "",
+
+    // Contact Information
+    "email": "",
+    "telephone": "",
+
+    // Brand / Social Profiles
+    "sameAs": [
+        ""
+    ],
+
+    // Contact Point (optional)
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "",
+        "contactType": "",
+        "email": ""
+    },
+
+    // Location Relationship (connects to LocalBusiness)
+    "location": {
+        "@id": ""
+    }
+};
