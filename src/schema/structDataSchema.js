@@ -14,7 +14,7 @@ export const localBusinessSchema = {
     // Physical Location
     "address": {
         "@type": "PostalAddress",
-        "streetAddress": "150 Nipissing Rd Units ",
+        "streetAddress": "150 Nipissing Rd Units #10 & 11",
         "addressLocality": "Milton",
         "addressRegion": "ON",
         "postalCode": "",
