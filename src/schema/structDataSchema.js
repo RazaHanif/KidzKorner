@@ -188,7 +188,7 @@ export const breadcrumbSchema = ({ breadcrumbs }) => {
         "itemListElement": breadcrumbs.map((crumb, index) => ({
             "@type": "ListItem",
             "position": index + 1,
-            
+            "name": crumb.name
         }))
     }
 };
