@@ -165,8 +165,7 @@ export const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
 
-    // Unique Entity Identifier
-    "@id": "",
+    "@id": WEBSITE_ID,
 
     // Website Information
     "url": "",
