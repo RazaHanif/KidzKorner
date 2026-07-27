@@ -55,8 +55,40 @@ export const localBusinessSchema = {
             "@type": "Offer",
             "itemOffered": {
                 "@type": "Service",
-                "name": "",
-                "description": ""
+                "name": "Toddler Daycare",
+                "description": "Licensed daycare program for toddlers in Milton, Ontario."
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Preschool Program",
+                "description": "Early learning preschool program focused on social, emotional, and developmental growth."
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Before and After School Care",
+                "description": "Licensed before and after school care program for school-age children in Milton."
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "School Age Camps",
+                "description": "Licensed camps offered during PA days, March Break, Summer Break, and Winter Break."
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Indoor Playground",
+                "description": "Indoor playground activities and birthday party experiences for children."
             }
         }
     ],
