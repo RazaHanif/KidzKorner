@@ -4,6 +4,8 @@ export const localBusinessSchema = {
 
     "name": "Kidz Korner",
     "url": "https://www.kidzkornermilton.com/",
+
+
     "logo": "",
     "image": "",
 
