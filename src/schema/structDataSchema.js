@@ -8,7 +8,7 @@ const WEBSITE_ID = "https://www.kidzkornermilton.com/#website"
 
 export const localBusinessSchema = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": [ "LocalBusiness", "ChildCare" ],
 
     "name": "Kidz Korner",
     "@id": BUSINESS_ID,
