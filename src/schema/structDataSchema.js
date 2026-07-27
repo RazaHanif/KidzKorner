@@ -149,7 +149,6 @@ export const organizationSchema = {
     "telephone": PHONE,
     "sameAs": SAME_AS,
 
-    // Contact Point (optional)
     "contactPoint": {
         "@type": "ContactPoint",
         "telephone": PHONE,
@@ -157,8 +156,35 @@ export const organizationSchema = {
         "email": EMAIL
     },
 
-    // Location Relationship (connects to LocalBusiness)
     "location": {
         "@id": BUSINESS_ID
+    }
+};
+
+export const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+
+    // Unique Entity Identifier
+    "@id": "",
+
+    // Website Information
+    "url": "",
+    "name": "",
+    "description": "",
+
+    // Website Owner
+    "publisher": {
+        "@id": ""
+    },
+
+    // Search Functionality (optional)
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": ""
+        },
+        "query-input": "required name=search_term_string"
     }
 };
