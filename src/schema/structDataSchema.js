@@ -33,7 +33,7 @@ export const localBusinessSchema = {
         {
             "@type": "OpeningHoursSpecification",
             "dayOfWeek": [
-                ""
+                "i"
             ],
             "opens": "",
             "closes": ""
