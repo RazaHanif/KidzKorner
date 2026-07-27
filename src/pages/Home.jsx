@@ -53,6 +53,8 @@ const Home = () => {
                         </p>
 
                         <h2>Why Families Choose Kidz Korner</h2>
+                        <h2>Why Families Choose Kidz Korner</h2>
+                        <h2>Why Families Choose Kidz Korner</h2>
                     </div>
                 </div>
             </div>
