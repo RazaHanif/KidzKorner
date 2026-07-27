@@ -174,14 +174,4 @@ export const websiteSchema = {
     "publisher": {
         "@id": ORGANIZATION_ID
     },
-
-    // Search Functionality (optional)
-    "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-            "@type": "EntryPoint",
-            "urlTemplate": ""
-        },
-        "query-input": "required name=search_term_string"
-    }
 };
