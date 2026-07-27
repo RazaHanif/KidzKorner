@@ -71,20 +71,23 @@ const Home = () => {
 
                     <div className="flex flex-col justify-center items-center w-full p-4">
                         <h2>Our Programs</h2>
-                        <p>Briefly introduce
+                        <p>
+                            Briefly introduce
+                            Toddler Daycare
+                            Preschool
+                            Before & After School Care
+                            Summer Camps
+                            March Break Camps
+                            PA Day Programs
 
-Toddler Daycare
-Preschool
-Before & After School Care
-Summer Camps
-March Break Camps
-PA Day Programs
+                            Each with a "Learn More" link.
 
-Each with a "Learn More" link.
+                            This creates stronger internal linking.
+                        </p>
+                    </div>
 
-This creates stronger internal linking.
-</p>
-
+                    <div className="flex flex-col justify-center items-center w-full p-4">
+                        
                     </div>
 
                         <h2>Why Choose a Licensed Daycare?</h2>
