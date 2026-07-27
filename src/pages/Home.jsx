@@ -35,14 +35,7 @@ const Home = () => {
                         <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
                             Licensed Daycare Conveniently Located in Milton
                         </h2>
-                        <p className="w-full flex justify-center items-center m-4 flex-1">
-                            Kidz Korner welcomes families from across Milton, including Clarke, Scott, Willmott, Beaty, Harrison, Dempsey, Timberlea, and nearby communities. 
-                            Our licensed childcare centre is conveniently located to support busy parents looking for trusted daycare close to home. 
-                            Serving Milton families located near Highway 401 close to downtown Milton serving families throughout Halton Region
-                        </p>
-
-                        <p>
-                            Kidz Korner is proud to serve Milton families with high-quality licensed childcare in a convenient, accessible location. 
+                        <p className="w-full flex justify-center items-center m-4 flex-1">                            Kidz Korner is proud to serve Milton families with high-quality licensed childcare in a convenient, accessible location. 
                             Situated near Highway 401 and just minutes from downtown Milton, our daycare makes daily drop-offs and pick-ups easy for busy parents commuting throughout the area.
                         </p>
 
