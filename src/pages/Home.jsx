@@ -17,14 +17,6 @@ const Home = () => {
                             Licensed Daycare & Childcare in Milton
                         </h1> */}
                         
-                        {/* 
-                            Licensed daycare in Milton
-                            Childcare in Milton
-                            Preschool in Milton
-                            Toddler daycare
-                            Before and after school care
-                        */}
-                        
                         {/* <p className="w-full flex justify-center items-center m-4 flex-1">
                                 Kidz Korner is a family-owned business located in the heart of Milton, Ontario.
                                 We offer licensed high quality child care for toddlers, preschoolers, before / after school programs, and licensed school age camps.
