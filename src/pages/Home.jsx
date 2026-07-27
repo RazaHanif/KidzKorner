@@ -96,9 +96,7 @@ const Home = () => {
                         </p>
 
                         <p className="w-full flex justify-center items-center m-4 flex-1">
-                            At Kidz Korner, we follow Ontario's licensed
-                            childcare standards while delivering a play-based
-                            curriculum that supports every child's development.
+                            At Kidz Korner, we follow Ontario's licensed childcare standards while delivering a play-based curriculum that supports every child's development.
                             Our focus is on creating a nurturing environment
                             where children feel secure, develop important life
                             skills, and build a strong foundation for future
