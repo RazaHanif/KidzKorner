@@ -129,7 +129,7 @@ export const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
 
-    "@id": "",
+    "@id": "https:",
 
     // Organization Information
     "name": "",
