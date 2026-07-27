@@ -32,7 +32,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="flex lg:flex-row lg:justify-between lg:items-stretch flex-col justify-center items-center w-full lg:text-justify text-center">
+                <div className="flex lg:flex-row lg:justify-between lg:items-stretch flex-col justify-center items-center w-full lg:text-justify text-center bg-amber-500">
                     <div className="flex flex-col">
                         <div className="flex flex-col justify-center items-center w-full p-4">
                             <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
