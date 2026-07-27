@@ -15,8 +15,8 @@ export const localBusinessSchema = {
     "address": {
         "@type": "PostalAddress",
         "streetAddress": "150 Nipissing Road",
-        "addressLocality": "",
-        "addressRegion": "",
+        "addressLocality": "Milton",
+        "addressRegion": "ON",
         "postalCode": "",
         "addressCountry": ""
     },
