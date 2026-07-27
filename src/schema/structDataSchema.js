@@ -102,6 +102,8 @@ export const localBusinessSchema = {
     ],
 
     // Area Served
+
+
     "areaServed": {
         "@type": "GeoCircle",
         "geoMidpoint": {
