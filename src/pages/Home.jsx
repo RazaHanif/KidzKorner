@@ -41,8 +41,7 @@ const Home = () => {
                             Dempsey, Timberlea, and nearby communities. Our
                             licensed childcare centre is conveniently located to
                             support busy parents looking for trusted daycare
-                            close to home. serving Milton families located near
-                            Highway 401 close to downtown Milton serving families throughout Halton Region
+                            close to home. serving Milton families located near Highway 401 close to downtown Milton serving families throughout Halton Region
                         </p>
 
                         <p>
