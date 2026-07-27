@@ -65,8 +65,7 @@ const Home = () => {
                             for parents to find childcare they can trust. Our
                             caring team of licensed educators builds meaningful
                             relationships with every child, encouraging
-                            confidence, curiosity, and independence through
-                            learning and play.
+                            confidence, curiosity, and independence through learning and play.
                         </p>
 
                         <p className="w-full flex justify-center items-center m-4 flex-1">
