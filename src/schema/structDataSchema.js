@@ -153,7 +153,7 @@ export const organizationSchema = {
     "contactPoint": {
         "@type": "ContactPoint",
         "telephone": PHONE,
-        "contactType": "",
+        "contactType": "Customer Service",
         "email": EMAIL
     },
 
