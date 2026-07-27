@@ -1,6 +1,7 @@
 const BUSINESS_ID = "https://www.kidzkornermilton.com/#business"
 const ORGANIZATION_ID = "https://www.kidzkornermilton.com/#organization"
 
+
 export const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
