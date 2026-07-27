@@ -55,7 +55,8 @@ const Home = () => {
 
                     <div className="flex flex-col justify-center items-center w-full p-4">
                         <h2>Why Families Choose Kidz Korner</h2>
-                        <p>licensed educators
+                        <p>
+                            licensed educators
                         safe environment
                         family owned
                         nurturing staff
