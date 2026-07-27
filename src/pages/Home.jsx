@@ -64,6 +64,7 @@ const Home = () => {
             <meta 
                 name="description" 
                 content="Licensed childcare and daycare in Milton, Ontario. Kidz Korner provides a safe, nurturing environment for children to learn, grow, and thrive." 
+                
             />
             
             <meta 
