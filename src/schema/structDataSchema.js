@@ -159,6 +159,6 @@ export const organizationSchema = {
 
     // Location Relationship (connects to LocalBusiness)
     "location": {
-        "@id": ""
+        "@id": BUSINESS_ID
     }
 };
