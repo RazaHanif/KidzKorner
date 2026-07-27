@@ -149,9 +149,7 @@ export const organizationSchema = {
     "telephone": "",
 
     // Brand / Social Profiles
-    "sameAs": [
-        ""
-    ],
+    "sameAs": SAME_AS,
 
     // Contact Point (optional)
     "contactPoint": {
