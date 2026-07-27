@@ -2,6 +2,12 @@ import PartyForm from "@/components/PartyForm";
 import PartyCard from "@/components/PartyCard";
 import Image from "@/components/Image"
 
+/* 
+LocalBusiness
+Service
+BreadcrumbList
+ */
+
 const Parties = () => {
     return (
         <div className="flex flex-col justify-center items-center w-full gap-2">
