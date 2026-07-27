@@ -10,7 +10,7 @@ const Header = () => {
         >
           <img 
             src='/logo.png'
-            alt='Home'
+            alt='Kidz Korner Milton Logo'
             className='w-30 hover:scale-110 duration-300 ease-in-out'
           />
         </Link>
