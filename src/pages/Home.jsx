@@ -78,8 +78,7 @@ const Home = () => {
                             Kidz Korner offers licensed childcare programs
                             designed to support children through every stage of
                             their early learning journey. 
-                            From curious toddlers
-taking their first steps toward independence to preschoolers preparing for kindergarten, our programs provide age-appropriate learning experiences that encourage growth, creativity, and confidence.
+                            From curious toddlers taking their first steps toward independence to preschoolers preparing for kindergarten, our programs provide age-appropriate learning experiences that encourage growth, creativity, and confidence.
                         </p>
 
                         <p className="w-full flex justify-center items-center m-4 flex-1">
