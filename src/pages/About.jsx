@@ -3,6 +3,11 @@ import ContactUsTable from "@/components/ContactUsTable";
 import HoursTimeTable from "@/components/HoursTimeTable";
 import Image from '@/components/Image'
 
+/* 
+Organization
+BreadcrumbList
+*/
+
 const About = () => {
 
     return (
