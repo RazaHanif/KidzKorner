@@ -45,8 +45,7 @@ const Home = () => {
                             Kidz Korner is proud to serve Milton families with
                             high-quality licensed childcare in a convenient,
                             accessible location. Situated near Highway 401 and
-                            just minutes from downtown Milton, our daycare makes
-                            daily drop-offs and pick-ups easy for busy parents commuting throughout the area.
+                            just minutes from downtown Milton, our daycare makes daily drop-offs and pick-ups easy for busy parents commuting throughout the area.
                         </p>
 
                         <p>
