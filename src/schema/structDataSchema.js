@@ -152,9 +152,9 @@ export const organizationSchema = {
     // Contact Point (optional)
     "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "",
+        "telephone": PHONE,
         "contactType": "",
-        "email": ""
+        "email": EMAIL
     },
 
     // Location Relationship (connects to LocalBusiness)
