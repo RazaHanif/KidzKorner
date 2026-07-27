@@ -1,12 +1,11 @@
-const StructData = ({ src, alt, w = "lg:w-3xs w-sm" }) => {
-  const style = `${w} rounded-lg border-2 shadow-lg`;
+const StructData = ({ schema }) => {
 
   return (
-    <img
-        src={src}
-        alt={alt}
-        loading="lazy"
-        className={style}
+    <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+        __html: JSON.stringify(schema),
+    }}
     />
   );
 };
