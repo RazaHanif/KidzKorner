@@ -91,13 +91,8 @@ Summer Camps
 March Break Camps
 PA Day Programs
 
-Each with a "Learn More" link.
-
-This creates stronger internal linking.
 </p>
-</div>
 
-<div className="flex flex-col justify-center items-center w-full p-4">
 <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
 Why Choose a Licensed Daycare?
 </h2>
