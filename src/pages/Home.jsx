@@ -87,9 +87,6 @@ const Home = () => {
                     </div>
 
                     <div className="flex flex-col justify-center items-center w-full p-4">
-
-                    </div>
-
                         <h2>
                             Why Choose a Licensed Daycare?
                         </h2>
@@ -105,6 +102,8 @@ const Home = () => {
 
                             Google loves educational content.
                         </p>
+                    </div>
+
 
                 </div>
             </div>
