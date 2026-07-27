@@ -68,9 +68,7 @@ const Home = () => {
                             social, emotional, physical, and cognitive skills
                             while having fun in a nurturing classroom
                             environment. 
-                            With years of experience serving Milton
-                            families, we take pride in creating a community
-                            where children receive personalized attention and parents feel like part of the Kidz Korner family.
+                            With years of experience serving Milton families, we take pride in creating a community where children receive personalized attention and parents feel like part of the Kidz Korner family.
                         </p>
                     </div>
 
