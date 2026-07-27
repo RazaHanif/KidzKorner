@@ -33,7 +33,7 @@ export const localBusinessSchema = {
 
     // Social / External Profiles
     "sameAs": [
-        ""
+        "https://www.instagram.com/kidz.kornermilton/"
     ],
 
     // Services Offered
