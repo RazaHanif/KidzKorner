@@ -1,5 +1,7 @@
 const URL = "https://www.kidzkornermilton.com/"
 const SAME_AS = [ "https://www.instagram.com/kidz.kornermilton/" ]
+const EMAIL = "info@kidzkornermilton.com"
+const PHONE = "+19058784697"
 const BUSINESS_ID = "https://www.kidzkornermilton.com/#business"
 const ORGANIZATION_ID = "https://www.kidzkornermilton.com/#organization"
 const WEBSITE_ID = "https://www.kidzkornermilton.com/#website"
@@ -17,8 +19,8 @@ export const localBusinessSchema = {
     "url": URL,
     "description": "Kidz Korner Milton is a licensed daycare and childcare centre providing toddler daycare, preschool programs, before and after school care, and children's camps for families in Milton, Ontario.",
     "logo": "https://www.kidzkornermilton.com/logo.png",
-    "telephone": "+19058784697",
-    "email": "info@kidzkornermilton.com",
+    "telephone": PHONE,
+    "email": EMAIL,
     "address": {
         "@type": "PostalAddress",
         "streetAddress": "150 Nipissing Rd Units #10 & 11",
@@ -145,8 +147,8 @@ export const organizationSchema = {
     "description": "Kidz Korner is a family-owned childcare organization providing licensed daycare, preschool programs, camps, and children's activities in Milton, Ontario.",
 
     // Contact Information
-    "email": "",
-    "telephone": "",
+    "email": EMAIL,
+    "telephone": PHONE,
 
     // Brand / Social Profiles
     "sameAs": SAME_AS,
