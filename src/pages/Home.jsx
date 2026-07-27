@@ -55,7 +55,7 @@ const Home = () => {
                         <h2>Why Families Choose Kidz Korner</h2>
                         <p></p>
 
-                        <h2>Why Families Choose Kidz Korner</h2>
+                        <h2>Our Programs</h2>
                         <p></p>
 
                         <h2>Why Families Choose Kidz Korner</h2>
