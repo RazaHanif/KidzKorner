@@ -145,12 +145,8 @@ export const organizationSchema = {
     "url": URL,
     "logo": "https://www.kidzkornermilton.com/logo.png",
     "description": "Kidz Korner is a family-owned childcare organization providing licensed daycare, preschool programs, camps, and children's activities in Milton, Ontario.",
-
-    // Contact Information
     "email": EMAIL,
     "telephone": PHONE,
-
-    // Brand / Social Profiles
     "sameAs": SAME_AS,
 
     // Contact Point (optional)
