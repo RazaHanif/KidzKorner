@@ -130,7 +130,8 @@ const Home = () => {
                 content="Looking for a licensed daycare in Milton? Kidz Korner provides trusted childcare, toddler daycare, preschool programs, before and after school care, and licensed camps for local families."
             />
             <meta 
-                property="og:type"content="website"/>
+                property="og:type"
+                content="website"/>
             <meta
                 property="og:url"
                 content="https://www.kidzkornermilton.com/"
