@@ -3,7 +3,7 @@ export const localBusinessSchema = {
     "@type": "LocalBusiness",
 
     "name": "Kidz Korner",
-    "url": "",
+    "url": "www.kidzkornermilton.com",
     "logo": "",
     "image": "",
 
