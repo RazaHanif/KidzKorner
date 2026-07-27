@@ -50,8 +50,13 @@ export const localBusinessSchema = {
 
     // Area Served
     "areaServed": {
-        "@type": "City",
-        "name": ""
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+            "@type": "GeoCoordinates",
+            "latitude": 41.108237,
+            "longitude": -80.642982
+        },
+        "geoRadius": 1000
     },
 
     // Parent Organization Reference (optional)
