@@ -82,7 +82,6 @@ const Home = () => {
                 property="og:url" 
                 content="https://www.kidzkornermilton.com/" 
             />
-            
             <meta 
                 property="og:image" 
                 content="https://www.kidzkornermilton.com/og-image.jpg" 
