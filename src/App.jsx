@@ -18,7 +18,7 @@ function App() {
       <div className='flex-1 flex flex-col w-full p-4 relative'>
         <Routes>
           <Route path='/' element={<Home />} />
-          {/*  */}
+          {/* /childcare -> /daycare */}
           <Route path='/childcare' element={<Childcare />} />
           <Route path='/parties' element={<Parties />} />
           <Route path='/playground' element={<Playground />} />
