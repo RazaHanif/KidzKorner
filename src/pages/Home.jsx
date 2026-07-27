@@ -36,6 +36,8 @@ const Home = () => {
 
                         </p>
 
+                    </div>
+
                         <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
                             Licensed Daycare Conveniently Located in Milton
                         </h2>
@@ -84,9 +86,6 @@ curriculum
 
 Google loves educational content.</p>
 
-
-                        
-                    </div>
                 </div>
             </div>
 
