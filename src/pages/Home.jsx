@@ -51,57 +51,57 @@ const Home = () => {
 
                     </div>
 
-                    <div className="flex flex-col justify-center items-center w-full p-4">
-                        <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
-                            Why Families Choose Kidz Korner
-                        </h2>
-                        <p className="w-full flex justify-center items-center m-4 flex-1">
-                            licensed educators
-                            safe environment
-                            family owned
-                            nurturing staff
-                            learning through play
-                            small class sizes (if applicable)
-                            years serving Milton
-                        </p>
-                    </div>
+<div className="flex flex-col justify-center items-center w-full p-4">
+<h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
+Why Families Choose Kidz Korner
+</h2>
+<p className="w-full flex justify-center items-center m-4 flex-1">
+licensed educators
+safe environment
+family owned
+nurturing staff
+learning through play
+small class sizes (if applicable)
+years serving Milton
+</p>
+</div>
 
-                    <div className="flex flex-col justify-center items-center w-full p-4">
-                        <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
-                            Our Programs
-                        </h2>
-                        <p className="w-full flex justify-center items-center m-4 flex-1">
-                            Briefly introduce
-                            Toddler Daycare
-                            Preschool
-                            Before & After School Care
-                            Summer Camps
-                            March Break Camps
-                            PA Day Programs
+<div className="flex flex-col justify-center items-center w-full p-4">
+<h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
+Our Programs
+</h2>
+<p className="w-full flex justify-center items-center m-4 flex-1">
+Briefly introduce
+Toddler Daycare
+Preschool
+Before & After School Care
+Summer Camps
+March Break Camps
+PA Day Programs
 
-                            Each with a "Learn More" link.
+Each with a "Learn More" link.
 
-                            This creates stronger internal linking.
-                        </p>
-                    </div>
+This creates stronger internal linking.
+</p>
+</div>
 
-                    <div className="flex flex-col justify-center items-center w-full p-4">
-                        <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
-                            Why Choose a Licensed Daycare?
-                        </h2>
-                        <p className="w-full flex justify-center items-center m-4 flex-1">
-                            Parents search this constantly.
-                            Explain:
+<div className="flex flex-col justify-center items-center w-full p-4">
+<h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
+Why Choose a Licensed Daycare?
+</h2>
+<p className="w-full flex justify-center items-center m-4 flex-1">
+Parents search this constantly.
+Explain:
 
-                            Ministry regulations
-                            safety
-                            inspections
-                            educator qualifications
-                            curriculum
+Ministry regulations
+safety
+inspections
+educator qualifications
+curriculum
 
-                            Google loves educational content.
-                        </p>
-                    </div>
+Google loves educational content.
+</p>
+</div>
 
 
                 </div>
