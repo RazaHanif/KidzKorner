@@ -177,8 +177,20 @@ export const websiteSchema = {
 
 export const breadcrumbSchema = ({ breadcrumbs }) => {
     /* 
-        name: "Home"
-        item: "https://www.kidzkornermilton.com/"
+const schema = createBreadcrumbSchema([
+    {
+        name: "Home",
+        url: "https://www.kidzkornermilton.com/"
+    },
+    {
+        name: "Daycare",
+        url: "https://www.kidzkornermilton.com/daycare"
+    },
+    {
+        name: "Toddler Daycare",
+        url: "https://www.kidzkornermilton.com/daycare/toddler-daycare-milton"
+    }
+]);
     */
 
     return {
