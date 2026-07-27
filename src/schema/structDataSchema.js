@@ -11,7 +11,7 @@ export const localBusinessSchema = {
     "@type": "LocalBusiness",
 
     "name": "Kidz Korner",
-    "id": BUSINESS_ID,
+    "@id": BUSINESS_ID,
     "parentOrganization": {
         "id": ORGANIZATION_ID
     },
