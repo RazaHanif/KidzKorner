@@ -29,16 +29,7 @@ export const localBusinessSchema = {
     },
 
     // Business Hours
-    "openingHoursSpecification": [
-        {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-                "i"
-            ],
-            "opens": "",
-            "closes": ""
-        }
-    ],
+    "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 09:00-14:00",
 
     // Price Information (optional)
     "priceRange": "",
