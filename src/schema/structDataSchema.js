@@ -140,7 +140,7 @@ export const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
 
-    "@id": "https://www.kidzkornermilton.com/#",
+    "@id": ORGANIZATION_ID,
     "name": "Kidz Korner",
     "url": URL,
     "logo": "https://www.kidzkornermilton.com/logo.png",
