@@ -70,8 +70,6 @@ const Home = () => {
                     </div>
 
                     <div className="flex flex-col justify-center items-center w-full p-4">
-                        
-                    </div>
                         <h2>Our Programs</h2>
                         <p>Briefly introduce
 
@@ -84,7 +82,10 @@ PA Day Programs
 
 Each with a "Learn More" link.
 
-This creates stronger internal linking.</p>
+This creates stronger internal linking.
+</p>
+
+                    </div>
 
                         <h2>Why Choose a Licensed Daycare?</h2>
                         <p>Parents search this constantly.
