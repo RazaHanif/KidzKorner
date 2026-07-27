@@ -1,4 +1,4 @@
-const BUSINESS_ID = "https://www.kidzkornermilton.com/"
+const BUSINESS_ID = "https://www.kidzkornermilton.com/#business"
 
 export const localBusinessSchema = {
     "@context": "https://schema.org",
