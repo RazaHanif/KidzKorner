@@ -103,14 +103,11 @@ const Home = () => {
                 </div>
             </div>
 
-            /* 
-LocalBusiness
-Organization
-WebSite
-*/
 
 {/* 
-
+    LocalBusiness
+    Organization
+    WebSite
 */}
 
             <title>Licensed Daycare in Milton, Ontario | Kidz Korner</title>
