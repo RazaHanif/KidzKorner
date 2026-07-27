@@ -5,8 +5,8 @@ import { localBusinessSchema, organizationSchema, websiteSchema } from "../schem
 const Home = () => {
     return (
         <div className="flex flex-col justify-center items-center gap-2 w-full">
-            <div className=" flex flex-col justify-center items-center w-full mb-4">
-                <h1 className=" text-3xl font-bold font-serif text-center">
+            <div className="flex flex-col justify-center items-center w-full mb-4">
+                <h1 className="text-3xl font-bold font-serif text-center">
                     Licensed Daycare & Childcare in Milton
                 </h1>
             </div>
@@ -120,12 +120,12 @@ const Home = () => {
                 content="Looking for a licensed daycare in Milton? Kidz Korner provides trusted childcare, toddler daycare, preschool programs, before and after school care, and licensed camps for local families."
             />
 
-            <meta property="og:title" content="Kidz Korner Milton" />
+            <meta property="og:title"content="Kidz Korner Milton"/>
             <meta
                 property="og:description"
                 content="Looking for a licensed daycare in Milton? Kidz Korner provides trusted childcare, toddler daycare, preschool programs, before and after school care, and licensed camps for local families."
             />
-            <meta property="og:type" content="website" />
+            <meta property="og:type"content="website"/>
             <meta
                 property="og:url"
                 content="https://www.kidzkornermilton.com/"
