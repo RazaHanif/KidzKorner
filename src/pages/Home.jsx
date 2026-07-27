@@ -70,7 +70,6 @@ const Home = () => {
                 property="og:title" 
                 content="Kidz Korner Milton" 
                 />
-
             <meta 
                 property="og:description" 
                 content="Looking for a licensed daycare in Milton? Kidz Korner provides trusted childcare, toddler daycare, preschool programs, before and after school care, and licensed camps for local families."
