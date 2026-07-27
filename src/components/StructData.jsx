@@ -1,5 +1,4 @@
 const StructData = ({ schema }) => {
-
   return (
     <script
         type="application/ld+json"
