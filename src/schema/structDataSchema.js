@@ -58,10 +58,4 @@ export const localBusinessSchema = {
         },
         "geoRadius": 30000
     },
-
-    // Parent Organization Reference (optional)
-    "parentOrganization": {
-        "@type": "Organization",
-        "name": ""
-    }
 };
