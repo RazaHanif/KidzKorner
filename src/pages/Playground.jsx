@@ -1,6 +1,12 @@
 import PlaygroundAccordion from "@/components/PlaygroundAccordion";
 import Image from "@/components/Image";
 
+/* 
+LocalBusiness
+Service
+BreadcrumbList
+ */
+
 const Playground = () => {
     return (
         <div className="flex flex-col justify-center items-center w-full gap-4 text-justify">

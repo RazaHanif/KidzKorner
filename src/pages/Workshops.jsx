@@ -1,6 +1,12 @@
 import WorkshopForm from "@/components/WorkshopFrom"
 import WorkshopCarousel from "@/components/WorkshopCarousel";
 
+/* 
+LocalBusiness
+Service
+BreadcrumbList
+ */
+
 const Workshops = () => {
     return (
         <div className="flex flex-col justify-center items-center w-full gap-2">
