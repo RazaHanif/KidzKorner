@@ -1,12 +1,12 @@
 const StructData = ({ schema }) => {
-  return (
-    <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schema),
-        }}
-    />
-  );
+    return (
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+                __html: JSON.stringify(schema),
+            }}
+        />
+    );
 };
 
 export default StructData;
