@@ -131,7 +131,8 @@ const Home = () => {
             />
             <meta 
                 property="og:type"
-                content="website"/>
+                content="website"
+            />
             <meta
                 property="og:url"
                 content="https://www.kidzkornermilton.com/"
