@@ -1,15 +1,77 @@
 export const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: "Kidz Korner Milton",
-    url: "https://www.kidzkornermilton.com",
-    telephone: "+19058784697",
-    address: {
+
+    // Basic Business Information
+    "name": "",
+    "alternateName": "",
+    "description": "",
+    "url": "",
+    "logo": "",
+    "image": "",
+
+    // Contact Information
+    "telephone": "",
+    "email": "",
+
+    // Physical Location
+    "address": {
         "@type": "PostalAddress",
-        streetAddress: "150 Nipissing Rd Units 10 & 11",
-        addressLocality: "Milton",
-        addressRegion: "ON",
-        postalCode: "L9T 5B3",
-        addressCountry: "CA"
+        "streetAddress": "",
+        "addressLocality": "",
+        "addressRegion": "",
+        "postalCode": "",
+        "addressCountry": ""
+    },
+
+    // Geographic Coordinates
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "",
+        "longitude": ""
+    },
+
+    // Business Hours
+    "openingHoursSpecification": [
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                ""
+            ],
+            "opens": "",
+            "closes": ""
+        }
+    ],
+
+    // Price Information (optional)
+    "priceRange": "",
+
+    // Social / External Profiles
+    "sameAs": [
+        ""
+    ],
+
+    // Services Offered
+    "makesOffer": [
+        {
+            "@type": "Offer",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "",
+                "description": ""
+            }
+        }
+    ],
+
+    // Area Served
+    "areaServed": {
+        "@type": "City",
+        "name": ""
+    },
+
+    // Parent Organization Reference (optional)
+    "parentOrganization": {
+        "@type": "Organization",
+        "name": ""
     }
 };
