@@ -5,8 +5,7 @@ export const localBusinessSchema = {
     "name": "Kidz Korner",
     "url": "https://www.kidzkornermilton.com/",
 
-    "logo": "",
-    "image": "",
+    "logo": "logo.png",
 
     // Contact Information
     "telephone": "+19058784697",
