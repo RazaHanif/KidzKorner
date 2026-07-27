@@ -23,13 +23,10 @@ const Home = () => {
                             Our camps are available during PA/PD days, March Break, Summer Break, and Winter Break. 
                             Our commitment to providing loving, nurturing care has earned the trust of families throughout the community, creating a multi-generational legacy.
                         </p>
-
                     </div>
-
                 </div>
 
                 <div className="flex flex-col justify-center items-center lg:w-3/4 w-full lg:text-justify text-center">
-
                     <div className="flex flex-col justify-center items-center w-full p-4">
                         <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
                             Licensed Daycare Conveniently Located in Milton
