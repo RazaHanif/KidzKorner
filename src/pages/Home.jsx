@@ -64,8 +64,7 @@ const Home = () => {
                             As a family-owned licensed
                             daycare in Milton, we understand how important it is
                             for parents to find childcare they can trust. 
-                            Our
-                            caring team of licensed educators builds meaningful relationships with every child, encouraging confidence, curiosity, and independence through learning and play.
+                            Our caring team of licensed educators builds meaningful relationships with every child, encouraging confidence, curiosity, and independence through learning and play.
                         </p>
 
                         <p className="w-full flex justify-center items-center m-4 flex-1">
