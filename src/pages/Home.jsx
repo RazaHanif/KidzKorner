@@ -53,7 +53,13 @@ const Home = () => {
                         </p>
 
                         <h2>Why Families Choose Kidz Korner</h2>
-                        <p></p>
+                        <p>licensed educators
+safe environment
+family owned
+nurturing staff
+learning through play
+small class sizes (if applicable)
+years serving Milton</p>
 
                         <h2>Our Programs</h2>
                         <p></p>
