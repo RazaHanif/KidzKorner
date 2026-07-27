@@ -24,7 +24,7 @@ export const localBusinessSchema = {
     // Geographic Coordinates
     "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "",
+        "latitude": "40.741895",
         "longitude": ""
     },
 
