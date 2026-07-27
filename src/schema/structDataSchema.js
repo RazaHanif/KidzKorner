@@ -169,7 +169,7 @@ export const websiteSchema = {
 
     "url": URL,
     "name": "Kidz Korner",
-    "description": "fficial website for Kidz Korner Milton, a licensed daycare providing childcare, preschool programs, camps, and children's activities in Milton, Ontario.",
+    "description": "Official website for Kidz Korner Milton, a licensed daycare providing childcare, preschool programs, camps, and children's activities in Milton, Ontario.",
 
     "publisher": {
         "@id": ORGANIZATION_ID
