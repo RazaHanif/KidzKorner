@@ -8,7 +8,7 @@ export const localBusinessSchema = {
     "image": "",
 
     // Contact Information
-    "telephone": "",
+    "telephone": "+1905",
     "email": "",
 
     // Physical Location
