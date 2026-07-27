@@ -177,6 +177,9 @@ export const websiteSchema = {
 };
 
 export const breadcrumbSchema = ({breadcrumb}) => {
+    /* 
+    
+    */
 
     return {
         "@context": "https://schema.org",
