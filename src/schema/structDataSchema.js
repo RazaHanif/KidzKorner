@@ -131,6 +131,6 @@ export const localBusinessSchema = {
             "latitude": "43.526646",
             "longitude": "-79.891205"
         },
-        "geoRadius": 30000
+        "geoRadius": 20000
     },
 };
