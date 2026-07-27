@@ -185,6 +185,6 @@ export const breadcrumbSchema = ({ breadcrumbs }) => {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
 
-        "itemListElement": breadcrumbs
+        "itemListElement": breadcrumbs.map()
     }
 };
