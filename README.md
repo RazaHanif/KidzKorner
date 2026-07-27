@@ -105,6 +105,4 @@ inspections
 educator qualifications
 curriculum
 
-Google loves educational content.
 </p>
-</div>
