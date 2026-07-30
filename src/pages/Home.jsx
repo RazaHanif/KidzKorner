@@ -71,7 +71,7 @@ const Home = () => {
                     */}
 
                     <div className="flex flex-1 flex-col gap-4 w-full border-2">
-                        <div className="flex lg:flex-row flex-col gap-4">
+                        <div className="flex lg:flex-row flex-col gap-4 border-2">
                             <Card>
                                 <CardHeader>
                                     <CardTitle>
