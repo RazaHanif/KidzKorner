@@ -122,11 +122,6 @@ const Home = () => {
                                             Card Content
                                         </p>
                                     </CardContent>
-                                    <CardFooter>
-                                        <p>
-                                            Card Footer
-                                        </p>
-                                    </CardFooter>
                                 </Card>
                                 <Button className="w-1/2">
                                     Preschool Program
