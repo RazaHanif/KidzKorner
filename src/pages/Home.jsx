@@ -71,7 +71,7 @@ const Home = () => {
                             </p>
 
                             <div className="flex flex-1 flex-col gap-4 w-full">
-                                <div className="border-2 p-4 flex lg:flex-row flex-col gap-4">
+                                <div className="flex lg:flex-row flex-col gap-4">
                                     <Card>
                                         <CardHeader>
                                             <CardTitle>
