@@ -61,7 +61,7 @@ const Home = () => {
                                     to="/about" 
                                     end
                                 >
-                                    Schedule Tour
+                                    Explore Programs
                                 </NavLink>
                             </Button>
                             <Button>Explore Programs</Button>
