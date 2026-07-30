@@ -36,7 +36,7 @@ const Home = () => {
                         */}
                         <Button>Schedule a Tour</Button>
                         {/* 
-                            Jump to Programs Page 
+                            Jump to daycare Page 
                         */}
                         <Button>Schedule a Tour</Button>
                         <Button>Schedule a Tour</Button>
