@@ -129,6 +129,8 @@ const Home = () => {
                         </div>
 
                         <div className="flex md:flex-row flex-col gap-4">
+                            <NavLink to="/childcare" end className="hover:scale-102 ease-in-out duration-300">
+                            </NavLink>
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
                                     <CardTitle>
