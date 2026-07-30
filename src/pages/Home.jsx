@@ -175,7 +175,7 @@ const Home = () => {
                             <Card>
                                 <CardContent>
                                     <div>
-                                        <h2>
+                                        <h2 className="">
                                             Licensed Ontario Childcare
                                         </h2>
                                         <p>
@@ -183,7 +183,7 @@ const Home = () => {
                                         </p>
                                     </div>
                                     <div>
-                                        <h2>
+                                        <h2 className="">
                                             Family-Owned
                                         </h2>
                                         <p>
@@ -191,7 +191,7 @@ const Home = () => {
                                         </p>
                                     </div>
                                     <div>
-                                        <h2>
+                                        <h2 className="">
                                             Experienced Educators
                                         </h2>
                                         <p>
@@ -199,7 +199,7 @@ const Home = () => {
                                         </p>
                                     </div>
                                     <div>
-                                        <h2>
+                                        <h2 className="">
                                             Play-Based Learning
                                         </h2>
                                         <p>
@@ -207,7 +207,7 @@ const Home = () => {
                                         </p>
                                     </div>
                                     <div>
-                                        <h2>
+                                        <h2 className="">
                                             Safe Environment
                                         </h2>
                                         <p>
@@ -215,7 +215,7 @@ const Home = () => {
                                         </p>
                                     </div>
                                     <div>
-                                        <h2>
+                                        <h2 className="">
                                             Strong Parent Communication
                                         </h2>
                                         <p>
