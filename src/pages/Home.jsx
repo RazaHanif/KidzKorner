@@ -176,7 +176,7 @@ const Home = () => {
                                 <CardContent>
                                     <div className="flex flex-col items-start justify-start w-full">
                                         <h2 className="font-bold">
-                                            Licensed Ontario Childcare
+                                             Licensed Ontario Childcare
                                         </h2>
                                         <p className="text-start indent-4">
                                             Meets Ontario Ministry of Education licensing standards.
