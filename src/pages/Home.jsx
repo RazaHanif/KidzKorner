@@ -24,7 +24,7 @@ const Home = () => {
                 </h1>
             </div>
 
-            
+            {/* Hero Section */}
             <div className="flex flex-col justify-center items-center lg:w-3/4 w-full lg:text-justify text-center">
                 <div className="flex lg:flex-row flex-col justify-center items-center gap-4">
                     <Image
