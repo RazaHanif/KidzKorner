@@ -52,7 +52,9 @@ const Home = () => {
                                 </NavLink>
                             </Button>
 
-                            <Button>
+                            <Button
+                            className="hover:scale-102 ease-in-out duration-300"
+                            >
                                 <NavLink 
                                     to="/childcare" 
                                     end
