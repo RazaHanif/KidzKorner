@@ -58,13 +58,12 @@ const Home = () => {
                             */}
                             <Button>
                                 <NavLink 
-                                    to="/about" 
+                                    to="/childcare" 
                                     end
                                 >
                                     Explore Programs
                                 </NavLink>
                             </Button>
-                            <Button>Explore Programs</Button>
                         </div>
                     </div>
                 </div>
