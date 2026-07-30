@@ -38,7 +38,7 @@ const Home = () => {
                         {/* 
                             Jump to /daycare 
                         */}
-                        <Button>View our Programs</Button>
+                        <Button>Explore Programs</Button>
                     </div>
                 </div>
 
