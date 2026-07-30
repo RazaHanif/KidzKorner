@@ -102,16 +102,16 @@ const Home = () => {
                             </p>
 
                             <div className="flex flex-1 flex-col gap-4 w-full">
-                                <Button>
+                                <Button className="w-3/4">
                                     Toddler Daycare
                                 </Button>
-                                <Button>
+                                <Button className="w-3/4">
                                     Preschool Program
                                 </Button>
-                                <Button>
+                                <Button className="w-3/4">
                                     Before/After School Care
                                 </Button>
-                                <Button>
+                                <Button className="w-3/4">
                                     Camps
                                 </Button>
 
