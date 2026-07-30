@@ -82,7 +82,7 @@ const Home = () => {
                     
                     */}
 
-                    <div className="flex flex-1 flex-col gap-4 w-full border-2">
+                    <div className="flex flex-1 flex-col gap-4 w-full">
                         {/* 
                             TODO: update NavLinks when those pages are created 
                         */}
