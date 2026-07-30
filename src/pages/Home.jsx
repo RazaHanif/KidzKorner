@@ -57,7 +57,7 @@ const Home = () => {
                     <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
                         Programs for Every Stage of Early Learning
                     </h2>
-{/* 
+                    {/* 
                     <p className="w-full flex justify-center items-center m-4 flex-1">
                         Kidz Korner offers licensed childcare programs designed to support children through every stage of their early learning journey. 
                         From curious toddlers taking their first steps toward independence to preschoolers preparing for kindergarten, our programs provide age-appropriate learning experiences that encourage growth, creativity, and confidence.
