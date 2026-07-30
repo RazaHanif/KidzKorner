@@ -31,7 +31,7 @@ const Home = () => {
 
                         </p>
 
-                        <div className="border-2 w-full justify-between">
+                        <div className="border-2 w-full justify-center items-end">
                             {/* 
                                 Maybe a button to call? or jump to the injury form on the childcare/aboutus page 
                                 */}
