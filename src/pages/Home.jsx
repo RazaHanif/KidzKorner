@@ -84,7 +84,12 @@ const Home = () => {
                             <Card>
                                 <CardContent>
                                     <div>
-                                        <h2></h2>
+                                        <h2>
+                                            Licensed Ontario Childcare
+                                        </h2>
+                                        <p>
+                                            
+                                        </p>
                                     </div>
                                 </CardContent>
                             </Card>
