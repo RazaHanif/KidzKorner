@@ -120,7 +120,7 @@ const Home = () => {
                                             Safe Environment
                                         </h2>
                                         <p>
-                                            Meets Ontario Ministry of Education licensing standards.
+                                            A secure, welcoming space where children can thrive.
                                         </p>
                                     </div>
                                     <div>
