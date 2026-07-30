@@ -194,7 +194,7 @@ const Home = () => {
                     <Card>
                         <CardContent className="flex flex-col">
                             <div className="flex flex-col gap-4">
-                                <div className="flex flex-col items-start justify-start w-full">
+                                <div className="flex flex-colitems-start justify-start w-full">
                                     <h2 className="font-bold">
                                         ⭐ Licensed Ontario Childcare
                                     </h2>
@@ -220,7 +220,6 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className="flex flex-col gap-4">
-
                                 <div className="flex flex-col items-start justify-start w-full">
                                     <h2 className="font-bold">
                                         🎨 Play-Based Learning
