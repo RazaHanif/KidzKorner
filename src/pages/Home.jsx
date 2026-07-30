@@ -126,6 +126,48 @@ const Home = () => {
                                     </CardContent>
                                 </Card>
 
+                                <Card>
+                                    <CardHeader>
+                                        <CardTitle>
+                                            Toddler Daycare
+                                        </CardTitle>
+                                        <CardDescription>
+                                            A safe, nurturing environment where toddlers learn through play while developing confidence, social skills, and independence.
+                                        </CardDescription>
+                                    </CardHeader>
+                                    <CardContent>
+                                        <Button>Learn More</Button>
+                                    </CardContent>
+                                </Card>
+
+                                <Card>
+                                    <CardHeader>
+                                        <CardTitle>
+                                            Toddler Daycare
+                                        </CardTitle>
+                                        <CardDescription>
+                                            A safe, nurturing environment where toddlers learn through play while developing confidence, social skills, and independence.
+                                        </CardDescription>
+                                    </CardHeader>
+                                    <CardContent>
+                                        <Button>Learn More</Button>
+                                    </CardContent>
+                                </Card>
+
+                                <Card>
+                                    <CardHeader>
+                                        <CardTitle>
+                                            Toddler Daycare
+                                        </CardTitle>
+                                        <CardDescription>
+                                            A safe, nurturing environment where toddlers learn through play while developing confidence, social skills, and independence.
+                                        </CardDescription>
+                                    </CardHeader>
+                                    <CardContent>
+                                        <Button>Learn More</Button>
+                                    </CardContent>
+                                </Card>
+
                                 
                             </div>
                         </div>
