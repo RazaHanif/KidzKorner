@@ -47,7 +47,7 @@ const Home = () => {
                             */}
                             <Button>
                                 <NavLink 
-                                    to="/childcare" 
+                                    to="/about" 
                                     end
                                 >
                                     Learn More
