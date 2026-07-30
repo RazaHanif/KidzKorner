@@ -125,10 +125,14 @@ const Home = () => {
                                             </CardAction>
                                         </CardHeader>
                                         <CardContent>
-                                            <p>Card Content</p>
+                                            <p>
+                                                Card Content
+                                            </p>
                                         </CardContent>
                                         <CardFooter>
-                                            <p>Card Footer</p>
+                                            <p>
+                                                Card Footer
+                                            </p>
                                         </CardFooter>
                                     </Card>
                                 </Button>
