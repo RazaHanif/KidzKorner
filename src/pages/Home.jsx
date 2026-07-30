@@ -83,7 +83,9 @@ const Home = () => {
 
                             <Card>
                                 <CardContent>
-                                    <p>Card Content</p>
+                                    <div>
+                                        <h2></h2>
+                                    </div>
                                 </CardContent>
                             </Card>
 
