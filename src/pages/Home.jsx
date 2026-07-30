@@ -1,4 +1,5 @@
 import Image from "@/components/Image";
+import { Button } from "@/com"
 import StructData from "../components/StructData";
 import { localBusinessSchema, organizationSchema, websiteSchema } from "../schema/structDataSchema";
 
