@@ -101,7 +101,7 @@ const Home = () => {
                                     </div>
                                     <div>
                                         <h2>
-                                            Licensed Ontario Childcare
+                                            Experienced Educators
                                         </h2>
                                         <p>
                                             Meets Ontario Ministry of Education licensing standards.
