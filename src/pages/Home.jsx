@@ -86,7 +86,6 @@ const Home = () => {
                         */}
                         <div className="flex md:flex-row flex-col gap-4">
                             <NavLink to="/childcare" end>
-                            </NavLink>
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
                                     <CardTitle>
@@ -101,12 +100,13 @@ const Home = () => {
                                         <NavLink 
                                             to="/childcare" 
                                             end
-                                        >
+                                            >
                                             Learn More
                                         </NavLink>
                                     </Button>
                                 </CardContent>
                             </Card>
+                            </NavLink>
 
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
