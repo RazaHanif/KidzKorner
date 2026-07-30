@@ -58,20 +58,9 @@ const Home = () => {
                                 className="hover:scale-105 ease-in-out duration-300"
                             >
                                 <Button className="cursor-pointer">
-                                    Schedule Tour
+                                    Explore Programs
                                 </Button>
                             </NavLink>
-
-                            <Button
-                            className="hover:scale-105 ease-in-out duration-300"
-                            >
-                                <NavLink 
-                                    to="/childcare" 
-                                    end
-                                >
-                                    Explore Programs
-                                </NavLink>
-                            </Button>
                         </div>
                     </div>
                 </div>
