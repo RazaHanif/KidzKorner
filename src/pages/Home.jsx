@@ -170,7 +170,7 @@ const Home = () => {
                         Why Families Choose Kidz Korner
                     </h2>
 
-                    <Card class>
+                    <Card className="w-full">
                         <CardContent className="flex flex-col gap-4">
                             <div className="flex flex-col items-start justify-start w-full">
                                 <h2 className="font-bold">
