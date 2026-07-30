@@ -103,28 +103,29 @@ const Home = () => {
                                 </Card>
                             </NavLink>
 
-                            <NavLink to="/childcare" end className="hover:scale-102 ease-in-out duration-300"></NavLink>
+                            <NavLink to="/childcare" end className="hover:scale-102 ease-in-out duration-300">
 
-                            <Card className="flex-1 flex">
-                                <CardHeader className="text-start">
-                                    <CardTitle>
-                                        Preschool
-                                    </CardTitle>
-                                    <CardDescription>
-                                        Preparing children for kindergarten through play-based learning, creativity, and structured early education.
-                                    </CardDescription>
-                                </CardHeader>
-                                <CardContent className="flex-1 flex justify-end items-end">
-                                    <Button>
-                                        <NavLink 
-                                            to="/childcare" 
-                                            end
-                                        >
-                                            Learn More
-                                        </NavLink>
-                                    </Button>
-                                </CardContent>
-                            </Card>
+                                <Card className="flex-1 flex">
+                                    <CardHeader className="text-start">
+                                        <CardTitle>
+                                            Preschool
+                                        </CardTitle>
+                                        <CardDescription>
+                                            Preparing children for kindergarten through play-based learning, creativity, and structured early education.
+                                        </CardDescription>
+                                    </CardHeader>
+                                    <CardContent className="flex-1 flex justify-end items-end">
+                                        <Button>
+                                            <NavLink 
+                                                to="/childcare" 
+                                                end
+                                            >
+                                                Learn More
+                                            </NavLink>
+                                        </Button>
+                                    </CardContent>
+                                </Card>
+                            </NavLink>
                         </div>
 
                         <div className="flex md:flex-row flex-col gap-4">
