@@ -34,7 +34,7 @@ const Home = () => {
                             A Trusted Licensed Daycare in Milton
                         </h2>
 
-                        <p className="w-full flex justify-center items-center m-4 flex-1">
+                        <p className="w-full flex justify-center items-center flex-1">
                             Kidz Korner is a family-owned, licensed daycare in Milton, Ontario, dedicated to providing exceptional early learning and childcare for local families. 
                             We offer toddler daycare, preschool programs, before and after school care, and licensed camps during PA Days, March Break, Summer Break, and Winter Break. 
                             Our commitment to nurturing children in a safe, engaging environment has earned the trust of Milton families for generations.
@@ -68,12 +68,12 @@ const Home = () => {
                         Programs for Every Stage of Early Learning
                     </h2>
                     {/* 
-                    <p className="w-full flex justify-center items-center m-4 flex-1">
+                    <p className="w-full flex justify-center items-center flex-1">
                         Kidz Korner offers licensed childcare programs designed to support children through every stage of their early learning journey. 
                         From curious toddlers taking their first steps toward independence to preschoolers preparing for kindergarten, our programs provide age-appropriate learning experiences that encourage growth, creativity, and confidence.
                     </p>
 
-                    <p className="w-full flex justify-center items-center m-4 flex-1">
+                    <p className="w-full flex justify-center items-center flex-1">
                         We proudly offer Toddler Daycare, Preschool, Before & After School Care, Summer Camps, March Break Camps, and PA Day Programs for Milton families.
                         Every program combines structured learning, creative play, outdoor activities, and opportunities to build friendships in a safe and supportive environment.
                     </p> 
@@ -233,13 +233,13 @@ const Home = () => {
                     </Card>
 
                 {/* 
-                    <p className="w-full flex justify-center items-center m-4 flex-1">
+                    <p className="w-full flex justify-center items-center flex-1">
                         At Kidz Korner, we're committed to providing a safe, welcoming, and engaging environment where children feel supported every day. 
                         As a family-owned licensed daycare in Milton, we understand how important it is for parents to find childcare they can trust. 
                         Our caring team of licensed educators builds meaningful relationships with every child, encouraging confidence, curiosity, and independence through learning and play.
                     </p>
 
-                    <p className="w-full flex justify-center items-center m-4 flex-1">
+                    <p className="w-full flex justify-center items-center flex-1">
                         Our play-based approach helps children develop social, emotional, physical, and cognitive skills while having fun in a nurturing classroom environment. 
                         With years of experience serving Milton families, we take pride in creating a community where children receive personalized attention and parents feel like part of the Kidz Korner family.
                     </p>
@@ -250,12 +250,12 @@ const Home = () => {
                     <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
                         Licensed Daycare Conveniently Located in Milton
                     </h2>
-                    <p className="w-full flex justify-center items-center m-4 flex-1">
+                    <p className="w-full flex justify-center items-center flex-1">
                         Kidz Korner is proud to serve Milton families with high-quality licensed childcare in a convenient, accessible location. 
                         Situated near Highway 401 and just minutes from downtown Milton, our daycare makes daily drop-offs and pick-ups easy for busy parents commuting throughout the area.
                     </p>
 
-                    <p className="w-full flex justify-center items-center m-4 flex-1">
+                    <p className="w-full flex justify-center items-center flex-1">
                         We welcome children from neighborhoods across
                         Milton, including Clarke, Scott, Willmott, Beaty,
                         Harrison, Dempsey, Timberlea, and surrounding
@@ -272,17 +272,17 @@ const Home = () => {
                         The Benefits of Choosing a Licensed Daycare
                     </h2>
 
-                    <p className="w-full flex justify-center items-center m-4 flex-1">
+                    <p className="w-full flex justify-center items-center flex-1">
                         Choosing a licensed daycare gives parents confidence that their child is learning and growing in a safe, regulated environment. 
                         Licensed childcare centres in Ontario must meet standards established by the Ministry of Education, including health and safety requirements, educator qualifications, staff-to-child ratios, and ongoing inspections to help ensure high-quality care.
                     </p>
 
-                    <p className="w-full flex justify-center items-center m-4 flex-1">
+                    <p className="w-full flex justify-center items-center flex-1">
                         At Kidz Korner, we follow Ontario's licensed childcare standards while delivering a play-based curriculum that supports every child's development.
                         Our focus is on creating a nurturing environment where children feel secure, develop important life skills, and build a strong foundation for future learning, while parents enjoy peace of mind knowing their child is in experienced and caring hands.
                     </p>
                 </div>
-                
+
             </div>
 
             <StructData schema={localBusinessSchema} />
