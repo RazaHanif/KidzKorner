@@ -87,7 +87,7 @@ const Home = () => {
                         <div className="flex md:flex-row flex-col gap-4">
                             <Card className="flex-1 flex">
                                 <CardHeader>
-                                    <CardTitle className="">
+                                    <CardTitle className="text-start">
                                         Toddler Daycare
                                     </CardTitle>
                                     <CardDescription>
@@ -108,7 +108,7 @@ const Home = () => {
 
                             <Card className="flex-1 flex">
                                 <CardHeader>
-                                    <CardTitle className="">
+                                    <CardTitle className="text-start">
                                         Preschool
                                     </CardTitle>
                                     <CardDescription>
@@ -131,7 +131,7 @@ const Home = () => {
                         <div className="flex md:flex-row flex-col gap-4">
                             <Card className="flex-1 flex">
                                 <CardHeader>
-                                    <CardTitle className="">
+                                    <CardTitle className="text-start">
                                         Before & After School Care
                                     </CardTitle>
                                     <CardDescription>
@@ -152,7 +152,7 @@ const Home = () => {
 
                             <Card className="flex-1 flex">
                                 <CardHeader>
-                                    <CardTitle className="">
+                                    <CardTitle className="text-start">
                                         Camp
                                     </CardTitle>
                                     <CardDescription>
