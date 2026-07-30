@@ -132,7 +132,7 @@ const Home = () => {
                                             Preschool
                                         </CardTitle>
                                         <CardDescription>
-                                            A safe, nurturing environment where toddlers learn through play while developing confidence, social skills, and independence.
+                                            Preparing children for kindergarten through play-based learning, creativity, and structured early education.
                                         </CardDescription>
                                     </CardHeader>
                                     <CardContent>
