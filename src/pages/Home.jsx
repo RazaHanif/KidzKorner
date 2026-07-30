@@ -66,7 +66,9 @@ const Home = () => {
                     <p className="w-full flex justify-center items-center m-4 flex-1">
                         We proudly offer Toddler Daycare, Preschool, Before & After School Care, Summer Camps, March Break Camps, and PA Day Programs for Milton families.
                         Every program combines structured learning, creative play, outdoor activities, and opportunities to build friendships in a safe and supportive environment.
-                    </p> */}
+                    </p> 
+                    
+                    */}
 
                     <div className="flex flex-1 flex-col gap-4 w-full">
                         <div className="flex lg:flex-row flex-col gap-4">
