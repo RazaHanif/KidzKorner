@@ -85,7 +85,7 @@ const Home = () => {
                             TODO: update NavLinks when those pages are created 
                         */}
                         <div className="flex md:flex-row flex-col gap-4">
-                            <NavLink to="/childcare" end className="hover:scale-125">
+                            <NavLink to="/childcare" end className="hover:scale-110">
                                 <Card className="flex-1 flex">
                                     <CardHeader className="text-start">
                                         <CardTitle>
