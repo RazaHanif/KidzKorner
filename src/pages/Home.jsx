@@ -91,6 +91,46 @@ const Home = () => {
                                             Meets Ontario Ministry of Education licensing standards.
                                         </p>
                                     </div>
+                                    <div>
+                                        <h2>
+                                            Licensed Ontario Childcare
+                                        </h2>
+                                        <p>
+                                            Meets Ontario Ministry of Education licensing standards.
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <h2>
+                                            Licensed Ontario Childcare
+                                        </h2>
+                                        <p>
+                                            Meets Ontario Ministry of Education licensing standards.
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <h2>
+                                            Licensed Ontario Childcare
+                                        </h2>
+                                        <p>
+                                            Meets Ontario Ministry of Education licensing standards.
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <h2>
+                                            Licensed Ontario Childcare
+                                        </h2>
+                                        <p>
+                                            Meets Ontario Ministry of Education licensing standards.
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <h2>
+                                            Licensed Ontario Childcare
+                                        </h2>
+                                        <p>
+                                            Meets Ontario Ministry of Education licensing standards.
+                                        </p>
+                                    </div>
                                 </CardContent>
                             </Card>
 
