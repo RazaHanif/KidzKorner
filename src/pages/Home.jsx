@@ -16,12 +16,15 @@ import { localBusinessSchema, organizationSchema, websiteSchema } from "../schem
 const Home = () => {
     return (
         <div className="flex flex-col justify-center items-center gap-2 w-full">
+
+            {/* Title */}
             <div className="flex flex-col justify-center items-center w-full mb-4">
                 <h1 className="text-3xl font-bold font-serif text-center">
                     Licensed Daycare & Childcare in Milton
                 </h1>
             </div>
 
+{/*  */}
             <div className="flex flex-col justify-center items-center lg:w-3/4 w-full lg:text-justify text-center">
                 <div className="flex lg:flex-row flex-col justify-center items-center gap-4">
                     <Image
