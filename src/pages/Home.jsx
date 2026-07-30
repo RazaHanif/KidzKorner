@@ -111,18 +111,7 @@ const Home = () => {
                             </p>
 
                             <div className="flex flex-1 flex-col gap-4 w-full items-center">
-                                <Button className="w-1/2">
-                                    Toddler Daycare
-                                </Button>
-                                <Button className="w-1/2">
-                                    Preschool Program
-                                </Button>
-                                <Button className="w-1/2">
-                                    Before/After School Care
-                                </Button>
-                                <Button className="w-1/2">
-                                    Camps
-                                </Button>
+
                                 <Card>
                                     <CardHeader>
                                         <CardTitle>
