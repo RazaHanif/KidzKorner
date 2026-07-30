@@ -146,7 +146,7 @@ const Home = () => {
                                             Before & After School Care
                                         </CardTitle>
                                         <CardDescription>
-                                            Reliable care before and after school with homework support, activ
+                                            Reliable care before and after school with homework support, activities, and a fun supervised environment.
                                         </CardDescription>
                                     </CardHeader>
                                     <CardContent>
