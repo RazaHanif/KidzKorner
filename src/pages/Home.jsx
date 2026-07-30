@@ -128,7 +128,7 @@ const Home = () => {
                                             Strong Parent Communication
                                         </h2>
                                         <p>
-                                            Meets Ontario Ministry of Education licensing standards.
+                                            Working together with families every step of the way.
                                         </p>
                                     </div>
                                 </CardContent>
