@@ -106,7 +106,7 @@ const Home = () => {
                                     Toddler Daycare
                                 </Button>
                                 <Button>
-                                    Toddler Daycare
+                                    Preschool Program
                                 </Button>
                                 <Button>
                                     Toddler Daycare
