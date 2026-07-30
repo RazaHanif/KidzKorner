@@ -81,7 +81,7 @@ const Home = () => {
                                         A safe, nurturing environment where toddlers learn through play while developing confidence, social skills, and independence.
                                     </CardDescription>
                                 </CardHeader>
-                                <CardContent>
+                                <CardContent className="border-2 flex-1">
                                     <Button>Learn More</Button>
                                 </CardContent>
                             </Card>
@@ -95,7 +95,7 @@ const Home = () => {
                                         Preparing children for kindergarten through play-based learning, creativity, and structured early education.
                                     </CardDescription>
                                 </CardHeader>
-                                <CardContent>
+                                <CardContent className="border-2 flex-1">
                                     <Button>Learn More</Button>
                                 </CardContent>
                             </Card>
@@ -111,7 +111,7 @@ const Home = () => {
                                         Reliable care before and after school with homework support, activities, and a fun supervised environment.
                                     </CardDescription>
                                 </CardHeader>
-                                <CardContent>
+                                <CardContent className="border-2 flex-1">
                                     <Button>Learn More</Button>
                                 </CardContent>
                             </Card>
@@ -125,7 +125,7 @@ const Home = () => {
                                         [idk i gotta write this out still]
                                     </CardDescription>
                                 </CardHeader>
-                                <CardContent>
+                                <CardContent className="border-2 flex-1">
                                     <Button>Learn More</Button>
                                 </CardContent>
                             </Card>
