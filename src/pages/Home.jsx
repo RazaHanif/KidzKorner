@@ -194,31 +194,31 @@ const Home = () => {
                     <Card>
                         <CardContent className="flex flex-col gap-4">
                             <div>
-                                
-                            </div>
-                            <div className="flex flex-col items-start justify-start w-full">
-                                <h2 className="font-bold">
-                                    ⭐ Licensed Ontario Childcare
-                                </h2>
-                                <p className="text-start pl-4">
-                                    Meets Ontario Ministry of Education licensing standards.
-                                </p>
-                            </div>
-                            <div className="flex flex-col items-start justify-start w-full">
-                                <h2 className="font-bold">
-                                    ❤️ Family-Owned
-                                </h2>
-                                <p className="text-start pl-4">
-                                    Serving Milton families with a personal approach.
-                                </p>
-                            </div>
-                            <div className="flex flex-col items-start justify-start w-full">
-                                <h2 className="font-bold">
-                                    👩‍🏫 Experienced Educators
-                                </h2>
-                                <p className="text-start pl-4">
-                                    Caring professionals focused on every child's growth.
-                                </p>
+
+                                <div className="flex flex-col items-start justify-start w-full">
+                                    <h2 className="font-bold">
+                                        ⭐ Licensed Ontario Childcare
+                                    </h2>
+                                    <p className="text-start pl-4">
+                                        Meets Ontario Ministry of Education licensing standards.
+                                    </p>
+                                </div>
+                                <div className="flex flex-col items-start justify-start w-full">
+                                    <h2 className="font-bold">
+                                        ❤️ Family-Owned
+                                    </h2>
+                                    <p className="text-start pl-4">
+                                        Serving Milton families with a personal approach.
+                                    </p>
+                                </div>
+                                <div className="flex flex-col items-start justify-start w-full">
+                                    <h2 className="font-bold">
+                                        👩‍🏫 Experienced Educators
+                                    </h2>
+                                    <p className="text-start pl-4">
+                                        Caring professionals focused on every child's growth.
+                                    </p>
+                                </div>
                             </div>
                             <div className="flex flex-col items-start justify-start w-full">
                                 <h2 className="font-bold">
