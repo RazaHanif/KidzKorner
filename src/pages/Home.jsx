@@ -167,7 +167,7 @@ const Home = () => {
 
                 <div className="flex lg:flex-row lg:justify-between lg:items-stretch flex-col justify-center items-center w-full lg:text-justify text-center">
                     <div className="flex flex-col m-2 flex-1 lg:justify-between">
-                                                <div className="flex flex-col justify-center items-center w-full p-4">
+                        <div className="flex flex-col justify-center items-center w-full p-4">
                             <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
                                 Why Families Choose Kidz Korner
                             </h2>
