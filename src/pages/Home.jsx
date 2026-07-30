@@ -75,7 +75,7 @@ const Home = () => {
                         {/* 
                             TODO: update NavLinks when those pages are created 
                         */}
-                        <div className="flex lg:flex-row flex-col gap-4">
+                        <div className="flex md:flex-row flex-col gap-4">
                             <Card className="flex-1 flex">
                                 <CardHeader>
                                     <CardTitle>
@@ -119,7 +119,7 @@ const Home = () => {
                             </Card>
                         </div>
 
-                        <div className="flex lg:flex-row flex-col gap-4">
+                        <div className="flex md:flex-row flex-col gap-4">
                             <Card className="flex-1 flex">
                                 <CardHeader>
                                     <CardTitle>
