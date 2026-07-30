@@ -221,31 +221,31 @@ const Home = () => {
                                 </div>
                             </div>
                             <div>
-                                
-                            </div>
-                            <div className="flex flex-col items-start justify-start w-full">
-                                <h2 className="font-bold">
-                                    🎨 Play-Based Learning
-                                </h2>
-                                <p className="text-start pl-4">
-                                    Learning through exploration, creativity, and fun.
-                                </p>
-                            </div>
-                            <div className="flex flex-col items-start justify-start w-full">
-                                <h2 className="font-bold">
-                                    🛡️ Safe Environment
-                                </h2>
-                                <p className="text-start pl-4">
-                                    A secure, welcoming space where children can thrive.
-                                </p>
-                            </div>
-                            <div className="flex flex-col items-start justify-start w-full">
-                                <h2 className="font-bold">
-                                    🤝 Strong Parent Communication
-                                </h2>
-                                <p className="text-start pl-4">
-                                    Working together with families every step of the way.
-                                </p>
+
+                                <div className="flex flex-col items-start justify-start w-full">
+                                    <h2 className="font-bold">
+                                        🎨 Play-Based Learning
+                                    </h2>
+                                    <p className="text-start pl-4">
+                                        Learning through exploration, creativity, and fun.
+                                    </p>
+                                </div>
+                                <div className="flex flex-col items-start justify-start w-full">
+                                    <h2 className="font-bold">
+                                        🛡️ Safe Environment
+                                    </h2>
+                                    <p className="text-start pl-4">
+                                        A secure, welcoming space where children can thrive.
+                                    </p>
+                                </div>
+                                <div className="flex flex-col items-start justify-start w-full">
+                                    <h2 className="font-bold">
+                                        🤝 Strong Parent Communication
+                                    </h2>
+                                    <p className="text-start pl-4">
+                                        Working together with families every step of the way.
+                                    </p>
+                                </div>
                             </div>
                         </CardContent>
                     </Card>
