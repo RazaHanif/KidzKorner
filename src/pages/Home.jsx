@@ -275,7 +275,9 @@ const Home = () => {
                         The Benefits of Choosing a Licensed Daycare
                     </h2>
 
-                    
+                    <div className="flex flex-col gap-4">
+                        
+                    </div>
 
                     <p className="w-full flex justify-center items-center flex-1">
                         Choosing a licensed daycare gives parents confidence that their child is learning and growing in a safe, regulated environment. 
