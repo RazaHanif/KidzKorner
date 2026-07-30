@@ -123,7 +123,6 @@ const Home = () => {
                                 <Button className="w-1/2">
                                     Camps
                                 </Button>
-
                             </div>
                         </div>
 
