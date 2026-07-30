@@ -272,7 +272,7 @@ const Home = () => {
                 </div>
 
                 <div className="flex lg:flex-row flex-col justify-center items-center gap-4">
-                                        <Image
+                    <Image
                         src="/K_K_39.jpg"
                         alt="Kidz Korner licensed daycare in  Milton"
                         w="w-md"
