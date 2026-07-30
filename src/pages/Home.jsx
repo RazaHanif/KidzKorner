@@ -173,7 +173,7 @@ const Home = () => {
                                         </Button>
                                     </CardContent>
                                 </Card>
-                                                </NavLink>
+                            </NavLink>
                         </div>
                     </div>
                 </div>
