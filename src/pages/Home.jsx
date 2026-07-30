@@ -47,7 +47,7 @@ const Home = () => {
                                 end
                                 className="hover:scale-105 ease-in-out duration-300 flex-1 border-1 lg:w-3/4 flex"
                             >
-                                <Button className="cursor-pointer flex-1">
+                                <Button className="cursor-pointer lg:flex-1">
                                     Schedule Tour
                                 </Button>
                             </NavLink>
@@ -57,7 +57,7 @@ const Home = () => {
                                 end
                                 className="hover:scale-105 ease-in-out duration-300 flex-1 border-1 lg:w-3/4 flex"
                             >
-                                <Button className="cursor-pointer flex-1">
+                                <Button className="cursor-pointer lg:flex-1">
                                     Explore Programs
                                 </Button>
                             </NavLink>
