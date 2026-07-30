@@ -41,7 +41,7 @@ const Home = () => {
 
                         </p>
 
-                        <div className="w-full flex justify-around">
+                        <div className="w-full flex justify-around border-2">
                             {/* 
                                 Maybe a button to call? or jump to the injury form on the childcare/aboutus page 
                             */}
