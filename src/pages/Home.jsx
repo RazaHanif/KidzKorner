@@ -133,7 +133,7 @@ const Home = () => {
                                         </CardDescription>
                                     </CardHeader>
                                     <CardContent>
-                                        <Button></Button>?
+                                        <Button></Button>
                                     </CardContent>
                                 </Card>
                             </div>
