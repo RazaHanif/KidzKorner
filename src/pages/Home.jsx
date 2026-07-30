@@ -160,7 +160,7 @@ const Home = () => {
                                             Camp
                                         </CardTitle>
                                         <CardDescription>
-                                            A safe, nurturing environment where toddlers learn through play while developing confidence, social skills, and independence.
+                                            idk some small 
                                         </CardDescription>
                                     </CardHeader>
                                     <CardContent>
