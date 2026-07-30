@@ -129,7 +129,7 @@ const Home = () => {
                                             Toddler Daycare
                                         </CardTitle>
                                         <CardDescription>
-                                            A safe, nurturing envirome
+                                            A safe, nurturing environment where toddlers learn through 
                                         </CardDescription>
                                     </CardHeader>
                                     <CardContent>
