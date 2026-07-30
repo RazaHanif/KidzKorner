@@ -237,49 +237,49 @@ const Home = () => {
                 */}
                 </div>
 
-                <div className="flex lg:flex-row lg:justify-between lg:items-stretch flex-col justify-center items-center w-full lg:text-justify text-center">
-                    <div className="flex flex-col m-2 flex-1 lg:justify-between">
-                        <div className="flex flex-col justify-center items-center w-full p-4">
-                            <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
-                                Licensed Daycare Conveniently Located in Milton
-                            </h2>
-                            <p className="w-full flex justify-center items-center m-4 flex-1">
-                                Kidz Korner is proud to serve Milton families with high-quality licensed childcare in a convenient, accessible location. 
-                                Situated near Highway 401 and just minutes from downtown Milton, our daycare makes daily drop-offs and pick-ups easy for busy parents commuting throughout the area.
-                            </p>
 
-                            <p className="w-full flex justify-center items-center m-4 flex-1">
-                                We welcome children from neighborhoods across
-                                Milton, including Clarke, Scott, Willmott, Beaty,
-                                Harrison, Dempsey, Timberlea, and surrounding
-                                communities throughout the Halton Region. Whether
-                                you're searching for a trusted daycare in Milton or
-                                reliable childcare close to home, Kidz Korner
-                                provides a safe, nurturing environment where
-                                children can learn, grow, and thrive.
-                            </p>
-                        </div>
-                    </div>
+                <div className="flex flex-col m-2 flex-1 lg:justify-between">
+                    <div className="flex flex-col justify-center items-center w-full p-4">
+                        <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
+                            Licensed Daycare Conveniently Located in Milton
+                        </h2>
+                        <p className="w-full flex justify-center items-center m-4 flex-1">
+                            Kidz Korner is proud to serve Milton families with high-quality licensed childcare in a convenient, accessible location. 
+                            Situated near Highway 401 and just minutes from downtown Milton, our daycare makes daily drop-offs and pick-ups easy for busy parents commuting throughout the area.
+                        </p>
 
-                    <div className="flex flex-col m-2 flex-1 lg:justify-between">
-
-                        <div className="flex flex-col justify-center items-center w-full p-4">
-                            <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
-                                The Benefits of Choosing a Licensed Daycare
-                            </h2>
-
-                            <p className="w-full flex justify-center items-center m-4 flex-1">
-                                Choosing a licensed daycare gives parents confidence that their child is learning and growing in a safe, regulated environment. 
-                                Licensed childcare centres in Ontario must meet standards established by the Ministry of Education, including health and safety requirements, educator qualifications, staff-to-child ratios, and ongoing inspections to help ensure high-quality care.
-                            </p>
-
-                            <p className="w-full flex justify-center items-center m-4 flex-1">
-                                At Kidz Korner, we follow Ontario's licensed childcare standards while delivering a play-based curriculum that supports every child's development.
-                                Our focus is on creating a nurturing environment where children feel secure, develop important life skills, and build a strong foundation for future learning, while parents enjoy peace of mind knowing their child is in experienced and caring hands.
-                            </p>
-                        </div>
+                        <p className="w-full flex justify-center items-center m-4 flex-1">
+                            We welcome children from neighborhoods across
+                            Milton, including Clarke, Scott, Willmott, Beaty,
+                            Harrison, Dempsey, Timberlea, and surrounding
+                            communities throughout the Halton Region. Whether
+                            you're searching for a trusted daycare in Milton or
+                            reliable childcare close to home, Kidz Korner
+                            provides a safe, nurturing environment where
+                            children can learn, grow, and thrive.
+                        </p>
                     </div>
                 </div>
+
+                <div className="flex flex-col m-2 flex-1 lg:justify-between">
+
+                    <div className="flex flex-col justify-center items-center w-full p-4">
+                        <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
+                            The Benefits of Choosing a Licensed Daycare
+                        </h2>
+
+                        <p className="w-full flex justify-center items-center m-4 flex-1">
+                            Choosing a licensed daycare gives parents confidence that their child is learning and growing in a safe, regulated environment. 
+                            Licensed childcare centres in Ontario must meet standards established by the Ministry of Education, including health and safety requirements, educator qualifications, staff-to-child ratios, and ongoing inspections to help ensure high-quality care.
+                        </p>
+
+                        <p className="w-full flex justify-center items-center m-4 flex-1">
+                            At Kidz Korner, we follow Ontario's licensed childcare standards while delivering a play-based curriculum that supports every child's development.
+                            Our focus is on creating a nurturing environment where children feel secure, develop important life skills, and build a strong foundation for future learning, while parents enjoy peace of mind knowing their child is in experienced and caring hands.
+                        </p>
+                    </div>
+                </div>
+
             </div>
 
             <StructData schema={localBusinessSchema} />
