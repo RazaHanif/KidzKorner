@@ -105,6 +105,15 @@ const Home = () => {
                                 <Button>
                                     Toddler Daycare
                                 </Button>
+                                <Button>
+                                    Toddler Daycare
+                                </Button>
+                                <Button>
+                                    Toddler Daycare
+                                </Button>
+                                <Button>
+                                    Toddler Daycare
+                                </Button>
 
                             </div>
                         </div>
