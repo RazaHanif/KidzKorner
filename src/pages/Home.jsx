@@ -87,7 +87,10 @@ const Home = () => {
                             TODO: update NavLinks when those pages are created 
                         */}
                         <div className="flex md:flex-row flex-col gap-4">
-                            <NavLink to="/childcare" end className="hover:scale-102 ease-in-out duration-300">
+                            <NavLink 
+                                to="/childcare" 
+                                end 
+                                className="hover:scale-102 ease-in-out duration-300">
                                 <Card className="flex-1 flex">
                                     <CardHeader className="text-start">
                                         <CardTitle>
@@ -105,7 +108,10 @@ const Home = () => {
                                 </Card>
                             </NavLink>
 
-                            <NavLink to="/childcare" end className="hover:scale-102 ease-in-out duration-300">
+                            <NavLink 
+                                to="/childcare" 
+                                end 
+                                className="hover:scale-102 ease-in-out duration-300">
 
                                 <Card className="flex-1 flex">
                                     <CardHeader className="text-start">
@@ -131,7 +137,10 @@ const Home = () => {
                         </div>
 
                         <div className="flex md:flex-row flex-col gap-4">
-                            <NavLink to="/childcare" end className="hover:scale-102 ease-in-out duration-300">
+                            <NavLink 
+                                to="/childcare" 
+                                end 
+                                className="hover:scale-102 ease-in-out duration-300">
                                 <Card className="flex-1 flex">
                                     <CardHeader className="text-start">
                                         <CardTitle>
@@ -154,7 +163,10 @@ const Home = () => {
                                 </Card>
                             </NavLink>
 
-                            <NavLink to="/childcare" end className="hover:scale-102 ease-in-out duration-300">
+                            <NavLink 
+                                to="/childcare" 
+                                end 
+                                className="hover:scale-102 ease-in-out duration-300">
                                 <Card className="flex-1 flex">
                                     <CardHeader className="text-start">
                                         <CardTitle>
