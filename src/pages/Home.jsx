@@ -118,9 +118,9 @@ const Home = () => {
                                         </CardTitle>
                                     </CardHeader>
                                     <CardContent>
-                                        <p>
-                                            Card Content
-                                        </p>
+                                        <Button>
+                                            
+                                        </Button>
                                     </CardContent>
                                 </Card>
                                 <Button className="w-1/2">
