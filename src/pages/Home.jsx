@@ -42,15 +42,15 @@ const Home = () => {
                         </p>
 
                         <div className="w-full flex lg:flex-col gap-4 justify-around lg:justify-center">
-                            <Button>
-                                <NavLink 
-                                    to="/about" 
-                                    end
-                                    className="hover:scale-102 ease-in-out duration-300"
-                                >
+                            <NavLink 
+                                to="/about" 
+                                end
+                                className="hover:scale-102 ease-in-out duration-300"
+                            >
+                                <Button>
                                     Schedule Tour
-                                </NavLink>
-                            </Button>
+                                </Button>
+                            </NavLink>
 
                             <Button
                             className="hover:scale-105 ease-in-out duration-300"
