@@ -30,7 +30,7 @@ const Home = () => {
                         w="w-md"
                     />
                     <div className="flex flex-col justify-center items-center w-full lg:p-4">
-                        <h2 className="w-full flex justify-center items-center mt-4 lg:mt-0 font-bold text-2xl flex-1">
+                        <h2 className="w-full flex justify-center items-center mt-4 lg:mt-0 font-bold text-xl flex-1">
                             A Trusted Licensed Daycare in Milton
                         </h2>
 
