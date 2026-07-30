@@ -225,7 +225,7 @@ const Home = () => {
                                 </CardContent>
                             </Card>
 
-{/* 
+                        {/* 
                             <p className="w-full flex justify-center items-center m-4 flex-1">
                                 At Kidz Korner, we're committed to providing a safe, welcoming, and engaging environment where children feel supported every day. 
                                 As a family-owned licensed daycare in Milton, we understand how important it is for parents to find childcare they can trust. 
