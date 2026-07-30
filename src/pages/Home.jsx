@@ -31,7 +31,7 @@ const Home = () => {
 
                         </p>
 
-                        <div>
+                        <div className="border-2">
                             {/* 
                                 Maybe a button to call? or jump to the injury form on the childcare/aboutus page 
                                 */}
