@@ -291,12 +291,12 @@ const Home = () => {
                                 children can learn, grow, and thrive.
                             </p>
                         </div>
-                    </div>
                     <Image
                         src="/K_K_39.jpg"
                         alt="Kidz Korner licensed daycare in  Milton"
                         w="w-md"
                     />
+                    </div>
                 </div>
 
                 <div className="flex flex-col justify-center items-center w-full p-4">
