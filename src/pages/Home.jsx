@@ -45,7 +45,14 @@ const Home = () => {
                             {/* 
                                 Maybe a button to call? or jump to the injury form on the childcare/aboutus page 
                             */}
-                            <Button>Schedule a Tour</Button>
+                            <Button>
+                                                                <NavLink 
+                                    to="/childcare" 
+                                    end
+                                >
+                                    Learn More
+                                </NavLink>
+                            </Button>
                             {/* 
                                 Jump to /daycare 
                             */}
