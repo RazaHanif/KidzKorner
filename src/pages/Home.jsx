@@ -98,7 +98,7 @@ const Home = () => {
                                         </CardDescription>
                                     </CardHeader>
                                     <CardContent className="flex-1 flex justify-end items-end">
-                                        <Button>
+                                        <Button className="cur">
                                             Learn More
                                         </Button>
                                     </CardContent>
@@ -117,7 +117,7 @@ const Home = () => {
                                         </CardDescription>
                                     </CardHeader>
                                     <CardContent className="flex-1 flex justify-end items-end">
-                                        <Button>
+                                        <Button className="cur">
                                             <NavLink 
                                                 to="/childcare" 
                                                 end
@@ -142,7 +142,7 @@ const Home = () => {
                                         </CardDescription>
                                     </CardHeader>
                                     <CardContent className="flex-1 flex justify-end items-end">
-                                        <Button>
+                                        <Button className="cur">
                                             <NavLink 
                                                 to="/childcare" 
                                                 end
@@ -165,7 +165,7 @@ const Home = () => {
                                         </CardDescription>
                                     </CardHeader>
                                     <CardContent className="flex-1 flex justify-end items-end">
-                                        <Button>
+                                        <Button className="cur">
                                             <NavLink 
                                                 to="/childcare" 
                                                 end
