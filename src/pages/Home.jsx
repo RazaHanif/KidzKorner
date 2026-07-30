@@ -45,7 +45,7 @@ const Home = () => {
                             <NavLink 
                                 to="/about" 
                                 end
-                                className="hover:scale-102 ease-in-out duration-300"
+                                className="hover:scale-105 ease-in-out duration-300"
                             >
                                 <Button>
                                     Schedule Tour
