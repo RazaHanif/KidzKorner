@@ -192,7 +192,7 @@ const Home = () => {
                     </h2>
 
                     <Card>
-                        <CardContent className="flex flex-col">
+                        <CardContent className="flex flex-col gap-2">
                             <div className="flex flex-col gap-2">
                                 <div className="flex flex-col items-start justify-start w-full">
                                     <h2 className="font-bold">
