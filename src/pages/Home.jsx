@@ -54,6 +54,81 @@ const Home = () => {
                 </div>
 
                 <div className="flex lg:flex-row lg:justify-between lg:items-stretch flex-col justify-center items-center w-full lg:text-justify text-center">
+                                            <div className="flex flex-col justify-center items-center w-full p-4">
+                            <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
+                                Programs for Every Stage of Early Learning
+                            </h2>
+
+                            <p className="w-full flex justify-center items-center m-4 flex-1">
+                                Kidz Korner offers licensed childcare programs designed to support children through every stage of their early learning journey. 
+                                From curious toddlers taking their first steps toward independence to preschoolers preparing for kindergarten, our programs provide age-appropriate learning experiences that encourage growth, creativity, and confidence.
+                            </p>
+
+                            <p className="w-full flex justify-center items-center m-4 flex-1">
+                                We proudly offer Toddler Daycare, Preschool, Before & After School Care, Summer Camps, March Break Camps, and PA Day Programs for Milton families.
+                                Every program combines structured learning, creative play, outdoor activities, and opportunities to build friendships in a safe and supportive environment.
+                            </p>
+
+                            <div className="flex flex-1 flex-col gap-4 w-full items-center">
+
+                                <Card>
+                                    <CardHeader>
+                                        <CardTitle>
+                                            Toddler Daycare
+                                        </CardTitle>
+                                        <CardDescription>
+                                            A safe, nurturing environment where toddlers learn through play while developing confidence, social skills, and independence.
+                                        </CardDescription>
+                                    </CardHeader>
+                                    <CardContent>
+                                        <Button>Learn More</Button>
+                                    </CardContent>
+                                </Card>
+
+                                <Card>
+                                    <CardHeader>
+                                        <CardTitle>
+                                            Preschool
+                                        </CardTitle>
+                                        <CardDescription>
+                                            Preparing children for kindergarten through play-based learning, creativity, and structured early education.
+                                        </CardDescription>
+                                    </CardHeader>
+                                    <CardContent>
+                                        <Button>Learn More</Button>
+                                    </CardContent>
+                                </Card>
+
+                                <Card>
+                                    <CardHeader>
+                                        <CardTitle>
+                                            Before & After School Care
+                                        </CardTitle>
+                                        <CardDescription>
+                                            Reliable care before and after school with homework support, activities, and a fun supervised environment.
+                                        </CardDescription>
+                                    </CardHeader>
+                                    <CardContent>
+                                        <Button>Learn More</Button>
+                                    </CardContent>
+                                </Card>
+
+                                <Card>
+                                    <CardHeader>
+                                        <CardTitle>
+                                            Camp
+                                        </CardTitle>
+                                        <CardDescription>
+                                            [idk i gotta write this out still]
+                                        </CardDescription>
+                                    </CardHeader>
+                                    <CardContent>
+                                        <Button>Learn More</Button>
+                                    </CardContent>
+                                </Card>
+
+                            </div>
+                        </div>
                     <div className="flex flex-col m-2 flex-1 lg:justify-between">
                         <div className="flex flex-col justify-center items-center w-full p-4">
                             <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
