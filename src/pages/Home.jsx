@@ -112,7 +112,7 @@ const Home = () => {
                             <NavLink 
                                 to="/childcare" 
                                 end 
-                                className="hover:scale-102 ease-in-out duration-300 flex-1 border-3"
+                                className="hover:scale-102 ease-in-out duration-300 flex-1 border-3 flex"
                             >
 
                                 <Card className="flex-1 flex">
