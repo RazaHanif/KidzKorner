@@ -91,7 +91,7 @@ const Home = () => {
                                 to="/childcare" 
                                 end 
                                 className="hover:scale-102 ease-in-out duration-300"
-                            >
+                                >
                                 <Card className="flex-1 flex">
                                     <CardHeader className="text-start">
                                         <CardTitle>
@@ -113,7 +113,7 @@ const Home = () => {
                                 to="/childcare" 
                                 end 
                                 className="hover:scale-102 ease-in-out duration-300"
-                            >
+                                >
 
                                 <Card className="flex-1 flex">
                                     <CardHeader className="text-start">
@@ -143,7 +143,7 @@ const Home = () => {
                                 to="/childcare" 
                                 end 
                                 className="hover:scale-102 ease-in-out duration-300"
-                            >
+                                >
                                 <Card className="flex-1 flex">
                                     <CardHeader className="text-start">
                                         <CardTitle>
@@ -170,7 +170,7 @@ const Home = () => {
                                 to="/childcare" 
                                 end 
                                 className="hover:scale-102 ease-in-out duration-300"
-                            >
+                                >
                                 <Card className="flex-1 flex">
                                     <CardHeader className="text-start">
                                         <CardTitle>
