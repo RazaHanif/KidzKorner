@@ -53,9 +53,7 @@ const Home = () => {
                                     Schedule Tour
                                 </NavLink>
                             </Button>
-                            {/* 
-                                Jump to /daycare 
-                            */}
+
                             <Button>
                                 <NavLink 
                                     to="/childcare" 
