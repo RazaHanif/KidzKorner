@@ -102,9 +102,7 @@ const Home = () => {
                             </p>
 
                             <div>
-                                <Card>
-                                    
-                                </Card>
+
 
                             </div>
                         </div>
