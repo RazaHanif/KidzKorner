@@ -83,7 +83,9 @@ const Home = () => {
 
                             <Card>
                                 <CardHeader>
-                                    <CardTitle>Card Title</CardTitle>
+                                    <CardTitle>
+                                        Card Title
+                                    </CardTitle>
                                     <CardDescription>Card Description</CardDescription>
                                     <CardAction>Card Action</CardAction>
                                 </CardHeader>
