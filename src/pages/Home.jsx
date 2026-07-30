@@ -45,7 +45,7 @@ const Home = () => {
                             <NavLink 
                                 to="/about" 
                                 end
-                                className="hover:scale-105 ease-in-out duration-300"
+                                className="hover:scale-105 ease-in-out duration-300 flex-1"
                             >
                                 <Button className="cursor-pointer">
                                     Schedule Tour
@@ -55,7 +55,7 @@ const Home = () => {
                             <NavLink 
                                 to="/childcare" 
                                 end
-                                className="hover:scale-105 ease-in-out duration-300"
+                                className="hover:scale-105 ease-in-out duration-300 flex-1"
                             >
                                 <Button className="cursor-pointer">
                                     Explore Programs
