@@ -90,7 +90,7 @@ const Home = () => {
                             <NavLink 
                                 to="/childcare" 
                                 end 
-                                className="hover:scale-102 ease-in-out duration-300 "
+                                className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                             >
                                 <Card className="flex-1 flex">
                                     <CardHeader className="text-start">
@@ -112,7 +112,7 @@ const Home = () => {
                             <NavLink 
                                 to="/childcare" 
                                 end 
-                                className="hover:scale-102 ease-in-out duration-300 "
+                                className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                             >
 
                                 <Card className="flex-1 flex">
@@ -142,7 +142,7 @@ const Home = () => {
                             <NavLink 
                                 to="/childcare" 
                                 end 
-                                className="hover:scale-102 ease-in-out duration-300 "
+                                className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                             >
                                 <Card className="flex-1 flex">
                                     <CardHeader className="text-start">
@@ -169,7 +169,7 @@ const Home = () => {
                             <NavLink 
                                 to="/childcare" 
                                 end 
-                                className="hover:scale-102 ease-in-out duration-300 "
+                                className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                             >
                                 <Card className="flex-1 flex">
                                     <CardHeader className="text-start">
