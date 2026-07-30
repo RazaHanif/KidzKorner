@@ -220,6 +220,9 @@ const Home = () => {
                                     </p>
                                 </div>
                             </div>
+                            <div>
+                                
+                            </div>
                             <div className="flex flex-col items-start justify-start w-full">
                                 <h2 className="font-bold">
                                     🎨 Play-Based Learning
