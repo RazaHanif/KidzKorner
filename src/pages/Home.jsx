@@ -216,7 +216,7 @@ const Home = () => {
                                     </div>
                                     <div className="flex flex-col items-start justify-start w-full">
                                         <h2 className="font-bold">
-                                            Strong Parent Communication
+                                            🤝 Strong Parent Communication
                                         </h2>
                                         <p className="text-start indent-4">
                                             Working together with families every step of the way.
