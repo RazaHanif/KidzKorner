@@ -193,7 +193,7 @@ const Home = () => {
 
                     <Card>
                         <CardContent className="flex flex-col">
-                            <div>
+                            <div className>
                                 <div className="flex flex-col items-start justify-start w-full">
                                     <h2 className="font-bold">
                                         ⭐ Licensed Ontario Childcare
@@ -219,7 +219,7 @@ const Home = () => {
                                     </p>
                                 </div>
                             </div>
-                            <div>
+                            <div className>
 
                                 <div className="flex flex-col items-start justify-start w-full">
                                     <h2 className="font-bold">
