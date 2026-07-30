@@ -193,6 +193,9 @@ const Home = () => {
 
                     <Card>
                         <CardContent className="flex flex-col gap-4">
+                            <div>
+                                
+                            </div>
                             <div className="flex flex-col items-start justify-start w-full">
                                 <h2 className="font-bold">
                                     ⭐ Licensed Ontario Childcare
