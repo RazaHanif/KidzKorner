@@ -104,7 +104,7 @@ const Home = () => {
                                             Experienced Educators
                                         </h2>
                                         <p>
-                                            Caring professionals focused on every child's growth
+                                            Caring professionals focused on every child's growth.
                                         </p>
                                     </div>
                                     <div>
@@ -112,7 +112,7 @@ const Home = () => {
                                             Play-Based Learning
                                         </h2>
                                         <p>
-                                            Meets Ontario Ministry of Education licensing standards.
+                                            Learning through exploration, creativity, and fun.
                                         </p>
                                     </div>
                                     <div>
