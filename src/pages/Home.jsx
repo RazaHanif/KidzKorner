@@ -50,7 +50,7 @@ const Home = () => {
                                     to="/about" 
                                     end
                                 >
-                                    Learn More
+                                    Schedule Tour
                                 </NavLink>
                             </Button>
                             {/* 
