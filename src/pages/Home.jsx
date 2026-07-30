@@ -22,8 +22,8 @@ const Home = () => {
                 </h1>
             </div>
 
-            <div className="flex flex-col justify-center items-center lg:w-3/4 w-full lg:text-justify text-center ">
-                <div className="flex lg:flex-row flex-col justify-center items-center gap-4">
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-full lg:text-justify text-center">
+                <div className="flex lg:flex-row flex-col justify-center items-center gap-4 ">
                     <Image
                         src="/K_K_39.jpg"
                         alt="Kidz Korner licensed daycare in  Milton"
