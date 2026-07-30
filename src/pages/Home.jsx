@@ -72,36 +72,35 @@ const Home = () => {
 
                             <div className="flex flex-1 flex-col gap-4 w-full">
                                 <div className="border-2 p-4">
+                                    <Card>
+                                        <CardHeader>
+                                            <CardTitle>
+                                                Toddler Daycare
+                                            </CardTitle>
+                                            <CardDescription>
+                                                A safe, nurturing environment where toddlers learn through play while developing confidence, social skills, and independence.
+                                            </CardDescription>
+                                        </CardHeader>
+                                        <CardContent>
+                                            <Button>Learn More</Button>
+                                        </CardContent>
+                                    </Card>
 
+                                    <Card>
+                                        <CardHeader>
+                                            <CardTitle>
+                                                Preschool
+                                            </CardTitle>
+                                            <CardDescription>
+                                                Preparing children for kindergarten through play-based learning, creativity, and structured early education.
+                                            </CardDescription>
+                                        </CardHeader>
+                                        <CardContent>
+                                            <Button>Learn More</Button>
+                                        </CardContent>
+                                    </Card>
                                 </div>
 
-                                <Card>
-                                    <CardHeader>
-                                        <CardTitle>
-                                            Toddler Daycare
-                                        </CardTitle>
-                                        <CardDescription>
-                                            A safe, nurturing environment where toddlers learn through play while developing confidence, social skills, and independence.
-                                        </CardDescription>
-                                    </CardHeader>
-                                    <CardContent>
-                                        <Button>Learn More</Button>
-                                    </CardContent>
-                                </Card>
-
-                                <Card>
-                                    <CardHeader>
-                                        <CardTitle>
-                                            Preschool
-                                        </CardTitle>
-                                        <CardDescription>
-                                            Preparing children for kindergarten through play-based learning, creativity, and structured early education.
-                                        </CardDescription>
-                                    </CardHeader>
-                                    <CardContent>
-                                        <Button>Learn More</Button>
-                                    </CardContent>
-                                </Card>
 
                                 <Card>
                                     <CardHeader>
