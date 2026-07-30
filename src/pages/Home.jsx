@@ -34,11 +34,11 @@ const Home = () => {
                         <div className="w-full flex justify-around">
                             {/* 
                                 Maybe a button to call? or jump to the injury form on the childcare/aboutus page 
-                                */}
+                            */}
                             <Button>Schedule a Tour</Button>
                             {/* 
                                 Jump to /daycare 
-                                */}
+                            */}
                             <Button>Explore Programs</Button>
                         </div>
                     </div>
