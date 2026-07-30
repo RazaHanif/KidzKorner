@@ -102,37 +102,35 @@ const Home = () => {
                                 </div>
 
                                 <div className="flex lg:flex-row flex-col gap-4">
-                                </div>
+                                    <Card>
+                                        <CardHeader>
+                                            <CardTitle>
+                                                Before & After School Care
+                                            </CardTitle>
+                                            <CardDescription>
+                                                Reliable care before and after school with homework support, activities, and a fun supervised environment.
+                                            </CardDescription>
+                                        </CardHeader>
+                                        <CardContent>
+                                            <Button>Learn More</Button>
+                                        </CardContent>
+                                    </Card>
 
+                                    <Card>
+                                        <CardHeader>
+                                            <CardTitle>
+                                                Camp
+                                            </CardTitle>
+                                            <CardDescription>
+                                                [idk i gotta write this out still]
+                                            </CardDescription>
+                                        </CardHeader>
+                                        <CardContent>
+                                            <Button>Learn More</Button>
+                                        </CardContent>
+                                    </Card>
+                                                                    </div>
 
-
-                                <Card>
-                                    <CardHeader>
-                                        <CardTitle>
-                                            Before & After School Care
-                                        </CardTitle>
-                                        <CardDescription>
-                                            Reliable care before and after school with homework support, activities, and a fun supervised environment.
-                                        </CardDescription>
-                                    </CardHeader>
-                                    <CardContent>
-                                        <Button>Learn More</Button>
-                                    </CardContent>
-                                </Card>
-
-                                <Card>
-                                    <CardHeader>
-                                        <CardTitle>
-                                            Camp
-                                        </CardTitle>
-                                        <CardDescription>
-                                            [idk i gotta write this out still]
-                                        </CardDescription>
-                                    </CardHeader>
-                                    <CardContent>
-                                        <Button>Learn More</Button>
-                                    </CardContent>
-                                </Card>
 
                             </div>
                         </div>
