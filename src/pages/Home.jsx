@@ -276,18 +276,16 @@ const Home = () => {
                     </h2>
 
                     <div className="flex flex-col gap-4">
-                        
+                        <p className="w-full flex justify-center items-center flex-1">
+                            Choosing a licensed daycare gives parents confidence that their child is learning and growing in a safe, regulated environment. 
+                            Licensed childcare centres in Ontario must meet standards established by the Ministry of Education, including health and safety requirements, educator qualifications, staff-to-child ratios, and ongoing inspections to help ensure high-quality care.
+                        </p>
+
+                        <p className="w-full flex justify-center items-center flex-1">
+                            At Kidz Korner, we follow Ontario's licensed childcare standards while delivering a play-based curriculum that supports every child's development.
+                            Our focus is on creating a nurturing environment where children feel secure, develop important life skills, and build a strong foundation for future learning, while parents enjoy peace of mind knowing their child is in experienced and caring hands.
+                        </p>
                     </div>
-
-                    <p className="w-full flex justify-center items-center flex-1">
-                        Choosing a licensed daycare gives parents confidence that their child is learning and growing in a safe, regulated environment. 
-                        Licensed childcare centres in Ontario must meet standards established by the Ministry of Education, including health and safety requirements, educator qualifications, staff-to-child ratios, and ongoing inspections to help ensure high-quality care.
-                    </p>
-
-                    <p className="w-full flex justify-center items-center flex-1">
-                        At Kidz Korner, we follow Ontario's licensed childcare standards while delivering a play-based curriculum that supports every child's development.
-                        Our focus is on creating a nurturing environment where children feel secure, develop important life skills, and build a strong foundation for future learning, while parents enjoy peace of mind knowing their child is in experienced and caring hands.
-                    </p>
                 </div>
 
             </div>
