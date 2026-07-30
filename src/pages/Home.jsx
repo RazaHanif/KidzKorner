@@ -63,7 +63,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col justify-center items-center gap-4 w-full p-4">
+                <div className="flex flex-col justify-center items-center w-full p-4">
                     <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
                         Programs for Every Stage of Early Learning
                     </h2>
@@ -174,7 +174,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col justify-center items-center gap-4 w-full p-4">
+                <div className="flex flex-col justify-center items-center w-full p-4">
                     <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
                         Why Families Choose Kidz Korner
                     </h2>
@@ -246,7 +246,7 @@ const Home = () => {
                 */}
                 </div>
 
-                <div className="flex flex-col justify-center items-center gap-4 w-full p-4">
+                <div className="flex flex-col justify-center items-center w-full p-4">
                     <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
                         Licensed Daycare Conveniently Located in Milton
                     </h2>
@@ -267,7 +267,7 @@ const Home = () => {
                     </p>
                 </div>
 
-                <div className="flex flex-col justify-center items-center gap-4 w-full p-4">
+                <div className="flex flex-col justify-center items-center w-full p-4">
                     <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
                         The Benefits of Choosing a Licensed Daycare
                     </h2>
