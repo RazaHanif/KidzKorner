@@ -130,28 +130,30 @@ const Home = () => {
 
                         <div className="flex md:flex-row flex-col gap-4">
                             <NavLink to="/childcare" end className="hover:scale-102 ease-in-out duration-300">
+                                <Card className="flex-1 flex">
+                                    <CardHeader className="text-start">
+                                        <CardTitle>
+                                            Before & After School Care
+                                        </CardTitle>
+                                        <CardDescription>
+                                            Reliable care before and after school with homework support, activities, and a fun supervised environment.
+                                        </CardDescription>
+                                    </CardHeader>
+                                    <CardContent className="flex-1 flex justify-end items-end">
+                                        <Button>
+                                            <NavLink 
+                                                to="/childcare" 
+                                                end
+                                            >
+                                                Learn More
+                                            </NavLink>
+                                        </Button>
+                                    </CardContent>
+                                </Card>
                             </NavLink>
-                            <Card className="flex-1 flex">
-                                <CardHeader className="text-start">
-                                    <CardTitle>
-                                        Before & After School Care
-                                    </CardTitle>
-                                    <CardDescription>
-                                        Reliable care before and after school with homework support, activities, and a fun supervised environment.
-                                    </CardDescription>
-                                </CardHeader>
-                                <CardContent className="flex-1 flex justify-end items-end">
-                                    <Button>
-                                        <NavLink 
-                                            to="/childcare" 
-                                            end
-                                        >
-                                            Learn More
-                                        </NavLink>
-                                    </Button>
-                                </CardContent>
-                            </Card>
 
+                            <NavLink to="/childcare" end className="hover:scale-102 ease-in-out duration-300">
+                            </NavLink>
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
                                     <CardTitle>
