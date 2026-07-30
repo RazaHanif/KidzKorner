@@ -86,7 +86,7 @@ const Home = () => {
                         {/* 
                             TODO: update NavLinks when those pages are created 
                         */}
-                        <div className="flex md:flex-row flex-col gap-4 w- border-3 border-red-500">
+                        <div className="flex md:flex-row flex-col gap-4 w-full border-3 border-red-500">
                             <NavLink 
                                 to="/childcare" 
                                 end 
