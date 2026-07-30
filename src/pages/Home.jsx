@@ -90,7 +90,7 @@ const Home = () => {
                                         `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
                                         }
                                         >
-                                        Child Care
+                                            Child Care
                                         </NavLink>
                                     </Button>
                                 </CardContent>
@@ -114,7 +114,7 @@ const Home = () => {
                                         `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
                                         }
                                         >
-                                        Child Care
+                                            Child Care
                                         </NavLink>
                                     </Button>
                                 </CardContent>
@@ -140,7 +140,7 @@ const Home = () => {
                                         `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
                                         }
                                         >
-                                        Child Care
+                                            Child Care
                                         </NavLink>
                                     </Button>
                                 </CardContent>
@@ -164,7 +164,7 @@ const Home = () => {
                                         `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
                                         }
                                         >
-                                        Child Care
+                                            Child Care
                                         </NavLink>
                                     </Button>
                                 </CardContent>
