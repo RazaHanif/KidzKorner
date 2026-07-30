@@ -29,6 +29,7 @@ const Home = () => {
                             Our commitment to nurturing children in a safe, engaging environment has earned the trust of Milton families for generations.
 
                         </p>
+                        
                     </div>
                 </div>
 
