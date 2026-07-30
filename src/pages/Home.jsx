@@ -83,11 +83,11 @@ const Home = () => {
 
                             <Card>
                                 <CardContent>
+                                    <div>
+                                        
+                                    </div>
                                     <p>Card Content</p>
                                 </CardContent>
-                                <CardFooter>
-                                    <p>Card Footer</p>
-                                </CardFooter>
                             </Card>
 
                             <p className="w-full flex justify-center items-center m-4 flex-1">
