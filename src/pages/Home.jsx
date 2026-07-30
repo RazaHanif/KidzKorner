@@ -250,6 +250,10 @@ const Home = () => {
                     <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
                         Licensed Daycare Conveniently Located in Milton
                     </h2>
+
+                    <div>
+                        
+                    </div>
                     <p className="w-full flex justify-center items-center flex-1">
                         Kidz Korner is proud to serve Milton families with high-quality licensed childcare in a convenient, accessible location. 
                         Situated near Highway 401 and just minutes from downtown Milton, our daycare makes daily drop-offs and pick-ups easy for busy parents commuting throughout the area.
