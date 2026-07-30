@@ -96,7 +96,7 @@ const Home = () => {
                                             Family-Owned
                                         </h2>
                                         <p>
-                                            Meets Ontario Ministry of Education licensing standards.
+                                            Serving Milton families with a personal approach.
                                         </p>
                                     </div>
                                     <div>
