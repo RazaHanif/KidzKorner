@@ -43,6 +43,7 @@ const Home = () => {
 
                         <div className="w-full flex lg:flex-col gap-4 justify-around lg:justify-center">
                             <Button>
+                                <NavLink to="/childcare" end className="hover:scale-102 ease-in-out duration-300"></NavLink>
                                 <NavLink 
                                     to="/about" 
                                     end
