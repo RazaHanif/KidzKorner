@@ -56,6 +56,14 @@ const Home = () => {
                             {/* 
                                 Jump to /daycare 
                             */}
+                            <Button>
+                                <NavLink 
+                                    to="/about" 
+                                    end
+                                >
+                                    Schedule Tour
+                                </NavLink>
+                            </Button>
                             <Button>Explore Programs</Button>
                         </div>
                     </div>
