@@ -246,8 +246,6 @@ const Home = () => {
                 */}
                 </div>
 
-
-                <div className="flex flex-col m-2 flex-1 lg:justify-between">
                     <div className="flex flex-col justify-center items-center w-full p-4">
                         <h2 className="w-full flex justify-center items-center m-4 font-bold flex-1">
                             Licensed Daycare Conveniently Located in Milton
@@ -268,7 +266,6 @@ const Home = () => {
                             children can learn, grow, and thrive.
                         </p>
                     </div>
-                </div>
 
                 <div className="flex flex-col m-2 flex-1 lg:justify-between">
                     <div className="flex flex-col justify-center items-center w-full p-4">
