@@ -160,7 +160,7 @@ const Home = () => {
                                             Camp
                                         </CardTitle>
                                         <CardDescription>
-                                            idk some small 
+                                            [idk i gotta write this out still]
                                         </CardDescription>
                                     </CardHeader>
                                     <CardContent>
@@ -168,7 +168,6 @@ const Home = () => {
                                     </CardContent>
                                 </Card>
 
-                                
                             </div>
                         </div>
 
