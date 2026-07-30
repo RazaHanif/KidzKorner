@@ -153,7 +153,6 @@ const Home = () => {
                             </NavLink>
 
                             <NavLink to="/childcare" end className="hover:scale-102 ease-in-out duration-300">
-                            </NavLink>
                                 <Card className="flex-1 flex">
                                     <CardHeader className="text-start">
                                         <CardTitle>
@@ -168,12 +167,13 @@ const Home = () => {
                                             <NavLink 
                                                 to="/childcare" 
                                                 end
-                                            >
+                                                >
                                                 Learn More
                                             </NavLink>
                                         </Button>
                                     </CardContent>
                                 </Card>
+                                                </NavLink>
                         </div>
                     </div>
                 </div>
