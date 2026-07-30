@@ -88,7 +88,7 @@ const Home = () => {
                                             to="/childcare" 
                                             end
                                         >
-                                            Child Care
+                                            Learn More
                                         </NavLink>
                                     </Button>
                                 </CardContent>
@@ -109,7 +109,7 @@ const Home = () => {
                                             to="/childcare" 
                                             end
                                         >
-                                            Child Care
+                                            Learn More
                                         </NavLink>
                                     </Button>
                                 </CardContent>
@@ -132,7 +132,7 @@ const Home = () => {
                                             to="/childcare" 
                                             end
                                         >
-                                            Child Care
+                                            Learn More
                                         </NavLink>
                                     </Button>
                                 </CardContent>
@@ -153,7 +153,7 @@ const Home = () => {
                                             to="/childcare" 
                                             end
                                         >
-                                            Child Care
+                                            Learn More
                                         </NavLink>
                                     </Button>
                                 </CardContent>
