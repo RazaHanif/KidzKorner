@@ -167,7 +167,7 @@ const Home = () => {
                                             Camp
                                         </CardTitle>
                                         <CardDescription>
-                                            Fun, engaging camps during PA Days, March Break
+                                            Fun, engaging camps during PA Days, March Break, Summer Break and Winter Break with games, learning, and new friendships.
                                         </CardDescription>
                                     </CardHeader>
                                     <CardContent className="flex-1 flex justify-end items-end">
