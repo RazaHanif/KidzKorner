@@ -30,8 +30,8 @@ const Home = () => {
                             Our commitment to nurturing children in a safe, engaging environment has earned the trust of Milton families for generations.
 
                         </p>
-                        
-                        {/*  */}
+
+                        {/* Maybe a button to call? or jump to the injury form on the  */}
                         <Button>Schedule a Tour</Button>
                     </div>
                 </div>
