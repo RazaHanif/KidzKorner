@@ -85,7 +85,7 @@ const Home = () => {
                                         A safe, nurturing environment where toddlers learn through play while developing confidence, social skills, and independence.
                                     </CardDescription>
                                 </CardHeader>
-                                <CardContent className="flex-1 flex items-center justify-center lg:justify-end lg:items-end">
+                                <CardContent className="flex-1 flex items-center justify-center md:justify-end md:items-end">
                                     <Button>
                                         <NavLink 
                                             to="/childcare" 
@@ -106,7 +106,7 @@ const Home = () => {
                                         Preparing children for kindergarten through play-based learning, creativity, and structured early education.
                                     </CardDescription>
                                 </CardHeader>
-                                <CardContent className="flex-1 flex items-center justify-center lg:justify-end lg:items-end">
+                                <CardContent className="flex-1 flex items-center justify-center md:justify-end md:items-end">
                                     <Button>
                                         <NavLink 
                                             to="/childcare" 
@@ -129,7 +129,7 @@ const Home = () => {
                                         Reliable care before and after school with homework support, activities, and a fun supervised environment.
                                     </CardDescription>
                                 </CardHeader>
-                                <CardContent className="flex-1 flex items-center justify-center lg:justify-end lg:items-end">
+                                <CardContent className="flex-1 flex items-center justify-center md:justify-end md:items-end">
                                     <Button>
                                         <NavLink 
                                             to="/childcare" 
@@ -150,7 +150,7 @@ const Home = () => {
                                         [idk i gotta write this out still]
                                     </CardDescription>
                                 </CardHeader>
-                                <CardContent className="flex-1 flex items-center justify-center lg:justify-end lg:items-end">
+                                <CardContent className="flex-1 flex items-center justify-center md:justify-end md:items-end">
                                     <Button>
                                         <NavLink 
                                             to="/childcare" 
