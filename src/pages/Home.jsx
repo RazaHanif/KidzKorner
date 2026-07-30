@@ -112,7 +112,7 @@ const Home = () => {
                                     Before/After School Care
                                 </Button>
                                 <Button>
-                                    Toddler Daycare
+                                    Camps
                                 </Button>
 
                             </div>
