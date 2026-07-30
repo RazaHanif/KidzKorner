@@ -167,7 +167,7 @@ const Home = () => {
                                             Camp
                                         </CardTitle>
                                         <CardDescription>
-                                            [idk i gotta write this out still]
+                                            Fun, engaging camps during PA Days, March Break
                                         </CardDescription>
                                     </CardHeader>
                                     <CardContent className="flex-1 flex justify-end items-end">
