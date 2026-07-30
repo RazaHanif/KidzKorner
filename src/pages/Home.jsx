@@ -252,23 +252,22 @@ const Home = () => {
                     </h2>
 
                     <div>
-                        
-                    </div>
-                    <p className="w-full flex justify-center items-center flex-1">
-                        Kidz Korner is proud to serve Milton families with high-quality licensed childcare in a convenient, accessible location. 
-                        Situated near Highway 401 and just minutes from downtown Milton, our daycare makes daily drop-offs and pick-ups easy for busy parents commuting throughout the area.
-                    </p>
+                        <p className="w-full flex justify-center items-center flex-1">
+                            Kidz Korner is proud to serve Milton families with high-quality licensed childcare in a convenient, accessible location. 
+                            Situated near Highway 401 and just minutes from downtown Milton, our daycare makes daily drop-offs and pick-ups easy for busy parents commuting throughout the area.
+                        </p>
 
-                    <p className="w-full flex justify-center items-center flex-1">
-                        We welcome children from neighborhoods across
-                        Milton, including Clarke, Scott, Willmott, Beaty,
-                        Harrison, Dempsey, Timberlea, and surrounding
-                        communities throughout the Halton Region. Whether
-                        you're searching for a trusted daycare in Milton or
-                        reliable childcare close to home, Kidz Korner
-                        provides a safe, nurturing environment where
-                        children can learn, grow, and thrive.
-                    </p>
+                        <p className="w-full flex justify-center items-center flex-1">
+                            We welcome children from neighborhoods across
+                            Milton, including Clarke, Scott, Willmott, Beaty,
+                            Harrison, Dempsey, Timberlea, and surrounding
+                            communities throughout the Halton Region. Whether
+                            you're searching for a trusted daycare in Milton or
+                            reliable childcare close to home, Kidz Korner
+                            provides a safe, nurturing environment where
+                            children can learn, grow, and thrive.
+                        </p>
+                    </div>
                 </div>
 
                 <div className="flex flex-col justify-center items-center w-full p-4">
