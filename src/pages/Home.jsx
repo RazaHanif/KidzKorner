@@ -101,7 +101,9 @@ const Home = () => {
                                     </Card>
                                 </div>
 
-                                                                <div className="flex lg:flex-row flex-col gap-4"></div>
+                                <div className="flex lg:flex-row flex-col gap-4">
+                                </div>
+
 
 
                                 <Card>
