@@ -71,8 +71,8 @@ const Home = () => {
                             </p>
 
                             <div className="flex flex-1 flex-col gap-4 w-full">
-                                <div>
-                                    
+                                <div className="border-2 ">
+
                                 </div>
 
                                 <Card>
