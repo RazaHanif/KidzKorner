@@ -174,7 +174,7 @@ const Home = () => {
 
                             <Card>
                                 <CardContent>
-                                    <div>
+                                    <div clas>
                                         <h2 className="font-bold">
                                             Licensed Ontario Childcare
                                         </h2>
@@ -182,7 +182,7 @@ const Home = () => {
                                             Meets Ontario Ministry of Education licensing standards.
                                         </p>
                                     </div>
-                                    <div>
+                                    <div clas>
                                         <h2 className="font-bold">
                                             Family-Owned
                                         </h2>
@@ -190,7 +190,7 @@ const Home = () => {
                                             Serving Milton families with a personal approach.
                                         </p>
                                     </div>
-                                    <div>
+                                    <div clas>
                                         <h2 className="font-bold">
                                             Experienced Educators
                                         </h2>
@@ -198,7 +198,7 @@ const Home = () => {
                                             Caring professionals focused on every child's growth.
                                         </p>
                                     </div>
-                                    <div>
+                                    <div clas>
                                         <h2 className="font-bold">
                                             Play-Based Learning
                                         </h2>
@@ -206,7 +206,7 @@ const Home = () => {
                                             Learning through exploration, creativity, and fun.
                                         </p>
                                     </div>
-                                    <div>
+                                    <div clas>
                                         <h2 className="font-bold">
                                             Safe Environment
                                         </h2>
@@ -214,7 +214,7 @@ const Home = () => {
                                             A secure, welcoming space where children can thrive.
                                         </p>
                                     </div>
-                                    <div>
+                                    <div clas>
                                         <h2 className="font-bold">
                                             Strong Parent Communication
                                         </h2>
