@@ -119,7 +119,7 @@ const Home = () => {
                                     </CardHeader>
                                     <CardContent>
                                         <Button>
-                                            
+                                            Learn More...
                                         </Button>
                                     </CardContent>
                                 </Card>
