@@ -125,7 +125,7 @@ const Home = () => {
                                         [idk i gotta write this out still]
                                     </CardDescription>
                                 </CardHeader>
-                                <CardContent>
+                                <CardContent className>
                                     <Button>Learn More</Button>
                                 </CardContent>
                             </Card>
