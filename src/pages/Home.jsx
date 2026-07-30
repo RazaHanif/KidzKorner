@@ -84,11 +84,11 @@ const Home = () => {
                                 <CardContent className="flex-1 flex items-center justify-center lg:justify-end lg:items-end">
                                     <Button>
                                         <NavLink 
-                                        to="/childcare" 
-                                        end
-                                        className={({ isActive }) =>
-                                        `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
-                                        }
+                                            to="/childcare" 
+                                            end
+                                            className={({ isActive }) =>
+                                            `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
+                                            }
                                         >
                                             Child Care
                                         </NavLink>
@@ -108,11 +108,11 @@ const Home = () => {
                                 <CardContent className="flex-1 flex items-center justify-center lg:justify-end lg:items-end">
                                     <Button>
                                         <NavLink 
-                                        to="/childcare" 
-                                        end
-                                        className={({ isActive }) =>
-                                        `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
-                                        }
+                                            to="/childcare" 
+                                            end
+                                            className={({ isActive }) =>
+                                            `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
+                                            }
                                         >
                                             Child Care
                                         </NavLink>
@@ -134,11 +134,11 @@ const Home = () => {
                                 <CardContent className="flex-1 flex items-center justify-center lg:justify-end lg:items-end">
                                     <Button>
                                         <NavLink 
-                                        to="/childcare" 
-                                        end
-                                        className={({ isActive }) =>
-                                        `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
-                                        }
+                                            to="/childcare" 
+                                            end
+                                            className={({ isActive }) =>
+                                            `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
+                                            }
                                         >
                                             Child Care
                                         </NavLink>
@@ -158,11 +158,11 @@ const Home = () => {
                                 <CardContent className="flex-1 flex items-center justify-center lg:justify-end lg:items-end">
                                     <Button>
                                         <NavLink 
-                                        to="/childcare" 
-                                        end
-                                        className={({ isActive }) =>
-                                        `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
-                                        }
+                                            to="/childcare" 
+                                            end
+                                            className={({ isActive }) =>
+                                            `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
+                                            }
                                         >
                                             Child Care
                                         </NavLink>
