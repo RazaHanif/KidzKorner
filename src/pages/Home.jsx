@@ -70,7 +70,7 @@ const Home = () => {
                                 Every program combines structured learning, creative play, outdoor activities, and opportunities to build friendships in a safe and supportive environment.
                             </p>
 
-                            <div className="flex flex-1 flex-col gap-4 w-full items-center">
+                            <div className="flex flex-1 flex-col gap-4 w-full">
 
                                 <Card>
                                     <CardHeader>
