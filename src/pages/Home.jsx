@@ -146,7 +146,7 @@ const Home = () => {
                                             Before & After School Care
                                         </CardTitle>
                                         <CardDescription>
-                                            A safe, nurturing environment where toddlers learn through play while developing confidence, social skills, and independence.
+                                            Reliable care before and after school with homework support, activ
                                         </CardDescription>
                                     </CardHeader>
                                     <CardContent>
