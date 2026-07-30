@@ -172,12 +172,7 @@ const Home = () => {
                                     </CardHeader>
                                     <CardContent className="flex-1 flex justify-end items-end">
                                         <Button className="cursor-pointer">
-                                            <NavLink 
-                                                to="/childcare" 
-                                                end
-                                                >
-                                                Learn More
-                                            </NavLink>
+                                            Learn More
                                         </Button>
                                     </CardContent>
                                 </Card>
