@@ -126,7 +126,7 @@ const Home = () => {
                                 <Card>
                                     <CardHeader>
                                         <CardTitle>
-                                            Card Title
+                                            Toddler Daycare
                                         </CardTitle>
                                         <CardDescription>
                                             Card Description
