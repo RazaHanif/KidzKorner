@@ -53,7 +53,7 @@ const Home = () => {
                             </NavLink>
 
                             <NavLink 
-                                to="/about" 
+                                to="/childcare" 
                                 end
                                 className="hover:scale-105 ease-in-out duration-300"
                             >
