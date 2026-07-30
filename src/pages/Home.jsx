@@ -88,7 +88,7 @@ const Home = () => {
                                             Licensed Ontario Childcare
                                         </h2>
                                         <p>
-                                            Meets Ontario Minsitry 
+                                            Meets Ontario Minsit
                                         </p>
                                     </div>
                                 </CardContent>
