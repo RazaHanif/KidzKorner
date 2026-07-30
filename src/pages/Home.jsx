@@ -184,7 +184,7 @@ const Home = () => {
                                     </div>
                                     <div className="flex flex-col items-start justify-start w-full">
                                         <h2 className="font-bold">
-                                            Family-Owned
+                                             Family-Owned
                                         </h2>
                                         <p className="text-start indent-4">
                                             Serving Milton families with a personal approach.
