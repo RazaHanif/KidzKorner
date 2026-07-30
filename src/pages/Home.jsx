@@ -104,7 +104,7 @@ const Home = () => {
                                             Experienced Educators
                                         </h2>
                                         <p>
-                                            Meets Ontario Ministry of Education licensing standards.
+                                            Caring professionals focused on every child's growth
                                         </p>
                                     </div>
                                     <div>
