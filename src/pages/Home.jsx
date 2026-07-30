@@ -82,7 +82,17 @@ const Home = () => {
                                     </CardDescription>
                                 </CardHeader>
                                 <CardContent className="flex-1 flex items-center justify-center lg:justify-end lg:items-end">
-                                    <Button>Learn More</Button>
+                                    <Button>
+                                                <NavLink 
+          to="/childcare" 
+          end
+          className={({ isActive }) =>
+            `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
+          }
+        >
+          Child Care
+        </NavLink>
+                                    </Button>
                                 </CardContent>
                             </Card>
 
@@ -96,7 +106,17 @@ const Home = () => {
                                     </CardDescription>
                                 </CardHeader>
                                 <CardContent className="flex-1 flex items-center justify-center lg:justify-end lg:items-end">
-                                    <Button>Learn More</Button>
+                                    <Button>
+                                                <NavLink 
+          to="/childcare" 
+          end
+          className={({ isActive }) =>
+            `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
+          }
+        >
+          Child Care
+        </NavLink>
+                                    </Button>
                                 </CardContent>
                             </Card>
                         </div>
@@ -112,7 +132,17 @@ const Home = () => {
                                     </CardDescription>
                                 </CardHeader>
                                 <CardContent className="flex-1 flex items-center justify-center lg:justify-end lg:items-end">
-                                    <Button>Learn More</Button>
+                                    <Button>
+                                                <NavLink 
+          to="/childcare" 
+          end
+          className={({ isActive }) =>
+            `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
+          }
+        >
+          Child Care
+        </NavLink>
+                                    </Button>
                                 </CardContent>
                             </Card>
 
@@ -126,7 +156,17 @@ const Home = () => {
                                     </CardDescription>
                                 </CardHeader>
                                 <CardContent className="flex-1 flex items-center justify-center lg:justify-end lg:items-end">
-                                    <Button>Learn More</Button>
+                                    <Button>
+                                                <NavLink 
+          to="/childcare" 
+          end
+          className={({ isActive }) =>
+            `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
+          }
+        >
+          Child Care
+        </NavLink>
+                                    </Button>
                                 </CardContent>
                             </Card>
                         </div>
