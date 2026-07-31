@@ -80,7 +80,7 @@ const Daycare = () => {
                 </h2>
                 <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
                     <div className="border-4 border-red-500 w-full flex-1">
-                                                <NavLink 
+                        <NavLink 
                             to="/daycare" 
                             end 
                             className="hover:scale-102 ease-in-out duration-300 flex flex-1"
