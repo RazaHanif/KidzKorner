@@ -27,8 +27,8 @@ import NotFound from './pages/NotFound.jsx'
 /birthday-parties
 /workshops
 /about-us
-
-
+/blog
+/faq
 
 */
 
