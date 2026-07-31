@@ -102,15 +102,15 @@ const Daycare = () => {
                             </Card>
                         </NavLink>
 
-                        <NavLink 
-                            to="/daycare" 
+                        <NavLink
+                            to="/daycare/preschool</div>" 
                             end 
                             className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                         >
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
                                     <CardTitle>
-                                        Toddler Daycare
+                                        Preschool Programs
                                     </CardTitle>
                                     <CardDescription>
                                         A safe, nurturing environment where toddlers learn through play while developing confidence, social skills, and independence.
