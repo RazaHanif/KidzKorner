@@ -3,12 +3,6 @@ import PartyCard from "@/components/PartyCard";
 import Image from "@/components/Image"
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 
-/* 
-LocalBusiness
-Service
-BreadcrumbList
- */
-
 const Parties = () => {
     return (
         <div className="flex flex-col justify-center items-center w-full gap-2">
