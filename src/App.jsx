@@ -14,28 +14,18 @@ import NotFound from './pages/NotFound.jsx'
 /* 
 
 /
-
 /daycare
-
 /daycare/toddler-daycare-milton
-
 /daycare/preschool-milton
-
 /daycare/before-after-school-care-milton
-
 /camp
-
 /camp/summer-break
 /camp/march-break
 /camp/winter-break
 /camp/pa-days
-
 /indoor-playground
-
 /birthday-parties
-
 /workshops
-
 /about-us
 
 
