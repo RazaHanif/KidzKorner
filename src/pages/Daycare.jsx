@@ -204,7 +204,7 @@ const Daycare = () => {
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-1 m-4 overflow-x-auto">
                <h2 className="text-xl font-bold self-center">
-                    Kidz Korner Daily Routine
+                    A Day at Kidz Korner
                 </h2>
                 <p className="text-sm">
                     Here's what our day looks like!
