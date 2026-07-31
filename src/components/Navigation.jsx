@@ -16,7 +16,7 @@ function Navigation() {
         className="hidden lg:flex flex-row lg:w-3xl w-full text-xl lg:text-2xl justify-between items-center gap-4 text-nowrap"
       >
         <NavLink 
-          to="/childcare" 
+          to="/daycare" 
           end
           className={({ isActive }) =>
             `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
@@ -85,7 +85,7 @@ function Navigation() {
           <DropdownMenuContent className=''>
             <DropdownMenuItem  asChild>
               <NavLink
-                to="/childcare" 
+                to="/daycare" 
                 end
               >
                 Child Care
