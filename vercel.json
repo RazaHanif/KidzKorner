@@ -27,7 +27,7 @@
             "permanent": true
         },
         {
-            "source": "/about",
+            "source": "/workshop",
             "destination": "/about-us",
             "permanent": true
         }
