@@ -15,9 +15,9 @@ import NotFound from './pages/NotFound.jsx'
 
 /
 /daycare
-/daycare/toddler-daycare-milton
-/daycare/preschool-milton
-/daycare/before-after-school-care-milton
+/daycare/toddler-daycare
+/daycare/preschool
+/daycare/before-after-school-care
 /camp
 /camp/summer-break
 /camp/march-break
