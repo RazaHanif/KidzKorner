@@ -43,8 +43,8 @@ function App() {
           <Route path='/daycare/toddler-daycare' element={<Childcare />} />
           <Route path='/daycare/preschool' element={<Childcare />} />
           <Route path='/daycare/before-after-school-care' element={<Childcare />} />
-          <Route path='/workshop' element={<Workshops />} /> 
           <Route path='/camp' element={<Camp />} />
+          <Route path='/workshop' element={<Workshops />} /> 
           <Route path='/test' element={<Test />} />
           <Route path='*' element={<NotFound />} />
 
