@@ -171,25 +171,6 @@ export const websiteSchema = {
 };
 
 export const breadcrumbSchema = (breadcrumbs) => {
-    /* 
-        const breadCrumb = [
-            {
-                name: "Home",
-                url: "https://www.kidzkornermilton.com/"
-            },
-            {
-                name: "Daycare",
-                url: "https://www.kidzkornermilton.com/daycare"
-            },
-            {
-                name: "Toddler Daycare",
-                url: "https://www.kidzkornermilton.com/daycare/toddler-daycare-milton"
-            }
-        ];
-    */
-
-        console.log(breadcrumbs)
-
     return {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
