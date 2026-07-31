@@ -15,7 +15,7 @@ import NotFound from './pages/NotFound.jsx'
 
 /
 /daycare
-/daycare/toddler-daycare
+/daycare/toddler
 /daycare/preschool
 /daycare/before-after-school-care
 /camp
