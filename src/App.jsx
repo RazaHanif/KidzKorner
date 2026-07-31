@@ -39,8 +39,6 @@ function App() {
       <div className='flex-1 flex flex-col w-full p-4 relative'>
         <Routes>
           <Route path='/' element={<Home />} />
-          {/* /childcare -> /daycare */}
-          {/* Make /childcare redirect for SEO */}
           <Route path='/daycare' element={<Childcare />} />
           <Route path='/workshop' element={<Workshops />} /> 
           <Route path='/camp' element={<Camp />} />
