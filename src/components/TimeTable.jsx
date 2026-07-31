@@ -5,7 +5,7 @@ import {
   TableRow,
 } from "@/components/ui/table"
 
-const TimeTable = () => {
+const CareSchedule = () => {
     const timetable = [
         {
             session: "Before School",
@@ -47,4 +47,4 @@ const TimeTable = () => {
     )
 }
 
-export default TimeTable;
+export default CareSchedule;
