@@ -10,12 +10,6 @@ import Image from "@/components/Image";
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
 
-/* 
-LocalBusiness
-Service
-BreadcrumbList
- */
-
 const Camp = () => {
     const breadCrumb = [
         {
