@@ -50,6 +50,8 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/test' element={<Test />} />
           <Route path='*' element={<NotFound />} />
+
+          {/* Redirected but keeping here */}
         </Routes>
       </div>
       <Footer/>
