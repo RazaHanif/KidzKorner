@@ -5,11 +5,11 @@
             "destination": "/"
         }
     ],
-  "redirects": [
+    "redirects": [
     {
-      "source": "/childcare",
-      "destination": "/daycare",
-      "permanent": true
+        "source": "/childcare",
+        "destination": "/daycare",
+        "permanent": true
     }
-  ]
+    ]
 }
