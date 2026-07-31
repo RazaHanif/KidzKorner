@@ -1,7 +1,3 @@
-import FormBtn from "../components/FormBtn";
-import WorkshopForm from "../components/WorkshopFrom";
-
-
 const Test = () => {
     return (
         <>
