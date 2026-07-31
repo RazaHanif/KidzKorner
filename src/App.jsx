@@ -39,6 +39,7 @@ function App() {
       <div className='flex-1 flex flex-col w-full p-4 relative'>
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='*' element={<NotFound />} />
           <Route path='/daycare' element={<Childcare />} />
           <Route path='/daycare/toddler-daycare' element={<Childcare />} />
           <Route path='/daycare/preschool' element={<Childcare />} />
@@ -46,7 +47,6 @@ function App() {
           <Route path='/camp' element={<Camp />} />
           <Route path='/workshop' element={<Workshops />} /> 
           <Route path='/test' element={<Test />} />
-          <Route path='*' element={<NotFound />} />
 
           {/* Redirected but keeping here */}
           <Route path='/childcare' element={<Childcare />} />
