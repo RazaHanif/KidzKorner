@@ -1,5 +1,5 @@
-import DaycareForm from "@/components/DaycareForm";
-import DaycareTimeTable from "@/components/DaycareTimeTable";
+import ChildcareForm from "@/components/ChildcareForm";
+import ChildcareTimeTable from "@/components/ChildcareTimeTable";
 import TimeTable from "@/components/TimeTable";
 import {
     Card,
@@ -12,8 +12,8 @@ import Image from "@/components/Image"
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
 
-// Daycare -> Daycare
-const Daycare = () => {
+// Childcare -> Daycare
+const Childcare = () => {
     const breadCrumb = [
         {
             name: "Home",
@@ -159,4 +159,4 @@ const Daycare = () => {
     );
 }
   
-export default Daycare;
+export default Childcare;
