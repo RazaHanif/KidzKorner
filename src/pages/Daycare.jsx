@@ -79,7 +79,7 @@ const Daycare = () => {
                     Program Options - Full Time & Part Time Care
                 </h2>
                 <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
-                    <div className="border-4 border-red-500 w-full flex-1">
+                    <div className="flex flex-col ">
                         <NavLink 
                             to="/daycare" 
                             end 
@@ -101,7 +101,7 @@ const Daycare = () => {
                                 </CardContent>
                             </Card>
                         </NavLink>
-                        
+
                         <NavLink 
                             to="/daycare" 
                             end 
