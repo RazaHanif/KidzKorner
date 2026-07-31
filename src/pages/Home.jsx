@@ -41,7 +41,7 @@ const Home = () => {
 
                         </p>
 
-                        <div className="w-full flex lg:flex-col gap-4 justify-center items-center">
+                        <div className="w-full flex lg:flex-col gap-4 justify-center items-center border-2">
                             <NavLink 
                                 to="/about" 
                                 end
