@@ -3,6 +3,22 @@ import Image from "@/components/Image";
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 
 const Playground = () => {
+        const breadCrumb = [
+            {
+                name: "Home",
+                url: "https://www.kidzkornermilton.com/"
+            },
+            {
+                name: "Daycare",
+                url: "https://www.kidzkornermilton.com/daycare"
+            },
+            {
+                name: "Toddler Daycare",
+                url: "https://www.kidzkornermilton.com/daycare/toddler-daycare-milton"
+            }
+        ]; 
+
+
     return (
         <div className="flex flex-col justify-center items-center w-full gap-4 text-justify">
             <div className="flex flex-col justify-center items-center w-full font-serif">
@@ -29,7 +45,7 @@ const Playground = () => {
             </div>
 
             <StructData schema={localBusinessSchema} />
-            <StructData schema={breadcrumbSchema} />
+            <StructData schema={breadcrumbSchema(breadCrumb)} />
 
             <title>
                 Indoor Playground in Milton, Ontario | Kidz Korner 
