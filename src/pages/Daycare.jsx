@@ -30,9 +30,9 @@ const Daycare = () => {
                 <h1 className="text-3xl font-bold font-serif">
                     Child Care 
                 </h1>
-                <p className="text-xl font-bold text-center">
+                <h2 className="text-xl font-bold text-center">
                     Toddler, Preschool, and Before/After School Programs
-                </p>    
+                </h2>    
             </div>
             
             <div className="flex lg:flex-row flex-col justify-between items-center w-3/4 gap-4">
