@@ -11,7 +11,33 @@ import Camp from './pages/Camp.jsx'
 import Test from './pages/Test.jsx'
 import NotFound from './pages/NotFound.jsx'
 
+/* 
 
+/daycare
+
+/daycare/toddler-daycare-milton
+
+/daycare/preschool-milton
+
+/daycare/before-after-school-care-milton
+
+/camp
+
+/camp
+
+/indoor-playground
+
+/birthday-parties
+
+/workshops
+
+/
+
+/about
+
+
+
+*/
 
 function App() {
   return (
