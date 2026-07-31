@@ -4,6 +4,17 @@ import Image from "@/components/Image"
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 
 const Parties = () => {
+    const breadCrumb = [
+        {
+            name: "Home",
+            url: "https://www.kidzkornermilton.com/"
+        },
+        {
+            name: "Parties",
+            url: "https://www.kidzkornermilton.com/parties"
+        }
+    ];
+
     return (
         <div className="flex flex-col justify-center items-center w-full gap-2">
             <div className="flex flex-col justify-center items-center w-full">
@@ -112,7 +123,7 @@ const Parties = () => {
             </div>
 
             <StructData schema={localBusinessSchema} />
-            <StructData schema={breadcrumbSchema} />
+            <StructData schema={breadcrumbSchema(breadCrumb)} />
 
             <title>
                 Kids Parties in Miltion, Ontario | Kidz Korner 
