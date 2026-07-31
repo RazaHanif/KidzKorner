@@ -56,7 +56,7 @@ const Footer = () => {
       <div className="border-t border-chart-4 lg:hidden flex m-2" />
 
       <div className="flex-1 flex flex-col justify-start items-center">
-        <h1 className="text-xl flex justify-center items-center w-full wrap-break-word">
+        <h1 className="text-xl flex justify-center items-center w-full wrap-break-word text-center">
           Indoor Playground Hours
         </h1>
         <div className="w-3/4 lg:w-5/6 flex-1">
