@@ -46,6 +46,7 @@ function App() {
           <Route path='/daycare/toddler-daycare' element={<Childcare />} />
           <Route path='/daycare/preschool' element={<Childcare />} />
           <Route path='/daycare/before-after-school-care' element={<Childcare />} />
+          <Route path='/about-us' element={<About />} />
 
           {/* Camp */}
           <Route path='/camp' element={<Camp />} />
@@ -59,7 +60,6 @@ function App() {
 
           <Route path='/playground' element={<Playground />} />
 
-          <Route path='/about-us' element={<About />} />
 
           <Route path='/workshop' element={<Workshops />} /> 
           <Route path='/test' element={<Test />} />
