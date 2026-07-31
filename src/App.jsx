@@ -41,7 +41,6 @@ function App() {
           <Route path='/' element={<Home />} />
           {/* /childcare -> /daycare */}
           {/* Make /childcare redirect for SEO */}
-          <Route path='/childcare' element={<Childcare />} />
           <Route path='/daycare' element={<Childcare />} />
           <Route path='/workshop' element={<Workshops />} /> 
           <Route path='/camp' element={<Camp />} />
@@ -49,6 +48,7 @@ function App() {
           <Route path='*' element={<NotFound />} />
 
           {/* Redirected but keeping here */}
+          <Route path='/childcare' element={<Childcare />} />
           <Route path='/parties' element={<Parties />} />
           <Route path='/playground' element={<Playground />} />
           <Route path='/about' element={<About />} />
