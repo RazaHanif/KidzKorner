@@ -1,5 +1,6 @@
 import WorkshopForm from "@/components/WorkshopFrom"
 import WorkshopCarousel from "@/components/WorkshopCarousel";
+import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 
 /* 
 LocalBusiness
@@ -8,6 +9,16 @@ BreadcrumbList
 */
 
 const Workshops = () => {
+    const breadCrumb = [
+        {
+            name: "Home",
+            url: "https://www.kidzkornermilton.com/"
+        },
+        {
+            name: "Workshops",
+            url: "https://www.kidzkornermilton.com/workshop"
+        }
+    ];
     return (
         <div className="flex flex-col justify-center items-center w-full gap-2">
             <div className="flex flex-col justify-evenly items-center w-3/4">
@@ -41,6 +52,10 @@ const Workshops = () => {
                 <WorkshopForm/>
             </div>
  */}
+
+            <StructData schema={localBusinessSchema} />
+            <StructData schema={breadcrumbSchema(breadCrumb)} />
+
             <title>
                 Kids Workshops & Programs in Milton, Ontario | Kidz Korner 
             </title>
