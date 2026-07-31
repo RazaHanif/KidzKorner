@@ -3,6 +3,7 @@ import ContactUsTable from "@/components/ContactUsTable";
 import HoursTimeTable from "@/components/HoursTimeTable";
 import Image from '@/components/Image'
 import { breadcrumbSchema, organizationSchema } from "../schema/structDataSchema";
+import StructData from "../components/StructData";
 
 /* 
 Organization
