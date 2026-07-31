@@ -7,6 +7,8 @@ import {
 } from "@/components/ui/card"
 import CampForm from "@/components/CampForm";
 import Image from "@/components/Image";
+import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
+import StructData from "../components/StructData";
 
 /* 
 LocalBusiness
@@ -15,6 +17,16 @@ BreadcrumbList
  */
 
 const Camp = () => {
+    const breadCrumb = [
+        {
+            name: "Home",
+            url: "https://www.kidzkornermilton.com/"
+        },
+        {
+            name: "Camp",
+            url: "https://www.kidzkornermilton.com/camp"
+        },
+    ];
     return (
         <div className="flex flex-col justify-center items-center w-full gap-8 text-justify">
             <div className="flex flex-col justify-evenly items-center w-3/4">
@@ -223,6 +235,10 @@ const Camp = () => {
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
                 <CampForm/>
             </div>
+
+
+            <StructData schema={localBusinessSchema} />
+            <StructData schema={breadcrumbSchema(breadCrumb)} />
 
             <title>
                 Kids Camp in Milton, Ontario | Kidz Korner 
