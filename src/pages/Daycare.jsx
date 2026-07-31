@@ -103,7 +103,7 @@ const Daycare = () => {
                         </NavLink>
 
                         <NavLink
-                            to="/daycare/preschool</div>" 
+                            to="/daycare/preschool" 
                             end 
                             className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                         >
