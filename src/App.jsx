@@ -65,10 +65,11 @@ function App() {
           <Route path='/test' element={<Test />} />
 
           {/* Redirected but keeping here */}
+          <Route path='/about' element={<About />} />
           <Route path='/childcare' element={<Childcare />} />
           <Route path='/parties' element={<Parties />} />
           <Route path='/playground' element={<Playground />} />
-          <Route path='/about' element={<About />} />
+          <Route path='/workshops' element={<Workshops />} /> 
         </Routes>
       </div>
       <Footer/>
