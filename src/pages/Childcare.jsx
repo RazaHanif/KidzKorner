@@ -1,6 +1,6 @@
 import ChildcareForm from "@/components/ChildcareForm";
 import ChildcareTimeTable from "@/components/ChildcareTimeTable";
-import TimeTable from "@/components/TimeTable";
+import CareSchedule from "@/components/CareSchedule";
 import {
     Card,
     CardContent,
@@ -76,7 +76,7 @@ const Childcare = () => {
                 </h2>
                 <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
                     <div className="flex flex-col justify-center m-4 lg:m-0">
-                        <TimeTable />
+                        <CareSchedule />
                     </div>
                     <Image src='/20250822_121126.jpg' alt='Child Playing With Blocks at Kidz Korner Milton, Ontario' w="w-sm"/>
                 </div>
