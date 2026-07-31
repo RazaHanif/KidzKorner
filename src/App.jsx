@@ -40,6 +40,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='*' element={<NotFound />} />
+
+            {/* Daycare */}
           <Route path='/daycare' element={<Childcare />} />
           <Route path='/daycare/toddler-daycare' element={<Childcare />} />
           <Route path='/daycare/preschool' element={<Childcare />} />
