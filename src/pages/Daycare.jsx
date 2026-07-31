@@ -135,7 +135,7 @@ const Daycare = () => {
                                         Toddler Daycare
                                     </CardTitle>
                                     <CardDescription>
-                                        A safe, nurturing environment where toddlers learn through play while developing confidence, social skills, and independence.
+                                        TBA
                                     </CardDescription>
                                 </CardHeader>
                                 <CardContent className="flex-1 flex justify-end items-end">
