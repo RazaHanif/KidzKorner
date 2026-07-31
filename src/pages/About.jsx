@@ -17,7 +17,7 @@ const About = () => {
         },
         {
             name: "Daycare",
-            url: "https://www.kidzkornermilton.com/daycare"
+            url: "https://www.kidzkornermilton.com/about"
         },
         {
             name: "Toddler Daycare",
