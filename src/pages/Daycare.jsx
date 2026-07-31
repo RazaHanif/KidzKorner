@@ -151,7 +151,7 @@ const Daycare = () => {
 
             <div className="flex flex-col justify-center items-center w-3/4 m-4">
                 <h2 className="text-xl font-bold text-center lg:mb-4">
-                    Program Options - Full Time & Part Time Care
+                    Care Scheu - Full Time & Part Time Care
                 </h2>
                 <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
                     <div className="flex flex-col justify-center m-4 lg:m-0">
