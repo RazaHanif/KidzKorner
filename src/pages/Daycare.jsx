@@ -124,8 +124,8 @@ const Daycare = () => {
                             </Card>
                         </NavLink>
 
-                        <NavLink 
-                            to="/daycare" 
+                        <NavLink
+                            to="/daycare/before-after-school-care" 
                             end 
                             className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                         >
