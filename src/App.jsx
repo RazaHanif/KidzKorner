@@ -19,9 +19,9 @@ import NotFound from './pages/NotFound.jsx'
 /daycare/preschool
 /daycare/before-after-school-care
 /camp
-/camp/summer-break
-/camp/march-break
-/camp/winter-break
+/camp/summer-camp
+/camp/march-camp
+/camp/winter-camp
 /camp/pa-days
 /indoor-playground
 /birthday-parties
