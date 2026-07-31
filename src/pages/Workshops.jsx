@@ -1,6 +1,7 @@
 import WorkshopForm from "@/components/WorkshopFrom"
 import WorkshopCarousel from "@/components/WorkshopCarousel";
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
+import StructData from "../components/StructData";
 
 /* 
 LocalBusiness
