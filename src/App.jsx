@@ -38,11 +38,11 @@ function App() {
       <Header/>
       <div className='flex-1 flex flex-col w-full p-4 relative'>
         <Routes>
-          <Route path='/' element={<Home />} />
           <Route path='/daycare' element={<Childcare />} />
           <Route path='/daycare/toddler-daycare' element={<Childcare />} />
           <Route path='/daycare/preschool' element={<Childcare />} />
           <Route path='/daycare/before-after-school-care' element={<Childcare />} />
+          <Route path='/' element={<Home />} />
           <Route path='/workshop' element={<Workshops />} /> 
           <Route path='/camp' element={<Camp />} />
           <Route path='/test' element={<Test />} />
