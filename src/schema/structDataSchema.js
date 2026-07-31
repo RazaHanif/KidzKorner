@@ -188,6 +188,8 @@ export const breadcrumbSchema = ({ breadcrumbs }) => {
         ];
     */
 
+        console.log(breadcrumbs)
+
     return {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
