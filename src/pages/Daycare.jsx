@@ -33,7 +33,7 @@ const Daycare = () => {
                     Licensed Daycare in Milton, Ontario
                 </h1>
                 <h2 className="text-xl font-bold text-center">
-                    Toddler, Preschool, and Before/After School Programs
+                    Toddler, Preschool, and Before & After School Programs
                 </h2>    
             </div>
             
