@@ -20,6 +20,7 @@ const Workshops = () => {
             url: "https://www.kidzkornermilton.com/workshop"
         }
     ];
+    
     return (
         <div className="flex flex-col justify-center items-center w-full gap-2">
             <div className="flex flex-col justify-evenly items-center w-3/4">
