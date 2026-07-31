@@ -43,6 +43,8 @@ function App() {
 
           <Route path='/about-us' element={<About />} />
 
+          <Route path='/blog' element={<Test />} />
+
           {/* Camp */}
           <Route path='/camp' element={<Camp />} />
           <Route path='/camp/summer-camp' element={<Camp />} />
@@ -55,7 +57,6 @@ function App() {
           <Route path='/daycare/toddler-daycare' element={<Childcare />} />
           <Route path='/daycare/preschool' element={<Childcare />} />
           <Route path='/daycare/before-after-school-care' element={<Childcare />} />
-          <Route path='/faq' element={<Test />} />
 
           <Route path='/faq' element={<Test />} />
 
