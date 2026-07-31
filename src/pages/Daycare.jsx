@@ -80,15 +80,6 @@ const Daycare = () => {
                 </h2>
                 <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
                     <div>
-                        <Card>
-  <CardTitle>Toddler Program</CardTitle>
-  <CardDescription>
-      Nurturing early learning for toddlers through play, exploration, and discovery.
-  </CardDescription>
-  <Button>
-      Learn More
-  </Button>
-</Card>
                     </div>
                     <div className="flex flex-col justify-center m-4 lg:m-0">
                         <TimeTable />
