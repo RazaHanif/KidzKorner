@@ -91,7 +91,7 @@ const Daycare = () => {
                                         Toddler Daycare
                                     </CardTitle>
                                     <CardDescription>
-                                        Nurturing early learning for toddlers through play, exploration, and discovery.
+                                       A nurturing environment where toddlers learn through play, exploration, and hands-on activities that support their early development and growing independence.
                                     </CardDescription>
                                 </CardHeader>
                                 <CardContent className="flex-1 flex justify-end items-end">
