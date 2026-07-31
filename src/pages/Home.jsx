@@ -50,7 +50,7 @@ const Home = () => {
                             </NavLink>
 
                             <NavLink 
-                                to="/childcare" 
+                                to="/daycare" 
                                 end
                                 className="hover:scale-105 ease-in-out duration-300 flex-1 lg:w-3/4 flex justify-center lg:justify-end"
                             >
@@ -73,7 +73,7 @@ const Home = () => {
                         */}
                         <div className="flex md:flex-row flex-col gap-4">
                             <NavLink 
-                                to="/childcare" 
+                                to="/daycare" 
                                 end 
                                 className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                             >
@@ -95,7 +95,7 @@ const Home = () => {
                             </NavLink>
 
                             <NavLink 
-                                to="/childcare" 
+                                to="/daycare" 
                                 end 
                                 className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                             >
@@ -119,7 +119,7 @@ const Home = () => {
 
                         <div className="flex md:flex-row flex-col gap-4">
                             <NavLink 
-                                to="/childcare" 
+                                to="/daycare" 
                                 end 
                                 className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                             >
@@ -141,7 +141,7 @@ const Home = () => {
                             </NavLink>
 
                             <NavLink 
-                                to="/childcare" 
+                                to="/daycare" 
                                 end 
                                 className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                             >
