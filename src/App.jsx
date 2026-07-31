@@ -21,6 +21,7 @@ function App() {
           {/* /childcare -> /daycare */}
           {/* Make /childcare redirect for SEO */}
           <Route path='/childcare' element={<Childcare />} />
+          <Route path='/childcare' element={<Childcare />} />
           <Route path='/parties' element={<Parties />} />
           <Route path='/playground' element={<Playground />} />
           <Route path='/workshop' element={<Workshops />} /> 
