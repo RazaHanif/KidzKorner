@@ -1,6 +1,7 @@
 import PartyForm from "@/components/PartyForm";
 import PartyCard from "@/components/PartyCard";
 import Image from "@/components/Image"
+import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 
 /* 
 LocalBusiness
@@ -115,6 +116,9 @@ const Parties = () => {
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
                 <PartyForm />
             </div>
+
+            <StructData schema={localBusinessSchema} />
+            <StructData schema={breadcrumbSchema} />
 
             <title>
                 Kids Parties in Miltion, Ontario | Kidz Korner 
