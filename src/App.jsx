@@ -80,7 +80,7 @@ function App() {
                     <Route path="/childcare" element={<Childcare />} />
                     <Route path="/parties" element={<Parties />} />
                     <Route path="/playground" element={<Playground />} />
-                    <Route path="/workshops" element={<Workshops />} />
+                    <Route path="/workshop" element={<Workshops />} />
                 </Routes>
             </div>
             <Footer />
