@@ -9,7 +9,7 @@ const Playground = () => {
                 url: "https://www.kidzkornermilton.com/"
             },
             {
-                name: "Daycare",
+                name: "Playground",
                 url: "https://www.kidzkornermilton.com/daycare"
             },
             {
