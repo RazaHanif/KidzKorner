@@ -80,6 +80,27 @@ const Daycare = () => {
                 </h2>
                 <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
                     <div className="border-4 border-red-500 w-full flex-1">
+                                                    <NavLink 
+                                to="/daycare" 
+                                end 
+                                className="hover:scale-102 ease-in-out duration-300 flex flex-1"
+                            >
+                                <Card className="flex-1 flex">
+                                    <CardHeader className="text-start">
+                                        <CardTitle>
+                                            Toddler Daycare
+                                        </CardTitle>
+                                        <CardDescription>
+                                            A safe, nurturing environment where toddlers learn through play while developing confidence, social skills, and independence.
+                                        </CardDescription>
+                                    </CardHeader>
+                                    <CardContent className="flex-1 flex justify-end items-end">
+                                        <Button className="cursor-pointer">
+                                            Learn More
+                                        </Button>
+                                    </CardContent>
+                                </Card>
+                            </NavLink>
                     </div>
                     <div className="flex flex-col justify-center m-4 lg:m-0">
                         <TimeTable />
