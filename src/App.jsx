@@ -44,7 +44,7 @@ function App() {
           <Route path='/about-us' element={<About />} />
 
           <Route path='/blog' element={<Test />} />
-          <Route path='/blog' element={<Test />} />
+          <Route path='/blog/:slug' element={<Test />} />
 
           {/* Camp */}
           <Route path='/camp' element={<Camp />} />
