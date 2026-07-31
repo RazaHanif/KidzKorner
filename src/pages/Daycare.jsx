@@ -207,7 +207,7 @@ const Daycare = () => {
                     A Day at Kidz Korner
                 </h2>
                 <p className="text-sm">
-                    Here's what our day looks like!
+                    Every day includes a balance of learning, creativity, play, and rest designed to support each child's development.
                 </p>
                 <div className="lg:w-3/4">
                     <ChildcareTimeTable />
