@@ -12,8 +12,7 @@ import Image from "@/components/Image"
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
 
-// Childcare -> Daycare
-const Childcare = () => {
+const Daycare = () => {
     const breadCrumb = [
         {
             name: "Home",
@@ -159,4 +158,4 @@ const Childcare = () => {
     );
 }
   
-export default Childcare;
+export default Daycare;
