@@ -19,11 +19,7 @@ const About = () => {
             name: "About Us",
             url: "https://www.kidzkornermilton.com/about"
         },
-        {
-            name: "Toddler Daycare",
-            url: "https://www.kidzkornermilton.com/daycare/toddler-daycare-milton"
-        }
-    ];
+   ];
 
     return (
         <div className="flex flex-col justify-center items-center gap-2 w-full text-justify">
