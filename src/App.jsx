@@ -41,11 +41,6 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='*' element={<NotFound />} />
 
-            {/* Daycare */}
-          <Route path='/daycare' element={<Childcare />} />
-          <Route path='/daycare/toddler-daycare' element={<Childcare />} />
-          <Route path='/daycare/preschool' element={<Childcare />} />
-          <Route path='/daycare/before-after-school-care' element={<Childcare />} />
           <Route path='/about-us' element={<About />} />
 
           {/* Camp */}
@@ -55,6 +50,11 @@ function App() {
           <Route path='/camp/winter-break-camp' element={<Camp />} />
           <Route path='/camp/pa-day-camp' element={<Camp />} />
 
+            {/* Daycare */}
+          <Route path='/daycare' element={<Childcare />} />
+          <Route path='/daycare/toddler-daycare' element={<Childcare />} />
+          <Route path='/daycare/preschool' element={<Childcare />} />
+          <Route path='/daycare/before-after-school-care' element={<Childcare />} />
 
           <Route path='/parties' element={<Parties />} />
 
