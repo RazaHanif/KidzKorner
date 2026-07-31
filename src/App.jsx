@@ -22,7 +22,7 @@ import NotFound from './pages/NotFound.jsx'
 /camp/summer-camp
 /camp/march-camp
 /camp/winter-camp
-/camp/pa-days
+/camp/pa-day-camp
 /indoor-playground
 /birthday-parties
 /workshops
