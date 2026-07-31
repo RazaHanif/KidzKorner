@@ -28,7 +28,7 @@
         },
         {
             "source": "/workshop",
-            "destination": "/about-us",
+            "destination": "/workshops",
             "permanent": true
         }
     ]
