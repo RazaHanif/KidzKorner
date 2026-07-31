@@ -47,11 +47,11 @@ function App() {
           <Route path='/playground' element={<Playground />} />
           <Route path='/workshop' element={<Workshops />} /> 
           <Route path='/camp' element={<Camp />} />
-          <Route path='/about' element={<About />} />
           <Route path='/test' element={<Test />} />
           <Route path='*' element={<NotFound />} />
 
           {/* Redirected but keeping here */}
+          <Route path='/about' element={<About />} />
         </Routes>
       </div>
       <Footer/>
