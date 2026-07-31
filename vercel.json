@@ -4,5 +4,12 @@
             "source": "/(.*)",
             "destination": "/"
         }
-    ]
+    ],
+  "redirects": [
+    {
+      "source": "/childcare",
+      "destination": "/daycare",
+      "permanent": true
+    }
+  ]
 }
