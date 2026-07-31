@@ -9,15 +9,22 @@ import {
     CardTitle,
 } from "@/components/ui/card"
 import Image from "@/components/Image"
-
-/* 
-LocalBusiness
-Service
-BreadcrumbList
- */
+import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
+import StructData from "../components/StructData";
 
 // Childcare -> Daycare
 const Childcare = () => {
+    const breadCrumb = [
+        {
+            name: "Home",
+            url: "https://www.kidzkornermilton.com/"
+        },
+        {
+            name: "Childcare",
+            url: "https://www.kidzkornermilton.com/childcare"
+        },
+    ];
+
     return (
         <div className="flex flex-col justify-center items-center gap-4 w-full text-justify">
             <div className="flex flex-col justify-center items-center w-full mb-4">
@@ -138,6 +145,10 @@ const Childcare = () => {
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
                 <ChildcareForm/>
             </div>
+
+
+            <StructData schema={localBusinessSchema} />
+            <StructData schema={breadcrumbSchema(breadCrumb)} />
 
             <title>
                 Childcare Programs in Milton, Ontario | Licensed Daycare | Kidz Korner
