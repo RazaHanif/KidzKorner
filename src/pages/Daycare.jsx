@@ -147,7 +147,7 @@ const Daycare = () => {
                         </NavLink>
                     </div>
                     <div className="flex flex-col justify-center m-4 lg:m-0">
-                        <TimeTable />
+                        <CareSchedule />
                     </div>
                     <Image src='/20250822_121126.jpg' alt='Child Playing With Blocks at Kidz Korner Milton, Ontario' w="w-sm"/>
                 </div>
