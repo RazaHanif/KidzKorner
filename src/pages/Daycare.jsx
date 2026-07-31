@@ -101,6 +101,7 @@ const Daycare = () => {
                                 </CardContent>
                             </Card>
                         </NavLink>
+                        
                         <NavLink 
                             to="/daycare" 
                             end 
