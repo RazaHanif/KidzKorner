@@ -1,5 +1,6 @@
 import PlaygroundAccordion from "@/components/PlaygroundAccordion";
 import Image from "@/components/Image";
+import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 
 const Playground = () => {
     return (
@@ -26,6 +27,9 @@ const Playground = () => {
                 <Image src='/20250930_142748.jpg' alt='Kidz Korner Milton, Ontario Indoor Playground ' w="w-md"/>
                 <Image src='/20250930_142442.jpg' alt='Kidz Korner Milton, Ontario Climbing Structure ' />
             </div>
+
+            <StructData schema={localBusinessSchema} />
+            <StructData schema={breadcrumbSchema} />
 
             <title>
                 Indoor Playground in Milton, Ontario | Kidz Korner 
