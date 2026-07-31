@@ -56,7 +56,7 @@ function App() {
           <Route path='/daycare/preschool' element={<Childcare />} />
           <Route path='/daycare/before-after-school-care' element={<Childcare />} />
 
-          <Route path='/parties' element={<Parties />} />
+          <Route path='/birthday-parties' element={<Parties />} />
 
           <Route path='/playground' element={<Playground />} />
 
