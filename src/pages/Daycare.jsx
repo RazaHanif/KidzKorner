@@ -132,7 +132,7 @@ const Daycare = () => {
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
                                     <CardTitle>
-                                        Toddler Daycare
+                                        Before & After 
                                     </CardTitle>
                                     <CardDescription>
                                         A safe and engaging program for school-age children offering before and after school care, with opportunities for learning, activities, and social connection.
