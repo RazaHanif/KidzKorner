@@ -110,7 +110,7 @@ const Daycare = () => {
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
                                     <CardTitle>
-                                        Preschool Programs
+                                        Preschool Program
                                     </CardTitle>
                                     <CardDescription>
                                         A play-based learning program designed to help children build confidence, creativity, and essential skills while preparing them for their next stage of learning.
