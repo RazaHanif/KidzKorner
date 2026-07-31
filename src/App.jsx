@@ -34,9 +34,7 @@ import NotFound from './pages/NotFound.jsx'
 
 /workshops
 
-/
-
-/about
+/about-us
 
 
 
