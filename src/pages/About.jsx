@@ -10,6 +10,20 @@ BreadcrumbList
 */
 
 const About = () => {
+    const breadCrumb = [
+        {
+            name: "Home",
+            url: "https://www.kidzkornermilton.com/"
+        },
+        {
+            name: "Daycare",
+            url: "https://www.kidzkornermilton.com/daycare"
+        },
+        {
+            name: "Toddler Daycare",
+            url: "https://www.kidzkornermilton.com/daycare/toddler-daycare-milton"
+        }
+    ];
 
     return (
         <div className="flex flex-col justify-center items-center gap-2 w-full text-justify">
@@ -51,7 +65,7 @@ const About = () => {
             </div>
 
             <StructData schema={organizationSchema} />
-            <StructData schema={breadcrumbSchema} />
+            <StructData schema={breadcrumbSchema(breadCrumb)} />
 
             <title>
                 About Our Childcare Centre in Milton, Ontario | Kidz Korner 
