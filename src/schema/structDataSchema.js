@@ -170,7 +170,7 @@ export const websiteSchema = {
     },
 };
 
-export const breadcrumbSchema = ({ breadcrumbs }) => {
+export const breadcrumbSchema = (breadcrumbs) => {
     /* 
         const breadCrumb = [
             {
