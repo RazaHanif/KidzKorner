@@ -88,7 +88,7 @@ const Daycare = () => {
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
                                     <CardTitle>
-                                        Toddler Daycare
+                                        Toddler Program
                                     </CardTitle>
                                     <CardDescription>
                                        A nurturing environment where toddlers learn through play, exploration, and hands-on activities that support their early development and growing independence.
