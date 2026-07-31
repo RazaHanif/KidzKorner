@@ -77,7 +77,6 @@ function App() {
                     <Route path="/workshops" element={<Workshops />} />
 
                     {/* Redirected but keeping here */}
-                    <Route path="/about" element={<About />} />
                     <Route path="/childcare" element={<Childcare />} />
                     <Route path="/parties" element={<Parties />} />
                     <Route path="/playground" element={<Playground />} />
