@@ -5,7 +5,7 @@ import WorkshopCarousel from "@/components/WorkshopCarousel";
 LocalBusiness
 Service
 BreadcrumbList
- */
+*/
 
 const Workshops = () => {
     return (
