@@ -61,7 +61,7 @@ function App() {
           <Route path='/indoor-playground' element={<Playground />} />
 
 
-          <Route path='/workshop' element={<Workshops />} /> 
+          <Route path='/workshops' element={<Workshops />} /> 
           <Route path='/test' element={<Test />} />
 
           {/* Redirected but keeping here */}
