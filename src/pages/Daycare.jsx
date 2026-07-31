@@ -1,6 +1,6 @@
 import ChildcareForm from "@/components/ChildcareForm";
 import ChildcareTimeTable from "@/components/ChildcareTimeTable";
-import TimeTable from "@/components/TimeTable";
+import CareSchedule from "@/components/TimeTable";
 import {
     Card,
     CardContent,
