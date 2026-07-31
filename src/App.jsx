@@ -49,6 +49,7 @@ function App() {
 
           {/* Camp */}
           <Route path='/camp' element={<Camp />} />
+          <Route path='/camp' element={<Camp />} />
 
 
 
