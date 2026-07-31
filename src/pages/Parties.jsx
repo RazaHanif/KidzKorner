@@ -2,6 +2,7 @@ import PartyForm from "@/components/PartyForm";
 import PartyCard from "@/components/PartyCard";
 import Image from "@/components/Image"
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
+import StructData from "../components/StructData";
 
 const Parties = () => {
     const breadCrumb = [
