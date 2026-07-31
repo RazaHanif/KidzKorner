@@ -172,7 +172,7 @@ export const websiteSchema = {
 
 export const breadcrumbSchema = ({ breadcrumbs }) => {
     /* 
-        const schema = [
+        const breadCrumb = [
             {
                 name: "Home",
                 url: "https://www.kidzkornermilton.com/"
