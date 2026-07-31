@@ -3,12 +3,6 @@ import WorkshopCarousel from "@/components/WorkshopCarousel";
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
 
-/* 
-LocalBusiness
-Service
-BreadcrumbList
-*/
-
 const Workshops = () => {
     const breadCrumb = [
         {
