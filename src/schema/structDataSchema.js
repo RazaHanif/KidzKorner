@@ -185,7 +185,7 @@ export const breadcrumbSchema = ({ breadcrumbs }) => {
                 name: "Toddler Daycare",
                 url: "https://www.kidzkornermilton.com/daycare/toddler-daycare-milton"
             }
-        ]);
+        ];
     */
 
     return {
