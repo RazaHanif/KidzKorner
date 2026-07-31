@@ -2,6 +2,7 @@ import ContactForm from "@/components/ContactForm";
 import ContactUsTable from "@/components/ContactUsTable";
 import HoursTimeTable from "@/components/HoursTimeTable";
 import Image from '@/components/Image'
+import { breadcrumbSchema, organizationSchema } from "../schema/structDataSchema";
 
 /* 
 Organization
@@ -49,7 +50,8 @@ const About = () => {
                 <ContactForm/>
             </div>
 
-            
+            <StructData schema={organizationSchema} />
+            <StructData schema={breadcrumbSchema} />
 
             <title>
                 About Our Childcare Centre in Milton, Ontario | Kidz Korner 
