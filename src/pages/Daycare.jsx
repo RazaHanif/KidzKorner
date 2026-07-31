@@ -146,6 +146,8 @@ const Daycare = () => {
                             </Card>
                         </NavLink>
                     </div>
+
+                    
                     <div className="flex flex-col justify-center m-4 lg:m-0">
                         <CareSchedule />
                     </div>
