@@ -22,11 +22,6 @@
             "permanent": true
         },
         {
-            "source": "/about",
-            "destination": "/about-us",
-            "permanent": true
-        },
-        {
             "source": "/workshop",
             "destination": "/workshops",
             "permanent": true
