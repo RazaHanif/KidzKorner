@@ -49,6 +49,8 @@ const About = () => {
                 <ContactForm/>
             </div>
 
+            
+
             <title>
                 About Our Childcare Centre in Milton, Ontario | Kidz Korner 
             </title>
