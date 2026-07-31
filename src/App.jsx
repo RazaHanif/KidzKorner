@@ -23,7 +23,7 @@ import NotFound from './pages/NotFound.jsx'
 
 /camp
 
-/camp/summer-camo
+/camp/summer-camp
 
 /indoor-playground
 
