@@ -10,7 +10,6 @@ BreadcrumbList
 */
 
 const Workshops = () => {
-    
     const breadCrumb = [
         {
             name: "Home",
