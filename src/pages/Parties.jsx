@@ -12,7 +12,7 @@ const Parties = () => {
         },
         {
             name: "Parties",
-            url: "https://www.kidzkornermilton.com/parties"
+            url: "https://www.kidzkornermilton.com/birthday-parties"
         }
     ];
 
