@@ -20,7 +20,7 @@ const Parties = () => {
         <div className="flex flex-col justify-center items-center w-full gap-2">
             <div className="flex flex-col justify-center items-center w-full">
                 <h1 className="text-3xl font-bold text-center font-serif">
-                    Host Your Child's Party at Kidz Korner
+                    Kids Birthday Parties in Milton
                 </h1>
             </div>
 
