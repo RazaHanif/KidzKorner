@@ -15,7 +15,7 @@ import {
 import { useState } from 'react';
 import FormLayout from "./FormLayout"
 
-const ChildcareForm = () => {
+const DaycareForm = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -661,4 +661,4 @@ const ChildcareForm = () => {
   // );
 };
 
-export default ChildcareForm;
+export default DaycareForm;
