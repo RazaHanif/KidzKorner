@@ -11,6 +11,10 @@ const ToddlerDaycare = () => {
             name: "Daycare",
             url: "https://www.kidzkornermilton.com/daycare"
         },
+        {
+            name: "Daycare",
+            url: "https://www.kidzkornermilton.com/daycare"
+        },
     ];
 
     return (
