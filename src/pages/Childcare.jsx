@@ -1,5 +1,5 @@
 import DaycareForm from "@/components/DaycareForm";
-import ChildcareTimeTable from "@/components/ChildcareTimeTable";
+import DaycareTimeTable from "@/components/DaycareTimeTable";
 import CareSchedule from "@/components/CareSchedule";
 import {
     Card,
@@ -131,7 +131,7 @@ const Childcare = () => {
                     Here's what our day looks like!
                 </p>
                 <div className="lg:w-3/4">
-                    <ChildcareTimeTable />
+                    <DaycareTimeTable />
                 </div>
             </div>
 
