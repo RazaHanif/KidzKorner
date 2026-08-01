@@ -28,7 +28,8 @@ const Parties = () => {
                 <p className="flex flex-col justify-center items-center lg:w-3/4 text-center">
                     Make your child's special day unforgettable with a Kidz Korner Party! Enjoy exclusive access to our indoor playground, just for you and your guests.
 
-                    
+                    Celebrate your child's birthday with a private indoor party at Kidz Korner in Milton, Ontario.
+                    Our 
                 </p>
             </div>
 
