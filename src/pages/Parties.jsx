@@ -30,7 +30,7 @@ const Parties = () => {
 
                     Celebrate your child's birthday with a private indoor party at Kidz Korner in Milton, Ontario.
                     Our birthday party packages include exclusive access to our indoor playground, giving children plenty of room to climb, explore, and play while parents relax.
-                    Whether you're planning a small family gathering or a larger celebration, our flexible packages make it easy to host a stress-free and memorable
+                    Whether you're planning a small family gathering or a larger celebration, our flexible packages make it easy to host a stress-free and memorable birthday party.
                 </p>
             </div>
 
