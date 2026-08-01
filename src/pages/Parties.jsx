@@ -113,9 +113,9 @@ const Parties = () => {
                     </div>
             </div>
 
-            <div>
 
-                
+            <div className="flex flex-col justify-center items-center w-3/4 mb-4">
+
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 mb-4">
