@@ -25,7 +25,7 @@ const BeforeAfterDaycare = () => {
             <StructData schema={breadcrumbSchema(breadCrumb)} />
 
             <title>
-                Before  Daycare | Before  | Kidz Korner
+                Before & After School Daycare | Before & After School | Kidz Korner
             </title>
             <meta name="description" content="" />
         </div>
