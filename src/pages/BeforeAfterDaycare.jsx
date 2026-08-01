@@ -12,7 +12,7 @@ const BeforeAfterDaycare = () => {
             url: "https://www.kidzkornermilton.com/daycare"
         },
         {
-            name: "Before ",
+            name: "Before & After School Daycare",
             url: "https://www.kidzkornermilton.com/toddler-daycare"
         },
     ];
