@@ -1,7 +1,7 @@
 import StructData from "../components/StructData";
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 
-const ToddlerDaycare = () => {
+const PreschoolDaycare = () => {
     const breadCrumb = [
         {
             name: "Home",
@@ -32,4 +32,4 @@ const ToddlerDaycare = () => {
     );
 }
   
-export default ToddlerDaycare;
+export default PreschoolDaycare;
