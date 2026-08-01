@@ -1,4 +1,4 @@
-import ChildcareForm from "@/components/ChildcareForm";
+import DaycareForm from "@/components/DaycareForm";
 import DaycareTimeTable from "@/components/DaycareTimeTable";
 import CareSchedule from "@/components/CareSchedule";
 import {
@@ -222,7 +222,7 @@ const Daycare = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
-                <ChildcareForm/>
+                <DaycareForm/>
             </div>
 
 
