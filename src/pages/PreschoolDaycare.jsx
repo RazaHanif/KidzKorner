@@ -12,8 +12,8 @@ const PreschoolDaycare = () => {
             url: "https://www.kidzkornermilton.com/daycare"
         },
         {
-            name: "Toddler Daycare",
-            url: "https://www.kidzkornermilton.com/toddler-daycare"
+            name: "Preschool Daycare",
+            url: "https://www.kidzkornermilton.com/Preschool-daycare"
         },
     ];
 
@@ -25,7 +25,7 @@ const PreschoolDaycare = () => {
             <StructData schema={breadcrumbSchema(breadCrumb)} />
 
             <title>
-                Toddler Daycare | Toddler | Kidz Korner
+                Preschool Daycare | Preschool | Kidz Korner
             </title>
             <meta name="description" content="" />
         </div>
