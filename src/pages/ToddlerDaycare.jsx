@@ -25,7 +25,7 @@ const ToddlerDaycare = () => {
             <StructData schema={breadcrumbSchema(breadCrumb)} />
 
             <title>
-                T | Toddler & Preschool Programs | Kidz Korner
+                Toddler Daycare | Toddler & Preschool Programs | Kidz Korner
             </title>
             <meta name="keywords" content="childcare Milton, daycare programs Milton, preschool programs Milton, infant care Milton, toddler care Milton" />
             <meta name="description" content="Kidz Korner is a licensed daycare in Milton, Ontario offering toddler, preschool, and before & after school programs with experienced RECE educators, play-based learning, and a safe indoor environment." />
