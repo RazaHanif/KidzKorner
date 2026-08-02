@@ -180,7 +180,7 @@ const Parties = () => {
                     />
                     <Image
                         src="/IMG-20250519-WA0002.jpg"
-                        alt="Child Overlooking Cake at Kidz Korner Milton, Ontario"
+                        alt="Birthday cake celebration at Kidz Korner birthday party in Milton"
                     />
                 </div>
             </div>
