@@ -176,7 +176,7 @@ const Parties = () => {
                     />
                     <Image
                         src="/IMG-20250714-WA0026.jpg"
-                        alt="Children Climbing On Structure at Kidz Korner Milton, Ontario"
+                        alt="Children enjoying a private birthday party at Kidz Korner indoor playground in Milton"
                     />
                     <Image
                         src="/IMG-20250519-WA0002.jpg"
