@@ -39,12 +39,8 @@ function App() {
             <Header />
             <div className="flex-1 flex flex-col w-full p-4 relative">
                 <Routes>
-                    <Route 
-                        path="/" 
-                        element={<Home />} 
-                    />
-                    <Route 
-                        path="*" element={<NotFound />} />
+                    <Route path="/" element={<Home />} />
+                    <Route path="*" element={<NotFound />} />
 
                     <Route path="/about" element={<About />} />
 
