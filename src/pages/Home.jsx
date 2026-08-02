@@ -175,7 +175,7 @@ const Home = () => {
                         <CardContent className="flex md:flex-row flex-col gap-2">
                             <div className="flex flex-col flex-1 gap-2">
                                 <div className="flex flex-col items-start justify-start w-full">
-                                    <h2 className="flex flex-row gap-2 font-bold">
+                                    <h2 className="flex flex-row gap-2 font-bold w-full">
                                         <BadgeCheck />
                                         Licensed Ontario Childcare
                                     </h2>
@@ -184,7 +184,7 @@ const Home = () => {
                                     </p>
                                 </div>
                                 <div className="flex flex-col items-start justify-start w-full">
-                                    <h2 className="flex flex-row gap-2 font-bold">
+                                    <h2 className="flex flex-row gap-2 font-bold w-full">
                                         <HeartHandshake />
                                         Family-Owned
                                     </h2>
@@ -193,7 +193,7 @@ const Home = () => {
                                     </p>
                                 </div>
                                 <div className="flex flex-col items-start justify-start w-full">
-                                    <h2 className="flex flex-row gap-2 font-bold">
+                                    <h2 className="flex flex-row gap-2 font-bold w-full">
                                         <GraduationCap />
                                         Experienced Educators
                                     </h2>
@@ -205,7 +205,7 @@ const Home = () => {
                             <div className="flex flex-col flex-1 gap-2">
 
                                 <div className="flex flex-col items-start justify-start w-full">
-                                    <h2 className="flex flex-row gap-2 font-bold">
+                                    <h2 className="flex flex-row gap-2 font-bold w-full">
                                         <Palette />
                                         Play-Based Learning
                                     </h2>
@@ -214,7 +214,7 @@ const Home = () => {
                                     </p>
                                 </div>
                                 <div className="flex flex-col items-start justify-start w-full">
-                                    <h2 className="flex flex-row gap-2 font-bold">
+                                    <h2 className="flex flex-row gap-2 font-bold w-full">
                                         <ShieldCheck />
                                         Safe Environment
                                     </h2>
