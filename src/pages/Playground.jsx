@@ -86,7 +86,7 @@ const Playground = () => {
                             </p>
                             <p className="flex items-start gap-3">
                                 <CheckCircle className="h-6 w-6 shrink-0 text-primary"/> 
-                                Family Celebrations
+                                Safe Indoor Fun Year-Round
                             </p>
                             <p className="flex items-start gap-3">
                                 <CheckCircle className="h-6 w-6 shrink-0 text-primary"/> 
