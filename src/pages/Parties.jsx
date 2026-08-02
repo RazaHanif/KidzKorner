@@ -232,6 +232,9 @@ const Parties = () => {
                 <h2 className="text-xl font-bold text-center pb-4">
                     A Private Indoor Birthday Party Venue in Milton
                 </h2>
+                <p>
+                    
+                </p>
                 
             </div>
 
