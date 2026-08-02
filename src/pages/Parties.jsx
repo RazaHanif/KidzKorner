@@ -6,7 +6,6 @@ import {
     localBusinessSchema,
 } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
-import { Check } from "lucide-react";
 
 const Parties = () => {
     const breadCrumb = [
@@ -129,8 +128,8 @@ const Parties = () => {
                 <h2>Why Families Love Our Birthday Parties</h2>
                 <div className="w-full flex lg:flex-row flex-col p-2 gap-2">
                     <div className="flex flex-col gap-2 w-full flex-1">
-                        <p className="ml-4 flex">
-                            <Check /> Private Venue Rental
+                        <p className="ml-4">
+                            Private Venue Rental
                         </p>
                         <p className="ml-4">
                             Indoor Playground exclusive to your guests
