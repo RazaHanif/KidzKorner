@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const NotFound = () => {
     return (
-        <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16 pb-8 text-primary text-shadow-amber-500">
+        <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16 pb-8 text-primary text-shadow-amber-500 text-shadow-md">
             <div className="flex flex-col justify-center items-center w-full">
                 <h1 className="text-6xl font-bold font-serif text-center py-4">
                     404
