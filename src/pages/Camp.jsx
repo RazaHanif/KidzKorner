@@ -227,6 +227,7 @@ const Camp = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-4 lg:pt-16 pt-8">
+            
                 <CampForm/>
             </div>
 
