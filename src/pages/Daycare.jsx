@@ -82,7 +82,7 @@ const Daycare = () => {
                             end 
                             className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                         >
-                            <Card className="flex-1 flex w-full">
+                            <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
                                     <CardTitle>
                                         Toddler Program
