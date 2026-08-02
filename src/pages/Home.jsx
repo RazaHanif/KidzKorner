@@ -223,7 +223,7 @@ const Home = () => {
                                     </p>
                                 </div>
                                 <div className="flex flex-col items-start justify-start w-full">
-                                    <h2 className="font-bold"> 
+                                    <h2 className="flex flex-row gap-2 font-bold w-full">
                                         <MessageCircleHeart />
                                         Strong Parent Communication
                                     </h2>
