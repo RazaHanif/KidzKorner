@@ -46,11 +46,11 @@ const Workshops = () => {
             </div>
 
 
-{/* 
+
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
                 <WorkshopForm/>
             </div>
- */}
+
 
             <StructData schema={localBusinessSchema} />
             <StructData schema={breadcrumbSchema(breadCrumb)} />
