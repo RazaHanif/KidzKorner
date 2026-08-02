@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/card"
 import StructData from "../components/StructData";
 import { localBusinessSchema, organizationSchema, websiteSchema } from "../schema/structDataSchema";
-import { BadgeCheck } from "lucide-react";
+import { BadgeCheck, HeartHandshake } from "lucide-react";
 
 const Home = () => {
     return (
@@ -185,7 +185,7 @@ const Home = () => {
                                 </div>
                                 <div className="flex flex-col items-start justify-start w-full">
                                     <h2 className="font-bold">
-                                        
+                                        <HeartHandshake />
                                         Family-Owned
                                     </h2>
                                     <p className="text-start pl-4">
