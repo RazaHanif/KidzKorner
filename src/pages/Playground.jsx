@@ -39,6 +39,20 @@ const Playground = () => {
                 <PlaygroundAccordion />
             </div>
 
+            <div className="border-y py-8">
+    <h2>
+        Drop-In Playground Pricing
+    </h2>
+
+    <p>
+        Family Admission
+    </p>
+
+    <p>
+        $15 per family
+    </p>
+</div>
+
             <div className="flex lg:flex-row flex-col justify-center items-center gap-4 w-3/4">
                 <Image src='/20250930_142748.jpg' alt='Kidz Korner Milton, Ontario Indoor Playground ' w="w-md"/>
                 <Image src='/20250930_142442.jpg' alt='Kidz Korner Milton, Ontario Climbing Structure ' />
