@@ -15,7 +15,7 @@ const NotFound = () => {
                 <p>Oops! This page ran off to play!</p>
             </div>
 
-            <div className="w-full flex lg:flex-col gap-4 justify-center lg:items-end lg:pr-4 items-center">
+            <div className="w-full flex lg:flex-col gap-4 justify-center items-center">
                 <NavLink
                     to="/" 
                     end
