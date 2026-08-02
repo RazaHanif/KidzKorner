@@ -175,7 +175,8 @@ const Home = () => {
                             <div className="flex flex-col flex-1 gap-2">
                                 <div className="flex flex-col items-start justify-start w-full">
                                     <h2 className="font-bold">
-                                        ⭐ Licensed Ontario Childcare
+                                        
+                                        Licensed Ontario Childcare
                                     </h2>
                                     <p className="text-start pl-4">
                                         Meets Ontario Ministry of Education licensing standards.
