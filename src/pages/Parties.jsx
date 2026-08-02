@@ -167,7 +167,7 @@ const Parties = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 mb-4">
+            <div className="flex flex-col justify-center items-center w-3/4">
                 <div className="flex lg:flex-row flex-col justify-between items-center gap-2 w-full">
                     <Image
                         src="/IMG-20250302-WA0001.jpg"
