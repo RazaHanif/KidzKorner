@@ -14,7 +14,7 @@ const PartyAccordion = () => {
                     Can we bring our own Food?
                 </AccordionTrigger>
                 <AccordionContent>
-                    Yes. Fami
+                    Yes. Families are welcome to bring their own food at no additional cost. We also provide access to a private kitchen space. Please note that our facility follows a strict nut-free policy.
                 </AccordionContent>
             </AccordionItem>
         </Accordion>
