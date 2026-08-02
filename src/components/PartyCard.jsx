@@ -25,7 +25,6 @@ const PartyCard = ({ title, price, desc, bullet = [], tax=true }) => {
                             ${price}
                         </>
                     )}
-                    ${ price }<span className="text-xs">+tax</span>
                 </CardDescription>
             </CardHeader>
             <CardContent>
