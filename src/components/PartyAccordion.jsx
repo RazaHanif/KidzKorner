@@ -14,7 +14,7 @@ const PartyAccordion = () => {
         },
         {
             q: "Is the playground private?",
-            a: "Yes. During your booking, the indoor playground is reserved exclusiv."
+            a: "Yes. During your booking, the indoor playground is reserved exclusively for your party and invited guests."
         },
         {
             q: "Can we bring our own Food?",
