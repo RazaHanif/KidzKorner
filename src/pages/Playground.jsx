@@ -25,7 +25,7 @@ const PlaygroundCard = (title, price, desc) => {
                 </CardDescription>
             </CardHeader>
             <CardContent>
-                <p className="p-2">
+                <p className="p-2 text-center">
                     { desc }
                 </p>
             </CardContent>
