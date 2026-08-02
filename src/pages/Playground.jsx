@@ -12,6 +12,7 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import PartyCard from "@/components/PartyCard";
+import { PartyPopper } from "lucide-react";
 
 const Playground = () => {
         const breadCrumb = [
