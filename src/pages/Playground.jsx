@@ -81,13 +81,16 @@ const Playground = () => {
                         </div>
                         <div className="flex flex-col gap-2 w-full flex-1">
                             <p className="flex items-start gap-3">
-                                <CheckCircle className="h-6 w-6 shrink-0 text-primary"/> School-aged Children
+                                <CheckCircle className="h-6 w-6 shrink-0 text-primary"/> 
+                                School-aged Children
                             </p>
                             <p className="flex items-start gap-3">
-                                <CheckCircle className="h-6 w-6 shrink-0 text-primary"/> Family Celebrations
+                                <CheckCircle className="h-6 w-6 shrink-0 text-primary"/> 
+                                Family Celebrations
                             </p>
                             <p className="flex items-start gap-3">
-                                <CheckCircle className="h-6 w-6 shrink-0 text-primary"/> Winter Birthday Parties
+                                <CheckCircle className="h-6 w-6 shrink-0 text-primary"/> 
+                                Winter Birthday Parties
                             </p>
                             <p className="flex items-start gap-3">
                                 <CheckCircle className="h-6 w-6 shrink-0 text-primary"/> Rainy Day Birthday Parties
