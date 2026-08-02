@@ -214,6 +214,7 @@ const Home = () => {
                                 <div className="flex flex-col items-start justify-start w-full">
                                     <div className="flex gap-2 text-primary">
                                         <ShieldCheck />
+                                        <Palette />
                                         <h2 className="font-bold">
                                             Safe Environment
                                         </h2>
@@ -222,7 +223,6 @@ const Home = () => {
                                         A secure, welcoming space where children can thrive.
                                     </p>
                                     <h2 className="flex flex-row gap-2 font-bold w-full">
-                                        <Palette />
                                         Play-Based Learning
                                     </h2>
                                     <p className="text-start pl-4">
