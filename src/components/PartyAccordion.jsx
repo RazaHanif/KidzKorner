@@ -31,6 +31,7 @@ const PartyAccordion = () => {
                     </AccordionContent>
                 </AccordionItem>
             ))}
+            
         </Accordion>
     )
 
