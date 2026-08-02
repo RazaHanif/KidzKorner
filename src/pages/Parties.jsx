@@ -223,15 +223,15 @@ const Parties = () => {
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
             </div>
 
-            <div className="flex flex-col justify-center items-center w-full border-y py-10 my-8">
-                <h2 className="text-xl font-bold text-center pb-4 w-3/4">
+            <div className="flex flex-col justify-center items-center w-3/4 border-y py-10 my-8">
+                <h2 className="text-xl font-bold text-center pb-4">
                     FAQ
                 </h2>
-                <PartyAccordion className/>
+                <PartyAccordion />
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
-                <p className="flex text-center">
+                <p className="flex w-2/3 text-center">
                     Ready to Party? Contact us today to secure your date! 
                 </p>
                 <PartyForm />
