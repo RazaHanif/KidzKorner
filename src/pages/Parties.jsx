@@ -132,36 +132,36 @@ const Parties = () => {
                 </h2>
                 <div className="flex lg:flex-row flex-col p-2 gap-2">
                     <div className="flex flex-col gap-2 w-full flex-1">
-                        <p className="ml-4 flex gap-2">
+                        <p className="flex items-start">
                             <CircleCheck />Private Venue Rental
                         </p>
-                        <p className="ml-4 flex gap-2">
+                        <p className="flex items-start">
                             <CircleCheck />Indoor Playground exclusive to your guests
                         </p>
-                        <p className="ml-4 flex gap-2">
+                        <p className="flex items-start">
                             <CircleCheck />Bring your own food
                         ?</p>
-                        <p className="ml-4 flex gap-2">
+                        <p className="flex items-start">
                             <CircleCheck />Private Kitchen Available
                         </p>
-                        <p className="ml-4 flex gap-2">
+                        <p className="flex items-start">
                             <CircleCheck />Decorations Welcome
                         </p>
                     </div>
                     <div className="flex flex-col gap-2 w-full flex-1">
-                        <p className="ml-4 flex gap-2">
+                        <p className="flex items-start">
                             <CircleCheck />Up to 50 guests
                         </p>
-                        <p className="ml-4 flex gap-2">
+                        <p className="flex items-start">
                             <CircleCheck />Tea & Coffee Station
                         </p>
-                        <p className="ml-4 flex gap-2">
+                        <p className="flex items-start">
                             <CircleCheck />Safe, clean, nut-free environment
                         </p>
-                        <p className="ml-4 flex gap-2">
+                        <p className="flex items-start">
                             <CircleCheck />Convenient Milton location
                         </p>
-                        <p className="ml-4 flex gap-2">
+                        <p className="flex items-start">
                             <CircleCheck />Setup/Take Down Time Included
                         </p>
                     </div>
@@ -191,30 +191,30 @@ const Parties = () => {
                 </h2>
                 <div className="flex lg:flex-row flex-col p-2 gap-2">
                     <div className="flex flex-col gap-2 w-full flex-1">
-                        <p className="ml-4 flex gap-2">
+                        <p className="flex items-start">
                             <Dot /> 1st Birthdays
                         </p>
-                        <p className="ml-4 flex gap-2">
+                        <p className="flex items-start">
                             <Dot /> 2nd Birthdays
                         </p>
-                        <p className="ml-4 flex gap-2">
+                        <p className="flex items-start">
                             <Dot /> Preschool Birthdays
                         </p>
-                        <p className="ml-4 flex gap-2">
+                        <p className="flex items-start">
                             <Dot /> Kindergarten Birthdays
                         </p>
                     </div>
                     <div className="flex flex-col gap-2 w-full flex-1">
-                        <p className="ml-4 flex gap-2">
+                        <p className="flex items-start">
                             <Dot /> School-aged Children
                         </p>
-                        <p className="ml-4 flex gap-2">
+                        <p className="flex items-start">
                             <Dot /> Family Celebrations
                         </p>
-                        <p className="ml-4 flex gap-2">
+                        <p className="flex items-start">
                             <Dot /> Winter Birthdays Parties
                         </p>
-                        <p className="ml-4 flex gap-2">
+                        <p className="flex items-start">
                             <Dot /> Rainy Day Birthdays Parties
                         </p>
                     </div>
