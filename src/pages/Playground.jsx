@@ -29,7 +29,7 @@ const Playground = () => {
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
                 <p className="flex lg:flex-row flex-col justify-center items-center lg:text-justify text-center">
-                    Looking for a fun and safe indoor space for your child to play? Our indoor playground is open for drop-in play from Monday to Friday. It includes a variety of skill-building play areas for your child to explore and enjoy. The space is infant and toddler friendly. Come on in to escape from the heat, cold, rain or snow.
+                    Looking for an indoor playground in Milton where your child can play, explore, and build new skills? Kidz Korner offers a safe and engaging indoor play space designed for toddlers and young children. Come on in to escape from the heat, cold, rain or snow.
                 </p>
             </div>
 
