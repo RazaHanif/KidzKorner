@@ -27,17 +27,6 @@ const NotFound = () => {
                 </NavLink>
             </div>
 
-            <div className="w-full flex flex-col justify-start items-center">
-                <Button
-                    variant="btn"
-                    className="bg-primary"
-                    size={"lg"}
-                    asChild
-                >
-                    <Link to={"/"}>Go Home</Link>
-                </Button>
-            </div>
-
             <title>Page Not Found | Kidz Korner</title>
             <meta
                 name="description"
