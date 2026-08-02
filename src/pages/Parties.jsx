@@ -128,36 +128,36 @@ const Parties = () => {
                 <h2>Why Families Love Our Birthday Parties</h2>
                 <div className="bg-red-500 w-full flex lg:flex-row flex-col p-2 gap-2">
                     <div className="bg-blue-500 flex flex-col gap-2 w-full flex-1">
-                        <p className="font-bold ">
+                        <p className="font-semibold">
                             Private Venue Rental
                         </p>
-                        <p className="font-bold ">
+                        <p className="font-semibold">
                             Indoor Playground exclusive to your guests
                         </p>
-                        <p className="font-bold ">
+                        <p className="font-semibold">
                             Bring your own food
                         ?</p>
-                        <p className="font-bold ">
+                        <p className="font-semibold">
                             Private Kitchen Available
                         </p>
-                        <p className="font-bold ">
+                        <p className="font-semibold">
                             Decorations Welcome
                         </p>
                     </div>
                     <div className="bg-blue-500 flex flex-col gap-2 w-full flex-1">
-                        <p className="font-bold ">
+                        <p className="font-semibold">
                             Up to 50 guests
                         </p>
-                        <p className="font-bold ">
+                        <p className="font-semibold">
                             Tea & Coffee Station
                         </p>
-                        <p className="font-bold ">
+                        <p className="font-semibold">
                             Safe, clean, nut-free environment
                         </p>
-                        <p className="font-bold ">
+                        <p className="font-semibold">
                             Convenient Milton location
                         </p>
-                        <p className="font-bold ">
+                        <p className="font-semibold">
                             Setup/Take Down Time Included
                         </p>
                     </div>
