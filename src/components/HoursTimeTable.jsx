@@ -32,7 +32,7 @@ const HoursTimeTable = () => {
     return (
         <Table className="text-start">
             <TableHeader>
-                <TableRow className="border">
+                <TableRow>
                     <TableHead className='text-xl font-semibold'>
                         Hours
                     </TableHead>
