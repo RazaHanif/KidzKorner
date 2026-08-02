@@ -66,7 +66,7 @@ const Playground = () => {
                     price={"15 per Family"}
                     tax={false}
                     desc={
-                        ""
+                        "Bring the whole family for one low price"
                     }
                 />
             </div>
