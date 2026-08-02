@@ -26,7 +26,7 @@ const PartyAccordion = () => {
         },
         {
             q: "Do you provide food?",
-            a: "Our Platinum and VIP packages include ."
+            a: "Our Platinum and VIP packages include pizza, while all packages allow you to bring your own food."
         },
         {
             q: "Can we bring our own Food?",
