@@ -112,7 +112,7 @@ const Camp = () => {
                 <Image src='/20250711_111518.jpg' alt='Child Playing With Dinosaurs at Kidz Korner Milton, Ontario' w="w-sm"/>
             </div>
 
-            <div className="flex flex-col justify-center w-3/4 lg:w-1/3 gap-4 lg:py-18 py-8">
+            <div className="flex flex-col justify-center w-3/4 lg:w-1/3 gap-4 lg:py-16 py-8">
                 <Card>
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
