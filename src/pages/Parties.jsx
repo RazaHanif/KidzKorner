@@ -127,14 +127,14 @@ const Parties = () => {
             <div className="flex flex-col justify-center items-center w-3/4 mb-4">
                 <h2>Why Families Love Our Birthday Parties</h2>
                 <div className="bg-red-500 w-full flex lg:flex-row flex-col items-center">
-                    <div className="bg-blue-500">
+                    <div className="bg-blue-500 flex flex-col gap-2">
                         <p>Private Venue Rental</p>
                         <p>Indoor Playground exclusive to your guests</p>
                         <p>Bring your own food?</p>
                         <p>Private Kitchen Available</p>
                         <p>Decorations Welcome</p>
                     </div>
-                    <div className="bg-blue-500">
+                    <div className="bg-blue-500 flex flex-col gap-2">
                         <p>Up to 50 guests</p>
                         <p>Tea & Coffee Station</p>
                         <p>Safe, clean, nut-free environment</p>
