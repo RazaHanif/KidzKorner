@@ -219,11 +219,6 @@ const Home = () => {
                                         </h2>
                                     </div>
                                     <p className="text-start pl-8">
-                                        A secure, welcoming space where children can thrive.
-                                    </p>
-                                    <h2 className="flex flex-row gap-2 font-bold w-full">
-                                    </h2>
-                                    <p className="text-start pl-4">
                                         Learning through exploration, creativity, and fun.
                                     </p>
                                 </div>
