@@ -8,7 +8,7 @@ const NotFound = () => {
             <h1 className="w-full flex flex-col justify-end items-center text-6xl font-bold font-serif">
                 404
             </h1>
-            <h1 className="lg:text-5xl text-3xl font-bold font-serif text-center py-4">
+            <h1 className="text-6xl font-bold font-serif text-center py-4">
                 404
             </h1>
             <h2 className="text-xl font-bold text-center">
