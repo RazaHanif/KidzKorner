@@ -6,7 +6,7 @@ import {
     localBusinessSchema,
 } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
-import { CircleCheck, Dot, PartyPopper } from "lucide-react";
+import { CircleCheck, PartyPopper } from "lucide-react";
 import PartyAccordion from "../components/PartyAccordion";
 
 const Parties = () => {
