@@ -139,7 +139,7 @@ const Parties = () => {
                         <p>Tea & Coffee Station</p>
                         <p>Safe, clean, nut-free environment</p>
                         <p>Convenient Milton location</p>
-                        <p>Decorations Welcome</p>
+                        <p>Setup </p>
                     </div>
                 </div>
             </div>
