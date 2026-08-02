@@ -233,7 +233,7 @@ const Parties = () => {
                     A Private Indoor Birthday Party Venue in Milton
                 </h2>
                 <p className="flex flex-col justify-center items-center lg:w-3/4 text-center">
-                    Unlike busy public play centers, every Kidz Korner 
+                    Unlike busy public play centers, every Kidz Korner birthday party includes exclusive use of our indoor playground
                 </p>
             </div>
 
