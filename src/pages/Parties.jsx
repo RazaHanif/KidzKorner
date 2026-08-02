@@ -24,7 +24,7 @@ const Parties = () => {
     return (
         <div className="flex flex-col justify-center items-center w-full gap-2">
             <div className="flex flex-col justify-center items-center w-full">
-                <h1 className="text-3xl font-bold text-center font-serif">
+                <h1 className="text-3xl font-bold text-center font-serif text-center">
                     Kids Birthday Parties in Milton
                 </h1>
             </div>
