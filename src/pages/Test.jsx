@@ -2,21 +2,6 @@ const Test = () => {
     return (
         <div className="flex flex-col justify-center items-center gap-2 w-full text-justify">
             <div className="flex lg:flex-row flex-col justify-center w-3/4 m-4 gap-4">
-                <div>
-                    <ContactUsTable />
-                </div>
-
-                <div className="flex justify-center">
-                    <Image 
-                        src='IMG-20260208-WA0002.jpg'
-                        alt='Child Posing at Kidz Korner Milton, Ontario'
-                        w={'w-sm'}
-                    />
-                </div>
-
-                <div>
-                    <HoursTimeTable />
-                </div>
             </div>
 
             <div className="flex justify-center items-center w-3/4 rounded-lg border-2 shadow-lg overflow-hidden mb-4">
