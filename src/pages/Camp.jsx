@@ -149,7 +149,7 @@ const Camp = () => {
                 <Image src='/20250722_100154.jpg' alt='Child Painting at Kidz Korner Milton, Ontario' />
             </div>
 
-            <div className="flex lg:flex-row flex-col justify-center w-3/4 gap-4">
+            <div className="flex lg:flex-row flex-col justify-center w-3/4 gap-4 lg:py-16 py-8">
                 <Card>
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
