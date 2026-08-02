@@ -82,7 +82,7 @@ const Playground = () => {
                         <div className="flex flex-col gap-2 w-full flex-1">
                             <p className="flex items-start gap-3">
                                 <CheckCircle className="h-6 w-6 shrink-0 text-primary"/> 
-                                Imaginative Play P
+                                Imaginative Play Opportunities
                             </p>
                             <p className="flex items-start gap-3">
                                 <CheckCircle className="h-6 w-6 shrink-0 text-primary"/> 
