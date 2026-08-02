@@ -3,6 +3,15 @@ import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchem
 import StructData from "../components/StructData";
 import PartyCard from "@/components/PartyCard";
 import { CheckCircle } from "lucide-react";
+import {
+  Card,
+  CardAction,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
 
 const Playground = () => {
         const breadCrumb = [
