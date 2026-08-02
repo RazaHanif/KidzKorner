@@ -67,7 +67,7 @@ Explore Our Indoor Playground
 ✓ Safe indoor fun year-round
 </p>
             <div className="flex lg:flex-row flex-col justify-center items-center gap-4 w-3/4">
-                <Image src='/20250930_142748.jpg' alt='Kidz Korner Milton, Ontario Indoor Playground ' w="w-md"/>
+                <Image src='/20250930_142748.jpg' alt='alt="Children playing on the indoor playground at Kidz Korner in Milton Ontario"' w="w-md"/>
                 <Image src='/20250930_142442.jpg' alt='Kidz Korner Milton, Ontario Climbing Structure ' />
             </div>
 
