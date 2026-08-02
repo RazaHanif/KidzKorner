@@ -234,7 +234,8 @@ const Parties = () => {
                 </h2>
                 <p className="flex flex-col justify-center items-center lg:w-3/4 text-center">
                     Unlike busy public play centers, every Kidz Korner birthday party includes exclusive use of our indoor playground.
-                    That means no sharing the paly space with stragners. 
+                    That means no sharing the paly space with strangers, just your family, friends, and invited guests.
+                    Children can clumb, explore and play in a 
                 </p>
             </div>
 
