@@ -179,7 +179,6 @@ const Home = () => {
                                         <BadgeCheck />
                                         <h2 className="font-bold">
                                             Licensed Ontario Childcare
-                                            Safe Environment
                                         </h2>
                                     </div>
                                     <p className="text-start pl-8">
