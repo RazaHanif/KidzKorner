@@ -28,7 +28,7 @@ const Daycare = () => {
 
     return (
         <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16">
-            <div className="flex flex-col justify-center items-center w-full mb-4">
+            <div className="flex flex-col justify-center items-center w-full">
                 <h1 className="text-3xl font-bold font-serif text-center">
                     Licensed Daycare in Milton, Ontario
                 </h1>
@@ -150,7 +150,7 @@ const Daycare = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 m-4">
-                <h2 className="text-xl font-bold text-center lg:mb-4">
+                <h2 className="text-xl font-bold text-center lg:">
                     Flexible Care Options for Milton Families
                 </h2>
                 <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
