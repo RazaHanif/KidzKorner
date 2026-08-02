@@ -99,7 +99,7 @@ const Playground = () => {
 
 
             <div className="flex lg:flex-row flex-col justify-center items-center w-3/4 lg:pt-16 pt-8">
-                <Image src='/20250930_142748.jpg' alt="Children playing on the indoor playground at Kidz Korner in Milton Ontario" />
+                <Image src='/20250930_142748.jpg' alt="Children playing on the indoor playground at Kidz Korner in Milton Ontario" w="w-md"/>
                 <Image src='/20250930_142442.jpg' alt="Indoor climbing structure at Kidz Korner playground in Milton Ontario" />
             </div>
 
