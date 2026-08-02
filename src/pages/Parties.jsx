@@ -128,28 +128,38 @@ const Parties = () => {
                 <h2>Why Families Love Our Birthday Parties</h2>
                 <div className="bg-red-500 w-full flex lg:flex-row flex-col p-2 gap-2">
                     <div className="bg-blue-500 flex flex-col gap-2 w-full flex-1">
-                        <p>
-                            Private Venue Rental</p>
-                        <p>
-                            Indoor Playground exclusive to your guests</p>
-                        <p>
-                            Bring your own food?</p>
-                        <p>
-                            Private Kitchen Available</p>
-                        <p>
-                            Decorations Welcome</p>
+                        <p className="">
+                            Private Venue Rental
+                        </p>
+                        <p className="">
+                            Indoor Playground exclusive to your guests
+                        </p>
+                        <p className="">
+                            Bring your own food
+                        ?</p>
+                        <p className="">
+                            Private Kitchen Available
+                        </p>
+                        <p className="">
+                            Decorations Welcome
+                        </p>
                     </div>
                     <div className="bg-blue-500 flex flex-col gap-2 w-full flex-1">
-                        <p>
-                            Up to 50 guests</p>
-                        <p>
-                            Tea & Coffee Station</p>
-                        <p>
-                            Safe, clean, nut-free environment</p>
-                        <p>
-                            Convenient Milton location</p>
-                        <p>
-                            Setup/Take Down Time Included</p>
+                        <p className="">
+                            Up to 50 guests
+                        </p>
+                        <p className="">
+                            Tea & Coffee Station
+                        </p>
+                        <p className="">
+                            Safe, clean, nut-free environment
+                        </p>
+                        <p className="">
+                            Convenient Milton location
+                        </p>
+                        <p className="">
+                            Setup/Take Down Time Included
+                        </p>
                     </div>
                 </div>
             </div>
