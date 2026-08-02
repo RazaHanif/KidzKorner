@@ -138,7 +138,7 @@ const Parties = () => {
                         <p>Up to 50 guests</p>
                         <p>Tea & Coffee Station</p>
                         <p>Safe, clean, nut-free environment</p>
-                        <p>Private Kitchen Available</p>
+                        <p>Convenient Milton location</p>
                         <p>Decorations Welcome</p>
                     </div>
                 </div>
