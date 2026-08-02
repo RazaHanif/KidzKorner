@@ -29,7 +29,7 @@ const PartyAccordion = () => {
             a: "Our Platinum and VIP packages include pizza, while all packages allow you to bring your own food."
         },
         {
-            q: "Can we bring our own Food?",
+            q: "Can we stay longer?",
             a: "Yes. Families are welcome to bring their own food at no additional cost. We also provide access to a private kitchen space. Please note that our facility follows a strict nut-free policy."
         },
 
