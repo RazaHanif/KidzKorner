@@ -12,7 +12,7 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import PartyCard from "@/components/PartyCard";
-import { PartyPopper } from "lucide-react";
+import { CheckCircle, PartyPopper } from "lucide-react";
 
 const Playground = () => {
         const breadCrumb = [
@@ -67,30 +67,30 @@ const Playground = () => {
                     <div className="flex lg:flex-row flex-col p-2 gap-2">
                         <div className="flex flex-col gap-2 w-full flex-1">
                             <p className="flex items-start gap-3">
-                                <Chec className="h-6 w-6 shrink-0 text-primary"/> 1st Birthdays
+                                <CheckCircle className="h-6 w-6 shrink-0 text-primary"/> 1st Birthdays
                             </p>
                             <p className="flex items-start gap-3">
-                                <Chec className="h-6 w-6 shrink-0 text-primary"/> 2nd Birthdays
+                                <CheckCircle className="h-6 w-6 shrink-0 text-primary"/> 2nd Birthdays
                             </p>
                             <p className="flex items-start gap-3">
-                                <Chec className="h-6 w-6 shrink-0 text-primary"/> Preschool Birthdays
+                                <CheckCircle className="h-6 w-6 shrink-0 text-primary"/> Preschool Birthdays
                             </p>
                             <p className="flex items-start gap-3">
-                                <Chec className="h-6 w-6 shrink-0 text-primary"/> Kindergarten Birthdays
+                                <CheckCircle className="h-6 w-6 shrink-0 text-primary"/> Kindergarten Birthdays
                             </p>
                         </div>
                         <div className="flex flex-col gap-2 w-full flex-1">
                             <p className="flex items-start gap-3">
-                                <Chec className="h-6 w-6 shrink-0 text-primary"/> School-aged Children
+                                <CheckCircle className="h-6 w-6 shrink-0 text-primary"/> School-aged Children
                             </p>
                             <p className="flex items-start gap-3">
-                                <Chec className="h-6 w-6 shrink-0 text-primary"/> Family Celebrations
+                                <CheckCircle className="h-6 w-6 shrink-0 text-primary"/> Family Celebrations
                             </p>
                             <p className="flex items-start gap-3">
-                                <Chec className="h-6 w-6 shrink-0 text-primary"/> Winter Birthday Parties
+                                <CheckCircle className="h-6 w-6 shrink-0 text-primary"/> Winter Birthday Parties
                             </p>
                             <p className="flex items-start gap-3">
-                                <Chec className="h-6 w-6 shrink-0 text-primary"/> Rainy Day Birthday Parties
+                                <CheckCircle className="h-6 w-6 shrink-0 text-primary"/> Rainy Day Birthday Parties
                             </p>
                         </div>
                     </div>
