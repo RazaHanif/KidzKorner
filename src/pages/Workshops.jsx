@@ -16,12 +16,14 @@ const Workshops = () => {
     ];
 
     return (
-        <div className="flex flex-col justify-center items-center w-full gap-2">
-            <div className="flex flex-col justify-evenly items-center w-3/4">
-                <h1 className="text-3xl font-bold mb-4 text-center">
-                    Workshops
+        <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16 pb-8">
+            <div className="flex flex-col justify-center items-center w-full mb-4">
+                <h1 className="lg:text-5xl text-3xl font-bold font-serif text-center py-4">
+                    Licensed Daycare & Childcare in Milton
                 </h1>
+            </div>
 
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-full lg:text-justify text-center">
                 <p className="mb-4 lg:text-justify text-center">
                     At Kidz Korner, we offer fun and educational workshops designed for children to learn, play, and grow. Our programs focus on early learning, arts, creativity, and skill-building in a safe and nurturing environment.
                 </p>
@@ -35,8 +37,9 @@ const Workshops = () => {
                     >
                         For the latest updates on upcoming workshops, follow us on Instagram!
                     </a>
-                </p>
+                </p>                
             </div>
+
 {/* 
             <div className="flex justify-center items-center w-full mb-4">
                 <WorkshopCarousel />
