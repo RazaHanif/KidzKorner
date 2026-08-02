@@ -12,7 +12,7 @@ const NotFound = () => {
 
             <div className="w-full flex flex-col justify-center items-center p-4 text-primary">
                 <p className="text-6xl animate-bounce">🎈</p>
-                <p>Oops! This page ran off to play!</p>
+                <p className="text-lg">Oops! This page ran off to play!</p>
             </div>
 
             <div className="w-full flex justify-center items-center">
