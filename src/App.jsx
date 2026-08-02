@@ -13,6 +13,7 @@ import NotFound from "./pages/NotFound.jsx";
 import Daycare from "./pages/Daycare.jsx";
 import ToddlerDaycare from "./pages/ToddlerDaycare.jsx";
 import PreschoolDaycare from "./pages/PreschoolDaycare.jsx";
+import BeforeAfterDaycare from "./pages/BeforeAfterDaycare.jsx";
 
 /* 
 
@@ -61,7 +62,7 @@ function App() {
                     <Route path="/daycare" element={<Daycare />} />
                     <Route path="/daycare/toddler-daycare" element={<ToddlerDaycare />} />
                     <Route path="/daycare/preschool" element={<PreschoolDaycare />} />
-                    <Route path="/daycare/before-after-school-care" element={<Childcare />} />
+                    <Route path="/daycare/before-after-school-care" element={<BeforeAfterDaycare />} />
 
                     <Route path="/faq" element={<Test />} />
 
