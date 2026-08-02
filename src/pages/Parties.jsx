@@ -129,7 +129,7 @@ const Parties = () => {
                 <h2>Why Families Love Our Birthday Parties</h2>
                 <div className="w-full flex lg:flex-row flex-col p-2 gap-2">
                     <div className="flex flex-col gap-2 w-full flex-1">
-                        <div>
+                        <div className="flex gap-2">
                             <CircleCheck />
                             <p className="ml-4">    
                                 Private Venue Rental
