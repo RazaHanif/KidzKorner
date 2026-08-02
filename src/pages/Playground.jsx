@@ -59,7 +59,41 @@ const Playground = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 border-y p-4">
-
+                                    <div className="flex flex-col justify-center items-center">
+                    <h2 className="text-xl font-bold text-center">
+                        Our birthday parties are perfect for:
+                    </h2>
+                    <div className="flex lg:flex-row flex-col p-2 gap-2">
+                        <div className="flex flex-col gap-2 w-full flex-1">
+                            <p className="flex items-start gap-3">
+                                <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> 1st Birthdays
+                            </p>
+                            <p className="flex items-start gap-3">
+                                <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> 2nd Birthdays
+                            </p>
+                            <p className="flex items-start gap-3">
+                                <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> Preschool Birthdays
+                            </p>
+                            <p className="flex items-start gap-3">
+                                <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> Kindergarten Birthdays
+                            </p>
+                        </div>
+                        <div className="flex flex-col gap-2 w-full flex-1">
+                            <p className="flex items-start gap-3">
+                                <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> School-aged Children
+                            </p>
+                            <p className="flex items-start gap-3">
+                                <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> Family Celebrations
+                            </p>
+                            <p className="flex items-start gap-3">
+                                <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> Winter Birthday Parties
+                            </p>
+                            <p className="flex items-start gap-3">
+                                <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> Rainy Day Birthday Parties
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
 
