@@ -68,10 +68,6 @@ const Home = () => {
                         Programs for Every Stage of Early Learning
                     </h2>
 
-/daycare/toddler-daycare
-/daycare/preschool
-/daycare/before-after-school-care
-
                     <div className="flex flex-1 flex-col gap-4 w-full">
                         <div className="flex md:flex-row flex-col gap-4">
                             <NavLink 
