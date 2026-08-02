@@ -6,7 +6,7 @@ import {
     localBusinessSchema,
 } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
-import { CircleCheck, Dot } from "lucide-react";
+import { CircleCheck, Dot, PartyPopper } from "lucide-react";
 import PartyAccordion from "../components/PartyAccordion";
 
 const Parties = () => {
@@ -201,7 +201,7 @@ const Parties = () => {
                             <Dot className="h-6 w-6 shrink-0 text-primary"/> Preschool Birthdays
                         </p>
                         <p className="flex items-start gap-3">
-                            <Dot className="h-6 w-6 shrink-0 text-primary"/> Kindergarten Birthdays
+                            <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> Kindergarten Birthdays
                         </p>
                     </div>
                     <div className="flex flex-col gap-2 w-full flex-1">
