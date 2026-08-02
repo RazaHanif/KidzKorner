@@ -199,7 +199,9 @@ const Home = () => {
                                 <div className="flex flex-col items-start justify-start w-full">
                                     <div className="flex gap-2 text-primary">
                                         <ShieldCheck />
+                                        <GraduationCap />
                                         <h2 className="font-bold">
+                                            Experienced Educators
                                             Safe Environment
                                         </h2>
                                     </div>
@@ -207,8 +209,6 @@ const Home = () => {
                                         A secure, welcoming space where children can thrive.
                                     </p>
                                     <h2 className="flex flex-row gap-2 font-bold w-full">
-                                        <GraduationCap />
-                                        Experienced Educators
                                     </h2>
                                     <p className="text-start pl-4">
                                         Caring professionals focused on every child's growth.
