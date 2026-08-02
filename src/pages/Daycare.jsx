@@ -29,7 +29,7 @@ const Daycare = () => {
     return (
         <div className="flex flex-col justify-center items-center gap-4 w-full text-justify">
             <div className="flex flex-col justify-center items-center w-full mb-4">
-                <h1 className="text-3xl font-bold font-serif lg:text-justify text-center">
+                <h1 className="text-3xl font-bold font-serif text-center">
                     Licensed Daycare in Milton, Ontario
                 </h1>
                 <h2 className="text-xl font-bold text-center">
