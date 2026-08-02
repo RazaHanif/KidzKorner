@@ -4,7 +4,7 @@ import Navigation from '@/components/Navigation';
 const Header = () => {
   return (
     <div className='flex flex-row justify-center px-2 mt-2 w-full'>
-      <div className="flex flex-row justify-between items-center w-full p-2 rounded-md bg-primary font-serif">
+      <div className="flex flex-row justify-between items-center w-full pr-2 rounded-md bg-primary font-serif">
         <Link 
           to="/"
         >
