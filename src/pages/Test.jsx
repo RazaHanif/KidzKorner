@@ -1,4 +1,4 @@
-import { ToyBrick } from "lucide-react";
+import { Shapes, ToyBrick } from "lucide-react";
 
 const Test = () => {
     return (
@@ -7,7 +7,7 @@ const Test = () => {
                 <h1 className="text-3xl font-bold">
                     The Sandbox
                 </h1>
-                <Toy className="h-10 w-10"/>
+                <Shapes className="h-10 w-10"/>
             </div>
         </div>
     );
