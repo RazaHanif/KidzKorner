@@ -24,7 +24,7 @@ const PartyAccordion = () => {
                     key={index + 1}
                 >
                     <AccordionTrigger>
-                        {index}
+                        {index + 1}
                         {item.q}
                     </AccordionTrigger>
                     <AccordionContent>
