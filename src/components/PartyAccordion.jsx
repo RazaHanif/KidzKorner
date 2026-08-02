@@ -10,6 +10,8 @@ const PartyAccordion = () => {
     return (
         <Accordion defaultValue={["item-1"]}>
 
+            
+
             <AccordionItem value="item-1">
                 <AccordionTrigger>
                     Can we bring our own Food?
