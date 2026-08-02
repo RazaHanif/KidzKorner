@@ -62,7 +62,7 @@ const Playground = () => {
             <div className="flex flex-col justify-center items-center w-3/4 border-y p-4">
                 <div className="flex flex-col justify-center items-center">
                     <h2 className="text-xl font-bold text-center">
-                        Our birthday parties are perfect for:
+                        Explore Our Indoor Playground
                     </h2>
                     <div className="flex lg:flex-row flex-col p-2 gap-2">
                         <div className="flex flex-col gap-2 w-full flex-1">
