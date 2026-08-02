@@ -128,36 +128,36 @@ const Parties = () => {
                 <h2>Why Families Love Our Birthday Parties</h2>
                 <div className="bg-red-500 w-full flex lg:flex-row flex-col p-2 gap-2">
                     <div className="bg-blue-500 flex flex-col gap-2 w-full flex-1">
-                        <p className="">
+                        <p className="font-bold ">
                             Private Venue Rental
                         </p>
-                        <p className="">
+                        <p className="font-bold ">
                             Indoor Playground exclusive to your guests
                         </p>
-                        <p className="">
+                        <p className="font-bold ">
                             Bring your own food
                         ?</p>
-                        <p className="">
+                        <p className="font-bold ">
                             Private Kitchen Available
                         </p>
-                        <p className="">
+                        <p className="font-bold ">
                             Decorations Welcome
                         </p>
                     </div>
                     <div className="bg-blue-500 flex flex-col gap-2 w-full flex-1">
-                        <p className="">
+                        <p className="font-bold ">
                             Up to 50 guests
                         </p>
-                        <p className="">
+                        <p className="font-bold ">
                             Tea & Coffee Station
                         </p>
-                        <p className="">
+                        <p className="font-bold ">
                             Safe, clean, nut-free environment
                         </p>
-                        <p className="">
+                        <p className="font-bold ">
                             Convenient Milton location
                         </p>
-                        <p className="">
+                        <p className="font-bold ">
                             Setup/Take Down Time Included
                         </p>
                     </div>
