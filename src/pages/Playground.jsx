@@ -23,7 +23,7 @@ const Playground = () => {
                     Indoor Playground in Milton, Ontario
                 </h1>
                 <p>
-                    
+                    Drop-in fun for toddlers, young children, and families!
                 </p>
             </div>
 
