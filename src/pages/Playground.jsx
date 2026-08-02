@@ -51,7 +51,7 @@ const Playground = () => {
                 <Card className="w-full flex-1">
                     <CardHeader>
                         <CardTitle>
-                            Card Title
+                            Drop
                         </CardTitle>
                         <CardDescription>
                             Card Description
