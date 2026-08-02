@@ -40,7 +40,7 @@ const Workshops = () => {
                 </p>                
             </div>
 
-            {/* Move away from advertising specific worksh */}
+            {/* Move away from advertising specific workshops/prices as they change too often */}
             <div className="flex justify-center items-center w-full mb-4">
                 <WorkshopCarousel />
             </div>
