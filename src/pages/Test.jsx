@@ -8,6 +8,11 @@ const Test = () => {
                     The Sandbox
                 </h1>
             </div>
+
+
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-full lg:text-justify text-center">
+            
+            </div>
             <div></div>
                 <Shapes className="h-10 w-10 text-primary"/>
         </div>
