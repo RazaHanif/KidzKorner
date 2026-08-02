@@ -194,7 +194,8 @@ const Home = () => {
                                 </div>
                                 <div className="flex flex-col items-start justify-start w-full">
                                     <h2 className="font-bold">
-                                        👩‍🏫 Experienced Educators
+                                        
+                                        Experienced Educators
                                     </h2>
                                     <p className="text-start pl-4">
                                         Caring professionals focused on every child's growth.
