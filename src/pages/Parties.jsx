@@ -221,10 +221,7 @@ const Parties = () => {
                 </div>
             </div>
 
-
-
-            <div className="flex flex-col justify-center items-center w-3/4 gap-4">
-            <div className="flex flex-col justify-center items-center w-3/4 border-t border-b p-4 my-4"><Q></Q></div>
+            <div className="flex flex-col justify-center items-center w-3/4 border-t border-b p-4 my-4">
                 <PartyAccordion />
             </div>
 
