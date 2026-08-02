@@ -183,7 +183,7 @@ const Parties = () => {
                         alt="Birthday cake celebration at Kidz Korner birthday party in Milton"
                     />
                 </div>
-                <div flex flex-col >
+                <div className="flex">
                     <h2 className="text-xl font-bold text-center">
                         Our birthday parties are perfect for:
                     </h2>
