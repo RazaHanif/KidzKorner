@@ -8,6 +8,7 @@ const Test = () => {
                     The Sandbox
                 </h1>
             </div>
+            <div></div>
                 <Shapes className="h-10 w-10 text-primary"/>
         </div>
     );
