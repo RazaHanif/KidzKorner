@@ -178,6 +178,7 @@ const Home = () => {
                                     <div className="flex gap-2 text-primary">
                                         <BadgeCheck />
                                         <h2 className="font-bold">
+                                            Licensed Ontario Childcare
                                             Safe Environment
                                         </h2>
                                     </div>
@@ -185,7 +186,6 @@ const Home = () => {
                                         A secure, welcoming space where children can thrive.
                                     </p>
                                     <h2 className="flex flex-row gap-2 font-bold w-full">
-                                        Licensed Ontario Childcare
                                     </h2>
                                     <p className="text-start pl-4">
                                         Meets Ontario Ministry of Education licensing standards.
