@@ -61,7 +61,9 @@ const Playground = () => {
                         </CardAction>
                     </CardHeader>
                 <CardContent>
-                <p>Card Content</p>
+                    <p>
+                        Card Content
+                    </p>
                 </CardContent>
                 <CardFooter>
                 <p>Card Footer</p>
