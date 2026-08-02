@@ -21,7 +21,7 @@ const NotFound = () => {
                     end
                     className="hover:scale-105 ease-in-out duration-300 flex-1 lg:w-3/4 flex justify-center lg:justify-end w-full"
                 >
-                    <Button className="cursor-pointer min-w-1/2">
+                    <Button className="cursor-pointer min-w-1/2 w-full">
                         Go Home!
                     </Button>
                 </NavLink>
