@@ -6,10 +6,10 @@ import {
 } from "@/components/ui/accordion"
 
 
-const PartyAcc = () => {
+const PartyAccordion = () => {
 
 
 
 }
 
-export default PartyAcc;
+export default PartyAccordion;
