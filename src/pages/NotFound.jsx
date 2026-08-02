@@ -9,7 +9,7 @@ const NotFound = () => {
                 404
             </h1>
             <h1 className="lg:text-5xl text-3xl font-bold font-serif text-center py-4">
-                Licensed Daycare in Milton, Ontario
+                404
             </h1>
             <h2 className="text-xl font-bold text-center">
                 Toddler, Preschool, and Before & After School Programs
