@@ -189,6 +189,15 @@ const Parties = () => {
                         <p className="ml-4 flex gap-2">
                             <Dot /> 1st Birthdays
                         </p>
+                        <p className="ml-4 flex gap-2">
+                            <Dot /> 1st Birthdays
+                        </p>
+                        <p className="ml-4 flex gap-2">
+                            <Dot /> 1st Birthdays
+                        </p>
+                        <p className="ml-4 flex gap-2">
+                            <Dot /> 1st Birthdays
+                        </p>
                     </div>
                 </div>
             </div>
