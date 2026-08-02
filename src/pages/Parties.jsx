@@ -131,7 +131,7 @@ const Parties = () => {
                     <div className="flex flex-col gap-2 w-full flex-1">
                         <div className="flex gap-2 ml-4">
                             <CircleCheck />
-                            <p className="ml-4">    
+                            <p className="">    
                                 Private Venue Rental
                             </p>
                         </div>
