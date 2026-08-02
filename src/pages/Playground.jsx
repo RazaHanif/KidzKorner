@@ -1,4 +1,3 @@
-import PlaygroundAccordion from "@/components/PlaygroundAccordion";
 import Image from "@/components/Image";
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
