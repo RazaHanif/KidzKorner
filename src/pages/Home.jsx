@@ -235,19 +235,12 @@ const Home = () => {
                                 </div>
                                 <div className="flex flex-col items-start justify-start w-full">
                                     <div className="flex gap-2 text-primary">
-                                        <ShieldCheck />
+                                        <MessageCircleHeart />
                                         <h2 className="font-bold">
-                                            Safe Environment
+                                            Strong Parent Communication
                                         </h2>
                                     </div>
                                     <p className="text-start pl-8">
-                                        A secure, welcoming space where children can thrive.
-                                    </p>
-                                    <h2 className="flex flex-row gap-2 font-bold w-full">
-                                        <MessageCircleHeart />
-                                        Strong Parent Communication
-                                    </h2>
-                                    <p className="text-start pl-4">
                                         Working together with families every step of the way.
                                     </p>
                                 </div>
