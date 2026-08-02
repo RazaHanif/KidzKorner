@@ -213,7 +213,6 @@ const Home = () => {
 
                                 <div className="flex flex-col items-start justify-start w-full">
                                     <div className="flex gap-2 text-primary">
-                                        <ShieldCheck />
                                         <Palette />
                                         <h2 className="font-bold">
                                             Safe Environment
