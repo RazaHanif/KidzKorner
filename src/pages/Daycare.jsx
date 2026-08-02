@@ -71,7 +71,7 @@ const Daycare = () => {
                 </Card>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4">
+            <div className="flex flex-col justify-center items-center w-3/4 my-">
                 <h2 className="text-xl font-bold text-center pb-4">
                     Program Options - Full Time & Part Time Care
                 </h2>
