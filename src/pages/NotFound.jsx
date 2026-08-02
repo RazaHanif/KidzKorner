@@ -3,15 +3,15 @@ import { Link } from "react-router-dom"
 
 const NotFound = () => {
   return (
-<div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16 pb-8">
-            <div className="flex flex-col justify-center items-center w-full">
-                <h1 className="lg:text-5xl text-3xl font-bold font-serif text-center py-4">
-                    Licensed Daycare in Milton, Ontario
-                </h1>
-                <h2 className="text-xl font-bold text-center">
-                    Toddler, Preschool, and Before & After School Programs
-                </h2>    
-            </div>
+    <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16 pb-8">
+        <div className="flex flex-col justify-center items-center w-full">
+            <h1 className="lg:text-5xl text-3xl font-bold font-serif text-center py-4">
+                Licensed Daycare in Milton, Ontario
+            </h1>
+            <h2 className="text-xl font-bold text-center">
+                Toddler, Preschool, and Before & After School Programs
+            </h2>    
+        </div>
       <h1 className="w-full flex flex-col justify-end items-center text-6xl font-bold font-serif">
         404
       </h1>
