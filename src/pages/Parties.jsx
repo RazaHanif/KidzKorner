@@ -207,10 +207,10 @@ const Parties = () => {
                             <Dot /> Family Celebrations
                         </p>
                         <p className="ml-4 flex gap-2">
-                            <Dot /> Winter Birthdays
+                            <Dot /> Winter Birthdays Parties
                         </p>
                         <p className="ml-4 flex gap-2">
-                            <Dot /> Rainy Day Birthdays
+                            <Dot /> Rainy Day Birthdays Parties
                         </p>
                     </div>
                 </div>
