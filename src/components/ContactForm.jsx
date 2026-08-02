@@ -55,7 +55,7 @@ const ContactForm = () => {
 
   return (
     <FormLayout 
-      title={"Enrollment Form"}
+      title={"Contact Form"}
       handleSubmit={handleSubmit}
       submitted={submitted}
       form={
