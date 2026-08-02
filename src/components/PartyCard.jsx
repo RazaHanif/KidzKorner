@@ -16,13 +16,13 @@ const PartyCard = ({ title, price, desc, bullet = [], tax=true }) => {
                     { title }
                 </CardTitle>
                 <CardDescription className="p-2 bg-accent flex justify-center items-center rounded-md text-bold text-lg">
-                        {tax ? (
-        <>
-            ${price} <span className="text-xs">+tax</span>
-        </>
-    ) : (
-        <>${price}</>
-    )}
+                    {tax ? (
+                    <>
+                    ${price} <span className="text-xs">+tax</span>
+                    </>
+                    ) : (
+                    <>${price}</>
+                    )}
                     ${ price }<span className="text-xs">+tax</span>
                 </CardDescription>
             </CardHeader>
