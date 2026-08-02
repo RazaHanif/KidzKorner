@@ -216,7 +216,6 @@ const Home = () => {
                                         <Palette />
                                         <h2 className="font-bold">
                                             Play-Based Learning
-                                            Safe Environment
                                         </h2>
                                     </div>
                                     <p className="text-start pl-8">
