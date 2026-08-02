@@ -202,15 +202,9 @@ const Home = () => {
                                         <GraduationCap />
                                         <h2 className="font-bold">
                                             Experienced Educators
-                                            Safe Environment
                                         </h2>
                                     </div>
                                     <p className="text-start pl-8">
-                                        A secure, welcoming space where children can thrive.
-                                    </p>
-                                    <h2 className="flex flex-row gap-2 font-bold w-full">
-                                    </h2>
-                                    <p className="text-start pl-4">
                                         Caring professionals focused on every child's growth.
                                     </p>
                                 </div>
