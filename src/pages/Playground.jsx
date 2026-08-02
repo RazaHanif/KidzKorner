@@ -60,6 +60,23 @@ const Playground = () => {
                             </p>
                     </CardContent>
                 </Card>
+                <PartyCard
+                    title={"Platinum Play Package"}
+                    price={"550"}
+                    desc={
+                        "Elevate your experience with extended time and food inclusions!"
+                    }
+                    bullet={[
+                        <div key={1} className="font-semibold text-xs">
+                            Includes everything in the Tiny Tornado Package plus
+                        </div>,
+                        <li key={2}>
+                            <span className="font-semibold">4.5</span> Hours of
+                            Private Access
+                        </li>,
+                        <li key={3}>2 X-Large Cheese Pizzas</li>,
+                    ]}
+                />
             </div>
 
 
