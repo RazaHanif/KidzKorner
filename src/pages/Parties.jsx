@@ -138,11 +138,12 @@ const Parties = () => {
                         <div className="flex gap-2 ml-4">
                             <CircleCheck />
                             <p>    
+                                Indoor Playground exclusive to your guests
                                 Private Venue Rental
                             </p>
                         </div>
                         <p className="ml-4 flex gap-2">
-                            <CircleCheck />Indoor Playground exclusive to your guests
+                            <CircleCheck />
                         </p>
                         <p className="ml-4 flex gap-2">
                             <CircleCheck />Bring your own food
