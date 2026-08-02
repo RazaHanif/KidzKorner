@@ -169,7 +169,7 @@ const Parties = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4">
-                <div className="flex lg:flex-row flex-col justify-between items-center gap-8 w-full">
+                <div className="flex lg:flex-row flex-col justify-between items-center gap-8 w-full mb-10">
                     <Image
                         src="/IMG-20250302-WA0001.jpg"
                         alt="Girls Birthday Setup at Kidz Korner Milton, Ontario"
