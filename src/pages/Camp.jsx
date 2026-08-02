@@ -227,7 +227,9 @@ const Camp = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-4 lg:pt-16 pt-8">
-            
+                <p className="flex w-2/3 text-center">
+                    Ready to Party? Contact us today to secure your date! 
+                </p> 
                 <CampForm/>
             </div>
 
