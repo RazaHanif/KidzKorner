@@ -232,10 +232,16 @@ const Parties = () => {
                 <h2 className="text-xl font-bold text-center pb-4">
                     A Private Indoor Birthday Party Venue in Milton
                 </h2>
-                <p>
-                    
+                <p className="flex flex-col justify-center items-center lg:w-3/4 text-center">
+                    Celebrate your child's birthday with a private indoor party
+                    at Kidz Korner in Milton, Ontario. Our birthday party
+                    packages include exclusive access to our indoor playground,
+                    giving children plenty of room to climb, explore, and play
+                    while parents relax. Whether you're planning a small family
+                    gathering or a larger celebration, our flexible packages
+                    make it easy to host a stress-free and memorable birthday
+                    party.
                 </p>
-                
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
