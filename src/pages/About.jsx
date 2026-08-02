@@ -60,7 +60,7 @@ const About = () => {
             </div>
             
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
-                <p className="flex w-2/3 text-center">
+                <p className="flex text-center">
                     We look forward to hearing from you! 
                 </p> 
                 <ContactForm/>
