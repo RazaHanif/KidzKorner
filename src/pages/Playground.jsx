@@ -32,7 +32,8 @@ const Playground = () => {
                 <p className="flex lg:flex-row flex-col justify-center items-center lg:text-justify text-center">
                     Looking for an indoor playground in Milton where your child can play, explore, and build new skills? 
                     Kidz Korner offers a safe and engaging indoor play space designed for toddlers and young children. 
-                    Our play areas encourage climbing, imaginative play, and active exploration in a clean, welcoming environment. Whether you're escaping the summer heat, rainy afternoons, or snowy winter days, our indoor playground gives families a fun place to spend quality time together year-round.
+                    Our play areas encourage climbing, imaginative play, and active exploration in a clean, welcoming environment. 
+                    Whether you're escaping the summer heat, rainy afternoons, or snowy winter days, our indoor playground gives families a fun place to spend quality time together year-round.
                 </p>
             </div>
 
