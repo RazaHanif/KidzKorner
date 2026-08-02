@@ -37,7 +37,7 @@ function App() {
     return (
         <div className="flex-1 flex flex-col w-full min-h-screen">
             <Header />
-            <div className="flex-1 flex flex-col w-full py-4 relative">
+            <div className="flex-1 flex flex-col w-full relative">
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="*" element={<NotFound />} />
