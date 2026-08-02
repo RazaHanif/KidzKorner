@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/card"
 import StructData from "../components/StructData";
 import { localBusinessSchema, organizationSchema, websiteSchema } from "../schema/structDataSchema";
-import { BadgeCheck, GraduationCap, HeartHandshake, Palette, ShieldCheck } from "lucide-react";
+import { BadgeCheck, GraduationCap, HeartHandshake, MessageCircleHeart, Palette, ShieldCheck } from "lucide-react";
 
 const Home = () => {
     return (
@@ -223,9 +223,8 @@ const Home = () => {
                                     </p>
                                 </div>
                                 <div className="flex flex-col items-start justify-start w-full">
-                                    <h2 className="font-bold">
-                                        🤝 
-                                        
+                                    <h2 className="font-bold"> 
+                                        <MessageCircleHeart />
                                         Strong Parent Communication
                                     </h2>
                                     <p className="text-start pl-4">
