@@ -51,7 +51,7 @@ const Playground = () => {
                 <Card className="w-full flex-1">
                     <CardHeader>
                         <CardTitle>
-                            Drop
+                            Drop-In Playground Pricing
                         </CardTitle>
                         <CardDescription>
                             Card Description
