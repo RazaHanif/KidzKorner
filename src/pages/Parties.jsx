@@ -117,6 +117,7 @@ const Parties = () => {
             <div className="flex flex-col justify-center items-center w-3/4 mb-4">
                     <h2>Why Choose Kidz Korner</h2>
                     <div>
+                        
                         <div>
                             <p></p>
                         </div>
