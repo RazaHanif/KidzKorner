@@ -2,7 +2,7 @@ import Image from "@/components/Image";
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
 import PartyCard from "@/components/PartyCard";
-import { CheckCircle, PartyPopper } from "lucide-react";
+import { CheckCircle } from "lucide-react";
 
 const Playground = () => {
         const breadCrumb = [
