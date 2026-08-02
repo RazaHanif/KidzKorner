@@ -25,16 +25,6 @@ const NotFound = () => {
                         Go Home!
                     </Button>
                 </NavLink>
-
-                <NavLink 
-                    to="/daycare" 
-                    end
-                    className="hover:scale-105 ease-in-out duration-300 flex-1 lg:w-3/4 flex justify-center lg:justify-end"
-                >
-                    <Button className="cursor-pointer min-w-1/2">
-                        Explore Programs
-                    </Button>
-                </NavLink>
             </div>
 
             <div className="w-full flex flex-col justify-start items-center">
