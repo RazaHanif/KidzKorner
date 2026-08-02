@@ -224,7 +224,7 @@ const Parties = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center w-full border-y py-10 my-8">
-                <h2 className="text-xl font-bold text-center pb-4">
+                <h2 className="text-xl font-bold text-center pb-4 w-3/4">
                     FAQ
                 </h2>
                 <PartyAccordion />
