@@ -11,7 +11,7 @@ const NotFound = () => {
             </div>
 
             <div className="w-full flex flex-col justify-center items-center p-4">
-                <p className="text-6xl animate-spin">🎈</p>
+                <p className="text-6xl animate-bounce">🎈</p>
                 <p className="text-lg">Oops! This page ran off to play!</p>
             </div>
 
