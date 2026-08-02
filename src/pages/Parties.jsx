@@ -128,36 +128,36 @@ const Parties = () => {
                 <h2>Why Families Love Our Birthday Parties</h2>
                 <div className="bg-red-500 w-full flex lg:flex-row flex-col p-2 gap-2">
                     <div className="bg-blue-500 flex flex-col gap-2 w-full flex-1">
-                        <p className="">
+                        <p className="text-center">
                             Private Venue Rental
                         </p>
-                        <p className="">
+                        <p className="text-center">
                             Indoor Playground exclusive to your guests
                         </p>
-                        <p className="">
+                        <p className="text-center">
                             Bring your own food
                         ?</p>
-                        <p className="">
+                        <p className="text-center">
                             Private Kitchen Available
                         </p>
-                        <p className="">
+                        <p className="text-center">
                             Decorations Welcome
                         </p>
                     </div>
                     <div className="bg-blue-500 flex flex-col gap-2 w-full flex-1">
-                        <p className="">
+                        <p className="text-center">
                             Up to 50 guests
                         </p>
-                        <p className="">
+                        <p className="text-center">
                             Tea & Coffee Station
                         </p>
-                        <p className="">
+                        <p className="text-center">
                             Safe, clean, nut-free environment
                         </p>
-                        <p className="">
+                        <p className="text-center">
                             Convenient Milton location
                         </p>
-                        <p className="">
+                        <p className="text-center">
                             Setup/Take Down Time Included
                         </p>
                     </div>
