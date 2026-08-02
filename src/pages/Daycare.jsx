@@ -199,7 +199,7 @@ const Daycare = () => {
                     <Image src='/20250811_104025.jpg' alt='Child Making Sea Shell at Kidz Korner Milton, Ontario' />
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 gap-1 m-4 overflow-x-auto">
+            <div className="flex flex-col justify-center items-center w-3/4 gap-1 m-4 overflow-x-auto lg:py-16 py-8">
                <h2 className="text-xl font-bold self-center">
                     A Day at Kidz Korner
                 </h2>
