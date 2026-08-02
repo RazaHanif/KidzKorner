@@ -6,6 +6,7 @@ import {
     localBusinessSchema,
 } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
+import { Check } from "lucide-react";
 
 const Parties = () => {
     const breadCrumb = [
@@ -129,36 +130,36 @@ const Parties = () => {
                 <div className="w-full flex lg:flex-row flex-col p-2 gap-2">
                     <div className="flex flex-col gap-2 w-full flex-1">
                         <p className="ml-4 flex">
-                            Private Venue Rental
+                            <Check />Private Venue Rental
                         </p>
                         <p className="ml-4 flex">
-                            Indoor Playground exclusive to your guests
+                            <Check />Indoor Playground exclusive to your guests
                         </p>
                         <p className="ml-4 flex">
-                            Bring your own food
+                            <Check />Bring your own food
                         ?</p>
                         <p className="ml-4 flex">
-                            Private Kitchen Available
+                            <Check />Private Kitchen Available
                         </p>
                         <p className="ml-4 flex">
-                            Decorations Welcome
+                            <Check />Decorations Welcome
                         </p>
                     </div>
                     <div className="flex flex-col gap-2 w-full flex-1">
                         <p className="ml-4 flex">
-                            Up to 50 guests
+                            <Check />Up to 50 guests
                         </p>
                         <p className="ml-4 flex">
-                            Tea & Coffee Station
+                            <Check />Tea & Coffee Station
                         </p>
                         <p className="ml-4 flex">
-                            Safe, clean, nut-free environment
+                            <Check />Safe, clean, nut-free environment
                         </p>
                         <p className="ml-4 flex">
-                            Convenient Milton location
+                            <Check />Convenient Milton location
                         </p>
                         <p className="ml-4 flex">
-                            Setup/Take Down Time Included
+                            <Check />Setup/Take Down Time Included
                         </p>
                     </div>
                 </div>
