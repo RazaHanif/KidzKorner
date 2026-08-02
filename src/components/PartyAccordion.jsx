@@ -18,6 +18,7 @@ const PartyAccordion = () => {
     return (
         <Accordion 
             defaultValue={[1]}
+            className="w-full"
         >
 
             {faq.map((item, index) => (
