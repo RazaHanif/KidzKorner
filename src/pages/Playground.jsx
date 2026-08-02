@@ -2,6 +2,15 @@ import PlaygroundAccordion from "@/components/PlaygroundAccordion";
 import Image from "@/components/Image";
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
+import {
+  Card,
+  CardAction,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
 
 const Playground = () => {
         const breadCrumb = [
