@@ -17,7 +17,7 @@ const PartyAccordion = () => {
             a: "Yes. During your booking, the indoor playground is reserved exclusively for your party and invited guests."
         },
         {
-            q: "Can we bring our own Food?",
+            q: "How many guests can attend?",
             a: "Yes. Families are welcome to bring their own food at no additional cost. We also provide access to a private kitchen space. Please note that our facility follows a strict nut-free policy."
         },
         {
