@@ -6,7 +6,7 @@ import {
     localBusinessSchema,
 } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
-import { Check } from "lucide-react";
+import { CircleC, CircleCheckheck } from "lucide-react";
 
 const Parties = () => {
     const breadCrumb = [
@@ -130,36 +130,36 @@ const Parties = () => {
                 <div className="w-full flex lg:flex-row flex-col p-2 gap-2">
                     <div className="flex flex-col gap-2 w-full flex-1">
                         <p className="ml-4 flex">
-                            <Check />Private Venue Rental
+                            <CircleCheck />Private Venue Rental
                         </p>
                         <p className="ml-4 flex">
-                            <Check />Indoor Playground exclusive to your guests
+                            <CircleCheck />Indoor Playground exclusive to your guests
                         </p>
                         <p className="ml-4 flex">
-                            <Check />Bring your own food
+                            <CircleCheck />Bring your own food
                         ?</p>
                         <p className="ml-4 flex">
-                            <Check />Private Kitchen Available
+                            <CircleCheck />Private Kitchen Available
                         </p>
                         <p className="ml-4 flex">
-                            <Check />Decorations Welcome
+                            <CircleCheck />Decorations Welcome
                         </p>
                     </div>
                     <div className="flex flex-col gap-2 w-full flex-1">
                         <p className="ml-4 flex">
-                            <Check />Up to 50 guests
+                            <CircleCheck />Up to 50 guests
                         </p>
                         <p className="ml-4 flex">
-                            <Check />Tea & Coffee Station
+                            <CircleCheck />Tea & Coffee Station
                         </p>
                         <p className="ml-4 flex">
-                            <Check />Safe, clean, nut-free environment
+                            <CircleCheck />Safe, clean, nut-free environment
                         </p>
                         <p className="ml-4 flex">
-                            <Check />Convenient Milton location
+                            <CircleCheck />Convenient Milton location
                         </p>
                         <p className="ml-4 flex">
-                            <Check />Setup/Take Down Time Included
+                            <CircleCheck />Setup/Take Down Time Included
                         </p>
                     </div>
                 </div>
