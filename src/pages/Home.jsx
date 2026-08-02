@@ -221,7 +221,7 @@ const Home = () => {
                                         </h2>
 
                                     </div>
-                                    <p className="text-start pl-4">
+                                    <p className="text-start pl-8">
                                         A secure, welcoming space where children can thrive.
                                     </p>
                                 </div>
