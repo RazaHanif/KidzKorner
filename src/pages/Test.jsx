@@ -7,7 +7,7 @@ const Test = () => {
                 <h1 className="text-3xl font-bold">
                     The Sandbox
                 </h1>
-                <ToyBrick />
+                <ToyBrick className=""/>
             </div>
         </div>
     );
