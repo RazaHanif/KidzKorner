@@ -45,7 +45,7 @@ const Playground = () => {
             </div>
 
             <div 
-                className="flex flex-col justify-center items-center w-3/4 mt-4"
+                className="flex flex-col justify-center items-center w-3/4"
             >
                 <PlaygroundAccordion />
                 <Card className="w-full flex-1">
