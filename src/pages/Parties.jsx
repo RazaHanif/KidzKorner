@@ -128,7 +128,7 @@ const Parties = () => {
                 <h2>Why Families Love Our Birthday Parties</h2>
                 <div>
                     <div>
-                        <p></p>
+                        <p>Private Venue Rental</p>
                     </div>
                 </div>
             </div>
