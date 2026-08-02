@@ -215,8 +215,8 @@ const Home = () => {
                                 </div>
                                 <div className="flex flex-col items-start justify-start w-full">
                                     <div>
+                                        <ShieldCheck />
                                         <h2 className="flex flex-row gap-2 font-bold w-full">
-                                            <ShieldCheck />
                                             Safe Environment
                                         </h2>
 
