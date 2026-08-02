@@ -71,9 +71,6 @@ const Daycare = () => {
                 </Card>
             </div>
 
-            {/* 
-                TODO: Turn this section into 3 btns to link to each page, no time table
-            */}
             <div className="flex flex-col justify-center items-center w-3/4 m-4">
                 <h2 className="text-xl font-bold text-center pb-4">
                     Program Options - Full Time & Part Time Care
