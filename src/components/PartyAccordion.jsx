@@ -45,7 +45,7 @@ const PartyAccordion = () => {
                     value={index + 1} 
                     key={index + 1}
                 >
-                    <AccordionTrigger>
+                    <AccordionTrigger className="cursor-pointer">
                         {item.q}
                     </AccordionTrigger>
                     <AccordionContent>
