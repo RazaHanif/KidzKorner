@@ -139,7 +139,6 @@ const Parties = () => {
                             <CircleCheck />
                             <p>    
                                 Indoor Playground exclusive to your guests
-                                Private Venue Rental
                             </p>
                         </div>
                         <p className="ml-4 flex gap-2">
