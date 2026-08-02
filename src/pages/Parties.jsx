@@ -125,7 +125,7 @@ const Parties = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-full mb-4 bg-card">
+            <div className="flex flex-col justify-center items-center w-full mb-4 bg-primary">
                 <h2 className="text-xl font-bold text-center pb-4">
                     Why Families Love Our Birthday Parties
                 </h2>
