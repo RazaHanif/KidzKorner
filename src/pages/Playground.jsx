@@ -12,7 +12,7 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 
-const PlaygroundCard = (title, price, desc) => {
+const PlaygroundCard = ({title, price, desc}) => {
     return (
         <Card className="w-full">
             <CardHeader>
