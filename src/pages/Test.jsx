@@ -7,8 +7,8 @@ const Test = () => {
                 <h1 className="text-3xl font-bold">
                     The Sandbox
                 </h1>
-                <Shapes className="h-10 w-10 text-primary"/>
             </div>
+                <Shapes className="h-10 w-10 text-primary"/>
         </div>
     );
 }
