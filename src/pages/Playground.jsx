@@ -56,9 +56,7 @@ const Playground = () => {
                         <CardDescription>
                             Card Description
                         </CardDescription>
-                        <CardAction>
-                            Card Action
-                        </CardAction>
+
                     </CardHeader>
                     <CardContent>
                         <p>
