@@ -14,7 +14,7 @@ const PartyAccordion = () => {
                     Can we bring our own Food?
                 </AccordionTrigger>
                 <AccordionContent>
-                    Yes. It adheres to the WAI-ARIA design pattern.
+                    Yes. Fami
                 </AccordionContent>
             </AccordionItem>
         </Accordion>
