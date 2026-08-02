@@ -54,7 +54,7 @@ const Playground = () => {
                             Drop-In Playground Pricing
                         </CardTitle>
                         <CardDescription>
-                            Card Description
+                            
                         </CardDescription>
 
                     </CardHeader>
