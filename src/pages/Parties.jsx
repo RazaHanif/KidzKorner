@@ -6,7 +6,7 @@ import {
     localBusinessSchema,
 } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
-import { CircleCheck } from "lucide-react";
+import { CircleCheck, Dot } from "lucide-react";
 
 const Parties = () => {
     const breadCrumb = [
@@ -187,7 +187,7 @@ const Parties = () => {
                 <div className="w-full flex lg:flex-row flex-col p-2 gap-2">
                     <div className="flex flex-col gap-2 w-full flex-1">
                         <p className="ml-4 flex gap-2">
-                            <CircleCheck />Private Venue Rental
+                            <Dot />Private Venue Rental
                         </p>
                         <p className="ml-4 flex gap-2">
                             <CircleCheck />Indoor Playground exclusive to your guests
