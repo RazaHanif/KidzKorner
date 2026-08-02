@@ -133,36 +133,36 @@ const Parties = () => {
                 <div className="flex lg:flex-row flex-col p-2 gap-2">
                     <div className="flex flex-col gap-2 w-full flex-1">
                         <p className="flex items-start gap-3">
-                            <CircleCheck />Private Venue Rental
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Private Venue Rental
                         </p>
                         <p className="flex items-start gap-3">
-                            <CircleCheck />Indoor Playground exclusive to your guests
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Indoor Playground exclusive to your guests
                         </p>
                         <p className="flex items-start gap-3">
-                            <CircleCheck />Bring your own food
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Bring your own food
                         ?</p>
                         <p className="flex items-start gap-3">
-                            <CircleCheck />Private Kitchen Available
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Private Kitchen Available
                         </p>
                         <p className="flex items-start gap-3">
-                            <CircleCheck />Decorations Welcome
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Decorations Welcome
                         </p>
                     </div>
                     <div className="flex flex-col gap-2 w-full flex-1">
                         <p className="flex items-start gap-3">
-                            <CircleCheck />Up to 50 guests
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Up to 50 guests
                         </p>
                         <p className="flex items-start gap-3">
-                            <CircleCheck />Tea & Coffee Station
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Tea & Coffee Station
                         </p>
                         <p className="flex items-start gap-3">
-                            <CircleCheck />Safe, clean, nut-free environment
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Safe, clean, nut-free environment
                         </p>
                         <p className="flex items-start gap-3">
-                            <CircleCheck />Convenient Milton location
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Convenient Milton location
                         </p>
                         <p className="flex items-start gap-3">
-                            <CircleCheck />Setup/Take Down Time Included
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Setup/Take Down Time Included
                         </p>
                     </div>
                 </div>
