@@ -128,36 +128,36 @@ const Parties = () => {
                 <h2>Why Families Love Our Birthday Parties</h2>
                 <div className="w-full flex lg:flex-row flex-col p-2 gap-2">
                     <div className="flex flex-col gap-2 w-full flex-1">
-                        <p className="ml-4">
+                        <p className="ml-4 flex">
                             Private Venue Rental
                         </p>
-                        <p className="ml-4">
+                        <p className="ml-4 flex">
                             Indoor Playground exclusive to your guests
                         </p>
-                        <p className="ml-4">
+                        <p className="ml-4 flex">
                             Bring your own food
                         ?</p>
-                        <p className="ml-4">
+                        <p className="ml-4 flex">
                             Private Kitchen Available
                         </p>
-                        <p className="ml-4">
+                        <p className="ml-4 flex">
                             Decorations Welcome
                         </p>
                     </div>
                     <div className="flex flex-col gap-2 w-full flex-1">
-                        <p className="ml-4">
+                        <p className="ml-4 flex">
                             Up to 50 guests
                         </p>
-                        <p className="ml-4">
+                        <p className="ml-4 flex">
                             Tea & Coffee Station
                         </p>
-                        <p className="ml-4">
+                        <p className="ml-4 flex">
                             Safe, clean, nut-free environment
                         </p>
-                        <p className="ml-4">
+                        <p className="ml-4 flex">
                             Convenient Milton location
                         </p>
-                        <p className="ml-4">
+                        <p className="ml-4 flex">
                             Setup/Take Down Time Included
                         </p>
                     </div>
