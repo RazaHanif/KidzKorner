@@ -65,7 +65,7 @@ const Playground = () => {
                     title={"Drop-In Playground Pricing"}
                     price={"15"}
                     desc={
-                        "Elevate your experience with extended time and food inclusions!"
+                        ""
                     }
                 />
             </div>
