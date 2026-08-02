@@ -136,7 +136,7 @@ const Parties = () => {
                     </div>
                     <div>
                         <p>Up to 50 guests</p>
-                        <p>Indoor Playground exclusive to your guests</p>
+                        <p>Tea & Coffee Station</p>
                         <p>Bring your own food?</p>
                         <p>Private Kitchen Available</p>
                         <p>Decorations Welcome</p>
