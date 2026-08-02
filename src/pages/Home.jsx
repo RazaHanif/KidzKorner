@@ -228,7 +228,6 @@ const Home = () => {
                                         <h2 className="font-bold">
                                             Safe Environment
                                         </h2>
-
                                     </div>
                                     <p className="text-start pl-8">
                                         A secure, welcoming space where children can thrive.
