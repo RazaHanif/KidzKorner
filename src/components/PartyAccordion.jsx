@@ -37,7 +37,7 @@ const PartyAccordion = () => {
 
     return (
         <Accordion 
-            className="w-full"
+            className="w-full cusro"
         >
 
             {faq.map((item, index) => (
