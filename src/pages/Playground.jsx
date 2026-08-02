@@ -22,6 +22,9 @@ const Playground = () => {
                 <h1 className="lg:text-5xl text-3xl font-bold font-serif text-center py-4">
                     Indoor Playground in Milton, Ontario
                 </h1>
+                <p>
+                    
+                </p>
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
