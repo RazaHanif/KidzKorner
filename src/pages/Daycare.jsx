@@ -27,7 +27,7 @@ const Daycare = () => {
     ];
 
     return (
-        <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full text-justify">
+        <div className="flex flex-col flex-1 justify-center items-center gap-2 w-full lg:py-16">
             <div className="flex flex-col justify-center items-center w-full mb-4">
                 <h1 className="text-3xl font-bold font-serif text-center">
                     Licensed Daycare in Milton, Ontario
