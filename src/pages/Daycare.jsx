@@ -76,7 +76,7 @@ const Daycare = () => {
                     Program Options - Full Time & Part Time Care
                 </h2>
                 <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
-                    <div className="flex flex-col lg:flex-row flex-1 w-3/4 gap-4">
+                    <div className="flex flex-col lg:flex-row flex-1 lg:w-3/4 gap-4">
                         <NavLink 
                             to="/daycare/toddler-daycare" 
                             end 
