@@ -11,6 +11,7 @@ import Camp from "./pages/Camp.jsx";
 import Test from "./pages/Test.jsx";
 import NotFound from "./pages/NotFound.jsx";
 import Daycare from "./pages/Daycare.jsx";
+import ToddlerDaycare from "./pages/ToddlerDaycare.jsx";
 
 /* 
 
@@ -57,7 +58,7 @@ function App() {
 
                     {/* Daycare */}
                     <Route path="/daycare" element={<Daycare />} />
-                    <Route path="/daycare/toddler-daycare" element={<Childcare />} />
+                    <Route path="/daycare/toddler-daycare" element={<ToddlerDaycare />} />
                     <Route path="/daycare/preschool" element={<Childcare />} />
                     <Route path="/daycare/before-after-school-care" element={<Childcare />} />
 
