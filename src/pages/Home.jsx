@@ -182,12 +182,11 @@ const Home = () => {
                                         </h2>
                                     </div>
                                     <p className="text-start pl-8">
-                                        A secure, welcoming space where children can thrive.
+                                        Meets Ontario Ministry of Education licensing standards.
                                     </p>
                                     <h2 className="flex flex-row gap-2 font-bold w-full">
                                     </h2>
                                     <p className="text-start pl-4">
-                                        Meets Ontario Ministry of Education licensing standards.
                                     </p>
                                 </div>
                                 <div className="flex flex-col items-start justify-start w-full">
