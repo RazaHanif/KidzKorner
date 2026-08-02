@@ -59,7 +59,7 @@ const About = () => {
                 </div>
             </div>
             
-            <div className="flex flex-col justify-center items-center w-3/4 gap-4 lg:pt-16 pt-8">
+            <div className="flex flex-col justify-center items-center w-3/4 gap-4">
                 <p className="flex w-2/3 text-center">
                     Contact us today to lock in your spot! 
                 </p> 
