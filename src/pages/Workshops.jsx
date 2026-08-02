@@ -18,7 +18,7 @@ const Workshops = () => {
     return (
         <div className="flex flex-col justify-center items-center w-full gap-2">
             <div className="flex flex-col justify-evenly items-center w-3/4">
-                <h1 className="text-3xl font-bold mb-4">
+                <h1 className="text-3xl font-bold mb-4 text-center">
                     Workshops
                 </h1>
 
