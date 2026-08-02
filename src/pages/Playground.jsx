@@ -48,7 +48,7 @@ const Playground = () => {
                 className="flex flex-col justify-center items-center w-3/4 mt-4"
             >
                 <PlaygroundAccordion />
-                <Card>
+                <Card className="w-full flex-1">
                     <CardHeader>
                         <CardTitle>
                             Card Title
