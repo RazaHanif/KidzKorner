@@ -55,12 +55,9 @@ const Playground = () => {
                         </CardTitle>
                     </CardHeader>
                     <CardContent>
-                        <div>
                             <p>
                                 $15 per Family
                             </p>
-                        </div>
-
                     </CardContent>
                 </Card>
             </div>
