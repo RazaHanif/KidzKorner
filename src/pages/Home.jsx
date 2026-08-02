@@ -215,7 +215,8 @@ const Home = () => {
                                 </div>
                                 <div className="flex flex-col items-start justify-start w-full">
                                     <h2 className="font-bold">
-                                        🛡️ Safe Environment
+                                        
+                                        Safe Environment
                                     </h2>
                                     <p className="text-start pl-4">
                                         A secure, welcoming space where children can thrive.
