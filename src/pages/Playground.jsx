@@ -63,7 +63,7 @@ const Playground = () => {
                 </Card>
                 <PartyCard
                     title={"Drop-In Playground Pricing"}
-                    price={"15 per Family"}
+                    price={"15"}
                     desc={
                         ""
                     }
