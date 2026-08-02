@@ -10,7 +10,7 @@ const NotFound = () => {
                 </h1>
             </div>
 
-            <div className="w-full flex flex-col justify-center items-center p-4 text-primary bg-red-500">
+            <div className="w-full flex flex-col justify-center items-center p-4 text-primary">
                 <p className="text-6xl">🎈</p>
                 <p>Oops! This page ran off to play!</p>
             </div>
