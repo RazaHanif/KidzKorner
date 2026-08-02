@@ -5,3 +5,10 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 
+
+const Daycare = () => {
+
+
+
+}
+export default Daycare;
