@@ -19,7 +19,7 @@ const PartyAccordion = () => {
         <Accordion defaultValue={[1]}>
 
             {faq.map((item, index) => (
-                <AccordionItem value={index + 1} key>
+                <AccordionItem value={index + 1} key={index + 1}>
                     <AccordionTrigger>
                         {item.q}
                     </AccordionTrigger>
