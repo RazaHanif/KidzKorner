@@ -131,7 +131,7 @@ const Parties = () => {
                         <p>Private Venue Rental</p>
                         <p>Indoor Playground exclusive to your guests</p>
                         <p>Bring your own food?</p>
-                        <p>Private Venue Rental</p>
+                        <p>Private Kitchen Available</p>
                         <p>Private Venue Rental</p>
                     </div>
                 </div>
