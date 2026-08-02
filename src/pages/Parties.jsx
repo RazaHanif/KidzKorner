@@ -192,30 +192,30 @@ const Parties = () => {
                 <div className="flex lg:flex-row flex-col p-2 gap-2">
                     <div className="flex flex-col gap-2 w-full flex-1">
                         <p className="flex items-start gap-3">
-                            <Dot className="mt-1 h-5 h-5 shrink-0 text-primary"/> 1st Birthdays
+                            <Dot className="mt-1 h-5 w-5 shrink-0 text-primary"/> 1st Birthdays
                         </p>
                         <p className="flex items-start gap-3">
-                            <Dot className="mt-1 h-5 h-5 shrink-0 text-primary"/> 2nd Birthdays
+                            <Dot className="mt-1 h-5 w-5 shrink-0 text-primary"/> 2nd Birthdays
                         </p>
                         <p className="flex items-start gap-3">
-                            <Dot className="mt-1 h-5 h-5 shrink-0 text-primary"/> Preschool Birthdays
+                            <Dot className="mt-1 h-5 w-5 shrink-0 text-primary"/> Preschool Birthdays
                         </p>
                         <p className="flex items-start gap-3">
-                            <Dot className="mt-1 h-5 h-5 shrink-0 text-primary"/> Kindergarten Birthdays
+                            <Dot className="mt-1 h-5 w-5 shrink-0 text-primary"/> Kindergarten Birthdays
                         </p>
                     </div>
                     <div className="flex flex-col gap-2 w-full flex-1">
                         <p className="flex items-start gap-3">
-                            <Dot className="mt-1 h-5 h-5 shrink-0 text-primary"/> School-aged Children
+                            <Dot className="mt-1 h-5 w-5 shrink-0 text-primary"/> School-aged Children
                         </p>
                         <p className="flex items-start gap-3">
-                            <Dot className="mt-1 h-5 h-5 shrink-0 text-primary"/> Family Celebrations
+                            <Dot className="mt-1 h-5 w-5 shrink-0 text-primary"/> Family Celebrations
                         </p>
                         <p className="flex items-start gap-3">
-                            <Dot className="mt-1 h-5 h-5 shrink-0 text-primary"/> Winter Birthdays Parties
+                            <Dot className="mt-1 h-5 w-5 shrink-0 text-primary"/> Winter Birthdays Parties
                         </p>
                         <p className="flex items-start gap-3">
-                            <Dot className="mt-1 h-5 h-5 shrink-0 text-primary"/> Rainy Day Birthdays Parties
+                            <Dot className="mt-1 h-5 w-5 shrink-0 text-primary"/> Rainy Day Birthdays Parties
                         </p>
                     </div>
                 </div>
