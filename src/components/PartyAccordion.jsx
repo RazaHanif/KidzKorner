@@ -11,7 +11,7 @@ const PartyAccordion = () => {
         <Accordion defaultValue={["item-1"]}>
             <AccordionItem value="item-1">
                 <AccordionTrigger>
-                    Is it accessible?
+                    Can we bring our own Food?
                 </AccordionTrigger>
                 <AccordionContent>
                     Yes. It adheres to the WAI-ARIA design pattern.
