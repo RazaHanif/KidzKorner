@@ -121,7 +121,7 @@ const Home = () => {
 
                         <div className="flex md:flex-row flex-col gap-4">
                             <NavLink 
-                                to="/daycare" 
+                                to="/daycare/before-after-school-care" 
                                 end 
                                 className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                             >
