@@ -72,8 +72,8 @@ const Parties = () => {
                 />
 
                 <PartyCard
-                    title={"Drop-In Playground Pricing"}
-                    price={"15"}
+                    title={"Platinum Play Package"}
+                    price={"550"}
                     desc={
                         "Elevate your experience with extended time and food inclusions!"
                     }
