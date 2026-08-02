@@ -214,7 +214,7 @@ const Home = () => {
                                     </p>
                                 </div>
                                 <div className="flex flex-col items-start justify-start w-full">
-                                    <div>
+                                    <div className="flex">
                                         <ShieldCheck />
                                         <h2 className="font-bold">
                                             Safe Environment
