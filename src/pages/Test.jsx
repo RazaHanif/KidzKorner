@@ -1,3 +1,5 @@
+import { ToyBrick } from "lucide-react";
+
 const Test = () => {
     return (
         <div className="flex flex-col justify-center items-center gap-2 w-full text-center">
@@ -5,7 +7,7 @@ const Test = () => {
                 <h1 className="text-3xl font-bold">
                     The Sandbox
                 </h1>
-                
+                <ToyBrick />
             </div>
         </div>
     );
