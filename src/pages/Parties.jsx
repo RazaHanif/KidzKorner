@@ -229,17 +229,6 @@ const Parties = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
-                <h2 className="text-xl font-bold text-center pb-4">
-                    A Private Indoor Birthday Party Venue in Milton
-                </h2>
-                <p className="flex flex-col justify-center items-center lg:w-3/4 text-center">
-                    Unlike busy public play centers, every Kidz Korner birthday party includes exclusive use of our indoor playground.
-                    That means no sharing the paly space with strangers, just your family, friends, and invited guests.
-                    Children can clumb, explore and play in a 
-                </p>
-            </div>
-
-            <div className="flex flex-col justify-center items-center w-3/4 gap-4">
                 <PartyForm />
             </div>
 
