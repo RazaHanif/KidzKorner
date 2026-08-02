@@ -190,23 +190,6 @@ const Parties = () => {
                             <Dot /> 1st Birthdays
                         </p>
                     </div>
-                    <div className="flex flex-col gap-2 w-full flex-1">
-                        <p className="ml-4 flex gap-2">
-                            <CircleCheck />Up to 50 guests
-                        </p>
-                        <p className="ml-4 flex gap-2">
-                            <CircleCheck />Tea & Coffee Station
-                        </p>
-                        <p className="ml-4 flex gap-2">
-                            <CircleCheck />Safe, clean, nut-free environment
-                        </p>
-                        <p className="ml-4 flex gap-2">
-                            <CircleCheck />Convenient Milton location
-                        </p>
-                        <p className="ml-4 flex gap-2">
-                            <CircleCheck />Setup/Take Down Time Included
-                        </p>
-                    </div>
                 </div>
             </div>
 
