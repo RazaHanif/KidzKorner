@@ -7,6 +7,7 @@ import {
 } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
 import { CircleCheck, Dot } from "lucide-react";
+import PartyAccordion from "../components/PartyAccordion";
 
 const Parties = () => {
     const breadCrumb = [
@@ -223,9 +224,9 @@ const Parties = () => {
 
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
-                <PartyForm />
+                <PartyAccordion />
             </div>
-            
+
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
                 <PartyForm />
             </div>
