@@ -1,4 +1,4 @@
-import { Shapes, ToyBrick } from "lucide-react";
+import { Shapes } from "lucide-react";
 
 const Test = () => {
     return (
