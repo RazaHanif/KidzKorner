@@ -59,21 +59,6 @@ const Playground = () => {
             </div>
 
 
-{/* Make this better */}
-            <div className="border-y py-8">
-    <h2>
-        Drop-In Playground Pricing
-    </h2>
-
-    <p>
-        Family Admission
-    </p>
-
-    <p>
-        $15 per family
-    </p>
-</div>
-
 
 <h2>
 Explore Our Indoor Playground
