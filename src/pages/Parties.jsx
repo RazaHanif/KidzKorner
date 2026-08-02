@@ -212,10 +212,10 @@ const Parties = () => {
                             <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> Family Celebrations
                         </p>
                         <p className="flex items-start gap-3">
-                            <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> Winter Birthdays Parties
+                            <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> Winter Birthday Parties
                         </p>
                         <p className="flex items-start gap-3">
-                            <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> Rainy Day Birthdays Parties
+                            <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> Rainy Day Birthday Parties
                         </p>
                     </div>
                 </div>
