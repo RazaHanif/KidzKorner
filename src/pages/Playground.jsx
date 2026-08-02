@@ -22,7 +22,7 @@ const Playground = () => {
                 <h1 className="lg:text-5xl text-3xl font-bold font-serif text-center py-4">
                     Indoor Playground in Milton, Ontario
                 </h1>
-                <h2 className="text-xl font-bold text-center">
+                <h2 className="text-xl font-bold text-center w-3/4">
                     Drop-in fun for toddlers, young children, and families!
                 </h2>
             </div>
