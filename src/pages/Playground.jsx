@@ -53,12 +53,11 @@ const Playground = () => {
                         <CardTitle>
                             Drop-In Playground Pricing
                         </CardTitle>
-                        <CardDescription>
-                            
-                        </CardDescription>
-
                     </CardHeader>
                     <CardContent>
+                        <div>
+                            
+                        </div>
                         <p>
                             Card Content
                         </p>
