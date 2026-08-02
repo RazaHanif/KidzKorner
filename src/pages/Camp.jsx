@@ -227,7 +227,7 @@ const Camp = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-4 lg:pt-16 pt-8">
-                <p className="flex w-2/3 text-center">
+                <p className="flex text-center">
                     Contact us today to lock in your spot! 
                 </p> 
                 <CampForm/>
