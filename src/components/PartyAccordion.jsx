@@ -30,7 +30,7 @@ const PartyAccordion = () => {
         },
         {
             q: "Can we stay longer?",
-            a: "Additional party time may be available for ."
+            a: "Additional party time may be available for $50 per hour, subject to availability."
         },
 
     ]
