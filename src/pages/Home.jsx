@@ -188,7 +188,9 @@ const Home = () => {
                                 <div className="flex flex-col items-start justify-start w-full">
                                     <div className="flex gap-2 text-primary">
                                         <ShieldCheck />
+                                        <HeartHandshake />
                                         <h2 className="font-bold">
+                                            Family-Owned
                                             Safe Environment
                                         </h2>
                                     </div>
@@ -196,8 +198,6 @@ const Home = () => {
                                         A secure, welcoming space where children can thrive.
                                     </p>
                                     <h2 className="flex flex-row gap-2 font-bold w-full">
-                                        <HeartHandshake />
-                                        Family-Owned
                                     </h2>
                                     <p className="text-start pl-4">
                                         Serving Milton families with a personal approach.
