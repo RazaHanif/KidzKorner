@@ -228,6 +228,8 @@ const Parties = () => {
                 <PartyAccordion />
             </div>
 
+            
+
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
                 <PartyForm />
             </div>
