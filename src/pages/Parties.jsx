@@ -6,7 +6,7 @@ import {
     localBusinessSchema,
 } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
-import { CircleC, CircleCheckheck } from "lucide-react";
+import { CircleCheck } from "lucide-react";
 
 const Parties = () => {
     const breadCrumb = [
