@@ -233,7 +233,7 @@ const Parties = () => {
                     A Private Indoor Birthday Party Venue in Milton
                 </h2>
                 <p className="flex flex-col justify-center items-center lg:w-3/4 text-center">
-                    Unlike busy public play centers, 
+                    Unlike busy public play centers, every Kidz Korner 
                 </p>
             </div>
 
