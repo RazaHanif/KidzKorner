@@ -2,8 +2,11 @@ import { Shapes, ToyBrick } from "lucide-react";
 
 const Test = () => {
     return (
-        <div className="flex flex-col flex-1 justify-center items-center gap-2 w-full text-center border-2">
-            <div className="flex lg:flex-row flex-col justify-center items-center w-3/4 gap-4">
+        <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16 pb-8">
+            <div className="flex flex-col justify-center items-center w-full">
+                <h1 className="text-6xl font-bold font-serif text-center py-4">
+                    404
+                </h1>
                 <h1 className="text-3xl font-bold">
                     The Sandbox
                 </h1>
