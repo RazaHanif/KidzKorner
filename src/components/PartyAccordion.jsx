@@ -16,7 +16,9 @@ const PartyAccordion = () => {
     ]
 
     return (
-        <Accordion defaultValue={[1]}>
+        <Accordion 
+            defaultValue={[1]}
+        >
 
             {faq.map((item, index) => (
                 <AccordionItem 
