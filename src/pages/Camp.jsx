@@ -24,7 +24,7 @@ const Camp = () => {
     return (
         <div className="flex flex-col justify-center items-center w-full gap-8 text-justify">
             <div className="flex flex-col justify-evenly items-center w-3/4">
-                <h1 className="text-3xl font-bold mb-4 font-serif">
+                <h1 className="text-3xl font-bold mb-4 font-serif text-center">
                     School Age Camp!
                 </h1>
                 <p className="text-center">
