@@ -221,7 +221,7 @@ const Parties = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 border-t border-b p-4 my-4">
+            <div className="flex flex-col justify-center items-center w-3/4 border-y py-10 my-8">
                 <h2 className="text-xl font-bold text-center pb-4">
                     FAQ
                 </h2>
