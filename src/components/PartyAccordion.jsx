@@ -18,7 +18,7 @@ const PartyAccordion = () => {
         },
         {
             q: "How many guests can attend?",
-            a: "Yes. Families are welcome to bring their own food at no additional cost. We also provide access to a private kitchen space. Please note that our facility follows a strict nut-free policy."
+            a: "Our party packages accommodate up to 50 guests."
         },
         {
             q: "Can we bring our own Food?",
