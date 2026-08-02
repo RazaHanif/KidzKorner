@@ -16,26 +16,26 @@ const NotFound = () => {
             </div>
 
             <div className="w-full flex lg:flex-col gap-4 justify-center lg:items-end lg:pr-4 items-center">
-                            <NavLink 
-                                to="/about" 
-                                end
-                                className="hover:scale-105 ease-in-out duration-300 flex-1 lg:w-3/4 flex justify-center lg:justify-end"
-                            >
-                                <Button className="cursor-pointer min-w-1/2">
-                                    Schedule Tour
-                                </Button>
-                            </NavLink>
+                <NavLink 
+                    to="/about" 
+                    end
+                    className="hover:scale-105 ease-in-out duration-300 flex-1 lg:w-3/4 flex justify-center lg:justify-end"
+                >
+                    <Button className="cursor-pointer min-w-1/2">
+                        Schedule Tour
+                    </Button>
+                </NavLink>
 
-                            <NavLink 
-                                to="/daycare" 
-                                end
-                                className="hover:scale-105 ease-in-out duration-300 flex-1 lg:w-3/4 flex justify-center lg:justify-end"
-                            >
-                                <Button className="cursor-pointer min-w-1/2">
-                                    Explore Programs
-                                </Button>
-                            </NavLink>
-                        </div>
+                <NavLink 
+                    to="/daycare" 
+                    end
+                    className="hover:scale-105 ease-in-out duration-300 flex-1 lg:w-3/4 flex justify-center lg:justify-end"
+                >
+                    <Button className="cursor-pointer min-w-1/2">
+                        Explore Programs
+                    </Button>
+                </NavLink>
+            </div>
 
             <div className="w-full flex flex-col justify-start items-center">
                 <Button
