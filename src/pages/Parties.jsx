@@ -6,7 +6,7 @@ import {
     localBusinessSchema,
 } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
-import { CircleCheck, Dot } from "lucide-react";
+import { CircleCheck, Dot, PartyPopper } from "lucide-react";
 import PartyAccordion from "../components/PartyAccordion";
 
 const Parties = () => {
@@ -192,30 +192,30 @@ const Parties = () => {
                 <div className="flex lg:flex-row flex-col p-2 gap-2">
                     <div className="flex flex-col gap-2 w-full flex-1">
                         <p className="flex items-start gap-3">
-                            <Dot className="h-6 w-6 shrink-0 text-primary"/> 1st Birthdays
+                            <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> 1st Birthdays
                         </p>
                         <p className="flex items-start gap-3">
-                            <Dot className="h-6 w-6 shrink-0 text-primary"/> 2nd Birthdays
+                            <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> 2nd Birthdays
                         </p>
                         <p className="flex items-start gap-3">
-                            <Dot className="h-6 w-6 shrink-0 text-primary"/> Preschool Birthdays
+                            <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> Preschool Birthdays
                         </p>
                         <p className="flex items-start gap-3">
-                            <Dot className="h-6 w-6 shrink-0 text-primary"/> Kindergarten Birthdays
+                            <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> Kindergarten Birthdays
                         </p>
                     </div>
                     <div className="flex flex-col gap-2 w-full flex-1">
                         <p className="flex items-start gap-3">
-                            <Dot className="h-6 w-6 shrink-0 text-primary"/> School-aged Children
+                            <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> School-aged Children
                         </p>
                         <p className="flex items-start gap-3">
-                            <Dot className="h-6 w-6 shrink-0 text-primary"/> Family Celebrations
+                            <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> Family Celebrations
                         </p>
                         <p className="flex items-start gap-3">
-                            <Dot className="h-6 w-6 shrink-0 text-primary"/> Winter Birthdays Parties
+                            <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> Winter Birthdays Parties
                         </p>
                         <p className="flex items-start gap-3">
-                            <Dot className="h-6 w-6 shrink-0 text-primary"/> Rainy Day Birthdays Parties
+                            <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> Rainy Day Birthdays Parties
                         </p>
                     </div>
                 </div>
