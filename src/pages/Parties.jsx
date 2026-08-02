@@ -186,7 +186,7 @@ const Parties = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
-                <h2 className="text-xl font-bold text-center pb-4">
+                <h2 className="text-xl font-bold text-center">
                     Our birthday parties are perfect for:
                 </h2>
                 <div className="flex lg:flex-row flex-col p-2 gap-2">
