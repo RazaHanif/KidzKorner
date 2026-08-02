@@ -17,9 +17,9 @@ const Playground = () => {
 
 
     return (
-        <div className="flex flex-col flex-1 justify-center items-center w-full gap-4 text-justify">
-            <div className="flex flex-col justify-center items-center w-full font-serif">
-                <h1 className="text-3xl font-bold">
+        <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16 pb-8">
+            <div className="flex flex-col justify-center items-center w-full mb-4">
+                <h1 className="lg:text-5xl text-3xl font-bold font-serif text-center py-4">
                     Drop-In Fun!
                 </h1>
             </div>
