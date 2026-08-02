@@ -11,6 +11,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
+import PartyCard from "@/components/PartyCard";
 
 const Playground = () => {
         const breadCrumb = [
