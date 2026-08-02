@@ -144,7 +144,7 @@ const Parties = () => {
                             Decorations Welcome
                         </p>
                     </div>
-                    <div className="bg-blue-500 flex flex-col gap-2 w-full flex-1">
+                    <div className="flex flex-col gap-2 w-full flex-1">
                         <p className="ml-4">
                             Up to 50 guests
                         </p>
