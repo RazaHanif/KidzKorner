@@ -48,19 +48,6 @@ const Playground = () => {
             <div 
                 className="flex flex-col justify-center items-center w-3/4 lg:py-16 py-8"
             >
-                {/* <PlaygroundAccordion /> */}
-                <Card className="w-full flex-1">
-                    <CardHeader>
-                        <CardTitle>
-                            Drop-In Playground Pricing
-                        </CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                            <p>
-                                $15 per Family
-                            </p>
-                    </CardContent>
-                </Card>
                 <PartyCard
                     title={"Drop-In Playground Pricing"}
                     price={"15 per Family"}
