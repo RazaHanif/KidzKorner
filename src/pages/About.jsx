@@ -31,7 +31,7 @@ const About = () => {
                 <h1 className="lg:text-5xl text-3xl font-bold font-serif text-center py-4">
                     About Kidz Korner Childcare & Indoor Playground
                 </h1>
-                <p className="w-full flex justify-center items-center w-3/4 p-4">
+                <p className="flex justify-center items-center w-3/4 p-4">
                     Serving Milton families with licensed childcare, preschool programs, indoor playground fun, birthday parties, camp and workshops.
                 </p>
             </div>
