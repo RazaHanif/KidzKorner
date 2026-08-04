@@ -7,6 +7,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table"
+import { Phone, Mail, MapPin } from "lucide-react";
 
 const ContactUsTable = () => {
 
