@@ -221,7 +221,7 @@ const Camp = () => {
                                                 rel="noopener noreferrer"
                                                 className="hover:underline font-semibold"
                                             >
-                                                Follow us on Instagram to see weekly themes, activites and field trips
+                                                Follow us on Instagram to see weekly themes and activities
                                             </a>
                                         </li>
                                     </ul>
