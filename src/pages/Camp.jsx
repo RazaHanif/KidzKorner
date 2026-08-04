@@ -137,6 +137,10 @@ const Camp = () => {
                 </div>
             </div>
 
+            <div>
+                
+            </div>
+
             <h2 className="text-xl font-bold text-center pb-4">
                 Camp Information
             </h2>
