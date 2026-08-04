@@ -227,6 +227,7 @@ const Camp = () => {
                                     </ul>
                                 </li>
                                 <li className="text-xs">
+                                    Closed:
                                     Center is closed on Civic Holiday, Christmas Eve, Christmas Day, New Years Eve, and New Years Day
                                 </li>
                             </ul>
