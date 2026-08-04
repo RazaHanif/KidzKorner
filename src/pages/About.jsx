@@ -95,15 +95,6 @@ const About = () => {
                                     </h2>
                                 </div>
                             </div>
-                            <div className="flex flex-col items-start justify-start w-full">
-                                <div className="flex gap-2 text-primary">
-                                    <GraduationCap />
-                                    <HeartHandshake />
-                                    <h2 className="font-bold">
-                                        Caring Educators
-                                    </h2>
-                                </div>
-                            </div>
                         </div>
                         <div className="flex flex-col flex-1 gap-2">
 
