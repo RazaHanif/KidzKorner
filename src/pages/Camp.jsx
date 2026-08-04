@@ -168,6 +168,12 @@ const Camp = () => {
                                         <li>
                                             Camps run during PD Days, March Breaks, Summer Vacations, and Winter Breaks.
                                         </li>
+                                        <li>
+                                            4 - 13 Years old
+                                        </li>
+                                        <li>
+                                            Siblings Discount Available
+                                        </li>
                                     </ul>
                                 </li>
                                 <li>
