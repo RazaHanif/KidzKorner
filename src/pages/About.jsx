@@ -5,11 +5,6 @@ import Image from '@/components/Image'
 import { breadcrumbSchema, organizationSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
 
-/* 
-Organization
-BreadcrumbList
-*/
-
 const About = () => {
     const breadCrumb = [
         {
