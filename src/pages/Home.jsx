@@ -85,7 +85,7 @@ const Home = () => {
                                         </CardDescription>
                                     </CardHeader>
                                     <CardContent className="flex-1 flex justify-end items-end">
-                                        <Button className="cursor-pointer">
+                                        <Button className="pointer-events-none" variant="secondary">
                                             Learn More
                                         </Button>
                                     </CardContent>
@@ -107,7 +107,7 @@ const Home = () => {
                                         </CardDescription>
                                     </CardHeader>
                                     <CardContent className="flex-1 flex justify-end items-end">
-                                        <Button className="cursor-pointer">
+                                        <Button className="pointer-events-none" variant="secondary">
                                             Learn More
                                         </Button>
                                     </CardContent>
@@ -131,7 +131,7 @@ const Home = () => {
                                         </CardDescription>
                                     </CardHeader>
                                     <CardContent className="flex-1 flex justify-end items-end">
-                                        <Button className="cursor-pointer">
+                                        <Button className="pointer-events-none" variant="secondary">
                                             Learn More
                                         </Button>
                                     </CardContent>
@@ -153,7 +153,7 @@ const Home = () => {
                                         </CardDescription>
                                     </CardHeader>
                                     <CardContent className="flex-1 flex justify-end items-end">
-                                        <Button className="cursor-pointer">
+                                        <Button className="pointer-events-none" variant="secondary">
                                             Learn More
                                         </Button>
                                     </CardContent>
