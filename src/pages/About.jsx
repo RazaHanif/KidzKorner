@@ -68,7 +68,7 @@ const About = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center gap-4 w-full">
-                <div>
+                <div className="flex flex-col just">
                     <h2 className="text-xl font-bold text-center">
                         Visit Our Childcare Centre
                     </h2>
