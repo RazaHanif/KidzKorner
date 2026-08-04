@@ -384,7 +384,7 @@ const Camp = () => {
             <StructData schema={breadcrumbSchema(breadCrumb)} />
 
             <title>
-                Kids Camp in Milton, Ontario | Kidz Korner 
+                Kids Camps in Milton | Summer, March Break & PA Day Camps | Kidz Korner
             </title>
             <meta name="keywords" content="kids camps Milton, summer camp Milton, seasonal camp Milton, childcare camp Milton, children's camp Milton" />
             <meta name="description" content="Join Kidz Korner's fun and educational kids' camps in Milton, Ontario. Summer and seasonal camps designed to spark curiosity and creativity." />
