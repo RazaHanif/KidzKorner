@@ -182,7 +182,7 @@ const Camp = () => {
                                             9:00AM - 5:00PM
                                         </li>
                                         <li>
-                                            Families can enroll for 2, 3, or 5 days a week.
+                                            Flexible 2,3
                                         </li>
                                     </ul>
                                 </li>
