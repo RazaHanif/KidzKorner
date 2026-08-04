@@ -222,7 +222,7 @@ const Camp = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center w-3/4 lg:py-16 py-8 border-y">
+            <div className="flex flex-col justify-center items-center w-3/4 lg:py-16 py-8 border-y">
                 <Card className="lg:w-1/3">
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
