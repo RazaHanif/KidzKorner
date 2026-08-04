@@ -182,7 +182,7 @@ const Camp = () => {
                                             9:00AM - 5:00PM
                                         </li>
                                         <li>
-                                            Flexible 2, 3 or 5 day enrollment.
+                                            Flexible 2, 3 or 5 day enrollment
                                         </li>
                                     </ul>
                                 </li>
