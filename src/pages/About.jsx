@@ -4,6 +4,7 @@ import HoursTimeTable from "@/components/HoursTimeTable";
 import Image from '@/components/Image'
 import { breadcrumbSchema, organizationSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
+import { Shapes } from "lucide-react";
 
 const About = () => {
     const breadCrumb = [
@@ -108,7 +109,7 @@ const About = () => {
 
                             <div className="flex flex-col items-start justify-start w-full">
                                 <div className="flex gap-2 text-primary">
-                                    <Palette />
+                                    <Shapes />
                                     <h2 className="font-bold">
                                         Indoor Playground
                                     </h2>
