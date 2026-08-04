@@ -7,26 +7,22 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table"
-import { Phone, Mail, MapPin } from "lucide-react";
 
 const ContactUsTable = () => {
 
     const timetable = [
         {
             title: "Phone",
-            icon: Phone,
             href: "tel:+19058784697",
             text: "(905) 878-4697"
         },
         {
             title: "Email",
-            icon: Mail,
             href: "mailto:info@kidzkornermilton.com",
             text: "info@kidzkornermilton.com"
         },
         {
             title: "Address",
-            icon: MapPin,
             href: "https://maps.app.goo.gl/TcUQhJ58bgf6tME18",
             text: "150 Nipissing Rd. 10 & 11, Milton, ON, L9T 5B3"
         },
