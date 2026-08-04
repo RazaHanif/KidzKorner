@@ -43,6 +43,8 @@ const ContactUsTable = () => {
             </TableHeader>
             <TableBody>
                 {timetable.map((item, idx) => {
+
+                    const Icon = item.icon
                     
                     return (
                     <TableRow key={idx}>
