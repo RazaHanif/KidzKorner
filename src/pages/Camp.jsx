@@ -11,7 +11,7 @@ import CampForm from "@/components/CampForm";
 import Image from "@/components/Image";
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
-import { ChefHat, Flower, Heart, Leaf, Palette, Shapes, Snowflake, Sun, TestTube2 } from "lucide-react";
+import { ChefHat, Flower, Heart, Leaf, Palette, Shapes, Snowflake, Sun, TestTube2, Users } from "lucide-react";
 
 const Camp = () => {
     const breadCrumb = [
@@ -284,7 +284,7 @@ const Camp = () => {
                             Active Indoor Play
                         </p>
                         <p className="flex items-start gap-3">
-                            <Peop className="mt-1 h-5 w-5 shrink-0 text-primary"/>
+                            <Users className="mt-1 h-5 w-5 shrink-0 text-primary"/>
                             Small Group Environment
                         </p>
                         <p className="flex items-start gap-3">
