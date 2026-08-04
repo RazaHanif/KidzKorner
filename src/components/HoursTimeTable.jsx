@@ -35,13 +35,6 @@ const HoursTimeTable = () => {
                 Contact Us
             </h1>
             <Table className="text-start">
-                <TableHeader>
-                    <TableRow>
-                        <TableHead className='text-xl font-semibold'>
-                            Hours of Operation
-                        </TableHead>
-                    </TableRow>
-                </TableHeader>
                 <TableBody>
                     {timetable.map((item, idx) => (
                     <TableRow key={idx} className="flex">
