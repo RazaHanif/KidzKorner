@@ -117,7 +117,7 @@ const Camp = () => {
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
                                     <CardTitle>
-                                        <Snowflake />
+                                        <Flower />
                                         March Break Camp
                                     </CardTitle>
                                     <CardDescription>
