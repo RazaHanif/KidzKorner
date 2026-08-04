@@ -61,7 +61,7 @@ const About = () => {
             
             </div>
 
-            <div className="flex flex-col justify-center items-center w-full lg:py-16 py-8">
+            <div className="flex flex-col justify-center items-center w-full">
                 <h2 className="text-xl font-bold text-center">
                     Visit Our Childcare Centre
                 </h2>
