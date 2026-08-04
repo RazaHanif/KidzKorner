@@ -80,8 +80,6 @@ const About = () => {
                         loading="lazy"
                         style={{ border: 0 }}
                         allowFullScreen=""
-                        aria-hidden="false"
-                        alt="Kidz Korner Google Maps PlugIn"
                         className="w-full h-[75vw] lg:h-[75vh]"
                         src="https://www.google.com/maps?q=Kidz+Korner+Milton&output=embed" 
                     />
