@@ -96,7 +96,6 @@ const About = () => {
                             </div>
                             <div className="flex flex-col items-start justify-start w-full">
                                 <div className="flex gap-2 text-primary">
-                                    <ShieldCheck />
                                     <GraduationCap />
                                     <h2 className="font-bold">
                                         Caring Educators
