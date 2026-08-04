@@ -83,8 +83,18 @@ const About = () => {
                         tabIndex="0"
                         src={`https://www.google.com/maps/embed/v1/place?key=${import.meta.env.VITE_GOOGLE_MAPS_API}&q=Kidz+Korner+Milton+Ontario`}
                         className="w-full h-[75vw] lg:h-[75vh]"
-                    /> */}
+                        /> */}
                     <iframe
+                        title="Google Maps"
+                        loading="lazy"
+                        referrerPolicy="no-referrer"
+                        style={{ border: 0 }}
+                        allowFullScreen=""
+                        aria-hidden="false"
+                        alt="Kidz Korner Google Maps PlugIn"
+                        tabIndex="0"
+                        src={`https://www.google.com/maps/embed/v1/place?key=${import.meta.env.VITE_GOOGLE_MAPS_API}&q=Kidz+Korner+Milton+Ontario`}
+                        className="w-full h-[75vw] lg:h-[75vh]"
                         src="https://www.google.com/maps?q=Kidz+Korner+Milton&output=embed" 
                     />
                 </div>
