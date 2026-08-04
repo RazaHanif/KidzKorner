@@ -331,7 +331,6 @@ const Camp = () => {
                 <CampForm/>
             </div>
 
-
             <StructData schema={localBusinessSchema} />
             <StructData schema={breadcrumbSchema(breadCrumb)} />
 
