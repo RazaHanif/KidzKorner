@@ -139,7 +139,7 @@ const Camp = () => {
 
             <div className="flex lg:flex-row flex-col justify-center lg:items-stretch items-center w-3/4 gap-4">
                 <h2 className="text-xl font-bold text-center pb-4">
-                    Choose Your Camp
+                    Camp Information
                 </h2>
                 <Card>
                     <CardHeader>
