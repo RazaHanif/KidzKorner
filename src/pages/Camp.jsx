@@ -9,7 +9,7 @@ import CampForm from "@/components/CampForm";
 import Image from "@/components/Image";
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
-import { Sun } from "lucide-react";
+import { Leaf, Sun } from "lucide-react";
 
 const Camp = () => {
     const breadCrumb = [
@@ -71,7 +71,8 @@ const Camp = () => {
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
                                     <CardTitle>
-                                       
+                                       <Leaf />
+                                       PA Day Camp
                                     </CardTitle>
                                     <CardDescription>
                                         A play-based learning program designed to help children build confidence, creativity, and essential skills while preparing them for their next stage of learning.
