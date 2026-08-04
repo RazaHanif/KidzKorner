@@ -227,7 +227,7 @@ const Camp = () => {
                                     </ul>
                                 </li>
                                 <li className="text-xs">
-                                    Closed: Civic Holiday, Christmas Eve, Christmas Day, New Years Eve, and New Years Day
+                                    Closed: Civic Holiday, Christmas Eve, Christmas Day, New Year's Eve, and New Year's Day
                                 </li>
                             </ul>
                         </CardContent>
