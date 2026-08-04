@@ -62,6 +62,7 @@ const About = () => {
             </div>
 
             <div className="flex justify-center items-center w-full lg:py-16 py-8">
+                <h2>Visit Our Childcare Centre</h2>
                 <div className="flex justify-center items-center w-3/4 rounded-lg border-2 shadow-lg overflow-hidden">
                     <iframe
                         title="Google Maps"
