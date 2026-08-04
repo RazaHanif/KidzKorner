@@ -32,6 +32,13 @@ const ContactUsTable = () => {
         <div className="border">
             <h1>Contact Us</h1>
             <Table>
+                <TableHeader>
+                    <TableRow>
+                        <TableHead className='text-xl font-semibold'>
+                            Contact Us
+                        </TableHead>
+                    </TableRow>
+                </TableHeader>
                 <TableBody>
                     {timetable.map((item, idx) => (
                         <TableRow key={idx}>
