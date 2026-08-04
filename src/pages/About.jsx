@@ -126,7 +126,7 @@ const About = () => {
                                 <div className="flex gap-2 text-primary">
                                     <MessageCircleHeart />
                                     <h2 className="font-bold">
-                                        Strong Parent Communication
+                                        Convenient Milton Location
                                     </h2>
                                 </div>
                             </div>
