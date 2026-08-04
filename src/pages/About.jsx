@@ -42,7 +42,7 @@ const About = () => {
                     <Image 
                         src='IMG-20260208-WA0002.jpg'
                         alt='Child enjoying activities at Kidz Korner childcare centre in Milton Ontario'
-                        w='w-sm'
+                        w='w-md'
                     />
                 </div>
 
