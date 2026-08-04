@@ -58,7 +58,7 @@ const Camp = () => {
                                     </CardDescription>
                                 </CardHeader>
                                 <CardContent className="flex-1 flex justify-end items-end">
-                                    <Button className="cursor-pointer" variant>
+                                    <Button className="cursor-pointer" variant="secondary">
                                         Learn More
                                     </Button>
                                 </CardContent>
