@@ -108,6 +108,29 @@ const Camp = () => {
                                 </CardContent>
                             </Card>
                         </NavLink>
+
+                        <NavLink
+                            to="/camp/" 
+                            end 
+                            className="hover:scale-102 ease-in-out duration-300 flex flex-1"
+                        >
+                            <Card className="flex-1 flex">
+                                <CardHeader className="text-start">
+                                    <CardTitle>
+                                        <Snowflake />
+                                        Winter Break Camp
+                                    </CardTitle>
+                                    <CardDescription>
+                                        Holiday fun filled with crafts, cooking, indoor games and winter themed activities
+                                    </CardDescription>
+                                </CardHeader>
+                                <CardContent className="flex-1 flex justify-end items-end">
+                                    <Button className="cursor-pointer">
+                                        Learn More
+                                    </Button>
+                                </CardContent>
+                            </Card>
+                        </NavLink>
                     </div>
                 </div>
             </div>
