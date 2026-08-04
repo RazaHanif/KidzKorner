@@ -42,7 +42,9 @@ const ContactUsTable = () => {
                 </TableRow>
             </TableHeader>
             <TableBody>
-                {timetable.map((item, idx) => (
+                {timetable.map((item, idx) => {
+                    
+                    return (
                     <TableRow key={idx}>
                         <TableCell className='font-semibold'>
                             {item.title}
@@ -60,7 +62,7 @@ const ContactUsTable = () => {
                             </a>
                         </TableCell>
                     </TableRow>
-                ))}
+                )})}
             </TableBody>
         </Table>
     )
