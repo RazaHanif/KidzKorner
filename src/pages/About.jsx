@@ -156,7 +156,8 @@ const About = () => {
                     Book a Tour or Ask a Question
                 </h2>
                 <p className="flex text-center">
-                    We look forward to hearing from you! 
+                    Whether your're looking for daycare, preschool, camps, or birthday parties, our team is happy to answer your questions.
+                    
                 </p> 
                 <ContactForm/>
             </div>
