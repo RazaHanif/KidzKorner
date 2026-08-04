@@ -214,8 +214,6 @@ const Camp = () => {
                                         See Our Camps
                                     </span>
                                     <ul className="font-normal pl-6">
-
-                                    </ul>
                                     <a
                                         href="https://www.instagram.com/kidz.kornermilton/"
                                         target="_blank"
@@ -224,6 +222,8 @@ const Camp = () => {
                                     >
                                         Click Here to visit our Instagram to see our Activities / Weekly Camp Themes
                                     </a>
+
+                                    </ul>
                                 </li>
                                 <li className="text-xs font-semibold">
                                     Center is closed on Civic Holiday, Christmas Eve, Christmas Day, New Years Eve, and New Years Day
