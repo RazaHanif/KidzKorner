@@ -215,17 +215,15 @@ const Camp = () => {
                                     </span>
                                     <ul className="font-normal pl-6">
                                         <li>
-                                            
+                                            <a
+                                                href="https://www.instagram.com/kidz.kornermilton/"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="hover:underline font-semibold"
+                                            >
+                                                Click Here to visit our Instagram to see our Activities / Weekly Camp Themes
+                                            </a>
                                         </li>
-                                    <a
-                                        href="https://www.instagram.com/kidz.kornermilton/"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="hover:underline font-semibold"
-                                    >
-                                        Click Here to visit our Instagram to see our Activities / Weekly Camp Themes
-                                    </a>
-
                                     </ul>
                                 </li>
                                 <li className="text-xs font-semibold">
