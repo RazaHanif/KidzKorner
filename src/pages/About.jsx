@@ -58,7 +58,9 @@ const About = () => {
                 <h2 className="text-xl font-bold text-center">
                     Who We Are
                 </h2>
-            
+                <p className="flex lg:flex-row flex-col justify-center items-center lg:text-justify text-center">
+
+                </p>            
             </div>
 
             <div className="flex flex-col justify-center items-center gap-4 w-full">
