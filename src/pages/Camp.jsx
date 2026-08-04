@@ -97,7 +97,7 @@ const Camp = () => {
                                         Before & After School Program
                                     </CardTitle>
                                     <CardDescription>
-                                        Holiday fun filled with crafts, cooking, indoor games and winter activities
+                                        Holiday fun filled with crafts, cooking, indoor games and winter themed activities
                                     </CardDescription>
                                 </CardHeader>
                                 <CardContent className="flex-1 flex justify-end items-end">
