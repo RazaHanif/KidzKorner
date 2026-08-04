@@ -76,7 +76,7 @@ const About = () => {
                 </div>
                 <div className="flex justify-center items-center w-3/4 rounded-lg border-2 shadow-lg overflow-hidden">
                     <iframe
-                        title="Google Maps"
+                        title="Kidz Korner Milton Location"
                         loading="lazy"
                         style={{ border: 0 }}
                         allowFullScreen=""
