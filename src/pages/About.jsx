@@ -153,7 +153,7 @@ const About = () => {
             
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
                 <h2 className="w-full flex justify-center items-center font-bold text-xl flex-1">
-                    
+                    Book a Tour or Ask a Question
                 </h2>
                 <p className="flex text-center">
                     We look forward to hearing from you! 
