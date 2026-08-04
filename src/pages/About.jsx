@@ -63,7 +63,7 @@ const About = () => {
                     Our centre was built on creating a safe, caring and engaging environment where children can learn, play, and grow.
                 </p>   
                 <p className="flex lg:flex-row flex-col justify-center items-center lg:text-justify text-center">
-                    With decades of childcare experience, our dedicated team provides licensed childcare, indoor playground experiences, camps and workshops designed to support children's developm
+                    With decades of childcare experience, our dedicated team provides licensed childcare, indoor playground experiences, camps and workshops designed to support children's development while giving families peace of mind.
                 </p>   
             </div>
 
