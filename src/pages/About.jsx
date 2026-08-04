@@ -72,7 +72,7 @@ const About = () => {
                     <h2 className="text-xl font-bold text-center">
                         Visit Our Childcare Centre
                     </h2>
-                    <p className="flex lg:flex-row flex-col justify-center items-center text-center lg:w-3/4 w-full">
+                    <p className="flex lg:flex-row flex-col justify-center items-center text-center w-3/4">
                         Kidz Korner is conveniently located at 150 Nipissing Road in Milton, making it easy for families across Milton to access quality licensed childcare, preschool, camps, birthday parties and our indoor playground.
                     </p>
 
