@@ -72,7 +72,7 @@ const About = () => {
 
                 </div>
                 <div className="flex justify-center items-center w-3/4 rounded-lg border-2 shadow-lg overflow-hidden">
-                    <iframe
+                    {/* <iframe
                         title="Google Maps"
                         loading="lazy"
                         referrerPolicy="no-referrer"
@@ -83,7 +83,7 @@ const About = () => {
                         tabIndex="0"
                         src={`https://www.google.com/maps/embed/v1/place?key=${import.meta.env.VITE_GOOGLE_MAPS_API}&q=Kidz+Korner+Milton+Ontario`}
                         className="w-full h-[75vw] lg:h-[75vh]"
-                    />
+                    /> */}
                 </div>
             </div>
 
