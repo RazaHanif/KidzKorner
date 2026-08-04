@@ -72,18 +72,6 @@ const About = () => {
 
                 </div>
                 <div className="flex justify-center items-center w-3/4 rounded-lg border-2 shadow-lg overflow-hidden">
-                    {/* <iframe
-                        title="Google Maps"
-                        loading="lazy"
-                        referrerPolicy="no-referrer"
-                        style={{ border: 0 }}
-                        allowFullScreen=""
-                        aria-hidden="false"
-                        alt="Kidz Korner Google Maps PlugIn"
-                        tabIndex="0"
-                        src={`https://www.google.com/maps/embed/v1/place?key=${import.meta.env.VITE_GOOGLE_MAPS_API}&q=Kidz+Korner+Milton+Ontario`}
-                        className="w-full h-[75vw] lg:h-[75vh]"
-                        /> */}
                     <iframe
                         title="Google Maps"
                         loading="lazy"
