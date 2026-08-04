@@ -28,7 +28,8 @@ const Camp = () => {
                     School Age Camp in Milton
                 </h1>
                 <p className="text-center">
-                    Keep your child active, creative, and engaged during school breaks
+                    Keep your child active, creative, and engaged during school breaks with Kidz Korner's camp programs in Milton.
+                    We offer
                     Our Camp offers hands-on experiences in both the visual arts and culinary arts, perfect for young artists and aspiring chefs alike.
                 </p>
             </div>
