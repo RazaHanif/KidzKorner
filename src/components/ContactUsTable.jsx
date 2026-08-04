@@ -29,37 +29,39 @@ const ContactUsTable = () => {
     ]
 
     return (
+        <>
         
-        <Table className="border">
-            <TableHeader className="text-center border-red-500 border">
-                <TableRow className="text-center border-blue-500 border">
-                    <TableHead className='text-xl font-semibold border-green-500 border'>
-                        Contact Us
-                    </TableHead>
-                </TableRow>
-            </TableHeader>
-            <TableBody>
-                {timetable.map((item, idx) => (
-                    <TableRow key={idx}>
-                        <TableCell className='font-semibold'>
-                            {item.title}
-                        </TableCell>
-                        <TableCell  className="whitespace-normal wrap-break-word">
-                            <a
-                                target="_blank"
-                                rel="noopener noreferrer" 
-                                href={item.href}
-                                className="hover:underline flex flex-row"
-                            >
-                                <div>
-                                    {item.text}
-                                </div>
-                            </a>
-                        </TableCell>
+            <Table className="border">
+                <TableHeader className="text-center border-red-500 border">
+                    <TableRow className="text-center border-blue-500 border">
+                        <TableHead className='text-xl font-semibold border-green-500 border'>
+                            Contact Us
+                        </TableHead>
                     </TableRow>
-                ))}
-            </TableBody>
-        </Table>
+                </TableHeader>
+                <TableBody>
+                    {timetable.map((item, idx) => (
+                        <TableRow key={idx}>
+                            <TableCell className='font-semibold'>
+                                {item.title}
+                            </TableCell>
+                            <TableCell  className="whitespace-normal wrap-break-word">
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer" 
+                                    href={item.href}
+                                    className="hover:underline flex flex-row"
+                                >
+                                    <div>
+                                        {item.text}
+                                    </div>
+                                </a>
+                            </TableCell>
+                        </TableRow>
+                    ))}
+                </TableBody>
+            </Table>
+        </>
     )
 }
 
