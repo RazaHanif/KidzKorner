@@ -63,8 +63,7 @@ const About = () => {
                     Our centre was built on creating a safe, caring and engaging environment where children can learn, play, and grow.
                 </p>   
                 <p className="flex lg:flex-row flex-col justify-center items-center lg:text-justify text-center">
-                    Established in 1995, Kidz Korner has proudly served Milton families for over 30 years.
-                    Our centre was built on creating a safe, caring and engaging environment where children can learn, play, and grow.
+                    With decades of childcare experience, our dedicated team provides licensed childcare, indoor playground experiences, camps and workshops designed to support children's developm
                 </p>   
             </div>
 
