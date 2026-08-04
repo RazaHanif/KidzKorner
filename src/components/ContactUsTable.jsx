@@ -40,7 +40,7 @@ const ContactUsTable = () => {
                             <TableCell className='font-semibold'>
                                 {item.title}
                             </TableCell>
-                            <TableCell  className="whitespace-normal wrap-break-word ">
+                            <TableCell  className="whitespace-normal wrap-break-word bg-blue-500">
                                 <a
                                     target="_blank"
                                     rel="noopener noreferrer" 
