@@ -31,7 +31,7 @@ const Camp = () => {
                     School Age Camp in Milton
                 </h1>
                 <h2>
-                    Looking for a specific program? Explore our Summer Camp, Marc
+                    Looking for a specific program? Explore our Summer Camp, March
                 </h2>
 
             </div>
