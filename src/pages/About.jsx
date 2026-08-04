@@ -108,7 +108,7 @@ const About = () => {
 
                             <div className="flex flex-col items-start justify-start w-full">
                                 <div className="flex gap-2 text-primary">
-                                    <User />
+                                    <Users />
                                     <h2 className="font-bold">
                                         Indoor Playground
                                     </h2>
