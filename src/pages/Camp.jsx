@@ -169,7 +169,7 @@ const Camp = () => {
                                             Camps run during PD Days, March Breaks, Summer Vacations, and Winter Breaks.
                                         </li>
                                         <li>
-                                            4 - 13 Years old
+                                            PA Day Camps
                                         </li>
                                         <li>
                                             Siblings Discount Available
