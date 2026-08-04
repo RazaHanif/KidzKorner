@@ -5,6 +5,13 @@ import Image from '@/components/Image'
 import { breadcrumbSchema, organizationSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
 import { BadgeCheck, MapPin, Palette, Shapes, Users } from "lucide-react";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
 
 const About = () => {
     const breadCrumb = [
