@@ -180,9 +180,6 @@ const Camp = () => {
                                         <li>
                                             Winter Break Camp
                                         </li>
-                                        <li>
-                                            Flexible registration depending
-                                        </li>
                                     </ul>
                                 </li>
                                 <li>
