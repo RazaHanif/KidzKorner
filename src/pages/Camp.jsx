@@ -9,7 +9,7 @@ import CampForm from "@/components/CampForm";
 import Image from "@/components/Image";
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
-import { Leaf, Snowflake, Sun } from "lucide-react";
+import { Flower, Leaf, Snowflake, Sun } from "lucide-react";
 
 const Camp = () => {
     const breadCrumb = [
