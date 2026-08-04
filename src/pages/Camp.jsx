@@ -11,7 +11,7 @@ import CampForm from "@/components/CampForm";
 import Image from "@/components/Image";
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
-import { Flower, Leaf, Snowflake, Sun } from "lucide-react";
+import { Flower, Heart, Leaf, Snowflake, Sun } from "lucide-react";
 
 const Camp = () => {
     const breadCrumb = [
@@ -266,36 +266,36 @@ const Camp = () => {
                 <div className="flex lg:flex-row flex-col p-2 gap-2">
                     <div className="flex flex-col gap-2 w-full flex-1">
                         <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Private Venue Rental
+                            <Heart className="mt-1 h-5 w-5 shrink-0 text-primary"/>Private Venue Rental
                         </p>
                         <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Indoor Playground exclusive to your guests
+                            <Heart className="mt-1 h-5 w-5 shrink-0 text-primary"/>Indoor Playground exclusive to your guests
                         </p>
                         <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Bring your own food
+                            <Heart className="mt-1 h-5 w-5 shrink-0 text-primary"/>Bring your own food
                         ?</p>
                         <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Private Kitchen Available
+                            <Heart className="mt-1 h-5 w-5 shrink-0 text-primary"/>Private Kitchen Available
                         </p>
                         <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Decorations Welcome
+                            <Heart className="mt-1 h-5 w-5 shrink-0 text-primary"/>Decorations Welcome
                         </p>
                     </div>
                     <div className="flex flex-col gap-2 w-full flex-1">
                         <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Up to 50 guests
+                            <Heart className="mt-1 h-5 w-5 shrink-0 text-primary"/>Up to 50 guests
                         </p>
                         <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Tea & Coffee Station
+                            <Heart className="mt-1 h-5 w-5 shrink-0 text-primary"/>Tea & Coffee Station
                         </p>
                         <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Safe, clean, nut-free environment
+                            <Heart className="mt-1 h-5 w-5 shrink-0 text-primary"/>Safe, clean, nut-free environment
                         </p>
                         <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Convenient Milton location
+                            <Heart className="mt-1 h-5 w-5 shrink-0 text-primary"/>Convenient Milton location
                         </p>
                         <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Setup/Take Down Time Included
+                            <Heart className="mt-1 h-5 w-5 shrink-0 text-primary"/>Setup/Take Down Time Included
                         </p>
                     </div>
                 </div>
