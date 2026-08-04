@@ -219,7 +219,7 @@ const Camp = () => {
                                                 href="https://www.instagram.com/kidz.kornermilton/"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
-                                                className="hover:underline font-semibold"
+                                                className="hover:underline"
                                             >
                                                 Follow us on Instagram to see weekly themes and activities
                                             </a>
