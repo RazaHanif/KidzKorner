@@ -30,6 +30,7 @@ const HoursTimeTable = () => {
     ]
 
     return (
+        
         <Table className="text-start">
             <TableHeader>
                 <TableRow>
