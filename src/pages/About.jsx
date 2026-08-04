@@ -91,7 +91,7 @@ const About = () => {
                                 <div className="flex gap-2 text-primary">
                                     <HeartHandshake />
                                     <h2 className="font-bold">
-                                        Family-Owned
+                                        Caring Educators
                                     </h2>
                                 </div>
                             </div>
