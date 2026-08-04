@@ -209,6 +209,20 @@ const Camp = () => {
                                         </li>
                                     </ul>
                                 </li>
+                                <span className="font-semibold">
+                                        Hours
+                                    </span>
+                                    <ul className="font-normal pl-6">
+                                        <li>
+                                            Monday - Friday
+                                        </li>
+                                        <li>
+                                            9:00AM - 5:00PM
+                                        </li>
+                                        <li>
+                                            Flexible 2, 3 or 5 day enrollment
+                                        </li>
+                                    </ul>
                                 <li>
                                     <a
                                         href="https://www.instagram.com/kidz.kornermilton/"
