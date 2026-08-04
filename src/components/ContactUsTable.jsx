@@ -44,7 +44,6 @@ const ContactUsTable = () => {
             <TableBody>
                 {timetable.map((item, idx) => {
                     const Icon = item.icon
-                    
                     return (
                     <TableRow key={idx}>
                         <TableCell className='flex flex-row gap-4 font-semibold'>
