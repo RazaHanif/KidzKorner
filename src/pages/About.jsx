@@ -47,7 +47,9 @@ const About = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
-                <h2></h2>
+                <h2 className="text-xl font-bold text-center pb-4">
+                    Who We Are
+                </h2>
             
             </div>
 
@@ -66,6 +68,86 @@ const About = () => {
                         className="w-full h-[75vw] lg:h-[75vh]"
                     />
                 </div>
+            </div>
+
+            <div className="flex flex-col justify-center items-center w-full">
+                <h2 className="w-full flex justify-center items-center m-4 font-bold text-xl flex-1">
+                    Why Families Choose Kidz Korner
+                </h2>
+
+                <Card>
+                    <CardContent className="flex md:flex-row flex-col gap-2">
+                        <div className="flex flex-col flex-1 gap-2">
+                            <div className="flex flex-col items-start justify-start w-full">
+                                <div className="flex gap-2 text-primary">
+                                    <BadgeCheck />
+                                    <h2 className="font-bold">
+                                        Licensed Ontario Childcare
+                                    </h2>
+                                </div>
+                            </div>
+                            <div className="flex flex-col items-start justify-start w-full">
+                                <div className="flex gap-2 text-primary">
+                                    <HeartHandshake />
+                                    <h2 className="font-bold">
+                                        Family-Owned
+                                    </h2>
+                                </div>
+                                <p className="text-start pl-8">
+                                    Serving Milton families with a personal approach.
+                                </p>
+                            </div>
+                            <div className="flex flex-col items-start justify-start w-full">
+                                <div className="flex gap-2 text-primary">
+                                    <ShieldCheck />
+                                    <GraduationCap />
+                                    <h2 className="font-bold">
+                                        Experienced Educators
+                                    </h2>
+                                </div>
+                                <p className="text-start pl-8">
+                                    Caring professionals focused on every child's growth.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="flex flex-col flex-1 gap-2">
+
+                            <div className="flex flex-col items-start justify-start w-full">
+                                <div className="flex gap-2 text-primary">
+                                    <Palette />
+                                    <h2 className="font-bold">
+                                        Play-Based Learning
+                                    </h2>
+                                </div>
+                                <p className="text-start pl-8">
+                                    Learning through exploration, creativity, and fun.
+                                </p>
+                            </div>
+                            <div className="flex flex-col items-start justify-start w-full">
+                                <div className="flex gap-2 text-primary">
+                                    <ShieldCheck />
+                                    <h2 className="font-bold">
+                                        Safe Environment
+                                    </h2>
+                                </div>
+                                <p className="text-start pl-8">
+                                    A secure, welcoming space where children can thrive.
+                                </p>
+                            </div>
+                            <div className="flex flex-col items-start justify-start w-full">
+                                <div className="flex gap-2 text-primary">
+                                    <MessageCircleHeart />
+                                    <h2 className="font-bold">
+                                        Strong Parent Communication
+                                    </h2>
+                                </div>
+                                <p className="text-start pl-8">
+                                    Working together with families every step of the way.
+                                </p>
+                            </div>
+                        </div>
+                    </CardContent>
+                </Card>
             </div>
             
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
