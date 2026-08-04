@@ -29,7 +29,7 @@ const ContactUsTable = () => {
     ]
 
     return (
-        <div>
+        <div className="border">
             <h1>Contact Us</h1>
             <Table>
                 <TableHeader>
