@@ -30,6 +30,9 @@ const Camp = () => {
                 <h1 className="lg:text-5xl text-3xl font-bold font-serif text-center py-4">
                     School Age Camp in Milton
                 </h1>
+                <h2>
+                    
+                </h2>
 
             </div>
 
