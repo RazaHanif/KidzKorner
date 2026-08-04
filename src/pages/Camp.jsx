@@ -241,7 +241,7 @@ const Camp = () => {
                             </ul>
                         </CardContent>
                     </Card>
-                    <Image src='/20250711_111518.jpg' alt='Child Playing With Dinosaurs at Kidz Korner Milton, Ontario' w="w-sm"/>
+                    <Image src='/20250711_111518.jpg' alt='Child Playing With Dinosaurs at Kidz Korner Milton, Ontario' w="w-md"/>
                 </div>
             </div>
 
