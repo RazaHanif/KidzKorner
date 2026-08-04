@@ -32,7 +32,7 @@ const ContactUsTable = () => {
         <Table className="border">
             <TableHeader className="text-center border-red-500 border">
                 <TableRow className="text-center border-blue-500 border">
-                    <TableHead className='text-xl font-semibold border-green-500 border w-full'>
+                    <TableHead className='text-xl font-semibold border-green-500 border'>
                         Contact Us
                     </TableHead>
                 </TableRow>
