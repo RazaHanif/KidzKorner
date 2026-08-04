@@ -214,15 +214,7 @@ const Camp = () => {
                                         See Our Camps
                                     </span>
                                     <ul className="font-normal pl-6">
-                                        <li>
-                                            Follow us on Inst
-                                        </li>
-                                        <li>
-                                            9:00AM - 5:00PM
-                                        </li>
-                                        <li>
-                                            Flexible 2, 3 or 5 day enrollment
-                                        </li>
+
                                     </ul>
                                     <a
                                         href="https://www.instagram.com/kidz.kornermilton/"
