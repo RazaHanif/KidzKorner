@@ -48,7 +48,7 @@ const ContactUsTable = () => {
                     
                     return (
                     <TableRow key={idx}>
-                        <TableCell className='font-semibold'>
+                        <TableCell className='flex flex-row gap-4 font-semibold'>
                             {item.title}
                         </TableCell>
                         <TableCell  className="whitespace-normal wrap-break-word">
