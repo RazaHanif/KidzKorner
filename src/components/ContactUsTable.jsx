@@ -26,7 +26,7 @@ const ContactUsTable = () => {
         },
         {
             title: "Address",
-            icon: Map,
+            icon: MapPin,
             href: "https://maps.app.goo.gl/TcUQhJ58bgf6tME18",
             text: "150 Nipissing Rd. 10 & 11, Milton, ON, L9T 5B3"
         },
