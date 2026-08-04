@@ -45,7 +45,7 @@ const ContactUsTable = () => {
                                     target="_blank"
                                     rel="noopener noreferrer" 
                                     href={item.href}
-                                    className="hover:underline flex flex-row w-full"
+                                    className="hover:underline flex flex-row w-full flex-1"
                                 >
                                     <div className="text-end flex-1 w-full border-2">
                                         {item.text}
