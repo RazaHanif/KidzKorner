@@ -59,7 +59,7 @@ const About = () => {
                     Who We Are
                 </h2>
                 <p className="flex lg:flex-row flex-col justify-center items-center lg:text-justify text-center">
-
+                    Estab
                 </p>            
             </div>
 
