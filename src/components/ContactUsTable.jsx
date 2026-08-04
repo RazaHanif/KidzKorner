@@ -30,7 +30,7 @@ const ContactUsTable = () => {
 
     return (
         <Table>
-            <TableHeader>
+            <TableHeader className>
                 <TableRow>
                     <TableHead className='text-xl font-semibold'>
                         Contact Us
