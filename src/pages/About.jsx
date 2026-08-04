@@ -46,6 +46,8 @@ const About = () => {
                 </div>
             </div>
 
+            
+
             <div className="flex justify-center items-center w-full lg:py-16 py-8">
                 <div className="flex justify-center items-center w-3/4 rounded-lg border-2 shadow-lg overflow-hidden">
                     <iframe
