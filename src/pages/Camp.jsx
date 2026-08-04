@@ -142,7 +142,7 @@ const Camp = () => {
                     Camp Information
                 </h2>
                 <div className="flex lg:flex-row flex-col justify-center lg:items-stretch items-center lg:w-full w-3/4 gap-4">
-                    <Card>
+                    <Card className="flex-1">
                         <CardHeader>
                             <CardTitle className="p-2 bg-primary text-primary-foreground flex flex-col justify-center items-center rounded-md text-lg">
                                 <h2>
