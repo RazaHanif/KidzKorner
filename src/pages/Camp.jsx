@@ -172,7 +172,7 @@ const Camp = () => {
                                 </li>
                                 <li>
                                     <span className="font-semibold">
-                                        Program Hours
+                                        Hours
                                     </span>
                                     <ul className="font-normal pl-6">
                                         <li>
