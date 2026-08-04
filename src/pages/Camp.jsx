@@ -33,6 +33,81 @@ const Camp = () => {
                 </p>
             </div>
 
+                        <div className="flex flex-col justify-center items-center w-3/4 lg:py-16 py-8">
+                <h2 className="text-xl font-bold text-center pb-4">
+                    Program Options - Full Time & Part Time Care
+                </h2>
+                <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
+                    <div className="flex flex-col lg:flex-row flex-1 lg:w-3/4 w-full gap-4">
+                        <NavLink 
+                            to="/daycare/toddler-daycare" 
+                            end 
+                            className="hover:scale-102 ease-in-out duration-300 flex flex-1"
+                        >
+                            <Card className="flex-1 flex">
+                                <CardHeader className="text-start">
+                                    <CardTitle>
+                                        Toddler Program
+                                    </CardTitle>
+                                    <CardDescription>
+                                       A nurturing environment where toddlers learn through play, exploration, and hands-on activities that support their early development and growing independence.
+                                    </CardDescription>
+                                </CardHeader>
+                                <CardContent className="flex-1 flex justify-end items-end">
+                                    <Button className="cursor-pointer">
+                                        Learn More
+                                    </Button>
+                                </CardContent>
+                            </Card>
+                        </NavLink>
+
+                        <NavLink
+                            to="/daycare/preschool" 
+                            end 
+                            className="hover:scale-102 ease-in-out duration-300 flex flex-1"
+                        >
+                            <Card className="flex-1 flex">
+                                <CardHeader className="text-start">
+                                    <CardTitle>
+                                        Preschool Program
+                                    </CardTitle>
+                                    <CardDescription>
+                                        A play-based learning program designed to help children build confidence, creativity, and essential skills while preparing them for their next stage of learning.
+                                    </CardDescription>
+                                </CardHeader>
+                                <CardContent className="flex-1 flex justify-end items-end">
+                                    <Button className="cursor-pointer">
+                                        Learn More
+                                    </Button>
+                                </CardContent>
+                            </Card>
+                        </NavLink>
+
+                        <NavLink
+                            to="/daycare/before-after-school-care" 
+                            end 
+                            className="hover:scale-102 ease-in-out duration-300 flex flex-1"
+                        >
+                            <Card className="flex-1 flex">
+                                <CardHeader className="text-start">
+                                    <CardTitle>
+                                        Before & After School Program
+                                    </CardTitle>
+                                    <CardDescription>
+                                        A safe and engaging program for school-age children offering before and after school care, with opportunities for learning, activities, and social connection.
+                                    </CardDescription>
+                                </CardHeader>
+                                <CardContent className="flex-1 flex justify-end items-end">
+                                    <Button className="cursor-pointer">
+                                        Learn More
+                                    </Button>
+                                </CardContent>
+                            </Card>
+                        </NavLink>
+                    </div>
+                </div>
+            </div>
+
             <div className="flex lg:flex-row flex-col justify-center lg:items-stretch items-center w-3/4 gap-4">
                 <Card>
                     <CardHeader>
