@@ -75,7 +75,7 @@ const Camp = () => {
                                        PA Day Camp
                                     </CardTitle>
                                     <CardDescription>
-                                        A play-based learning program designed to help children build confidence, creativity, and essential skills while preparing them for their next stage of learning.
+
                                     </CardDescription>
                                 </CardHeader>
                                 <CardContent className="flex-1 flex justify-end items-end">
