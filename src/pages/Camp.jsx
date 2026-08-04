@@ -270,7 +270,7 @@ const Camp = () => {
                             Creative Art Projects
                         </p>
                         <p className="flex items-start gap-3">
-                            <Heart className="mt-1 h-5 w-5 shrink-0 text-primary"/>
+                            <Cook className="mt-1 h-5 w-5 shrink-0 text-primary"/>
                             Indoor Playground exclusive to your guests
                         </p>
                         <p className="flex items-start gap-3">
