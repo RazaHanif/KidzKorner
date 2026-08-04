@@ -137,8 +137,7 @@ const Camp = () => {
                 </div>
             </div>
 
-            <div>
-
+            <div className="flex flex-col justify-center w-3/4 lg:w-1/3 gap-4 lg:py-16 py-8">
                 <h2 className="text-xl font-bold text-center pb-4">
                     Camp Information
                 </h2>
