@@ -176,7 +176,7 @@ const Camp = () => {
                                     </span>
                                     <ul className="font-normal pl-6">
                                         <li>
-                                            4 Years Old to 13 Years Old
+                                            4 - 13 Years old
                                         </li>
                                         <li>
                                             Siblings Discount Available
