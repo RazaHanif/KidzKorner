@@ -67,11 +67,7 @@ const About = () => {
                         Visit Our Childcare Centre
                     </h2>
                     <p>
-                        Kidz Korner is conveniently located at
-150 Nipissing Road in Milton, making it easy
-for families across Milton to access quality
-licensed childcare, preschool, camps,
-birthday parties and our indoor playground.
+                        Kidz Korner is conveniently located at 150 Nipissing Road in Milton, making it easy for families across Milton to access quality licensed childcare, preschool, camps, birthday parties and our indoor playground.
                     </p>
 
                 </div>
