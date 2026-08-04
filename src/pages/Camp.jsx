@@ -176,10 +176,10 @@ const Camp = () => {
                                     </span>
                                     <ul className="font-normal pl-6">
                                         <li>
-                                            9:00AM - 5:00PM
+                                            Monday - Friday
                                         </li>
                                         <li>
-                                            Monday - Friday
+                                            9:00AM - 5:00PM
                                         </li>
                                         <li>
                                             Families can enroll for 2, 3, or 5 days a week.
