@@ -318,7 +318,6 @@ const Camp = () => {
                 </div>
             </div>
 
-
             <div className="flex lg:flex-row flex-col justify-between items-center w-3/4 gap-4">
                 <Image src='/20251106_102726.jpg' alt='Child Cutting Tomatos at Kidz Korner Milton, Ontario' />
                 <Image src='/20250710_144411.jpg' alt='Children Painting at Kidz Korner Milton, Ontario' />
