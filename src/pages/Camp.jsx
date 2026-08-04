@@ -45,7 +45,7 @@ const Camp = () => {
                 <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
                     <div className="flex flex-col lg:flex-row flex-1 lg:w-3/4 w-full gap-4">
                         <NavLink 
-                            to="/camp/" 
+                            to="/camp/summer-camp" 
                             end 
                             className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                         >
