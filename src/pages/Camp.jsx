@@ -9,6 +9,7 @@ import CampForm from "@/components/CampForm";
 import Image from "@/components/Image";
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
+import { Sun } from "lucide-react";
 
 const Camp = () => {
     const breadCrumb = [
@@ -47,7 +48,8 @@ const Camp = () => {
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
                                     <CardTitle>
-                                        Toddler Program
+                                        <Sun />
+                                        Summer Camp
                                     </CardTitle>
                                     <CardDescription>
                                        A nurturing environment where toddlers learn through play, exploration, and hands-on activities that support their early development and growing independence.
