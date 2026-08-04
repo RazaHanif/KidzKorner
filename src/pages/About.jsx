@@ -62,6 +62,10 @@ const About = () => {
                     Established in 1995, Kidz Korner has proudly served Milton families for over 30 years.
                     Our centre was built on creating a safe, caring and engaging environment where children can learn, play, and grow.
                 </p>   
+                <p className="flex lg:flex-row flex-col justify-center items-center lg:text-justify text-center">
+                    Established in 1995, Kidz Korner has proudly served Milton families for over 30 years.
+                    Our centre was built on creating a safe, caring and engaging environment where children can learn, play, and grow.
+                </p>   
             </div>
 
             <div className="flex flex-col justify-center items-center gap-4 w-full">
