@@ -67,7 +67,7 @@ const About = () => {
                 </p>   
             </div>
 
-            <div className="flex flex-col justify-center items-center gap-4 w-full border">
+            <div className="flex flex-col justify-center items-center gap-4 w-full">
                 <div>
                     <h2 className="text-xl font-bold text-center">
                         Visit Our Childcare Centre
