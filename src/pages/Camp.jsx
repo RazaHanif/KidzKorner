@@ -89,7 +89,7 @@ const Camp = () => {
                         </NavLink>
 
                         <NavLink
-                            to="/camp/winter-camp" 
+                            to="/camp/winter-break-camp" 
                             end 
                             className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                         >
