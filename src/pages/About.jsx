@@ -32,11 +32,6 @@ const About = () => {
                     About Kidz Korner Childcare & Indoor Playground
                 </h1>
                 <p className="w-full flex justify-center items-center flex-1 p-4">
-                            Kidz Korner is a family-owned, licensed daycare in Milton, Ontario, dedicated to providing exceptional early learning and childcare for local families. 
-                            We offer toddler daycare, preschool programs, before and after school care, and licensed camps during PA Days, March Break, Summer Break, and Winter Break. 
-                            Our commitment to nurturing children in a safe, engaging environment has earned the trust of Milton families for generations.
-                        </p>
-                <p>
                     Serving Milton families with licensed childcare, preschool programs, indoor playground fun, birthday parties, camp and workshops.
                 </p>
             </div>
