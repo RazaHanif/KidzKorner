@@ -49,7 +49,7 @@ const Camp = () => {
                         >
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
-                                    <CardTitle className="flex flex-col">
+                                    <CardTitle className="flex flex-row just">
                                         <Sun />
                                         Summer Camp
                                     </CardTitle>
@@ -72,7 +72,7 @@ const Camp = () => {
                         >
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
-                                    <CardTitle className="flex flex-col">
+                                    <CardTitle className="flex flex-row just">
                                        <Leaf />
                                        PA Day Camp
                                     </CardTitle>
@@ -95,7 +95,7 @@ const Camp = () => {
                         >
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
-                                    <CardTitle className="flex flex-col">
+                                    <CardTitle className="flex flex-row just">
                                         <Snowflake />
                                         Winter Break Camp
                                     </CardTitle>
@@ -118,7 +118,7 @@ const Camp = () => {
                         >
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
-                                    <CardTitle className="flex flex-col">
+                                    <CardTitle className="flex flex-row just">
                                         <Flower />
                                         March Break Camp
                                     </CardTitle>
