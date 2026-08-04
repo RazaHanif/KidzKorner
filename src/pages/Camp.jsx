@@ -75,7 +75,7 @@ const Camp = () => {
                                        PA Day Camp
                                     </CardTitle>
                                     <CardDescription>
-
+                                        A fun full-day program whenever schools are closed
                                     </CardDescription>
                                 </CardHeader>
                                 <CardContent className="flex-1 flex justify-end items-end">
