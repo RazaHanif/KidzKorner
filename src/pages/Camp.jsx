@@ -118,7 +118,7 @@ const Camp = () => {
                                 <CardHeader className="text-start">
                                     <CardTitle>
                                         <Snowflake />
-                                        Winter Break Camp
+                                        March Break Camp
                                     </CardTitle>
                                     <CardDescription>
                                         Holiday fun filled with crafts, cooking, indoor games and winter themed activities
