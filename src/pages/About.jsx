@@ -4,7 +4,7 @@ import HoursTimeTable from "@/components/HoursTimeTable";
 import Image from '@/components/Image'
 import { breadcrumbSchema, organizationSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
-import { BadgeCheck, Shapes } from "lucide-react";
+import { BadgeCheck, Shapes, Users } from "lucide-react";
 
 const About = () => {
     const breadCrumb = [
