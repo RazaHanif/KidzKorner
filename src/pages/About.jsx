@@ -110,7 +110,7 @@ const About = () => {
                                 <div className="flex gap-2 text-primary">
                                     <Users />
                                     <h2 className="font-bold">
-                                        Indoor Playground
+                                        Small Class Sizes
                                     </h2>
                                 </div>
                                 <p className="text-start pl-8">
