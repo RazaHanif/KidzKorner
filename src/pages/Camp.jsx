@@ -172,7 +172,7 @@ const Camp = () => {
                                             PA Day Camps
                                         </li>
                                         <li>
-                                            Siblings Discount Available
+                                            March Break Camp
                                         </li>
                                     </ul>
                                 </li>
