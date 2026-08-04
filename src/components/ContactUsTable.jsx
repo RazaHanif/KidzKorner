@@ -36,7 +36,7 @@ const ContactUsTable = () => {
             <Table className="border-t">
                 <TableBody>
                     {timetable.map((item, idx) => (
-                        <TableRow key={idx} className="bg-red-500">
+                        <TableRow key={idx} className="flex bg-red-500">
                             <TableCell className='font-semibold'>
                                 {item.title}
                             </TableCell>
