@@ -256,7 +256,7 @@ const Camp = () => {
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
-                        <div className="flex flex-col justify-around items-center w-3/4">
+                        <div className="flex flex-col justify-around items-center">
                             <ul className="font-normal pl-6 list-disc">
                                 <li>Arrival</li>
                                 <li>Morning Snack</li>
