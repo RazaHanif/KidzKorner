@@ -289,15 +289,7 @@ const Camp = () => {
                         </p>
                         <p className="flex items-start gap-3">
                             <Heart className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Safe, clean, nut-free environment
-                        </p>
-                        <p className="flex items-start gap-3">
-                            <Heart className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Convenient Milton location
-                        </p>
-                        <p className="flex items-start gap-3">
-                            <Heart className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Setup/Take Down Time Included
+                            Caring Registered Educators
                         </p>
                     </div>
                 </div>
