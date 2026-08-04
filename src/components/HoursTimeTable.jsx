@@ -30,30 +30,34 @@ const HoursTimeTable = () => {
     ]
 
     return (
-        
-        <Table className="text-start">
-            <TableHeader>
-                <TableRow>
-                    <TableHead className='text-xl font-semibold'>
-                        Hours of Operation
-                    </TableHead>
-                </TableRow>
-            </TableHeader>
-            <TableBody>
-                {timetable.map((item, idx) => (
-                   <TableRow key={idx} className="flex">
-                        <TableCell className='font-semibold whitespace-normal wrap-break-word flex-1'>
-                            {item.session}
-                        </TableCell>
-                        <TableCell className="flex justify-center items-center flex-2 w-full">
-                            <p className="text-end w-full">
-                                {item.time}
-                            </p>
-                        </TableCell>
+        <div className="flex flex-col gap-2">
+            <h1 className="text-xl font-semibold text-center lg:text-start lg:ml-2">
+                Contact Us
+            </h1>
+            <Table className="text-start">
+                <TableHeader>
+                    <TableRow>
+                        <TableHead className='text-xl font-semibold'>
+                            Hours of Operation
+                        </TableHead>
                     </TableRow>
-                ))}
-            </TableBody>
-        </Table>
+                </TableHeader>
+                <TableBody>
+                    {timetable.map((item, idx) => (
+                    <TableRow key={idx} className="flex">
+                            <TableCell className='font-semibold whitespace-normal wrap-break-word flex-1'>
+                                {item.session}
+                            </TableCell>
+                            <TableCell className="flex justify-center items-center flex-2 w-full">
+                                <p className="text-end w-full">
+                                    {item.time}
+                                </p>
+                            </TableCell>
+                        </TableRow>
+                    ))}
+                </TableBody>
+            </Table>
+        </div>
     )
 }
 
