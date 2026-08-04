@@ -209,7 +209,8 @@ const Camp = () => {
                                         </li>
                                     </ul>
                                 </li>
-                                <span className="font-semibold">
+                                <li>
+                                    <span className="font-semibold">
                                         Hours
                                     </span>
                                     <ul className="font-normal pl-6">
@@ -223,7 +224,6 @@ const Camp = () => {
                                             Flexible 2, 3 or 5 day enrollment
                                         </li>
                                     </ul>
-                                <li>
                                     <a
                                         href="https://www.instagram.com/kidz.kornermilton/"
                                         target="_blank"
