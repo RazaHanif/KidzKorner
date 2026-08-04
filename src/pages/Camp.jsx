@@ -222,6 +222,8 @@ const Camp = () => {
                 </div>
             </div>
 
+            <div className="flex flex-col justify-center items-center w-3/4 border-y py-10 my-8"></div>
+
             <div className="flex flex-col justify-center w-3/4 lg:w-1/3 gap-4 lg:py-16 py-8">
                 <Card>
                     <CardHeader>
