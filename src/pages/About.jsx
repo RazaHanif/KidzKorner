@@ -75,7 +75,7 @@ const About = () => {
                     <iframe
                         title="Google Maps"
                         loading="lazy"
-                        referrerPolicy="no-referrer"
+                        referrerPolicy="origin"
                         style={{ border: 0 }}
                         allowFullScreen=""
                         aria-hidden="false"
