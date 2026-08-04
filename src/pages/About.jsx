@@ -19,7 +19,12 @@ const About = () => {
 
     return (
         <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16 pb-8">
-            <h1>About Kidz Korner Childcare & Indoor Playgroud</h1>
+            <div className="flex flex-col justify-center items-center w-full mb-4">
+                <h1 className="lg:text-5xl text-3xl font-bold font-serif text-center py-4">
+                    Licensed Daycare & Childcare in Milton
+                </h1>
+            </div>
+            
             <div className="flex lg:flex-row flex-col justify-center w-3/4 m-4 gap-4">
                 <div>
                     <ContactUsTable />
