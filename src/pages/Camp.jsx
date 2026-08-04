@@ -201,7 +201,7 @@ const Camp = () => {
                                 </li>
                                 <li className="font-semibold">
                                     <span className="font-semibold">
-                                        Hours
+                                        Meals
                                     </span>
                                     <ul className="font-normal pl-6">
                                         <li>
