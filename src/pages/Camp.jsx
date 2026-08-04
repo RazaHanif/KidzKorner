@@ -263,8 +263,6 @@ const Camp = () => {
                                 <li>Programming</li>
                                 <li>Circle Time</li>
                                 <li>Cooking / Art Activity</li>
-                            </ul>
-                            <ul className="font-normal pl-6 list-disc">
                                 <li>Lunch</li>
                                 <li>Rest Time</li>
                                 <li>Afternoon Snack</li>
