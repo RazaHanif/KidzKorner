@@ -45,25 +45,26 @@ const ContactUsTable = () => {
                 {timetable.map((item, idx) => {
                     const Icon = item.icon
                     return (
-                    <TableRow key={idx}>
-                        <TableCell className='flex flex-row gap-4 font-semibold'>
-                            <Icon className="h-5 w-5"/>
-                            {item.title}
-                        </TableCell>
-                        <TableCell  className="whitespace-normal wrap-break-word">
-                            <a
-                                target="_blank"
-                                rel="noopener noreferrer" 
-                                href={item.href}
-                                className="hover:underline flex flex-row"
-                            >
-                                <div>
-                                    {item.text}
-                                </div>
-                            </a>
-                        </TableCell>
-                    </TableRow>
-                )})}
+                        <TableRow key={idx}>
+                            <TableCell className='flex flex-row gap-4 font-semibold'>
+                                <Icon className="h-5 w-5"/>
+                                {item.title}
+                            </TableCell>
+                            <TableCell  className="whitespace-normal wrap-break-word">
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer" 
+                                    href={item.href}
+                                    className="hover:underline flex flex-row"
+                                >
+                                    <div>
+                                        {item.text}
+                                    </div>
+                                </a>
+                            </TableCell>
+                        </TableRow>
+                    )}
+                )}
             </TableBody>
         </Table>
     )
