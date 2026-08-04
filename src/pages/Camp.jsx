@@ -258,7 +258,7 @@ const Camp = () => {
                     <CardContent>
                         <div className="flex flex-col lg:flex-row justify-around">
                             <ul className="font-normal pl-6 list-disc">
-                                <li>Arrival</li>
+                                <li>Morning Arrival & Welcome</li>
                                 <li>Morning Snack</li>
                                 <li>Programming</li>
                                 <li>Circle Time</li>
