@@ -207,14 +207,7 @@ const Camp = () => {
                                         <li>
                                             Children bring nut-free lunch and snacks every day
                                         </li>
-                                        <li>
-                                            9:00AM - 5:00PM
-                                        </li>
-                                        <li>
-                                            Flexible 2, 3 or 5 day enrollment
-                                        </li>
                                     </ul>
-                                    Children bring their own lunches and snacks
                                 </li>
                                 <li>
                                     <a
