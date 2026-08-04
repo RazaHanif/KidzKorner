@@ -9,7 +9,7 @@ import CampForm from "@/components/CampForm";
 import Image from "@/components/Image";
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
-import { Leaf, Sun } from "lucide-react";
+import { Leaf, Snowflake, Sun } from "lucide-react";
 
 const Camp = () => {
     const breadCrumb = [
@@ -94,7 +94,8 @@ const Camp = () => {
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
                                     <CardTitle>
-                                        Before & After School Program
+                                        <Snowflake />
+                                        Winter Break Camp
                                     </CardTitle>
                                     <CardDescription>
                                         Holiday fun filled with crafts, cooking, indoor games and winter themed activities
