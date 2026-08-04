@@ -4,7 +4,7 @@ import HoursTimeTable from "@/components/HoursTimeTable";
 import Image from '@/components/Image'
 import { breadcrumbSchema, organizationSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
-import { BadgeCheck, Palette, Shapes, Users } from "lucide-react";
+import { BadgeCheck, MapPin, Palette, Shapes, Users } from "lucide-react";
 
 const About = () => {
     const breadCrumb = [
@@ -124,7 +124,7 @@ const About = () => {
                             </div>
                             <div className="flex flex-col items-start justify-start w-full">
                                 <div className="flex gap-2 text-primary">
-                                    <Map />
+                                    <MapPin />
                                     <h2 className="font-bold">
                                         Convenient Milton Location
                                     </h2>
