@@ -52,7 +52,7 @@ const Camp = () => {
                                         Summer Camp
                                     </CardTitle>
                                     <CardDescription>
-                                       A nurturing environment where toddlers learn through play, exploration, and hands-on activities that support their early development and growing independence.
+                                        A fun full-day program when
                                     </CardDescription>
                                 </CardHeader>
                                 <CardContent className="flex-1 flex justify-end items-end">
