@@ -85,7 +85,8 @@ const About = () => {
                         className="w-full h-[75vw] lg:h-[75vh]"
                     /> */}
                     <iframe
-    src="https://www.google.com/maps?q=Kidz+Korner+Milton&output=embed" />
+                        src="https://www.google.com/maps?q=Kidz+Korner+Milton&output=embed" 
+                    />
                 </div>
             </div>
 
