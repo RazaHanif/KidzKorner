@@ -157,7 +157,7 @@ const About = () => {
                 </h2>
                 <p className="flex text-center">
                     Whether your're looking for daycare, preschool, camps, or birthday parties, our team is happy to answer your questions.
-                    
+                    Complete the form below and we'll get back to you as soon as possible.
                 </p> 
                 <ContactForm/>
             </div>
