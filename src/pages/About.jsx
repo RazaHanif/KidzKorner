@@ -99,12 +99,9 @@ const About = () => {
                                     <ShieldCheck />
                                     <GraduationCap />
                                     <h2 className="font-bold">
-                                        Experienced Educators
+                                        Caring Educators
                                     </h2>
                                 </div>
-                                <p className="text-start pl-8">
-                                    Caring professionals focused on every child's growth.
-                                </p>
                             </div>
                         </div>
                         <div className="flex flex-col flex-1 gap-2">
