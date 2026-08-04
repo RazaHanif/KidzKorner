@@ -211,7 +211,7 @@ const Camp = () => {
                                 </li>
                                 <li>
                                     <span className="font-semibold">
-                                        Hours
+                                        See Our Camps
                                     </span>
                                     <ul className="font-normal pl-6">
                                         <li>
