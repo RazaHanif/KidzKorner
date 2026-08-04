@@ -138,90 +138,89 @@ const Camp = () => {
             </div>
 
             <div>
-                
-            </div>
 
-            <h2 className="text-xl font-bold text-center pb-4">
-                Camp Information
-            </h2>
-            <div className="flex lg:flex-row flex-col justify-center lg:items-stretch items-center w-3/4 gap-4">
-                <Card>
-                    <CardHeader>
-                        <CardTitle className="p-2 bg-primary text-primary-foreground flex flex-col justify-center items-center rounded-md text-lg">
-                            <h2>
-                                $175/Week - Camps 
-                            </h2>
-                            <h2>
-                                $45/Day - PD Day
-                            </h2>
-                        </CardTitle>
-                        <CardDescription className="p-2 bg-accent flex justify-center items-center rounded-md text-bold text-lg">
-                            <p className="text-xs text-center">
-                                To preserve the quality of our program, summer camp enrollment is limited to a maximum of 13 children.
-                            </p>
-                        </CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                        <ul className="flex flex-col gap-4 text-sm">
-                            <li>
-                                <span className="font-semibold">
-                                    Full Time & Part Time Options
-                                </span>
-                                <ul className="font-normal pl-6">
-                                    <li>
-                                        Camps run during PD Days, March Breaks, Summer Vacations, and Winter Breaks.
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <span className="font-semibold">
-                                    Program Hours
-                                </span>
-                                <ul className="font-normal pl-6">
-                                    <li>
-                                        9:00AM - 5:00PM
-                                    </li>
-                                    <li>
-                                        Monday - Friday
-                                    </li>
-                                    <li>
-                                        Families can enroll for 2, 3, or 5 days a week.
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <span className="font-semibold">
-                                    Ages
-                                </span>
-                                <ul className="font-normal pl-6">
-                                    <li>
-                                        4 Years Old to 13 Years Old
-                                    </li>
-                                    <li>
-                                        Siblings Discount Available
-                                    </li>
-                                </ul>
-                            </li>
-                            <li className="font-semibold">
-                                Children bring their own lunches and snacks
-                            </li>
-                            <li>
-                                <a
-                                    href="https://www.instagram.com/kidz.kornermilton/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="hover:underline font-semibold"
-                                >
-                                    Click Here to visit our Instagram to see our Activities / Weekly Camp Themes
-                                </a>
-                            </li>
-                            <li className="text-xs font-semibold">
-                                Center is closed on Civic Holiday, Christmas Eve, Christmas Day, New Years Eve, and New Years Day
-                            </li>
-                        </ul>
-                    </CardContent>
-                </Card>
-                <Image src='/20250711_111518.jpg' alt='Child Playing With Dinosaurs at Kidz Korner Milton, Ontario' w="w-sm"/>
+                <h2 className="text-xl font-bold text-center pb-4">
+                    Camp Information
+                </h2>
+                <div className="flex lg:flex-row flex-col justify-center lg:items-stretch items-center w-3/4 gap-4">
+                    <Card>
+                        <CardHeader>
+                            <CardTitle className="p-2 bg-primary text-primary-foreground flex flex-col justify-center items-center rounded-md text-lg">
+                                <h2>
+                                    $175/Week - Camps 
+                                </h2>
+                                <h2>
+                                    $45/Day - PD Day
+                                </h2>
+                            </CardTitle>
+                            <CardDescription className="p-2 bg-accent flex justify-center items-center rounded-md text-bold text-lg">
+                                <p className="text-xs text-center">
+                                    To preserve the quality of our program, summer camp enrollment is limited to a maximum of 13 children.
+                                </p>
+                            </CardDescription>
+                        </CardHeader>
+                        <CardContent>
+                            <ul className="flex flex-col gap-4 text-sm">
+                                <li>
+                                    <span className="font-semibold">
+                                        Full Time & Part Time Options
+                                    </span>
+                                    <ul className="font-normal pl-6">
+                                        <li>
+                                            Camps run during PD Days, March Breaks, Summer Vacations, and Winter Breaks.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span className="font-semibold">
+                                        Program Hours
+                                    </span>
+                                    <ul className="font-normal pl-6">
+                                        <li>
+                                            9:00AM - 5:00PM
+                                        </li>
+                                        <li>
+                                            Monday - Friday
+                                        </li>
+                                        <li>
+                                            Families can enroll for 2, 3, or 5 days a week.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span className="font-semibold">
+                                        Ages
+                                    </span>
+                                    <ul className="font-normal pl-6">
+                                        <li>
+                                            4 Years Old to 13 Years Old
+                                        </li>
+                                        <li>
+                                            Siblings Discount Available
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li className="font-semibold">
+                                    Children bring their own lunches and snacks
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.instagram.com/kidz.kornermilton/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="hover:underline font-semibold"
+                                    >
+                                        Click Here to visit our Instagram to see our Activities / Weekly Camp Themes
+                                    </a>
+                                </li>
+                                <li className="text-xs font-semibold">
+                                    Center is closed on Civic Holiday, Christmas Eve, Christmas Day, New Years Eve, and New Years Day
+                                </li>
+                            </ul>
+                        </CardContent>
+                    </Card>
+                    <Image src='/20250711_111518.jpg' alt='Child Playing With Dinosaurs at Kidz Korner Milton, Ontario' w="w-sm"/>
+                </div>
             </div>
 
             <div className="flex flex-col justify-center w-3/4 lg:w-1/3 gap-4 lg:py-16 py-8">
