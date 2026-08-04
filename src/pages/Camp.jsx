@@ -50,7 +50,7 @@ const Camp = () => {
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
                                     <CardTitle className="flex flex-row items-center gap-2">
-                                        <Sun />
+                                        <Sun className="text-primary" />
                                         Summer Camp
                                     </CardTitle>
                                     <CardDescription>
@@ -73,7 +73,7 @@ const Camp = () => {
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
                                     <CardTitle className="flex flex-row items-center gap-2">
-                                       <Leaf />
+                                       <Leaf className="text-primary" />
                                        PA Day Camp
                                     </CardTitle>
                                     <CardDescription>
@@ -96,7 +96,7 @@ const Camp = () => {
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
                                     <CardTitle className="flex flex-row items-center gap-2">
-                                        <Snowflake />
+                                        <Snowflake className="text-primary" />
                                         Winter Break Camp
                                     </CardTitle>
                                     <CardDescription>
@@ -119,7 +119,7 @@ const Camp = () => {
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
                                     <CardTitle className="flex flex-row items-center gap-2">
-                                        <Flower />
+                                        <Flower className="text-primary" />
                                         March Break Camp
                                     </CardTitle>
                                     <CardDescription>
