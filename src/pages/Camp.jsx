@@ -32,7 +32,7 @@ const Camp = () => {
                 </h1>
                 <p className="text-center w-3/4">
                     Keep your child active, creative, and engaged during school breaks with Kidz Korner's camp programs in Milton.
-                    We offer Summer Camp, March Break Camp, Winter Break Camp, and PA Day Camp for children ages 4-13, featuring art, cooking, games, STEM activities, and themed weekly adventures.
+                    We offer Summer Camp, March Break Camp, Winter Break Camp, and PA Day Camp for children ages 4-13, featuring art, cooking, games, STEM activities, and weekly themed adventures.
                 </p>
             </div>
 
