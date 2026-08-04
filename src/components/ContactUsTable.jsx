@@ -30,7 +30,9 @@ const ContactUsTable = () => {
 
     return (
         <div className="border">
-            <h1>Contact Us</h1>
+            <h1>
+                Contact Us
+            </h1>
             <Table>
                 <TableHeader>
                     <TableRow>
