@@ -52,7 +52,7 @@ const Camp = () => {
                                         Summer Camp
                                     </CardTitle>
                                     <CardDescription>
-                                        A fun full-day program while schools are
+                                        8-10 weeks of themed adventures packed with art, cooking, science
                                     </CardDescription>
                                 </CardHeader>
                                 <CardContent className="flex-1 flex justify-end items-end">
