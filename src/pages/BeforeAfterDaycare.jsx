@@ -36,7 +36,10 @@ const BeforeAfterDaycare = () => {
             <title>
                 Before & After School Daycare | Before & After School | Kidz Korner
             </title>
-            <meta name="description" content="" />
+            <meta 
+                name="description" 
+                content="" 
+            />
         </div>
     );
 }
