@@ -162,7 +162,7 @@ const Camp = () => {
                             <ul className="flex flex-col gap-4 text-sm">
                                 <li>
                                     <span className="font-semibold">
-                                        Full Time & Part Time Options
+                                        Enrollment Options
                                     </span>
                                     <ul className="font-normal pl-6">
                                         <li>
