@@ -38,12 +38,9 @@ const ContactUsTable = () => {
                 </TableRow>
             </TableHeader>
             <TableBody>
-                {timetable.map((item, idx) => {
-                    const Icon = item.icon
-                    return (
+                {timetable.map((item, idx) => (
                         <TableRow key={idx}>
-                            <TableCell className='flex flex-row gap-4 font-semibold'>
-                                <Icon className="h-5 w-5"/>
+                            <TableCell className='font-semibold'>
                                 {item.title}
                             </TableCell>
                             <TableCell  className="whitespace-normal wrap-break-word">
@@ -59,8 +56,7 @@ const ContactUsTable = () => {
                                 </a>
                             </TableCell>
                         </TableRow>
-                    )}
-                )}
+                    ))}
             </TableBody>
         </Table>
     )
