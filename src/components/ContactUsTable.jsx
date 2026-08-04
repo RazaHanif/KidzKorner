@@ -35,7 +35,6 @@ const ContactUsTable = () => {
                 <TableHeader>
                     <TableRow>
                         <TableHead className='text-xl font-semibold'>
-                            Contact Us
                         </TableHead>
                     </TableRow>
                 </TableHeader>
