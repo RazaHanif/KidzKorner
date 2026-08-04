@@ -32,7 +32,7 @@ const HoursTimeTable = () => {
     return (
         <div className="flex flex-col gap-2">
             <h1 className="text-xl font-semibold text-center lg:text-start lg:ml-2">
-                Contact Us
+                Hours of Operation
             </h1>
             <Table className="text-start">
                 <TableBody>
