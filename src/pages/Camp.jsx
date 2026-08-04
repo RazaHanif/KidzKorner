@@ -172,6 +172,19 @@ const Camp = () => {
                                 </li>
                                 <li>
                                     <span className="font-semibold">
+                                        Ages
+                                    </span>
+                                    <ul className="font-normal pl-6">
+                                        <li>
+                                            4 Years Old to 13 Years Old
+                                        </li>
+                                        <li>
+                                            Siblings Discount Available
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span className="font-semibold">
                                         Hours
                                     </span>
                                     <ul className="font-normal pl-6">
@@ -183,19 +196,6 @@ const Camp = () => {
                                         </li>
                                         <li>
                                             Flexible 2, 3 or 5 day enrollment
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <span className="font-semibold">
-                                        Ages
-                                    </span>
-                                    <ul className="font-normal pl-6">
-                                        <li>
-                                            4 Years Old to 13 Years Old
-                                        </li>
-                                        <li>
-                                            Siblings Discount Available
                                         </li>
                                     </ul>
                                 </li>
