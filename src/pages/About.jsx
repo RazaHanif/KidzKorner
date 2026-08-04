@@ -46,7 +46,9 @@ const About = () => {
                 </div>
             </div>
 
+            <div className="flex flex-col justify-center items-center w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
             
+            </div>
 
             <div className="flex justify-center items-center w-full lg:py-16 py-8">
                 <div className="flex justify-center items-center w-3/4 rounded-lg border-2 shadow-lg overflow-hidden">
