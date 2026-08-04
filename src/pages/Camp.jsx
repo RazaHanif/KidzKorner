@@ -200,6 +200,20 @@ const Camp = () => {
                                     </ul>
                                 </li>
                                 <li className="font-semibold">
+                                                                        <span className="font-semibold">
+                                        Hours
+                                    </span>
+                                    <ul className="font-normal pl-6">
+                                        <li>
+                                            Monday - Friday
+                                        </li>
+                                        <li>
+                                            9:00AM - 5:00PM
+                                        </li>
+                                        <li>
+                                            Flexible 2, 3 or 5 day enrollment
+                                        </li>
+                                    </ul>
                                     Children bring their own lunches and snacks
                                 </li>
                                 <li>
