@@ -166,9 +166,6 @@ const Camp = () => {
                                     </span>
                                     <ul className="font-normal pl-6">
                                         <li>
-                                            Camps run during PD Days, March Breaks, Summer Vacations, and Winter Breaks.
-                                        </li>
-                                        <li>
                                             PA Day Camps
                                         </li>
                                         <li>
