@@ -261,7 +261,7 @@ const Camp = () => {
 
             <div className="flex flex-col justify-center items-center w-3/4 border-y py-10 my-8">
                 <h2 className="text-xl font-bold text-center pb-4">
-                    Why Families Love Our Birthday Parties
+                    Why Families Love Our Camp
                 </h2>
                 <div className="flex lg:flex-row flex-col p-2 gap-2">
                     <div className="flex flex-col gap-2 w-full flex-1">
