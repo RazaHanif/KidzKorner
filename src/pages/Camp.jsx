@@ -337,7 +337,9 @@ const Camp = () => {
             <title>
                 Kids Camps in Milton | Kidz Korner
             </title>
-            <meta name="description" content="Looking for kids camps in Milton? Kidz Korner offers Summer Camp, March Break Camp, Winter Break Camp and PA Day Camps for children ages 4-13 with art, cooking, STEM activities and active play." />
+            <meta 
+                name="description" content="Looking for kids camps in Milton? Kidz Korner offers Summer Camp, March Break Camp, Winter Break Camp and PA Day Camps for children ages 4-13 with art, cooking, STEM activities and active play." 
+            />
         </div>
     );
 }
