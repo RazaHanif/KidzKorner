@@ -99,7 +99,7 @@ const About = () => {
                                 <div className="flex gap-2 text-primary">
                                     <Shapes />
                                     <h2 className="font-bold">
-                                        Caring Educators
+                                        Indoor Playground
                                     </h2>
                                 </div>
                             </div>
