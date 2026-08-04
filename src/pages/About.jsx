@@ -8,9 +8,6 @@ import { BadgeCheck, HeartHandshake, MapPin, Palette, Shapes, Users } from "luci
 import {
   Card,
   CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
 } from "@/components/ui/card"
 
 const About = () => {
