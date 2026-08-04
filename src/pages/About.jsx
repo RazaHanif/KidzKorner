@@ -4,7 +4,7 @@ import HoursTimeTable from "@/components/HoursTimeTable";
 import Image from '@/components/Image'
 import { breadcrumbSchema, organizationSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
-import { BadgeCheck, MapPin, Palette, Shapes, Users } from "lucide-react";
+import { BadgeCheck, HeartHandshake, MapPin, Palette, Shapes, Users } from "lucide-react";
 import {
   Card,
   CardContent,
