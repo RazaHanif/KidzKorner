@@ -79,7 +79,7 @@ const About = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
-                <h2 className="w-full flex justify-center items-center m-4 font-bold text-xl flex-1">
+                <h2 className="w-full flex justify-center items-center font-bold text-xl flex-1">
                     Why Families Choose Kidz Korner
                 </h2>
 
