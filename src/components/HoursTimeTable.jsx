@@ -46,9 +46,8 @@ const HoursTimeTable = () => {
                         </TableCell>
                         <TableCell className="flex justify-center whitespace-normal wrap-break-word flex-2 w-full text-end border">
                             <div className="text-end w-full">
-                                {item.text}
+                                {item.time}
                             </div>
-                            {item.time}
                         </TableCell>
                     </TableRow>
                 ))}
