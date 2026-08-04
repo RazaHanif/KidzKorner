@@ -205,7 +205,7 @@ const Camp = () => {
                                     </span>
                                     <ul className="font-normal pl-6">
                                         <li>
-                                            Children bring a nut-free lunch and snacks every day
+                                            Children bring nut-free lunch and snacks every day
                                         </li>
                                         <li>
                                             9:00AM - 5:00PM
