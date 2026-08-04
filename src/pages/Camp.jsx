@@ -175,7 +175,7 @@ const Camp = () => {
                                             March Break Camp
                                         </li>
                                         <li>
-                                            Summer Break Camp
+                                            Summer Camp
                                         </li>
                                         <li>
                                             Winter Break Camp
