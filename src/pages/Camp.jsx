@@ -97,7 +97,7 @@ const Camp = () => {
                                         Before & After School Program
                                     </CardTitle>
                                     <CardDescription>
-                                        Ho
+                                        Holiday fun filled wit
                                     </CardDescription>
                                 </CardHeader>
                                 <CardContent className="flex-1 flex justify-end items-end">
