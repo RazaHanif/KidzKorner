@@ -32,8 +32,6 @@ const ContactUsTable = () => {
         <div className="border">
             <h1>Contact Us</h1>
             <Table>
-                <TableHeader>
-                </TableHeader>
                 <TableBody>
                     {timetable.map((item, idx) => (
                         <TableRow key={idx}>
