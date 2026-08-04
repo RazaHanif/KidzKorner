@@ -32,8 +32,8 @@ const ContactUsTable = () => {
         <>
             <h1>Contact Us</h1>
             <Table>
-                <TableHeader className="text-center border-red-500 border">
-                    <TableRow className="text-center border-blue-500 border">
+                <TableHeader>
+                    <TableRow>
                         <TableHead className='text-xl font-semibold'>
                             Contact Us
                         </TableHead>
