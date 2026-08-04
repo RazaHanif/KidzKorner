@@ -49,7 +49,7 @@ const Camp = () => {
                         >
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
-                                    <CardTitle className="flex flex-row items-center gap-2"f>
+                                    <CardTitle className="flex flex-row items-center gap-2 text-primary">
                                         <Sun />
                                         Summer Camp
                                     </CardTitle>
@@ -72,7 +72,7 @@ const Camp = () => {
                         >
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
-                                    <CardTitle className="flex flex-row items-center gap-2"f>
+                                    <CardTitle className="flex flex-row items-center gap-2 text-primary">
                                        <Leaf />
                                        PA Day Camp
                                     </CardTitle>
@@ -95,7 +95,7 @@ const Camp = () => {
                         >
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
-                                    <CardTitle className="flex flex-row items-center gap-2"f>
+                                    <CardTitle className="flex flex-row items-center gap-2 text-primary">
                                         <Snowflake />
                                         Winter Break Camp
                                     </CardTitle>
@@ -118,7 +118,7 @@ const Camp = () => {
                         >
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
-                                    <CardTitle className="flex flex-row items-center gap-2"f>
+                                    <CardTitle className="flex flex-row items-center gap-2 text-primary">
                                         <Flower />
                                         March Break Camp
                                     </CardTitle>
