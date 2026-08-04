@@ -27,7 +27,7 @@ const Camp = () => {
                 <h1 className="lg:text-5xl text-3xl font-bold font-serif text-center py-4">
                     School Age Camp in Milton
                 </h1>
-                <p className="text-center">
+                <p className="text-center"> 
                     Our Camp offers hands-on experiences in both the visual arts and culinary arts, perfect for young artists and aspiring chefs alike.
                 </p>
             </div>
