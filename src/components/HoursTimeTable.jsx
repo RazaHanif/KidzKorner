@@ -34,7 +34,7 @@ const HoursTimeTable = () => {
             <TableHeader>
                 <TableRow>
                     <TableHead className='text-xl font-semibold'>
-                        Hours
+                        Hours of Operation
                     </TableHead>
                 </TableRow>
             </TableHeader>
