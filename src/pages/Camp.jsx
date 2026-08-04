@@ -281,7 +281,7 @@ const Camp = () => {
                     <div className="flex flex-col gap-2 w-full flex-1">
                         <p className="flex items-start gap-3">
                             <Shapes className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Up to 50 guests
+                            Active Indoor Play
                         </p>
                         <p className="flex items-start gap-3">
                             <Heart className="mt-1 h-5 w-5 shrink-0 text-primary"/>
