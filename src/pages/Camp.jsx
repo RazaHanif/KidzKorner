@@ -121,7 +121,7 @@ const Camp = () => {
                                         March Break Camp
                                     </CardTitle>
                                     <CardDescription>
-                                        One exciting week of learning, creativiity and active play
+                                        One exciting week of learning, creativity and active play
                                     </CardDescription>
                                 </CardHeader>
                                 <CardContent className="flex-1 flex justify-end items-end">
