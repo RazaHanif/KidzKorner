@@ -215,7 +215,7 @@ const Camp = () => {
                                     </span>
                                     <ul className="font-normal pl-6">
                                         <li>
-                                            Monday - Friday
+                                            Follow us on Inst
                                         </li>
                                         <li>
                                             9:00AM - 5:00PM
