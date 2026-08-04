@@ -4,7 +4,7 @@ import HoursTimeTable from "@/components/HoursTimeTable";
 import Image from '@/components/Image'
 import { breadcrumbSchema, organizationSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
-import { BadgeCheck, Shapes, Users } from "lucide-react";
+import { BadgeCheck, Palette, Shapes, Users } from "lucide-react";
 
 const About = () => {
     const breadCrumb = [
@@ -116,14 +116,11 @@ const About = () => {
                             </div>
                             <div className="flex flex-col items-start justify-start w-full">
                                 <div className="flex gap-2 text-primary">
-                                    <ShieldCheck />
+                                    <Palette />
                                     <h2 className="font-bold">
                                         Flexible Programs
                                     </h2>
                                 </div>
-                                <p className="text-start pl-8">
-                                    A secure, welcoming space where children can thrive.
-                                </p>
                             </div>
                             <div className="flex flex-col items-start justify-start w-full">
                                 <div className="flex gap-2 text-primary">
@@ -132,9 +129,6 @@ const About = () => {
                                         Strong Parent Communication
                                     </h2>
                                 </div>
-                                <p className="text-start pl-8">
-                                    Working together with families every step of the way.
-                                </p>
                             </div>
                         </div>
                     </CardContent>
