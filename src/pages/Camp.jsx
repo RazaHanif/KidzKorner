@@ -97,7 +97,7 @@ const Camp = () => {
                                         Before & After School Program
                                     </CardTitle>
                                     <CardDescription>
-                                        A safe and engaging program for school-age children offering before and after school care, with opportunities for learning, activities, and social connection.
+                                        Ho
                                     </CardDescription>
                                 </CardHeader>
                                 <CardContent className="flex-1 flex justify-end items-end">
