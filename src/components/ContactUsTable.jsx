@@ -29,7 +29,7 @@ const ContactUsTable = () => {
     ]
 
     return (
-        <>
+        <div>
             <h1>Contact Us</h1>
             <Table>
                 <TableHeader>
@@ -61,7 +61,7 @@ const ContactUsTable = () => {
                     ))}
                 </TableBody>
             </Table>
-        </>
+        </div>
     )
 }
 
