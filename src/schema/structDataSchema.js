@@ -201,7 +201,7 @@ export const partyFAQSchema = {
             "name": "Do you provide meals?",
             "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Nutritious snacks and lunches are provided daily, with accommodations for most dietary restrictions."
+            "text": "Yes. During your booking, the indoor playground is reserved exclusively for your party and invited guests."
             }
         },
         {
