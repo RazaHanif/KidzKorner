@@ -204,7 +204,7 @@ const ToddlerDaycare = () => {
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
                 <p className="flex text-center">
-                    Ready to join us? Contact us today to learn more about our preschool programs and schedule a tour of our facility! 
+                    Ready to join us?
                 </p>
                 <DaycareForm />
             </div>
