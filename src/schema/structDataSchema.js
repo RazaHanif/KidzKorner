@@ -184,7 +184,7 @@ export const breadcrumbSchema = (breadcrumbs) => {
     }
 };
 
-export const faqSchema = {
+export const partyFAQSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
