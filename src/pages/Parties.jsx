@@ -8,6 +8,7 @@ import {
 import StructData from "../components/StructData";
 import { CircleCheck, PartyPopper } from "lucide-react";
 import PartyAccordion from "../components/FAQAccordion";
+import FAQAccordion from "../components/FAQAccordion";
 
 const Parties = () => {
     const breadCrumb = [
@@ -20,6 +21,33 @@ const Parties = () => {
             url: "https://www.kidzkornermilton.com/birthday-parties",
         },
     ];
+
+    const faq = [
+        {
+            q: "Can we bring our own food?",
+            a: "Yes. Families are welcome to bring their own food at no additional cost. We also provide access to a private kitchen space. Please note that our facility follows a strict nut-free policy."
+        },
+        {
+            q: "Is the playground private?",
+            a: "Yes. During your booking, the indoor playground is reserved exclusively for your party and invited guests."
+        },
+        {
+            q: "How many guests can attend?",
+            a: "Our party packages accommodate up to 50 guests."
+        },
+        {
+            q: "Can we decorate?",
+            a: "Absolutely! Your're welcome to bring your own decorations to personalize the space."
+        },
+        {
+            q: "Do you provide food?",
+            a: "Our Platinum and VIP packages include pizza, while all packages allow you to bring your own food."
+        },
+        {
+            q: "Can we stay longer?",
+            a: "Additional party time may be available for $50 per hour, subject to availability."
+        },
+    ]
 
     return (
         <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16 pb-8">
@@ -224,7 +252,7 @@ const Parties = () => {
                 <h2 className="text-xl font-bold text-center pb-4">
                     FAQ
                 </h2>
-                <PartyAccordion />
+                <FAQAccordion faq={faq} />
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
