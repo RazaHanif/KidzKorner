@@ -153,13 +153,13 @@ const ToddlerDaycare = () => {
                     <p className="flex flex-col justify-center items-center w-full text-center">
                         Our toddler program focuses on the important developmental milestones children experience during their early years. Through guided activities and everyday routines, children strengthen communication skills, coordination, confidence, and independence.
                     </p>
+                    <Image
+                        src="/K_K_39.jpg"
+                        alt="Kidz Korner licensed daycare in  Milton"
+                        w="w-md"
+                    />
                 </div>
 
-                <Image
-                    src="/K_K_39.jpg"
-                    alt="Kidz Korner licensed daycare in  Milton"
-                    w="w-md"
-                />
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4">
