@@ -99,7 +99,7 @@ const ToddlerDaycare = () => {
                         </NavLink>
                     </div>
                 </div>
-                <div>
+                <div className="flex border">
                     <Image 
                         src='/20251010_122316.jpg' 
                         alt='Child Playing With Magnetic Toy at Kidz Korner Milton, Ontario' 
