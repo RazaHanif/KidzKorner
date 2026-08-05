@@ -32,7 +32,7 @@ const ToddlerDaycare = () => {
     const faq = [
         {
             q: "What age is the toddler daycare program?",
-            a: "Our toddler daycare program is designed for young children during their important early years of development. Contact us to learn more about age eligibility and available spaces."
+            a: "Our toddler daycare program is designed for young children during their important early years of development.."
         },
         {
             q: "What does a typical day look like?",
