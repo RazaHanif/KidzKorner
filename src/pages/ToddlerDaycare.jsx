@@ -202,7 +202,6 @@ const ToddlerDaycare = () => {
             <title>
                 Licensed Daycare in Milton, Ontario | Toddler & Preschool Programs | Kidz Korner
             </title>
-            <meta name="keywords" content="childcare Milton, daycare programs Milton, preschool programs Milton, infant care Milton, toddler care Milton" />
             <meta name="description" content="Looking for toddler daycare in Milton? Kidz Korner provides a safe, nurturing toddler program focused on learning, play, and early childhood development." />
         </div>
     );
