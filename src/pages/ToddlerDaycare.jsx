@@ -157,9 +157,6 @@ const ToddlerDaycare = () => {
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
                             What You Can Expect
                         </CardTitle>
-                        <CardDescription className="p-2 bg-accent hidden rounded-md text-bold text-lg">
-                            What we offer
-                        </CardDescription>
                     </CardHeader>
                     <CardContent>
                         <div className="flex lg:flex-row flex-col justify-evenly text-center">
