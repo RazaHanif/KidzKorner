@@ -79,8 +79,8 @@ const ToddlerDaycare = () => {
                 </h2>
                 <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
                     <p className="flex flex-col justify-center items-center w-full text-center">
-
-                        </p>
+                        At Kidz Korner Milton, our Toddler daycare
+                    </p>
                 </div>
             </div>
 
