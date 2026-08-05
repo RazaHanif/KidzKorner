@@ -43,10 +43,6 @@ const ToddlerDaycare = () => {
             a: "Our educators use play-based learning to encourage language development, creativity, social interaction, problem-solving, and independence while helping children reach important developmental milestones."
         },
         {
-            q: "Do toddlers spend time outdoors?",
-            a: "Yes! Weather permitting, children enjoy supervised outdoor play every day, giving them opportunities to stay active, explore, and develop their gross motor skills."
-        },
-        {
             q: "Will my toddler have opportunities to socialize?",
             a: "Absolutely. Our program encourages children to build friendships, practice sharing, improve communication skills, and develop confidence through group activities and cooperative play."
         },
