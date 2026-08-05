@@ -97,6 +97,7 @@ const ToddlerDaycare = () => {
                 <h2 className="text-xl font-bold text-center pb-4">
                     What Makes Our Toddler Program Special
                 </h2>
+
                 <div>
                     <Card>
                         <CardHeader>
