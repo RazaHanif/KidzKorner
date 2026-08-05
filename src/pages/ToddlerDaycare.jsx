@@ -151,17 +151,6 @@ const ToddlerDaycare = () => {
                 />
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 m-4">
-                <h2 className="text-xl font-bold text-center lg:">
-                    Flexible Care Options for Milton Families
-                </h2>
-                <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
-                    <div className="flex flex-col justify-center m-4 lg:m-0">
-                        
-                    </div>
-                </div>
-            </div>
-
             <div className="flex flex-col justify-center w-3/4 lg:py-16 py-8">
                 <Card>
                     <CardHeader>
