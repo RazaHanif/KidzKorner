@@ -233,7 +233,7 @@ export const partyFAQSchema = {
             "name": "Can we stay longer?",
             "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Our party packages accommodate up to 50 guests."
+            "text": "Additional party time may be available for $50 per hour, subject to availability."
             }
         },
     ]
