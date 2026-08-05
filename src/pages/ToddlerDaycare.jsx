@@ -179,12 +179,6 @@ const ToddlerDaycare = () => {
                     </CardContent>
                 </Card>
             </div>
-            
-            <div className="flex lg:flex-row flex-col justify-between items-center w-3/4 gap-4">
-                    <Image src='/20251023_124356.jpg' alt='Child Carving Pumpkin at Kidz Korner Milton, Ontario' />
-                    <Image src='/Photo from Ansa.jpg' alt='Child Whisking Eggs at Kidz Korner Milton, Ontario' />
-                    <Image src='/20250811_104025.jpg' alt='Child Making Sea Shell at Kidz Korner Milton, Ontario' />
-            </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-1 m-4 overflow-x-auto lg:py-16 py-8">
                <h2 className="text-xl font-bold self-center">
