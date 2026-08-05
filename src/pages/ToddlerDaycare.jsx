@@ -155,7 +155,7 @@ const ToddlerDaycare = () => {
                 <Card>
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
-                            What We Offer!
+                            What You Can Expect
                         </CardTitle>
                         <CardDescription className="p-2 bg-accent hidden rounded-md text-bold text-lg">
                             What we offer
