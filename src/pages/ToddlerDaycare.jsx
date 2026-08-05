@@ -49,7 +49,10 @@ const ToddlerDaycare = () => {
                 
                 <div>
                     <Button>
-                        
+                        Schedule a Tour
+                    </Button>
+                    <Button>
+                        Schedule a Tour
                     </Button>
                 </div>
             </div>
