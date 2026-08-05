@@ -163,6 +163,48 @@ const ToddlerDaycare = () => {
                 />
             </div>
 
+            <div className="flex flex-col justify-center items-center w-3/4 border-y py-10 my-8">
+                <h2 className="text-xl font-bold text-center pb-4">
+                    Why Families Love Our Birthday Parties
+                </h2>
+                <div className="flex lg:flex-row flex-col p-2 gap-2">
+                    <div className="flex flex-col gap-2 w-full flex-1">
+                        <p className="flex items-start gap-3">
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Private Venue Rental
+                        </p>
+                        <p className="flex items-start gap-3">
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Indoor Playground exclusive to your guests
+                        </p>
+                        <p className="flex items-start gap-3">
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Bring your own food
+                        ?</p>
+                        <p className="flex items-start gap-3">
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Private Kitchen Available
+                        </p>
+                        <p className="flex items-start gap-3">
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Decorations Welcome
+                        </p>
+                    </div>
+                    <div className="flex flex-col gap-2 w-full flex-1">
+                        <p className="flex items-start gap-3">
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Up to 50 guests
+                        </p>
+                        <p className="flex items-start gap-3">
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Tea & Coffee Station
+                        </p>
+                        <p className="flex items-start gap-3">
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Safe, clean, nut-free environment
+                        </p>
+                        <p className="flex items-start gap-3">
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Convenient Milton location
+                        </p>
+                        <p className="flex items-start gap-3">
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Setup/Take Down Time Included
+                        </p>
+                    </div>
+                </div>
+            </div>
+
             <div className="flex flex-col justify-center w-3/4 lg:py-16 py-8">
                 <Card>
                     <CardHeader>
