@@ -178,7 +178,7 @@ const ToddlerDaycare = () => {
                         </p>
                         <p className="flex items-start gap-3">
                             <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Bring your own food
-                        ?</p>
+                        </p>
                         <p className="flex items-start gap-3">
                             <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Private Kitchen Available
                         </p>
