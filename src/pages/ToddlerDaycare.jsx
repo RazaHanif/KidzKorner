@@ -77,7 +77,7 @@ const ToddlerDaycare = () => {
                         Our commitment to nurturing children in a safe, engaging environment has earned the trust of Milton families for generations.
                     </p>
 
-                    <div className="w-full flex lg:flex-col gap-4 justify-center items-center">
+                    <div className="w-full flex flex-row lg:flex-col gap-4 justify-center items-center">
                         <NavLink 
                             to="#" 
                             end
