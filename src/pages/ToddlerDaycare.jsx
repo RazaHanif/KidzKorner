@@ -52,7 +52,7 @@ const ToddlerDaycare = () => {
                         Schedule a Tour
                     </Button>
                     <Button>
-                        Schedule a Tour
+                        Contact Us
                     </Button>
                 </div>
             </div>
