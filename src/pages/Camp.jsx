@@ -36,7 +36,7 @@ const Camp = () => {
             a: "Our camp programs are designed for school-aged children. If you're unsure whether your child meets the age requirements, feel free to contact us and we'll be happy to help."
         },
         {
-            q: "How many guests can attend?",
+            q: "What should my child bring to camp?",
             a: "Our party packages accommodate up to 50 guests."
         },
         {
