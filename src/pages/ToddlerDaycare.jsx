@@ -82,8 +82,7 @@ const ToddlerDaycare = () => {
                             
                                 framework. Focusing on the well-being, engagement, expression, and belonging of each individual child. 
                                 Our educators provide a high quality programs and a vibrant learning environment, including our most unique feature, the indoor playground.
-                                We provide a variety of care options to meet each families unique needs.
-                            
+                                We provide a variety of care options to meet each families unique needs.    
                         </p>
                 </div>
             </div>
