@@ -178,6 +178,7 @@ const Home = () => {
                                 Toddlers learn best through exploration. Our activities encourage creativity, problem solving, and early development skills.
                             </CardContent>
                         </Card>
+
                         <Card>
                             <CardHeader>
                                 <CardTitle>
@@ -185,9 +186,10 @@ const Home = () => {
                                 </CardTitle>
                             </CardHeader>
                             <CardContent>
-                                Toddlers learn best through exploration. Our activities encourage creativity, problem solving, and early development skills.
+                                Arts, crafts, music, and sensory activities help toddlers express themselves and develop new skills.
                             </CardContent>
                         </Card>
+
                         <Card>
                             <CardHeader>
                                 <CardTitle>
@@ -198,6 +200,7 @@ const Home = () => {
                                 Toddlers learn best through exploration. Our activities encourage creativity, problem solving, and early development skills.
                             </CardContent>
                         </Card>
+                        
                         <Card>
                             <CardHeader>
                                 <CardTitle>
