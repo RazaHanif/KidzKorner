@@ -83,37 +83,74 @@ const ToddlerDaycare = () => {
                 <h2 className="text-xl font-bold text-center pb-4">
                     Why Families Love Our Camps
                 </h2>
-                <div className="flex lg:flex-row flex-col p-2 gap-2">
-                    <div className="flex flex-col gap-2 w-full flex-1">
-                        <p className="flex items-start gap-3">
-                            <Palette className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Creative Art Projects
-                        </p>
-                        <p className="flex items-start gap-3">
-                            <ChefHat className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Hands-on Cooking Classes
-                        </p>
-                        <p className="flex items-start gap-3">
-                            <TestTube2 className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Weekly STEM Activities
-                        </p>
+                    <div>
+                        <Card>
+                            <CardHeader>
+                                <CardTitle>
+                                    Play Based Learning
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                Toddlers learn best through exploration. Our activities encourage creativity, problem solving, and early development skills.
+                            </CardContent>
+                        </Card>
+
+                        <Card>
+                            <CardHeader>
+                                <CardTitle>
+                                    Creative Activities
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                Arts, crafts, music, and sensory activities help toddlers express themselves and develop new skills.
+                            </CardContent>
+                        </Card>
+
+                        <Card>
+                            <CardHeader>
+                                <CardTitle>
+                                    Social Development
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                Children build friendships and learn important skills like sharing, communication, and cooperation.
+                            </CardContent>
+                        </Card>
+
+                        <Card>
+                            <CardHeader>
+                                <CardTitle>
+                                    Building Independence
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                We encourage toddlers to develop confidence through age appropriate routines and responsibilities.
+                            </CardContent>
+                        </Card>
                     </div>
-                    <div className="flex flex-col gap-2 w-full flex-1">
-                        <p className="flex items-start gap-3">
-                            <Shapes className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Active Indoor Play
-                        </p>
-                        <p className="flex items-start gap-3">
-                            <Users className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Small Group Environment
-                        </p>
-                        <p className="flex items-start gap-3">
-                            <Heart className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Caring Registered Educators
-                        </p>
-                    </div>
+
+ 
                 </div>
-            </div>
+
+                <div className="flex lg:flex-row flex-col justify-center items-center gap-4 py-16">
+                    <div className="flex flex-col justify-center items-center w-full lg:p-4">
+
+                        <h2 className="w-full flex justify-center items-center m-4 font-bold text-xl flex-1">
+                            Supporting Your Toddler's Development
+                        </h2>
+
+                        <div className="flex flex-col gap-4">
+                            <p className="w-full flex justify-center items-center flex-1">
+                                Our toddler program focuses on the important developmental milestones children experience during their early years.
+                            </p>
+                        </div>
+                    </div>
+                    <Image
+                        src="/K_K_39.jpg"
+                        alt="Kidz Korner licensed daycare in  Milton"
+                        w="w-md"
+                    />
+                </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 m-4">
                 <h2 className="text-xl font-bold text-center lg:">
