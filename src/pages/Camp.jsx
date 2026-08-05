@@ -33,7 +33,7 @@ const Camp = () => {
         },
         {
             q: "Is the playground private?",
-            a: "Yes. During your booking, the indoor playground is reserved exclusively for your party and invited guests."
+            a: "Our camp programs are designed for school-aged children. If you're unsure whether your child meets the age requirements, feel free to contact us and we'll be happy to help."
         },
         {
             q: "How many guests can attend?",
