@@ -172,7 +172,7 @@ const ToddlerDaycare = () => {
                     <div className="flex flex-col gap-2 w-full flex-1">
                         <p className="flex items-start gap-3">
                             <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Private Venue Rental
+                            Caring Educators
                         </p>
                         <p className="flex items-start gap-3">
                             <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
