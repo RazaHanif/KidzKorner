@@ -276,12 +276,12 @@ const Home = () => {
                     />
                 </div>
 
-                <div className="flex flex-col justify-center items-center p-4 lg:w-full w-3/4">
+                <div className="flex flex-col justify-center items-center w-full p-4">
                     <h2 className="w-full flex justify-center items-center m-4 font-bold text-xl flex-1">
                         The Benefits of Choosing a Licensed Daycare
                     </h2>
 
-                    <div className="flex flex-col gap-4">
+                    <div className="flex flex-col gap-4 lg:w-full w-3/4">
                         <p className="w-full flex justify-center items-center flex-1">
                             Choosing a licensed daycare gives parents confidence that their child is learning and growing in a safe, regulated environment. 
                             Licensed childcare centres in Ontario must meet standards established by the Ministry of Education, including health and safety requirements, educator qualifications, staff-to-child ratios, and ongoing inspections to help ensure high-quality care.
