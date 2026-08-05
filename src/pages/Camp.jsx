@@ -322,6 +322,8 @@ const Camp = () => {
                 <Image src='/20250808_135154.jpg' alt='Child Playing With Sensory Toy at Kidz Korner Milton, Ontario' />
             </div>
 
+            
+
             <div className="flex flex-col justify-center items-center w-3/4 gap-4 lg:pt-16 pt-8">
                 <p className="flex text-center">
                     Contact us today to lock in your spot! 
