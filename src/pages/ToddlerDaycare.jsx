@@ -73,18 +73,12 @@ const ToddlerDaycare = () => {
                 <Image src='/IMG-20260209-WA0006.jpg' alt='Child Playing With Play-Doh at Kidz Korner Milton, Ontario' />
             </div>
 
-            <div className="flex lg:flex-row flex-col justify-evenly items-center w-3/4">
-                <Card>
-                    <CardHeader className="hidden">
-                        <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
-                            Childcare
-                        </CardTitle>
-                        <CardDescription className="p-2 bg-accent hidden rounded-md text-bold text-lg">
-                            Childcare
-                        </CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                        <p className="flex flex-col justify-center items-center w-full text-center">
+            <div className="flex flex-col justify-center items-center w-3/4 lg:py-16 py-8">
+                <h2 className="text-xl font-bold text-center pb-4">
+                    A Safe & Supportive Environment for Growing Toddlers
+                </h2>
+                <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
+                    <p className="flex flex-col justify-center items-center w-full text-center">
                             <span>
                                 Kidz Korner is a licensed child care centre dedicated to providing high quality early learning and care. Our curriculum is guided by the
                             </span>
@@ -97,8 +91,7 @@ const ToddlerDaycare = () => {
                                 We provide a variety of care options to meet each families unique needs.
                             </span>
                         </p>
-                    </CardContent>
-                </Card>
+                </div>
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 lg:py-16 py-8">
