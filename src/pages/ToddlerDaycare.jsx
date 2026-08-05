@@ -98,12 +98,12 @@ const ToddlerDaycare = () => {
                             </Button>
                         </NavLink>
                     </div>
+                </div>
                     <Image 
                         src='/20251010_122316.jpg' 
                         alt='Child Playing With Magnetic Toy at Kidz Korner Milton, Ontario' 
                         w="w-md"    
                     />
-                </div>
             </div>  
 
                 <div>
