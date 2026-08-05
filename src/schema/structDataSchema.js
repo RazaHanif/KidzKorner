@@ -245,7 +245,7 @@ export const playgroundFAQSchema = {
     "mainEntity": [
         {
             "@type": "Question",
-            "name": "Can we bring our own food?",
+            "name": "What ages is the indoor playground suitable for?",
             "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yes. Families are welcome to bring their own food at no additional cost. We also provide access to a private kitchen space. Please note that our facility follows a strict nut-free policy."
