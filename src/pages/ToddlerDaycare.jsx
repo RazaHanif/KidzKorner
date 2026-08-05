@@ -108,7 +108,7 @@ const ToddlerDaycare = () => {
                             </NavLink>
                         </div>
                     </div>
-                </div>
+                </div>  
 
                 <div>
                     <h2 className="text-center w-3/4">
