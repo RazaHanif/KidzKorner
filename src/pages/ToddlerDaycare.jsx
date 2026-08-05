@@ -159,7 +159,7 @@ const ToddlerDaycare = () => {
                         </CardTitle>
                     </CardHeader>
                     <CardContent>
-                        <div className="flex flex-col justify-evenly text-center">
+                        <div className="flex flex-col justify-evenly items-center">
                             <p className="">
                                 Interactive & Play Based Learning
                             </p>
