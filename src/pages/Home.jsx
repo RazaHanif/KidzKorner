@@ -171,7 +171,7 @@ const Home = () => {
                         <Card>
                             <CardHeader>
                                 <CardTitle>
-                                    Card Title
+                                    Play Based Learning
                                 </CardTitle>
                             </CardHeader>
                             <CardContent>
