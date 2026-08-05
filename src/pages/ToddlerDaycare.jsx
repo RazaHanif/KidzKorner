@@ -175,10 +175,12 @@ const ToddlerDaycare = () => {
                             Private Venue Rental
                         </p>
                         <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Indoor Playground exclusive to your guests
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
+                            Indoor Playground exclusive to your guests
                         </p>
                         <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Bring your own food
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
+                            Bring your own food
                         </p>
                         <p className="flex items-start gap-3">
                             <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Private Kitchen Available
