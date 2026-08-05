@@ -40,7 +40,7 @@ const Camp = () => {
             a: "Children should bring a nut-free lunch, snacks, a reusable water bottle, comfortable clothing, indoor shoes, and any personal items they may need throughout the day."
         },
         {
-            q: "Can we decorate?",
+            q: "How ?",
             a: "You can register by completing our online camp registration form. We recommend registering early, as spaces can fill quickly during popular camps such as Summer Camp and March Break Camp."
         },
         {
