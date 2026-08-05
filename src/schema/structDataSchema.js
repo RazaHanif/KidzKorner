@@ -248,7 +248,7 @@ export const playgroundFAQSchema = {
             "name": "What ages is the indoor playground suitable for?",
             "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Families are welcome to bring their own food at no additional cost. We also provide access to a private kitchen space. Please note that our facility follows a strict nut-free policy."
+            "text": "Our indoor playground is designed for children of various ages, with play areas that encourage safe, active fun. Whether your child is a toddler or school-aged, there are engaging activities for them to enjoy. Adult supervision is required at all times."
             }
         },
         {
