@@ -11,7 +11,6 @@ import StructData from "../components/StructData";
 import { CheckCircle } from "lucide-react";
 
 const PlaygroundCard = ({title, price, desc}) => {
-    
     return (
         <Card className="w-full">
             <CardHeader>
