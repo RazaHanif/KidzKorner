@@ -175,7 +175,7 @@ const ToddlerDaycare = () => {
                             <p className="">
                                 Freshly cooked Nutritious Meals & Snacks
                             </p>
-                            <p className="p-4">
+                            <p className="">
                                 Registered Early Childhood Educators (RECE)
                             </p>
                         </div>
