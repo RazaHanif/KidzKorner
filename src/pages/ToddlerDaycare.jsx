@@ -79,6 +79,42 @@ const ToddlerDaycare = () => {
                 </div>
             </div>
 
+            <div className="flex flex-col justify-center items-center w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
+                <h2 className="text-xl font-bold text-center pb-4">
+                    Why Families Love Our Camps
+                </h2>
+                <div className="flex lg:flex-row flex-col p-2 gap-2">
+                    <div className="flex flex-col gap-2 w-full flex-1">
+                        <p className="flex items-start gap-3">
+                            <Palette className="mt-1 h-5 w-5 shrink-0 text-primary"/>
+                            Creative Art Projects
+                        </p>
+                        <p className="flex items-start gap-3">
+                            <ChefHat className="mt-1 h-5 w-5 shrink-0 text-primary"/>
+                            Hands-on Cooking Classes
+                        </p>
+                        <p className="flex items-start gap-3">
+                            <TestTube2 className="mt-1 h-5 w-5 shrink-0 text-primary"/>
+                            Weekly STEM Activities
+                        </p>
+                    </div>
+                    <div className="flex flex-col gap-2 w-full flex-1">
+                        <p className="flex items-start gap-3">
+                            <Shapes className="mt-1 h-5 w-5 shrink-0 text-primary"/>
+                            Active Indoor Play
+                        </p>
+                        <p className="flex items-start gap-3">
+                            <Users className="mt-1 h-5 w-5 shrink-0 text-primary"/>
+                            Small Group Environment
+                        </p>
+                        <p className="flex items-start gap-3">
+                            <Heart className="mt-1 h-5 w-5 shrink-0 text-primary"/>
+                            Caring Registered Educators
+                        </p>
+                    </div>
+                </div>
+            </div>
+
             <div className="flex flex-col justify-center items-center w-3/4 m-4">
                 <h2 className="text-xl font-bold text-center lg:">
                     Flexible Care Options for Milton Families
