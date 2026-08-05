@@ -209,7 +209,7 @@ export const partyFAQSchema = {
             "name": "How mant guests can attend?",
             "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Absolutely. Contact us online or by phone to arrange a tour of our facility."
+            "text": "Our party packages accommodate up to 50 guests."
             }
         }
     ]
