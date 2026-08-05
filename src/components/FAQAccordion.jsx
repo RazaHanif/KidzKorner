@@ -6,7 +6,7 @@ import {
 } from "@/components/ui/accordion"
 
 
-const PartyAccordion = () => {
+const FAQAccordion = () => {
     const faq = [
         {
             q: "Can we bring our own food?",
@@ -58,4 +58,4 @@ const PartyAccordion = () => {
 
 }
 
-export default PartyAccordion;
+export default FAQAccordion;
