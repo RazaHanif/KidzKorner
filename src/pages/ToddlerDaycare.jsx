@@ -69,7 +69,7 @@ const ToddlerDaycare = () => {
                 </h1>
             </div>
 
-            <div className="flex lg:flex-row flex-col justify-center items-center gap-4">
+            <div className="flex lg:flex-row flex-col gap-4">
                 <div className="flex flex-col flex-1 justify-center items-center w-full lg:p-4 border">
                     <p className="w-3/4 flex justify-center items-center flex-1 p-4">
                         Kidz Korner is a family-owned, licensed daycare in Milton, Ontario, dedicated to providing exceptional early learning and childcare for local families. 
