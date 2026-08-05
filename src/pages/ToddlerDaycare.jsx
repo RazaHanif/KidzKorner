@@ -176,7 +176,10 @@ const ToddlerDaycare = () => {
                                 Caring Educators
                             </p>
                             <p className="">
-                                Learning Teamwork and Sharing
+                                Learning Teamwork & Sharing
+                            </p>
+                            <p className="">
+                                Learning Teamwork & Sharing
                             </p>
                             <p className="">
                                 Daily Parent Teacher Communication
