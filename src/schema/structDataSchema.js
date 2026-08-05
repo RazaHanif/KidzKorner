@@ -188,8 +188,7 @@ export const partyFAQSchema =(faq) => {
     return {
         "@context": "https://schema.org",
         "@type": "FAQPage",
-        "mainEntity": [
-            faq.map((item) => ({
+        "mainEntity": faq.map((item) => ({
                 "@type": "Question",
                 "name": item.q,
                 "acceptedAnswer": {
@@ -197,6 +196,5 @@ export const partyFAQSchema =(faq) => {
                     "text": item.a
                 }
             }))
-        ]
     }
 }
