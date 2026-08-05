@@ -220,7 +220,7 @@ const Home = () => {
                     <div className="flex flex-col justify-center items-center w-full lg:p-4">
 
                         <h2 className="w-full flex justify-center items-center m-4 font-bold text-xl flex-1">
-                            Licensed Daycare Conveniently Located in Milton
+                            Supporting Your Toddler's Development
                         </h2>
 
                         <div className="flex flex-col gap-4">
