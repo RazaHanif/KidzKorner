@@ -31,7 +31,7 @@ const ToddlerDaycare = () => {
 
     const faq = [
         {
-            q: "What age is the toddler daycare program?",
+            q: "What age is the toddler program?",
             a: "Our toddler daycare program is designed for young children between the ages of [FILL THIS IN]."
         },
         {
