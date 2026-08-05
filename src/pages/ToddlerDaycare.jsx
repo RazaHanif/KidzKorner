@@ -210,7 +210,7 @@ const ToddlerDaycare = () => {
                     Every day includes a balance of learning, creativity, play, and rest designed to support each child's development.
                 </p>
                 <div className="lg:w-3/4">
-                    <DaycareTimeTable />
+                    
                 </div>
             </div>
 
