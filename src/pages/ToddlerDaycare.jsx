@@ -67,7 +67,7 @@ const ToddlerDaycare = () => {
                 <h1 className="lg:text-5xl text-3xl font-bold font-serif text-center py-4">
                     Toddler Daycare in Milton
                 </h1>
-                <h2 className="font-bold text-center w-3/4">
+                <h2 className="text-center w-3/4">
                     A nurturing and engaging toddler daycare program in Milton designed to support your child's early development through play, exploration, and age-appropriate learning.
                 </h2>
                 
