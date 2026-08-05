@@ -52,7 +52,7 @@ const ToddlerDaycare = () => {
         },
         {
             q: "Are meals and snack time included?",
-            a: "Children enjoy scheduled meal and snack times as part of their daily routine. Please contact us for information regarding meals, dietary accommodations, and our nut-free policy."
+            a: "Children enjoy scheduled meal and snack times as part of their daily routine."
         },
         {
             q: "Can I tour the toddler daycare before registering?",
