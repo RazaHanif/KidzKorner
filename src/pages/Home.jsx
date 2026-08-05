@@ -84,7 +84,7 @@ const Home = () => {
                                             A safe, nurturing environment where toddlers learn through play while developing confidence, social skills, and independence.
                                         </CardDescription>
                                     </CardHeader>
-                                    <CardContent className="flex-1 flex justify-end items-end lg:just">
+                                    <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-center">
                                         <Button className="pointer-events-none" variant="secondary">
                                             Learn More
                                         </Button>
@@ -106,7 +106,7 @@ const Home = () => {
                                             Preparing children for kindergarten through play-based learning, creativity, and structured early education.
                                         </CardDescription>
                                     </CardHeader>
-                                    <CardContent className="flex-1 flex justify-end items-end lg:just">
+                                    <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-center">
                                         <Button className="pointer-events-none" variant="secondary">
                                             Learn More
                                         </Button>
@@ -130,7 +130,7 @@ const Home = () => {
                                             Reliable care before and after school with homework support, activities, and a fun supervised environment.
                                         </CardDescription>
                                     </CardHeader>
-                                    <CardContent className="flex-1 flex justify-end items-end lg:just">
+                                    <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-center">
                                         <Button className="pointer-events-none" variant="secondary">
                                             Learn More
                                         </Button>
@@ -152,7 +152,7 @@ const Home = () => {
                                             Fun, engaging camps during PA Days, March Break, Summer Break and Winter Break with games, learning, and new friendships.
                                         </CardDescription>
                                     </CardHeader>
-                                    <CardContent className="flex-1 flex justify-end items-end lg:just">
+                                    <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-center">
                                         <Button className="pointer-events-none" variant="secondary">
                                             Learn More
                                         </Button>
