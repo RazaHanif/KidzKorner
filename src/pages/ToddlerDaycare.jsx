@@ -44,7 +44,7 @@ const ToddlerDaycare = () => {
                     Toddler Daycare in Milton
                 </h1>
                 <h2 className="text-xl font-bold text-center w-3/4">
-                    Toddler, Preschool, and Before & After School Programs
+                    A nurturing and engaging toddler daycare program
                 </h2>    
             </div>
             
