@@ -17,7 +17,24 @@ const ToddlerDaycare = () => {
         },
     ];
 
-    
+    const faq = [
+        {
+            q: "What types of camps do you offer?",
+            a: "We offer exciting camps throughout the year, including Summer Camp, March Break Camp, Winter Break Camp, and PA Day Camp. Each program features themed activities, games, crafts, and opportunities for children to learn while having fun."
+        },
+        {
+            q: "What age groups can attend your camps?",
+            a: "Our camp programs are designed for school-aged children. If you're unsure whether your child meets the age requirements, feel free to contact us and we'll be happy to help."
+        },
+        {
+            q: "What should my child bring to camp?",
+            a: "Children should bring a nut-free lunch, snacks, a reusable water bottle, comfortable clothing, indoor shoes, and any personal items they may need throughout the day."
+        },
+        {
+            q: "How do I register for a camp?",
+            a: "You can register by completing our online camp registration form. We recommend registering early, as spaces can fill quickly during popular camps such as Summer Camp and March Break Camp."
+        },
+    ]
 
     return (
         <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16 pb-8">
@@ -202,6 +219,13 @@ const ToddlerDaycare = () => {
                 <div className="lg:w-3/4">
                     <DaycareTimeTable />
                 </div>
+            </div>
+            
+            <div className="flex flex-col justify-center items-center w-3/4 border-y py-10 my-8">
+                <h2 className="text-xl font-bold text-center pb-4">
+                    FAQ
+                </h2>
+                <FAQAccordion faq={faq} />
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
