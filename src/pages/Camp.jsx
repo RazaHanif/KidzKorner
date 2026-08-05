@@ -32,7 +32,7 @@ const Camp = () => {
             a: "We offer exciting camps throughout the year, including Summer Camp, March Break Camp, Winter Break Camp, and PA Day Camp. Each program features themed activities, games, crafts, and opportunities for children to learn while having fun."
         },
         {
-            q: "Is the playground private?",
+            q: "What age groups can attend your camps?",
             a: "Our camp programs are designed for school-aged children. If you're unsure whether your child meets the age requirements, feel free to contact us and we'll be happy to help."
         },
         {
