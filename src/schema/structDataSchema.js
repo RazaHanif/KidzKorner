@@ -253,7 +253,7 @@ export const playgroundFAQSchema = {
         },
         {
             "@type": "Question",
-            "name": "Is the playground private?",
+            "name": "Do I need to book in advance?",
             "acceptedAnswer": {
             "@type": "Answer",
             "text": "While walk-ins may be available depending on capacity, we recommend booking ahead to guarantee your preferred date and time, especially during weekends, holidays, and school breaks."
