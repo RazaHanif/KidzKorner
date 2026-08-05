@@ -128,8 +128,6 @@ const ToddlerDaycare = () => {
                             </CardContent>
                         </Card>
                     </div>
-
- 
                 </div>
 
             <div className="flex lg:flex-row flex-col justify-center items-center gap-4 py-16">
