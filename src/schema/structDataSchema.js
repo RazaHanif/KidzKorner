@@ -184,168 +184,19 @@ export const breadcrumbSchema = (breadcrumbs) => {
     }
 };
 
-export const partyFAQSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        
-        {
-            "@type": "Question",
-            "name": "Can we bring our own food?",
-            "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Families are welcome to bring their own food at no additional cost. We also provide access to a private kitchen space. Please note that our facility follows a strict nut-free policy."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Is the playground private?",
-            "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. During your booking, the indoor playground is reserved exclusively for your party and invited guests."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "How many guests can attend?",
-            "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Our party packages accommodate up to 50 guests."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Can we decorate?",
-            "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Absolutely! Your're welcome to bring your own decorations to personalize the space."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Do you provide food?",
-            "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Our Platinum and VIP packages include pizza, while all packages allow you to bring your own food."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Can we stay longer?",
-            "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Additional party time may be available for $50 per hour, subject to availability."
-            }
-        },
-    ]
-}
-
-export const playgroundFAQSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "What ages is the indoor playground suitable for?",
-            "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Our indoor playground is designed for children of various ages, with play areas that encourage safe, active fun. Whether your child is a toddler or school-aged, there are engaging activities for them to enjoy. Adult supervision is required at all times."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Do I need to book in advance?",
-            "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "While walk-ins may be available depending on capacity, we recommend booking ahead to guarantee your preferred date and time, especially during weekends, holidays, and school breaks."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "How many guests can attend?",
-            "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Our party packages accommodate up to 50 guests."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Can we decorate?",
-            "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Absolutely! Your're welcome to bring your own decorations to personalize the space."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Do you provide food?",
-            "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Our Platinum and VIP packages include pizza, while all packages allow you to bring your own food."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Can we stay longer?",
-            "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Additional party time may be available for $50 per hour, subject to availability."
-            }
-        },
-    ]
-}
-
-export const campFAQSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "Can we bring our own food?",
-            "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Families are welcome to bring their own food at no additional cost. We also provide access to a private kitchen space. Please note that our facility follows a strict nut-free policy."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Is the playground private?",
-            "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. During your booking, the indoor playground is reserved exclusively for your party and invited guests."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "How many guests can attend?",
-            "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Our party packages accommodate up to 50 guests."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Can we decorate?",
-            "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Absolutely! Your're welcome to bring your own decorations to personalize the space."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Do you provide food?",
-            "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Our Platinum and VIP packages include pizza, while all packages allow you to bring your own food."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Can we stay longer?",
-            "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Additional party time may be available for $50 per hour, subject to availability."
-            }
-        },
-    ]
+export const partyFAQSchema =(faq) => {
+    return {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            faq.map((item) => ({
+                "@type": "Question",
+                "name": item.q,
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": item.a
+                }
+            }))
+        ]
+    }
 }
