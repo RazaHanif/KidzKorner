@@ -63,7 +63,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col justify-center items-center w-3/4 py-16">
+                <div className="flex flex-col justify-center items-center w-3/4 lg:w-full py-16">
                     <h2 className="w-full flex justify-center items-center m-4 font-bold text-xl flex-1">
                         Programs for Every Stage of Early Learning
                     </h2>
