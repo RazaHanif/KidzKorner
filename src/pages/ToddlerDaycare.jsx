@@ -98,50 +98,52 @@ const ToddlerDaycare = () => {
                     What Makes Our Toddler Program Special
                 </h2>
 
-                <div>
-                    <Card>
-                        <CardHeader>
-                            <CardTitle>
-                                Play Based Learning
-                            </CardTitle>
-                        </CardHeader>
-                        <CardContent>
-                            Toddlers learn best through exploration. Our activities encourage creativity, problem solving, and early development skills.
-                        </CardContent>
-                    </Card>
+                <div className="flex flex-1 flex-col gap-4 w-full">
+                    <div className="flex md:flex-row flex-col gap-4">
+                        <Card>
+                            <CardHeader>
+                                <CardTitle>
+                                    Play Based Learning
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                Toddlers learn best through exploration. Our activities encourage creativity, problem solving, and early development skills.
+                            </CardContent>
+                        </Card>
 
-                    <Card>
-                        <CardHeader>
-                            <CardTitle>
-                                Creative Activities
-                            </CardTitle>
-                        </CardHeader>
-                        <CardContent>
-                            Arts, crafts, music, and sensory activities help toddlers express themselves and develop new skills.
-                        </CardContent>
-                    </Card>
+                        <Card>
+                            <CardHeader>
+                                <CardTitle>
+                                    Creative Activities
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                Arts, crafts, music, and sensory activities help toddlers express themselves and develop new skills.
+                            </CardContent>
+                        </Card>
 
-                    <Card>
-                        <CardHeader>
-                            <CardTitle>
-                                Social Development
-                            </CardTitle>
-                        </CardHeader>
-                        <CardContent>
-                            Children build friendships and learn important skills like sharing, communication, and cooperation.
-                        </CardContent>
-                    </Card>
+                        <Card>
+                            <CardHeader>
+                                <CardTitle>
+                                    Social Development
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                Children build friendships and learn important skills like sharing, communication, and cooperation.
+                            </CardContent>
+                        </Card>
 
-                    <Card>
-                        <CardHeader>
-                            <CardTitle>
-                                Building Independence
-                            </CardTitle>
-                        </CardHeader>
-                        <CardContent>
-                            We encourage toddlers to develop confidence through age appropriate routines and responsibilities.
-                        </CardContent>
-                    </Card>
+                        <Card>
+                            <CardHeader>
+                                <CardTitle>
+                                    Building Independence
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                We encourage toddlers to develop confidence through age appropriate routines and responsibilities.
+                            </CardContent>
+                        </Card>
+                    </div>
                 </div>
             </div>
 
