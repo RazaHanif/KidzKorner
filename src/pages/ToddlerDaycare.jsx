@@ -179,7 +179,7 @@ const ToddlerDaycare = () => {
                                 Learning Teamwork & Sharing
                             </p>
                             <p className="">
-                                Learning Teamwork & Sharing
+                                Building Friendships
                             </p>
                             <p className="">
                                 Daily Parent Teacher Communication
