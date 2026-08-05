@@ -212,5 +212,29 @@ export const partyFAQSchema = {
             "text": "Our party packages accommodate up to 50 guests."
             }
         },
+        {
+            "@type": "Question",
+            "name": "How many guests can attend?",
+            "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our party packages accommodate up to 50 guests."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How many guests can attend?",
+            "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our party packages accommodate up to 50 guests."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How many guests can attend?",
+            "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our party packages accommodate up to 50 guests."
+            }
+        },
     ]
 }
