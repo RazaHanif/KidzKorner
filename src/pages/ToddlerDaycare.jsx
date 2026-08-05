@@ -100,8 +100,8 @@ const ToddlerDaycare = () => {
 
                 <div className="flex flex-1 flex-col gap-4 w-full">
                     <div className="flex md:flex-row flex-col gap-4">
-                        <Card>
-                            <CardHeader>
+                        <Card className="flex-1 flex">
+                            <CardHeader className="text-start">
                                 <CardTitle>
                                     Play Based Learning
                                 </CardTitle>
@@ -111,8 +111,8 @@ const ToddlerDaycare = () => {
                             </CardContent>
                         </Card>
 
-                        <Card>
-                            <CardHeader>
+                        <Card className="flex-1 flex">
+                            <CardHeader className="text-start">
                                 <CardTitle>
                                     Creative Activities
                                 </CardTitle>
@@ -122,8 +122,8 @@ const ToddlerDaycare = () => {
                             </CardContent>
                         </Card>
 
-                        <Card>
-                            <CardHeader>
+                        <Card className="flex-1 flex">
+                            <CardHeader className="text-start">
                                 <CardTitle>
                                     Social Development
                                 </CardTitle>
@@ -133,8 +133,8 @@ const ToddlerDaycare = () => {
                             </CardContent>
                         </Card>
 
-                        <Card>
-                            <CardHeader>
+                        <Card className="flex-1 flex">
+                            <CardHeader className="text-start">
                                 <CardTitle>
                                     Building Independence
                                 </CardTitle>
