@@ -188,29 +188,29 @@ export const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-    {
-        "@type": "Question",
-        "name": "What ages do you accept for daycare?",
-        "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We welcome children from 18 months to 5 years old. Programs are grouped by age to provide developmentally appropriate learning and care."
+        {
+            "@type": "Question",
+            "name": "What ages do you accept for daycare?",
+            "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We welcome children from 18 months to 5 years old. Programs are grouped by age to provide developmentally appropriate learning and care."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Do you provide meals?",
+            "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Nutritious snacks and lunches are provided daily, with accommodations for most dietary restrictions."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can I schedule a tour?",
+            "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Contact us online or by phone to arrange a tour of our facility."
+            }
         }
-    },
-    {
-        "@type": "Question",
-        "name": "Do you provide meals?",
-        "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Nutritious snacks and lunches are provided daily, with accommodations for most dietary restrictions."
-        }
-    },
-    {
-        "@type": "Question",
-        "name": "Can I schedule a tour?",
-        "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Absolutely. Contact us online or by phone to arrange a tour of our facility."
-        }
-    }
     ]
 }
