@@ -28,25 +28,40 @@ const ToddlerDaycare = () => {
             url: "https://www.kidzkornermilton.com/toddler-daycare"
         },
     ];
-
-    const faq = [
-        {
-            q: "What types of camps do you offer?",
-            a: "We offer exciting camps throughout the year, including Summer Camp, March Break Camp, Winter Break Camp, and PA Day Camp. Each program features themed activities, games, crafts, and opportunities for children to learn while having fun."
-        },
-        {
-            q: "What age groups can attend your camps?",
-            a: "Our camp programs are designed for school-aged children. If you're unsure whether your child meets the age requirements, feel free to contact us and we'll be happy to help."
-        },
-        {
-            q: "What should my child bring to camp?",
-            a: "Children should bring a nut-free lunch, snacks, a reusable water bottle, comfortable clothing, indoor shoes, and any personal items they may need throughout the day."
-        },
-        {
-            q: "How do I register for a camp?",
-            a: "You can register by completing our online camp registration form. We recommend registering early, as spaces can fill quickly during popular camps such as Summer Camp and March Break Camp."
-        },
-    ]
+const faq = [
+    {
+        q: "What age is the toddler daycare program?",
+        a: "Our toddler daycare program is designed for young children during their important early years of development. Contact us to learn more about age eligibility and available spaces."
+    },
+    {
+        q: "What does a typical day look like?",
+        a: "Each day includes a balanced routine of free play, group activities, arts and crafts, music, outdoor play, meals, rest time, and hands-on learning experiences designed for toddlers."
+    },
+    {
+        q: "How does your toddler program support early learning?",
+        a: "Our educators use play-based learning to encourage language development, creativity, social interaction, problem-solving, and independence while helping children reach important developmental milestones."
+    },
+    {
+        q: "Do toddlers spend time outdoors?",
+        a: "Yes! Weather permitting, children enjoy supervised outdoor play every day, giving them opportunities to stay active, explore, and develop their gross motor skills."
+    },
+    {
+        q: "Will my toddler have opportunities to socialize?",
+        a: "Absolutely. Our program encourages children to build friendships, practice sharing, improve communication skills, and develop confidence through group activities and cooperative play."
+    },
+    {
+        q: "How do you communicate with parents?",
+        a: "We believe parents are an important part of their child's learning journey. Our team keeps families informed about their child's day, progress, and any important updates."
+    },
+    {
+        q: "Is meals and snack time included?",
+        a: "Children enjoy scheduled meal and snack times as part of their daily routine. Please contact us for information regarding meals, dietary accommodations, and our nut-free policy."
+    },
+    {
+        q: "Can I tour the toddler daycare before registering?",
+        a: "Yes! We encourage families to schedule a tour to meet our educators, explore our classrooms, and learn more about our toddler daycare program in Milton."
+    }
+];
 
     return (
         <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16 pb-8">
