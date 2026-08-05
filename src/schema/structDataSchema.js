@@ -211,6 +211,6 @@ export const partyFAQSchema = {
             "@type": "Answer",
             "text": "Our party packages accommodate up to 50 guests."
             }
-        }
+        },
     ]
 }
