@@ -184,17 +184,16 @@ const ToddlerDaycare = () => {
                                 </p>
                             </div>
                             <div>
-                                
+                                <p className="">
+                                    Daily Parent Teacher Communication
+                                </p>
+                                <p className="">
+                                    Monthly Progress Reports
+                                </p>
+                                <p className="">
+                                    Freshly cooked Nutritious Meals & Snacks
+                                </p>
                             </div>
-                            <p className="">
-                                Daily Parent Teacher Communication
-                            </p>
-                            <p className="">
-                                Monthly Progress Reports
-                            </p>
-                            <p className="">
-                                Freshly cooked Nutritious Meals & Snacks
-                            </p>
                         </div>
                     </CardContent>
                 </Card>
