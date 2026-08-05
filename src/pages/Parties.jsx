@@ -7,7 +7,7 @@ import {
 } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
 import { CircleCheck, PartyPopper } from "lucide-react";
-import PartyAccordion from "../components/PartyAccordion";
+import PartyAccordion from "../components/FAQAccordion";
 
 const Parties = () => {
     const breadCrumb = [
