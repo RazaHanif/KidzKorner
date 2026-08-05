@@ -106,7 +106,7 @@ const ToddlerDaycare = () => {
                                     Play Based Learning
                                 </CardTitle>
                             </CardHeader>
-                            <CardContent>
+                            <CardContent className="flex-1 flex justify-end items-end">
                                 Toddlers learn best through exploration. Our activities encourage creativity, problem solving, and early development skills.
                             </CardContent>
                         </Card>
@@ -117,7 +117,7 @@ const ToddlerDaycare = () => {
                                     Creative Activities
                                 </CardTitle>
                             </CardHeader>
-                            <CardContent>
+                            <CardContent className="flex-1 flex justify-end items-end">
                                 Arts, crafts, music, and sensory activities help toddlers express themselves and develop new skills.
                             </CardContent>
                         </Card>
@@ -128,7 +128,7 @@ const ToddlerDaycare = () => {
                                     Social Development
                                 </CardTitle>
                             </CardHeader>
-                            <CardContent>
+                            <CardContent className="flex-1 flex justify-end items-end">
                                 Children build friendships and learn important skills like sharing, communication, and cooperation.
                             </CardContent>
                         </Card>
@@ -139,7 +139,7 @@ const ToddlerDaycare = () => {
                                     Building Independence
                                 </CardTitle>
                             </CardHeader>
-                            <CardContent>
+                            <CardContent className="flex-1 flex justify-end items-end">
                                 We encourage toddlers to develop confidence through age appropriate routines and responsibilities.
                             </CardContent>
                         </Card>
