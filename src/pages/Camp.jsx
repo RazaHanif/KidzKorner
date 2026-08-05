@@ -37,7 +37,7 @@ const Camp = () => {
         },
         {
             q: "What should my child bring to camp?",
-            a: "Our party packages accommodate up to 50 guests."
+            a: "Children should bring a nut-free lunch, snacks, a reusable water bottle, comfortable clothing, indoor shoes, and any personal items they may need throughout the day."
         },
         {
             q: "Can we decorate?",
