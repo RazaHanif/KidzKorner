@@ -163,7 +163,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col justify-center items-center w-full lg:w-3/4">
+                <div className="flex flex-col justify-center items-center lg:w-full w-3/4">
                     <h2 className="w-full flex justify-center items-center m-4 font-bold text-xl flex-1">
                         Why Families Choose Kidz Korner
                     </h2>
