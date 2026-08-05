@@ -43,14 +43,6 @@ const Camp = () => {
             q: "How do I register for a camp?",
             a: "You can register by completing our online camp registration form. We recommend registering early, as spaces can fill quickly during popular camps such as Summer Camp and March Break Camp."
         },
-        {
-            q: "Do you provide food?",
-            a: "Our Platinum and VIP packages include pizza, while all packages allow you to bring your own food."
-        },
-        {
-            q: "Can we stay longer?",
-            a: "Additional party time may be available for $50 per hour, subject to availability."
-        },
     ]
 
     return (
