@@ -41,7 +41,7 @@ const Camp = () => {
         },
         {
             q: "Can we decorate?",
-            a: "Absolutely! Your're welcome to bring your own decorations to personalize the space."
+            a: "You can register by completing our online camp registration form. We recommend registering early, as spaces can fill quickly during popular camps such as Summer Camp and March Break Camp."
         },
         {
             q: "Do you provide food?",
