@@ -217,7 +217,7 @@ export const partyFAQSchema = {
             "name": "Can we decorate?",
             "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Our party packages accommodate up to 50 guests."
+            "text": "Absolutely! Your're welcome to bring your own decorations to personalize the space."
             }
         },
         {
