@@ -79,7 +79,7 @@ const ToddlerDaycare = () => {
                 </h2>
                 <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
                     <p className="flex flex-col justify-center items-center w-full text-center">
-                        At Kidz Korner, our Toddler daycare
+                        At Kidz Korner, our toddler daycare
                     </p>
                 </div>
             </div>
