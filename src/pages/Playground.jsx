@@ -31,16 +31,35 @@ const PlaygroundCard = ({title, price, desc}) => {
 }
 
 const Playground = () => {
-        const breadCrumb = [
-            {
-                name: "Home",
-                url: "https://www.kidzkornermilton.com/"
-            },
-            {
-                name: "Playground",
-                url: "https://www.kidzkornermilton.com/playground"
-            },
-        ]; 
+    const breadCrumb = [
+        {
+            name: "Home",
+            url: "https://www.kidzkornermilton.com/"
+        },
+        {
+            name: "Playground",
+            url: "https://www.kidzkornermilton.com/playground"
+        },
+    ]; 
+    
+    const faq = [
+        {
+            q: "What ages is the indoor playground suitable for?",
+            a: "Our indoor playground is designed for children of various ages, with play areas that encourage safe, active fun. Whether your child is a toddler or school-aged, there are engaging activities for them to enjoy. Adult supervision is required at all times."
+        },
+        {
+            q: "Do I need to book in advance?",
+            a: "While walk-ins may be available depending on capacity, we recommend booking ahead to guarantee your preferred date and time, especially during weekends, holidays, and school breaks."
+        },
+        {
+            q: "Can I host a birthday party at Kidz Korner's indoor playground?",
+            a: "Yes! We offer birthday party packages that include access to our indoor playground, a private party space, and plenty of fun for children and guests. Visit our Birthday Parties page for package details."
+        },
+        {
+            q: "Where is your indoor playground located?",
+            a: "Our indoor playground is conveniently located in Milton, Ontario, making it an excellent destination for families looking for indoor activities, birthday parties, and year-round play."
+        },
+    ]
 
 
     return (
@@ -114,6 +133,13 @@ const Playground = () => {
             <div className="flex lg:flex-row flex-col gap-8 lg:justify-around justify-center items-center w-3/4 lg:pt-16 pt-8">
                 <Image src='/20250930_142748.jpg' alt="Children playing on the indoor playground at Kidz Korner in Milton Ontario" w="w-md"/>
                 <Image src='/20250930_142442.jpg' alt="Indoor climbing structure at Kidz Korner playground in Milton Ontario" />
+            </div>
+
+            <div className="flex flex-col justify-center items-center w-3/4 border-y py-10 my-8">
+                <h2 className="text-xl font-bold text-center pb-4">
+                    FAQ
+                </h2>
+                <FAQAccordion faq={faq} />
             </div>
 
             <StructData schema={localBusinessSchema} />
