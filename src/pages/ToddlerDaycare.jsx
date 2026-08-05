@@ -95,7 +95,7 @@ const ToddlerDaycare = () => {
 
             <div className="flex flex-col justify-center items-center w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
                 <h2 className="text-xl font-bold text-center pb-4">
-                    Why Families Love Our Camps
+                    What Makes Our Toddler Program Special
                 </h2>
                 <div>
                     <Card>
