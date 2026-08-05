@@ -1,3 +1,4 @@
+import FAQAccordion from "../components/FAQAccordion";
 import StructData from "../components/StructData";
 import { breadcrumbSchema, faqSchema, localBusinessSchema } from "../schema/structDataSchema";
 
