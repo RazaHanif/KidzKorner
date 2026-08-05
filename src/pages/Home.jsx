@@ -193,14 +193,14 @@ const Home = () => {
                         <Card>
                             <CardHeader>
                                 <CardTitle>
-                                    Play Based Learning
+                                    Social Development
                                 </CardTitle>
                             </CardHeader>
                             <CardContent>
                                 Toddlers learn best through exploration. Our activities encourage creativity, problem solving, and early development skills.
                             </CardContent>
                         </Card>
-                        
+
                         <Card>
                             <CardHeader>
                                 <CardTitle>
