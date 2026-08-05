@@ -256,7 +256,7 @@ export const playgroundFAQSchema = {
             "name": "Is the playground private?",
             "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. During your booking, the indoor playground is reserved exclusively for your party and invited guests."
+            "text": "While walk-ins may be available depending on capacity, we recommend booking ahead to guarantee your preferred date and time, especially during weekends, holidays, and school breaks."
             }
         },
         {
