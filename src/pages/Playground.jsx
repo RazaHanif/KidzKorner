@@ -9,6 +9,7 @@ import Image from "@/components/Image";
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
 import { CheckCircle } from "lucide-react";
+import FAQAccordion from "../components/FAQAccordion";
 
 const PlaygroundCard = ({title, price, desc}) => {
     return (
