@@ -214,7 +214,7 @@ export const partyFAQSchema = {
         },
         {
             "@type": "Question",
-            "name": "How many guests can attend?",
+            "name": "How attend?",
             "acceptedAnswer": {
             "@type": "Answer",
             "text": "Our party packages accommodate up to 50 guests."
