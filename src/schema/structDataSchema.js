@@ -225,7 +225,7 @@ export const partyFAQSchema = {
             "name": "How many guests can attend?",
             "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Our party packages accommodate up to 50 guests."
+            "text": "Our Platinum and VIP packages include pizza, while all packages allow you to bring your own food."
             }
         },
         {
