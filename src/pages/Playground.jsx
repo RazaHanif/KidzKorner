@@ -6,7 +6,7 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import Image from "@/components/Image";
-import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
+import { breadcrumbSchema, faqSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
 import { CheckCircle } from "lucide-react";
 import FAQAccordion from "../components/FAQAccordion";
@@ -145,6 +145,7 @@ const Playground = () => {
 
             <StructData schema={localBusinessSchema} />
             <StructData schema={breadcrumbSchema(breadCrumb)} />
+            <StructData schema={faqSchema(faq)} />
 
             <title>
                 Indoor Playground in Milton, Ontario | Kidz Korner 
