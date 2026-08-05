@@ -188,12 +188,12 @@ export const faqSchema =(faq) => {
     return {
         "@context": "https://schema.org",
         "@type": "FAQPage",
-        "mainEntity": faq.map((item) => ({
+        "mainEntity": faq.map(({ q, a}) => ({
             "@type": "Question",
-            "name": item.q,
+            "name": q,
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": item.a
+                "text": a
             }
         }))
     }
