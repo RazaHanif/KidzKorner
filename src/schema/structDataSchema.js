@@ -190,7 +190,7 @@ export const partyFAQSchema = {
     "mainEntity": [
         {
             "@type": "Question",
-            "name": "What ages do you accept for daycare?",
+            "name": "Can we bring our own food?",
             "acceptedAnswer": {
             "@type": "Answer",
             "text": "We welcome children from 18 months to 5 years old. Programs are grouped by age to provide developmentally appropriate learning and care."
