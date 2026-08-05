@@ -206,7 +206,7 @@ export const partyFAQSchema = {
         },
         {
             "@type": "Question",
-            "name": "Can I schedule a tour?",
+            "name": "How m?",
             "acceptedAnswer": {
             "@type": "Answer",
             "text": "Absolutely. Contact us online or by phone to arrange a tour of our facility."
