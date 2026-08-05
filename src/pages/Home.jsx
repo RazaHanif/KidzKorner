@@ -208,7 +208,7 @@ const Home = () => {
                                 </CardTitle>
                             </CardHeader>
                             <CardContent>
-                                We encourage toddlers to develop confidence through age appropriate routines and responsibilites.
+                                We encourage toddlers to develop confidence through age appropriate routines and responsibilities.
                             </CardContent>
                         </Card>
                     </div>
