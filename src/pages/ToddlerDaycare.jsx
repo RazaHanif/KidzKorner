@@ -51,7 +51,7 @@ const ToddlerDaycare = () => {
             a: "We believe parents are an important part of their child's learning journey. Our team keeps families informed about their child's day, progress, and any important updates."
         },
         {
-            q: "Is meals and snack time included?",
+            q: "Are meals and snack time included?",
             a: "Children enjoy scheduled meal and snack times as part of their daily routine. Please contact us for information regarding meals, dietary accommodations, and our nut-free policy."
         },
         {
