@@ -167,6 +167,9 @@ const Home = () => {
                     <h2 className="w-full flex justify-center items-center m-4 font-bold text-xl flex-1">
                         Why Families Choose Kidz Korner
                     </h2>
+                    <div>
+                        
+                    </div>
 
  
                 </div>
