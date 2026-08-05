@@ -178,6 +178,36 @@ const Home = () => {
                                 Toddlers learn best through exploration. Our activities encourage creativity, problem solving, and early development skills.
                             </CardContent>
                         </Card>
+                        <Card>
+                            <CardHeader>
+                                <CardTitle>
+                                    Play Based Learning
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                Toddlers learn best through exploration. Our activities encourage creativity, problem solving, and early development skills.
+                            </CardContent>
+                        </Card>
+                        <Card>
+                            <CardHeader>
+                                <CardTitle>
+                                    Play Based Learning
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                Toddlers learn best through exploration. Our activities encourage creativity, problem solving, and early development skills.
+                            </CardContent>
+                        </Card>
+                        <Card>
+                            <CardHeader>
+                                <CardTitle>
+                                    Play Based Learning
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                Toddlers learn best through exploration. Our activities encourage creativity, problem solving, and early development skills.
+                            </CardContent>
+                        </Card>
                     </div>
 
  
