@@ -1,5 +1,5 @@
 import StructData from "../components/StructData";
-import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
+import { breadcrumbSchema, faqSchema, localBusinessSchema } from "../schema/structDataSchema";
 
 const ToddlerDaycare = () => {
     const breadCrumb = [
@@ -238,7 +238,7 @@ const ToddlerDaycare = () => {
 
             <StructData schema={localBusinessSchema} />
             <StructData schema={breadcrumbSchema(breadCrumb)} />
-            
+            <StructData schema={faqSchema(faq)} />
 
             <title>
                 Licensed Daycare in Milton, Ontario | Toddler & Preschool Programs | Kidz Korner
