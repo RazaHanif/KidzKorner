@@ -36,7 +36,7 @@ const ToddlerDaycare = () => {
         },
         {
             q: "What does a typical day look like?",
-            a: "Each day includes a balanced routine of free play, group activities, arts and crafts, music, outdoor play, meals, rest time, and hands-on learning experiences designed for toddlers."
+            a: "Each day includes a balanced routine of free play, group activities, arts and crafts, music, indoor play, meals, rest time, and hands-on learning experiences designed for toddlers."
         },
         {
             q: "How does your toddler program support early learning?",
