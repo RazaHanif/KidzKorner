@@ -74,7 +74,7 @@ const Playground = () => {
                 </h2>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 border-y lg:py-16 py-8 lg:my-8 my-4">
+            <div className="flex flex-col justify-center items-center w-3/4 border-y lg:py-16 py-8">
                 <p className="flex lg:flex-row flex-col justify-center items-center lg:text-justify text-center">
                     Looking for an indoor playground in Milton where your child can play, explore, and build new skills? 
                     Kidz Korner offers a safe and engaging indoor play space designed for toddlers and young children. 
@@ -96,7 +96,7 @@ const Playground = () => {
                 />
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 border-y lg:py-16 py-8 lg:my-8 my-4">
+            <div className="flex flex-col justify-center items-center w-3/4 border-y lg:py-16 py-8">
                 <div className="flex flex-col justify-center items-center">
                     <h2 className="text-xl font-bold text-center">
                         Explore Our Indoor Playground
@@ -136,7 +136,7 @@ const Playground = () => {
                 <Image src='/20250930_142442.jpg' alt="Indoor climbing structure at Kidz Korner playground in Milton Ontario" />
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 borderlg:py-16 py-8 lg:my-8 my-4">
+            <div className="flex flex-col justify-center items-center w-3/4 border-y py-10 my-8">
                 <h2 className="text-xl font-bold text-center pb-4">
                     FAQ
                 </h2>
