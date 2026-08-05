@@ -173,24 +173,24 @@ const ToddlerDaycare = () => {
                     <CardContent>
                         <div className="flex lg:flex-row flex-col justify-center items-center">
                             <div className="flex flex-col w-full justify-center items-center">
-                                <p className="w-full text-center">
+                                <p className="w-full text-center lg:text-start">
                                     Caring Educators
                                 </p>
-                                <p className="w-full text-center">
+                                <p className="w-full text-center lg:text-start">
                                     Learning Teamwork & Sharing
                                 </p>
-                                <p className="w-full text-center">
+                                <p className="w-full text-center lg:text-start">
                                     Building Friendships
                                 </p>
                             </div>
                             <div className="flex flex-col w-full justify-center items-center">
-                                <p className="w-full text-center">
+                                <p className="w-full text-center lg:text-start">
                                     Daily Parent Teacher Communication
                                 </p>
-                                <p className="w-full text-center">
+                                <p className="w-full text-center lg:text-start">
                                     Monthly Progress Reports
                                 </p>
-                                <p className="w-full text-center">
+                                <p className="w-full text-center lg:text-start">
                                     Freshly cooked Nutritious Meals & Snacks
                                 </p>
                             </div>
