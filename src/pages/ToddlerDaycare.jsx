@@ -79,17 +79,11 @@ const ToddlerDaycare = () => {
                 </h2>
                 <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
                     <p className="flex flex-col justify-center items-center w-full text-center">
-                            <span>
-                                Kidz Korner is a licensed child care centre dedicated to providing high quality early learning and care. Our curriculum is guided by the
-                            </span>
-                            <span className="italic self-center">
-                                Ministry of Education's "How Does Learning Happen?" (HDLH) 
-                            </span>
-                            <span>
+                            
                                 framework. Focusing on the well-being, engagement, expression, and belonging of each individual child. 
                                 Our educators provide a high quality programs and a vibrant learning environment, including our most unique feature, the indoor playground.
                                 We provide a variety of care options to meet each families unique needs.
-                            </span>
+                            
                         </p>
                 </div>
             </div>
