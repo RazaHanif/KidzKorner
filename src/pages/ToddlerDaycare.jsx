@@ -208,7 +208,7 @@ const ToddlerDaycare = () => {
                 </p>
                 
                 MAKE THIS FORM TODDLER SPECIFIC 
-                [DaycareForm type="toddler"]
+                {/* [DaycareForm type="toddler"] */}
                 <DaycareForm />
             </div>
 
