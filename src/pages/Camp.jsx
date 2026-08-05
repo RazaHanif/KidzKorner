@@ -9,9 +9,10 @@ import { Button } from "@/components/ui/button"
 import { NavLink } from 'react-router-dom';
 import CampForm from "@/components/CampForm";
 import Image from "@/components/Image";
-import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
+import { breadcrumbSchema, faqSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
 import { ChefHat, Flower, Heart, Leaf, Palette, Shapes, Snowflake, Sun, TestTube2, Users } from "lucide-react";
+import FAQAccordion from "../components/FAQAccordion";
 
 const Camp = () => {
     const breadCrumb = [
@@ -24,6 +25,34 @@ const Camp = () => {
             url: "https://www.kidzkornermilton.com/camp"
         },
     ];
+
+    const faq = [
+        {
+            q: "Can we bring our own food?",
+            a: "Yes. Families are welcome to bring their own food at no additional cost. We also provide access to a private kitchen space. Please note that our facility follows a strict nut-free policy."
+        },
+        {
+            q: "Is the playground private?",
+            a: "Yes. During your booking, the indoor playground is reserved exclusively for your party and invited guests."
+        },
+        {
+            q: "How many guests can attend?",
+            a: "Our party packages accommodate up to 50 guests."
+        },
+        {
+            q: "Can we decorate?",
+            a: "Absolutely! Your're welcome to bring your own decorations to personalize the space."
+        },
+        {
+            q: "Do you provide food?",
+            a: "Our Platinum and VIP packages include pizza, while all packages allow you to bring your own food."
+        },
+        {
+            q: "Can we stay longer?",
+            a: "Additional party time may be available for $50 per hour, subject to availability."
+        },
+    ]
+    
     return (
         <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16">
             <div className="flex flex-col justify-center items-center w-full mb-4">
@@ -322,7 +351,12 @@ const Camp = () => {
                 <Image src='/20250808_135154.jpg' alt='Child Playing With Sensory Toy at Kidz Korner Milton, Ontario' />
             </div>
 
-            
+            <div className="flex flex-col justify-center items-center w-3/4 border-y py-10 my-8">
+                <h2 className="text-xl font-bold text-center pb-4">
+                    FAQ
+                </h2>
+                <FAQAccordion faq={faq} />
+            </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-4 lg:pt-16 pt-8">
                 <p className="flex text-center">
@@ -333,6 +367,7 @@ const Camp = () => {
 
             <StructData schema={localBusinessSchema} />
             <StructData schema={breadcrumbSchema(breadCrumb)} />
+            <StructData schema={faqSchema(faq)} />
 
             <title>
                 Kids Camps in Milton | Kidz Korner
