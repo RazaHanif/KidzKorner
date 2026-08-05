@@ -200,42 +200,6 @@ const ToddlerDaycare = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center w-3/4 lg:py-16 py-8">
-                <Card>
-                    <CardHeader>
-                        <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
-                            What You Can Expect
-                        </CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                        <div className="flex lg:flex-row flex-col justify-center items-center">
-                            <div className="flex flex-col w-full justify-center items-center">
-                                <p className="w-full text-center lg:text-start">
-                                    Caring Educators
-                                </p>
-                                <p className="w-full text-center lg:text-start">
-                                    Learning Teamwork & Sharing
-                                </p>
-                                <p className="w-full text-center lg:text-start">
-                                    Building Friendships
-                                </p>
-                            </div>
-                            <div className="flex flex-col w-full justify-center items-center">
-                                <p className="w-full text-center lg:text-start">
-                                    Daily Parent Teacher Communication
-                                </p>
-                                <p className="w-full text-center lg:text-start">
-                                    Monthly Progress Reports
-                                </p>
-                                <p className="w-full text-center lg:text-start">
-                                    Freshly cooked Nutritious Meals & Snacks
-                                </p>
-                            </div>
-                        </div>
-                    </CardContent>
-                </Card>
-            </div>
-
             <div className="flex flex-col justify-center items-center w-3/4 border-y py-10 my-8">
                 <h2 className="text-xl font-bold text-center pb-4">
                     FAQ
