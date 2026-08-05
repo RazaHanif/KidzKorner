@@ -14,6 +14,7 @@ import Daycare from "./pages/Daycare.jsx";
 import ToddlerDaycare from "./pages/ToddlerDaycare.jsx";
 import PreschoolDaycare from "./pages/PreschoolDaycare.jsx";
 import BeforeAfterDaycare from "./pages/BeforeAfterDaycare.jsx";
+import ScrollToTop from "./components/ScrollToTop.jsx";
 
 /* 
 
@@ -41,6 +42,9 @@ function App() {
         <div className="flex-1 flex flex-col w-full min-h-screen">
             <Header />
             <div className="flex-1 flex flex-col w-full p-4 relative">
+
+                <ScrollToTop />
+
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="*" element={<NotFound />} />
