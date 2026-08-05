@@ -198,7 +198,7 @@ export const partyFAQSchema = {
         },
         {
             "@type": "Question",
-            "name": "Do you provide meals?",
+            "name": "Is the playground private?",
             "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yes. During your booking, the indoor playground is reserved exclusively for your party and invited guests."
