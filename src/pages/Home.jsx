@@ -175,7 +175,7 @@ const Home = () => {
                                 </CardTitle>
                             </CardHeader>
                             <CardContent>
-                                
+                                Toddlers learn best through exploration. Our activities encourage creativity, problem solving, and early development skills.
                             </CardContent>
                         </Card>
                     </div>
