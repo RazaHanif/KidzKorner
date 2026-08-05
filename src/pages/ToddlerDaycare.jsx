@@ -106,22 +106,6 @@ const ToddlerDaycare = () => {
                 />
             </div>  
 
-                <div>
-                    <h2 className="text-center w-3/4">
-                        A nurturing and engaging toddler daycare program in Milton designed to support your child's early development through play, exploration, and age-appropriate learning.
-                    </h2>
-                
-                    <div>
-                        <Button>
-                            Schedule a Tour
-                        </Button>
-                        <Button>
-                            Contact Us
-                        </Button>
-                    </div>
-                    <Image src='/20251010_122316.jpg' alt='Child Playing With Magnetic Toy at Kidz Korner Milton, Ontario' />
-                </div>
-
             <div className="flex flex-col justify-center items-center w-3/4 lg:py-16 py-8">
                 <h2 className="text-xl font-bold text-center pb-4">
                     A Safe & Supportive Environment for Growing Toddlers
