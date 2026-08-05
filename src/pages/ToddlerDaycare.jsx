@@ -172,6 +172,9 @@ const ToddlerDaycare = () => {
                     </CardHeader>
                     <CardContent>
                         <div className="flex flex-col justify-center items-center">
+                            <div>
+                                
+                            </div>
                             <p className="">
                                 Caring Educators
                             </p>
