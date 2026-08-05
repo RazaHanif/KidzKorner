@@ -73,16 +73,15 @@ const ToddlerDaycare = () => {
                     </h2>
                 
                     <div>
-                        
+                        <Button>
+                            Schedule a Tour
+                        </Button>
+                        <Button>
+                            Contact Us
+                        </Button>
                     </div>
-                    <Button>
-                        Schedule a Tour
-                    </Button>
-                    <Button>
-                        Contact Us
-                    </Button>
+                    <Image src='/20251010_122316.jpg' alt='Child Playing With Magnetic Toy at Kidz Korner Milton, Ontario' />
                 </div>
-                <Image src='/20251010_122316.jpg' alt='Child Playing With Magnetic Toy at Kidz Korner Milton, Ontario' />
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 lg:py-16 py-8">
