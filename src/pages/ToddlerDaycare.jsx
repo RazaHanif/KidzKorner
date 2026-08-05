@@ -167,7 +167,7 @@ const ToddlerDaycare = () => {
                                 Safe & Clean Classrooms
                             </p>
                             <p className="">
-                                Daily 
+                                Daily Communication with Families
                             </p>
                             <p className="">
                                 Monthly Progress Reports
