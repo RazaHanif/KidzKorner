@@ -223,9 +223,9 @@ const Home = () => {
                             Supporting Your Toddler's Development
                         </h2>
 
-                        <div className="flex flex-col gap-4">years.
+                        <div className="flex flex-col gap-4">
                             <p className="w-full flex justify-center items-center flex-1">
-                                Our toddler program focuses on the important developmental milestones children experience during their early 
+                                Our toddler program focuses on the important developmental milestones children experience during their early years.
                             </p>
 
                             <p className="w-full flex justify-center items-center flex-1">
