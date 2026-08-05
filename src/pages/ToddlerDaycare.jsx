@@ -175,9 +175,6 @@ const ToddlerDaycare = () => {
                             <p className="">
                                 Freshly cooked Nutritious Meals & Snacks
                             </p>
-                            <p className="">
-                                Registered Early Childhood Educators (RECE)
-                            </p>
                         </div>
                     </CardContent>
                 </Card>
