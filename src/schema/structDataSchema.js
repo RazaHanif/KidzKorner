@@ -222,7 +222,7 @@ export const partyFAQSchema = {
         },
         {
             "@type": "Question",
-            "name": "How many guests can attend?",
+            "name": "Do you provide food?",
             "acceptedAnswer": {
             "@type": "Answer",
             "text": "Our Platinum and VIP packages include pizza, while all packages allow you to bring your own food."
