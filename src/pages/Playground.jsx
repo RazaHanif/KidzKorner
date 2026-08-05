@@ -136,7 +136,7 @@ const Playground = () => {
                 <Image src='/20250930_142442.jpg' alt="Indoor climbing structure at Kidz Korner playground in Milton Ontario" />
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 border-y py-10 my-8">
+            <div className="flex flex-col justify-center items-center w-3/4 border-y lg:py-16 py-8 lg:my-8 my-4">
                 <h2 className="text-xl font-bold text-center pb-4">
                     FAQ
                 </h2>
