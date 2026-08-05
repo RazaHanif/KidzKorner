@@ -208,7 +208,7 @@ const Home = () => {
                                 </CardTitle>
                             </CardHeader>
                             <CardContent>
-                                We enc
+                                We encourage toddlers to develop confidence through age
                             </CardContent>
                         </Card>
                     </div>
