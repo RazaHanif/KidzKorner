@@ -72,6 +72,9 @@ const ToddlerDaycare = () => {
                         A nurturing and engaging toddler daycare program in Milton designed to support your child's early development through play, exploration, and age-appropriate learning.
                     </h2>
                 
+                    <div>
+                        
+                    </div>
                     <Button>
                         Schedule a Tour
                     </Button>
