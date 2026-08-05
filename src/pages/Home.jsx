@@ -169,47 +169,12 @@ const Home = () => {
                     </h2>
                     <div>
                         <Card>
-                            <CardHeader>
-                                <CardTitle>
-                                    Play Based Learning
-                                </CardTitle>
-                            </CardHeader>
-                            <CardContent>
-                                Toddlers learn best through exploration. Our activities encourage creativity, problem solving, and early development skills.
-                            </CardContent>
-                        </Card>
-
-                        <Card>
-                            <CardHeader>
-                                <CardTitle>
-                                    Creative Activities
-                                </CardTitle>
-                            </CardHeader>
-                            <CardContent>
-                                Arts, crafts, music, and sensory activities help toddlers express themselves and develop new skills.
-                            </CardContent>
-                        </Card>
-
-                        <Card>
-                            <CardHeader>
-                                <CardTitle>
-                                    Social Development
-                                </CardTitle>
-                            </CardHeader>
-                            <CardContent>
-                                Children build friendships and learn important skills like sharing, communication, and cooperation.
-                            </CardContent>
-                        </Card>
-
-                        <Card>
-                            <CardHeader>
-                                <CardTitle>
-                                    Building Independence
-                                </CardTitle>
-                            </CardHeader>
-                            <CardContent>
-                                We encourage toddlers to develop confidence through age appropriate routines and responsibilities.
-                            </CardContent>
+                        <CardHeader>
+                        <CardTitle>Card Title</CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                            <p>Card Content</p>
+                        </CardContent>
                         </Card>
                     </div>
 
@@ -220,12 +185,24 @@ const Home = () => {
                     <div className="flex flex-col justify-center items-center w-full lg:p-4">
 
                         <h2 className="w-full flex justify-center items-center m-4 font-bold text-xl flex-1">
-                            Supporting Your Toddler's Development
+                            Licensed Daycare Conveniently Located in Milton
                         </h2>
 
                         <div className="flex flex-col gap-4">
                             <p className="w-full flex justify-center items-center flex-1">
-                                Our toddler program focuses on the important developmental milestones children experience during their early years.
+                                Kidz Korner is proud to serve Milton families with high-quality licensed childcare in a convenient, accessible location. 
+                                Situated near Highway 401 and just minutes from downtown Milton, our daycare makes daily drop-offs and pick-ups easy for busy parents commuting throughout the area.
+                            </p>
+
+                            <p className="w-full flex justify-center items-center flex-1">
+                                We welcome children from neighborhoods across
+                                Milton, including Clarke, Scott, Willmott, Beaty,
+                                Harrison, Dempsey, Timberlea, and surrounding
+                                communities throughout the Halton Region. Whether
+                                you're searching for a trusted daycare in Milton or
+                                reliable childcare close to home, Kidz Korner
+                                provides a safe, nurturing environment where
+                                children can learn, grow, and thrive.
                             </p>
                         </div>
                     </div>
@@ -238,11 +215,19 @@ const Home = () => {
 
                 <div className="flex flex-col justify-center items-center w-full p-4">
                     <h2 className="w-full flex justify-center items-center m-4 font-bold text-xl flex-1">
-                        What You Can Expect
+                        The Benefits of Choosing a Licensed Daycare
                     </h2>
 
                     <div className="flex flex-col gap-4">
-                            
+                        <p className="w-full flex justify-center items-center flex-1">
+                            Choosing a licensed daycare gives parents confidence that their child is learning and growing in a safe, regulated environment. 
+                            Licensed childcare centres in Ontario must meet standards established by the Ministry of Education, including health and safety requirements, educator qualifications, staff-to-child ratios, and ongoing inspections to help ensure high-quality care.
+                        </p>
+
+                        <p className="w-full flex justify-center items-center flex-1">
+                            At Kidz Korner, we follow Ontario's licensed childcare standards while delivering a play-based curriculum that supports every child's development.
+                            Our focus is on creating a nurturing environment where children feel secure, develop important life skills, and build a strong foundation for future learning, while parents enjoy peace of mind knowing their child is in experienced and caring hands.
+                        </p>
                     </div>
                 </div>
 
