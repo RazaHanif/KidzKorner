@@ -173,7 +173,7 @@ const ToddlerDaycare = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 lg:py-16 py-8">
+            <div className="flex flex-col justify-center items-center w-3/4">
                 <h2 className="text-xl font-bold text-center pb-4">
                     Supporting Your Toddler's Development
                 </h2>
