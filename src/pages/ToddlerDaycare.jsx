@@ -40,7 +40,7 @@ const ToddlerDaycare = () => {
         },
         {
             q: "How does your toddler program support early learning?",
-            a: "Our educators use play-based learning to encourage language development, creativity, social interaction, problem-solving, and independence while helping children reach important developmental milestones."
+            a: "Our educators use play based learning to encourage language development, creativity, social interaction, problem-solving, and independence while helping children reach important developmental milestones."
         },
         {
             q: "Will my toddler have opportunities to socialize?",
