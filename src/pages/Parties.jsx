@@ -3,6 +3,7 @@ import PartyCard from "@/components/PartyCard";
 import Image from "@/components/Image";
 import {
     breadcrumbSchema,
+    faqSchema,
     localBusinessSchema,
 } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
@@ -264,6 +265,7 @@ const Parties = () => {
 
             <StructData schema={localBusinessSchema} />
             <StructData schema={breadcrumbSchema(breadCrumb)} />
+            <StructData schema={faqSchema(faq)} />
 
             <title>Kids Parties in Milton, Ontario | Kidz Korner</title>
             <meta
