@@ -225,7 +225,7 @@ const ToddlerDaycare = () => {
                 <p className="flex text-center">
                     Ready to join us? Contact us today to learn more about our preschool programs and schedule a tour of our facility! 
                 </p>
-                <DaycareForm/>
+                <DaycareForm />
             </div>
 
 
