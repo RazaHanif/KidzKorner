@@ -28,7 +28,7 @@ const Camp = () => {
 
     const faq = [
         {
-            q: "Can we bring our own food?",
+            q: "What types of camps do you offer?",
             a: "Yes. Families are welcome to bring their own food at no additional cost. We also provide access to a private kitchen space. Please note that our facility follows a strict nut-free policy."
         },
         {
@@ -52,7 +52,7 @@ const Camp = () => {
             a: "Additional party time may be available for $50 per hour, subject to availability."
         },
     ]
-    
+
     return (
         <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16">
             <div className="flex flex-col justify-center items-center w-full mb-4">
