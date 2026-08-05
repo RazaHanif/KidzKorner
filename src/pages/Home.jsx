@@ -169,12 +169,14 @@ const Home = () => {
                     </h2>
                     <div>
                         <Card>
-                        <CardHeader>
-                        <CardTitle>Card Title</CardTitle>
-                        </CardHeader>
-                        <CardContent>
-                            <p>Card Content</p>
-                        </CardContent>
+                            <CardHeader>
+                                <CardTitle>
+                                    Card Title
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                
+                            </CardContent>
                         </Card>
                     </div>
 
