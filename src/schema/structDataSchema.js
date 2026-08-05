@@ -193,7 +193,7 @@ export const partyFAQSchema = {
             "name": "Can we bring our own food?",
             "acceptedAnswer": {
             "@type": "Answer",
-            "text": "We welcome children from 18 months to 5 years old. Programs are grouped by age to provide developmentally appropriate learning and care."
+            "text": "Yes. Families are welcome to bring their own food at no additional cost. We also provide access to a private kitchen space. Please note that our facility follows a strict nut-free policy."
             }
         },
         {
