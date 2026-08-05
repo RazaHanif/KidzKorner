@@ -12,6 +12,7 @@ import Image from "@/components/Image"
 import FAQAccordion from "../components/FAQAccordion";
 import StructData from "../components/StructData";
 import { breadcrumbSchema, faqSchema, localBusinessSchema } from "../schema/structDataSchema";
+import { CircleCheck } from "lucide-react";
 
 const ToddlerDaycare = () => {
     const breadCrumb = [
