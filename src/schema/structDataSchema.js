@@ -188,6 +188,7 @@ export const partyFAQSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
+        
         {
             "@type": "Question",
             "name": "Can we bring our own food?",
