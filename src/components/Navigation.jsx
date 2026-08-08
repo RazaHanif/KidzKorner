@@ -46,7 +46,7 @@ function Navigation() {
         </NavLink>
 
         <NavLink 
-          to="/workshop" 
+          to="/workshops" 
           end
           className={({ isActive }) =>
             `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
