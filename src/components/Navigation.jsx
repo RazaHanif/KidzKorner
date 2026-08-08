@@ -77,7 +77,7 @@ function Navigation() {
       </div>
 
       <div className='lg:hidden flex flex-col justify-center items-center'>
-        <DropdownMenu className="cursor-pointer">
+        <DropdownMenu>
           <DropdownMenuTrigger asChild className="cursor-pointer">
             <Button variant='secondary'>
               <Menu />
