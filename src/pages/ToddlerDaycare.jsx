@@ -79,7 +79,6 @@ const ToddlerDaycare = () => {
                     <div className="w-3/4 flex flex-row lg:flex-col gap-4 justify-center items-center">
                         <a 
                             href="#toddler-form" 
-                            end
                             className="hover:scale-105 ease-in-out duration-300 flex-1 lg:w-3/4 flex justify-center"
                         >
                             <Button className="cursor-pointer min-w-1/2">
@@ -89,7 +88,6 @@ const ToddlerDaycare = () => {
 
                         <a 
                             href="/about#contact-form" 
-                            end
                             className="hover:scale-105 ease-in-out duration-300 flex-1 lg:w-3/4 flex justify-center"
                         >
                             <Button className="cursor-pointer min-w-1/2">
