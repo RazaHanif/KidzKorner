@@ -76,7 +76,7 @@ function Navigation() {
         </NavLink>
       </div>
 
-      <div className='lg:hidden flex flex-col justify-center items-center'>
+      <div className='lg:hidden flex flex-col justify-center items-center curso'>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant='secondary'>
