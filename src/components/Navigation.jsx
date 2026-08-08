@@ -26,7 +26,7 @@ function Navigation() {
     <NavigationMenu>
         <NavigationMenuList>
             <NavigationMenuItem>
-                <NavigationMenuTrigger asChild>
+                <NavigationMenuTrigger>
                     <NavLink 
                         to="/daycare" 
                         end
