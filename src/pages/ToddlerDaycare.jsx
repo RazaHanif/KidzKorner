@@ -113,7 +113,8 @@ const ToddlerDaycare = () => {
                 </h2>
                 <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
                     <p className="flex flex-col justify-center items-center w-full text-center">
-                        Starting daycare is a big step for both toddlers and their parents. At Kidz Korner, we strive to create a warm and familiar environment where children can feel comfortable as they adjust to a new routine and spend time away from home. Our educators provide consistent guidance throughout the day while creating opportunities for children to explore their surroundings, make choices, and become comfortable with their daily routines. We understand that every child adjusts differently, which is why we take the time to get to know each toddler and provide the reassurance and support they need to feel secure.
+                        Starting daycare is a big step for both toddlers and their parents. At Kidz Korner, we strive to create a warm and familiar environment where children can feel comfortable as they adjust to a new routine and spend time away from home. 
+                        Our educators provide consistent guidance throughout the day while creating opportunities for children to explore their surroundings, make choices, and become comfortable with their daily routines. We understand that every child adjusts differently, which is why we take the time to get to know each toddler and provide the reassurance and support they need to feel secure.
                     </p>
                 </div>
             </div>
