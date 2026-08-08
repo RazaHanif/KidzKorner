@@ -180,7 +180,8 @@ const ToddlerDaycare = () => {
                     <p className="flex flex-col justify-center items-center w-full text-center">
                         The toddler years are an important time for children to develop new skills and become more confident in their abilities. 
                         At Kidz Korner, development is supported throughout the entire day, from following familiar routines and making simple choices to exploring new experiences and participating in age-appropriate activities. 
-                        Our educators pay attention to each child's interests, abilities, and individual pace, providing encouragement and support as they take on new challenges. This approach helps toddlers become comfortable in their environment while gradually developing the skills they need for their next stage of learning.
+                        Our educators pay attention to each child's interests, abilities, and individual pace, providing encouragement and support as they take on new challenges. 
+                        This approach helps toddlers become comfortable in their environment while gradually developing the skills they need for their next stage of learning.
                     </p>
                     <Image
                         src="/K_K_39.jpg"
