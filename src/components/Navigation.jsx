@@ -31,7 +31,8 @@ function Navigation() {
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
                     <NavigationMenuLink>
-                        Link</NavigationMenuLink>
+                        Link
+                    </NavigationMenuLink>
                 </NavigationMenuContent>
                 </NavigationMenuItem>
             </NavigationMenuList>
