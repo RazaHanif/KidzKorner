@@ -64,7 +64,7 @@ function App() {
 
                     {/* Daycare */}
                     <Route path="/daycare" element={<Daycare />} />
-                    <Route path="/daycare/toddler-daycare" element={<ToddlerDaycare />} />
+                    <Route path="/daycare/toddler" element={<ToddlerDaycare />} />
                     <Route path="/daycare/preschool" element={<PreschoolDaycare />} />
                     <Route path="/daycare/before-after-school-care" element={<BeforeAfterDaycare />} />
 
