@@ -127,7 +127,7 @@ const ToddlerDaycare = () => {
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
                                 <CardTitle>
-                                    Play Based Learning
+                                    Play-Based Learning
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
