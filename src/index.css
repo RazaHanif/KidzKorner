@@ -2,7 +2,7 @@
 @import 'tw-animate-css';
 
 html {
-  
+  scroll-behavior: smooth;
 }
 
 :root {
