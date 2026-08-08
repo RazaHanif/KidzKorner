@@ -227,7 +227,7 @@ const ToddlerDaycare = () => {
 
             <div className="flex flex-col justify-center items-center w-3/4 border-y lg:py-16 py-8 lg:my-8 my-4">
                 <h2 className="text-xl font-bold text-center pb-4">
-                    FAQ
+                    Frequ
                 </h2>
                 <FAQAccordion faq={faq} />
             </div>
