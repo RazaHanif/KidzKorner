@@ -26,10 +26,13 @@ function Navigation() {
     <NavigationMenu>
         <NavigationMenuList>
             <NavigationMenuItem>
-                <NavigationMenuTrigger>
+                <NavigationMenuTrigger asChild>
                     <NavLink 
                         to="/daycare" 
                         end
+                                  className={({ isActive }) =>
+            `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
+          }
                     >
                         Day Care
                     </NavLink>
