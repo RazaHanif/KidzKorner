@@ -53,8 +53,7 @@ function Navigation() {
                     </NavigationMenuLink>
                     <NavigationMenuLink>
                         <NavLink 
-                            to="/daycare/toddler-daycare
-/daycare/preschool
+                            to="
 /daycare/before-after-school-care" 
                             end
                         >
