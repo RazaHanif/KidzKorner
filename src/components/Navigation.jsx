@@ -43,6 +43,22 @@ function Navigation() {
                             Toddler
                         </NavLink>
                     </NavigationMenuLink>
+                    <NavigationMenuLink>
+                        <NavLink 
+                            to="/daycare" 
+                            end
+                        >
+                            Toddler
+                        </NavLink>
+                    </NavigationMenuLink>
+                    <NavigationMenuLink>
+                        <NavLink 
+                            to="/daycare" 
+                            end
+                        >
+                            Toddler
+                        </NavLink>
+                    </NavigationMenuLink>
                 </NavigationMenuContent>
             </NavigationMenuItem>
         </NavigationMenuList>
