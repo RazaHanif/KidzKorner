@@ -62,7 +62,7 @@ function Navigation() {
             `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
           }
         >
-          Camp
+          Camp [Swap to drop down?]
         </NavLink>
 
         <NavLink 
