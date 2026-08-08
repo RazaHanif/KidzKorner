@@ -63,8 +63,8 @@ const ToddlerDaycare = () => {
 
     return (
         <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16 pb-8">
-            <div className="flex flex-col justify-center items-center w-full border">
-                <h1 className="lg:text-5xl text-3xl font-bold font-serif text-center lg:pb-16 py-8">
+            <div className="flex flex-col justify-center items-center w-full border  lg:pb-16 py-8">
+                <h1 className="lg:text-5xl text-3xl font-bold font-serif text-center">
                     Toddler Daycare in Milton
                 </h1>
             </div>
