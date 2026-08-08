@@ -37,7 +37,7 @@ function Navigation() {
                         Preschool
                     </NavigationMenuLink>
                     <NavigationMenuLink>
-                        Link
+                        Before & After School
                     </NavigationMenuLink>
                 </NavigationMenuContent>
             </NavigationMenuItem>
