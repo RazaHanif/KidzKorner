@@ -51,15 +51,15 @@ function Navigation() {
                     </NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <NavigationMenu>
-  <NavigationMenuList>
-    <NavigationMenuItem>
-      <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
-      <NavigationMenuContent>
-        <NavigationMenuLink>Link</NavigationMenuLink>
-      </NavigationMenuContent>
-    </NavigationMenuItem>
-  </NavigationMenuList>
-</NavigationMenu>
+                            <NavigationMenuList>
+                                <NavigationMenuItem>
+                                <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
+                                <NavigationMenuContent>
+                                    <NavigationMenuLink>Link</NavigationMenuLink>
+                                </NavigationMenuContent>
+                                </NavigationMenuItem>
+                                </NavigationMenuList>   
+                            </NavigationMenu>
                     </NavigationMenuContent>
                 </NavigationMenuItem>
             </NavigationMenuList>
