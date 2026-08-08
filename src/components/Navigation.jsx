@@ -40,7 +40,7 @@ function Navigation() {
                     <NavigationMenuContent>
                         <NavigationMenuLink>
                             <NavLink 
-                                to="/daycare/toddler-daycare" 
+                                to="/daycare/toddler" 
                                 end
                             >
                                 Toddler
