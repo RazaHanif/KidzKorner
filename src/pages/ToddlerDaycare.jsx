@@ -176,7 +176,7 @@ const ToddlerDaycare = () => {
                     Supporting Your Toddler's Development
                 </h2>
 
-                <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
+                <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full gap-4">
                     <p className="flex flex-col justify-center items-center w-full text-center">
                         Our toddler program focuses on the important developmental milestones children experience during their early years. 
                         Through guided activities and everyday routines, children strengthen communication skills, coordination, confidence, and independence.
