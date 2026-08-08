@@ -76,7 +76,7 @@ const ToddlerDaycare = () => {
                         Through a combination of guided activities, hands-on experiences, and a consistent daily routine, we create a welcoming space where toddlers can feel comfortable while discovering the world around them.
                     </p>
 
-                    <div className="w-full flex flex-row lg:flex-col gap-4 justify-center items-center border">
+                    <div className="w-3/4 flex flex-row lg:flex-col gap-4 justify-center items-center border">
                         <a 
                             href="#toddler-form" 
                             end
