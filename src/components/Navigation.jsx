@@ -22,7 +22,7 @@ function Navigation() {
             `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
           }
         >
-          Day Care [Swap to drop down?]
+          Day Care
         </NavLink>
 
         <NavLink 
