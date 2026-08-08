@@ -23,46 +23,47 @@ function Navigation() {
       <div
         className="hidden lg:flex flex-row lg:w-3xl w-full text-xl lg:text-2xl justify-between items-center gap-4 text-nowrap"
       >
-    <NavigationMenu>
-        <NavigationMenuList>
-            <NavigationMenuItem>
-                <NavigationMenuTrigger >
-                    <NavLink 
-                        to="/daycare" 
-                        end
-                    >
-                        Day Care
-                    </NavLink>
-                </NavigationMenuTrigger>
-                <NavigationMenuContent>
-                    <NavigationMenuLink>
+        <NavigationMenu>
+            <NavigationMenuList>
+                <NavigationMenuItem>
+                    <NavigationMenuTrigger >
                         <NavLink 
-                            to="/daycare/toddler-daycare" 
+                            to="/daycare" 
                             end
                         >
-                            Toddler
+                            Day Care
                         </NavLink>
-                    </NavigationMenuLink>
-                    <NavigationMenuLink>
-                        <NavLink 
-                            to="/daycare/preschool" 
-                            end
-                        >
-                            Preschool
-                        </NavLink>
-                    </NavigationMenuLink>
-                    <NavigationMenuLink>
-                        <NavLink 
-                            to="/daycare/before-after-school-care" 
-                            end
-                        >
-                            Before & After School
-                        </NavLink>
-                    </NavigationMenuLink>
-                </NavigationMenuContent>
-            </NavigationMenuItem>
-        </NavigationMenuList>
-    </NavigationMenu>
+                    </NavigationMenuTrigger>
+                    <NavigationMenuContent>
+                        <NavigationMenuLink>
+                            <NavLink 
+                                to="/daycare/toddler-daycare" 
+                                end
+                            >
+                                Toddler
+                            </NavLink>
+                        </NavigationMenuLink>
+                        <NavigationMenuLink>
+                            <NavLink 
+                                to="/daycare/preschool" 
+                                end
+                            >
+                                Preschool
+                            </NavLink>
+                        </NavigationMenuLink>
+                        <NavigationMenuLink>
+                            <NavLink 
+                                to="/daycare/before-after-school-care" 
+                                end
+                            >
+                                Before & After School
+                            </NavLink>
+                        </NavigationMenuLink>
+                    </NavigationMenuContent>
+                </NavigationMenuItem>
+            </NavigationMenuList>
+        </NavigationMenu>
+        
         <NavLink 
           to="/daycare" 
           end
