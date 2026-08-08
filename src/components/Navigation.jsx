@@ -56,7 +56,7 @@ function Navigation() {
                             to="/daycare/before-after-school-care" 
                             end
                         >
-                            Toddler
+                            Before & After School
                         </NavLink>
                     </NavigationMenuLink>
                 </NavigationMenuContent>
