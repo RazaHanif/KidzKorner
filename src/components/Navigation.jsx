@@ -26,7 +26,9 @@ function Navigation() {
         <NavigationMenu>
             <NavigationMenuList>
                 <NavigationMenuItem>
-                <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
+                <NavigationMenuTrigger>
+                    Item One
+                </NavigationMenuTrigger>
                 <NavigationMenuContent>
                 <NavigationMenuLink>Link</NavigationMenuLink>
                 </NavigationMenuContent>
