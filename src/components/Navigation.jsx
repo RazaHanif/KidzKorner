@@ -33,7 +33,6 @@ function Navigation() {
                     >
                         Day Care
                     </NavLink>
-                    
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
                     <NavigationMenuLink>
