@@ -24,14 +24,14 @@ function Navigation() {
         className="hidden lg:flex flex-row lg:w-3xl w-full text-xl lg:text-2xl justify-between items-center gap-4 text-nowrap"
       >
         <NavigationMenu>
-        <NavigationMenuList>
-        <NavigationMenuItem>
-        <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
-        <NavigationMenuContent>
-        <NavigationMenuLink>Link</NavigationMenuLink>
-        </NavigationMenuContent>
-        </NavigationMenuItem>
-        </NavigationMenuList>
+            <NavigationMenuList>
+            <NavigationMenuItem>
+            <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
+            <NavigationMenuContent>
+            <NavigationMenuLink>Link</NavigationMenuLink>
+            </NavigationMenuContent>
+            </NavigationMenuItem>
+            </NavigationMenuList>
         </NavigationMenu>
         <NavLink 
           to="/daycare" 
