@@ -77,7 +77,7 @@ const ToddlerDaycare = () => {
 
                     <div className="w-full flex flex-row lg:flex-col gap-4 justify-center items-center">
                         <NavLink 
-                            to="" 
+                            to="#toddler-form" 
                             end
                             className="hover:scale-105 ease-in-out duration-300 flex-1 lg:w-3/4 flex justify-center"
                         >
