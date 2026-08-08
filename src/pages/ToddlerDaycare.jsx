@@ -189,7 +189,7 @@ const ToddlerDaycare = () => {
                     <Image
                         src="/K_K_39.jpg"
                         alt="Kidz Korner licensed daycare in  Milton"
-                        w="w-md"
+                        w="w-sm"
                     />
                 </div>
 
