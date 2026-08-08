@@ -90,7 +90,7 @@ function Navigation() {
                 className="cursor-pointer"
                 end
               >
-                Day Care [swap to drop down?]
+                Day Care
               </NavLink>
             </DropdownMenuItem>
             <DropdownMenuItem  asChild>
