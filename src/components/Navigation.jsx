@@ -37,11 +37,11 @@ function Navigation() {
                 <NavigationMenuContent>
                     <NavigationMenuLink>
                         <NavLink 
-                        to="/daycare" 
-                        end
-                    >
-                        Toddler
-                    </NavLink>
+                            to="/daycare" 
+                            end
+                        >
+                            Toddler
+                        </NavLink>
                     </NavigationMenuLink>
                     <NavigationMenuLink>
                         Preschool
