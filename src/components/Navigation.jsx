@@ -34,7 +34,7 @@ function Navigation() {
                         Toddler
                     </NavigationMenuLink>
                     <NavigationMenuLink>
-                        Link
+                        Preschool
                     </NavigationMenuLink>
                     <NavigationMenuLink>
                         Link
