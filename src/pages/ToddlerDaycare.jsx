@@ -194,8 +194,8 @@ const ToddlerDaycare = () => {
                 <h2 className="text-xl font-bold text-center pb-4">
                     What Parents Can Expect
                 </h2>
-                <div className="flex lg:flex-row flex-col p-2 gap-2 border">
-                    <div className="flex flex-col gap-2 w-full border text-nowrap">
+                <div className="flex lg:flex-row flex-col p-2 gap-2">
+                    <div className="flex flex-col gap-2 w-full text-nowrap">
                         <p className="flex items-start gap-3">
                             <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
                             Caring & Experienced Educators
@@ -209,7 +209,7 @@ const ToddlerDaycare = () => {
                             Building Friendships
                         </p>
                     </div>
-                    <div className="flex flex-col gap-2 w-full border text-nowrap">
+                    <div className="flex flex-col gap-2 w-full text-nowrap">
                         <p className="flex items-start gap-3">
                             <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
                             Daily Parent Teacher Communication
