@@ -22,7 +22,8 @@ function Navigation() {
     <>
       <div
         className="hidden lg:flex flex-row lg:w-3xl w-full text-xl lg:text-2xl justify-between items-center gap-4 text-nowrap"
-      ><NavigationMenu>
+      >
+    <NavigationMenu>
   <NavigationMenuList>
     <NavigationMenuItem>
       <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
