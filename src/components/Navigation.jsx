@@ -33,6 +33,12 @@ function Navigation() {
                     <NavigationMenuLink>
                         Link
                     </NavigationMenuLink>
+                    <NavigationMenuLink>
+                        Link
+                    </NavigationMenuLink>
+                    <NavigationMenuLink>
+                        Link
+                    </NavigationMenuLink>
                 </NavigationMenuContent>
             </NavigationMenuItem>
         </NavigationMenuList>
