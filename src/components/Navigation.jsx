@@ -43,12 +43,6 @@ function Navigation() {
                             Toddler
                         </NavLink>
                     </NavigationMenuLink>
-                    <NavigationMenuLink>
-                        Preschool
-                    </NavigationMenuLink>
-                    <NavigationMenuLink>
-                        Before & After School
-                    </NavigationMenuLink>
                 </NavigationMenuContent>
             </NavigationMenuItem>
         </NavigationMenuList>
