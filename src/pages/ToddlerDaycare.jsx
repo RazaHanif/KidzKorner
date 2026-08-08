@@ -70,13 +70,13 @@ const ToddlerDaycare = () => {
             </div>
 
             <div className="flex lg:flex-row flex-col gap-4">
-                <div className="flex flex-col flex-1 justify-center items-center w-full py-4 gap-4 border">
-                    <p className="w-3/4 flex justify-center items-center border">
+                <div className="flex flex-col flex-1 justify-center items-center w-full py-4 gap-4">
+                    <p className="w-3/4 flex justify-center items-center">
                         Our toddler daycare program provides a nurturing and engaging environment where young children can explore, learn, and grow with confidence. 
                         Through a combination of guided activities, hands-on experiences, and a consistent daily routine, we create a welcoming space where toddlers can feel comfortable while discovering the world around them.
                     </p>
 
-                    <div className="w-3/4 flex flex-row lg:flex-col gap-4 justify-center items-center border">
+                    <div className="w-3/4 flex flex-row lg:flex-col gap-4 justify-center items-center">
                         <a 
                             href="#toddler-form" 
                             end
