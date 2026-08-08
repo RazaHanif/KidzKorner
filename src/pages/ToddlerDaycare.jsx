@@ -131,7 +131,7 @@ const ToddlerDaycare = () => {
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
-                                Toddlers learn best through exploration. Our activities encourage creativity, problem solving, and early development skills.
+                                Toddlers learn best through exploration. Our activities encourage creativity, problem-solving, and early development skills.
                             </CardContent>
                         </Card>
 
