@@ -232,7 +232,7 @@ const ToddlerDaycare = () => {
                 <FAQAccordion faq={faq} />
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 gap-4">
+            <div className="flex flex-col justify-center items-center w-3/4 gap-4" id="toddler-form">
                 <p className="flex text-center">
                     Ready to join us?
                 </p>
