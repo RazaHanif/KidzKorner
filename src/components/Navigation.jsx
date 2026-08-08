@@ -40,7 +40,7 @@ function Navigation() {
                         to="/daycare" 
                         end
                     >
-                        Day Care
+                        Toddler
                     </NavLink>
                     </NavigationMenuLink>
                     <NavigationMenuLink>
