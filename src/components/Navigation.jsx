@@ -27,7 +27,7 @@ function Navigation() {
         <NavigationMenuList>
             <NavigationMenuItem>
                 <NavigationMenuTrigger>
-                    Item One
+                    DayCare
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
                     <NavigationMenuLink>
