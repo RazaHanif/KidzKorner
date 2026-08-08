@@ -20,7 +20,7 @@ import ScrollToTop from "./components/ScrollToTop.jsx";
 
 /
 /daycare
-/daycare/toddler-daycare
+/daycare/toddler
 /daycare/preschool
 /daycare/before-after-school-care
 /camp
