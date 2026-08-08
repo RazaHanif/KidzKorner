@@ -86,8 +86,6 @@ const ToddlerDaycare = () => {
                             </Button>
                         </a>
 
-                                        <a href="#toddler-form">f</a>
-
                         <NavLink 
                             to="#" 
                             end
