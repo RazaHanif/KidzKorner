@@ -179,7 +179,7 @@ const ToddlerDaycare = () => {
                     Supporting Your Toddler's Development
                 </h2>
 
-                <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full gap-4">
+                <div className="flex lg:flex-row flex-col justify-center items-center w-full gap-4">
                     <p className="flex flex-col justify-center items-center w-full text-center">
                         The toddler years are an important time for children to develop new skills and become more confident in their abilities. 
                         At Kidz Korner, development is supported throughout the entire day, from following familiar routines and making simple choices to exploring new experiences and participating in age-appropriate activities. 
