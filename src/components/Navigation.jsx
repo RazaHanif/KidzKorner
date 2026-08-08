@@ -87,6 +87,7 @@ function Navigation() {
             <DropdownMenuItem  asChild>
               <NavLink
                 to="/daycare" 
+                className="cursor-pointer"
                 end
               >
                 Day Care [swap to drop down?]
@@ -95,6 +96,7 @@ function Navigation() {
             <DropdownMenuItem  asChild>
               <NavLink
                 to="/parties" 
+                className="cursor-pointer"
                 end
               >
                 Parties
@@ -103,6 +105,7 @@ function Navigation() {
             <DropdownMenuItem  asChild>
               <NavLink
                 to="/playground" 
+                className="cursor-pointer"
                 end
               >
                 Playground
@@ -111,6 +114,7 @@ function Navigation() {
             <DropdownMenuItem  asChild>
               <NavLink
                 to="/workshops" 
+                className="cursor-pointer"
                 end
               >
                 Workshop
@@ -119,6 +123,7 @@ function Navigation() {
             <DropdownMenuItem  asChild>
               <NavLink
                 to="/camp" 
+                className="cursor-pointer"
                 end
               >
                 Camp
@@ -127,6 +132,7 @@ function Navigation() {
             <DropdownMenuItem  asChild>
               <NavLink
                 to="/about" 
+                className="cursor-pointer"
                 end
               >
                 About Us
