@@ -86,7 +86,7 @@ const ToddlerDaycare = () => {
                             </Button>
                         </a>
 
-                        <NavLink 
+                        <a 
                             to="#" 
                             end
                             className="hover:scale-105 ease-in-out duration-300 flex-1 lg:w-3/4 flex justify-center"
@@ -94,7 +94,7 @@ const ToddlerDaycare = () => {
                             <Button className="cursor-pointer min-w-1/2">
                                 Contact Us
                             </Button>
-                        </NavLink>
+                        </a>
                     </div>
                 </div>
                 <div className="flex justify-center items-center">
