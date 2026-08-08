@@ -108,14 +108,14 @@ function Navigation() {
                 Playground
               </NavLink>
             </DropdownMenuItem>
-            {/* <DropdownMenuItem  asChild>
+            <DropdownMenuItem  asChild>
               <NavLink
-                to="/workshop" 
+                to="/workshops" 
                 end
               >
                 Workshop
               </NavLink>
-            </DropdownMenuItem> */}
+            </DropdownMenuItem>
             <DropdownMenuItem  asChild>
               <NavLink
                 to="/camp" 
