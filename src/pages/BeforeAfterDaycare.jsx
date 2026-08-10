@@ -452,7 +452,7 @@ const BeforeAfterDaycare = () => {
                 </p>
                 
                 {/* TODO:MAKE THIS FORM BEFORE&AFTER SPECIFIC  */}
-                {/* [DaycareForm type="preschool"] */}
+                {/* [DaycareForm type="before_after"] */}
                 <DaycareForm />
             </div>
 
