@@ -14,7 +14,7 @@ const Test = () => {
             </div>
 
             <title>
-                Summer Camp in Milton, Ontario | Kidz Korner 
+                Test | Kidz Korner 
             </title>
             <meta 
                 name="description" 
