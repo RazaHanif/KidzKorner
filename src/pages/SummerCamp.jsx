@@ -41,7 +41,7 @@ const SummerCamp = () => {
             a: "Summer camp runs Monday to Friday from 9:00 a.m. to 3:00 p.m. Before- and after-camp care may also be available depending on space. Families interested in extended hours can contact us to ask about availability."
         },
         {
-            q: "What should my child bring to camp?",
+            q: "How much does summer camp cost?",
             a: "Children should bring a nut-free lunch, snacks, a reusable water bottle, comfortable clothing, indoor shoes, and any personal items they may need throughout the day."
         },
         {
