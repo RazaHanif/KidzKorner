@@ -40,7 +40,7 @@ const BeforeAfterDaycare = () => {
         const faq = [
         {
             q: "What age do you accept for Before & After School Care? [CHECK IF THIS IS RIGHT!!!!!]",
-            a: "Our toddler daycare program is designed for young children between 2-4 years."
+            a: "Our Before & After School Care program is designed for young children between 2-4 years."
         },
         {
             q: "What does a typical preschool day look like?",
