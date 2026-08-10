@@ -37,7 +37,7 @@ const PreschoolDaycare = () => {
         },
         {
             q: "What does a typical day look like?",
-            a: "Each day includes a balanced routine of free play, group activities, arts and crafts, music, indoor play, meals, rest time, and hands-on learning experiences designed for toddlers."
+            a: "Preschoolers enjoy a balance of guided activities, creative play, group experiences, active play, and opportunities for independent exploration. Daily routines may include arts and crafts, stories, music, learning activities, meals, and indoor play."
         },
         {
             q: "How does your toddler program support early learning?",
