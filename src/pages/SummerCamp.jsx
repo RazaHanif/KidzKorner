@@ -82,7 +82,7 @@ const SummerCamp = () => {
                             <CardHeader className="text-start">
                                 <CardTitle className="flex flex-row items-center gap-2">
                                     <Sun className="text-primary" />
-                                    Summer Camp
+                                    Themed Events & Experiences
                                 </CardTitle>
                                 <CardDescription>
                                     8-10 weeks of themed adventures packed with art, cooking, science and special activities
