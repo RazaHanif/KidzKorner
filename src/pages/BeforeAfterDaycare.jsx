@@ -327,7 +327,7 @@ const BeforeAfterDaycare = () => {
                                                 </h2>
                                             </div>
                                             <p className="text-start pl-8">
-                                                Through puzzles, sorting, counting, patterns, problem-solving, and hands-on exploration, children develop early thinking and reasoning skills.
+                                                Children have plenty of opportunities to play, create, socialize, and stay engaged.
                                             </p>
                                         </div>
                                     </div>
