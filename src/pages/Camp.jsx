@@ -370,7 +370,7 @@ const Camp = () => {
             />
             <meta 
                 property="og:title"
-                content="Licensed Daycare in Milton, Ontario | Kidz Korner"
+                content="Kids Camps in Milton, Ontario | Kidz Korner"
             />
             <meta
                 property="og:description"
