@@ -37,9 +37,9 @@ const Childcare = () => {
             </div>
             
             <div className="flex lg:flex-row flex-col justify-between items-center w-3/4 gap-4">
-                <Image src='/20251010_122316.jpg' alt='Child Playing With Magnetic Toy at Kidz Korner Milton, Ontario' />
-                <Image src='/IMG-20260108-WA0007.jpg' alt='Child Tracing Alphabets at Kidz Korner Milton, Ontario' />
-                <Image src='/IMG-20260209-WA0006.jpg' alt='Child Playing With Play-Doh at Kidz Korner Milton, Ontario' />
+                <Image src='/media/KK/20251010_122316.jpg' alt='Child Playing With Magnetic Toy at Kidz Korner Milton, Ontario' />
+                <Image src='/media/KK/IMG-20260108-WA0007.jpg' alt='Child Tracing Alphabets at Kidz Korner Milton, Ontario' />
+                <Image src='/media/KK/IMG-20260209-WA0006.jpg' alt='Child Playing With Play-Doh at Kidz Korner Milton, Ontario' />
             </div>
 
             <div className="flex lg:flex-row flex-col justify-evenly items-center w-3/4">
@@ -78,7 +78,7 @@ const Childcare = () => {
                     <div className="flex flex-col justify-center m-4 lg:m-0">
                         <CareSchedule />
                     </div>
-                    <Image src='/20250822_121126.jpg' alt='Child Playing With Blocks at Kidz Korner Milton, Ontario' w="w-sm"/>
+                    <Image src='/media/KK/20250822_121126.jpg' alt='Child Playing With Blocks at Kidz Korner Milton, Ontario' w="w-sm"/>
                 </div>
             </div>
 
@@ -118,9 +118,9 @@ const Childcare = () => {
             </div>
             
             <div className="flex lg:flex-row flex-col justify-between items-center w-3/4 gap-4">
-                    <Image src='/20251023_124356.jpg' alt='Child Carving Pumpkin at Kidz Korner Milton, Ontario' />
-                    <Image src='/Photo from Ansa.jpg' alt='Child Whisking Eggs at Kidz Korner Milton, Ontario' />
-                    <Image src='/20250811_104025.jpg' alt='Child Making Sea Shell at Kidz Korner Milton, Ontario' />
+                    <Image src='/media/KK/20251023_124356.jpg' alt='Child Carving Pumpkin at Kidz Korner Milton, Ontario' />
+                    <Image src='/media/KK/Photo from Ansa.jpg' alt='Child Whisking Eggs at Kidz Korner Milton, Ontario' />
+                    <Image src='/media/KK/20250811_104025.jpg' alt='Child Making Sea Shell at Kidz Korner Milton, Ontario' />
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-1 m-4 overflow-x-auto">
