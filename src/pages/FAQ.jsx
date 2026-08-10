@@ -17,8 +17,8 @@ const FAQ = () => {
             url: "https://www.kidzkornermilton.com/"
         },
         {
-            name: "Fr",
-            url: "https://www.kidzkornermilton.com/camp"
+            name: "Frequently Asked Questions",
+            url: "https://www.kidzkornermilton.com/faq"
         },
     ];
     return (
