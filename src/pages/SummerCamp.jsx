@@ -114,7 +114,7 @@ const SummerCamp = () => {
                                 </CardDescription>
                             </CardHeader>
                         </Card>
-                        
+
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
                                 <CardTitle className="flex flex-row items-center gap-2">
@@ -122,7 +122,7 @@ const SummerCamp = () => {
                                     Themed Events & Experiences
                                 </CardTitle>
                                 <CardDescription>
-                                    Our summer is filled with fun themes, special activities, and events that give children something new and exciting to look forward to each week.
+                                    With a maximum of 13 campers, we keep our summer camp intentionally small so children can enjoy a more comfortable and engaging group experience.
                                 </CardDescription>
                             </CardHeader>
                         </Card>
