@@ -155,7 +155,7 @@ const SummerCamp = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center gap-4">
+            <div className="flex flex-col justify-center items-center gap-4 w-3/4">
                 <h2 className="text-xl font-bold text-center pb-4">
                     What to Expect at Kidz Korner Summer Camp
                 </h2>
