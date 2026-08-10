@@ -194,7 +194,7 @@ const BeforeAfterDaycare = () => {
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
-                                With encouragement from caring educators, children are supported in trying new things, expressing themselves, and taking pride in what they can accomplish.
+                                A comfortable environment where children can read, work on activities, or simply take a break after a busy school day.
                             </CardContent>
                         </Card>
                     </div>
