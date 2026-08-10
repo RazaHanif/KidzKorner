@@ -29,6 +29,8 @@ const BeforeAfterDaycare = () => {
                 Stuff
             </div>
 
+            
+
 
             <StructData schema={localBusinessSchema} />
             <StructData schema={breadcrumbSchema(breadCrumb)} />
