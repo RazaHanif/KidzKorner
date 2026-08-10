@@ -45,7 +45,7 @@ const SummerCamp = () => {
             a: "Summer camp is $175 per week per child. The weekly price includes all regular camp activities and programming, so there are no additional activity fees for the scheduled camp program."
         },
         {
-            q: "How do I register for a camp?",
+            q: "What activities are offered at summer camp?",
             a: "Campers participate in a variety of activities throughout the summer, including arts and crafts, games, sports, creative activities, free play, indoor playground time, and themed events. Activities vary throughout the summer to keep the program fun and engaging."
         },
     ]
