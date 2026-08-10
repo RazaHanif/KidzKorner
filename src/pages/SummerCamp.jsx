@@ -201,7 +201,7 @@ const SummerCamp = () => {
                                 9:00 AM to 3:00 PM camp hours, Monday to Friday
                             </p>
                             <p className="p-4">
-                                Registered Early Childhood Educators (RECE)
+                                $Registered Early Childhood Educators (RECE)
                             </p>
                         </div>
                     </CardContent>
