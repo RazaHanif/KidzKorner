@@ -279,6 +279,9 @@ const SummerCamp = () => {
                 <p className="flex text-center">
                     Interested in Summer Camp?
                 </p>
+
+                {/* TODO:MAKE THIS FORM BEFORE&AFTER SPECIFIC  */}
+                {/* [DaycareForm type="before_after"] */}
                 <CampForm/>
             </div>
 
