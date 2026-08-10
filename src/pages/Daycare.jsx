@@ -43,7 +43,7 @@ const Daycare = () => {
                 <Image src='/media/KK/IMG-20260209-WA0006.jpg' alt='Child Playing With Play-Doh at Kidz Korner Milton, Ontario' />
             </div>
 
-            <div className="flex lg:flex-row flex-col justify-evenly items-center w-3/4">
+            <div className="flex lg:flex-row flex-col justify-evenly items-center lg:w-3/4 w-9/10">
                 <Card>
                     <CardHeader className="hidden">
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
