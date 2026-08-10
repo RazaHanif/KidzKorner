@@ -74,7 +74,7 @@ const BeforeAfterDaycare = () => {
                         A safe, welcoming place for school-age children before and after the school day. Our program gives families flexible care while giving children time to play, connect with friends, and enjoy a comfortable environment outside of school.
                     </p>
 
-                    <div className="w-3/4 flex flex-row lg:flex-col gap-4 justify-center items-center lg:justify-center lg:items-center">
+                    <div className="w-3/4 flex flex-row lg:flex-col gap-4 justify-center items-center lg:justify-between lg:items-center">
                         <a 
                             href="#before-after-form" 
                             className="hover:scale-105 ease-in-out duration-300 flex-1 lg:w-3/4 flex justify-center"
