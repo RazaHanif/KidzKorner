@@ -52,7 +52,7 @@ const PreschoolDaycare = () => {
             a: "Our regular preschool hours are 9:00 AM to 3:00 PM, Monday to Friday. Half-day options are also available from 9:00 AM to 11:30 AM or 12:30 PM to 3:00 PM."
         },
         {
-            q: "Are meals and snack time included?",
+            q: "How do I know if preschool is right for my child?",
             a: "Every child develops at their own pace. If your child is becoming more independent, enjoys interacting with others, and is ready to participate in group activities and routines, preschool may be a good fit. We encourage families to schedule a tour to learn more about the program."
         },
         {
