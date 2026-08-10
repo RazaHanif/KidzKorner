@@ -160,19 +160,19 @@ const SummerCamp = () => {
                     What to Expect at Kidz Korner Summer Camp
                 </h2>
                 <div className="flex flex-col gap-2 w-full">
-                    <p className="flex justify-center items-center">
+                    <p className="">
                        Summer break should give children the chance to step away from the classroom, try new things, and simply enjoy being kids. At Kidz Korner, our summer camp provides a balance of structured activities, active play, creativity, and time to socialize with friends.
                     </p>
-                    <p className="flex justify-center items-center">
+                    <p className="">
                         Each day includes a variety of activities designed to keep campers engaged throughout the day. Children can take part in arts and crafts, games, sports, creative activities, and themed events, while also having opportunities for free play and exploration. Our indoor playground gives campers another way to stay active and have fun, especially when they need a change of pace.
                     </p>
-                    <p className="flex justify-center items-center">
+                    <p className="">
                         We also put a lot of thought into our themed events throughout the summer. These activities give campers something different to look forward to and help make each week feel special rather than repetitive.
                     </p>
-                    <p className="flex justify-center items-center">
+                    <p className="">
                         Summer camp runs from 9:00 a.m. to 3:00 p.m., from the end of the school year until the start of the next one, excluding the first and last week of summer. Our summer program is limited to 13 children, allowing us to maintain a smaller group environment while children participate in activities and spend time together.
                     </p>
-                    <p className="flex justify-center items-center">
+                    <p className="">
                         The weekly cost is <b>$175 per child</b>, and all regular summer camp activities are included. Before- and after-camp care may also be available based on space, so families interested in extended hours can contact us to ask about availability.
                     </p>
                 </div>
