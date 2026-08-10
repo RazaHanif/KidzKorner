@@ -421,13 +421,12 @@ const BeforeAfterDaycare = () => {
 
             <div className="flex flex-col justify-center items-center w-3/4">
                 <h2 className="text-xl font-bold text-center pb-4">
-                    A Positive Start Before School
+                    A Place to Play After the School Bell
                 </h2>
                 <div className="flex flex-col p-2 lg:gap-4 gap-2">
                     <div className="flex flex-col gap-2 w-full">
                         <p className="flex items-start gap-3">
                             One of the things that makes Kidz Korner different is our indoor playground. After spending much of the day sitting and learning at school, children have the opportunity to get moving, play, and enjoy active time with their friends.
-
                         </p>
                         <p className="flex items-start gap-3">
                             Our indoor play space gives school-age children another way to stay active and engaged throughout their afternoon.
