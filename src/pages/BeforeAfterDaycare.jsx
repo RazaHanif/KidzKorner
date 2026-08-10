@@ -18,7 +18,7 @@ import Image from "@/components/Image"
 import FAQAccordion from "../components/FAQAccordion";
 import StructData from "../components/StructData";
 import { breadcrumbSchema, faqSchema, localBusinessSchema } from "../schema/structDataSchema";
-import { BadgeCheck, CircleCheck, Clock3, GraduationCap, HeartHandshake, House, Palette, ShieldCheck, Smile, Sparkles } from "lucide-react";
+import { BadgeCheck, CircleCheck, Clock3, GraduationCap, HeartHandshake, House, Palette, ShieldCheck, Smile, Sparkles, UsersRound } from "lucide-react";
 import { NavLink } from "react-router";
 
 const BeforeAfterDaycare = () => {
@@ -350,7 +350,7 @@ const BeforeAfterDaycare = () => {
                                         </div>
                                         <div className="flex flex-col items-start justify-start w-full">
                                             <div className="flex gap-2 text-primary">
-                                                <ShieldCheck />
+                                                <UsersRound />
                                                 <h2 className="font-bold">
                                                     Experienced Childcare Team
                                                 </h2>
