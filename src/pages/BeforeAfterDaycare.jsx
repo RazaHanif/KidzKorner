@@ -137,7 +137,7 @@ const BeforeAfterDaycare = () => {
                                     </h2>
                                 </div>
                                 <p className="text-start pl-8">
-                                    Care options designed to fit around your famil
+                                    Care options designed to fit around your family's school and work schedule
                                 </p>
                             </div>
                         </div>
