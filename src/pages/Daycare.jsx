@@ -232,7 +232,7 @@ const Daycare = () => {
 
             <meta 
                 property="og:title"
-                content="Daycare |Kidz Korner Milton"
+                content="Licensed Daycare in Milton, Ontario | Toddler & Preschool Care | Kidz Korner"
             />
             <meta
                 property="og:description"
