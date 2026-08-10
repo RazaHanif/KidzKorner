@@ -141,7 +141,7 @@ const BeforeAfterDaycare = () => {
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent className="text-start">
-                                    A calm and engaging start to the morning before children head off to school.
+                                    A welcoming place to unwind, play, and connect with friends after the school day.
                                 </CardContent>
                             </Card>
                             <div className="flex flex-col items-start justify-start w-full">
