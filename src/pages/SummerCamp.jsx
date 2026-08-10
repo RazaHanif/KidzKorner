@@ -22,7 +22,7 @@ const SummerCamp = () => {
         },
         {
             name: "Summer Break Camp",
-            url: "https://www.kidzkornermilton.com/camp"
+            url: "https://www.kidzkornermilton.com/camp/summer-camp"
         },
     ];
     return (
