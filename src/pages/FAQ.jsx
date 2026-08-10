@@ -242,7 +242,7 @@ const FAQ = () => {
             <StructData schema={breadcrumbSchema(breadCrumb)} />
 
             <title>
-                March Break Camp in Milton, Ontario | Kidz Korner 
+                Frequently Asked Questions | Kidz Korner 
             </title>
             <meta 
                 name="description" 
