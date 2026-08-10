@@ -54,7 +54,7 @@ const SummerCamp = () => {
         },
         {
             q: "How many children are in summer camp?",
-            a: "Campers participate in a variety of activities throughout the summer, including arts and crafts, games, sports, creative activities, free play, indoor playground time, and themed events. Activities vary throughout the summer to keep the program fun and engaging."
+            a: "Summer camp is currently limited to a maximum of 13 children. Keeping the program small allows campers to participate comfortably in activities and enjoy a more manageable group environment."
         },
         {
             q: "What activities are offered at summer camp?",
