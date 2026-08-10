@@ -51,7 +51,7 @@ const Parties = () => {
     ]
 
     return (
-        <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16 pb-8">
+        <div className="flex flex-col flex-1 justify-center items-center gap-6 w-full lg:py-16 pb-8">
             <div className="flex flex-col justify-center items-center w-full">
                 <h1 className="lg:text-5xl text-3xl font-bold font-serif text-center py-4">
                     Kids Birthday Parties in Milton
@@ -71,7 +71,7 @@ const Parties = () => {
                 </p>
             </div>
 
-            <div className="flex flex-1 flex-col lg:flex-row justify-center gap-4 lg:w-3/4 w-9/10 border-y lg:py-12 py-8 lg:my-12 my-8">
+            <div className="flex flex-1 flex-col lg:flex-row justify-center gap-6 lg:w-3/4 w-9/10 border-y lg:py-12 py-8 lg:my-12 my-8">
                 <PartyCard
                     title={"Tiny Tornado Package"}
                     price={"395"}
@@ -259,7 +259,7 @@ const Parties = () => {
                 <FAQAccordion faq={faq} />
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 gap-4">
+            <div className="flex flex-col justify-center items-center w-3/4 gap-6">
                 <p className="flex w-2/3 text-center">
                     Ready to Party? Contact us today to secure your date! 
                 </p>
