@@ -37,7 +37,7 @@ const Daycare = () => {
                 </h2>    
             </div>
             
-            <div className="flex lg:flex-row flex-col justify-between items-center lg:w-3/4 w-9/10 gap-4 border-y lg:py-12 py-8 lg:my-12 my-8">
+            <div className="flex lg:flex-row flex-col justify-between items-center lg:w-3/4 w-9/10 gap-6 lg:py-12 py-8 lg:my-12 my-8">
                 <Image src='/media/KK/20251010_122316.jpg' alt='Child Playing With Magnetic Toy at Kidz Korner Milton, Ontario' />
                 <Image src='/media/KK/IMG-20260108-WA0007.jpg' alt='Child Tracing Alphabets at Kidz Korner Milton, Ontario' />
                 <Image src='/media/KK/IMG-20260209-WA0006.jpg' alt='Child Playing With Play-Doh at Kidz Korner Milton, Ontario' />
