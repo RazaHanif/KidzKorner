@@ -112,20 +112,6 @@ const BeforeAfterDaycare = () => {
                                 Indoor Playground Access
                             </p>
                         </div>
-                        <div className="flex flex-col gap-2 w-full text-nowrap">
-                            <p className="flex items-start gap-3">
-                                <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                                Small-group Activities
-                            </p>
-                            <p className="flex items-start gap-3">
-                                <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                                Focus on Independence & Confidence
-                            </p>
-                            <p className="flex items-start gap-3">
-                                <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                                Opportunities to Build Friendships
-                            </p>
-                        </div>
                     </div>
                 </div>
             </div>
