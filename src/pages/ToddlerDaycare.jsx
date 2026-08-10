@@ -183,7 +183,7 @@ const ToddlerDaycare = () => {
                         This approach helps toddlers become comfortable in their environment while gradually developing the skills they need for their next stage of learning.
                     </p>
                     <Image
-                        src="/media/K_K_39.jpg"
+                        src="/media/KK/K_K_39.jpg"
                         alt="Kidz Korner licensed daycare in  Milton"
                         w="w-sm"
                     />
