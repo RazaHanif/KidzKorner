@@ -203,7 +203,7 @@ const BeforeAfterDaycare = () => {
 
             <div className="flex flex-col justify-center items-center w-3/4">
                 <h2 className="text-xl font-bold text-center pb-4">
-                    A Postive Start Before School
+                    A Positive Start Before School
                 </h2>
                 <div className="flex flex-col p-2 lg:gap-4 gap-2">
                     <div className="flex flex-col gap-2 w-full">
