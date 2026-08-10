@@ -114,46 +114,46 @@ const BeforeAfterDaycare = () => {
                         Children have opportunities to play, participate in activities, socialize with friends, and relax in a supportive environment while families manage their daily schedules.
                     </p>
                     <div className="flex lg:flex-row flex-col p-2 lg:gap-4 gap-2">
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="font-semibold">
-                                        Before School Care
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent className="text-start">
-                                    A calm and engaging start to the morning before children head off to school.
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="font-semibold">
-                                        After School Care
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent className="text-start">
-                                    A welcoming place to unwind, play, and connect with friends after the school day.
-                                </CardContent>
-                            </Card>
-                            <Card>
-                                <CardHeader>
-                                    <CardTitle className="font-semibold">
-                                        Flexible Scheduling
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent className="text-start">
-                                    Care options designed to fit around your family's school and work schedule.
-                                </CardContent>
-                            </Card>
-                            <div className="flex flex-col items-start justify-start w-full">
-                                <div className="flex gap-2 self-center">
-                                    <h2 className="font-bold">
-                                        Before School Care
-                                    </h2>
-                                </div>
-                                <p className="text-start pl-8">
-                                    A calm and engaging start to the morning before children head off to school.
-                                </p>
+                        <Card>
+                            <CardHeader>
+                                <CardTitle className="font-semibold">
+                                    Before School Care
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent className="text-start">
+                                A calm and engaging start to the morning before children head off to school.
+                            </CardContent>
+                        </Card>
+                        <Card>
+                            <CardHeader>
+                                <CardTitle className="font-semibold">
+                                    After School Care
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent className="text-start">
+                                A welcoming place to unwind, play, and connect with friends after the school day.
+                            </CardContent>
+                        </Card>
+                        <Card>
+                            <CardHeader>
+                                <CardTitle className="font-semibold">
+                                    Flexible Scheduling
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent className="text-start">
+                                Care options designed to fit around your family's school and work schedule.
+                            </CardContent>
+                        </Card>
+                        <div className="flex flex-col items-start justify-start w-full">
+                            <div className="flex gap-2 self-center">
+                                <h2 className="font-bold">
+                                    Before School Care
+                                </h2>
                             </div>
+                            <p className="text-start pl-8">
+                                A calm and engaging start to the morning before children head off to school.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
