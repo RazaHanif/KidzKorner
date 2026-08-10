@@ -79,44 +79,43 @@ const SummerCamp = () => {
                 <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
                     <div className="flex flex-col lg:flex-row flex-1 lg:w-3/4 w-full gap-4">
                         <div>
-                            
+                            <Card className="flex-1 flex">
+                                <CardHeader className="text-start">
+                                    <CardTitle className="flex flex-row items-center gap-2">
+                                        <Sun className="text-primary" />
+                                        Themed Events & Experiences
+                                    </CardTitle>
+                                    <CardDescription>
+                                        Our summer is filled with fun themes, special activities, and events that give children something new and exciting to look forward to each week.
+                                    </CardDescription>
+                                </CardHeader>
+                            </Card>
+
+                            <Card className="flex-1 flex">
+                                <CardHeader className="text-start">
+                                    <CardTitle className="flex flex-row items-center gap-2">
+                                        <Sun className="text-primary" />
+                                        Indoor Playground Fun
+                                    </CardTitle>
+                                    <CardDescription>
+                                        Campers have access to our indoor playground, giving them plenty of opportunities to climb, play, explore, and stay active.
+                                    </CardDescription>
+                                </CardHeader>
+                            </Card>
+
+                            <Card className="flex-1 flex">
+                                <CardHeader className="text-start">
+                                    <CardTitle className="flex flex-row items-center gap-2">
+                                        <Sun className="text-primary" />
+                                        A Mix of Activities
+                                    </CardTitle>
+                                    <CardDescription>
+                                        From arts and crafts to games, sports, creative activities, and free play, each day offers a variety of ways for children to stay engaged.
+                                    </CardDescription>
+                                </CardHeader>
+                            </Card>
                         </div>
 
-                        <Card className="flex-1 flex">
-                            <CardHeader className="text-start">
-                                <CardTitle className="flex flex-row items-center gap-2">
-                                    <Sun className="text-primary" />
-                                    Themed Events & Experiences
-                                </CardTitle>
-                                <CardDescription>
-                                    Our summer is filled with fun themes, special activities, and events that give children something new and exciting to look forward to each week.
-                                </CardDescription>
-                            </CardHeader>
-                        </Card>
-
-                        <Card className="flex-1 flex">
-                            <CardHeader className="text-start">
-                                <CardTitle className="flex flex-row items-center gap-2">
-                                    <Sun className="text-primary" />
-                                    Indoor Playground Fun
-                                </CardTitle>
-                                <CardDescription>
-                                    Campers have access to our indoor playground, giving them plenty of opportunities to climb, play, explore, and stay active.
-                                </CardDescription>
-                            </CardHeader>
-                        </Card>
-
-                        <Card className="flex-1 flex">
-                            <CardHeader className="text-start">
-                                <CardTitle className="flex flex-row items-center gap-2">
-                                    <Sun className="text-primary" />
-                                    A Mix of Activities
-                                </CardTitle>
-                                <CardDescription>
-                                    From arts and crafts to games, sports, creative activities, and free play, each day offers a variety of ways for children to stay engaged.
-                                </CardDescription>
-                            </CardHeader>
-                        </Card>
 
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
