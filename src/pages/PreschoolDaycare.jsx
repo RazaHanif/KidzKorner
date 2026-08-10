@@ -312,7 +312,7 @@ const PreschoolDaycare = () => {
             />
             <meta 
                 property="og:title"
-                content="Licensed Daycare in Milton, Ontario | Kidz Korner"
+                content="Preschool Daycare in Milton, Ontario | Learning Through Play | Kidz Korner"
             />
             <meta
                 property="og:description"
