@@ -62,12 +62,12 @@ const SummerCamp = () => {
     ]
 
     return (
-        <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16 pb:8">
+        <div className="flex flex-col flex-1 justify-center items-center gap-6 w-full lg:py-16 pb:8">
             <div className="flex flex-col justify-center items-center w-full mb-4">
                 <h1 className="lg:text-5xl text-3xl font-bold font-serif text-center py-4">
                     Summer Camp in Milton
                 </h1>
-                <div className="flex flex-col justify-center items-center text-center gap-4 pt-4">
+                <div className="flex flex-col justify-center items-center text-center gap-6 pt-4">
                     <p className="lg:w-3/4 w-9/10">
                         Keep your child active, engaged, and having fun throughout the summer at Kidz Korner. Our summer camp in Milton offers themed activities, arts and crafts, games, indoor playground time, and plenty of opportunities for creative and active play in a welcoming environment.
                     </p>
@@ -86,8 +86,8 @@ const SummerCamp = () => {
                 <h2 className="text-xl font-bold text-center pb-4">
                     Why Families Choose Kidz Korner Summer Camp
                 </h2>
-                <div className="flex flex-col justify-center items-center w-full gap-4">
-                    <div className="flex flex-col lg:flex-row flex-1 w-full gap-4">
+                <div className="flex flex-col justify-center items-center w-full gap-6">
+                    <div className="flex flex-col lg:flex-row flex-1 w-full gap-6">
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
                                 <CardTitle className="flex flex-row items-center gap-2">
@@ -125,7 +125,7 @@ const SummerCamp = () => {
                         </Card>
                     </div>
 
-                    <div className="flex flex-col lg:flex-row flex-1 w-full gap-4">
+                    <div className="flex flex-col lg:flex-row flex-1 w-full gap-6">
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
                                 <CardTitle className="flex flex-row items-center gap-2">
@@ -165,7 +165,7 @@ const SummerCamp = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center gap-4 lg:w-3/4 w-9/10">
+            <div className="flex flex-col justify-center items-center gap-6 lg:w-3/4 w-9/10">
                 <h2 className="text-xl font-bold text-center pb-4">
                     What to Expect at Kidz Korner Summer Camp
                 </h2>
@@ -225,7 +225,7 @@ const SummerCamp = () => {
                 <FAQAccordion faq={faq} />
             </div>
 
-            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-4">
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 border-y lg:py-12 py-8 lg:my-12 my-8">
                 <p className="flex text-center">
                     Interested in Summer Camp?
                 </p>
