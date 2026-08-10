@@ -238,7 +238,7 @@ const SummerCamp = () => {
             <StructData schema={breadcrumbSchema(breadCrumb)} />
 
             <title>
-                Summer Camp in Milton, Ontario | Kidz Korner 
+                March Camp in Milton, Ontario | Kidz Korner 
             </title>
             <meta 
                 name="description" 
