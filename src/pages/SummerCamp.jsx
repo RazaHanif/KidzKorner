@@ -179,7 +179,6 @@ const SummerCamp = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
-                        <div className="flex flex-col justify-center w-3/4 lg:py-16 py-8">
                 <Card>
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
@@ -212,8 +211,6 @@ const SummerCamp = () => {
                         </div>
                     </CardContent>
                 </Card>
-            </div>
-
             </div>
 
             <div className="flex lg:flex-row flex-col justify-between items-center w-3/4 gap-4">
