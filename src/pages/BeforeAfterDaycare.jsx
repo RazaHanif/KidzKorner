@@ -54,7 +54,7 @@ const BeforeAfterDaycare = () => {
             />
             <meta
                 property="og:url"
-                content="https://www.kidzkornermilton.com/"
+                content="https://www.kidzkornermilton.com/daycare/before-after-school-care"
             />
             <meta
                 property="og:image"
