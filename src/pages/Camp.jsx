@@ -362,7 +362,7 @@ const Camp = () => {
             <StructData schema={faqSchema(faq)} />
 
             <title>
-                Kids Camps in Milton | Kidz Korner
+                Kids Camps in Milton, Ontario | Kidz Korner
             </title>
             <meta 
                 name="description" 
