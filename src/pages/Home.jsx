@@ -300,7 +300,9 @@ const Home = () => {
             <StructData schema={organizationSchema} />
             <StructData schema={websiteSchema} />
 
-            <title>Licensed Daycare in Milton, Ontario | Kidz Korner</title>
+            <title>
+                Licensed Daycare in Milton, Ontario | Kidz Korner
+            </title>
 
             <meta
                 name="keywords"
