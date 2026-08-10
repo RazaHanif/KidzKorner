@@ -116,7 +116,7 @@ const BeforeAfterDaycare = () => {
                     <div className="flex lg:flex-row flex-col p-2 lg:gap-4 gap-2">
                         <div className="flex flex-col gap-2 w-full">
                             <div className="flex flex-col items-start justify-start w-full">
-                                <div className="flex gap-2">
+                                <div className="flex gap-2 self-center">
                                     <h2 className="font-bold">
                                         Before School Care
                                     </h2>
@@ -126,7 +126,7 @@ const BeforeAfterDaycare = () => {
                                 </p>
                             </div>
                             <div className="flex flex-col items-start justify-start w-full">
-                                <div className="flex gap-2">
+                                <div className="flex gap-2 self-center">
                                     <h2 className="font-bold">
                                         After School Care
                                     </h2>
@@ -136,7 +136,7 @@ const BeforeAfterDaycare = () => {
                                 </p>
                             </div>
                             <div className="flex flex-col items-start justify-start w-full">
-                                <div className="flex gap-2">
+                                <div className="flex gap-2 self-center">
                                     <h2 className="font-bold">
                                         Flexible Scheduling
                                     </h2>
