@@ -305,7 +305,7 @@ const BeforeAfterDaycare = () => {
                                                 </h2>
                                             </div>
                                             <p className="text-start pl-8">
-                                                Children learn to recognize and express their feelings, build friendships, cooperate with others, and develop the confidence to participate in group experiences.
+                                                Children spend their time in a welcoming childcare setting with caring educators.
                                             </p>
                                         </div>
                                         <div className="flex flex-col items-start justify-start w-full">
