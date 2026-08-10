@@ -198,7 +198,7 @@ const SummerCamp = () => {
                                 A maximum of 13 campers for a smaller group setting
                             </p>
                             <p className="lg:border-r-2 lg:border-b-0 border-b-2 p-4">
-                                Freshly cooked Nutritious Meals & Snacks
+                                9:00 AM 
                             </p>
                             <p className="p-4">
                                 Registered Early Childhood Educators (RECE)
