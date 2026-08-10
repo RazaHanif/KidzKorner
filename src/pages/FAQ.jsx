@@ -39,7 +39,7 @@ const FAQ = () => {
             />
             <meta
                 property="og:url"
-                content="https://www.kidzkornermilton.com/"
+                content="https://www.kidzkornermilton.com/faq"
             />
             <meta
                 property="og:image"
