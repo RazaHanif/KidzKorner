@@ -27,7 +27,7 @@ const Daycare = () => {
     ];
 
     return (
-        <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16 pb-8">
+        <div className="flex flex-col flex-1 justify-center items-center gap-6 w-full lg:py-16 pb-8">
             <div className="flex flex-col justify-center items-center w-full">
                 <h1 className="lg:text-5xl text-3xl font-bold font-serif text-center py-4">
                     Licensed Daycare in Milton, Ontario
@@ -76,7 +76,7 @@ const Daycare = () => {
                     Program Options - Full Time & Part Time Care
                 </h2>
                 <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
-                    <div className="flex flex-col lg:flex-row flex-1 lg:w-3/4 w-full gap-4">
+                    <div className="flex flex-col lg:flex-row flex-1 lg:w-3/4 w-full gap-6">
                         <NavLink 
                             to="/daycare/toddler" 
                             end 
