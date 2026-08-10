@@ -115,7 +115,9 @@ const BeforeAfterDaycare = () => {
                     </p>
                     <div className="flex lg:flex-row flex-col p-2 lg:gap-4 gap-2 w-3/4">
                         <Card>
-                            
+                            <CardContent>
+                                
+                            </CardContent>
                         </Card>
                         <div className="flex flex-col gap-2 w-full">
                             <div className="flex flex-col items-start justify-start w-full">
