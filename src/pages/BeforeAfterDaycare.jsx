@@ -44,7 +44,7 @@ const BeforeAfterDaycare = () => {
         },
         {
             q: "What are your Before & After School Care Hours?",
-            a: "Preschoolers enjoy a balance of guided activities, creative play, group experiences, active play, and opportunities for independent exploration. Daily routines may include arts and crafts, stories, music, learning activities, meals, and indoor play."
+            a: "7:30 AM - ."
         },
         {
             q: "How does the preschool program prepare children for kindergarten?",
