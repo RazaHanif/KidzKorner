@@ -262,7 +262,7 @@ const WinterCamp = () => {
             />
             <meta
                 property="og:url"
-                content="https://www.kidzkornermilton.com/"
+                content="https://www.kidzkornermilton.com/camp/winter-camp"
             />
             <meta
                 property="og:image"
