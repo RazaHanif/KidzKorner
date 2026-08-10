@@ -231,7 +231,7 @@ const PreschoolDaycare = () => {
                                                 </h2>
                                             </div>
                                             <p className="text-start pl-8">
-                                                Meets Ontario Ministry of Education licensing standards.
+                                                Children learn to recognize and express their feelings, build friendships, cooperate with others, and develop the confidence to participate in group experiences.
                                             </p>
                                         </div>
                                         <div className="flex flex-col items-start justify-start w-full">
