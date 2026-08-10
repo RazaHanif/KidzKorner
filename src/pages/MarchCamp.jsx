@@ -21,7 +21,7 @@ const MarchCamp = () => {
             url: "https://www.kidzkornermilton.com/camp"
         },
         {
-            name: "Camp",
+            name: "March Break Camp",
             url: "https://www.kidzkornermilton.com/camp"
         },
     ];
