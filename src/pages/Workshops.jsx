@@ -66,7 +66,7 @@ const Workshops = () => {
             />
             <meta
                 property="og:description"
-                content="Looking "
+                content="Kidz Korner offers engaging workshops and programs in Milton, Ontario. Early learning, arts, and skill-building activities for children."
             />
             <meta 
                 property="og:type"
