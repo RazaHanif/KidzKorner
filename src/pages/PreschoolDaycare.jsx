@@ -33,7 +33,7 @@ const PreschoolDaycare = () => {
     const faq = [
         {
             q: "What age is the preschool program? [CHECK IF THIS IS RIGHT!!!!!]",
-            a: "Our toddler daycare program is designed for young children between the 18 months and 2.5 years."
+            a: "Our toddler daycare program is designed for young children between 2-4 years."
         },
         {
             q: "What does a typical day look like?",
