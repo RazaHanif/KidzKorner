@@ -278,7 +278,7 @@ const PreschoolDaycare = () => {
                                                 </h2>
                                             </div>
                                             <p className="text-start pl-8">
-                                                A secure, welcoming space where children can thrive.
+                                                Art, music, imaginative play, and creative activities give children opportunities to express themselves and explore their own ideas.
                                             </p>
                                         </div>
                                         <div className="flex flex-col items-start justify-start w-full">
