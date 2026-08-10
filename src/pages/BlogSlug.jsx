@@ -32,7 +32,7 @@ const BlogSlug = () => {
             </title>
             <meta 
                 name="description" 
-                content="de" 
+                content={slug.desc} 
             />
             <meta 
                 property="og:title"
@@ -40,7 +40,7 @@ const BlogSlug = () => {
             />
             <meta
                 property="og:description"
-                content="de"
+                content={slug.desc}
             />
             <meta 
                 property="og:type"
