@@ -60,21 +60,21 @@ const ToddlerDaycare = () => {
     ];
 
     return (
-        <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16 pb-8">
+        <div className="flex flex-col flex-1 justify-center items-center gap-6 w-full lg:py-16 pb-8">
             <div className="flex flex-col justify-center items-center w-full lg:pb-16 py-8">
                 <h1 className="lg:text-5xl text-3xl font-bold font-serif text-center">
                     Toddler Daycare in Milton
                 </h1>
             </div>
 
-            <div className="flex lg:flex-row flex-col gap-4 lg:w-3/4 w-9/10">
-                <div className="flex flex-col flex-1 justify-center items-center w-full py-4 lg:gap-8 gap-4">
+            <div className="flex lg:flex-row flex-col gap-6 lg:w-3/4 w-9/10">
+                <div className="flex flex-col flex-1 justify-center items-center w-full py-4 lg:gap-8 gap-6">
                     <p className="flex justify-center items-center lg:w-3/4 lg:text-center">
                         Our toddler daycare program provides a nurturing and engaging environment where young children can explore, learn, and grow with confidence. 
                         Through a combination of guided activities, hands-on experiences, and a consistent daily routine, we create a welcoming space where toddlers can feel comfortable while discovering the world around them.
                     </p>
 
-                    <div className="w-3/4 flex flex-row lg:flex-col gap-4 justify-center items-center">
+                    <div className="w-3/4 flex flex-row lg:flex-col gap-6 justify-center items-center">
                         <a 
                             href="#toddler-form" 
                             className="hover:scale-105 ease-in-out duration-300 flex-1 lg:w-3/4 flex justify-center"
@@ -121,8 +121,8 @@ const ToddlerDaycare = () => {
                     What Makes Our Toddler Program Special
                 </h2>
 
-                <div className="flex flex-1 flex-col gap-4 w-full">
-                    <div className="flex md:flex-row flex-col gap-4">
+                <div className="flex flex-1 flex-col gap-6 w-full">
+                    <div className="flex md:flex-row flex-col gap-6">
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
                                 <CardTitle>
@@ -174,7 +174,7 @@ const ToddlerDaycare = () => {
                 <h2 className="text-xl font-bold text-center pb-4">
                     What Parents Can Expect
                 </h2>
-                <div className="flex lg:flex-row flex-col p-2 lg:gap-4 gap-2">
+                <div className="flex lg:flex-row flex-col p-2 lg:gap-6 gap-2">
                     <div className="flex flex-col gap-2 w-full text-nowrap">
                         <p className="flex items-start gap-3">
                             <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
@@ -211,7 +211,7 @@ const ToddlerDaycare = () => {
                     Supporting Your Toddler's Development
                 </h2>
 
-                <div className="flex lg:flex-row flex-col justify-center items-center w-full gap-4">
+                <div className="flex lg:flex-row flex-col justify-center items-center w-full gap-6">
                     <p className="flex flex-col justify-center items-center w-full text-center">
                         The toddler years are an important time for children to develop new skills and become more confident in their abilities. 
                         At Kidz Korner, development is supported throughout the entire day, from following familiar routines and making simple choices to exploring new experiences and participating in age-appropriate activities. 
@@ -233,7 +233,7 @@ const ToddlerDaycare = () => {
                 <FAQAccordion faq={faq} />
             </div>
 
-            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-4" id="toddler-form">
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6" id="toddler-form">
                 <p className="flex text-center">
                     Ready to join us?
                 </p>
