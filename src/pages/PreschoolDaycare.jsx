@@ -213,24 +213,6 @@ const PreschoolDaycare = () => {
 
             <div className="flex flex-col justify-center items-center w-3/4">
                 <h2 className="text-xl font-bold text-center pb-4">
-                    A Safe, Supportive Environment to Learn and Grow
-                </h2>
-
-                <div className="flex lg:flex-row flex-col justify-center items-center w-full gap-4">
-                    <p className="flex flex-col justify-center items-center w-full text-center">
-                        
-                    </p>
-                    <Image
-                        src="/K_K_39.jpg"
-                        alt="Kidz Korner licensed daycare in  Milton"
-                        w="w-sm"
-                    />
-                </div>
-
-            </div>
-
-            <div className="flex flex-col justify-center items-center w-3/4">
-                <h2 className="text-xl font-bold text-center pb-4">
                     What Preschool Parents Can Expect
                 </h2>
                 <div className="flex lg:flex-row flex-col p-2 lg:gap-4 gap-2">
