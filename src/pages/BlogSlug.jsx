@@ -18,6 +18,9 @@ const BlogSlug = () => {
             url: `https://www.kidzkornermilton.com/blog/${slug.urlSlug}`
         },
     ];
+
+    const metaTitle = `${slug.title} | Kidz Korner`
+
     return (
         <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16 pb-8">
 
@@ -25,7 +28,7 @@ const BlogSlug = () => {
             <StructData schema={breadcrumbSchema(breadCrumb)} />
 
             <title>
-                {slug.title} | Kidz Korner 
+                {metaTitle}
             </title>
             <meta 
                 name="description" 
