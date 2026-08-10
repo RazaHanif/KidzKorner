@@ -210,7 +210,7 @@ const SummerCamp = () => {
                                 Small groups of up to 13
                             </p>
                             <p className="lg:border-r-2 lg:border-b-0 border-b-2 p-4">
-                                Monday to Friday
+                                Monday to Friday, 9AM to 3PM
                             </p>
                             <p className="p-4">
                                 $175 per week
