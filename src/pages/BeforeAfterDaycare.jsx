@@ -316,7 +316,7 @@ const BeforeAfterDaycare = () => {
                                                 </h2>
                                             </div>
                                             <p className="text-start pl-8">
-                                                interactions help children expand their vocabulary, express their ideas, listen to others, and become confident communicators.
+                                                Care is available before and after the regular school day to help support busy family schedules.
                                             </p>
                                         </div>
                                         <div className="flex flex-col items-start justify-start w-full">
