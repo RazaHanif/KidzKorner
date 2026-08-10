@@ -15,6 +15,7 @@ import ToddlerDaycare from "./pages/ToddlerDaycare.jsx";
 import PreschoolDaycare from "./pages/PreschoolDaycare.jsx";
 import BeforeAfterDaycare from "./pages/BeforeAfterDaycare.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
+import SummerCamp from "./pages/SummerCamp.jsx";
 
 /* 
 
@@ -58,7 +59,7 @@ function App() {
 
                     {/* Camp */}
                     <Route path="/camp" element={<Camp />} />
-                    <Route path="/camp/summer-camp" element={<Camp />} />
+                    <Route path="/camp/summer-camp" element={<SummerCamp />} />
                     <Route path="/camp/march-break-camp" element={<Camp />} />
                     <Route path="/camp/winter-break-camp" element={<Camp />} />
                     <Route path="/camp/pa-day-camp" element={<Camp />} />
