@@ -159,7 +159,7 @@ const BeforeAfterDaycare = () => {
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
-                                Time for arts, crafts, and hands-on activities that encourage creativity and self-expression
+                                Time for arts, crafts, and hands-on activities that encourage creativity and self-expression.
                             </CardContent>
                         </Card>
 
@@ -170,7 +170,7 @@ const BeforeAfterDaycare = () => {
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
-                                Children learn best when they're engaged and having fun. Play gives preschoolers opportunities to explore, experiment, create, and discover new ideas.
+                                A chance to enjoy games, toys, and activities with friends in a fun and relaxed setting.
                             </CardContent>
                         </Card>
                     </div>
