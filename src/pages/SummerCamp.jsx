@@ -74,7 +74,7 @@ const SummerCamp = () => {
 
             <div className="flex flex-col justify-center items-center w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
                 <h2 className="text-xl font-bold text-center pb-4">
-                    Why Fam
+                    Why Families Choose Kidz Korner Summer Camp
                 </h2>
                 <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
                     <div className="flex flex-col lg:flex-row flex-1 lg:w-3/4 w-full gap-4">
