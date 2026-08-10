@@ -241,8 +241,7 @@ const PreschoolDaycare = () => {
                         </p>
                         <p className="flex items-start gap-3">
                             <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Freshly Cooked Meals & Snacks
-                            Freshly Cooked Meals & Snacks
+                            Encouragment 
                         </p>
                     </div>
                 </div>
