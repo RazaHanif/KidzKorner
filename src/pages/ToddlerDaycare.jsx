@@ -250,7 +250,7 @@ const ToddlerDaycare = () => {
             <StructData schema={faqSchema(faq)} />
 
             <title>
-                Toddler Daycare Milton | Caring Toddler Program | Kidz Korner
+                Toddler Daycare in Milton | Caring Toddler Program | Kidz Korner
             </title>
             <meta name="description" content="Looking for toddler daycare in Milton? Kidz Korner provides a safe, nurturing toddler program focused on learning, play, and early childhood development." />
         </div>
