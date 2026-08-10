@@ -179,6 +179,40 @@ const SummerCamp = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
+                        <div className="flex flex-col justify-center w-3/4 lg:py-16 py-8">
+                <Card>
+                    <CardHeader>
+                        <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
+                            What We Offer!
+                        </CardTitle>
+                        <CardDescription className="p-2 bg-accent hidden rounded-md text-bold text-lg">
+                            What we offer
+                        </CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                        <div className="flex lg:flex-row flex-col justify-evenly text-center">
+                            <p className="lg:border-r-2 lg:border-b-0 border-b-2 p-4">
+                                Interactive & Play Based Learning
+                            </p>
+                            <p className="lg:border-r-2 lg:border-b-0 border-b-2 p-4">
+                                Weekly Art & Cooking Classes
+                            </p>
+                            <p className="lg:border-r-2 lg:border-b-0 border-b-2 p-4">
+                                Strong Parent Teacher Communication
+                            </p>
+                            <p className="lg:border-r-2 lg:border-b-0 border-b-2 p-4">
+                                Monthly Progress Reports
+                            </p>
+                            <p className="lg:border-r-2 lg:border-b-0 border-b-2 p-4">
+                                Freshly cooked Nutritious Meals & Snacks
+                            </p>
+                            <p className="p-4">
+                                Registered Early Childhood Educators (RECE)
+                            </p>
+                        </div>
+                    </CardContent>
+                </Card>
+            </div>
                 <Card className="lg:w-2/3 w-full flex-1">
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
