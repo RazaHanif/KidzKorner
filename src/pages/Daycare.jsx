@@ -252,7 +252,7 @@ const Daycare = () => {
             />
             <meta
                 property="og:image:alt"
-                content="Kidz Korner licensed daycare in  Milton"
+                content="Kidz Korner licensed daycare in Milton"
             />
 
 
