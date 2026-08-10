@@ -34,7 +34,7 @@ const BeforeAfterDaycare = () => {
             <StructData schema={breadcrumbSchema(breadCrumb)} />
 
             <title>
-                Before & After School Daycare | Before & After School | Kidz Korner
+                Before & After School Care in Milton, Ontario | Before & After School | Kidz Korner
             </title>
             <meta 
                 name="description" 
