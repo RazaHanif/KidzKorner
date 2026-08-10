@@ -27,7 +27,7 @@ const FAQ = () => {
             />
             <meta 
                 property="og:title"
-                content="Licensed Daycare in Milton, Ontario | Kidz Korner"
+                content="Frequently Asked Questions | Kidz Korner "
             />
             <meta
                 property="og:description"
