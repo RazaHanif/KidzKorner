@@ -192,7 +192,7 @@ const PreschoolDaycare = () => {
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
-                                    Through group activities and everyday interactions, children learn to communicate, cooperate, build friendships, and navigate new social experiences.
+                                    Active play and hands-on activities help children build coordination, balance, fine-motor skills, and body awareness.
                                 </CardContent>
                             </Card>
 
