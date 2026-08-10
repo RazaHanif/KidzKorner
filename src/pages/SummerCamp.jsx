@@ -281,7 +281,7 @@ const SummerCamp = () => {
                 </p>
 
                 {/* TODO:MAKE THIS FORM SUMMER SPECIFIC  */}
-                {/* [DaycareForm type="summer"] */}
+                {/* [CampForm type="summer"] */}
                 <CampForm/>
             </div>
 
