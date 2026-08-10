@@ -98,12 +98,6 @@ const BeforeAfterDaycare = () => {
                         Children have opportunities to play, participate in activities, socialize with friends, and relax in a supportive environment while families manage their daily schedules.
                     </p>
                 </div>
-            </div>
-
-            <div className="flex flex-col justify-center items-center w-3/4">
-                <h2 className="text-xl font-bold text-center pb-4">
-                    What Parents Can Expect From Our Preschool Program
-                </h2>
                 <div className="flex lg:flex-row flex-col p-2 lg:gap-4 gap-2">
                     <div className="flex flex-col gap-2 w-full text-nowrap">
                         <p className="flex items-start gap-3">
@@ -134,6 +128,12 @@ const BeforeAfterDaycare = () => {
                         </p>
                     </div>
                 </div>
+            </div>
+
+            <div className="flex flex-col justify-center items-center w-3/4">
+                <h2 className="text-xl font-bold text-center pb-4">
+                    What Parents Can Expect From Our Preschool Program
+                </h2>
                 <div className="flex lg:flex-row flex-col p-2 lg:gap-4 gap-2">
                     <div className="flex flex-col gap-2 w-full text-nowrap">
                         <p className="flex items-start gap-3">
