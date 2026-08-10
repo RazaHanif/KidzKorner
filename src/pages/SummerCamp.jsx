@@ -42,7 +42,7 @@ const SummerCamp = () => {
         },
         {
             q: "How much does summer camp cost?",
-            a: "Children should bring a nut-free lunch, snacks, a reusable water bottle, comfortable clothing, indoor shoes, and any personal items they may need throughout the day."
+            a: "Summer camp is $175 per week per child. The weekly price includes all regular camp activities and programming, so there are no additional activity fees for the scheduled camp program."
         },
         {
             q: "How do I register for a camp?",
