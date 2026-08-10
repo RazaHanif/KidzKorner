@@ -78,28 +78,22 @@ const SummerCamp = () => {
                 </h2>
                 <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
                     <div className="flex flex-col lg:flex-row flex-1 lg:w-3/4 w-full gap-4">
-                        <NavLink 
-                            to="/camp/summer-camp" 
-                            end 
-                            className="hover:scale-102 ease-in-out duration-300 flex flex-1"
-                        >
-                            <Card className="flex-1 flex">
-                                <CardHeader className="text-start">
-                                    <CardTitle className="flex flex-row items-center gap-2">
-                                        <Sun className="text-primary" />
-                                        Summer Camp
-                                    </CardTitle>
-                                    <CardDescription>
-                                        8-10 weeks of themed adventures packed with art, cooking, science and special activities
-                                    </CardDescription>
-                                </CardHeader>
-                                <CardContent className="flex-1 flex justify-end items-end">
-                                    <Button className="pointer-events-none" variant="secondary">
-                                        Learn More
-                                    </Button>
-                                </CardContent>
-                            </Card>
-                        </NavLink>
+                        <Card className="flex-1 flex">
+                            <CardHeader className="text-start">
+                                <CardTitle className="flex flex-row items-center gap-2">
+                                    <Sun className="text-primary" />
+                                    Summer Camp
+                                </CardTitle>
+                                <CardDescription>
+                                    8-10 weeks of themed adventures packed with art, cooking, science and special activities
+                                </CardDescription>
+                            </CardHeader>
+                            <CardContent className="flex-1 flex justify-end items-end">
+                                <Button className="pointer-events-none" variant="secondary">
+                                    Learn More
+                                </Button>
+                            </CardContent>
+                        </Card>
 
                         <NavLink
                             to="/camp/pa-day-camp" 
