@@ -432,11 +432,6 @@ const BeforeAfterDaycare = () => {
                             Our indoor play space gives school-age children another way to stay active and engaged throughout their afternoon.
                         </p>
                     </div>
-                    <Image 
-                            src='/media/KK/20251010_122316.jpg' 
-                            alt='Child Playing With Magnetic Toy at Kidz Korner Milton, Ontario' 
-                            w="w-sm"    
-                    />
                     <div className="flex flex-col lg:flex-row gap-2 lg:gap-4 justify-center items-center">
                         <NavLink 
                                 to="/indoor-playground" 
@@ -449,6 +444,11 @@ const BeforeAfterDaycare = () => {
                             </Button>
                         </NavLink>
                     </div>
+                    <Image 
+                            src='/media/KK/20251010_122316.jpg' 
+                            alt='Child Playing With Magnetic Toy at Kidz Korner Milton, Ontario' 
+                            w="w-sm"    
+                    />
                 </div>
             </div>
 
