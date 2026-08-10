@@ -259,7 +259,7 @@ const Parties = () => {
                 <FAQAccordion faq={faq} />
             </div>
 
-            <div className="flex flex-col justify-center items-center lg:w-3/4 gap-6">
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6">
                 <p className="flex w-2/3 text-center">
                     Ready to Party? Contact us today to secure your date! 
                 </p>
