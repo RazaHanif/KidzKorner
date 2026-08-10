@@ -27,7 +27,7 @@ const Blog = () => {
             />
             <meta 
                 property="og:title"
-                content="Licensed Daycare in Milton, Ontario | Kidz Korner"
+                content="Kidz Korner Blog | Childcare & Kids Activities in Milton, Ontario"
             />
             <meta
                 property="og:description"
