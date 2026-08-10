@@ -382,7 +382,7 @@ const Camp = () => {
             />
             <meta
                 property="og:url"
-                content="https://www.kidzkornermilton.com/"
+                content="https://www.kidzkornermilton.com/camp"
             />
             <meta
                 property="og:image"
