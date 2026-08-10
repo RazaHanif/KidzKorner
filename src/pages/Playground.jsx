@@ -101,7 +101,7 @@ const Playground = () => {
                     <h2 className="text-xl font-bold text-center">
                         Explore Our Indoor Playground
                     </h2>
-                    <div className="flex lg:flex-row flex-col p-2 gap-2">
+                    <div className="flex lg:flex-row flex-col p-2 gap-2 border">
                         <div className="flex flex-col gap-2 w-full flex-1">
                             <p className="flex items-start gap-3">
                                 <CheckCircle className="h-6 w-6 shrink-0 text-primary"/>
