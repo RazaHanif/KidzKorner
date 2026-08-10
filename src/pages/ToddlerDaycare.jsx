@@ -2,12 +2,10 @@ import DaycareForm from "@/components/DaycareForm";
 import {
     Card,
     CardContent,
-    CardDescription,
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { NavLink } from 'react-router-dom';
 import Image from "@/components/Image"
 import FAQAccordion from "../components/FAQAccordion";
 import StructData from "../components/StructData";
