@@ -165,61 +165,6 @@ const PreschoolDaycare = () => {
                     </p>
                     <div className="flex flex-1 flex-col gap-4 w-full">
                         <div className="flex md:flex-row flex-col gap-4">
-                            <Card className="flex-1 flex">
-                                <CardHeader className="text-start">
-                                    <CardTitle>
-                                        Social & Emotional Development
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
-                                    Children learn to recognize and express their feelings, build friendships, cooperate with others, and develop the confidence to participate in group experiences.
-                                </CardContent>
-                            </Card>
-
-                            <Card className="flex-1 flex">
-                                <CardHeader className="text-start">
-                                    <CardTitle>
-                                        Language & Communication
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
-                                    Stories, conversations, songs, and everyday interactions help children expand their vocabulary, express their ideas, listen to others, and become confident communicators.
-                                </CardContent>
-                            </Card>
-
-                            <Card className="flex-1 flex">
-                                <CardHeader className="text-start">
-                                    <CardTitle>
-                                        Cognitive Development
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
-                                    Through puzzles, sorting, counting, patterns, problem-solving, and hands-on exploration, children develop early thinking and reasoning skills.
-                                </CardContent>
-                            </Card>
-
-                            <Card className="flex-1 flex">
-                                <CardHeader className="text-start">
-                                    <CardTitle>
-                                        Physical Development
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
-                                    Active play and hands-on activities help children build coordination, balance, fine-motor skills, and body awareness.
-                                </CardContent>
-                            </Card>
-
-                            <Card className="flex-1 flex">
-                                <CardHeader className="text-start">
-                                    <CardTitle>
-                                        Creativity & Self-Expression
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
-                                    Art, music, imaginative play, and creative activities give children opportunities to express themselves and explore their own ideas.
-                                </CardContent>
-                            </Card>
-
                             <Card>
                                 <CardContent className="flex md:flex-row flex-col gap-2">
                                     <div className="flex flex-col flex-1 gap-2">
