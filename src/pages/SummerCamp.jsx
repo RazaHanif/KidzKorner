@@ -192,7 +192,7 @@ const SummerCamp = () => {
                                 Arts and crafts, games, sports, and creative activities
                             </p>
                             <p className="lg:border-r-2 lg:border-b-0 border-b-2 p-4">
-                                Strong Parent Teacher Communication
+                                Indoor playground access for active play and exploration
                             </p>
                             <p className="lg:border-r-2 lg:border-b-0 border-b-2 p-4">
                                 Monthly Progress Reports
