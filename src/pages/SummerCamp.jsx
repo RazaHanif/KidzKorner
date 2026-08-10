@@ -117,44 +117,42 @@ const SummerCamp = () => {
                         </div>
 
                         <div>
-                        <Card className="flex-1 flex">
-                            <CardHeader className="text-start">
-                                <CardTitle className="flex flex-row items-center gap-2">
-                                    <Sun className="text-primary" />
-                                    Small Group Setting
-                                </CardTitle>
-                                <CardDescription>
-                                    With a maximum of 13 campers, we keep our summer camp intentionally small so children can enjoy a more comfortable and engaging group experience.
-                                </CardDescription>
-                            </CardHeader>
-                        </Card>
+                            <Card className="flex-1 flex">
+                                <CardHeader className="text-start">
+                                    <CardTitle className="flex flex-row items-center gap-2">
+                                        <Sun className="text-primary" />
+                                        Small Group Setting
+                                    </CardTitle>
+                                    <CardDescription>
+                                        With a maximum of 13 campers, we keep our summer camp intentionally small so children can enjoy a more comfortable and engaging group experience.
+                                    </CardDescription>
+                                </CardHeader>
+                            </Card>
 
-                        <Card className="flex-1 flex">
-                            <CardHeader className="text-start">
-                                <CardTitle className="flex flex-row items-center gap-2">
-                                    <Sun className="text-primary" />
-                                    Full Day of Fun
-                                </CardTitle>
-                                <CardDescription>
-                                    Camp runs from 9:00 a.m. to 3:00 p.m., giving children a full day of activities, play, and social time during their summer break.
-                                </CardDescription>
-                            </CardHeader>
-                        </Card>
+                            <Card className="flex-1 flex">
+                                <CardHeader className="text-start">
+                                    <CardTitle className="flex flex-row items-center gap-2">
+                                        <Sun className="text-primary" />
+                                        Full Day of Fun
+                                    </CardTitle>
+                                    <CardDescription>
+                                        Camp runs from 9:00 a.m. to 3:00 p.m., giving children a full day of activities, play, and social time during their summer break.
+                                    </CardDescription>
+                                </CardHeader>
+                            </Card>
 
-                        <Card className="flex-1 flex">
-                            <CardHeader className="text-start">
-                                <CardTitle className="flex flex-row items-center gap-2">
-                                    <Sun className="text-primary" />
-                                    ??
-                                </CardTitle>
-                                <CardDescription>
-                                    ??
-                                </CardDescription>
-                            </CardHeader>
-                        </Card>
+                            <Card className="flex-1 flex">
+                                <CardHeader className="text-start">
+                                    <CardTitle className="flex flex-row items-center gap-2">
+                                        <Sun className="text-primary" />
+                                        ??
+                                    </CardTitle>
+                                    <CardDescription>
+                                        ??
+                                    </CardDescription>
+                                </CardHeader>
+                            </Card>
                         </div>
-
-
                     </div>
                 </div>
             </div>
