@@ -434,7 +434,7 @@ const BeforeAfterDaycare = () => {
                     </div>
                     <div className="flex flex-col lg:flex-row gap-2 lg:gap-4 justify-center items-center">
                         <NavLink 
-                                to="/daycare/preschool" 
+                                to="/indoor-playground" 
                                 end 
                                 className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                                 
