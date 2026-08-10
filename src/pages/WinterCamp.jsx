@@ -22,7 +22,7 @@ const WinterCamp = () => {
         },
         {
             name: "Winter Break Camp",
-            url: "https://www.kidzkornermilton.com/camp/march-camp"
+            url: "https://www.kidzkornermilton.com/camp/winter-camp"
         },
     ];
     return (
