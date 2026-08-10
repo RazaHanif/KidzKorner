@@ -40,7 +40,7 @@ const PreschoolDaycare = () => {
             a: "Preschoolers enjoy a balance of guided activities, creative play, group experiences, active play, and opportunities for independent exploration. Daily routines may include arts and crafts, stories, music, learning activities, meals, and indoor play."
         },
         {
-            q: "How does the preschool program prepare children for kindergarden?",
+            q: "How does the preschool program prepare children for kindergarten?",
             a: "Children develop important skills through everyday activities, including following routines, communicating with others, cooperating in groups, solving problems, making choices, and becoming more independent."
         },
         {
