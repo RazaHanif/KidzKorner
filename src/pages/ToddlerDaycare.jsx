@@ -253,6 +253,30 @@ const ToddlerDaycare = () => {
                 Toddler Daycare in Milton, Ontario | Caring Toddler Program | Kidz Korner
             </title>
             <meta name="description" content="Looking for toddler daycare in Milton? Kidz Korner provides a safe, nurturing toddler program focused on learning, play, and early childhood development." />
+            <meta 
+                property="og:title"
+                content="Licensed Daycare in Milton, Ontario | Kidz Korner"
+            />
+            <meta
+                property="og:description"
+                content="Looking for a licensed daycare in Milton? Kidz Korner provides trusted childcare, toddler daycare, preschool programs, before and after school care, and licensed camps for local families."
+            />
+            <meta 
+                property="og:type"
+                content="website"
+            />
+            <meta
+                property="og:url"
+                content="https://www.kidzkornermilton.com/"
+            />
+            <meta
+                property="og:image"
+                content="https://www.kidzkornermilton.com/og-image.jpg"
+            />
+            <meta
+                property="og:image:alt"
+                content="Kidz Korner licensed daycare in Milton"
+            />
         </div>
     );
 }
