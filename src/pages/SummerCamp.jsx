@@ -310,7 +310,7 @@ const SummerCamp = () => {
             />
             <meta
                 property="og:url"
-                content="https://www.kidzkornermilton.com/camp"
+                content="https://www.kidzkornermilton.com/camp/summer-camp"
             />
             <meta
                 property="og:image"
