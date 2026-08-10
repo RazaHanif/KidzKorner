@@ -70,15 +70,15 @@ const WorkshopCarousel = () => {
                         "For up to date info and class timings please check out our Instagram page.",
                         [
                             {
-                                imageLink: 'public/20260108_111322(0).jpg',
+                                imageLink: 'public/media/KK/20260108_111322(0).jpg',
                                 alt: 'Kids doing activity at Kidz Korner Milton'
                             },
                             {
-                                imageLink: 'public/20260108_111322(0).jpg',
+                                imageLink: 'public/media/KK/20260108_111322(0).jpg',
                                 alt: 'Kids doing activity at Kidz Korner Milton'
                             },
                             {
-                                imageLink: 'public/20260108_111322(0).jpg',
+                                imageLink: 'public/media/KK/20260108_111322(0).jpg',
                                 alt: 'Kids doing activity at Kidz Korner Milton'
                             },
                         ],
@@ -91,15 +91,15 @@ const WorkshopCarousel = () => {
                         "For up to date info and class timings please check out our Instagram page.",
                         [
                             {
-                                imageLink: 'public/20260108_111322(0).jpg',
+                                imageLink: 'public/media/KK/20260108_111322(0).jpg',
                                 alt: 'Kids doing activity at Kidz Korner Milton'
                             },
                             {
-                                imageLink: 'public/20260108_111322(0).jpg',
+                                imageLink: 'public/media/KK/20260108_111322(0).jpg',
                                 alt: 'Kids doing activity at Kidz Korner Milton'
                             },
                             {
-                                imageLink: 'public/20260108_111322(0).jpg',
+                                imageLink: 'public/media/KK/20260108_111322(0).jpg',
                                 alt: 'Kids doing activity at Kidz Korner Milton'
                             },
                         ],
@@ -112,15 +112,15 @@ const WorkshopCarousel = () => {
                         "For up to date info and class timings please check out our Instagram page.",
                         [
                             {
-                                imageLink: 'public/20260108_111322(0).jpg',
+                                imageLink: 'public/media/KK/20260108_111322(0).jpg',
                                 alt: 'Kids doing activity at Kidz Korner Milton'
                             },
                             {
-                                imageLink: 'public/20260108_111322(0).jpg',
+                                imageLink: 'public/media/KK/20260108_111322(0).jpg',
                                 alt: 'Kids doing activity at Kidz Korner Milton'
                             },
                             {
-                                imageLink: 'public/20260108_111322(0).jpg',
+                                imageLink: 'public/media/KK/20260108_111322(0).jpg',
                                 alt: 'Kids doing activity at Kidz Korner Milton'
                             },
                         ],
@@ -133,15 +133,15 @@ const WorkshopCarousel = () => {
                         "For up to date info and class timings please check out our Instagram page.",
                         [
                             {
-                                imageLink: 'public/20260108_111322(0).jpg',
+                                imageLink: 'public/media/KK/20260108_111322(0).jpg',
                                 alt: 'Kids doing activity at Kidz Korner Milton'
                             },
                             {
-                                imageLink: 'public/20260108_111322(0).jpg',
+                                imageLink: 'public/media/KK/20260108_111322(0).jpg',
                                 alt: 'Kids doing activity at Kidz Korner Milton'
                             },
                             {
-                                imageLink: 'public/20260108_111322(0).jpg',
+                                imageLink: 'public/media/KK/20260108_111322(0).jpg',
                                 alt: 'Kids doing activity at Kidz Korner Milton'
                             },
                         ],
