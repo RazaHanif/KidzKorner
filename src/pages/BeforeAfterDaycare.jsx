@@ -121,6 +121,28 @@ const BeforeAfterDaycare = () => {
                                     Art, music, imaginative play, and creative activities give children opportunities to express themselves and explore their own ideas.
                                 </p>
                             </div>
+                            <div className="flex flex-col items-start justify-start w-full">
+                                <div className="flex gap-2 text-primary">
+                                    <CircleCheck />
+                                    <h2 className="font-bold">
+                                        Creativity & Self-Expression
+                                    </h2>
+                                </div>
+                                <p className="text-start pl-8">
+                                    Art, music, imaginative play, and creative activities give children opportunities to express themselves and explore their own ideas.
+                                </p>
+                            </div>
+                            <div className="flex flex-col items-start justify-start w-full">
+                                <div className="flex gap-2 text-primary">
+                                    <CircleCheck />
+                                    <h2 className="font-bold">
+                                        Creativity & Self-Expression
+                                    </h2>
+                                </div>
+                                <p className="text-start pl-8">
+                                    Art, music, imaginative play, and creative activities give children opportunities to express themselves and explore their own ideas.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
