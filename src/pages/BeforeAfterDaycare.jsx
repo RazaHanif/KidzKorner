@@ -114,7 +114,9 @@ const BeforeAfterDaycare = () => {
                         Children have opportunities to play, participate in activities, socialize with friends, and relax in a supportive environment while families manage their daily schedules.
                     </p>
                     <div className="flex lg:flex-row flex-col p-2 lg:gap-4 gap-2 w-3/4">
-                        
+                        <Card>
+                            
+                        </Card>
                         <div className="flex flex-col gap-2 w-full">
                             <div className="flex flex-col items-start justify-start w-full">
                                 <div className="flex gap-2 text-primary">
