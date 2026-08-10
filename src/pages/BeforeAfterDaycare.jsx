@@ -55,7 +55,7 @@ const BeforeAfterDaycare = () => {
             a: "After school, children have time to unwind and enjoy their afternoon in a welcoming environment. Depending on the day, they may spend time in our indoor playground, play games with friends, work on creative projects, socialize with other children, or enjoy some quieter time. The goal is to give children a chance to relax, have fun, and enjoy their time at Kidz Korner after a busy school day."
         },
         {
-            q: "What are the preschool hours?",
+            q: "Can my child attend only Before School or only After School Care?",
             a: "Yes, flexible options may be available depending on your family's needs and our current availability. Whether you are looking for Before School Care, After School Care, or another arrangement, please call us to discuss the options available for your child."
         },
     ];
