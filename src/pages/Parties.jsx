@@ -200,15 +200,15 @@ const Parties = () => {
             <div className="flex flex-col justify-center items-center w-3/4">
                 <div className="flex lg:flex-row flex-col justify-between items-center gap-8 w-full mb-8">
                     <Image
-                        src="/IMG-20250302-WA0001.jpg"
+                        src="/media/KK/IMG-20250302-WA0001.jpg"
                         alt="Girls Birthday Setup at Kidz Korner Milton, Ontario"
                     />
                     <Image
-                        src="/IMG-20250714-WA0026.jpg"
+                        src="/media/KK/IMG-20250714-WA0026.jpg"
                         alt="Children enjoying a private birthday party at Kidz Korner indoor playground in Milton"
                     />
                     <Image
-                        src="/IMG-20250519-WA0002.jpg"
+                        src="/media/KK/IMG-20250519-WA0002.jpg"
                         alt="Birthday cake celebration at Kidz Korner birthday party in Milton"
                     />
                 </div>
