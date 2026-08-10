@@ -234,7 +234,7 @@ const PreschoolDaycare = () => {
                                                 </h2>
                                             </div>
                                             <p className="text-start pl-8">
-                                                Art, music, imaginative play, and creative activities give children opportunities to express themselves and explore their own ideas.
+                                                Children are encouraged to practice everyday tasks, make age-appropriate choices, and take greater responsibility for caring for themselves and their belongings.
                                             </p>
                                         </div>
                                     </div>
