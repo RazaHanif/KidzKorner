@@ -244,7 +244,7 @@ const Daycare = () => {
             />
             <meta
                 property="og:url"
-                content=""
+                content="https://www.kidzkornermilton.com/daycare"
             />
             <meta
                 property="og:image"
