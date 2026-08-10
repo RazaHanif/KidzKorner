@@ -233,6 +233,38 @@ const BeforeAfterDaycare = () => {
                 </div>
             </div>
 
+            <div className="flex flex-col justify-center items-center w-3/4">
+                <h2 className="text-xl font-bold text-center pb-4">
+                    A Postiive Start Before School
+                </h2>
+                <div className="flex flex-col p-2 lg:gap-4 gap-2">
+                    <div className="flex flex-col gap-2 w-full">
+                        <p className="flex items-start gap-3">
+                            Mornings don't always go according to plan. Our Before School Care provides children with a safe and welcoming place to begin their day before heading off to school.
+
+                            Children can ease into their morning with quiet activities, games, and time to socialize before it's time to leave for school.
+                        </p>
+                    </div>
+                    <div className="flex flex-col lg:flex-row gap-2 lg:gap-4 justify-center items-center">
+                        <Image 
+                            src='/media/KK/20251010_122316.jpg' 
+                            alt='Child Playing With Magnetic Toy at Kidz Korner Milton, Ontario' 
+                            w="w-sm"    
+                        />
+                        <Image 
+                            src='/media/KK/20251010_122316.jpg' 
+                            alt='Child Playing With Magnetic Toy at Kidz Korner Milton, Ontario' 
+                            w="w-sm"    
+                        />
+                        <Image 
+                            src='/media/KK/20251010_122316.jpg' 
+                            alt='Child Playing With Magnetic Toy at Kidz Korner Milton, Ontario' 
+                            w="w-sm"    
+                        />
+                    </div>
+                </div>
+            </div>
+
             <div className="flex flex-col justify-center items-center w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
                 <h2 className="text-xl font-bold text-center pb-4">
                     A Preschool Program Built For Growing Minds
