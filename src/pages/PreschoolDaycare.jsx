@@ -263,7 +263,7 @@ const PreschoolDaycare = () => {
                                             <div className="flex gap-2 text-primary">
                                                 <Palette />
                                                 <h2 className="font-bold">
-                                                    Play-Based Learning
+                                                    Physical Development
                                                 </h2>
                                             </div>
                                             <p className="text-start pl-8">
