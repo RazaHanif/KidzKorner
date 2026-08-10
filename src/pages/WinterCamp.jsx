@@ -250,7 +250,7 @@ const WinterCamp = () => {
             />
             <meta 
                 property="og:title"
-                content="Licensed Daycare in Milton, Ontario | Kidz Korner"
+                content="Winter Break Camp in Milton, Ontario | Kidz Korner"
             />
             <meta
                 property="og:description"
