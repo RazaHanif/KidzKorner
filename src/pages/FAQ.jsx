@@ -23,7 +23,7 @@ const FAQ = () => {
             </title>
             <meta 
                 name="description" 
-                content="Join Kidz Korner's fun and educational kids' camps in Milton, Ontario. Summer and seasonal camps designed to spark curiosity and creativity." 
+                content="" 
             />
             <meta 
                 property="og:title"
