@@ -48,7 +48,7 @@ const PreschoolDaycare = () => {
             a: "Yes. Free play is an important part of the preschool experience. Children have opportunities to choose activities, use their imagination, interact with friends, and explore their interests while being supported by our educators."
         },
         {
-            q: "How do you communicate with parents?",
+            q: "What are the preschool hours?",
             a: "Our regular preschool hours are 9:00 AM to 3:00 PM, Monday to Friday. Half-day options are also available from 9:00 AM to 11:30 AM or 12:30 PM to 3:00 PM."
         },
         {
