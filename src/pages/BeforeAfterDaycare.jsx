@@ -381,7 +381,40 @@ const BeforeAfterDaycare = () => {
                 </h2>
                 <div className="flex flex-col gap-4 lg:justify-evenly justify-center items-center w-full">
                     <div className="flex flex-1 flex-col gap-4 w-full">
-                        
+                        <Table>
+                            <TableHeader>
+                                <TableRow>
+                                    <TableHead>
+                                        Program
+                                    </TableHead>
+                                    <TableHead>
+                                        Hours
+                                    </TableHead>
+                                </TableRow>
+                            </TableHeader>
+                            <TableBody>
+                                <TableRow>
+                                    <TableCell className='font-semibold'>
+                                        Before School Care
+                                    </TableCell>
+                                    <TableCell  
+                                        className="whitespace-normal wrap-break-word"
+                                    >
+                                        7:30 AM - 9:00 AM
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell className='font-semibold'>
+                                        After School Care
+                                    </TableCell>
+                                    <TableCell  
+                                        className="whitespace-normal wrap-break-word"
+                                    >
+                                        3:00 PM - 
+                                    </TableCell>
+                                </TableRow>
+                            </TableBody>
+                        </Table>
 
                     </div>
                 </div>
