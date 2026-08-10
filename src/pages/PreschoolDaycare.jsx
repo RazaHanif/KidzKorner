@@ -36,7 +36,7 @@ const PreschoolDaycare = () => {
             a: "Our toddler daycare program is designed for young children between 2-4 years."
         },
         {
-            q: "What does a typical day look like?",
+            q: "What does a typical preschool day look like?",
             a: "Preschoolers enjoy a balance of guided activities, creative play, group experiences, active play, and opportunities for independent exploration. Daily routines may include arts and crafts, stories, music, learning activities, meals, and indoor play."
         },
         {
