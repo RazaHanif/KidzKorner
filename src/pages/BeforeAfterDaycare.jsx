@@ -94,7 +94,9 @@ const BeforeAfterDaycare = () => {
                 </h2>
                 <div className="flex flex-col gap-4 lg:justify-evenly justify-center items-center w-full">
                     <p className="flex flex-col justify-center items-center w-full text-center">
-                        The preschool years are an exciting time of growing independence, curiosity, and self-discovery. Children are developing new ways to communicate, interact with others, solve problems, and understand the world around them. At Kidz Korner, we provide experiences that support these areas of development through play, hands-on activities, creative expression, and everyday interactions. Our educators encourage children to explore, ask questions, make choices, and take on new challenges while providing the guidance and reassurance they need along the way.
+                        School days can be busy for both children and parents. Our Before & After School Care program provides a welcoming place for children to spend time before school begins and after the school day ends.
+
+Children have opportunities to play, participate in activities, socialize with friends, and relax in a supportive environment while families manage their daily schedules.
                     </p>
                 </div>
             </div>
