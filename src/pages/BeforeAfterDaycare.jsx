@@ -284,19 +284,8 @@ const BeforeAfterDaycare = () => {
                                     A less structured environment where children can decompress after school.
                                 </CardContent>
                             </Card>
-
-                            <Card className="flex-1 flex">
-                                <CardHeader className="text-start">
-                                    <CardTitle>
-                                        Developing Confidence
-                                    </CardTitle>
-                                </CardHeader>
-                                <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
-                                    With encouragement from caring educators, children are supported in trying new things, expressing themselves, and taking pride in what they can accomplish.
-                                </CardContent>
-                            </Card>
                         </div>
-                    </div>`
+                    </div>
                 </div>
             </div>
 
