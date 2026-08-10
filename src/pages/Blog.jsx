@@ -8,8 +8,8 @@ const Blog = () => {
             url: "https://www.kidzkornermilton.com/"
         },
         {
-            name: "Frequently Asked Questions",
-            url: "https://www.kidzkornermilton.com/faq"
+            name: "Blog",
+            url: "https://www.kidzkornermilton.com/blog"
         },
     ];
     return (
