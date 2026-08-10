@@ -146,7 +146,7 @@ const SummerCamp = () => {
                                     ??
                                 </CardTitle>
                                 <CardDescription>
-                                    Summer camp is $175 per week, with all regular camp activities and programming included in the weekly price.
+                                    ??
                                 </CardDescription>
                             </CardHeader>
                         </Card>
