@@ -169,6 +169,12 @@ const SummerCamp = () => {
                     <p className="flex justify-center items-center">
                         We also put a lot of thought into our themed events throughout the summer. These activities give campers something different to look forward to and help make each week feel special rather than repetitive.
                     </p>
+                    <p className="flex justify-center items-center">
+                        Summer camp runs from 9:00 a.m. to 3:00 p.m., from the end of the school year until the start of the next one, excluding the first and last week of summer. Our summer program is limited to 13 children, allowing us to maintain a smaller group environment while children participate in activities and spend time together.
+                    </p>
+                    <p className="flex justify-center items-center">
+                        We also put a lot of thought into our themed events throughout the summer. These activities give campers something different to look forward to and help make each week feel special rather than repetitive.
+                    </p>
                 </div>
             </div>
 
