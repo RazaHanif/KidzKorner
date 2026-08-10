@@ -48,7 +48,7 @@ const BlogSlug = () => {
             />
             <meta
                 property="og:url"
-                content="https://www.kidzkornermilton.com/"
+                content={`https://www.kidzkornermilton.com/blog/${slug.urlSlug}`}
             />
             <meta
                 property="og:image"
