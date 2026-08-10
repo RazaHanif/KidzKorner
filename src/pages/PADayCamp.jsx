@@ -14,7 +14,7 @@ import { BadgeDollarSign, Blocks, PartyPopper, Sparkles, Sun, UsersRound } from 
 import FAQAccordion from "../components/FAQAccordion";
 
 
-const SummerCamp = () => {
+const PADayCamp = () => {
     const breadCrumb = [
         {
             name: "Home",
@@ -274,4 +274,4 @@ const SummerCamp = () => {
     );
 }
 
-export default SummerCamp;
+export default PADayCamp;
