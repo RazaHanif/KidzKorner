@@ -205,7 +205,7 @@ const BeforeAfterDaycare = () => {
                 <h2 className="text-xl font-bold text-center pb-4">
                     A Postiive Start Before School
                 </h2>
-                <div className="flex lg:flex-row flex-col p-2 lg:gap-4 gap-2">
+                <div className="flex flex-col p-2 lg:gap-4 gap-2">
                     <div className="flex flex-col gap-2 w-full">
                         <p className="flex items-start gap-3">
                             Mornings don't always go according to plan. Our Before School Care provides children with a safe and welcoming place to begin their day before heading off to school.
