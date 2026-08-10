@@ -33,7 +33,7 @@ const About = () => {
                 </p>
             </div>
 
-            <div className="flex lg:flex-row flex-col justify-center w-3/4 m-4 gap-6">
+            <div className="flex lg:flex-row flex-col justify-center lg:w-3/4 w-9/10 gap-6">
                 <div>
                     <ContactUsTable />
                 </div>
