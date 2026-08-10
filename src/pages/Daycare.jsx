@@ -244,7 +244,7 @@ const Daycare = () => {
             />
             <meta
                 property="og:url"
-                content="[page url]"
+                content=""
             />
             <meta
                 property="og:image"
