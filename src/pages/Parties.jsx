@@ -141,7 +141,7 @@ const Parties = () => {
                 />
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 mt-4 text-center">
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 mt-4 text-center">
                 <div>
                     <p>Full payment required at time of booking.</p>
                     <p>
