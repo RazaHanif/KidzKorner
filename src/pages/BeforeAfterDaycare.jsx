@@ -341,7 +341,7 @@ const BeforeAfterDaycare = () => {
                                                 </h2>
                                             </div>
                                             <p className="text-start pl-8">
-                                                Active play and hands-on activities help children build coordination, balance, fine-motor skills, and body awareness.
+                                                After school doesn't have to mean another structured classroom. Children have time to relax and enjoy themselves.
                                             </p>
                                         </div>
                                         <div className="flex flex-col items-start justify-start w-full">
