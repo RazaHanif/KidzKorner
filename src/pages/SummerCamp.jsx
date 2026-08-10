@@ -159,11 +159,14 @@ const SummerCamp = () => {
                 <h2 className="text-xl font-bold text-center pb-4">
                     What to Expect at Kidz Korner Summer Camp
                 </h2>
-                <div className="flex lg:flex-row flex-col justify-center lg:items-stretch items-center lg:w-full w-3/4 gap-4">
-                    <p>
-                        
-                    </p>
-                </div>
+<div className="flex flex-col gap-2 w-full">
+                        <p className="flex justify-center items-center">
+                            Mornings don't always go according to plan. Our Before School Care provides children with a safe and welcoming place to begin their day before heading off to school.
+                        </p>
+                        <p className="flex justify-center items-center">
+                            Children can ease into their morning with quiet time, games, and time to socialize before it's time to leave for school.
+                        </p>
+                    </div>
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
