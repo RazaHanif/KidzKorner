@@ -88,11 +88,6 @@ const SummerCamp = () => {
                                     Our summer is filled with fun themes, special activities, and events that give children something new and exciting to look forward to each week.
                                 </CardDescription>
                             </CardHeader>
-                            <CardContent className="flex-1 flex justify-end items-end">
-                                <Button className="pointer-events-none" variant="secondary">
-                                    Learn More
-                                </Button>
-                            </CardContent>
                         </Card>
 
                         <NavLink
