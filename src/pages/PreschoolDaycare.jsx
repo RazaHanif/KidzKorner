@@ -231,7 +231,7 @@ const PreschoolDaycare = () => {
                 </p>
                 
                 {/* TODO:MAKE THIS FORM PRESCHOOL SPECIFIC  */}
-                {/* [DaycareForm type="toddler"] */}
+                {/* [DaycareForm type="preschool"] */}
                 <DaycareForm />
             </div>
 
