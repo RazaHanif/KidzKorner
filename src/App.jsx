@@ -31,7 +31,7 @@ import ScrollToTop from "./components/ScrollToTop.jsx";
 /indoor-playground
 /birthday-parties
 /workshops
-/about-us
+/about
 /blog
 /faq
 
