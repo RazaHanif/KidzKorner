@@ -107,7 +107,7 @@ const PreschoolDaycare = () => {
 
             <div className="flex flex-col justify-center items-center w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
                 <h2 className="text-xl font-bold text-center pb-4">
-                    What Makes Our Toddler Program Special
+                    A Preschool Program Built For Growing Minds
                 </h2>
 
                 <div className="flex flex-1 flex-col gap-4 w-full">
