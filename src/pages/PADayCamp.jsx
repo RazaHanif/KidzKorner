@@ -26,7 +26,7 @@ const PADayCamp = () => {
         },
         {
             name: "Summer Break Camp",
-            url: "https://www.kidzkornermilton.com/camp/summer-camp"
+            url: "https://www.kidzkornermilton.com/camp/pa-day-camp"
         },
     ];
 
@@ -260,7 +260,7 @@ const PADayCamp = () => {
             />
             <meta
                 property="og:url"
-                content="https://www.kidzkornermilton.com/camp/summer-camp"
+                content="https://www.kidzkornermilton.com/camp/pa-day-camp"
             />
             <meta
                 property="og:image"
