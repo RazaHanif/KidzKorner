@@ -50,7 +50,7 @@ const SummerCamp = () => {
         },
         {
             q: "Does Kidz Korner offer indoor summer camp activities?",
-            a: "Campers participate in a variety of activities throughout the summer, including arts and crafts, games, sports, creative activities, free play, indoor playground time, and themed events. Activities vary throughout the summer to keep the program fun and engaging."
+            a: "Yes. Campers have access to Kidz Korner's indoor playground as part of the summer camp program. Indoor activities give children plenty of opportunities for active play and entertainment throughout the day."
         },
         {
             q: "What activities are offered at summer camp?",
