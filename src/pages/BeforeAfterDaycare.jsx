@@ -51,7 +51,7 @@ const BeforeAfterDaycare = () => {
             a: "Limited spots are available, Please call to confirm."
         },
         {
-            q: "Do preschool children have opportunities for free play?",
+            q: "What do children do after school?",
             a: "Yes. Free play is an important part of the preschool experience. Children have opportunities to choose activities, use their imagination, interact with friends, and explore their interests while being supported by our educators."
         },
         {
