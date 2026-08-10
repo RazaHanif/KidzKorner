@@ -227,7 +227,7 @@ const PreschoolDaycare = () => {
                                             <div className="flex gap-2 text-primary">
                                                 <BadgeCheck />
                                                 <h2 className="font-bold">
-                                                    Licensed Ontario Childcare
+                                                    Social & Emotional Development
                                                 </h2>
                                             </div>
                                             <p className="text-start pl-8">
