@@ -128,7 +128,7 @@ const PreschoolDaycare = () => {
                             </CardContent>
                         </Card>
                     </div>
-                    
+
                     <div className="flex md:flex-row flex-col gap-4">
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
@@ -155,7 +155,7 @@ const PreschoolDaycare = () => {
                 </div>
             </div>  
 
-            <div className="flex flex-col justify-center items-center w-3/4 lg:py-16 py-8">
+            <div className="flex flex-col justify-center items-center w-3/4">
                 <h2 className="text-xl font-bold text-center pb-4">
                     Supporting Your Preschooler's Development
                 </h2>
