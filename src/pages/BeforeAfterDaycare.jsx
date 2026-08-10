@@ -155,7 +155,7 @@ const BeforeAfterDaycare = () => {
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
                                 <CardTitle>
-                                    Growing Independence
+                                    Creative Activities
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
