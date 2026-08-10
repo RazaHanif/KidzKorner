@@ -369,7 +369,6 @@ const BeforeAfterDaycare = () => {
                                     </div>
                                 </CardContent>
                             </Card>
-
                         </div>
                     </div>
                 </div>
