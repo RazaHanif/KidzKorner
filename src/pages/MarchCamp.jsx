@@ -250,7 +250,7 @@ const MarchCamp = () => {
             />
             <meta 
                 property="og:title"
-                content="Licensed Daycare in Milton, Ontario | Kidz Korner"
+                content="March Break Camp in Milton, Ontario | Kidz Korner"
             />
             <meta
                 property="og:description"
