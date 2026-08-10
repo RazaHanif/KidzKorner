@@ -207,7 +207,7 @@ const SummerCamp = () => {
                                 Indoor playground access for active play
                             </p>
                             <p className="lg:border-r-2 lg:border-b-0 border-b-2 p-4">
-                                A maximum of 13 campers for a smaller group setting
+                                Small groups of up to 13
                             </p>
                             <p className="lg:border-r-2 lg:border-b-0 border-b-2 p-4">
                                 9:00 AM to 3:00 PM camp hours, Monday to Friday
