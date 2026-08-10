@@ -382,7 +382,6 @@ const BeforeAfterDaycare = () => {
                 </div>
             </div>
 
-
             <div className="flex flex-col justify-center items-center w-3/4 m-4">
                 <h2 className="text-xl font-bold text-center lg:">
                     Flexible Care Options for Milton Families
