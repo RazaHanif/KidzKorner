@@ -284,7 +284,7 @@ const PreschoolDaycare = () => {
             </title>
             <meta 
                 name="description" 
-                content="Discover a caring preschool daycare in Milton where children learn through play, build independence, develop social skills, and grow in confidence. Explore Kidz Korner's preschool program." 
+                content="Explore Kidz Korner's preschool daycare in Milton, where children learn through play, build independence, develop friendships, and grow in confidence." 
             />
         </div>
     );
