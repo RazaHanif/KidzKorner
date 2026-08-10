@@ -266,7 +266,7 @@ const Camp = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-9/10 lg:w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
+            <div className="flex flex-col justify-center items-center w-9/10 lg:w-3/4 border-y lg:py-12 py-8 lg:my-12 my-8">
                 <Card className="lg:w-2/3 w-full flex-1">
                     <CardHeader>
                         <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
