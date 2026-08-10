@@ -274,7 +274,7 @@ const PreschoolDaycare = () => {
                                             <div className="flex gap-2 text-primary">
                                                 <ShieldCheck />
                                                 <h2 className="font-bold">
-                                                    Safe Environment
+                                                    Creativity & Self-Expression
                                                 </h2>
                                             </div>
                                             <p className="text-start pl-8">
