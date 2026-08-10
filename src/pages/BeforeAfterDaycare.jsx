@@ -145,6 +145,62 @@ const BeforeAfterDaycare = () => {
                 </div>
             </div>
 
+                        <div className="flex flex-col justify-center items-center w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
+                <h2 className="text-xl font-bold text-center pb-4">
+                    A Preschool Program Built For Growing Minds
+                </h2>
+
+                <div className="flex flex-1 flex-col gap-4 w-full">
+                    <div className="flex md:flex-row flex-col gap-4">
+                        <Card className="flex-1 flex">
+                            <CardHeader className="text-start">
+                                <CardTitle>
+                                    Growing Independence
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
+                                Preschoolers are encouraged to make choices, take on age-appropriate responsibilities, and become more confident in doing things for themselves.
+                            </CardContent>
+                        </Card>
+
+                        <Card className="flex-1 flex">
+                            <CardHeader className="text-start">
+                                <CardTitle>
+                                    Learning Through Play
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
+                                Children learn best when they're engaged and having fun. Play gives preschoolers opportunities to explore, experiment, create, and discover new ideas.
+                            </CardContent>
+                        </Card>
+                    </div>
+
+                    <div className="flex md:flex-row flex-col gap-4">
+                        <Card className="flex-1 flex">
+                            <CardHeader className="text-start">
+                                <CardTitle>
+                                    Building Social Skills
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
+                                Through group activities and everyday interactions, children learn to communicate, cooperate, build friendships, and navigate new social experiences.
+                            </CardContent>
+                        </Card>
+
+                        <Card className="flex-1 flex">
+                            <CardHeader className="text-start">
+                                <CardTitle>
+                                    Developing Confidence
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
+                                With encouragement from caring educators, children are supported in trying new things, expressing themselves, and taking pride in what they can accomplish.
+                            </CardContent>
+                        </Card>
+                    </div>
+                </div>
+            </div>
+
             <div className="flex flex-col justify-center items-center w-3/4">
                 <h2 className="text-xl font-bold text-center pb-4">
                     More Than Just Before and After School Care
