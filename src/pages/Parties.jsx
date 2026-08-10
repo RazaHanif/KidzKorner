@@ -292,7 +292,7 @@ const Parties = () => {
             />
             <meta
                 property="og:url"
-                content="https://www.kidzkornermilton.com/"
+                content="https://www.kidzkornermilton.com/birthday-parties"
             />
             <meta
                 property="og:image"
