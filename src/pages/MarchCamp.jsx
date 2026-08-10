@@ -10,7 +10,7 @@ import Image from "@/components/Image";
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
 
-const SummerCamp = () => {
+const MarchCamp = () => {
     const breadCrumb = [
         {
             name: "Home",
@@ -248,4 +248,4 @@ const SummerCamp = () => {
     );
 }
   
-export default SummerCamp;
+export default MarchCamp;
