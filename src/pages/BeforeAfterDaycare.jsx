@@ -314,7 +314,7 @@ const BeforeAfterDaycare = () => {
                                         </div>
                                         <div className="flex flex-col items-start justify-start w-full">
                                             <div className="flex gap-2 text-primary">
-                                                <HeartHandshake />
+                                                <Cloc />
                                                 <h2 className="font-bold">
                                                     Convenient Hours
                                                 </h2>
