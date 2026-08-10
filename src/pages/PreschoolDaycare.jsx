@@ -56,21 +56,21 @@ const PreschoolDaycare = () => {
     ];
 
     return (
-        <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16 pb-8">
+        <div className="flex flex-col flex-1 justify-center items-center gap-6 w-full lg:py-16 pb-8">
             <div className="flex flex-col justify-center items-center w-full lg:pb-16 py-8">
                 <h1 className="lg:text-5xl text-3xl font-bold font-serif text-center">
                     Preschool Daycare in Milton
                 </h1>
             </div>
 
-            <div className="flex lg:flex-row flex-col gap-4 lg:w-3/4 w-9/10">
-                <div className="flex flex-col flex-1 justify-center items-center w-full py-4 lg:gap-8 gap-4">
+            <div className="flex lg:flex-row flex-col gap-6 lg:w-3/4 w-9/10">
+                <div className="flex flex-col flex-1 justify-center items-center w-full py-4 lg:gap-8 gap-6">
                     <p className="flex justify-center items-center lg:text-center">
                         Our preschool program in Milton gives children the space, support, and encouragement they need to become confident and independent learners. Through hands-on activities, creative play, social experiences, and daily routines, children are encouraged to explore their interests while developing important skills for their next stage of learning. Our caring educators create a welcoming environment where preschoolers can build friendships, express themselves, solve problems, and learn at their own pace. We believe preschool should be more than preparing children for what comes next—it should be a place where they feel comfortable trying new things, asking questions, and discovering what they can do. At Kidz Korner, we combine play, learning, and meaningful relationships to help your child grow in confidence and independence while enjoying their preschool years.
 
                     </p>
 
-                    <div className="w-3/4 flex flex-row lg:flex-col gap-4 justify-center items-center">
+                    <div className="w-3/4 flex flex-row lg:flex-col gap-6 justify-center items-center">
                         <a 
                             href="#preschool-form" 
                             className="hover:scale-105 ease-in-out duration-300 flex-1 lg:w-3/4 flex justify-center"
@@ -103,7 +103,7 @@ const PreschoolDaycare = () => {
                 <h2 className="text-xl font-bold text-center pb-4">
                     What Parents Can Expect From Our Preschool Program
                 </h2>
-                <div className="flex lg:flex-row flex-col p-2 lg:gap-4 gap-2">
+                <div className="flex lg:flex-row flex-col p-2 lg:gap-6 gap-2">
                     <div className="flex flex-col gap-2 w-full text-nowrap">
                         <p className="flex items-start gap-3">
                             <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
@@ -140,8 +140,8 @@ const PreschoolDaycare = () => {
                     A Preschool Program Built For Growing Minds
                 </h2>
 
-                <div className="flex flex-1 flex-col gap-4 w-full">
-                    <div className="flex md:flex-row flex-col gap-4">
+                <div className="flex flex-1 flex-col gap-6 w-full">
+                    <div className="flex md:flex-row flex-col gap-6">
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
                                 <CardTitle>
@@ -165,7 +165,7 @@ const PreschoolDaycare = () => {
                         </Card>
                     </div>
 
-                    <div className="flex md:flex-row flex-col gap-4">
+                    <div className="flex md:flex-row flex-col gap-6">
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
                                 <CardTitle>
@@ -195,12 +195,12 @@ const PreschoolDaycare = () => {
                 <h2 className="text-xl font-bold text-center pb-4">
                     Supporting Your Preschooler's Development
                 </h2>
-                <div className="flex flex-col gap-4 lg:justify-evenly justify-center items-center w-full">
+                <div className="flex flex-col gap-6 lg:justify-evenly justify-center items-center w-full">
                     <p className="flex flex-col justify-center items-center w-full text-center">
                         The preschool years are an exciting time of growing independence, curiosity, and self-discovery. Children are developing new ways to communicate, interact with others, solve problems, and understand the world around them. At Kidz Korner, we provide experiences that support these areas of development through play, hands-on activities, creative expression, and everyday interactions. Our educators encourage children to explore, ask questions, make choices, and take on new challenges while providing the guidance and reassurance they need along the way.
                     </p>
-                    <div className="flex flex-1 flex-col gap-4 w-full">
-                        <div className="flex md:flex-row flex-col gap-4">
+                    <div className="flex flex-1 flex-col gap-6 w-full">
+                        <div className="flex md:flex-row flex-col gap-6">
                             <Card>
                                 <CardContent className="flex md:flex-row flex-col gap-2">
                                     <div className="flex flex-col flex-1 gap-2">
@@ -289,7 +289,7 @@ const PreschoolDaycare = () => {
                 <FAQAccordion faq={faq} />
             </div>
 
-            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-4" id="preschool-form">
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6" id="preschool-form">
                 <p className="flex text-center">
                     Ready to join us?
                 </p>
