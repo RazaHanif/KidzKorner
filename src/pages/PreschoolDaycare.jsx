@@ -280,7 +280,7 @@ const PreschoolDaycare = () => {
             <StructData schema={faqSchema(faq)} />
 
             <title>
-                Preschool Daycare in Milton, Ontario | Preschool | Kidz Korner
+                Preschool Daycare in Milton, Ontario | Learning Through Play | Kidz Korner
             </title>
             <meta 
                 name="description" 
