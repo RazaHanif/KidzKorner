@@ -132,6 +132,7 @@ const Camp = () => {
                                     <Button className="pointer-events-none" variant="secondary">
                                         Learn More
                                     </Button>
+                        <Image src='/media/KK/20250711_111518.jpg' alt='Child Playing With Dinosaurs at Kidz Korner Milton, Ontario' w="w-md" />
                                 </CardContent>
                             </Card>
                         </NavLink>
@@ -157,7 +158,6 @@ const Camp = () => {
                                     </Button>
                                 </CardContent>
                             </Card>
-                                    <Image src='/media/KK/20250711_111518.jpg' alt='Child Playing With Dinosaurs at Kidz Korner Milton, Ontario' w="w-md" />
                         </NavLink>
                     </div>
                 </div>
