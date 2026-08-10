@@ -81,7 +81,6 @@ const SummerCamp = () => {
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
                                 <CardTitle className="flex flex-row items-center gap-2">
-                                    <Sun className="text-primary" />
                                     Themed Events & Experiences
                                 </CardTitle>
                                 <CardDescription>
