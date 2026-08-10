@@ -77,7 +77,7 @@ const SummerCamp = () => {
                     Why Families Choose Kidz Korner Summer Camp
                 </h2>
                 <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
-                    <div className="flex flex-col lg:flex-row flex-1 lg:w-3/4 w-full gap-4">
+                    <div className="flex flex-col lg:flex-row flex-1 lg:w-3/4 w-full gap-4 border">
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
                                 <CardTitle className="flex flex-row items-center gap-2">
@@ -115,7 +115,7 @@ const SummerCamp = () => {
                         </Card>
                     </div>
 
-                    <div className="flex flex-col lg:flex-row flex-1 lg:w-3/4 w-full gap-4">
+                    <div className="flex flex-col lg:flex-row flex-1 lg:w-3/4 w-full gap-4 border">
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
                                 <CardTitle className="flex flex-row items-center gap-2">
