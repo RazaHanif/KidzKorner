@@ -113,7 +113,7 @@ const PreschoolDaycare = () => {
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
-                                
+                                Preschoolers are encouraged to make choices, take on age-appropriate responsibilities, and become more confident in doing things for themselves.
                             </CardContent>
                         </Card>
 
