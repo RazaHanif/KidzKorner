@@ -89,6 +89,61 @@ const SummerCamp = () => {
                                 </CardDescription>
                             </CardHeader>
                         </Card>
+                        <Card className="flex-1 flex">
+                            <CardHeader className="text-start">
+                                <CardTitle className="flex flex-row items-center gap-2">
+                                    <Sun className="text-primary" />
+                                    Themed Events & Experiences
+                                </CardTitle>
+                                <CardDescription>
+                                    Our summer is filled with fun themes, special activities, and events that give children something new and exciting to look forward to each week.
+                                </CardDescription>
+                            </CardHeader>
+                        </Card>
+                        <Card className="flex-1 flex">
+                            <CardHeader className="text-start">
+                                <CardTitle className="flex flex-row items-center gap-2">
+                                    <Sun className="text-primary" />
+                                    Themed Events & Experiences
+                                </CardTitle>
+                                <CardDescription>
+                                    Our summer is filled with fun themes, special activities, and events that give children something new and exciting to look forward to each week.
+                                </CardDescription>
+                            </CardHeader>
+                        </Card>
+                        <Card className="flex-1 flex">
+                            <CardHeader className="text-start">
+                                <CardTitle className="flex flex-row items-center gap-2">
+                                    <Sun className="text-primary" />
+                                    Themed Events & Experiences
+                                </CardTitle>
+                                <CardDescription>
+                                    Our summer is filled with fun themes, special activities, and events that give children something new and exciting to look forward to each week.
+                                </CardDescription>
+                            </CardHeader>
+                        </Card>
+                        <Card className="flex-1 flex">
+                            <CardHeader className="text-start">
+                                <CardTitle className="flex flex-row items-center gap-2">
+                                    <Sun className="text-primary" />
+                                    Themed Events & Experiences
+                                </CardTitle>
+                                <CardDescription>
+                                    Our summer is filled with fun themes, special activities, and events that give children something new and exciting to look forward to each week.
+                                </CardDescription>
+                            </CardHeader>
+                        </Card>
+                        <Card className="flex-1 flex">
+                            <CardHeader className="text-start">
+                                <CardTitle className="flex flex-row items-center gap-2">
+                                    <Sun className="text-primary" />
+                                    Themed Events & Experiences
+                                </CardTitle>
+                                <CardDescription>
+                                    Our summer is filled with fun themes, special activities, and events that give children something new and exciting to look forward to each week.
+                                </CardDescription>
+                            </CardHeader>
+                        </Card>
 
                         <NavLink
                             to="/camp/pa-day-camp" 
