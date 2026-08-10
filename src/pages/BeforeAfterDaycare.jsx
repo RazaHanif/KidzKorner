@@ -5,6 +5,14 @@ import {
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table"
 import { Button } from "@/components/ui/button"
 import Image from "@/components/Image"
 import FAQAccordion from "../components/FAQAccordion";
