@@ -116,6 +116,10 @@ const SummerCamp = () => {
                             </Card>
                         </div>
 
+                        <div>
+                            
+                        </div>
+
 
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
