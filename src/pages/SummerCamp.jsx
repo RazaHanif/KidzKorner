@@ -32,7 +32,7 @@ const SummerCamp = () => {
                     Summer Camp in Milton
                 </h1>
                 <p className="text-center">
-                    Our Camp offers hands-on experiences in both the visual arts and culinary arts, perfect for young artists and aspiring chefs alike.
+                    Keep your hcild
                 </p>
             </div>
 
