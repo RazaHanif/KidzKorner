@@ -289,7 +289,7 @@ const BeforeAfterDaycare = () => {
 
             <div className="flex flex-col justify-center items-center w-3/4 lg:py-4 py-4 lg:my-4 my-4">
                 <h2 className="text-xl font-bold text-center pb-4">
-                    Supporting Your Preschooler's Development
+                    Why Families Choose Kidz Korner for Before & After School Care
                 </h2>
                 <div className="flex flex-col gap-4 lg:justify-evenly justify-center items-center w-full">
                     <div className="flex flex-1 flex-col gap-4 w-full">
