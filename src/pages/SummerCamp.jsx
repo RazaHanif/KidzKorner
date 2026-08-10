@@ -107,13 +107,14 @@ const SummerCamp = () => {
                             <CardHeader className="text-start">
                                 <CardTitle className="flex flex-row items-center gap-2">
                                     <Sun className="text-primary" />
-                                    A Mix of Activiites
+                                    A Mix of Activities
                                 </CardTitle>
                                 <CardDescription>
                                     From arts and crafts to games, sports, creative activities, and free play, each day offers a variety of ways for children to stay engaged.
                                 </CardDescription>
                             </CardHeader>
                         </Card>
+                        
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
                                 <CardTitle className="flex flex-row items-center gap-2">
