@@ -271,7 +271,9 @@ const PreschoolDaycare = () => {
             <title>
                 Preschool Daycare | Preschool | Kidz Korner
             </title>
-            <meta name="description" content="" />
+            <meta name="description" content="
+            
+            " />
         </div>
     );
 }
