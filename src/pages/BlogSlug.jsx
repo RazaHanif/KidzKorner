@@ -1,7 +1,7 @@
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
 
-const FAQ = () => {
+const BlogSlug = () => {
     const breadCrumb = [
         {
             name: "Home",
@@ -29,4 +29,4 @@ const FAQ = () => {
     );
 }
   
-export default FAQ;
+export default BlogSlug;
