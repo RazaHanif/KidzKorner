@@ -47,7 +47,7 @@ const BeforeAfterDaycare = () => {
             a: "7:30 AM - 9:00 AM and 3:00 PM - 6:00 PM"
         },
         {
-            q: "How does the preschool program prepare children for kindergarten?",
+            q: "Do you provide transportation to and from school?",
             a: "Children develop important skills through everyday activities, including following routines, communicating with others, cooperating in groups, solving problems, making choices, and becoming more independent."
         },
         {
