@@ -244,8 +244,10 @@ const SummerCamp = () => {
             <title>
                 Summer Camp in Milton, Ontario | Kidz Korner 
             </title>
-            <meta name="keywords" content="kids camps Milton, summer camp Milton, seasonal camp Milton, childcare camp Milton, children's camp Milton" />
-            <meta name="description" content="Join Kidz Korner's fun and educational kids' camps in Milton, Ontario. Summer and seasonal camps designed to spark curiosity and creativity." />
+            <meta 
+                name="description" 
+                content="Join Kidz Korner's fun and educational kids' camps in Milton, Ontario. Summer and seasonal camps designed to spark curiosity and creativity." 
+            />
             <meta 
                 property="og:title"
                 content="Licensed Daycare in Milton, Ontario | Kidz Korner"
