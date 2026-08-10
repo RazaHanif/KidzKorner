@@ -34,7 +34,7 @@ const SummerCamp = () => {
     const faq = [
         {
             q: "What ages does Kidz Korner summer camp serve?",
-            a: "We offer exciting camps throughout the year, including Summer Camp, March Break Camp, Winter Break Camp, and PA Day Camp. Each program features themed activities, games, crafts, and opportunities for children to learn while having fun."
+            a: "Kidz Korner summer camp is available for the same age range as our regular camp program. Families can contact us to confirm whether their child is eligible for the current summer program."
         },
         {
             q: "What age groups can attend your camps?",
