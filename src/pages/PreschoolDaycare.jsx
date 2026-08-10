@@ -242,7 +242,7 @@ const PreschoolDaycare = () => {
                                                 </h2>
                                             </div>
                                             <p className="text-start pl-8">
-                                                Serving Milton families with a personal approach.
+                                                Stories, conversations, songs, and everyday interactions help children expand their vocabulary, express their ideas, listen to others, and become confident communicators.
                                             </p>
                                         </div>
                                         <div className="flex flex-col items-start justify-start w-full">
