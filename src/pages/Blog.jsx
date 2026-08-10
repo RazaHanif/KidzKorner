@@ -19,7 +19,7 @@ const Blog = () => {
             <StructData schema={breadcrumbSchema(breadCrumb)} />
 
             <title>
-                Kidz Korner Blog | Kidz Korner 
+                Kidz Korner Blog | Childcare & Kids Activities in Milton, Ontario
             </title>
             <meta 
                 name="description" 
