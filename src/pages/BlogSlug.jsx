@@ -15,7 +15,7 @@ const BlogSlug = () => {
         },
         {
             name: "Frequently Asked Questions",
-            url: `https://www.kidzkornermilton.com/blog/${slug.url}`
+            url: `https://www.kidzkornermilton.com/blog/${slug.urlSlug}`
         },
     ];
     return (
