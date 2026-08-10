@@ -115,7 +115,7 @@ const PreschoolDaycare = () => {
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
                                 <CardTitle>
-                                    Play-Based Learning
+                                    Growing Independence
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
