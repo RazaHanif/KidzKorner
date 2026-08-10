@@ -352,7 +352,7 @@ const BeforeAfterDaycare = () => {
                                                 </h2>
                                             </div>
                                             <p className="text-start pl-8">
-                                                Families can feel comfortable knowing thier children are cared for by an experienced team.
+                                                Families can feel comfortable knowing their children are cared for by an experienced team.
                                             </p>
                                         </div>
                                         <div className="flex flex-col items-start justify-start w-full">
