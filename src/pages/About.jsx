@@ -23,7 +23,7 @@ const About = () => {
     ];
 
     return (
-        <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16 pb-8">
+        <div className="flex flex-col flex-1 justify-center items-center gap-6 w-full lg:py-16 pb-8">
             <div className="flex flex-col justify-center items-center w-full mb-4">
                 <h1 className="lg:text-5xl text-3xl font-bold font-serif text-center py-4">
                     About Kidz Korner Childcare & Indoor Playground
@@ -33,7 +33,7 @@ const About = () => {
                 </p>
             </div>
 
-            <div className="flex lg:flex-row flex-col justify-center w-3/4 m-4 gap-4">
+            <div className="flex lg:flex-row flex-col justify-center w-3/4 m-4 gap-6">
                 <div>
                     <ContactUsTable />
                 </div>
@@ -51,7 +51,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center gap-4 w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
+            <div className="flex flex-col justify-center items-center gap-6 w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
                 <h2 className="text-xl font-bold text-center">
                     Who We Are
                 </h2>
@@ -64,8 +64,8 @@ const About = () => {
                 </p>   
             </div>
 
-            <div className="flex flex-col justify-center items-center gap-4 w-full">
-                <div className="flex flex-col justify-center items-center gap-4 w-full">
+            <div className="flex flex-col justify-center items-center gap-6 w-full">
+                <div className="flex flex-col justify-center items-center gap-6 w-full">
                     <h2 className="text-xl font-bold text-center">
                         Visit Our Childcare Centre
                     </h2>
@@ -86,7 +86,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center gap-4 w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
+            <div className="flex flex-col justify-center items-center gap-6 w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
                 <h2 className="w-full flex justify-center items-center font-bold text-xl flex-1">
                     Why Families Choose Kidz Korner
                 </h2>
@@ -150,7 +150,7 @@ const About = () => {
                 </Card>
             </div>
             
-            <div className="flex flex-col justify-center items-center w-3/4 gap-4" id="contact-form">
+            <div className="flex flex-col justify-center items-center w-3/4 gap-6" id="contact-form">
                 <h2 className="w-full flex justify-center items-center font-bold text-xl flex-1">
                     Book a Tour or Ask a Question
                 </h2>
