@@ -152,7 +152,7 @@ const PreschoolDaycare = () => {
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
-                                
+
                             </CardContent>
                         </Card>
                     </div>
@@ -161,7 +161,7 @@ const PreschoolDaycare = () => {
 
             <div className="flex flex-col justify-center items-center w-3/4 lg:py-16 py-8">
                 <h2 className="text-xl font-bold text-center pb-4">
-                    A Safe & Supportive Environment for Growing Toddlers
+                    Supporing Your
                 </h2>
                 <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
                     <p className="flex flex-col justify-center items-center w-full text-center">
