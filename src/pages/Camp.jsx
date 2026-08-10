@@ -301,7 +301,7 @@ const Camp = () => {
                 <Image src='/media/KK/20250722_100154.jpg' alt='Child Painting at Kidz Korner Milton, Ontario' />
             </div>
 
-            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border-y lg:py-8 py-4 lg:my-8 my-4">
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border-y lg:py-12 py-8 lg:my-12 my-8">
                 <h2 className="text-xl font-bold text-center pb-4">
                     Why Families Love Our Camps
                 </h2>
