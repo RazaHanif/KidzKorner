@@ -387,7 +387,7 @@ const BeforeAfterDaycare = () => {
                     Before & After School Care Hours
                 </h2>
                 <div className="flex flex-col lg:justify-evenly justify-center items-center w-full">
-                    <div className="flex flex-col justify-center m-4">
+                    <div className="flex flex-col justify-center">
                         <Table>
                             <TableBody>
                                 <TableRow>
