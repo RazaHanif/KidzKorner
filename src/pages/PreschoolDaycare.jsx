@@ -53,7 +53,7 @@ const PreschoolDaycare = () => {
         },
         {
             q: "Are meals and snack time included?",
-            a: "Children enjoy scheduled meal and snack times as part of their daily routine."
+            a: "Every child develops at their own pace. If your child is becoming more independent, enjoys interacting with others, and is ready to participate in group activities and routines, preschool may be a good fit. We encourage families to schedule a tour to learn more about the program."
         },
         {
             q: "Can I tour the toddler daycare before registering?",
