@@ -390,6 +390,19 @@ const BeforeAfterDaycare = () => {
                 <div className="flex flex-col gap-4 lg:justify-evenly justify-center items-center w-3/4">
                     <div className="flex flex-1 flex-col gap-4 w-full">
                         <Table>
+                            <TableBody>
+                                <TableRow>
+                                    <TableCell className='font-semibold'>
+                                        Before School Care
+                                    </TableCell>
+                                    <TableCell>
+                                        7:30 AM - 9:00 AM
+                                    </TableCell>
+                                </TableRow>
+
+                            </TableBody>
+                        </Table>
+                        <Table>
                             <TableHeader>
                                 <TableRow>
                                     <TableHead>
