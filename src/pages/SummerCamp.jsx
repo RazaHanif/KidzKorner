@@ -213,32 +213,7 @@ const SummerCamp = () => {
                     </CardContent>
                 </Card>
             </div>
-                <Card className="lg:w-2/3 w-full flex-1">
-                    <CardHeader>
-                        <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
-                            Camp Schedule
-                        </CardTitle>
-                        <CardDescription className="p-2 bg-accent hidden rounded-md text-bold text-lg">
-                            Camp Schedule
-                        </CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                        <div className="flex flex-col justify-around items-center">
-                            <ul className="font-normal pl-6 list-disc">
-                                <li>Arrival</li>
-                                <li>Morning Snack</li>
-                                <li>Programming</li>
-                                <li>Circle Time</li>
-                                <li>Cooking / Art Activity</li>
-                                <li>Lunch</li>
-                                <li>Rest Time</li>
-                                <li>Afternoon Snack</li>
-                                <li>Programming</li>
-                                <li>Dismissal</li>
-                            </ul>
-                        </div>
-                    </CardContent>
-                </Card>
+
             </div>
 
             <div className="flex lg:flex-row flex-col justify-between items-center w-3/4 gap-4">
