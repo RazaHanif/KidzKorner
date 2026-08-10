@@ -103,6 +103,60 @@ const PreschoolDaycare = () => {
                         w="w-sm"    
                     />
                 </div>
+            </div>
+
+                        <div className="flex flex-col justify-center items-center w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
+                <h2 className="text-xl font-bold text-center pb-4">
+                    What Makes Our Toddler Program Special
+                </h2>
+
+                <div className="flex flex-1 flex-col gap-4 w-full">
+                    <div className="flex md:flex-row flex-col gap-4">
+                        <Card className="flex-1 flex">
+                            <CardHeader className="text-start">
+                                <CardTitle>
+                                    Play-Based Learning
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
+                                Toddlers learn best through exploration. Our activities encourage creativity, problem-solving, and early development skills.
+                            </CardContent>
+                        </Card>
+
+                        <Card className="flex-1 flex">
+                            <CardHeader className="text-start">
+                                <CardTitle>
+                                    Creative Activities
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
+                                Arts, crafts, music, and sensory activities help toddlers express themselves and develop new skills.
+                            </CardContent>
+                        </Card>
+
+                        <Card className="flex-1 flex">
+                            <CardHeader className="text-start">
+                                <CardTitle>
+                                    Social Development
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
+                                Children build friendships and learn important skills like sharing, communication, and cooperation.
+                            </CardContent>
+                        </Card>
+
+                        <Card className="flex-1 flex">
+                            <CardHeader className="text-start">
+                                <CardTitle>
+                                    Building Independence
+                                </CardTitle>
+                            </CardHeader>
+                            <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
+                                We encourage toddlers to develop confidence through age-appropriate routines and responsibilities.
+                            </CardContent>
+                        </Card>
+                    </div>
+                </div>
             </div>  
 
             <div className="flex flex-col justify-center items-center w-3/4 lg:py-16 py-8">
