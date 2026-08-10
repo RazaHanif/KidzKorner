@@ -61,7 +61,7 @@ const Workshops = () => {
             <meta name="description" content="Kidz Korner offers engaging workshops and programs in Milton, Ontario. Early learning, arts, and skill-building activities for children." />
             <meta 
                 property="og:title"
-                content="Licensed Daycare in Milton, Ontario | Kidz Korner"
+                content="Kids Workshops in Milton, Ontario | Kidz Korner "
             />
             <meta
                 property="og:description"
