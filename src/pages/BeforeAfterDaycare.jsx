@@ -404,7 +404,7 @@ const BeforeAfterDaycare = () => {
                                         After School Care
                                     </TableCell>
                                     <TableCell>
-                                        7:30 AM - 9:00 AM
+                                        3:00 PM - 9:00 AM
                                     </TableCell>
                                 </TableRow>
                             </TableBody>
