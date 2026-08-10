@@ -56,7 +56,7 @@ const BeforeAfterDaycare = () => {
         },
         {
             q: "What are the preschool hours?",
-            a: "Our regular preschool hours are 9:00 AM to 3:00 PM, Monday to Friday. Half-day options are also available from 9:00 AM to 11:30 AM or 12:30 PM to 3:00 PM."
+            a: "Yes, flexible options may be available depending on your family's needs and our current availability. Whether you are looking for Before School Care, After School Care, or another arrangement, please call us to discuss the options available for your child."
         },
         {
             q: "How do I know if preschool is right for my child?",
