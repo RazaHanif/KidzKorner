@@ -412,7 +412,7 @@ const BeforeAfterDaycare = () => {
                 <div className="flex flex-col justify-center items-center gap-4">
                     <div className="flex flex-col gap-2 w-full">
                         <p className="flex justify-center items-center">
-                            One of the things that makes Kidz Korner different is our indoor playground. After spending much of the day sitting and learning at school, children have the opportunity to get moving, play, and enjoy active time with their friends.
+                            One of the things that makes Kidz Korner unique is our indoor playground. After spending much of the day sitting and learning at school, children have the opportunity to get moving, play, and enjoy active time with their friends.
                         </p>
                         <p className="flex justify-center items-center">
                             Our indoor play space gives school-age children another way to stay active and engaged throughout their afternoon.
