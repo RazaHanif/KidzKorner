@@ -98,11 +98,11 @@ const SummerCamp = () => {
                                     Themed Events & Experiences
                                 </CardTitle>
                                 <CardDescription>
-                                    Our summer is filled with fun themes, special activities, and events that give children something new and exciting to look forward to each week.
+                                    Campers have access to our indoor playground, giving them plenty of opportunities to climb, play, explore, and stay active.
                                 </CardDescription>
                             </CardHeader>
                         </Card>
-                        
+
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
                                 <CardTitle className="flex flex-row items-center gap-2">
