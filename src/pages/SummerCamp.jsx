@@ -189,7 +189,7 @@ const SummerCamp = () => {
                                 Themed events and activities throughout the summer
                             </p>
                             <p className="lg:border-r-2 lg:border-b-0 border-b-2 p-4">
-                                Weekly Art & Cooking Classes
+                                Arts and crafts, games, sports, 
                             </p>
                             <p className="lg:border-r-2 lg:border-b-0 border-b-2 p-4">
                                 Strong Parent Teacher Communication
