@@ -8,8 +8,8 @@ const BlogSlug = () => {
             url: "https://www.kidzkornermilton.com/"
         },
         {
-            name: "Frequently Asked Questions",
-            url: "https://www.kidzkornermilton.com/faq"
+            name: "blog",
+            url: "https://www.kidzkornermilton.com/blog"
         },
         {
             name: "Frequently Asked Questions",
