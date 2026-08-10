@@ -430,7 +430,6 @@ const BeforeAfterDaycare = () => {
                         </p>
                         <p className="flex items-start gap-3">
                             Our indoor play space gives school-age children another way to stay active and engaged throughout their afternoon.
-                            Children can ease into their morning with quiet activities, games, and time to socialize before it's time to leave for school.
                         </p>
                     </div>
                     <div className="flex flex-col lg:flex-row gap-2 lg:gap-4 justify-center items-center">
