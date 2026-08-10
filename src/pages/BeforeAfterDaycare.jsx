@@ -410,7 +410,7 @@ const BeforeAfterDaycare = () => {
                                     <TableCell  
                                         className="whitespace-normal wrap-break-word"
                                     >
-                                        3:00 PM - 
+                                        3:00 PM - 6:00 PM
                                     </TableCell>
                                 </TableRow>
                             </TableBody>
