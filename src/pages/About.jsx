@@ -185,7 +185,7 @@ const About = () => {
             />
             <meta
                 property="og:url"
-                content="https://www.kidzkornermilton.com/"
+                content="https://www.kidzkornermilton.com/about"
             />
             <meta
                 property="og:image"
