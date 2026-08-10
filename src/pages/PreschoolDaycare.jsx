@@ -170,7 +170,7 @@ const PreschoolDaycare = () => {
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
-                                    Stories, conversations, songs, and everyday interactions help children expand their vocabulary, express their ideas, listen to others, and become confident communicators.
+                                    Children learn to recognize and express their feelings, build friendships, cooperate with others, and develop the confidence to participate in group experiences.
                                 </CardContent>
                             </Card>
 
