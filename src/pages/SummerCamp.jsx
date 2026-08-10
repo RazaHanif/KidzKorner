@@ -254,7 +254,7 @@ const SummerCamp = () => {
             />
             <meta
                 property="og:description"
-                content="Looking for a licensed daycare in Milton? Kidz Korner provides trusted childcare, toddler daycare, preschool programs, before and after school care, and licensed camps for local families."
+                content="Join Kidz Korner's fun and educational kids' camps in Milton, Ontario. Summer and seasonal camps designed to spark curiosity and creativity."
             />
             <meta 
                 property="og:type"
