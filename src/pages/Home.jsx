@@ -14,7 +14,7 @@ import { BadgeCheck, GraduationCap, HeartHandshake, MessageCircleHeart, Palette,
 
 const Home = () => {
     return (
-        <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16 pb-8">
+        <div className="flex flex-col flex-1 justify-center items-center gap-6 w-full lg:py-16 pb-8">
             <div className="flex flex-col justify-center items-center w-full mb-4">
                 <h1 className="lg:text-5xl text-3xl font-bold font-serif text-center py-4">
                     Licensed Daycare & Childcare in Milton
@@ -39,7 +39,7 @@ const Home = () => {
                             Our commitment to nurturing children in a safe, engaging environment has earned the trust of Milton families for generations.
                         </p>
 
-                        <div className="w-full flex lg:flex-col gap-4 justify-center lg:items-end lg:pr-4 items-center">
+                        <div className="w-full flex lg:flex-col gap-6 justify-center lg:items-end lg:pr-4 items-center">
                             <NavLink 
                                 to="/about" 
                                 end
@@ -68,8 +68,8 @@ const Home = () => {
                         Programs for Every Stage of Early Learning
                     </h2>
 
-                    <div className="flex flex-1 flex-col gap-4 w-full">
-                        <div className="flex md:flex-row flex-col gap-4">
+                    <div className="flex flex-1 flex-col gap-6 w-full">
+                        <div className="flex md:flex-row flex-col gap-6">
                             <NavLink 
                                 to="/daycare/toddler" 
                                 end 
@@ -115,7 +115,7 @@ const Home = () => {
                             </NavLink>
                         </div>
 
-                        <div className="flex md:flex-row flex-col gap-4">
+                        <div className="flex md:flex-row flex-col gap-6">
                             <NavLink 
                                 to="/daycare/before-after-school-care" 
                                 end 
@@ -245,13 +245,13 @@ const Home = () => {
                     </Card>
                 </div>
 
-                <div className="flex lg:flex-row flex-col justify-center items-center gap-4 border-y lg:py-12 py-8 lg:my-12 my-8 lg:w-3/4 w-9/10">
+                <div className="flex lg:flex-row flex-col justify-center items-center gap-6 border-y lg:py-12 py-8 lg:my-12 my-8 lg:w-3/4 w-9/10">
                     <div className="flex flex-col justify-center items-center w-full lg:p-4">
                         <h2 className="w-full flex justify-center items-center m-4 font-bold text-xl flex-1">
                             Licensed Daycare Conveniently Located in Milton
                         </h2>
 
-                        <div className="flex flex-col gap-4 w-full">
+                        <div className="flex flex-col gap-6 w-full">
                             <p className="w-full flex justify-center items-center flex-1">
                                 Kidz Korner is proud to serve Milton families with high-quality licensed childcare in a convenient, accessible location. 
                                 Situated near Highway 401 and just minutes from downtown Milton, our daycare makes daily drop-offs and pick-ups easy for busy parents commuting throughout the area.
@@ -281,7 +281,7 @@ const Home = () => {
                         The Benefits of Choosing a Licensed Daycare
                     </h2>
 
-                    <div className="flex flex-col gap-4">
+                    <div className="flex flex-col gap-6">
                         <p className="w-full flex justify-center items-center flex-1">
                             Choosing a licensed daycare gives parents confidence that their child is learning and growing in a safe, regulated environment. 
                             Licensed childcare centres in Ontario must meet standards established by the Ministry of Education, including health and safety requirements, educator qualifications, staff-to-child ratios, and ongoing inspections to help ensure high-quality care.
