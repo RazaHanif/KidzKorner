@@ -213,8 +213,8 @@ const Parties = () => {
                     />
                 </div>
             </div>
-
-            <div>
+            
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border-y lg:py-12 py-8 lg:my-12 my-8">
                 <div className="flex flex-col justify-center items-center">
                     <h2 className="text-xl font-bold text-center">
                         Our birthday parties are perfect for:
