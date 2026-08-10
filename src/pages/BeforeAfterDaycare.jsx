@@ -116,17 +116,15 @@ const BeforeAfterDaycare = () => {
                     <div className="flex lg:flex-row flex-col p-2 lg:gap-4 gap-2">
                         <div className="flex flex-col gap-2 w-full">
                             <Card>
+                                <CardHeader>
+                                    <CardTitle className="font-semibold">
+                                        Before School Care
+                                    </CardTitle>
+                                </CardHeader>
                                 <CardContent>
-                                    <div className="flex flex-col items-start justify-start w-full">
-                                        <div className="flex gap-2 self-center">
-                                            <h2 className="font-bold">
-                                                Before School Care
-                                            </h2>
-                                        </div>
                                         <p className="text-start pl-8">
                                             A calm and engaging start to the morning before children head off to school.
                                         </p>
-                                    </div>
                                 </CardContent>
                             </Card>
                             <div className="flex flex-col items-start justify-start w-full">
