@@ -1,5 +1,16 @@
+import DaycareForm from "@/components/DaycareForm";
+import {
+    Card,
+    CardContent,
+    CardHeader,
+    CardTitle,
+} from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import Image from "@/components/Image"
+import FAQAccordion from "../components/FAQAccordion";
 import StructData from "../components/StructData";
-import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
+import { breadcrumbSchema, faqSchema, localBusinessSchema } from "../schema/structDataSchema";
+import { BadgeCheck, CircleCheck, GraduationCap, HeartHandshake, Palette, ShieldCheck } from "lucide-react";
 
 const BeforeAfterDaycare = () => {
     const breadCrumb = [
@@ -318,6 +329,7 @@ const BeforeAfterDaycare = () => {
 
             <StructData schema={localBusinessSchema} />
             <StructData schema={breadcrumbSchema(breadCrumb)} />
+            <StructData schema={faqSchema(faq)} />
 
             <title>
                 Before & After School Care in Milton, Ontario | School-Age Child Care | Kidz Korner
