@@ -213,7 +213,7 @@ const BeforeAfterDaycare = () => {
                             Children can ease into their morning with quiet activities, games, and time to socialize before it's time to leave for school.
                         </p>
                     </div>
-                    <div className="flex flex-col lg:flex-row gap-2 lg:gap-4">
+                    <div className="flex flex-col lg:flex-row gap-2 lg:gap-4 border">
                         <Image 
                             src='/media/KK/20251010_122316.jpg' 
                             alt='Child Playing With Magnetic Toy at Kidz Korner Milton, Ontario' 
