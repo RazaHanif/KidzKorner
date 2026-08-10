@@ -168,7 +168,7 @@ const Playground = () => {
             />
             <meta
                 property="og:url"
-                content="https://www.kidzkornermilton.com/"
+                content="https://www.kidzkornermilton.com/indoor-playground"
             />
             <meta
                 property="og:image"
