@@ -39,7 +39,7 @@ const Playground = () => {
         },
         {
             name: "Playground",
-            url: "https://www.kidzkornermilton.com/playground"
+            url: "https://www.kidzkornermilton.com/indoor-playground"
         },
     ]; 
     
