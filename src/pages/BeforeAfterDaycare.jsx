@@ -19,6 +19,7 @@ import FAQAccordion from "../components/FAQAccordion";
 import StructData from "../components/StructData";
 import { breadcrumbSchema, faqSchema, localBusinessSchema } from "../schema/structDataSchema";
 import { BadgeCheck, CircleCheck, GraduationCap, HeartHandshake, Palette, ShieldCheck } from "lucide-react";
+import { NavLink } from "react-router";
 
 const BeforeAfterDaycare = () => {
     const breadCrumb = [
