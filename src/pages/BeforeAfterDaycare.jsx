@@ -147,7 +147,7 @@ const BeforeAfterDaycare = () => {
 
             <div className="flex flex-col justify-center items-center w-3/4">
                 <h2 className="text-xl font-bold text-center pb-4">
-                    What Parents Can Expect From Our Preschool Program
+                    More Than Just Before and After School Care
                 </h2>
                 <div className="flex lg:flex-row flex-col p-2 lg:gap-4 gap-2">
                     <div className="flex flex-col gap-2 w-full text-nowrap">
