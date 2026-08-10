@@ -162,7 +162,7 @@ const Camp = () => {
                 <h2 className="text-xl font-bold text-center pb-4">
                     Camp Information
                 </h2>
-                <div className="flex lg:flex-row flex-col justify-center lg:items-stretch items-center lg:w-full w-3/4 gap-6">
+                <div className="flex lg:flex-row flex-col justify-center lg:items-stretch items-center lg:w-full gap-6">
                     <Card className="flex-1">
                         <CardHeader>
                             <CardTitle className="p-2 bg-primary text-primary-foreground flex flex-col justify-center items-center rounded-md text-lg">
