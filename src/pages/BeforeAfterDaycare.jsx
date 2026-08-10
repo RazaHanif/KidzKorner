@@ -160,7 +160,7 @@ const BeforeAfterDaycare = () => {
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
-                                Time for arts, crafts, and hands-on learning that encourage creativity and self-expression.
+                                Time for arts, crafts, and hands-on experiences that encourage creativity and self-expression.
                             </CardContent>
                         </Card>
 
