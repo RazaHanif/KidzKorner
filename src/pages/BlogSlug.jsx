@@ -36,7 +36,7 @@ const BlogSlug = () => {
             />
             <meta 
                 property="og:title"
-                content="Licensed Daycare in Milton, Ontario | Kidz Korner"
+                content={metaTitle}
             />
             <meta
                 property="og:description"
