@@ -33,7 +33,7 @@ const SummerCamp = () => {
 
     const faq = [
         {
-            q: "What types of camps do you offer?",
+            q: "What ages does Kidz Korner summer camp serve?",
             a: "We offer exciting camps throughout the year, including Summer Camp, March Break Camp, Winter Break Camp, and PA Day Camp. Each program features themed activities, games, crafts, and opportunities for children to learn while having fun."
         },
         {
