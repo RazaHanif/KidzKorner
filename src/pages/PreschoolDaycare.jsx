@@ -45,7 +45,7 @@ const PreschoolDaycare = () => {
         },
         {
             q: "Do preschool children have opportunities for free play?",
-            a: "Absolutely. Our program encourages children to build friendships, practice sharing, improve communication skills, and develop confidence through group activities and cooperative play."
+            a: "Yes. Free play is an important part of the preschool experience. Children have opportunities to choose activities, use their imagination, interact with friends, and explore their interests while being supported by our educators."
         },
         {
             q: "How do you communicate with parents?",
