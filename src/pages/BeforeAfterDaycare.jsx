@@ -465,7 +465,7 @@ const BeforeAfterDaycare = () => {
             </title>
             <meta 
                 name="description" 
-                content="" 
+                content="Kidz Korner offers before and after school care in Milton, Ontario, with flexible options, indoor play, and a welcoming environment for school-age children." 
             />
             <meta 
                 property="og:title"
@@ -473,7 +473,7 @@ const BeforeAfterDaycare = () => {
             />
             <meta
                 property="og:description"
-                content=""
+                content="Kidz Korner offers before and after school care in Milton, Ontario, with flexible options, indoor play, and a welcoming environment for school-age children."
             />
             <meta 
                 property="og:type"
