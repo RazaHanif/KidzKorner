@@ -271,10 +271,6 @@ const Parties = () => {
                 Kids Birthday Parties in Milton, Ontario | Kidz Korner
             </title>
             <meta
-                name="keywords"
-                content="kids birthday Milton, birthday party venue Milton, children parties Milton, kids party Milton, indoor party Milton"
-            />
-            <meta
                 name="description"
                 content="Host an unforgettable kids birthday party at Kidz Korner in Milton, Ontario. Enjoy private access to our indoor playground, flexible party packages, and a fun, stress-free celebration for up to 50 guests."
                 />
