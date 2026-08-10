@@ -161,6 +161,8 @@ const PreschoolDaycare = () => {
                     <p className="flex flex-col justify-center items-center w-full text-center">
                         The preschool years are an exciting time of growing independence, curiosity, and self-discovery. Children are developing new ways to communicate, interact with others, solve problems, and understand the world around them. At Kidz Korner, we provide experiences that support these areas of development through play, hands-on activities, creative expression, and everyday interactions. Our educators encourage children to explore, ask questions, make choices, and take on new challenges while providing the guidance and reassurance they need along the way.
                     </p>
+
+                    
                 </div>
             </div>
 
