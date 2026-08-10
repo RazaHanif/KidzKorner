@@ -74,7 +74,7 @@ const Workshops = () => {
             />
             <meta
                 property="og:url"
-                content="https://www.kidzkornermilton.com/"
+                content="https://www.kidzkornermilton.com/workshops"
             />
             <meta
                 property="og:image"
