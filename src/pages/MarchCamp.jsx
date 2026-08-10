@@ -242,7 +242,7 @@ const MarchCamp = () => {
             <StructData schema={breadcrumbSchema(breadCrumb)} />
 
             <title>
-                March Camp in Milton, Ontario | Kidz Korner 
+                March Break Camp in Milton, Ontario | Kidz Korner 
             </title>
             <meta 
                 name="description" 
