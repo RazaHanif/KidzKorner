@@ -337,7 +337,7 @@ const Camp = () => {
                 </div>
             </div>
 
-            <div className="flex lg:flex-row flex-col justify-between items-center w-3/4 gap-6">
+            <div className="flex lg:flex-row flex-col justify-between items-center w-9/10 lg:w-3/4 gap-6">
                 <Image src='/media/KK/20251106_102726.jpg' alt='Child Cutting Tomatos at Kidz Korner Milton, Ontario' />
                 <Image src='/media/KK/20250710_144411.jpg' alt='Children Painting at Kidz Korner Milton, Ontario' />
                 <Image src='/media/KK/20250808_135154.jpg' alt='Child Playing With Sensory Toy at Kidz Korner Milton, Ontario' />
