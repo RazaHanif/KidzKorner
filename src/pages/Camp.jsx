@@ -54,11 +54,11 @@ const Camp = () => {
             </div>
 
             <div className="flex flex-col lg:flex-row justify-center items-center gap-6 w-9/10 lg:w-3/4">
+                <Image src='/media/KK/20250711_111518.jpg' alt='Child Playing With Dinosaurs at Kidz Korner Milton, Ontario' w="w-sm" />
                 <p className="text-center w-3/4">
                     Keep your child active, creative, and engaged during school breaks with Kidz Korner's camp programs in Milton.
                     We offer Summer Camp, March Break Camp, Winter Break Camp, and PA Day Camp for children ages 4-13, featuring art, cooking, games, STEM activities, and weekly themed adventures.
                 </p>
-                <Image src='/media/KK/20250711_111518.jpg' alt='Child Playing With Dinosaurs at Kidz Korner Milton, Ontario' w="w-sm" />
 
             </div>
 
