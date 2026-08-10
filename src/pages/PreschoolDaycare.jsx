@@ -267,7 +267,7 @@ const PreschoolDaycare = () => {
                                                 </h2>
                                             </div>
                                             <p className="text-start pl-8">
-                                                Learning through exploration, creativity, and fun.
+                                                Active play and hands-on activities help children build coordination, balance, fine-motor skills, and body awareness.
                                             </p>
                                         </div>
                                         <div className="flex flex-col items-start justify-start w-full">
