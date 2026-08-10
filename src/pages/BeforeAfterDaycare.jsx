@@ -409,7 +409,10 @@ const BeforeAfterDaycare = () => {
                             </TableBody>
                         </Table>
                     </div>
-                    <Image src='/media/KK/20250822_121126.jpg' alt='Child Playing With Blocks at Kidz Korner Milton, Ontario' w="w-sm"/>
+                    {/* <Image src='/media/KK/20250822_121126.jpg' alt='Child Playing With Blocks at Kidz Korner Milton, Ontario' w="w-sm"/> */}
+                    <p>
+                        
+                    </p>
                 </div>
             </div>
 
