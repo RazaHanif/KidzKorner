@@ -253,7 +253,7 @@ const PreschoolDaycare = () => {
                                                 </h2>
                                             </div>
                                             <p className="text-start pl-8">
-                                                Caring professionals focused on every child's growth.
+                                                Through puzzles, sorting, counting, patterns, problem-solving, and hands-on exploration, children develop early thinking and reasoning skills.
                                             </p>
                                         </div>
                                     </div>
