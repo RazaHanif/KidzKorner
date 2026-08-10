@@ -220,54 +220,6 @@ const SummerCamp = () => {
                 </Card>
             </div>
 
-            <div className="flex lg:flex-row flex-col justify-between items-center w-3/4 gap-4">
-                <Image src='/media/KK/IMG-20250722-WA0017.jpg' alt='Child Tye Dyeing Shirt at Kidz Korner Milton, Ontario' />
-                <Image src='/media/KK/20260108_111322(0).jpg' alt='Children Kneading Dough at Kidz Korner Milton, Ontario' />
-                <Image src='/media/KK/20250722_100154.jpg' alt='Child Painting at Kidz Korner Milton, Ontario' />
-            </div>
-
-            <div className="flex flex-col justify-center items-center w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
-                <h2 className="text-xl font-bold text-center pb-4">
-                    Why Families Love Our Camps
-                </h2>
-                <div className="flex lg:flex-row flex-col p-2 gap-2">
-                    <div className="flex flex-col gap-2 w-full flex-1">
-                        <p className="flex items-start gap-3">
-                            <Palette className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Creative Art Projects
-                        </p>
-                        <p className="flex items-start gap-3">
-                            <ChefHat className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Hands-on Cooking Classes
-                        </p>
-                        <p className="flex items-start gap-3">
-                            <TestTube2 className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Weekly STEM Activities
-                        </p>
-                    </div>
-                    <div className="flex flex-col gap-2 w-full flex-1">
-                        <p className="flex items-start gap-3">
-                            <Shapes className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Active Indoor Play
-                        </p>
-                        <p className="flex items-start gap-3">
-                            <Users className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Small Group Environment
-                        </p>
-                        <p className="flex items-start gap-3">
-                            <Heart className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Caring Registered Educators
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div className="flex lg:flex-row flex-col justify-between items-center w-3/4 gap-4">
-                <Image src='/media/KK/20251106_102726.jpg' alt='Child Cutting Tomatos at Kidz Korner Milton, Ontario' />
-                <Image src='/media/KK/20250710_144411.jpg' alt='Children Painting at Kidz Korner Milton, Ontario' />
-                <Image src='/media/KK/20250808_135154.jpg' alt='Child Playing With Sensory Toy at Kidz Korner Milton, Ontario' />
-            </div>
-
             <div className="flex flex-col justify-center items-center w-3/4 border-y py-10 my-8">
                 <h2 className="text-xl font-bold text-center pb-4">
                     FAQ
