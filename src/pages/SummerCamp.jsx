@@ -77,81 +77,81 @@ const SummerCamp = () => {
                     Why Families Choose Kidz Korner Summer Camp
                 </h2>
                 <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
-                        <div className="flex flex-col lg:flex-row flex-1 lg:w-3/4 w-full gap-4">
-                            <Card className="flex-1 flex">
-                                <CardHeader className="text-start">
-                                    <CardTitle className="flex flex-row items-center gap-2">
-                                        <Sun className="text-primary" />
-                                        Themed Events & Experiences
-                                    </CardTitle>
-                                    <CardDescription>
-                                        Our summer is filled with fun themes, special activities, and events that give children something new and exciting to look forward to each week.
-                                    </CardDescription>
-                                </CardHeader>
-                            </Card>
+                    <div className="flex flex-col lg:flex-row flex-1 lg:w-3/4 w-full gap-4">
+                        <Card className="flex-1 flex">
+                            <CardHeader className="text-start">
+                                <CardTitle className="flex flex-row items-center gap-2">
+                                    <Sun className="text-primary" />
+                                    Themed Events & Experiences
+                                </CardTitle>
+                                <CardDescription>
+                                    Our summer is filled with fun themes, special activities, and events that give children something new and exciting to look forward to each week.
+                                </CardDescription>
+                            </CardHeader>
+                        </Card>
 
-                            <Card className="flex-1 flex">
-                                <CardHeader className="text-start">
-                                    <CardTitle className="flex flex-row items-center gap-2">
-                                        <Sun className="text-primary" />
-                                        Indoor Playground Fun
-                                    </CardTitle>
-                                    <CardDescription>
-                                        Campers have access to our indoor playground, giving them plenty of opportunities to climb, play, explore, and stay active.
-                                    </CardDescription>
-                                </CardHeader>
-                            </Card>
+                        <Card className="flex-1 flex">
+                            <CardHeader className="text-start">
+                                <CardTitle className="flex flex-row items-center gap-2">
+                                    <Sun className="text-primary" />
+                                    Indoor Playground Fun
+                                </CardTitle>
+                                <CardDescription>
+                                    Campers have access to our indoor playground, giving them plenty of opportunities to climb, play, explore, and stay active.
+                                </CardDescription>
+                            </CardHeader>
+                        </Card>
 
-                            <Card className="flex-1 flex">
-                                <CardHeader className="text-start">
-                                    <CardTitle className="flex flex-row items-center gap-2">
-                                        <Sun className="text-primary" />
-                                        A Mix of Activities
-                                    </CardTitle>
-                                    <CardDescription>
-                                        From arts and crafts to games, sports, creative activities, and free play, each day offers a variety of ways for children to stay engaged.
-                                    </CardDescription>
-                                </CardHeader>
-                            </Card>
-                        </div>
+                        <Card className="flex-1 flex">
+                            <CardHeader className="text-start">
+                                <CardTitle className="flex flex-row items-center gap-2">
+                                    <Sun className="text-primary" />
+                                    A Mix of Activities
+                                </CardTitle>
+                                <CardDescription>
+                                    From arts and crafts to games, sports, creative activities, and free play, each day offers a variety of ways for children to stay engaged.
+                                </CardDescription>
+                            </CardHeader>
+                        </Card>
+                    </div>
 
-                        <div className="flex flex-col lg:flex-row flex-1 lg:w-3/4 w-full gap-4">
-                            <Card className="flex-1 flex">
-                                <CardHeader className="text-start">
-                                    <CardTitle className="flex flex-row items-center gap-2">
-                                        <Sun className="text-primary" />
-                                        Small Group Setting
-                                    </CardTitle>
-                                    <CardDescription>
-                                        With a maximum of 13 campers, we keep our summer camp intentionally small so children can enjoy a more comfortable and engaging group experience.
-                                    </CardDescription>
-                                </CardHeader>
-                            </Card>
+                    <div className="flex flex-col lg:flex-row flex-1 lg:w-3/4 w-full gap-4">
+                        <Card className="flex-1 flex">
+                            <CardHeader className="text-start">
+                                <CardTitle className="flex flex-row items-center gap-2">
+                                    <Sun className="text-primary" />
+                                    Small Group Setting
+                                </CardTitle>
+                                <CardDescription>
+                                    With a maximum of 13 campers, we keep our summer camp intentionally small so children can enjoy a more comfortable and engaging group experience.
+                                </CardDescription>
+                            </CardHeader>
+                        </Card>
 
-                            <Card className="flex-1 flex">
-                                <CardHeader className="text-start">
-                                    <CardTitle className="flex flex-row items-center gap-2">
-                                        <Sun className="text-primary" />
-                                        Full Day of Fun
-                                    </CardTitle>
-                                    <CardDescription>
-                                        Camp runs from 9:00 a.m. to 3:00 p.m., giving children a full day of activities, play, and social time during their summer break.
-                                    </CardDescription>
-                                </CardHeader>
-                            </Card>
+                        <Card className="flex-1 flex">
+                            <CardHeader className="text-start">
+                                <CardTitle className="flex flex-row items-center gap-2">
+                                    <Sun className="text-primary" />
+                                    Full Day of Fun
+                                </CardTitle>
+                                <CardDescription>
+                                    Camp runs from 9:00 a.m. to 3:00 p.m., giving children a full day of activities, play, and social time during their summer break.
+                                </CardDescription>
+                            </CardHeader>
+                        </Card>
 
-                            <Card className="flex-1 flex">
-                                <CardHeader className="text-start">
-                                    <CardTitle className="flex flex-row items-center gap-2">
-                                        <Sun className="text-primary" />
-                                        ??
-                                    </CardTitle>
-                                    <CardDescription>
-                                        ??
-                                    </CardDescription>
-                                </CardHeader>
-                            </Card>
-                        </div>
+                        <Card className="flex-1 flex">
+                            <CardHeader className="text-start">
+                                <CardTitle className="flex flex-row items-center gap-2">
+                                    <Sun className="text-primary" />
+                                    ??
+                                </CardTitle>
+                                <CardDescription>
+                                    ??
+                                </CardDescription>
+                            </CardHeader>
+                        </Card>
+                    </div>
                 </div>
             </div>
 
