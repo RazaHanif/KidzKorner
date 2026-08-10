@@ -461,7 +461,7 @@ const BeforeAfterDaycare = () => {
             <StructData schema={faqSchema(faq)} />
 
             <title>
-                Before & After School Care in Milton, Ontario | School-Age Child Care | Kidz Korner
+                Before & After School Care in Milton, Ontario | Kidz Korner
             </title>
             <meta 
                 name="description" 
