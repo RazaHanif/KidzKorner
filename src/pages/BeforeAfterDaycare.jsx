@@ -127,7 +127,7 @@ const BeforeAfterDaycare = () => {
                                     </h2>
                                 </div>
                                 <p className="text-start pl-8">
-                                    A welcoming place to unwind, play
+                                    A welcoming place to unwind, play, and connect with friends after the school day.
                                 </p>
                             </div>
                             <div className="flex flex-col items-start justify-start w-full">
