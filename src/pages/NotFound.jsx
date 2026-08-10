@@ -34,30 +34,6 @@ const NotFound = () => {
                 name="description"
                 content="Oops! The page you are looking for does not exist. Visit Kidz Korner, a licensed daycare and childcare centre in Milton, Ontario."
             />
-            <meta 
-                property="og:title"
-                content="Licensed Daycare in Milton, Ontario | Kidz Korner"
-            />
-            <meta
-                property="og:description"
-                content="Looking for a licensed daycare in Milton? Kidz Korner provides trusted childcare, toddler daycare, preschool programs, before and after school care, and licensed camps for local families."
-            />
-            <meta 
-                property="og:type"
-                content="website"
-            />
-            <meta
-                property="og:url"
-                content="https://www.kidzkornermilton.com/"
-            />
-            <meta
-                property="og:image"
-                content="https://www.kidzkornermilton.com/og-image.jpg"
-            />
-            <meta
-                property="og:image:alt"
-                content="Kidz Korner licensed daycare in Milton"
-            />
             <meta name="robots" content="noindex, nofollow" />
         </div>
     );
