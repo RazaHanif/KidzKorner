@@ -445,7 +445,7 @@ const BeforeAfterDaycare = () => {
                 <FAQAccordion faq={faq} />
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 gap-6" id="before-after-form">
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w- gap-6" id="before-after-form">
                 <p className="flex text-center">
                     Ready to join us?
                 </p>
