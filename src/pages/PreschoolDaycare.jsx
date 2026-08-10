@@ -166,14 +166,14 @@ const PreschoolDaycare = () => {
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
                                     <CardTitle>
-                                        Language & Communication
+                                        Social & Emotional Development
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
                                     Stories, conversations, songs, and everyday interactions help children expand their vocabulary, express their ideas, listen to others, and become confident communicators.
                                 </CardContent>
                             </Card>
-                            
+
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
                                     <CardTitle>
