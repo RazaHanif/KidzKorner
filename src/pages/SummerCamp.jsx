@@ -131,7 +131,7 @@ const SummerCamp = () => {
                             <CardHeader className="text-start">
                                 <CardTitle className="flex flex-row items-center gap-2">
                                     <Sun className="text-primary" />
-                                    Themed Events & Experiences
+                                    Full Day of Fun
                                 </CardTitle>
                                 <CardDescription>
                                     Camp runs from 9:00 a.m. to 3:00 p.m., giving children a full day of activities, play, and social time during their summer break.
