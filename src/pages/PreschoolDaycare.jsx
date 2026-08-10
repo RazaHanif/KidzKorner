@@ -230,7 +230,7 @@ const PreschoolDaycare = () => {
                                             <div className="flex gap-2 text-primary">
                                                 <ShieldCheck />
                                                 <h2 className="font-bold">
-                                                    Creativity & Self-Expression
+                                                    Self-Help Skills
                                                 </h2>
                                             </div>
                                             <p className="text-start pl-8">
