@@ -95,7 +95,7 @@ const SummerCamp = () => {
                             <CardHeader className="text-start">
                                 <CardTitle className="flex flex-row items-center gap-2">
                                     <Sun className="text-primary" />
-                                    Themed Events & Experiences
+                                    Indoor Playground Fun
                                 </CardTitle>
                                 <CardDescription>
                                     Campers have access to our indoor playground, giving them plenty of opportunities to climb, play, explore, and stay active.
