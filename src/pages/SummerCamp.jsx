@@ -37,7 +37,7 @@ const SummerCamp = () => {
             a: "Kidz Korner summer camp is available for the same age range as our regular camp program. Families can contact us to confirm whether their child is eligible for the current summer program."
         },
         {
-            q: "What age groups can attend your camps?",
+            q: "What are the hours for summer camp?",
             a: "Summer camp runs Monday to Friday from 9:00 a.m. to 3:00 p.m. Before- and after-camp care may also be available depending on space. Families interested in extended hours can contact us to ask about availability."
         },
         {
