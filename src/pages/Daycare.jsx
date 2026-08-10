@@ -232,7 +232,7 @@ const Daycare = () => {
 
             <meta 
                 property="og:title"
-                content="[PAGE NAME] |Kidz Korner Milton"
+                content="Daycare |Kidz Korner Milton"
             />
             <meta
                 property="og:description"
