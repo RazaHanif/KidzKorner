@@ -301,7 +301,7 @@ const BeforeAfterDaycare = () => {
                                             <div className="flex gap-2 text-primary">
                                                 <BadgeCheck />
                                                 <h2 className="font-bold">
-                                                    A Famili
+                                                    A Familiar Environment
                                                 </h2>
                                             </div>
                                             <p className="text-start pl-8">
