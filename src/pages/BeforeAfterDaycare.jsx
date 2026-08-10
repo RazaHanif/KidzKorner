@@ -104,7 +104,7 @@ const BeforeAfterDaycare = () => {
             </div>
 
 
-            <div className="flex flex-col justify-center items-center w-3/4 lg:py-4 py-4 lg:my-4 my-4">
+            <div className="flex flex-col justify-center items-center w-3/4">
                 <h2 className="text-xl font-bold text-center pb-4">
                     A Comfortable Start and End to Every School Day
                 </h2>
