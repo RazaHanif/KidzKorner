@@ -195,7 +195,7 @@ const SummerCamp = () => {
                                 Indoor playground access for active play and exploration
                             </p>
                             <p className="lg:border-r-2 lg:border-b-0 border-b-2 p-4">
-                                A maximum 
+                                A maximum of 13 campers for a smaller group setting
                             </p>
                             <p className="lg:border-r-2 lg:border-b-0 border-b-2 p-4">
                                 Freshly cooked Nutritious Meals & Snacks
