@@ -315,7 +315,7 @@ const Home = () => {
 
             <meta 
                 property="og:title"
-                content="Kidz Korner"
+                content="Licensed Daycare in Milton, Ontario | Kidz Korner"
             />
             <meta
                 property="og:description"
