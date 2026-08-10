@@ -210,11 +210,11 @@ const PreschoolDaycare = () => {
                     <div className="flex flex-col gap-2 w-full text-nowrap">
                         <p className="flex items-start gap-3">
                             <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Daily Parent Teacher Communication
+                            Small-group Activities
                         </p>
                         <p className="flex items-start gap-3">
                             <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Monthly Progress Reports
+                            F
                         </p>
                         <p className="flex items-start gap-3">
                             <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
