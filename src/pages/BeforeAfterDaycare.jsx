@@ -48,7 +48,7 @@ const BeforeAfterDaycare = () => {
         },
         {
             q: "Do you provide transportation to and from school?",
-            a: "Limited spots are available, Please call to confirm."
+            a: "Transportation may be available for select schools and families, depending on proximity, availability, and scheduling. Additional fees may apply. Please call us to discuss transportation options and availability for your child."
         },
         {
             q: "What do children do after school?",
