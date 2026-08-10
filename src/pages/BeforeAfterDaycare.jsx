@@ -43,7 +43,7 @@ const BeforeAfterDaycare = () => {
             a: "Our Before & After School Care programs are designed for all school-aged children between 4-18 years."
         },
         {
-            q: "What does a typical preschool day look like?",
+            q: "What are your Before & After School Care Hours?",
             a: "Preschoolers enjoy a balance of guided activities, creative play, group experiences, active play, and opportunities for independent exploration. Daily routines may include arts and crafts, stories, music, learning activities, meals, and indoor play."
         },
         {
