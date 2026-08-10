@@ -58,7 +58,7 @@ const SummerCamp = () => {
         },
         {
             q: "What activities are offered at summer camp?",
-            a: "Campers participate in a variety of activities throughout the summer, including arts and crafts, games, sports, creative activities, free play, indoor playground time, and themed events. Activities vary throughout the summer to keep the program fun and engaging."
+            a: "Families should send their child with the items they normally need for a full day at camp, including a packed lunch, snacks, a refillable water bottle, sunscreen, and a change of clothes when appropriate. We recommend labeling personal belongings with your child's name."
         },
     ]
 
