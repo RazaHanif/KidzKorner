@@ -145,9 +145,9 @@ const BeforeAfterDaycare = () => {
                 </div>
             </div>
 
-                        <div className="flex flex-col justify-center items-center w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
+            <div className="flex flex-col justify-center items-center w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
                 <h2 className="text-xl font-bold text-center pb-4">
-                    A Preschool Program Built For Growing Minds
+                    More Than Just Before and After School Care
                 </h2>
 
                 <div className="flex flex-1 flex-col gap-4 w-full">
