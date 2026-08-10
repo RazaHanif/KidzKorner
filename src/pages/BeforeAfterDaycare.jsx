@@ -121,14 +121,6 @@ const BeforeAfterDaycare = () => {
                                     Art, music, imaginative play, and creative activities give children opportunities to express themselves and explore their own ideas.
                                 </p>
                             </div>
-                            <p className="flex items-start gap-3">
-                                <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                                Play-based Learning Environment
-                            </p>
-                            <p className="flex items-start gap-3">
-                                <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                                Indoor Playground Access
-                            </p>
                         </div>
                     </div>
                 </div>
