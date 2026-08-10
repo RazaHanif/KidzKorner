@@ -381,83 +381,8 @@ const BeforeAfterDaycare = () => {
                 </h2>
                 <div className="flex flex-col gap-4 lg:justify-evenly justify-center items-center w-full">
                     <div className="flex flex-1 flex-col gap-4 w-full">
-                        <div className="flex md:flex-row flex-col gap-4">
-                            <Card>
-                                <CardContent className="flex md:flex-row flex-col gap-2">
-                                    <div className="flex flex-col flex-1 gap-2">
-                                        <div className="flex flex-col items-start justify-start w-full">
-                                            <div className="flex gap-2 text-primary">
-                                                <BadgeCheck />
-                                                <h2 className="font-bold">
-                                                    A Familiar Environment
-                                                </h2>
-                                            </div>
-                                            <p className="text-start pl-8">
-                                                Children spend their time in a welcoming childcare setting with caring educators.
-                                            </p>
-                                        </div>
-                                        <div className="flex flex-col items-start justify-start w-full">
-                                            <div className="flex gap-2 text-primary">
-                                                <HeartHandshake />
-                                                <h2 className="font-bold">
-                                                    Convenient Hours
-                                                </h2>
-                                            </div>
-                                            <p className="text-start pl-8">
-                                                Care is available before and after the regular school day to help support busy family schedules.
-                                            </p>
-                                        </div>
-                                        <div className="flex flex-col items-start justify-start w-full">
-                                            <div className="flex gap-2 text-primary">
-                                                <GraduationCap />
-                                                <h2 className="font-bold">
-                                                    Active & Engaging
-                                                </h2>
-                                            </div>
-                                            <p className="text-start pl-8">
-                                                Children have plenty of opportunities to play, create, socialize, and stay engaged.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div className="flex flex-col flex-1 gap-2">
+                        
 
-                                        <div className="flex flex-col items-start justify-start w-full">
-                                            <div className="flex gap-2 text-primary">
-                                                <Palette />
-                                                <h2 className="font-bold">
-                                                    A Place to Be Themselves
-                                                </h2>
-                                            </div>
-                                            <p className="text-start pl-8">
-                                                After school doesn't have to mean another structured classroom. Children have time to relax and enjoy themselves.
-                                            </p>
-                                        </div>
-                                        <div className="flex flex-col items-start justify-start w-full">
-                                            <div className="flex gap-2 text-primary">
-                                                <ShieldCheck />
-                                                <h2 className="font-bold">
-                                                    Experienced Childcare Team
-                                                </h2>
-                                            </div>
-                                            <p className="text-start pl-8">
-                                                Families can feel comfortable knowing their children are cared for by an experienced team.
-                                            </p>
-                                        </div>
-                                        <div className="flex flex-col items-start justify-start w-full">
-                                            <div className="flex gap-2 text-primary">
-                                                <ShieldCheck />
-                                                <h2 className="font-bold">
-                                                    Self-Help Skills
-                                                </h2>
-                                            </div>
-                                            <p className="text-start pl-8">
-                                                Children are encouraged to practice everyday tasks, make age-appropriate choices, and take greater responsibility for caring for themselves and their belongings.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </CardContent>
-                            </Card>
-                        </div>
                     </div>
                 </div>
             </div>
