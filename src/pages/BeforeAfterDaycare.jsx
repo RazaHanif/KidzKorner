@@ -48,7 +48,7 @@ const BeforeAfterDaycare = () => {
         },
         {
             q: "Do you provide transportation to and from school?",
-            a: "Limited spots are available for school pick and drop off. Please call to ."
+            a: "Limited spots are available for school pick and drop off. Please call to inquire ."
         },
         {
             q: "Do preschool children have opportunities for free play?",
