@@ -33,6 +33,7 @@ import ScrollToTop from "./components/ScrollToTop.jsx";
 /workshops
 /about
 /blog
+/blog/:slug
 /faq
 
 */
