@@ -127,7 +127,7 @@ const BeforeAfterDaycare = () => {
                                     </h2>
                                 </div>
                                 <p className="text-start pl-8">
-                                    Art, music, imaginative play, and creative activities give children opportunities to express themselves and explore their own ideas.
+                                    A welcoming place to unwind, play
                                 </p>
                             </div>
                             <div className="flex flex-col items-start justify-start w-full">
