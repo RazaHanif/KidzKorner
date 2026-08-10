@@ -281,7 +281,7 @@ const BeforeAfterDaycare = () => {
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
-                                    Through group activities and everyday interactions, children learn to communicate, cooperate, build friendships, and navigate new social experiences.
+                                    A less structured env.
                                 </CardContent>
                             </Card>
 
