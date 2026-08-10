@@ -58,7 +58,7 @@ const Parties = () => {
                 </h1>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 m-4">
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10">
                 <p className="flex flex-col justify-center items-center lg:w-3/4 text-center">
                     Celebrate your child's birthday with a private indoor party
                     at Kidz Korner in Milton, Ontario. Our birthday party
