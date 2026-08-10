@@ -11,7 +11,7 @@ import CampForm from "@/components/CampForm";
 import Image from "@/components/Image";
 import { breadcrumbSchema, faqSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
-import { ChefHat, Flower, Heart, Leaf, Palette, Shapes, Snowflake, Sun, TestTube2, Users } from "lucide-react";
+import { ChefHat, Flower, Heart, Leaf, Palette, PartyPopper, Shapes, Snowflake, Sun, TestTube2, Users } from "lucide-react";
 import FAQAccordion from "../components/FAQAccordion";
 
 
@@ -93,7 +93,7 @@ const SummerCamp = () => {
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
                                 <CardTitle className="flex flex-row items-center gap-2">
-                                    <Sun className="text-primary" />
+                                    <PartyPopper className="text-primary" />
                                     Themed Events & Experiences
                                 </CardTitle>
                                 <CardDescription>
