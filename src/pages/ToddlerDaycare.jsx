@@ -255,7 +255,7 @@ const ToddlerDaycare = () => {
             <meta name="description" content="Looking for toddler daycare in Milton? Kidz Korner provides a safe, nurturing toddler program focused on learning, play, and early childhood development." />
             <meta 
                 property="og:title"
-                content="Licensed Daycare in Milton, Ontario | Kidz Korner"
+                content="Toddler Daycare in Milton, Ontario | Caring Toddler Program | Kidz Korner"
             />
             <meta
                 property="og:description"
