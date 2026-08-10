@@ -10,7 +10,7 @@ import CampForm from "@/components/CampForm";
 import Image from "@/components/Image";
 import { breadcrumbSchema, faqSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
-import { BadgeDollarSign, Blocks, PartyPopper, Shapes, Snowflake, Sparkles, Sun, TestTube2, Users, UsersRound } from "lucide-react";
+import { BadgeDollarSign, Blocks, PartyPopper, Sparkles, Sun, TestTube2, Users, UsersRound } from "lucide-react";
 import FAQAccordion from "../components/FAQAccordion";
 
 
