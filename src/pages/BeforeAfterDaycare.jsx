@@ -438,9 +438,6 @@ const BeforeAfterDaycare = () => {
                                 end 
                                 className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                         >
-
-
-                            
                             <Button className="cursor-pointer min-w-1/2">
                                 Schedule A Tour
                             </Button>
