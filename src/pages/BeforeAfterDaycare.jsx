@@ -211,8 +211,6 @@ const BeforeAfterDaycare = () => {
                             Mornings don't always go according to plan. Our Before School Care provides children with a safe and welcoming place to begin their day before heading off to school.
                         </p>
                         <p className="flex items-start gap-3">
-                            
-
                             Children can ease into their morning with quiet activities, games, and time to socialize before it's time to leave for school.
                         </p>
                     </div>
