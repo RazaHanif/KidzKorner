@@ -21,7 +21,7 @@ const Home = () => {
                 </h1>
             </div>
 
-            <div className="flex flex-col justify-center items-center lg:w-3/4 w-full lg:text-justify text-center">
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 lg:text-justify text-center">
                 <div className="flex lg:flex-row flex-col justify-center items-center gap-4">
                     <Image
                         src="/media/KK/K_K_39.jpg"
