@@ -382,7 +382,7 @@ const BeforeAfterDaycare = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 m-4">
+            <div className="flex flex-col justify-center items-center gap-4 w-3/4 m-4">
                 <h2 className="text-xl font-bold text-center lg:">
                     Before & After School Care Hours
                 </h2>
