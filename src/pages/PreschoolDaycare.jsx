@@ -10,7 +10,7 @@ import Image from "@/components/Image"
 import FAQAccordion from "../components/FAQAccordion";
 import StructData from "../components/StructData";
 import { breadcrumbSchema, faqSchema, localBusinessSchema } from "../schema/structDataSchema";
-import { BadgeCheck, CircleCheck, HeartHandshake } from "lucide-react";
+import { BadgeCheck, CircleCheck, GraduationCap, HeartHandshake } from "lucide-react";
 
 const PreschoolDaycare = () => {
     const breadCrumb = [
@@ -249,7 +249,7 @@ const PreschoolDaycare = () => {
                                             <div className="flex gap-2 text-primary">
                                                 <GraduationCap />
                                                 <h2 className="font-bold">
-                                                    Experienced Educators
+                                                    Cognitive Development
                                                 </h2>
                                             </div>
                                             <p className="text-start pl-8">
