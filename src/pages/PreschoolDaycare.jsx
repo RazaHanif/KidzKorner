@@ -49,7 +49,7 @@ const PreschoolDaycare = () => {
         },
         {
             q: "How do you communicate with parents?",
-            a: "We believe parents are an important part of their child's learning journey. Our team keeps families informed about their child's day, progress, and any important updates."
+            a: "Our regular preschool hours are 9:00 AM to 3:00 PM, Monday to Friday. Half-day options are also available from 9:00 AM to 11:30 AM or 12:30 PM to 3:00 PM."
         },
         {
             q: "Are meals and snack time included?",
