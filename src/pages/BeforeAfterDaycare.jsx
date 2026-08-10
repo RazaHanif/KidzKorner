@@ -123,7 +123,7 @@ const BeforeAfterDaycare = () => {
                             <div className="flex flex-col items-start justify-start w-full">
                                 <div className="flex gap-2 text-primary">
                                     <h2 className="font-bold">
-                                        Creativity & Self-Expression
+                                        After School Care
                                     </h2>
                                 </div>
                                 <p className="text-start pl-8">
