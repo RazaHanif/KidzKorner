@@ -262,7 +262,7 @@ const Camp = () => {
                             </ul>
                         </CardContent>
                     </Card>
-                    <Image src='/20250711_111518.jpg' alt='Child Playing With Dinosaurs at Kidz Korner Milton, Ontario' w="w-md" />
+                    <Image src='/media/KK/20250711_111518.jpg' alt='Child Playing With Dinosaurs at Kidz Korner Milton, Ontario' w="w-md" />
                 </div>
             </div>
 
@@ -296,9 +296,9 @@ const Camp = () => {
             </div>
 
             <div className="flex lg:flex-row flex-col justify-between items-center w-3/4 gap-4">
-                <Image src='/IMG-20250722-WA0017.jpg' alt='Child Tye Dyeing Shirt at Kidz Korner Milton, Ontario' />
-                <Image src='/20260108_111322(0).jpg' alt='Children Kneading Dough at Kidz Korner Milton, Ontario' />
-                <Image src='/20250722_100154.jpg' alt='Child Painting at Kidz Korner Milton, Ontario' />
+                <Image src='/media/KK/IMG-20250722-WA0017.jpg' alt='Child Tye Dyeing Shirt at Kidz Korner Milton, Ontario' />
+                <Image src='/media/KK/20260108_111322(0).jpg' alt='Children Kneading Dough at Kidz Korner Milton, Ontario' />
+                <Image src='/media/KK/20250722_100154.jpg' alt='Child Painting at Kidz Korner Milton, Ontario' />
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
@@ -338,9 +338,9 @@ const Camp = () => {
             </div>
 
             <div className="flex lg:flex-row flex-col justify-between items-center w-3/4 gap-4">
-                <Image src='/20251106_102726.jpg' alt='Child Cutting Tomatos at Kidz Korner Milton, Ontario' />
-                <Image src='/20250710_144411.jpg' alt='Children Painting at Kidz Korner Milton, Ontario' />
-                <Image src='/20250808_135154.jpg' alt='Child Playing With Sensory Toy at Kidz Korner Milton, Ontario' />
+                <Image src='/media/KK/20251106_102726.jpg' alt='Child Cutting Tomatos at Kidz Korner Milton, Ontario' />
+                <Image src='/media/KK/20250710_144411.jpg' alt='Children Painting at Kidz Korner Milton, Ontario' />
+                <Image src='/media/KK/20250808_135154.jpg' alt='Child Playing With Sensory Toy at Kidz Korner Milton, Ontario' />
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 border-y py-10 my-8">
