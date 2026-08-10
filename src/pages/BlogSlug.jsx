@@ -2,6 +2,8 @@ import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchem
 import StructData from "../components/StructData";
 
 const BlogSlug = () => {
+    const slug = []
+
     const breadCrumb = [
         {
             name: "Home",
@@ -13,7 +15,7 @@ const BlogSlug = () => {
         },
         {
             name: "Frequently Asked Questions",
-            url: "https://www.kidzkornermilton.com/faq"
+            url: `https://www.kidzkornermilton.com/blog/${slug.url}`
         },
     ];
     return (
