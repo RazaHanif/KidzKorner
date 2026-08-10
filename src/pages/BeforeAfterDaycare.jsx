@@ -122,9 +122,7 @@ const BeforeAfterDaycare = () => {
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent className="text-start">
-                                        <p className="text-start pl-8">
-                                            A calm and engaging start to the morning before children head off to school.
-                                        </p>
+                                    A calm and engaging start to the morning before children head off to school.
                                 </CardContent>
                             </Card>
                             <div className="flex flex-col items-start justify-start w-full">
