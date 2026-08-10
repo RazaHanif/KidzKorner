@@ -172,7 +172,7 @@ const PreschoolDaycare = () => {
 
             <div className="flex flex-col justify-center items-center w-3/4">
                 <h2 className="text-xl font-bold text-center pb-4">
-                    A Safe 
+                    A Safe, Supportive Environment to Learn and Grow
                 </h2>
 
                 <div className="flex lg:flex-row flex-col justify-center items-center w-full gap-4">
