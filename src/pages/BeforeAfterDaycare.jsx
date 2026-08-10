@@ -410,7 +410,7 @@ const BeforeAfterDaycare = () => {
                         </Table>
                     </div>
                     {/* <Image src='/media/KK/20250822_121126.jpg' alt='Child Playing With Blocks at Kidz Korner Milton, Ontario' w="w-sm"/> */}
-                    <div className="flex flex-col border">
+                    <div className="flex flex-col justify-center m-4 lg:m-0 flex-2">
                         <p className="">
                             Our Before & After School Care program is designed to complement your child's regular school schedule, providing care during the hours families need it most
                         </p>
