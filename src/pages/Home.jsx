@@ -315,7 +315,7 @@ const Home = () => {
 
             <meta 
                 property="og:title"
-                content="Kidz Korner Milton"
+                content="Kidz Korner"
             />
             <meta
                 property="og:description"
