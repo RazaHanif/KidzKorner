@@ -40,6 +40,7 @@ const BeforeAfterDaycare = () => {
                 name="description" 
                 content="" 
             />
+            
         </div>
     );
 }
