@@ -238,7 +238,7 @@ const PreschoolDaycare = () => {
                         </p>
                         <p className="flex items-start gap-3">
                             <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Indoor Playground
+                            Indoor Playground Access
                         </p>
                     </div>
                     <div className="flex flex-col gap-2 w-full text-nowrap">
