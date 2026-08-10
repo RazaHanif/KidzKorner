@@ -180,7 +180,7 @@ const SummerCamp = () => {
 
             <div className="flex flex-col justify-center items-center w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
                 <h2 className="text-xl font-bold text-center pb-4">
-                    What to Expect at Kidz Korner Summer Camp
+                    Summer Camp Highlights
                 </h2>
                 <Card>
                     <CardContent>
