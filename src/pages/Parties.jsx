@@ -252,7 +252,7 @@ const Parties = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 border-y py-10 my-8">
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10">
                 <h2 className="text-xl font-bold text-center pb-4">
                     FAQ
                 </h2>
