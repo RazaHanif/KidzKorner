@@ -271,9 +271,7 @@ const BeforeAfterDaycare = () => {
                                     Spend time socializing and playing with other school-age children.
                                 </CardContent>
                             </Card>
-                        </div>
 
-                        <div className="flex md:flex-row flex-col gap-4">
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
                                     <CardTitle>
