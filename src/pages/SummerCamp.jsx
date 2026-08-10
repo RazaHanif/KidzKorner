@@ -119,7 +119,7 @@ const SummerCamp = () => {
                             <CardHeader className="text-start">
                                 <CardTitle className="flex flex-row items-center gap-2">
                                     <Sun className="text-primary" />
-                                    Themed Events & Experiences
+                                    Small Group Setting
                                 </CardTitle>
                                 <CardDescription>
                                     With a maximum of 13 campers, we keep our summer camp intentionally small so children can enjoy a more comfortable and engaging group experience.
