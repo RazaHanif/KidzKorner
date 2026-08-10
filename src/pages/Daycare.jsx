@@ -161,7 +161,7 @@ const Daycare = () => {
             <div className="flex flex-col justify-center w-3/4 lg:py-16 py-8">
                 <Card>
                     <CardHeader>
-                        <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
+                        <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg mb-8">
                             What We Offer!
                         </CardTitle>
                         <CardDescription className="p-2 bg-accent hidden rounded-md text-bold text-lg">
