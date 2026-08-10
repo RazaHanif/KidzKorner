@@ -56,7 +56,7 @@ const Workshops = () => {
             <StructData schema={breadcrumbSchema(breadCrumb)} />
 
             <title>
-                Kids Workshops & Programs in Milton, Ontario | Kidz Korner 
+                Kids Workshops in Milton, Ontario | Kidz Korner 
             </title>
             <meta name="keywords" content="kids workshops Milton, children programs Milton, early learning Milton, educational activities Milton, childcare programs Milton" />
             <meta name="description" content="Kidz Korner offers engaging workshops and programs in Milton, Ontario. Early learning, arts, and skill-building activities for children." />
