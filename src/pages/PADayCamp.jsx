@@ -242,7 +242,7 @@ const PADayCamp = () => {
             <StructData schema={breadcrumbSchema(breadCrumb)} />
 
             <title>
-                March Break Camp in Milton, Ontario | Kidz Korner 
+                PA Day Camp in Milton, Ontario | Kidz Korner 
             </title>
             <meta 
                 name="description" 
