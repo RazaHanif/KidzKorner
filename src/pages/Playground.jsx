@@ -160,7 +160,7 @@ const Playground = () => {
             />
             <meta
                 property="og:description"
-                content="Looking for a licensed daycare in Milton? Kidz Korner provides trusted childcare, toddler daycare, preschool programs, before and after school care, and licensed camps for local families."
+                content="Visit Kidz Korner's indoor playground in Milton, Ontario. Enjoy safe drop-in play, toddler-friendly play areas, climbing structures, and year-round indoor fun for the whole family."
             />
             <meta 
                 property="og:type"
