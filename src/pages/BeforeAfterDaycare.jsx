@@ -44,7 +44,7 @@ const BeforeAfterDaycare = () => {
         },
         {
             q: "What are your Before & After School Care Hours?",
-            a: "7:30 AM - 9:00 AM and 3:00."
+            a: "7:30 AM - 9:00 AM and 3:00 PM - 6:00 PM"
         },
         {
             q: "How does the preschool program prepare children for kindergarten?",
