@@ -312,7 +312,7 @@ const BeforeAfterDaycare = () => {
                                             <div className="flex gap-2 text-primary">
                                                 <HeartHandshake />
                                                 <h2 className="font-bold">
-                                                    Language & Communication
+                                                    Convenient Hours
                                                 </h2>
                                             </div>
                                             <p className="text-start pl-8">
