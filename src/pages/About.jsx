@@ -177,7 +177,7 @@ const About = () => {
             />
             <meta
                 property="og:description"
-                content="Looking for a licensed daycare in Milton? Kidz Korner provides trusted childcare, toddler daycare, preschool programs, before and after school care, and licensed camps for local families."
+                content="Learn more about Kidz Korner, a licensed childcare and daycare in Milton, Ontario. Dedicated to providing safe, nurturing, and fun learning experiences."
             />
             <meta 
                 property="og:type"
