@@ -17,7 +17,7 @@ const FAQ = () => {
             url: "https://www.kidzkornermilton.com/"
         },
         {
-            name: "Camp",
+            name: "Fr",
             url: "https://www.kidzkornermilton.com/camp"
         },
     ];
