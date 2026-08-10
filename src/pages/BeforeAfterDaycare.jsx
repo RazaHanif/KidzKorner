@@ -16,7 +16,7 @@ import Image from "@/components/Image"
 import FAQAccordion from "../components/FAQAccordion";
 import StructData from "../components/StructData";
 import { breadcrumbSchema, faqSchema, localBusinessSchema } from "../schema/structDataSchema";
-import { Clock3, HeartHandshake, House, Palette, ShieldCheck, Smile, Sparkles, UsersRound } from "lucide-react";
+import { Clock3, HeartHandshake, House, Smile, Sparkles, UsersRound } from "lucide-react";
 import { NavLink } from "react-router";
 
 const BeforeAfterDaycare = () => {
