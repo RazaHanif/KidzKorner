@@ -281,7 +281,7 @@ const BeforeAfterDaycare = () => {
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
-                                    A less structured env.
+                                    A less structured environment where children can decompress after school.
                                 </CardContent>
                             </Card>
 
