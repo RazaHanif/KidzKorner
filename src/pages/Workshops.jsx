@@ -42,7 +42,7 @@ const Workshops = () => {
 
             {/* Move away from advertising specific workshops/prices as they change too often */}
             {/* Just link to insta */}
-            <div className="flex justify-center items-center w mb-4">
+            <div className="flex justify-center items-center lg:w-3/4 w-9/10 border-y lg:py-12 py-8 lg:my-12 my-8">
                 <WorkshopCarousel />
             </div>
 
