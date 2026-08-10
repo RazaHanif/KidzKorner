@@ -57,7 +57,7 @@ const SummerCamp = () => {
             a: "Summer camp is currently limited to a maximum of 13 children. Keeping the program small allows campers to participate comfortably in activities and enjoy a more manageable group environment."
         },
         {
-            q: "What activities are offered at summer camp?",
+            q: "What should my child bring to summer camp?",
             a: "Families should send their child with the items they normally need for a full day at camp, including a packed lunch, snacks, a refillable water bottle, sunscreen, and a change of clothes when appropriate. We recommend labeling personal belongings with your child's name."
         },
     ]
