@@ -59,20 +59,20 @@ const BeforeAfterDaycare = () => {
     ];
 
     return (
-        <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16 pb-8">
+        <div className="flex flex-col flex-1 justify-center items-center gap-6 w-full lg:py-16 pb-8">
             <div className="flex flex-col justify-center items-center w-full mb-4">
                 <h1 className="lg:text-5xl text-3xl font-bold font-serif text-center py-4">
                     Before & After School Care
                 </h1>
             </div>
 
-            <div className="flex lg:flex-row flex-col gap-4 lg:w-3/4 lg:pb-8 pb-4 lg:mb-8 mb-4">
-                <div className="flex flex-col flex-1 justify-center items-center w-full gap-4 lg:gap-8">
+            <div className="flex lg:flex-row flex-col gap-6 lg:w-3/4 lg:pb-8 pb-4 lg:mb-8 mb-4">
+                <div className="flex flex-col flex-1 justify-center items-center w-full gap-6 lg:gap-8">
                     <p className="w-3/4 flex justify-center items-center lg:text-center">
                         A safe, welcoming place for school-age children before and after the school day. Our program gives families flexible care while giving children time to play, connect with friends, and enjoy a comfortable environment outside of school.
                     </p>
 
-                    <div className="w-3/4 flex flex-row lg:flex-col gap-4 justify-center items-center">
+                    <div className="w-3/4 flex flex-row lg:flex-col gap-6 justify-center items-center">
                         <a 
                             href="#before-after-form" 
                             className="hover:scale-105 ease-in-out duration-300 flex-1 lg:w-3/4 flex justify-center"
@@ -106,12 +106,12 @@ const BeforeAfterDaycare = () => {
                 <h2 className="text-xl font-bold text-center pb-4">
                     A Comfortable Start and End to Every School Day
                 </h2>
-                <div className="flex flex-col gap-4 lg:justify-evenly justify-center items-center w-full">
+                <div className="flex flex-col gap-6 lg:justify-evenly justify-center items-center w-full">
                     <p className="flex flex-col justify-center items-center w-full text-center">
                         School days can be busy for both children and parents. Our Before & After School Care program provides a welcoming place for children to spend time before school begins and after the school day ends.
                         Children have opportunities to play, participate in activities, socialize with friends, and relax in a supportive environment while families manage their daily schedules.
                     </p>
-                    <div className="flex lg:flex-row flex-col p-2 lg:gap-4 gap-2">
+                    <div className="flex lg:flex-row flex-col p-2 lg:gap-6 gap-2">
                         <Card>
                             <CardHeader>
                                 <CardTitle className="font-semibold">
@@ -151,8 +151,8 @@ const BeforeAfterDaycare = () => {
                     More Than Just Before and After School Care
                 </h2>
 
-                <div className="flex flex-1 flex-col gap-4 w-full">
-                    <div className="flex md:flex-row flex-col gap-4">
+                <div className="flex flex-1 flex-col gap-6 w-full">
+                    <div className="flex md:flex-row flex-col gap-6">
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
                                 <CardTitle>
@@ -176,7 +176,7 @@ const BeforeAfterDaycare = () => {
                         </Card>
                     </div>
 
-                    <div className="flex md:flex-row flex-col gap-4">
+                    <div className="flex md:flex-row flex-col gap-6">
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
                                 <CardTitle>
@@ -206,7 +206,7 @@ const BeforeAfterDaycare = () => {
                 <h2 className="text-xl font-bold text-center pb-4">
                     A Positive Start Before School
                 </h2>
-                <div className="flex flex-col p-2 lg:gap-4 gap-2">
+                <div className="flex flex-col p-2 lg:gap-6 gap-2">
                     <div className="flex flex-col gap-2 w-full">
                         <p className="flex justify-center items-center">
                             Mornings don't always go according to plan. Our Before School Care provides children with a safe and welcoming place to begin their day before heading off to school.
@@ -215,7 +215,7 @@ const BeforeAfterDaycare = () => {
                             Children can ease into their morning with quiet time, games, and time to socialize before it's time to leave for school.
                         </p>
                     </div>
-                    <div className="flex flex-col lg:flex-row gap-2 lg:gap-4 justify-center items-center">
+                    <div className="flex flex-col lg:flex-row gap-2 lg:gap-6 justify-center items-center">
                         <Image 
                             src='/media/KK/20251010_122316.jpg' 
                             alt='Child Playing With Magnetic Toy at Kidz Korner Milton, Ontario' 
@@ -234,7 +234,7 @@ const BeforeAfterDaycare = () => {
                 <h2 className="text-xl font-bold text-center pb-4">
                     A Place to Unwind After a Busy Day
                 </h2>
-                <div className="flex flex-col p-2 lg:gap-4 gap-2">
+                <div className="flex flex-col p-2 lg:gap-6 gap-2">
                     <div className="flex flex-col gap-2 w-full">
                         <p className="flex justify-center items-center">
                             After a full day at school, children need time to relax and be themselves. Our After School Care gives them an opportunity to transition out of the school day at their own pace.
@@ -243,8 +243,8 @@ const BeforeAfterDaycare = () => {
                             Whether they want to play with friends, work on a creative project, explore the indoor playground, or enjoy some quieter time, children can spend their afternoon in a comfortable and supportive environment.
                         </p>
                     </div>
-                    <div className="flex flex-1 flex-col gap-4 w-full">
-                        <div className="flex md:flex-row flex-col gap-4">
+                    <div className="flex flex-1 flex-col gap-6 w-full">
+                        <div className="flex md:flex-row flex-col gap-6">
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
                                     <CardTitle>
@@ -286,9 +286,9 @@ const BeforeAfterDaycare = () => {
                 <h2 className="text-xl font-bold text-center pb-4">
                     Why Families Choose Kidz Korner for Before & After School Care
                 </h2>
-                <div className="flex flex-col gap-4 lg:justify-evenly justify-center items-center w-full">
-                    <div className="flex flex-1 flex-col gap-4 w-full">
-                        <div className="flex md:flex-row flex-col gap-4">
+                <div className="flex flex-col gap-6 lg:justify-evenly justify-center items-center w-full">
+                    <div className="flex flex-1 flex-col gap-6 w-full">
+                        <div className="flex md:flex-row flex-col gap-6">
                             <Card>
                                 <CardContent className="flex md:flex-row flex-col gap-2">
                                     <div className="flex flex-col flex-1 gap-2">
@@ -369,7 +369,7 @@ const BeforeAfterDaycare = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center gap-4 w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
+            <div className="flex flex-col justify-center items-center gap-6 w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
                 <h2 className="text-xl font-bold text-center lg:">
                     Before & After School Care Hours
                 </h2>
@@ -409,7 +409,7 @@ const BeforeAfterDaycare = () => {
                 <h2 className="text-xl font-bold text-center pb-4">
                     A Place to Play After the School Bell
                 </h2>
-                <div className="flex flex-col justify-center items-center gap-4">
+                <div className="flex flex-col justify-center items-center gap-6">
                     <div className="flex flex-col gap-2 w-full">
                         <p className="flex justify-center items-center">
                             One of the things that makes Kidz Korner unique is our indoor playground. After spending much of the day sitting and learning at school, children have the opportunity to get moving, play, and enjoy active time with their friends.
@@ -418,7 +418,7 @@ const BeforeAfterDaycare = () => {
                             Our indoor play space gives school-age children another way to stay active and engaged throughout their afternoon.
                         </p>
                     </div>
-                    <div className="flex flex-col lg:flex-row gap-2 lg:gap-4 justify-center items-center">
+                    <div className="flex flex-col lg:flex-row gap-2 lg:gap-6 justify-center items-center">
                         <NavLink 
                                 to="/indoor-playground" 
                                 end 
@@ -445,7 +445,7 @@ const BeforeAfterDaycare = () => {
                 <FAQAccordion faq={faq} />
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 gap-4" id="before-after-form">
+            <div className="flex flex-col justify-center items-center w-3/4 gap-6" id="before-after-form">
                 <p className="flex text-center">
                     Ready to join us?
                 </p>
