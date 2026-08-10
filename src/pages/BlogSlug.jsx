@@ -25,7 +25,7 @@ const BlogSlug = () => {
             <StructData schema={breadcrumbSchema(breadCrumb)} />
 
             <title>
-                Frequently Asked Questions | Kidz Korner 
+                {slug.title} | Kidz Korner 
             </title>
             <meta 
                 name="description" 
