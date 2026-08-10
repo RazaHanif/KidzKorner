@@ -248,7 +248,7 @@ const BeforeAfterDaycare = () => {
                             Whether they want to play with friends, participate in an activity, explore the indoor playground, or enjoy some quieter time, children can spend their afternoon in a comfortable and supportive environment.
                         </p>
                     </div>
-                                    <div className="flex flex-1 flex-col gap-4 w-full">
+`                                    <div className="flex flex-1 flex-col gap-4 w-full">
                     <div className="flex md:flex-row flex-col gap-4">
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
@@ -296,7 +296,7 @@ const BeforeAfterDaycare = () => {
                             </CardContent>
                         </Card>
                     </div>
-                </div>
+                </div>`
                 </div>
             </div>
 
