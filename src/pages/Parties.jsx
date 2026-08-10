@@ -267,7 +267,8 @@ const Parties = () => {
             <StructData schema={breadcrumbSchema(breadCrumb)} />
             <StructData schema={faqSchema(faq)} />
 
-            <title>Kids Parties in Milton, Ontario | Kidz Korner</title>
+            <title>
+                Kids Parties in Milton, Ontario | Kidz Korner</title>
             <meta
                 name="keywords"
                 content="kids birthday Milton, birthday party venue Milton, children parties Milton, kids party Milton, indoor party Milton"
