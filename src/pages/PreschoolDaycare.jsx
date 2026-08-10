@@ -44,7 +44,7 @@ const PreschoolDaycare = () => {
             a: "Children develop important skills through everyday activities, including following routines, communicating with others, cooperating in groups, solving problems, making choices, and becoming more independent."
         },
         {
-            q: "Do preschool children have opportu?",
+            q: "Do preschool children have opportunities for free play?",
             a: "Absolutely. Our program encourages children to build friendships, practice sharing, improve communication skills, and develop confidence through group activities and cooperative play."
         },
         {
