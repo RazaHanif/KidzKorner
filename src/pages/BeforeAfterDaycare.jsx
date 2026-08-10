@@ -216,10 +216,10 @@ const BeforeAfterDaycare = () => {
                 </h2>
                 <div className="flex flex-col p-2 lg:gap-4 gap-2">
                     <div className="flex flex-col gap-2 w-full">
-                        <p className="flex just">
+                        <p className="flex justify-center items-center ">
                             Mornings don't always go according to plan. Our Before School Care provides children with a safe and welcoming place to begin their day before heading off to school.
                         </p>
-                        <p className="flex just">
+                        <p className="flex justify-center items-center ">
                             Children can ease into their morning with quiet activities, games, and time to socialize before it's time to leave for school.
                         </p>
                     </div>
@@ -249,10 +249,10 @@ const BeforeAfterDaycare = () => {
                 </h2>
                 <div className="flex flex-col p-2 lg:gap-4 gap-2">
                     <div className="flex flex-col gap-2 w-full">
-                        <p className="flex just">
+                        <p className="flex justify-center items-center ">
                             After a full day at school, children need time to relax and be themselves. Our After School Care gives them an opportunity to transition out of the school day at their own pace.
                         </p>
-                        <p className="flex just">
+                        <p className="flex justify-center items-center ">
 
                             Whether they want to play with friends, participate in an activity, explore the indoor playground, or enjoy some quieter time, children can spend their afternoon in a comfortable and supportive environment.
                         </p>
@@ -425,10 +425,10 @@ const BeforeAfterDaycare = () => {
                 </h2>
                 <div className="flex flex-col justify-center items-center p-2 lg:gap-4 gap-2">
                     <div className="flex flex-col gap-2 w-full">
-                        <p className="flex just">
+                        <p className="flex justify-center items-center ">
                             One of the things that makes Kidz Korner different is our indoor playground. After spending much of the day sitting and learning at school, children have the opportunity to get moving, play, and enjoy active time with their friends.
                         </p>
-                        <p className="flex just">
+                        <p className="flex justify-center items-center ">
                             Our indoor play space gives school-age children another way to stay active and engaged throughout their afternoon.
                         </p>
                     </div>
