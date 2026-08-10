@@ -137,11 +137,11 @@ const PreschoolDaycare = () => {
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
                                 <CardTitle>
-                                    Social Development
+                                    Building Social Skills
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
-                                Children build friendships and learn important skills like sharing, communication, and cooperation.
+
                             </CardContent>
                         </Card>
 
