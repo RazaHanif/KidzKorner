@@ -40,7 +40,7 @@ const BlogSlug = () => {
             />
             <meta
                 property="og:description"
-                content="Looking for a licensed daycare in Milton? Kidz Korner provides trusted childcare, toddler daycare, preschool programs, before and after school care, and licensed camps for local families."
+                content="de"
             />
             <meta 
                 property="og:type"
