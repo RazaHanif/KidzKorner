@@ -18,7 +18,7 @@ import Image from "@/components/Image"
 import FAQAccordion from "../components/FAQAccordion";
 import StructData from "../components/StructData";
 import { breadcrumbSchema, faqSchema, localBusinessSchema } from "../schema/structDataSchema";
-import { BadgeCheck, CircleCheck, GraduationCap, HeartHandshake, Palette, ShieldCheck } from "lucide-react";
+import { BadgeCheck, CircleCheck, GraduationCap, HeartHandshake, House, Palette, ShieldCheck } from "lucide-react";
 import { NavLink } from "react-router";
 
 const BeforeAfterDaycare = () => {
@@ -303,7 +303,7 @@ const BeforeAfterDaycare = () => {
                                     <div className="flex flex-col flex-1 gap-2">
                                         <div className="flex flex-col items-start justify-start w-full">
                                             <div className="flex gap-2 text-primary">
-                                                <BadgeCheck />
+                                                <House />
                                                 <h2 className="font-bold">
                                                     A Familiar Environment
                                                 </h2>
