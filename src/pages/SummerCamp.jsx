@@ -161,7 +161,7 @@ const SummerCamp = () => {
                 </h2>
                 <div className="flex flex-col gap-2 w-full">
                     <p className="flex justify-center items-center">
-                        Mornings don't always go according to plan. Our Before School Care provides children with a safe and welcoming place to begin their day before heading off to school.
+                       Summer break should give children the chance to step away from the classroom, try new things, and simply enjoy being kids. At Kidz Korner, our summer camp provides a balance of structured activities, active play, creativity, and time to socialize with friends.
                     </p>
                     <p className="flex justify-center items-center">
                         Children can ease into their morning with quiet time, games, and time to socialize before it's time to leave for school.
