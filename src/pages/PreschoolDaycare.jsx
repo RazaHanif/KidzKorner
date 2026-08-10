@@ -281,17 +281,6 @@ const PreschoolDaycare = () => {
                                                 Art, music, imaginative play, and creative activities give children opportunities to express themselves and explore their own ideas.
                                             </p>
                                         </div>
-                                        <div className="flex flex-col items-start justify-start w-full">
-                                            <div className="flex gap-2 text-primary">
-                                                <MessageCircleHeart />
-                                                <h2 className="font-bold">
-                                                    Strong Parent Communication
-                                                </h2>
-                                            </div>
-                                            <p className="text-start pl-8">
-                                                Working together with families every step of the way.
-                                            </p>
-                                        </div>
                                     </div>
                                 </CardContent>
                             </Card>
