@@ -157,7 +157,7 @@ const SummerCamp = () => {
 
             <div className="flex flex-col justify-center items-center gap-4">
                 <h2 className="text-xl font-bold text-center pb-4">
-                    Camp Information
+                    What to Expect at Kidz Korner Summer Camp
                 </h2>
                 <div className="flex lg:flex-row flex-col justify-center lg:items-stretch items-center lg:w-full w-3/4 gap-4">
                     <Card className="flex-1">
