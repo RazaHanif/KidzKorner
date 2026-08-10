@@ -46,7 +46,7 @@ const Camp = () => {
     ]
 
     return (
-        <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16">
+        <div className="flex flex-col flex-1 justify-center items-center gap-6 w-full lg:py-16">
             <div className="flex flex-col justify-center items-center w-full mb-4">
                 <h1 className="lg:text-5xl text-3xl font-bold font-serif text-center py-4">
                     School Age Camp in Milton
@@ -62,7 +62,7 @@ const Camp = () => {
                     Choose Your Camp
                 </h2>
                 <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
-                    <div className="flex flex-col lg:flex-row flex-1 lg:w-3/4 w-full gap-4">
+                    <div className="flex flex-col lg:flex-row flex-1 lg:w-3/4 w-full gap-6">
                         <NavLink 
                             to="/camp/summer-camp" 
                             end 
@@ -158,11 +158,11 @@ const Camp = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center gap-4">
+            <div className="flex flex-col justify-center items-center gap-6">
                 <h2 className="text-xl font-bold text-center pb-4">
                     Camp Information
                 </h2>
-                <div className="flex lg:flex-row flex-col justify-center lg:items-stretch items-center lg:w-full w-3/4 gap-4">
+                <div className="flex lg:flex-row flex-col justify-center lg:items-stretch items-center lg:w-full w-3/4 gap-6">
                     <Card className="flex-1">
                         <CardHeader>
                             <CardTitle className="p-2 bg-primary text-primary-foreground flex flex-col justify-center items-center rounded-md text-lg">
@@ -180,7 +180,7 @@ const Camp = () => {
                             </CardDescription>
                         </CardHeader>
                         <CardContent>
-                            <ul className="flex flex-col gap-4 text-sm">
+                            <ul className="flex flex-col gap-6 text-sm">
                                 <li>
                                     <span className="font-semibold">
                                         Enrollment Options
@@ -295,7 +295,7 @@ const Camp = () => {
                 </Card>
             </div>
 
-            <div className="flex lg:flex-row flex-col justify-between items-center w-3/4 gap-4">
+            <div className="flex lg:flex-row flex-col justify-between items-center w-3/4 gap-6">
                 <Image src='/media/KK/IMG-20250722-WA0017.jpg' alt='Child Tye Dyeing Shirt at Kidz Korner Milton, Ontario' />
                 <Image src='/media/KK/20260108_111322(0).jpg' alt='Children Kneading Dough at Kidz Korner Milton, Ontario' />
                 <Image src='/media/KK/20250722_100154.jpg' alt='Child Painting at Kidz Korner Milton, Ontario' />
@@ -337,7 +337,7 @@ const Camp = () => {
                 </div>
             </div>
 
-            <div className="flex lg:flex-row flex-col justify-between items-center w-3/4 gap-4">
+            <div className="flex lg:flex-row flex-col justify-between items-center w-3/4 gap-6">
                 <Image src='/media/KK/20251106_102726.jpg' alt='Child Cutting Tomatos at Kidz Korner Milton, Ontario' />
                 <Image src='/media/KK/20250710_144411.jpg' alt='Children Painting at Kidz Korner Milton, Ontario' />
                 <Image src='/media/KK/20250808_135154.jpg' alt='Child Playing With Sensory Toy at Kidz Korner Milton, Ontario' />
@@ -350,7 +350,7 @@ const Camp = () => {
                 <FAQAccordion faq={faq} />
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 gap-4">
+            <div className="flex flex-col justify-center items-center w-3/4 gap-6">
                 <p className="flex text-center">
                     Contact us today to lock in your spot! 
                 </p> 
