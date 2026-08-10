@@ -116,41 +116,41 @@ const BeforeAfterDaycare = () => {
                     <div className="flex lg:flex-row flex-col p-2 lg:gap-4 gap-2 w-3/4">
                         <Card>
                             <CardContent>
-                                
+
+                                <div className="flex flex-col gap-2 w-full">
+                                    <div className="flex flex-col items-start justify-start w-full">
+                                        <div className="flex gap-2 text-primary">
+                                            <h2 className="font-bold">
+                                                Before School Care
+                                            </h2>
+                                        </div>
+                                        <p className="text-start pl-8">
+                                            A calm and engaging start to the morning before children head off to school.
+                                        </p>
+                                    </div>
+                                    <div className="flex flex-col items-start justify-start w-full">
+                                        <div className="flex gap-2 text-primary">
+                                            <h2 className="font-bold">
+                                                After School Care
+                                            </h2>
+                                        </div>
+                                        <p className="text-start pl-8">
+                                            A welcoming place to unwind, play, and connect with friends after the school day.
+                                        </p>
+                                    </div>
+                                    <div className="flex flex-col items-start justify-start w-full">
+                                        <div className="flex gap-2 text-primary">
+                                            <h2 className="font-bold">
+                                                Flexible Scheduling
+                                            </h2>
+                                        </div>
+                                        <p className="text-start pl-8">
+                                            Care options designed to fit around your family's school and work schedule
+                                        </p>
+                                    </div>
+                                </div>
                             </CardContent>
                         </Card>
-                        <div className="flex flex-col gap-2 w-full">
-                            <div className="flex flex-col items-start justify-start w-full">
-                                <div className="flex gap-2 text-primary">
-                                    <h2 className="font-bold">
-                                        Before School Care
-                                    </h2>
-                                </div>
-                                <p className="text-start pl-8">
-                                    A calm and engaging start to the morning before children head off to school.
-                                </p>
-                            </div>
-                            <div className="flex flex-col items-start justify-start w-full">
-                                <div className="flex gap-2 text-primary">
-                                    <h2 className="font-bold">
-                                        After School Care
-                                    </h2>
-                                </div>
-                                <p className="text-start pl-8">
-                                    A welcoming place to unwind, play, and connect with friends after the school day.
-                                </p>
-                            </div>
-                            <div className="flex flex-col items-start justify-start w-full">
-                                <div className="flex gap-2 text-primary">
-                                    <h2 className="font-bold">
-                                        Flexible Scheduling
-                                    </h2>
-                                </div>
-                                <p className="text-start pl-8">
-                                    Care options designed to fit around your family's school and work schedule
-                                </p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
