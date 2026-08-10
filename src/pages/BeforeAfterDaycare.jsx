@@ -433,14 +433,14 @@ const BeforeAfterDaycare = () => {
                         </p>
                     </div>
                     <div className="flex flex-col lg:flex-row gap-2 lg:gap-4 justify-center items-center">
-                        <a 
+                        <NavLink 
                             href="#before-after-form" 
                             className="hover:scale-105 ease-in-out duration-300 flex-1 lg:w-3/4 flex justify-center"
                         >
                             <Button className="cursor-pointer min-w-1/2">
                                 Schedule A Tour
                             </Button>
-                        </a>
+                        </NavLink>
                     </div>
                 </div>
             </div>
