@@ -54,10 +54,6 @@ const PreschoolDaycare = () => {
         {
             q: "How do I know if preschool is right for my child?",
             a: "Every child develops at their own pace. If your child is becoming more independent, enjoys interacting with others, and is ready to participate in group activities and routines, preschool may be a good fit. We encourage families to schedule a tour to learn more about the program."
-        },
-        {
-            q: "Can I tour the toddler daycare before registering?",
-            a: "Yes! We encourage families to schedule a tour to meet our educators, explore our classrooms, and learn more about our toddler daycare program in Milton."
         }
     ];
 
