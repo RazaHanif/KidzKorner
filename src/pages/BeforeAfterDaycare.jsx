@@ -179,7 +179,7 @@ const BeforeAfterDaycare = () => {
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
-                                A chance to enjoy games, toys, and activities with friends in a fun and relaxed setting.
+                                A chance to enjoy games, toys, and experiences with friends in a fun and relaxed setting.
                             </CardContent>
                         </Card>
                     </div>
