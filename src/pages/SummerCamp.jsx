@@ -110,7 +110,7 @@ const SummerCamp = () => {
                                     Themed Events & Experiences
                                 </CardTitle>
                                 <CardDescription>
-                                    Our summer is filled with fun themes, special activities, and events that give children something new and exciting to look forward to each week.
+                                    From arts and crafts to games, sports, creative activities, and free play, each day offers a variety of ways for children to stay engaged.
                                 </CardDescription>
                             </CardHeader>
                         </Card>
