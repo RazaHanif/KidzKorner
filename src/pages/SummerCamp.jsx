@@ -198,7 +198,7 @@ const SummerCamp = () => {
                     <CardContent>
                         <div className="flex lg:flex-row flex-col justify-evenly text-center">
                             <p className="lg:border-r-2 lg:border-b-0 border-b-2 p-4">
-                                Themed events and experience throughout the summer
+                                Fun themed events all summer
                             </p>
                             <p className="lg:border-r-2 lg:border-b-0 border-b-2 p-4">
                                 Arts and crafts, games, sports, and creative activities
