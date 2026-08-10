@@ -107,7 +107,7 @@ const SummerCamp = () => {
                             <CardHeader className="text-start">
                                 <CardTitle className="flex flex-row items-center gap-2">
                                     <Sun className="text-primary" />
-                                    Themed Events & Experiences
+                                    A Mix of Activiites
                                 </CardTitle>
                                 <CardDescription>
                                     From arts and crafts to games, sports, creative activities, and free play, each day offers a variety of ways for children to stay engaged.
