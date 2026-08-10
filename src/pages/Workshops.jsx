@@ -47,7 +47,7 @@ const Workshops = () => {
             </div>
 
             {/* Why is this form title in a different format than the others? */}
-            <div className="flex flex-col justify-center items-center w-3/4 gap-4">
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-4">
                 <WorkshopForm/>
             </div>
 
