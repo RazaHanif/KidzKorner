@@ -152,7 +152,7 @@ const PreschoolDaycare = () => {
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
- 
+                                
                             </CardContent>
                         </Card>
                     </div>
