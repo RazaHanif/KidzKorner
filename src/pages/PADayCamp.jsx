@@ -250,7 +250,7 @@ const PADayCamp = () => {
             />
             <meta 
                 property="og:title"
-                content="Licensed Daycare in Milton, Ontario | Kidz Korner"
+                content="PA Day Camp in Milton, Ontario | Kidz Korner"
             />
             <meta
                 property="og:description"
