@@ -51,7 +51,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center gap-6 w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
+            <div className="flex flex-col justify-center items-center gap-6 lg:w-3/4 w-9/10">
                 <h2 className="text-xl font-bold text-center">
                     Who We Are
                 </h2>
