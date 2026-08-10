@@ -323,7 +323,7 @@ const BeforeAfterDaycare = () => {
                                             <div className="flex gap-2 text-primary">
                                                 <GraduationCap />
                                                 <h2 className="font-bold">
-                                                    Cognitive Development
+                                                    Active & Engaging
                                                 </h2>
                                             </div>
                                             <p className="text-start pl-8">
