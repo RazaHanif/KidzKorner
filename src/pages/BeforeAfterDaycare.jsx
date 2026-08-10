@@ -42,7 +42,7 @@ const BeforeAfterDaycare = () => {
             />
             <meta 
                 property="og:title"
-                content="Licensed Daycare in Milton, Ontario | Kidz Korner"
+                content="Before & After School Care in Milton, Ontario | School-Age Child Care | Kidz Korner"
             />
             <meta
                 property="og:description"
