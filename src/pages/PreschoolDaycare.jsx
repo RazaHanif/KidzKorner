@@ -92,7 +92,7 @@ const PreschoolDaycare = () => {
                 </div>
                 <div className="flex justify-center items-center">
                     <Image 
-                        src='/20251010_122316.jpg' 
+                        src='/media/KK/20251010_122316.jpg' 
                         alt='Child Playing With Magnetic Toy at Kidz Korner Milton, Ontario' 
                         w="w-sm"    
                     />
