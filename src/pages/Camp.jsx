@@ -343,7 +343,7 @@ const Camp = () => {
                 <Image src='/media/KK/20250808_135154.jpg' alt='Child Playing With Sensory Toy at Kidz Korner Milton, Ontario' />
             </div>
 
-            <div className="flex flex-col justify-center items-center lg:w-3/4 w">
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border-y lg:py-12 py-8 lg:my-12 my-8">
                 <h2 className="text-xl font-bold text-center pb-4">
                     FAQ
                 </h2>
