@@ -60,6 +60,30 @@ const Workshops = () => {
             </title>
             <meta name="keywords" content="kids workshops Milton, children programs Milton, early learning Milton, educational activities Milton, childcare programs Milton" />
             <meta name="description" content="Kidz Korner offers engaging workshops and programs in Milton, Ontario. Early learning, arts, and skill-building activities for children." />
+            <meta 
+                property="og:title"
+                content="Licensed Daycare in Milton, Ontario | Kidz Korner"
+            />
+            <meta
+                property="og:description"
+                content="Looking for a licensed daycare in Milton? Kidz Korner provides trusted childcare, toddler daycare, preschool programs, before and after school care, and licensed camps for local families."
+            />
+            <meta 
+                property="og:type"
+                content="website"
+            />
+            <meta
+                property="og:url"
+                content="https://www.kidzkornermilton.com/"
+            />
+            <meta
+                property="og:image"
+                content="https://www.kidzkornermilton.com/og-image.jpg"
+            />
+            <meta
+                property="og:image:alt"
+                content="Kidz Korner licensed daycare in Milton"
+            />
         </div>
     );
 }
