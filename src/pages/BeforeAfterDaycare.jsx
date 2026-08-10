@@ -363,7 +363,7 @@ const BeforeAfterDaycare = () => {
                                                 </h2>
                                             </div>
                                             <p className="text-start pl-8">
-                                                Children are encouraged to practice everyday tasks, make age-appropriate choices, and take greater responsibility for caring for themselves and their belongings.
+                                                Children have time to build friendships, share experiences, and connect with others throughout their day. Through play and time together, they can develop confidence, cooperation, and a sense of belonging in a welcoming environment.
                                             </p>
                                         </div>
                                     </div>
