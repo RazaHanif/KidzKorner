@@ -36,7 +36,7 @@ const SummerCamp = () => {
                 </p>
                 <div>
                     <Button>
-                        
+                        Enquire About Summer Camp
                     </Button>
                 </div>
             </div>
