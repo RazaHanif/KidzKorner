@@ -242,7 +242,7 @@ const BeforeAfterDaycare = () => {
                         <p className="flex items-start gap-3">
                             After a full day at school, children need time to relax and be themselves. Our After School Care gives them an opportunity to transition out of the school day at their own pace.
 
-Whether they want to play with friends, participate in an activity, explore the indoor playground, or enjoy some quieter time, children can spend their afternoon in a comfortable and supportive environment.
+                            Whether they want to play with friends, participate in an activity, explore the indoor playground, or enjoy some quieter time, children can spend their afternoon in a comfortable and supportive environment.
                         </p>
                     </div>
                     <div className="flex flex-col lg:flex-row gap-2 lg:gap-4 justify-center items-center">
