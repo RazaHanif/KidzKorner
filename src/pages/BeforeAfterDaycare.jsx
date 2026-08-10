@@ -58,10 +58,6 @@ const BeforeAfterDaycare = () => {
             q: "What are the preschool hours?",
             a: "Yes, flexible options may be available depending on your family's needs and our current availability. Whether you are looking for Before School Care, After School Care, or another arrangement, please call us to discuss the options available for your child."
         },
-        {
-            q: "How do I know if preschool is right for my child?",
-            a: "Every child develops at their own pace. If your child is becoming more independent, enjoys interacting with others, and is ready to participate in group activities and routines, preschool may be a good fit. We encourage families to schedule a tour to learn more about the program."
-        }
     ];
 
     return (
