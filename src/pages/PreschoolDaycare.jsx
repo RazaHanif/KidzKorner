@@ -66,8 +66,8 @@ const PreschoolDaycare = () => {
             <div className="flex lg:flex-row flex-col gap-4 lg:w-3/4">
                 <div className="flex flex-col flex-1 justify-center items-center w-full py-4 lg:gap-8 gap-4">
                     <p className="w-3/4 flex justify-center items-center lg:text-center">
-                        Our toddler daycare program provides a nurturing and engaging environment where young children can explore, learn, and grow with confidence. 
-                        Through a combination of guided activities, hands-on experiences, and a consistent daily routine, we create a welcoming space where toddlers can feel comfortable while discovering the world around them.
+                        Our preschool program in Milton gives children the space, support, and encouragement they need to become confident and independent learners. Through hands-on activities, creative play, social experiences, and daily routines, children are encouraged to explore their interests while developing important skills for their next stage of learning. Our caring educators create a welcoming environment where preschoolers can build friendships, express themselves, solve problems, and learn at their own pace. We believe preschool should be more than preparing children for what comes next—it should be a place where they feel comfortable trying new things, asking questions, and discovering what they can do. At Kidz Korner, we combine play, learning, and meaningful relationships to help your child grow in confidence and independence while enjoying their preschool years.
+
                     </p>
 
                     <div className="w-3/4 flex flex-row lg:flex-col gap-4 justify-center items-center">
