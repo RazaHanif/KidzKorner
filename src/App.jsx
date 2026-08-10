@@ -75,6 +75,9 @@ function App() {
 
                     <Route path="/indoor-playground" element={<Playground />} />
 
+                    {/* 
+                    
+                    */}
                     {/* <Route path="/test" element={<Test />} /> */}
 
                     <Route path="/workshops" element={<Workshops />} />
