@@ -11,7 +11,7 @@ const Workshops = () => {
         },
         {
             name: "Workshops",
-            url: "https://www.kidzkornermilton.com/workshop"
+            url: "https://www.kidzkornermilton.com/workshops"
         }
     ];
 
