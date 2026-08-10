@@ -76,7 +76,7 @@ function App() {
                     <Route path="/indoor-playground" element={<Playground />} />
 
                     {/* 
-                        Only Activate 
+                        Only activate in dev
                         <Route path="/test" element={<Test />} />
                     */}
 
