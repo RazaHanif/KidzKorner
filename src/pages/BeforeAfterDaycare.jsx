@@ -52,7 +52,7 @@ const BeforeAfterDaycare = () => {
         },
         {
             q: "What do children do after school?",
-            a: "Yes. Free play is an important part of the preschool experience. Children have opportunities to choose activities, use their imagination, interact with friends, and explore their interests while being supported by our educators."
+            a: "After school, children have time to unwind and enjoy their afternoon in a welcoming environment. Depending on the day, they may spend time in our indoor playground, play games with friends, work on creative projects, socialize with other children, or enjoy some quieter time. The goal is to give children a chance to relax, have fun, and enjoy their time at Kidz Korner after a busy school day."
         },
         {
             q: "What are the preschool hours?",
