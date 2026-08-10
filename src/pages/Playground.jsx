@@ -84,7 +84,7 @@ const Playground = () => {
             </div>
 
             <div 
-                className="flex flex-col justify-center items-center w-3/4 lg:py-16 py-8"
+                className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border-y lg:py-12 py-8 lg:my-12 my-8"
             >
                 <PlaygroundCard
                     title={"Drop-In Playground Pricing"}
