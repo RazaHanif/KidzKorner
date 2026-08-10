@@ -230,7 +230,7 @@ const PreschoolDaycare = () => {
                     Ready to join us?
                 </p>
                 
-                {/* TODO:MAKE THIS FORM TODDLER SPECIFIC  */}
+                {/* TODO:MAKE THIS FORM PRESCHOOL SPECIFIC  */}
                 {/* [DaycareForm type="toddler"] */}
                 <DaycareForm />
             </div>
