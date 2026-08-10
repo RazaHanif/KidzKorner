@@ -38,7 +38,7 @@ const SummerCamp = () => {
         },
         {
             q: "What age groups can attend your camps?",
-            a: "Our camp programs are designed for school-aged children. If you're unsure whether your child meets the age requirements, feel free to contact us and we'll be happy to help."
+            a: "Summer camp runs Monday to Friday from 9:00 a.m. to 3:00 p.m. Before- and after-camp care may also be available depending on space. Families interested in extended hours can contact us to ask about availability."
         },
         {
             q: "What should my child bring to camp?",
