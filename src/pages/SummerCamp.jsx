@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/card"
 import CampForm from "@/components/CampForm";
 import Image from "@/components/Image";
-import Button from "@"
+import Button from "@/components/Button"
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
 
