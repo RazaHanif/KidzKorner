@@ -143,10 +143,10 @@ const SummerCamp = () => {
                             <CardHeader className="text-start">
                                 <CardTitle className="flex flex-row items-center gap-2">
                                     <Sun className="text-primary" />
-                                    Themed Events & Experiences
+                                    Everything Included
                                 </CardTitle>
                                 <CardDescription>
-                                    Our summer is filled with fun themes, special activities, and events that give children something new and exciting to look forward to each week.
+                                    Summer camp is $175 per week, with all regular camp activities and programming included in the weekly price.
                                 </CardDescription>
                             </CardHeader>
                         </Card>
