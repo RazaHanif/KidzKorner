@@ -151,7 +151,7 @@ const Daycare = () => {
                     Flexible Care Options for Milton Families
                 </h2>
                 <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
-                    <div className="flex flex-col justify-center m-4 lg:m-0 w-full">
+                    <div className="flex flex-col justify-center m-4 lg:m-0 lg:w-3/4 w-9/10">
                         <CareSchedule />
                     </div>
                     <Image src='/media/KK/20250822_121126.jpg' alt='Child Playing With Blocks at Kidz Korner Milton, Ontario' w="w-sm"/>
