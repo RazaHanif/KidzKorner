@@ -46,7 +46,7 @@ const SummerCamp = () => {
         },
         {
             q: "How do I register for a camp?",
-            a: "You can register by completing our online camp registration form. We recommend registering early, as spaces can fill quickly during popular camps such as Summer Camp and March Break Camp."
+            a: "Campers participate in a variety of activities throughout the summer, including arts and crafts, games, sports, creative activities, free play, indoor playground time, and themed events. Activities vary throughout the summer to keep the program fun and engaging."
         },
     ]
 
