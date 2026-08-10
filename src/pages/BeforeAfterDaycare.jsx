@@ -133,10 +133,17 @@ const BeforeAfterDaycare = () => {
                 </h2>
                 <div className="flex lg:flex-row flex-col p-2 lg:gap-4 gap-2">
                     <div className="flex flex-col gap-2 w-full text-nowrap">
-                        <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Experienced Childcare Educators
-                        </p>
+                                        <div className="flex flex-col items-start justify-start w-full">
+                                            <div className="flex gap-2 text-primary">
+                                                <ShieldCheck />
+                                                <h2 className="font-bold">
+                                                    Creativity & Self-Expression
+                                                </h2>
+                                            </div>
+                                            <p className="text-start pl-8">
+                                                Art, music, imaginative play, and creative activities give children opportunities to express themselves and explore their own ideas.
+                                            </p>
+                                        </div>
                         <p className="flex items-start gap-3">
                             <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
                             Play-based Learning Environment
