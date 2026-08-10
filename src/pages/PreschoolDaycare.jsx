@@ -181,7 +181,7 @@ const PreschoolDaycare = () => {
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
-                                    Children learn best when they're engaged and having fun. Play gives preschoolers opportunities to explore, experiment, create, and discover new ideas.
+                                    Through puzzles, sorting, counting, patterns, problem-solving, and hands-on exploration, children develop early thinking and reasoning skills.
                                 </CardContent>
                             </Card>
 
