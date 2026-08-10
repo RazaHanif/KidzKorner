@@ -60,7 +60,7 @@ function App() {
                     {/* Camp */}
                     <Route path="/camp" element={<Camp />} />
                     <Route path="/camp/summer-camp" element={<SummerCamp />} />
-                    <Route path="/camp/march-break-camp" element={<MarchCa />} />
+                    <Route path="/camp/march-break-camp" element={<Marc />} />
                     <Route path="/camp/winter-break-camp" element={<Camp />} />
                     <Route path="/camp/pa-day-camp" element={<Camp />} />
 
