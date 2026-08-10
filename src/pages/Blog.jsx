@@ -19,7 +19,7 @@ const Blog = () => {
             <StructData schema={breadcrumbSchema(breadCrumb)} />
 
             <title>
-                Frequently Asked Questions | Kidz Korner 
+                Kidz Korner Blog | Kidz Korner 
             </title>
             <meta 
                 name="description" 
