@@ -117,10 +117,6 @@ const SummerCamp = () => {
                         </div>
 
                         <div>
-                            
-                        </div>
-
-
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
                                 <CardTitle className="flex flex-row items-center gap-2">
@@ -156,6 +152,9 @@ const SummerCamp = () => {
                                 </CardDescription>
                             </CardHeader>
                         </Card>
+                        </div>
+
+
                     </div>
                 </div>
             </div>
