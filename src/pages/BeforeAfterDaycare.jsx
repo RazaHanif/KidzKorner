@@ -37,7 +37,7 @@ const BeforeAfterDaycare = () => {
 
         const faq = [
         {
-            q: "What age do you accept for Before & After School Care? [CHECK IF THIS IS RIGHT!!!!!]",
+            q: "What ages do you accept for Before & After School Care? [CHECK IF THIS IS RIGHT!!!!!]",
             a: "Our Before & After School Care programs are designed for all school-aged children between 4-18 years."
         },
         {
