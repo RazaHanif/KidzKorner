@@ -203,7 +203,7 @@ const PreschoolDaycare = () => {
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent className="flex-1 flex justify-end items-end lg:justify-center lg:items-start">
-                                    With encouragement from caring educators, children are supported in trying new things, expressing themselves, and taking pride in what they can accomplish.
+                                    Art, music, imaginative play, and creative activities give children opportunities to express themselves and explore their own ideas.
                                 </CardContent>
                             </Card>
                         </div>
