@@ -68,7 +68,7 @@ const SummerCamp = () => {
                     Summer Camp in Milton
                 </h1>
                 <div className="flex flex-col justify-center items-center text-center gap-4 pt-4">
-                    <p className="lg:w-3/4 w-3/4">
+                    <p className="lg:w-3/4 w-5/6">
                         Keep your child active, engaged, and having fun throughout the summer at Kidz Korner. Our summer camp in Milton offers themed activities, arts and crafts, games, indoor playground time, and plenty of opportunities for creative and active play in a welcoming environment.
                     </p>
                     <a 
