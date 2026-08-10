@@ -193,7 +193,7 @@ const Daycare = () => {
                 </Card>
             </div>
             
-            <div className="flex lg:flex-row flex-col justify-between items-center w-3/4 gap-4">
+            <div className="flex lg:flex-row flex-col justify-between items-center lg:w-3/4 w-9/10 gap-4">
                     <Image src='/media/KK/20251023_124356.jpg' alt='Child Carving Pumpkin at Kidz Korner Milton, Ontario' />
                     <Image src='/media/KK/Photo from Ansa.jpg' alt='Child Whisking Eggs at Kidz Korner Milton, Ontario' />
                     <Image src='/media/KK/20250811_104025.jpg' alt='Child Making Sea Shell at Kidz Korner Milton, Ontario' />
