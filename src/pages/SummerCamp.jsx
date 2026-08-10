@@ -126,6 +126,7 @@ const SummerCamp = () => {
                                 </CardDescription>
                             </CardHeader>
                         </Card>
+
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
                                 <CardTitle className="flex flex-row items-center gap-2">
@@ -133,10 +134,11 @@ const SummerCamp = () => {
                                     Themed Events & Experiences
                                 </CardTitle>
                                 <CardDescription>
-                                    Our summer is filled with fun themes, special activities, and events that give children something new and exciting to look forward to each week.
+                                    Camp runs from 9:00 a.m. to 3:00 p.m., giving children a full day of activities, play, and social time during their summer break.
                                 </CardDescription>
                             </CardHeader>
                         </Card>
+
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
                                 <CardTitle className="flex flex-row items-center gap-2">
