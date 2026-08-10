@@ -273,11 +273,11 @@ const Parties = () => {
             <meta
                 name="description"
                 content="Host an unforgettable kids birthday party at Kidz Korner in Milton, Ontario. Enjoy private access to our indoor playground, flexible party packages, and a fun, stress-free celebration for up to 50 guests."
-                />
+            />
             <meta 
                 property="og:title"
-                content="Licensed Daycare in Milton, Ontario | Kidz Korner"
-                />
+                content="Kids Birthday Parties in Milton, Ontario | Kidz Korner"
+            />
             <meta
                 property="og:description"
                 content="Host an unforgettable kids birthday party at Kidz Korner in Milton, Ontario. Enjoy private access to our indoor playground, flexible party packages, and a fun, stress-free celebration for up to 50 guests."
