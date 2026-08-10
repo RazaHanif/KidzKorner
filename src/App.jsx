@@ -16,6 +16,9 @@ import PreschoolDaycare from "./pages/PreschoolDaycare.jsx";
 import BeforeAfterDaycare from "./pages/BeforeAfterDaycare.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 import SummerCamp from "./pages/SummerCamp.jsx";
+import MarchCamp from "./pages/MarchCamp.jsx";
+import WinterCamp from "./pages/WinterCamp.jsx";
+import PADayCamp from "./pages/PADayCamp.jsx";
 
 /* 
 
