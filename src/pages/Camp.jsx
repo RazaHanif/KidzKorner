@@ -57,7 +57,7 @@ const Camp = () => {
                 </p>
             </div>
 
-            <div className="flex flex-col justify-center items-center w-3/4 border-y lg:py-8 py-4 lg:my-8 my-4">
+            <div className="flex flex-col justify-center items-center w-3/4 border-y lg:py-12 py-8 lg:my-12 my-8">
                 <h2 className="text-xl font-bold text-center pb-4">
                     Choose Your Camp
                 </h2>
