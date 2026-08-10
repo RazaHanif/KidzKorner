@@ -131,7 +131,7 @@ const Playground = () => {
             </div>
 
 
-            <div className="flex lg:flex-row flex-col gap-8 lg:justify-around justify-center items-center lg:w-3/4 ">
+            <div className="flex lg:flex-row flex-col gap-8 lg:justify-around justify-center items-center lg:w-3/4 w-9/10 border-y lg:py-12 py-8 lg:my-12 my-8">
                 <Image src='/media/KK/20250930_142748.jpg' alt="Children playing on the indoor playground at Kidz Korner in Milton Ontario" w="w-md"/>
                 <Image src='/media/KK/20250930_142442.jpg' alt="Indoor climbing structure at Kidz Korner playground in Milton Ontario" />
             </div>
