@@ -97,35 +97,35 @@ const BeforeAfterDaycare = () => {
                         School days can be busy for both children and parents. Our Before & After School Care program provides a welcoming place for children to spend time before school begins and after the school day ends.
                         Children have opportunities to play, participate in activities, socialize with friends, and relax in a supportive environment while families manage their daily schedules.
                     </p>
-                </div>
-                <div className="flex lg:flex-row flex-col p-2 lg:gap-4 gap-2">
-                    <div className="flex flex-col gap-2 w-full text-nowrap">
-                        <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Experienced Childcare Educators
-                        </p>
-                        <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Play-based Learning Environment
-                        </p>
-                        <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Indoor Playground Access
-                        </p>
-                    </div>
-                    <div className="flex flex-col gap-2 w-full text-nowrap">
-                        <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Small-group Activities
-                        </p>
-                        <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Focus on Independence & Confidence
-                        </p>
-                        <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
-                            Opportunities to Build Friendships
-                        </p>
+                    <div className="flex lg:flex-row flex-col p-2 lg:gap-4 gap-2">
+                        <div className="flex flex-col gap-2 w-full text-nowrap">
+                            <p className="flex items-start gap-3">
+                                <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
+                                Experienced Childcare Educators
+                            </p>
+                            <p className="flex items-start gap-3">
+                                <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
+                                Play-based Learning Environment
+                            </p>
+                            <p className="flex items-start gap-3">
+                                <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
+                                Indoor Playground Access
+                            </p>
+                        </div>
+                        <div className="flex flex-col gap-2 w-full text-nowrap">
+                            <p className="flex items-start gap-3">
+                                <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
+                                Small-group Activities
+                            </p>
+                            <p className="flex items-start gap-3">
+                                <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
+                                Focus on Independence & Confidence
+                            </p>
+                            <p className="flex items-start gap-3">
+                                <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
+                                Opportunities to Build Friendships
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
