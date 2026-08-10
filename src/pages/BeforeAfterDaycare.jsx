@@ -383,6 +383,18 @@ const BeforeAfterDaycare = () => {
             </div>
 
 
+            <div className="flex flex-col justify-center items-center w-3/4 m-4">
+                <h2 className="text-xl font-bold text-center lg:">
+                    Flexible Care Options for Milton Families
+                </h2>
+                <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
+                    <div className="flex flex-col justify-center m-4 lg:m-0">
+                        <CareSchedule />
+                    </div>
+                    <Image src='/media/KK/20250822_121126.jpg' alt='Child Playing With Blocks at Kidz Korner Milton, Ontario' w="w-sm"/>
+                </div>
+            </div>
+
             <div className="flex flex-col justify-center items-center w-3/4 lg:py-4 py-4 lg:my-4 my-4">
                 <h2 className="text-xl font-bold text-center pb-4">
                     Before & After School Care Hours
