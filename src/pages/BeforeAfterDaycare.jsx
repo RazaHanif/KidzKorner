@@ -137,7 +137,7 @@ const BeforeAfterDaycare = () => {
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="font-semibold">
-                                        Before School Care
+                                        After School Care
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent className="text-start">
