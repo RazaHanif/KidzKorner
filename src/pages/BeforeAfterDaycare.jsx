@@ -440,7 +440,7 @@ const BeforeAfterDaycare = () => {
                                 
                         >
                             <Button className="cursor-pointer min-w-1/2">
-                                Schedule A Tour
+                                Explore Our Indoor Playground
                             </Button>
                         </NavLink>
                     </div>
