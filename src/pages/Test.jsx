@@ -13,7 +13,10 @@ const Test = () => {
                 <Shapes className="h-10 w-10 text-primary"/>
             </div> */}
 
-            
+            <div>
+
+                
+            </div>
 
             <title>
                 Test | Kidz Korner 
