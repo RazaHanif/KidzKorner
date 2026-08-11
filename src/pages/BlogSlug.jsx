@@ -5,6 +5,8 @@ import { useParams } from "react-router-dom";
 const BlogSlug = () => {
     const { slug } = useParams()
 
+    console.log(slug)
+
     const breadCrumb = [
         {
             name: "Home",
