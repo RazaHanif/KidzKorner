@@ -155,7 +155,7 @@ const Daycare = () => {
                         <CareSchedule />
                     </div>
                     <Image 
-                        src='/media/KK/20250822_121126.jpg' 
+                        src='/media/Stock/.jpg' 
                         alt='Child Playing With Blocks at Kidz Korner Milton, Ontario' 
                         w="w-sm"
                     />
