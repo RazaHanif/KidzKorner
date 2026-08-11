@@ -67,7 +67,7 @@ const BlogSlug = () => {
                 <AspectRatio ratio={16 / 9}>
                     <Image 
                         src={blog.image} 
-                        alt="Image" 
+                        alt={blog.imageAlt} 
                         className="rounded-md object-cover" 
                     />
                 </AspectRatio>
