@@ -40,7 +40,18 @@ const MarchCamp = () => {
         }, 
         { 
             q: "How much does March Break Camp cost?", 
-            a: "March Break Camp is $175 per week per child. The weekly price includes all regular camp activities and programming, with no additional activity fees for the scheduled camp program." }, { q: "What activities are offered at March Break Camp?", a: "Campers participate in a variety of activities throughout the week, including arts and crafts, games, sports, creative activities, free play, indoor playground time, and special March Break activities. Activities may vary throughout the week to keep the program fun and engaging." }, { q: "Does March Break Camp include indoor playground time?", a: "Yes. Campers have access to Kidz Korner's indoor playground as part of the March Break Camp program. Indoor play gives children plenty of opportunities to stay active and have fun throughout the day." }, { q: "How many children are in March Break Camp?", a: "March Break Camp is currently limited to a maximum of 13 children. Keeping the program small allows campers to participate comfortably in activities and enjoy a more manageable group environment." }, { q: "What should my child bring to March Break Camp?", 
+            a: "March Break Camp is $175 per week per child. The weekly price includes all regular camp activities and programming, with no additional activity fees for the scheduled camp program." 
+        }, 
+        { 
+            q: "What activities are offered at March Break Camp?", 
+            a: "Campers participate in a variety of activities throughout the week, including arts and crafts, games, sports, creative activities, free play, indoor playground time, and special March Break activities. Activities may vary throughout the week to keep the program fun and engaging." 
+        }, 
+        { 
+            q: "Does March Break Camp include indoor playground time?", 
+            a: "Yes. Campers have access to Kidz Korner's indoor playground as part of the March Break Camp program. Indoor play gives children plenty of opportunities to stay active and have fun throughout the day." 
+        }, 
+        { 
+            q: "How many children are in March Break Camp?", a: "March Break Camp is currently limited to a maximum of 13 children. Keeping the program small allows campers to participate comfortably in activities and enjoy a more manageable group environment." }, { q: "What should my child bring to March Break Camp?", 
                 a: "Children should bring a nut-free packed lunch, snacks, a reusable water bottle, comfortable clothing, indoor shoes, and any personal items they may need throughout the day. We recommend labeling personal belongings with your child's name."     
         }, 
     ]
