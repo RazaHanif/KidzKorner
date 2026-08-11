@@ -99,7 +99,7 @@ const Workshops = () => {
                                 className="flex flex-col items-center text-center gap-3 p-5"
                             >
                                 <div className="flex justify-center items-center p-3 rounded-full bg-primary text-primary-foreground">
-                                    <Icon className="w-6 h-6" />
+                                    <Icon className="w-5 h-5" />
                                 </div>
 
                                 <h3 className="font-bold text-lg">
