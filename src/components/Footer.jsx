@@ -86,6 +86,7 @@ const Footer = () => {
       <div className="border-r border-chart-4 lg:flex hidden" />
       <div className="border-t border-chart-4 lg:hidden flex m-2" />
 
+
       <div className="flex-1 flex flex-col justify-start items-center">
         <h3 className="text-xl flex justify-center items-center w-full text-center">
           Contact Us
