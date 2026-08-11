@@ -58,7 +58,7 @@ const WorkshopCarousel = () => {
             }}
         >
             <CarouselContent>
-                { workshops.map((workshop) => {
+                {workshops.map((workshop) => {
                     const Icon = workshop.icon
 
                     return (
