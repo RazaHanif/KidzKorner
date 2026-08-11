@@ -174,7 +174,7 @@ const PADayCamp = () => {
                        PA Days can be a challenge for families when children have a day off from school but parents still have work, errands, or other commitments. At Kidz Korner, our PA Day Camp gives children a fun and active place to spend the day while enjoying a variety of activities.
                     </p>
                     <p className="">
-                        Each day includes a variety of activities designed to keep campers engaged throughout the day. Children can take part in arts and crafts, games, sports, creative activities, and themed events, while also having opportunities for free play and exploration. Our indoor playground gives campers another way to stay active and have fun, especially when they need a change of pace.
+                        Each day includes a mix of activities designed to keep children engaged and entertained. Campers can take part in arts and crafts, games, sports, creative activities, and free play, while also having plenty of opportunities to explore and stay active on our indoor playground.
                     </p>
                     <p className="">
                         We also put a lot of thought into our themed events throughout the summer. These activities give campers something different to look forward to and help make each week feel special rather than repetitive.
