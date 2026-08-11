@@ -27,8 +27,7 @@ const Workshops = () => {
                 <p className="mb-4 lg:text-justify text-center">
                     At Kidz Korner, we offer fun and engaging workshops for
                         toddlers and preschoolers in Milton, Ontario. Our workshops
-                        give young children the opportunity to explore, create,
-                        play, and enjoy new activities in a welcoming environment.
+                        give young children the opportunity to explore, create,play, and enjoy new activities in a welcoming environment.
                 </p>
 
                 <p className="hover:underline">
