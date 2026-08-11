@@ -2,8 +2,6 @@ import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchem
 import StructData from "../components/StructData";
 import { Navigate, useParams } from "react-router-dom";
 import blogs from "../../api/blogSlugs";
-import Image from "@/components/Image"
-
 
 const BlogSlug = () => {
     const { slug } = useParams()
