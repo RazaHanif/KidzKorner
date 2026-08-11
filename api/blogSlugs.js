@@ -5,7 +5,20 @@ const blogs = {
         description: "...",
         image: "...",
         publishedAt: "2026-08-10",
-        body: "this is what to do"
+        content: [
+    {
+        type: "paragraph",
+        text: "Choosing the right daycare..."
+    },
+    {
+        type: "heading",
+        text: "What should you look for in a daycare?"
+    },
+    {
+        type: "paragraph",
+        text: "A good childcare program..."
+    }
+]
     },
     "toddler-activities-in-milton" : {
         title: "Toddler Activities in Milton",
@@ -13,7 +26,20 @@ const blogs = {
         description: "...",
         image: "...",
         publishedAt: "2026-08-08",
-        body: "this is what to do"
+        content: [
+    {
+        type: "paragraph",
+        text: "Choosing the right daycare..."
+    },
+    {
+        type: "heading",
+        text: "What should you look for in a daycare?"
+    },
+    {
+        type: "paragraph",
+        text: "A good childcare program..."
+    }
+]
     },
 }
 
