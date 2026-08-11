@@ -54,7 +54,7 @@ const BlogSlug = () => {
             />
             <meta 
                 property="og:type"
-                content="website"
+                content="article"
             />
             <meta
                 property="og:url"
