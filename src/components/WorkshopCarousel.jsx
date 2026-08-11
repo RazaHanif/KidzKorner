@@ -90,6 +90,8 @@ const WorkshopCarousel = () => {
                 })}
             </CarouselContent>
 
+            <CarouselPrevious></CarouselPrevious>
+
         </Carousel>
     )
 
