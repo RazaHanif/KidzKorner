@@ -40,7 +40,7 @@ const Test = () => {
                 {Array.from({ length: 31 }, (_, index) => (
                     <div key={index}>
                         <Image 
-                            src='/media/KK/20250711_111518.jpg' 
+                            src={`/media/KK/20250711_111518.jpg`} 
                             alt='who cares' 
                         />
                     </div>
