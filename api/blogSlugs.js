@@ -14,6 +14,8 @@ const blogs = {
                 <p>
                     Phasellus accumsan ex et tellus dictum porttitor. Sed non tincidunt risus. Suspendisse suscipit neque eu turpis bibendum mollis. Donec ac faucibus ligula. Aenean mattis bibendum dui. Pellentesque bibendum pulvinar aliquam. Vestibulum vel venenatis sapien. Nulla neque sapien, rhoncus eu malesuada ac, fermentum eget nunc.
                 </p>
+
+                <h2>Sub Heading</h2>
                 <p>
                     Donec et volutpat tellus. Praesent nec congue nulla, id imperdiet odio. Donec varius, felis et faucibus sodales, sem sem lobortis ex, id gravida velit eros a leo. Mauris mauris ipsum, consectetur vel efficitur sed, bibendum in nisi. Morbi pharetra nisi ut justo vehicula finibus. Nulla non cursus ex. In et ante lacinia, tristique velit eget, tincidunt dolor. Nullam fermentum at lacus id mollis. In feugiat in tellus a sagittis. Aliquam vitae mi nec mauris accumsan aliquam a non lectus. Cras scelerisque posuere blandit.
                 </p>
