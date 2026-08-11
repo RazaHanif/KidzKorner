@@ -2,7 +2,7 @@ const blogs = {
     "how-to-choose-a-daycare-in-milton" : {
         title: "How to Choose a Daycare in Milton",
         slug: "how-to-choose-a-daycare-in-milton",
-        description: "...",
+        description: "Lorem ispum ",
         image: "/media/Stock/2.jpg",
         imageAlt: "Child Doing Arts & Crafts at Kidz Korner Milton",
         publishedAt: "2026-08-10",
