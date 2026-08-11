@@ -75,7 +75,7 @@ const BlogSlug = () => {
                     {blog.title}
                 </h1>
             </div>
-            <article className="flex flex-2  border">
+            <article className="flex flex-2 flex-col justify-center items-center border">
                 {blog.content.map((paragraph, index) => (
                     <p key={index}>
                         {paragraph}
