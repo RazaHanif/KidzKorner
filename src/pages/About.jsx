@@ -153,7 +153,7 @@ const About = () => {
                 <h2 className="w-full flex justify-center items-center font-bold text-xl flex-1">
                     Book a Tour or Ask a Question
                 </h2>
-                <p className="flex text-center">
+                <p className="flex text-center lg:w-3/4">
                     Whether you're looking for daycare, preschool, camps, or birthday parties, our team is happy to answer your questions.
                     Complete the form below and we'll get back to you as soon as possible.
                 </p> 
