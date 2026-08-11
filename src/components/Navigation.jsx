@@ -184,6 +184,15 @@ function Navigation() {
             </DropdownMenuItem>
             <DropdownMenuItem  asChild>
               <NavLink
+                to="/blog" 
+                className="cursor-pointer"
+                end
+              >
+                Blog
+              </NavLink>
+            </DropdownMenuItem>
+            <DropdownMenuItem  asChild>
+              <NavLink
                 to="/about" 
                 className="cursor-pointer"
                 end
