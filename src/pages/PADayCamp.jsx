@@ -53,7 +53,11 @@ const PADayCamp = () => {
         }, 
         { 
             q: "How many children are in PA Day Camp?", 
-            a: "PA Day Camp is currently limited to a maximum of 13 children. Keeping the program small allows children to participate comfortably in activities and enjoy a more manageable group environment." }, { q: "What should my child bring to PA Day Camp?", a: "Children should bring a nut-free packed lunch, snacks, a reusable water bottle, comfortable clothing, indoor shoes, and any personal items they may need throughout the day. We recommend labeling personal belongings with your child's name." }, ]
+            a: "PA Day Camp is currently limited to a maximum of 13 children. Keeping the program small allows children to participate comfortably in activities and enjoy a more manageable group environment." 
+        }, 
+        { 
+            q: "What should my child bring to PA Day Camp?", 
+            a: "Children should bring a nut-free packed lunch, snacks, a reusable water bottle, comfortable clothing, indoor shoes, and any personal items they may need throughout the day. We recommend labeling personal belongings with your child's name." }, ]
 
     return (
         <div className="flex flex-col flex-1 justify-center items-center gap-6 w-full lg:py-16 pb-8">
