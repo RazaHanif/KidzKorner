@@ -59,7 +59,7 @@ const Camp = () => {
                     We offer Summer Camp, March Break Camp, Winter Break Camp, and PA Day Camp for children ages 4-13, featuring art, cooking, games, STEM activities, and weekly themed adventures.
                 </p>
                 <Image 
-                    src='/media/KK/20250711_111518.jpg' 
+                    src='/media/Stock/18.jpg' 
                     alt='Child Playing With Dinosaurs at Kidz Korner Milton, Ontario' 
                     w="w-sm" 
                 />
