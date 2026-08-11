@@ -212,6 +212,9 @@ const ToddlerDaycare = () => {
                 </h2>
 
                 <div className="flex lg:flex-row flex-col justify-center items-center w-full gap-6">
+                    <div>
+                        
+                    </div>
                     <Image
                         className="hidden"
                         src="/media/Stock/19.jpg"
