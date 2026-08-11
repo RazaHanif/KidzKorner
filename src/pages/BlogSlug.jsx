@@ -1,7 +1,7 @@
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
 import { Navigate, useParams } from "react-router-dom";
-import blogs from "../../api/blogSlugs.jsx";
+import blogs from "../../api/blogSlugs";
 import Image from "@/components/Image"
 import { AspectRatio } from "@/components/ui/aspect-ratio"
 
