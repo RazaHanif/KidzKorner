@@ -226,6 +226,9 @@ const ToddlerDaycare = () => {
                         Our educators pay attention to each child's interests, abilities, and individual pace, providing encouragement and support as they take on new challenges. 
                         This approach helps toddlers become comfortable in their environment while gradually developing the skills they need for their next stage of learning.
                     </p>
+                    <div className="">
+
+                    </div>
                     <Image
                         className="lg:hidden flex"
                         src="/media/Stock/19.jpg"
