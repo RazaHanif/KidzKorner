@@ -39,7 +39,8 @@ const Test = () => {
             <div>
                 {Array.from({ length: 31 }, (_, index) => (
                     <div key={index}>
-                        
+                        <Image 
+                            src='/media/KK/20250711_111518.jpg' alt='Child Playing With Dinosaurs at Kidz Korner Milton, Ontario' w="w-sm" />
                     </div>
                 ))}
             </div>
