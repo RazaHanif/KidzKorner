@@ -1,7 +1,10 @@
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
+import blogSlugs from "../../api/blogSlugs";
+import BlogCard from "../components/BlogCard";
 
 const Blog = () => {
+    const blogSlug = blogSlugs
     const breadCrumb = [
         {
             name: "Home",
@@ -26,7 +29,7 @@ const Blog = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 lg:py-12 py-8 lg:my-12 my-8">
-                
+                <BlogCard blogSlugs={blogSlug} />
             </div>
 
             <StructData schema={localBusinessSchema} />
