@@ -13,7 +13,7 @@ import FAQAccordion from "../components/FAQAccordion";
 
 const PlaygroundCard = ({title, price, desc}) => {
     return (
-        <Card className="">
+        <Card>
             <CardHeader>
                 <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
                     { title }
