@@ -36,7 +36,7 @@ const MarchCamp = () => {
         }, 
         { 
             q: "What are the hours for March Break Camp?", 
-            a: "March Break Camp runs Monday to Friday from 9:00 a.m. to 5:00 p.m. Before- and after-camp care may also be available depending on space. Families interested in extended hours can contact us to ask about availability." 
+            a: "March Break Camp runs Monday to Friday from 9:00 a.m. to 5:00 p.m. before and after camp care may also be available depending on space. Families interested in extended hours can contact us to ask about availability." 
         }, 
         { 
             q: "How much does March Break Camp cost?", 
