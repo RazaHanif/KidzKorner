@@ -66,7 +66,7 @@ const BlogSlug = () => {
             <div className="flex flex-col flex-1 justify-center items-center w-full">
                 <AspectRatio ratio={16 / 9}>
                     <Image 
-                        src="..." 
+                        src={blog.image} 
                         alt="Image" 
                         className="rounded-md object-cover" 
                     />
