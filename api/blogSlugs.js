@@ -17,7 +17,7 @@ const blogs = {
     "toddler-activities-in-milton" : {
         title: "Toddler Activities in Milton",
         slug: "toddler-activities-in-milton",
-        description: "...",
+        description: "",
         image: "/media/Stock/12.jpg",
         publishedAt: "2026-08-08",
         content: [
