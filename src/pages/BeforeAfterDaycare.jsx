@@ -431,7 +431,7 @@ const BeforeAfterDaycare = () => {
                         </NavLink>
                     </div>
                     <Image 
-                            src='/media/KK/20251010_122316.jpg' 
+                            src='/media/KK/16.jpg' 
                             alt='Child Playing With Magnetic Toy at Kidz Korner Milton, Ontario' 
                             w="w-sm"    
                     />
