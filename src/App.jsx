@@ -19,6 +19,8 @@ import SummerCamp from "./pages/SummerCamp.jsx";
 import MarchCamp from "./pages/MarchCamp.jsx";
 import WinterCamp from "./pages/WinterCamp.jsx";
 import PADayCamp from "./pages/PADayCamp.jsx";
+import Blog from "./pages/Blog.jsx";
+import BlogSlug from "./pages/BlogSlug.jsx";
 
 /* 
 
