@@ -35,7 +35,7 @@ const Blog = () => {
                 </p>
             </div>
 
-            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border-y lg:py-12 py-8 lg:my-12 my-8">
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 lg:py-12 py-8 lg:my-12 my-8">
                 
             </div>
 
