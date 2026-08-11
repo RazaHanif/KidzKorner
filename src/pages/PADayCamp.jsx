@@ -211,7 +211,7 @@ const PADayCamp = () => {
                                 9AM to 3PM
                             </p>
                             <p className="p-4">
-                                $175 per week
+                                $45 per day
                             </p>
                         </div>
                     </CardContent>
