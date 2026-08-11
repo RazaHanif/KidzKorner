@@ -51,7 +51,9 @@ const MarchCamp = () => {
             a: "Yes. Campers have access to Kidz Korner's indoor playground as part of the March Break Camp program. Indoor play gives children plenty of opportunities to stay active and have fun throughout the day." 
         }, 
         { 
-            q: "How many children are in March Break Camp?", a: "March Break Camp is currently limited to a maximum of 13 children. Keeping the program small allows campers to participate comfortably in activities and enjoy a more manageable group environment." }, { q: "What should my child bring to March Break Camp?", 
+            q: "How many children are in March Break Camp?", 
+            a: "March Break Camp is currently limited to a maximum of 13 children. Keeping the program small allows campers to participate comfortably in activities and enjoy a more manageable group environment." 
+        }, { q: "What should my child bring to March Break Camp?", 
                 a: "Children should bring a nut-free packed lunch, snacks, a reusable water bottle, comfortable clothing, indoor shoes, and any personal items they may need throughout the day. We recommend labeling personal belongings with your child's name."     
         }, 
     ]
