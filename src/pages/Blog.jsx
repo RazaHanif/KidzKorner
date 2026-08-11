@@ -19,7 +19,7 @@ const Blog = () => {
                     Kidz Korner Milton Blog
                 </h1>
                 <p className="text-xl font-bold text-center w-3/4">
-                    Drop-in fun for toddlers, young children, and families!
+                    Helpful tips, ideas, and resources for Milton parents and families 
                 </p>
             </div>
 
