@@ -55,11 +55,11 @@ const About = () => {
                 <h2 className="text-xl font-bold text-center">
                     Who We Are
                 </h2>
-                <p className="flex lg:flex-row flex-col justify-center items-center text-center lg:w-3/4 w-full">
+                <p className="flex lg:flex-row flex-col justify-center items-center text-center w-full">
                     Established in 1995, Kidz Korner has proudly served Milton families for over 30 years.
                     Our centre was built on creating a safe, caring, and engaging environment where children can learn, play, and grow.
                 </p>   
-                <p className="flex lg:flex-row flex-col justify-center items-center text-center lg:w-3/4 w-full">
+                <p className="flex lg:flex-row flex-col justify-center items-center text-center w-full">
                     With decades of childcare experience, our dedicated team provides licensed childcare, indoor playground experiences, camps and workshops designed to support children's development while giving families peace of mind.
                 </p>   
             </div>
