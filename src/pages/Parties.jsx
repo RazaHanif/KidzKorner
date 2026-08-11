@@ -71,7 +71,7 @@ const Parties = () => {
                 </p>
             </div>
 
-            <div className="flex flex-1 flex-col lg:flex-row justify-center gap-6 lg:w-3/4 w-9/10 border-t lg:py-12 py-8 lg:my-12 my-8">
+            <div className="flex flex-1 flex-col lg:flex-row justify-center gap-6 lg:w-3/4 w-9/10 border-t lg:pt-12 pt-8 lg:mt-12 mt-8">
                 <PartyCard
                     title={"Tiny Tornado Package"}
                     price={"395"}
