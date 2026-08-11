@@ -20,6 +20,8 @@ import {
 } from "lucide-react"
 
 
+
+
 const WorkshopCarousel = () => {
 
     // const workshopCard = (title, price, description, content=[] ) => {
