@@ -22,7 +22,7 @@ const BlogCard = ({ blogSlugs=[] }) => {
                                 { blog.title }
                             </CardTitle>
                             <CardDescription className="">
-                                { blog.desc }
+                                { blog.description }
                             </CardDescription>
                         </CardHeader>
                         <CardContent>
