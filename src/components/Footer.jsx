@@ -139,10 +139,10 @@ const Footer = () => {
                     <p className="w-full">
                       150 Nipissing Rd. 10 & 11, Milton, On
                     </p>
-                  </a>
                     <address>
                         150 Nipissing Rd. Units 10 & 11, Milton, On
                     </address>
+                  </a>
                 </TableCell>
               </TableRow>
 
