@@ -37,7 +37,7 @@ const Test = () => {
                 </pre>
             </div>
 
-            <div className="flex w-full flex-col justify-center items-center">
+            <div className="flex w-full flex-col justify-center items-center gap-8">
                 {Array.from({ length: 31 }, (_, index) => (
                     <div key={index + 1} className="border">
                         <Image 
