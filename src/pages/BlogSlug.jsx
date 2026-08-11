@@ -1,6 +1,6 @@
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
-import { useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 import blogs from "../../api/blogSlugs";
 
 
@@ -8,6 +8,12 @@ const BlogSlug = () => {
     const { slug } = useParams()
     
     const blog = blogs[slug]
+
+    console.log(blog)
+    
+    if (!blog) {
+        return <Navigate to='/404' replace />
+    }
 
     const breadCrumb = [
         {
@@ -23,6 +29,34 @@ const BlogSlug = () => {
             url: `https://www.kidzkornermilton.com/blog/${blog.slug}`
         },
     ];
+    const articleSchema = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        headline: blog.title,
+        description: blog.description,
+        image: [
+            `https://www.kidzkornermilton.com${blog.img}`
+        ],
+        datePublished: blog.publishedAt,
+        dateModified: blog.updatedAt ?? blog.publishedAt,
+        author: {
+            "@type": "Organization",
+            name: "Kidz Korner",
+            url: "https://www.kidzkornermilton.com/"
+        },
+        publisher: {
+            "@type": "Organization",
+            name: "Kidz Korner",
+            logo: {
+                "@type": "ImageObject",
+                url: "https://www.kidzkornermilton.com/logo.png"
+            }
+        },
+        mainEntityOfPage: {
+            "@type": "WebPage",
+            "@id": `https://www.kidzkornermilton.com/blog/${blog.slug}`
+        }
+    };
 
     const metaTitle = `${blog.title} | Kidz Korner`
 
@@ -36,6 +70,7 @@ const BlogSlug = () => {
             </div>
             <StructData schema={localBusinessSchema} />
             <StructData schema={breadcrumbSchema(breadCrumb)} />
+            <StructData schema={articleSchema} />
 
             <title>
                 {metaTitle}
