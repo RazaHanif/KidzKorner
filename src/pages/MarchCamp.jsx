@@ -132,7 +132,7 @@ const MarchCamp = () => {
                                     Small Group Setting
                                 </CardTitle>
                                 <CardDescription>
-                                    With a maximum of 13 campers, we keep our summer camp intentionally small so children can enjoy a more comfortable and engaging group experience.
+                                    With a maximum of 13 campers, we keep our March Break program intentionally small so children can enjoy a more comfortable and engaging group experience.
                                 </CardDescription>
                             </CardHeader>
                         </Card>
