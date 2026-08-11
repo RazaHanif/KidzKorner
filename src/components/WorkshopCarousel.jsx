@@ -94,9 +94,6 @@ const WorkshopCarousel = () => {
             <CarouselNext />
         </Carousel>
     )
-
-
-
 }
 
 export default WorkshopCarousel
