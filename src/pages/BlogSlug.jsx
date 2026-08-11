@@ -64,10 +64,10 @@ const BlogSlug = () => {
         <div className="flex flex-col flex-1 justify-center items-center gap-6 w-full lg:py-16 pb-8">
             <div className="border w-full flex-1">
                  <Image src={blog.image} alt={blog.imageAlt} />
+                <h1 className="lg:text-5xl text-3xl font-bold font-serif text-start py-4 w-full">
+                    {blog.title}
+                </h1>
             </div>
-            <h1 className="lg:text-5xl text-3xl font-bold font-serif text-start py-4 w-full">
-                {blog.title}
-            </h1>
             <div>
                 {blog.description}
             </div>
