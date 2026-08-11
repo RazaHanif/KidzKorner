@@ -71,12 +71,6 @@ const BlogSlug = () => {
                         className="rounded-md object-cover" 
                     />
                 </AspectRatio>
-                 <Image 
-                    src={blog.image} 
-                    alt={blog.imageAlt} 
-                    w="w-xl"
-                    className="self-center"
-                />
                 <h1 className="lg:text-5xl text-3xl font-bold font-serif text-start py-4 w-full">
                     {blog.title}
                 </h1>
