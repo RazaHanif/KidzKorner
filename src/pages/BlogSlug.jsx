@@ -75,9 +75,6 @@ const BlogSlug = () => {
                     {blog.title}
                 </h1>
             </div>
-            <div>
-                {blog.description}
-            </div>
             <article>
                 {blog.content.map((paragraph, index) => (
                     <p key={index}>
