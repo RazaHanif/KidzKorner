@@ -145,7 +145,7 @@ const PADayCamp = () => {
                                     Full Day of Fun
                                 </CardTitle>
                                 <CardDescription>
-                                    Camp runs from 9:00 a.m. to 3:00 p.m., giving children a full day of activities, play, and social time during their summer break.
+                                    Camp runs from 9:00 a.m. to 3:00 p.m., giving children a full day of activities, play, and social time while school is closed.
                                 </CardDescription>
                             </CardHeader>
                         </Card>
