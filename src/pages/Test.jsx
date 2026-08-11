@@ -41,7 +41,7 @@ const Test = () => {
                     <div key={index}>
                         <Image 
                             src='/media/KK/20250711_111518.jpg' 
-                            alt='Child Playing With Dinosaurs at Kidz Korner Milton, Ontario' 
+                            alt='who cares' 
                         />
                     </div>
                 ))}
