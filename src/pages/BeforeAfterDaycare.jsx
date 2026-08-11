@@ -50,7 +50,7 @@ const BeforeAfterDaycare = () => {
         },
         {
             q: "What do children do after school?",
-            a: "After school, children have time to unwind and enjoy their afternoon in a welcoming environment. Depending on the day, they may spend time in our indoor playground, play games with friends, work on creative projects, socialize with other children, or enjoy some quieter time. We provide support for homework help/tutoring and  The goal is to give children a chance to relax, have fun, and enjoy their time at Kidz Korner after a busy school day."
+            a: "After school, children have time to unwind and enjoy their afternoon in a welcoming environment. Depending on the day, they may spend time in our indoor playground, play games with friends, work on creative projects, socialize with other children, or enjoy some quieter time. We provide support for homework help/tutoring and can provide customized support to help with your child's growth. The goal is to give children a chance to relax, have fun, and enjoy their time at Kidz Korner after a busy school day."
         },
         {
             q: "Can my child attend only Before School or only After School Care?",
