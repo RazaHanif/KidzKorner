@@ -180,7 +180,7 @@ const WinterCamp = () => {
                     </p>
                     <p className="">
                         Winter Break Camp runs Monday to Friday from 9:00 a.m. to 3:00 p.m. Our program is limited to 13 children, allowing us to maintain a smaller group environment while campers participate in activities, play together, and make the most of their school break.                    
-                    </p>
+                        </p>
                     <p className="">
                         The weekly cost is <b>$175 per child</b>, and all regular summer camp activities are included. Before- and after-camp care may also be available based on space, so families interested in extended hours can contact us to ask about availability.
                     </p>
