@@ -20,7 +20,7 @@ const Blog = () => {
                 </h1>
                 <p className="text-xl font-bold text-center w-3/4">
                     Helpful tips, ideas, and resources for Milton parents and families.
-                    Explore our latest articles on childcare, preschool, parenting, kids activities
+                    Explore our latest articles on childcare, preschool, parenting, kids activities, camps, and more!
                 </p>
             </div>
 
