@@ -17,7 +17,7 @@ const Header = () => {
 
         {/* Collapsible links */}
         <div 
-          className='flex-1 flex flex-row justify-end items-center p-2'
+          className='flex-1 flex flex-row justify-end items-center p-2 '
         >
           <Navigation />
         </div>
