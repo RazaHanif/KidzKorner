@@ -48,7 +48,17 @@ const WinterCamp = () => {
         }, 
         { 
             q: "Does Winter Break Camp include indoor playground time?", 
-            a: "Yes. Campers have access to Kidz Korner's indoor playground as part of the Winter Break Camp program. Indoor play gives children plenty of opportunities to stay active and have fun during the winter break." }, { q: "How many children are in Winter Break Camp?", a: "Winter Break Camp is currently limited to a maximum of 13 children. Keeping the program small allows campers to participate comfortably in activities and enjoy a more manageable group environment." }, { q: "What should my child bring to Winter Break Camp?", a: "Children should bring a nut-free packed lunch, snacks, a reusable water bottle, comfortable clothing, indoor shoes, and any personal items they may need throughout the day. We recommend labeling personal belongings with your child's name." }, ]
+            a: "Yes. Campers have access to Kidz Korner's indoor playground as part of the Winter Break Camp program. Indoor play gives children plenty of opportunities to stay active and have fun during the winter break." 
+        }, 
+        { 
+            q: "How many children are in Winter Break Camp?", 
+            a: "Winter Break Camp is currently limited to a maximum of 13 children. Keeping the program small allows campers to participate comfortably in activities and enjoy a more manageable group environment." 
+        }, 
+        { 
+            q: "What should my child bring to Winter Break Camp?", 
+            a: "Children should bring a nut-free packed lunch, snacks, a reusable water bottle, comfortable clothing, indoor shoes, and any personal items they may need throughout the day. We recommend labeling personal belongings with your child's name." 
+        }, 
+    ]
 
     return (
         <div className="flex flex-col flex-1 justify-center items-center gap-6 w-full lg:py-16 pb-8">
