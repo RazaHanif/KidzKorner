@@ -67,7 +67,7 @@ const BlogSlug = () => {
                     <Image
                         src={blog.image}
                         alt={blog.imageAlt}
-                        className="w-full h-full object-cover lg:border-2"
+                        className="w-full h-full object-cover lg:border-4"
                         w=""
                     />
                 </div>
