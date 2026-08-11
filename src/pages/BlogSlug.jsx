@@ -62,7 +62,7 @@ const BlogSlug = () => {
     const metaTitle = `${blog.title} | Kidz Korner`
 
     return (
-        <div className="flex flex-col flex-1 justify-start items-start gap-6 w-full lg:py-16 pb-8">
+        <div className="flex flex-col flex-1 justify-center lg:items-start items-center gap-6 w-full lg:py-16 pb-8">
             <div className="flex flex-col flex-1 justify-center items-center lg:w-3/4 w-9/10">
                 <div className="flex flex-col items-center justify-center w-full h-[75vh] lg:h-[70vh] max-h-[750px] overflow-hidden rounded-xl">
                     <img
