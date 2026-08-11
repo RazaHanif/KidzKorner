@@ -129,7 +129,7 @@ const BeforeAfterDaycare = () => {
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="text-start">
-                                A welcoming place to unwind, play, and connect with friends after the school day. With a
+                                A welcoming place to unwind, play, and connect with friends after the school day. With homework help/tutoring and a snack.
                             </CardContent>
                         </Card>
                         <Card>
