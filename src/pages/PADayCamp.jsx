@@ -167,7 +167,7 @@ const PADayCamp = () => {
 
             <div className="flex flex-col justify-center items-center gap-6 lg:w-3/4 w-9/10">
                 <h2 className="text-xl font-bold text-center pb-4">
-                    What to Expect at Kidz Korner Summer Camp
+                    What to Expect at Kidz Korner PA Day Camp
                 </h2>
                 <div className="flex flex-col gap-2 w-full">
                     <p className="">
