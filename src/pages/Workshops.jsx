@@ -131,22 +131,8 @@ const Workshops = () => {
             </div>
 
 
-            {/* Move away from advertising specific workshops/prices as they change too often */}
-            {/* Just link to insta */}
-            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border-y lg:py-12 py-8 lg:my-8 my-4">
 
-                <h2 className="lg:text-3xl text-2xl font-bold font-serif text-center mb-3">
-                    Explore Our Kids Workshops
-                </h2>
-
-                <p className="text-center lg:w-3/4 mb-8">
-                    Our workshop offerings change throughout the year. Explore
-                    some of the activities we offer for toddlers and preschoolers.
-                </p>
-
-                <WorkshopCarousel />
-
-            </div>
+            
 
 
 
