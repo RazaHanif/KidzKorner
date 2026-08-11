@@ -83,7 +83,7 @@ const MarchCamp = () => {
 
             <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border-y lg:py-12 py-8 lg:my-12 my-8">
                 <h2 className="text-xl font-bold text-center pb-4">
-                    Why Families Choose Kidz Korner Summer Camp
+                    Why Families Choose Kidz Korner March Break Camp
                 </h2>
                 <div className="flex flex-col justify-center items-center w-full gap-6">
                     <div className="flex flex-col lg:flex-row flex-1 w-full gap-6">
