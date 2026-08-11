@@ -68,6 +68,13 @@ const BlogSlug = () => {
             <div>
                 {blog.description}
             </div>
+            <article>
+                {blog.content.map((paragraph, index) => (
+                    <p key={index}>
+                        {paragraph}
+                    </p>
+                ))}
+            </article>
             <StructData schema={localBusinessSchema} />
             <StructData schema={breadcrumbSchema(breadCrumb)} />
             <StructData schema={articleSchema} />
