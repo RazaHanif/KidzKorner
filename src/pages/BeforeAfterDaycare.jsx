@@ -432,7 +432,7 @@ const BeforeAfterDaycare = () => {
                     </div>
                     <Image 
                             src='/media/Stock/16.jpg' 
-                            alt='Child Playing With Magnetic Toy at Kidz Korner Milton, Ontario' 
+                            alt='Art Supplies at Kidz Korner Milton, Ontario' 
                             w="w-sm"    
                     />
                 </div>
