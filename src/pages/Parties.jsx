@@ -134,7 +134,7 @@ const Parties = () => {
                             Private Access
                         </li>,
                         <li key={3}>
-                            Photobooth & Table Cloths provided for self-setup
+                            ExPhotobooth
                         </li>,
                         <li key={4}>Kidz Activity Table</li>,
                     ]}
