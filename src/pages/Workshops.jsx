@@ -2,6 +2,12 @@ import WorkshopForm from "@/components/WorkshopFrom"
 import WorkshopCarousel from "@/components/WorkshopCarousel";
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
+import {
+    Palette,
+    Users,
+    Sparkles,
+    Heart,
+} from "lucide-react"
 
 const Workshops = () => {
     const breadCrumb = [
@@ -14,6 +20,29 @@ const Workshops = () => {
             url: "https://www.kidzkornermilton.com/workshops"
         }
     ];
+
+    const workshopHighlights = [
+        {
+            icon: Sparkles,
+            title: "Fun & Engaging",
+            description: "Hands-on activities designed to keep little ones engaged and having fun."
+        },
+        {
+            icon: Palette,
+            title: "Creative Activities",
+            description: "Arts, crafts, cooking, and other activities that encourage creativity."
+        },
+        {
+            icon: Users,
+            title: "Made for Little Ones",
+            description: "Workshops designed with toddlers and preschoolers in mind."
+        },
+        {
+            icon: Heart,
+            title: "Learn Through Play",
+            description: "A welcoming environment where children can explore and enjoy new activities."
+        },
+    ]
 
     return (
         <div className="flex flex-col flex-1 justify-center items-center gap-6 w-full lg:py-16 pb-8">
@@ -51,6 +80,41 @@ const Workshops = () => {
                     Our children's workshops are designed to give young children a chance to try something new while having fun with friends and family. 
                     From creative art activities and cooking to Islamic learning and parent-and-child experiences, each workshop offers a simple and enjoyable way for little ones to participate, explore, and make memories.
                 </p>
+            </div>
+
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10">
+
+                <h2 className="lg:text-3xl text-2xl font-bold font-serif text-center mb-8">
+                    What to Expect at Our Workshops
+                </h2>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
+
+                    {workshopHighlights.map((highlight) => {
+                        const Icon = highlight.icon
+
+                        return (
+                            <div
+                                key={highlight.title}
+                                className="flex flex-col items-center text-center gap-3 p-5"
+                            >
+                                <div className="flex justify-center items-center p-3 rounded-full bg-primary text-primary-foreground">
+                                    <Icon className="w-6 h-6" />
+                                </div>
+
+                                <h3 className="font-bold text-lg">
+                                    {highlight.title}
+                                </h3>
+
+                                <p className="text-sm leading-6">
+                                    {highlight.description}
+                                </p>
+                            </div>
+                        )
+                    })}
+
+                </div>
+
             </div>
 
             {/* Move away from advertising specific workshops/prices as they change too often */}
