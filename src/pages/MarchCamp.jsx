@@ -68,7 +68,7 @@ const MarchCamp = () => {
                 </h1>
                 <div className="flex flex-col justify-center items-center text-center gap-6 pt-4">
                     <p className="lg:w-3/4 w-9/10">
-                        Keep your child active, engaged, and having fun throughout the summer at Kidz Korner. Our summer camp in Milton offers themed activities, arts and crafts, games, indoor playground time, and plenty of opportunities for creative and active play in a welcoming environment.
+                        Keep your child active, engaged, and having fun during March Break at Kidz Korner. Our March Break Camp in Milton gives children a fun-filled week of games, arts and crafts, indoor playground time, creative activities, and plenty of opportunities to play and socialize while school is out.
                     </p>
                     <a 
                         href="/about#contact-form" 
