@@ -213,6 +213,7 @@ const ToddlerDaycare = () => {
 
                 <div className="flex lg:flex-row flex-col justify-center items-center w-full gap-6">
                     <Image
+                        className="lg:flex"
                         src="/media/Stock/19.jpg"
                         alt="Child Playing with Letters at Kidz Korner in  Milton"
                         w="w-sm"
