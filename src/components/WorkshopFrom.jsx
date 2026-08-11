@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/select"
 import { useState } from 'react';
 
+// Remove socialMedia, contactAgain, allergies
 const WorkshopForm = () => {
   const [formData, setFormData] = useState({
     name: '',
