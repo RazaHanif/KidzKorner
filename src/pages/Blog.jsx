@@ -19,7 +19,8 @@ const Blog = () => {
                     Kidz Korner Milton Blog
                 </h1>
                 <p className="text-xl font-bold text-center w-3/4">
-                    Helpful tips, ideas, and resources for Milton parents and families 
+                    Helpful tips, ideas, and resources for Milton parents and families.
+                    Explore our latest art
                 </p>
             </div>
 
