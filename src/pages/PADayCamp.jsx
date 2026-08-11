@@ -10,7 +10,7 @@ import CampForm from "@/components/CampForm";
 import Image from "@/components/Image";
 import { breadcrumbSchema, faqSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
-import { BadgeDollarSign, Blocks, PartyPopper, Sparkles, Sun, UsersRound } from "lucide-react";
+import { BadgeDollarSign, Blocks, CalendarDays, PartyPopper, Sparkles, Sun, UsersRound } from "lucide-react";
 import FAQAccordion from "../components/FAQAccordion";
 
 const PADayCamp = () => {
@@ -91,7 +91,7 @@ const PADayCamp = () => {
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
                                 <CardTitle className="flex flex-row items-center gap-2">
-                                    <Cale className="text-primary" />
+                                    <CalendarDays className="text-primary" />
                                     Themed Events & Experiences
                                 </CardTitle>
                                 <CardDescription>
