@@ -95,7 +95,7 @@ const PADayCamp = () => {
                                     Fun on School Days Off
                                 </CardTitle>
                                 <CardDescription>
-                                    Our summer is filled with fun themes, special activities, and events that give children something new and exciting to look forward to each week.
+                                    When school is closed for a PA Day, children can spend the day playing, creating, and having fun in a welcoming camp environment.
                                 </CardDescription>
                             </CardHeader>
                         </Card>
