@@ -29,10 +29,9 @@ const BlogSlug = () => {
     return (
         <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16 pb-8">
             <h1>
-                {}
+                {blog.title}
             </h1>
             <div>
-                {blog.title}
                 {blog.body}
             </div>
             <StructData schema={localBusinessSchema} />
