@@ -59,10 +59,10 @@ const BlogSlug = () => {
             <meta
                 property="og:url"
                 content={`https://www.kidzkornermilton.com/blog/${blog.slug}`}
-            />
+                />
             <link
                 rel="canonical"
-                href="https://www.kidzkornermilton.com/blog/how-to-choose-a-daycare-in-milton"
+                href={`https://www.kidzkornermilton.com/blog/${blog.slug}`}
             />
             <meta
                 property="og:image"
