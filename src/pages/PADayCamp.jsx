@@ -177,7 +177,7 @@ const PADayCamp = () => {
                         Each day includes a mix of activities designed to keep children engaged and entertained. Campers can take part in arts and crafts, games, sports, creative activities, and free play, while also having plenty of opportunities to explore and stay active on our indoor playground.
                     </p>
                     <p className="">
-                        We also put a lot of thought into our themed events throughout the summer. These activities give campers something different to look forward to and help make each week feel special rather than repetitive.
+                        Rather than following a regular school-day routine, PA Day Camp gives children the chance to enjoy a more relaxed day filled with play, creativity, movement, and time with friends.
                     </p>
                     <p className="">
                         Summer camp runs from 9:00 a.m. to 3:00 p.m., from the end of the school year until the start of the next one, excluding the first and last week of summer. Our summer program is limited to 13 children, allowing us to maintain a smaller group environment while children participate in activities and spend time together.
