@@ -79,7 +79,7 @@ const BlogSlug = () => {
                     return (
                         <p 
                             key={idx}
-                            className="w-full flex justify-center items-center flex-1 p-4" 
+                            className="w-full flex justify-center items-center flex-1" 
                         >
                             {section}
                         </p>
