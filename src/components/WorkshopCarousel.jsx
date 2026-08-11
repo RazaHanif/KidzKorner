@@ -12,6 +12,12 @@ import {
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
+import {
+    Palette,
+    ChefHat,
+    BookHeart,
+    Heart,
+} from "lucide-react"
 
 
 const WorkshopCarousel = () => {
