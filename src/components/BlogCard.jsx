@@ -10,6 +10,9 @@ import {
 
 const BlogCard = ({title, price, desc}) => {
     return (
+        
+
+
         <Card className="w-full">
             <CardHeader>
                 <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
