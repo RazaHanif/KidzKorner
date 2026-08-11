@@ -154,7 +154,7 @@ const PADayCamp = () => {
                             <CardHeader className="text-start">
                                 <CardTitle className="flex flex-row items-center gap-2">
                                     <BadgeDollarSign className="text-primary" />
-                                    Weekly Camp Pricing
+                                    Simple Daily Pricing
                                 </CardTitle>
                                 <CardDescription>
                                     Summer camp is $175 per week, with all regular camp activities and programming included in the weekly price.
