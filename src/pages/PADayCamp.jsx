@@ -180,7 +180,7 @@ const PADayCamp = () => {
                         Rather than following a regular school-day routine, PA Day Camp gives children the chance to enjoy a more relaxed day filled with play, creativity, movement, and time with friends.
                     </p>
                     <p className="">
-                        PA Day Camp runs from 9:00 a.m. to 3:00 p.m. and is limited to 13 children, allowing us to maintain a smaller group environment while campers participate in activities and enjoy their day away from school.
+                        PA Day Camp runs from 9:00 a.m. to 5:00 p.m. and is limited to 13 children, allowing us to maintain a smaller group environment while campers participate in activities and enjoy their day away from school.
                     </p>
                     <p className="">
                         The cost is <b>$45 per child per day</b>, and regular PA Day Camp activities are included. Before- and after-camp care may also be available based on space, so families interested in extended hours can contact us to ask about availability.
