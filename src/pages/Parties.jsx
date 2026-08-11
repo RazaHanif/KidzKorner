@@ -139,9 +139,6 @@ const Parties = () => {
                         <li key={4}>Kidz Activity Table</li>,
                     ]}
                 />
-            </div>
-
-            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 mt-4 text-center">
                 <div>
                     <p>Full payment required at time of booking.</p>
                     <p>
@@ -153,6 +150,9 @@ const Parties = () => {
                         Prices are subject to change without notice
                     </p>
                 </div>
+            </div>
+
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 mt-4 text-center">
             </div>
 
             <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border-y lg:py-12 py-8 lg:my-12 my-8">
