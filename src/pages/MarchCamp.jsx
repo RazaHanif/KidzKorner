@@ -94,7 +94,7 @@ const MarchCamp = () => {
                                     A Fun Break From School
                                 </CardTitle>
                                 <CardDescription>
-                                    Our summer is filled with fun themes, special activities, and events that give children something new and exciting to look forward to each week.
+                                    March Break gives children a chance to step away from their regular school routine and enjoy a week filled with fun, play, and new activities.
                                 </CardDescription>
                             </CardHeader>
                         </Card>
