@@ -1,6 +1,6 @@
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
-import { useParams } from "react-router";
+import { useParams } from "react-router-dom";
 
 const BlogSlug = () => {
     const { slug } = useParams()
