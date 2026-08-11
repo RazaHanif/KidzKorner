@@ -183,7 +183,7 @@ const PADayCamp = () => {
                         PA Day Camp runs from 9:00 a.m. to 3:00 p.m. and is limited to 13 children, allowing us to maintain a smaller group environment while campers participate in activities and enjoy their day away from school.
                     </p>
                     <p className="">
-                        The weekly cost is <b>$175 per child</b>, and all regular summer camp activities are included. Before- and after-camp care may also be available based on space, so families interested in extended hours can contact us to ask about availability.
+                        The cost is <b>$45 per child per day</b>, and regular PA Day Camp activities are included. Before- and after-camp care may also be available based on space, so families interested in extended hours can contact us to ask about availability.
                     </p>
                 </div>
             </div>
