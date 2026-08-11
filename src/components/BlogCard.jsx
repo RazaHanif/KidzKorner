@@ -13,21 +13,21 @@ import { NavLink } from 'react-router-dom';
 const BlogCard = ({ blogSlugs=[] }) => {
     return (
         <>
-            {blogSlugs.map((slug) => {
+            {blogSlugs.map((blog) => {
                 return (
-                    <Card className="w-full" key={slug.id}>
+                    <Card className="w-full" key={blog.id}>
                         <CardHeader>
-                            { slug.img }
+                            { blog.img }
                             <CardTitle className="">
-                                { slug.title }
+                                { blog.title }
                             </CardTitle>
                             <CardDescription className="p-2 bg-accent flex justify-center items-center rounded-md text-bold text-lg">
-                                { slug.desc }
+                                { blog.desc }
                             </CardDescription>
                         </CardHeader>
                         <CardContent>
                             <NavLink 
-                                to={slug.url}
+                                to={blog.url}
                                 end 
                                 className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                             >
