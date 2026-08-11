@@ -41,6 +41,22 @@ const Workshops = () => {
                 </p>                
             </div>
 
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border-y lg:py-12 py-8 lg:my-8 my-4">
+
+                <h2 className="lg:text-3xl text-2xl font-bold font-serif text-center mb-4">
+                    Fun Workshops for Toddlers & Preschoolers
+                </h2>
+
+                <p className="lg:w-4/5 text-center lg:text-justify leading-7">
+                    Our children's workshops are designed to give young children
+                    a chance to try something new while having fun with friends
+                    and family. From creative art activities and cooking to
+                    Islamic learning and parent-and-child experiences, each
+                    workshop offers a simple and enjoyable way for little ones
+                    to participate, explore, and make memories.
+                </p>
+            </div>
+
             {/* Move away from advertising specific workshops/prices as they change too often */}
             {/* Just link to insta */}
             <div className="flex justify-center items-center lg:w-3/4 w-9/10 border-y lg:py-12 py-8 lg:my-12 my-8">
