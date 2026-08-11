@@ -232,8 +232,8 @@ const WinterCamp = () => {
                     Interested in Winter Break Camp?
                 </p>
 
-                {/* TODO:MAKE THIS FORM SUMMER SPECIFIC  */}
-                {/* [CampForm type="summer"] */}
+                {/* TODO:MAKE THIS FORM WINTER SPECIFIC  */}
+                {/* [CampForm type="winter"] */}
                 <CampForm/>
             </div>
 
