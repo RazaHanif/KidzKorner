@@ -264,7 +264,7 @@ const Home = () => {
                         </div>
                     </div>
                     <Image
-                        src="/media/KK/K_K_39.jpg"
+                        src="/media/Stock/10.jpg"
                         alt="Kidz Korner licensed daycare in  Milton"
                         w="w-md"
                     />
