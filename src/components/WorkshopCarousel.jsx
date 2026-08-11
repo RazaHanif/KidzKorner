@@ -61,7 +61,14 @@ const WorkshopCarousel = () => {
                 { workshops.map((workshop) => {
                     const Icon = workshop.icon
 
-                    return 
+                    return (
+                        <CarouselItem
+                            key={workshop.title}
+                            className="basis-full md:basis-1/2 lg:basis-1/3"
+                        >
+                            
+                        </CarouselItem>
+                    )
                 })}
             </CarouselContent>
 
