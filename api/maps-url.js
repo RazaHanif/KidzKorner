@@ -4,6 +4,6 @@ export default function handler(req, res) {
     const url = `https://www.google.com/maps/embed/v1/place?key=${API_KEY}&q=${encodeURIComponent(address)}`
 
 
-    res.status(200).sjon({ url })
+    res.status(200).json({ url })
 }
 
