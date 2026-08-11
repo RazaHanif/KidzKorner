@@ -234,7 +234,7 @@ const PADayCamp = () => {
                 </p>
 
                 {/* TODO:MAKE THIS FORM PA DAY SPECIFIC  */}
-                {/* [CampForm type="summer"] */}
+                {/* [CampForm type="paday"] */}
                 <CampForm/>
             </div>
 
