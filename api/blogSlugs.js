@@ -17,6 +17,9 @@ const blogs = {
                 <p>
                     Donec et volutpat tellus. Praesent nec congue nulla, id imperdiet odio. Donec varius, felis et faucibus sodales, sem sem lobortis ex, id gravida velit eros a leo. Mauris mauris ipsum, consectetur vel efficitur sed, bibendum in nisi. Morbi pharetra nisi ut justo vehicula finibus. Nulla non cursus ex. In et ante lacinia, tristique velit eget, tincidunt dolor. Nullam fermentum at lacus id mollis. In feugiat in tellus a sagittis. Aliquam vitae mi nec mauris accumsan aliquam a non lectus. Cras scelerisque posuere blandit.
                 </p>
+                <p>
+                    Etiam ipsum mauris, malesuada at pretium at, venenatis a nisi. Vivamus iaculis erat ac egestas lacinia. Donec ipsum lectus, accumsan ut odio sed, blandit viverra libero. Pellentesque efficitur erat volutpat accumsan viverra. Phasellus vitae dolor maximus, venenatis orci eget, dapibus quam. Nunc pretium imperdiet varius. Duis vulputate lacus non nisl consequat facilisis. Praesent consequat odio erat, a dignissim elit consequat vitae.
+                </p>
             </>
         )
     },
