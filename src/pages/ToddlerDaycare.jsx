@@ -225,6 +225,7 @@ const ToddlerDaycare = () => {
                         This approach helps toddlers become comfortable in their environment while gradually developing the skills they need for their next stage of learning.
                     </p>
                     <Image
+                        className=""
                         src="/media/Stock/19.jpg"
                         alt="Child Playing with Letters at Kidz Korner in  Milton"
                         w="w-sm"
