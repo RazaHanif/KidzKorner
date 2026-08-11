@@ -39,7 +39,7 @@ const Test = () => {
 
             <div>
                 {Array.from({ length: 31 }, (_, index) => (
-                    <div key={index}>
+                    <div key={index + 1}>
                         <Image 
                             src={`/media/Stock/${index}.jpg`} 
                             alt='who cares' 
