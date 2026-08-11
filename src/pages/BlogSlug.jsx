@@ -1,9 +1,13 @@
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
 import { useParams } from "react-router-dom";
+import blogs from "../../api/blogSlugs";
+
 
 const BlogSlug = () => {
     const { slug } = useParams()
+    
+    const blog = blogs[slug]
 
     console.log(slug)
 
@@ -28,6 +32,9 @@ const BlogSlug = () => {
         <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16 pb-8">
             <div>
                 {slug}
+            </div>
+            <div>
+                {blog}
             </div>
             <StructData schema={localBusinessSchema} />
             <StructData schema={breadcrumbSchema(breadCrumb)} />
