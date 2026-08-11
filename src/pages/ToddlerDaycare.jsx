@@ -178,7 +178,7 @@ const ToddlerDaycare = () => {
                     <div className="flex flex-col gap-2 w-full text-nowrap">
                         <p className="flex items-start gap-3">
                             <div className="flex justify-center items-center p-3 rounded-full bg-primary text-primary-foreground">
-                                <CircleCheck className="w-7 h-7" />
+                                <CircleCheck className="w-5 h-5" />
                             </div>
                             <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>
                             Caring & Experienced Educators
