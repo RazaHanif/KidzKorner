@@ -36,9 +36,13 @@ const Test = () => {
                 </pre>
             </div>
 
-            {Array.from({ length: 31 }, (_, index) => (
-                <p key={index}>{index + 1}</p>
-            ))}
+            <div>
+                {Array.from({ length: 31 }, (_, index) => (
+                    <div key={index}>
+                        
+                    </div>
+                ))}
+            </div>
 
             <title>
                 Test | Kidz Korner 
