@@ -41,7 +41,7 @@ const Home = () => {
 
                         <div className="w-full flex lg:flex-col gap-6 justify-center lg:items-end lg:pr-4 items-center">
                             <NavLink 
-                                to="/about" 
+                                to="/about/#contact-form" 
                                 end
                                 className="hover:scale-105 ease-in-out duration-300 flex-1 lg:w-3/4 flex justify-center lg:justify-end"
                             >
