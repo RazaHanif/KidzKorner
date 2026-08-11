@@ -29,36 +29,7 @@ const WinterCamp = () => {
         },
     ];
     
-    const faq = [
-        {
-            q: "What ages does Kidz Korner summer camp serve?",
-            a: "Kidz Korner summer camp is available for the same age range as our regular camp program. Families can contact us to confirm whether their child is eligible for the current summer program."
-        },
-        {
-            q: "What are the hours for summer camp?",
-            a: "Summer camp runs Monday to Friday from 9:00 a.m. to 3:00 p.m. Before- and after-camp care may also be available depending on space. Families interested in extended hours can contact us to ask about availability."
-        },
-        {
-            q: "How much does summer camp cost?",
-            a: "Summer camp is $175 per week per child. The weekly price includes all regular camp activities and programming, so there are no additional activity fees for the scheduled camp program."
-        },
-        {
-            q: "What activities are offered at summer camp?",
-            a: "Campers participate in a variety of activities throughout the summer, including arts and crafts, games, sports, creative activities, free play, indoor playground time, and themed events. Activities vary throughout the summer to keep the program fun and engaging."
-        },
-        {
-            q: "Does Kidz Korner offer indoor summer camp activities?",
-            a: "Yes. Campers have access to Kidz Korner's indoor playground as part of the summer camp program. Indoor activities give children plenty of opportunities for active play and entertainment throughout the day."
-        },
-        {
-            q: "How many children are in summer camp?",
-            a: "Summer camp is currently limited to a maximum of 13 children. Keeping the program small allows campers to participate comfortably in activities and enjoy a more manageable group environment."
-        },
-        {
-            q: "What should my child bring to summer camp?",
-            a: "Families should send their child with the items they normally need for a full day at camp, including a packed lunch, snacks, a refillable water bottle, sunscreen, and a change of clothes when appropriate. We recommend labeling personal belongings with your child's name."
-        },
-    ]
+    const faq = [ { q: "What ages does Kidz Korner Winter Break Camp serve?", a: "Kidz Korner Winter Break Camp is available for the same age range as our regular camp program. Families can contact us to confirm whether their child is eligible for the current Winter Break program." }, { q: "What are the hours for Winter Break Camp?", a: "Winter Break Camp runs Monday to Friday from 9:00 a.m. to 3:00 p.m. Before- and after-camp care may also be available depending on space. Families interested in extended hours can contact us to ask about availability." }, { q: "How much does Winter Break Camp cost?", a: "Winter Break Camp is $175 per week per child. The weekly price includes all regular camp activities and programming, with no additional activity fees for the scheduled camp program." }, { q: "What activities are offered at Winter Break Camp?", a: "Campers participate in a variety of activities throughout the week, including arts and crafts, games, sports, creative activities, free play, indoor playground time, and special winter activities. Activities may vary throughout the week to keep the program fun and engaging." }, { q: "Does Winter Break Camp include indoor playground time?", a: "Yes. Campers have access to Kidz Korner's indoor playground as part of the Winter Break Camp program. Indoor play gives children plenty of opportunities to stay active and have fun during the winter break." }, { q: "How many children are in Winter Break Camp?", a: "Winter Break Camp is currently limited to a maximum of 13 children. Keeping the program small allows campers to participate comfortably in activities and enjoy a more manageable group environment." }, { q: "What should my child bring to Winter Break Camp?", a: "Children should bring a nut-free packed lunch, snacks, a reusable water bottle, comfortable clothing, indoor shoes, and any personal items they may need throughout the day. We recommend labeling personal belongings with your child's name." }, ]
 
     return (
         <div className="flex flex-col flex-1 justify-center items-center gap-6 w-full lg:py-16 pb-8">
