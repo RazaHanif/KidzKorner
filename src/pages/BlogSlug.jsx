@@ -24,7 +24,7 @@ const BlogSlug = () => {
         },
     ];
 
-    const metaTitle = `${slug.title} | Kidz Korner`
+    const metaTitle = `${blog.title} | Kidz Korner`
 
     return (
         <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16 pb-8">
