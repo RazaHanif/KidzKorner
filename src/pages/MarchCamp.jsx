@@ -170,7 +170,7 @@ const MarchCamp = () => {
                 </h2>
                 <div className="flex flex-col gap-2 w-full">
                     <p className="">
-                       Summer break should give children the chance to step away from the classroom, try new things, and simply enjoy being kids. At Kidz Korner, our summer camp provides a balance of structured activities, active play, creativity, and time to socialize with friends.
+March Break is a great opportunity for children to take a break from school, spend time with friends, and enjoy activities they may not get to experience during their regular school week. At Kidz Korner, our March Break Camp provides a balance of structured activities, active play, creativity, and time to socialize.
                     </p>
                     <p className="">
                         Each day includes a variety of activities designed to keep campers engaged throughout the day. Children can take part in arts and crafts, games, sports, creative activities, and themed events, while also having opportunities for free play and exploration. Our indoor playground gives campers another way to stay active and have fun, especially when they need a change of pace.
