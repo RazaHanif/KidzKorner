@@ -10,7 +10,7 @@ import CampForm from "@/components/CampForm";
 import Image from "@/components/Image";
 import { breadcrumbSchema, faqSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
-import { BadgeDollarSign, Blocks, PartyPopper, Sparkles, Sun, UsersRound } from "lucide-react";
+import { BadgeDollarSign, Blocks, PartyPopper, Snowflake, Sparkles, Sun, UsersRound } from "lucide-react";
 import FAQAccordion from "../components/FAQAccordion";
 
 const MarchCamp = () => {
@@ -140,7 +140,7 @@ const MarchCamp = () => {
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
                                 <CardTitle className="flex flex-row items-center gap-2">
-                                    <Sun className="text-primary" />
+                                    <Snowflake className="text-primary" />
                                     Full Day of Fun
                                 </CardTitle>
                                 <CardDescription>
