@@ -74,7 +74,7 @@ const About = () => {
                     </p>
 
                 </div>
-                <div className="flex justify-center items-center rounded-lg border-2 shadow-lg overflow-hidden">
+                <div className="flex justify-center w-full items-center rounded-lg border-2 shadow-lg overflow-hidden">
                     <iframe
                         title="Kidz Korner Milton Location"
                         loading="lazy"
