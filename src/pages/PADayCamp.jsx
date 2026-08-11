@@ -233,7 +233,7 @@ const PADayCamp = () => {
                     Interested in PA Day Camp?
                 </p>
 
-                {/* TODO:MAKE THIS FORM SUMMER SPECIFIC  */}
+                {/* TODO:MAKE THIS FORM PA DAY SPECIFIC  */}
                 {/* [CampForm type="summer"] */}
                 <CampForm/>
             </div>
