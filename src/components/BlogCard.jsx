@@ -27,7 +27,7 @@ const BlogCard = ({ blogSlugs=[] }) => {
                         </CardHeader>
                         <CardContent>
                             <NavLink 
-                                to={blog.url}
+                                to={`/blog/${blog}`}
                                 end 
                                 className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                             >
