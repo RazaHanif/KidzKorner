@@ -195,7 +195,7 @@ const MarchCamp = () => {
                     <CardContent>
                         <div className="flex lg:flex-row flex-col justify-evenly text-center">
                             <p className="lg:border-r-2 lg:border-b-0 border-b-2 p-4">
-                                Fun themed events all summer
+                                Fun activities throughout the week
                             </p>
                             <p className="lg:border-r-2 lg:border-b-0 border-b-2 p-4">
                                 Arts and crafts, games, and sports
