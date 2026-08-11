@@ -8,7 +8,9 @@ const blogs = {
         publishedAt: "2026-08-10",
         content: (
             <>
-            
+                <p>
+                    
+                </p>
             </>
         )
     },
