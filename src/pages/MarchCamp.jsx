@@ -229,8 +229,8 @@ const MarchCamp = () => {
                     Interested in Summer Camp?
                 </p>
 
-                {/* TODO:MAKE THIS FORM SUMMER SPECIFIC  */}
-                {/* [CampForm type="summer"] */}
+                {/* TODO:MAKE THIS FORM MARCH SPECIFIC  */}
+                {/* [CampForm type="march"] */}
                 <CampForm/>
             </div>
 
