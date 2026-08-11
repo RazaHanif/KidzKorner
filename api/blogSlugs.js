@@ -6,11 +6,11 @@ const blogs = {
         image: "/media/Stock/2.jpg",
         imageAlt: "Child Doing Arts & Crafts at Kidz Korner Milton",
         publishedAt: "2026-08-10",
-        content: [
-            "Choosing the right daycare...",
-            "What should you look for in a daycare?",
-            "A good childcare program...",
-        ]
+        content: (
+            <>
+            
+            </>
+        )
     },
     "toddler-activities-in-milton" : {
         title: "Toddler Activities in Milton",
