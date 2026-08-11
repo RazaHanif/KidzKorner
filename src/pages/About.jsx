@@ -41,7 +41,7 @@ const About = () => {
                 <div className="flex justify-center">
                     <Image 
                         src='/media/Stock/25.jpg'
-                        alt='Child enjoying activities at Kidz Korner childcare centre in Milton Ontario'
+                        alt='Child doing Arts & Crafts at Kidz Korner childcare centre in Milton Ontario'
                         w='w-md'
                     />
                 </div>
