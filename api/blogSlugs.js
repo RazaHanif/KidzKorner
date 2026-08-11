@@ -4,6 +4,7 @@ const blogs = {
         slug: "how-to-choose-a-daycare-in-milton",
         description: "...",
         image: "/media/Stock/2.jpg",
+        imageAlt: "/media/Stock/2.jpg",
         publishedAt: "2026-08-10",
         content: [
             "Choosing the right daycare...",
