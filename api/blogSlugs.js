@@ -6,18 +6,9 @@ const blogs = {
         image: "...",
         publishedAt: "2026-08-10",
         content: [
-            {
-                type: "paragraph",
-                text: "Choosing the right daycare..."
-            },
-            {
-                type: "heading",
-                text: "What should you look for in a daycare?"
-            },
-            {
-                type: "paragraph",
-                text: "A good childcare program..."
-            }
+            "Choosing the right daycare...",
+            "What should you look for in a daycare?",
+            "A good childcare program...",
         ]
     },
     "toddler-activities-in-milton" : {
@@ -27,18 +18,9 @@ const blogs = {
         image: "...",
         publishedAt: "2026-08-08",
         content: [
-            {
-                type: "paragraph",
-                text: "Choosing the right daycare..."
-            },
-            {
-                type: "heading",
-                text: "What should you look for in a daycare?"
-            },
-            {
-                type: "paragraph",
-                text: "A good childcare program..."
-            }
+            "Choosing the right daycare...",
+            "What should you look for in a daycare?",
+            "A good childcare program...",
         ]
     },
 }
