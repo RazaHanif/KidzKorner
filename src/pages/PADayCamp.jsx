@@ -157,7 +157,7 @@ const PADayCamp = () => {
                                     Simple Daily Pricing
                                 </CardTitle>
                                 <CardDescription>
-                                    Summer camp is $175 per week, with all regular camp activities and programming included in the weekly price.
+                                    PA Day Camp is $45 per child per day, making it easy for families to book care for individual school closure days.
                                 </CardDescription>
                             </CardHeader>
                         </Card>
