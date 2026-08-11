@@ -222,7 +222,7 @@ const BeforeAfterDaycare = () => {
                             w="w-sm"    
                         />
                         <Image 
-                            src='/media/KK/14.jpg' 
+                            src='/media/Stock/14.jpg' 
                             alt='Child Playing With Magnetic Toy at Kidz Korner Milton, Ontario' 
                             w="w-sm"    
                         />
