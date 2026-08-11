@@ -1,3 +1,13 @@
+import { Button } from "@/components/ui/button"
+import {
+  Card,
+  CardAction,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
 
@@ -28,14 +38,7 @@ const Blog = () => {
             <div 
                 className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border-y lg:py-12 py-8 lg:my-12 my-8"
             >
-                <PlaygroundCard
-                    title={"Drop-In Playground Pricing"}
-                    price={"15 per Family"}
-                    tax={false}
-                    desc={
-                        "Bring the whole family for one low price"
-                    }
-                />
+
             </div>
 
             <StructData schema={localBusinessSchema} />
