@@ -118,7 +118,7 @@ function Navigation() {
           Camp 
         </NavLink>
 
-        <NavLink 
+        {/* <NavLink 
           to="/blog" 
           end
           className={({ isActive }) =>
@@ -126,7 +126,7 @@ function Navigation() {
           }
         >
           Blog 
-        </NavLink>
+        </NavLink> */}
 
         <NavLink 
           to="/about" 
