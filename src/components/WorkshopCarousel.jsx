@@ -91,7 +91,7 @@ const WorkshopCarousel = () => {
             </CarouselContent>
 
             <CarouselPrevious />
-
+            <CarouselNext />
         </Carousel>
     )
 
