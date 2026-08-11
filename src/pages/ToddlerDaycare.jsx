@@ -118,7 +118,7 @@ const ToddlerDaycare = () => {
 
             <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10">
                 <h2 className="text-xl font-bold text-center pb-6">
-                    What Makes Our Toddler Program Specialf
+                    What Makes Our Toddler Program Special
                 </h2>
 
                 <div className="flex flex-1 flex-col gap-6 w-full">
