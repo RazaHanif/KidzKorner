@@ -112,7 +112,7 @@ const BeforeAfterDaycare = () => {
                         Children have opportunities to play, participate in activities, socialize with friends, and relax in a supportive environment while families manage their daily schedules.
                     </p>
                     <div className="flex lg:flex-row flex-col p-2 lg:gap-6 gap-2">
-                        <Card>
+                        <Card class>
                             <CardHeader>
                                 <CardTitle className="font-semibold">
                                     Before School Care
@@ -122,7 +122,7 @@ const BeforeAfterDaycare = () => {
                                 A calm and engaging start to the morning, with a healthy snack before children head off to school.
                             </CardContent>
                         </Card>
-                        <Card>
+                        <Card class>
                             <CardHeader>
                                 <CardTitle className="font-semibold">
                                     After School Care
@@ -132,7 +132,7 @@ const BeforeAfterDaycare = () => {
                                 A welcoming place to unwind, play, and connect with friends after the school day. With homework help/tutoring and a snack.
                             </CardContent>
                         </Card>
-                        <Card>
+                        <Card class>
                             <CardHeader>
                                 <CardTitle className="font-semibold">
                                     Flexible Scheduling
