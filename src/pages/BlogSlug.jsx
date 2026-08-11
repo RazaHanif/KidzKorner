@@ -71,7 +71,7 @@ const BlogSlug = () => {
                         className="w-full h-full object-cover"
                     />
                 </div>
-                <h1 className="lg:text-5xl text-3xl font-bold font-serif text-start py-4 w-full">
+                <h1 className="lg:text-5xl text-3xl font-bold font-serif text-start lg:py-4  w-full">
                     {blog.title}
                 </h1>
             </div>
