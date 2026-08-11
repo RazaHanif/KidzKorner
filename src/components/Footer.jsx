@@ -8,11 +8,11 @@ import {
 
 const Footer = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-center w-full bg-primary border-t border-chart-4 p-2 text-primary-foreground">
+    <footer className="flex flex-col lg:flex-row justify-center w-full bg-primary border-t border-chart-4 p-2 text-primary-foreground">
       <div className="flex-1 flex flex-col justify-start items-center">
-        <h1 className="text-xl flex justify-center items-center w-full text-center">
+        <h3 className="text-xl flex justify-center items-center w-full text-center">
           Child Care Hours
-        </h1>
+        </h3>
         <div className="w-3/4 lg:w-5/6 flex-1">
           <Table className="w-full border-none">
             <TableBody>
@@ -33,9 +33,9 @@ const Footer = () => {
       <div className="border-t border-chart-4 lg:hidden flex m-2" />
 
       <div className="flex-1 flex flex-col justify-start items-center">
-        <h1 className="text-xl flex justify-center items-center w-full text-center">
+        <h3 className="text-xl flex justify-center items-center w-full text-center">
           After School Hours
-        </h1>
+        </h3>
         <div className="w-3/4 lg:w-5/6 flex-1">
           <Table className="w-full border-none">
             <TableBody>
@@ -56,9 +56,9 @@ const Footer = () => {
       <div className="border-t border-chart-4 lg:hidden flex m-2" />
 
       <div className="flex-1 flex flex-col justify-start items-center">
-        <h1 className="text-xl flex justify-center items-center w-full text-center">
+        <h3 className="text-xl flex justify-center items-center w-full text-center">
           Indoor Playground Hours
-        </h1>
+        </h3>
         <div className="w-3/4 lg:w-5/6 flex-1">
           <Table className="w-full border-none">
             <TableBody>
@@ -87,9 +87,9 @@ const Footer = () => {
       <div className="border-t border-chart-4 lg:hidden flex m-2" />
 
       <div className="flex-1 flex flex-col justify-start items-center">
-        <h1 className="text-xl flex justify-center items-center w-full text-center">
+        <h3 className="text-xl flex justify-center items-center w-full text-center">
           Contact Us
-        </h1>
+        </h3>
         <div className="w-3/4 lg:w-5/6 flex-1">
           <Table className="w-full border-none">
             <TableBody>
@@ -140,6 +140,9 @@ const Footer = () => {
                       150 Nipissing Rd. 10 & 11, Milton, On
                     </p>
                   </a>
+                    <address>
+                        150 Nipissing Rd. Units 10 & 11, Milton, On
+                    </address>
                 </TableCell>
               </TableRow>
 
@@ -165,7 +168,7 @@ const Footer = () => {
         </div>
       </div>
 
-    </div>
+    </footer>
   );
 };
 
