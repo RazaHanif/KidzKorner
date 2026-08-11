@@ -9,8 +9,6 @@ const BlogSlug = () => {
     
     const blog = blogs[slug]
 
-    console.log(slug)
-
     const breadCrumb = [
         {
             name: "Home",
