@@ -29,7 +29,7 @@ const Blog = () => {
                 <h1 className="lg:text-5xl text-3xl font-bold font-serif text-center py-4">
                     Kidz Korner Milton Blog
                 </h1>
-                <p className="text-xl font-bold text-center w-3/4">
+                <p className="text-center w-3/4">
                     Helpful tips, ideas, and resources for Milton parents and families.
                     Explore our latest articles on childcare, preschool, parenting, kids activities, camps, and more!
                 </p>
