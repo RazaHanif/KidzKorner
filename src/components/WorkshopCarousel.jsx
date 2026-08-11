@@ -19,147 +19,57 @@ import {
     Heart,
 } from "lucide-react"
 
-
+const workshops = [
+    {
+        title: "Art & Creative Activities",
+        icon: Palette,
+        description:
+            "Toddlers and preschoolers can explore their creativity through fun art projects, crafts, painting, and hands-on activities.",
+    },
+    {
+        title: "Cooking & Baking",
+        icon: ChefHat,
+        description:
+            "Fun, age-appropriate cooking and baking activities give children a chance to explore simple recipes while having fun together.",
+    },
+    {
+        title: "Little Sahabas",
+        icon: BookHeart,
+        description:
+            "Engaging activities inspired by Islamic learning help young children explore stories, values, and lessons in a fun and age-appropriate way.",
+    },
+    {
+        title: "Mommy & Me",
+        icon: Heart,
+        description:
+            "Parents and little ones can enjoy hands-on activities together while creating fun memories in a welcoming environment.",
+    },
+]
 
 
 const WorkshopCarousel = () => {
 
-    // const workshopCard = (title, price, description, content=[] ) => {
-    const workshopCard = (title, price, description ) => {
-        return (
-            <Card>
-                <CardHeader>
-                    <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
-                        { title }
-                    </CardTitle>
-                    <CardDescription className="p-2 bg-accent flex justify-center items-center rounded-md text-bold text-lg">
-                    <span className="text-xs text-center">
-                        {price}
-                    </span>
-                    </CardDescription>
-                </CardHeader>
-                <CardContent>
-                    <div className="flex lg:flex-row flex-col justify-around items-center gap-4">
-                        {/* { content.map((image) => (
-                            <img
-                                key={image.alt}
-                                src={image.imageLink}
-                                alt={image.alt}
-                                className="lg:w-1/4 w-sm rounded-lg border-2 shadow-lg"
-                                loading="lazy"
-                            />   
-                        ))} */}
-                    </div>
-                    <p className="flex w-full justify-center m-4">
-                        { description }
-                    </p>
-                    <p className="text-center">
-                        <a
-                            href="https://www.instagram.com/kidz.kornermilton/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="hover:underline"
-                        >
-                            Click Here to Visit our Instagram!
-                        </a>
-                    </p>
-                </CardContent>
-            </Card>
-        )
-    }
-
     return (
-        <Carousel className='w-3/4'>
+        <Carousel
+            className="w-full"
+            opts={{
+                align: "start",
+                loop: true
+            }}
+        >
             <CarouselContent>
-                <CarouselItem>
-                    { workshopCard(
-                        "Paint Night",
-                        "$250",
-                        "For up to date info and class timings please check out our Instagram page.",
-                        [
-                            {
-                                imageLink: 'public/media/KK/20260108_111322(0).jpg',
-                                alt: 'Kids doing activity at Kidz Korner Milton'
-                            },
-                            {
-                                imageLink: 'public/media/KK/20260108_111322(0).jpg',
-                                alt: 'Kids doing activity at Kidz Korner Milton'
-                            },
-                            {
-                                imageLink: 'public/media/KK/20260108_111322(0).jpg',
-                                alt: 'Kids doing activity at Kidz Korner Milton'
-                            },
-                        ],
-                    )}
-                </CarouselItem>
-                <CarouselItem>
-                    { workshopCard(
-                        "Cooking Class",
-                        "$250",
-                        "For up to date info and class timings please check out our Instagram page.",
-                        [
-                            {
-                                imageLink: 'public/media/KK/20260108_111322(0).jpg',
-                                alt: 'Kids doing activity at Kidz Korner Milton'
-                            },
-                            {
-                                imageLink: 'public/media/KK/20260108_111322(0).jpg',
-                                alt: 'Kids doing activity at Kidz Korner Milton'
-                            },
-                            {
-                                imageLink: 'public/media/KK/20260108_111322(0).jpg',
-                                alt: 'Kids doing activity at Kidz Korner Milton'
-                            },
-                        ],
-                    )}
-                </CarouselItem>
-                <CarouselItem>
-                    { workshopCard(
-                        "Little Sahaba's",
-                        "$250",
-                        "For up to date info and class timings please check out our Instagram page.",
-                        [
-                            {
-                                imageLink: 'public/media/KK/20260108_111322(0).jpg',
-                                alt: 'Kids doing activity at Kidz Korner Milton'
-                            },
-                            {
-                                imageLink: 'public/media/KK/20260108_111322(0).jpg',
-                                alt: 'Kids doing activity at Kidz Korner Milton'
-                            },
-                            {
-                                imageLink: 'public/media/KK/20260108_111322(0).jpg',
-                                alt: 'Kids doing activity at Kidz Korner Milton'
-                            },
-                        ],
-                    )}
-                </CarouselItem>
-                <CarouselItem>
-                    { workshopCard(
-                        "Mommy & Me",
-                        "$250",
-                        "For up to date info and class timings please check out our Instagram page.",
-                        [
-                            {
-                                imageLink: 'public/media/KK/20260108_111322(0).jpg',
-                                alt: 'Kids doing activity at Kidz Korner Milton'
-                            },
-                            {
-                                imageLink: 'public/media/KK/20260108_111322(0).jpg',
-                                alt: 'Kids doing activity at Kidz Korner Milton'
-                            },
-                            {
-                                imageLink: 'public/media/KK/20260108_111322(0).jpg',
-                                alt: 'Kids doing activity at Kidz Korner Milton'
-                            },
-                        ],
-                    )}
-                </CarouselItem>
+                { workshops.map((workshop) => {
+                    const Icon = workshop.icon
+
+                    return 
+                })}
             </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
+
         </Carousel>
     )
+
+
+
 }
 
 export default WorkshopCarousel
