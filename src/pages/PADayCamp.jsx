@@ -180,7 +180,7 @@ const PADayCamp = () => {
                         Rather than following a regular school-day routine, PA Day Camp gives children the chance to enjoy a more relaxed day filled with play, creativity, movement, and time with friends.
                     </p>
                     <p className="">
-                        Summer camp runs from 9:00 a.m. to 3:00 p.m., from the end of the school year until the start of the next one, excluding the first and last week of summer. Our summer program is limited to 13 children, allowing us to maintain a smaller group environment while children participate in activities and spend time together.
+                        PA Day Camp runs from 9:00 a.m. to 3:00 p.m. and is limited to 13 children, allowing us to maintain a smaller group environment while campers participate in activities and enjoy their day away from school.
                     </p>
                     <p className="">
                         The weekly cost is <b>$175 per child</b>, and all regular summer camp activities are included. Before- and after-camp care may also be available based on space, so families interested in extended hours can contact us to ask about availability.
