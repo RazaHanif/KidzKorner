@@ -246,7 +246,7 @@ const WinterCamp = () => {
             </title>
             <meta 
                 name="description" 
-                content="Join Kidz Korner's fun and educational kids' camps in Milton, Ontario. Summer and seasonal camps designed to spark curiosity and creativity." 
+                content="Keep your child active and having fun during Winter Break at Kidz Korner's Winter Break Camp in Milton, Ontario. Enjoy games, arts and crafts, indoor playground time, and more."
             />
             <meta 
                 property="og:title"
@@ -254,7 +254,7 @@ const WinterCamp = () => {
             />
             <meta
                 property="og:description"
-                content="Join Kidz Korner's fun and educational kids' camps in Milton, Ontario. Summer and seasonal camps designed to spark curiosity and creativity."
+                content="Keep your child active and having fun during Winter Break at Kidz Korner's Winter Break Camp in Milton, Ontario. Enjoy games, arts and crafts, indoor playground time, and more."
             />
             <meta 
                 property="og:type"
