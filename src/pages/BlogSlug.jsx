@@ -34,7 +34,7 @@ const BlogSlug = () => {
                 {slug}
             </div>
             <div>
-                {blog}
+                {blog.title}
             </div>
             <StructData schema={localBusinessSchema} />
             <StructData schema={breadcrumbSchema(breadCrumb)} />
