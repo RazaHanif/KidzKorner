@@ -118,7 +118,7 @@ const MarchCamp = () => {
                                     A Mix of Activities
                                 </CardTitle>
                                 <CardDescription>
-                                    From arts and crafts to games, sports, creative activities, and free play, each day offers a variety of ways for children to stay engaged.
+                                    From arts and crafts to games, sports, creative activities, and free play, each day offers different ways for children to stay engaged.
                                 </CardDescription>
                             </CardHeader>
                         </Card>
