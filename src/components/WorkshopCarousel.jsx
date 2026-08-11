@@ -64,7 +64,7 @@ const WorkshopCarousel = () => {
                     return (
                         <CarouselItem
                             key={workshop.title}
-                            className="basis-full md:basis-1/2"
+                            className="basis-full md:basis-1/2 lg:basis-1/3"
                         >
                             <Card className="h-full">
                                 <CardHeader>
