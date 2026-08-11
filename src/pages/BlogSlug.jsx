@@ -63,7 +63,7 @@ const BlogSlug = () => {
 
     return (
         <div className="flex flex-col flex-1 justify-center items-center gap-6 w-full lg:py-16 pb-8">
-            <div className="flex flex-col flex-1 justify-center items-center w-full lg:max-h-[700px] overflow-hidden rounded-2xl">
+            <div className="flex flex-col flex-1 justify-center items-center w-full lg:max-h-[700px] overflow-hidden">
                 <AspectRatio ratio={4/3} className="lg:h-[700px]">
                     <img 
                         src={blog.image} 
