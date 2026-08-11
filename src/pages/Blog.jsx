@@ -16,7 +16,7 @@ const Blog = () => {
         <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16 pb-8">
             <div className="flex flex-col justify-center items-center w-full mb-4">
                 <h1 className="lg:text-5xl text-3xl font-bold font-serif text-center py-4">
-                    Indoor Playground in Milton, Ontario
+                    Kidz Korner Milton Blog
                 </h1>
                 <h2 className="text-xl font-bold text-center w-3/4">
                     Drop-in fun for toddlers, young children, and families!
