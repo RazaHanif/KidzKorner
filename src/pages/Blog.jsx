@@ -24,6 +24,19 @@ const Blog = () => {
                 </p>
             </div>
 
+                        <div 
+                className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border-y lg:py-12 py-8 lg:my-12 my-8"
+            >
+                <PlaygroundCard
+                    title={"Drop-In Playground Pricing"}
+                    price={"15 per Family"}
+                    tax={false}
+                    desc={
+                        "Bring the whole family for one low price"
+                    }
+                />
+            </div>
+
             <StructData schema={localBusinessSchema} />
             <StructData schema={breadcrumbSchema(breadCrumb)} />
 
