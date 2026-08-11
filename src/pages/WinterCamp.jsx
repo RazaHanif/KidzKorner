@@ -71,7 +71,7 @@ const WinterCamp = () => {
                         Keep your child active, engaged, and having fun during Winter Break at Kidz Korner. Our Winter Break Camp in Milton gives children a fun-filled week of games, arts and crafts, indoor playground time, creative activities, and plenty of opportunities to play and socialize while school is out.
                     </p>
                     <a 
-                        href="/about#contact-form" 
+                        href="#winter--form" 
                         className="hover:scale-105 ease-in-out duration-300 flex-1 flex justify-center"
                     >
                         <Button className="cursor-pointer min-w-1/2">
