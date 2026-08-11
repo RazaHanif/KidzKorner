@@ -43,7 +43,7 @@ const Test = () => {
                             src={`/media/Stock/${index}.jpg`} 
                             alt='who cares' 
                         />
-                        <p></p>
+                        <p>${index}.jpg</p>
                     </div>
                 ))}
             </div>
