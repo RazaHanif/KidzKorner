@@ -218,12 +218,12 @@ const BeforeAfterDaycare = () => {
                     <div className="flex flex-col lg:flex-row gap-2 lg:gap-6 justify-center items-center">
                         <Image 
                             src='/media/Stock/8.jpg' 
-                            alt='Child Playing With Magnetic Toy at Kidz Korner Milton, Ontario' 
+                            alt='Child Doing Arts & Crafts at Kidz Korner Milton, Ontario' 
                             w="w-sm"    
                         />
                         <Image 
                             src='/media/Stock/14.jpg' 
-                            alt='Child Playing With Magnetic Toy at Kidz Korner Milton, Ontario' 
+                            alt='Child Doing Arts & Crafts at Kidz Korner Milton, Ontario' 
                             w="w-sm"    
                         />
                     </div>
