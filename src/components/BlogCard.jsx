@@ -1,3 +1,13 @@
+import {
+  Card,
+  CardAction,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
+
 const BlogCard = ({title, price, desc}) => {
     return (
         <Card className="w-full">
