@@ -13,7 +13,7 @@ import { NavLink } from 'react-router-dom';
 const BlogCard = ({ blogSlugs=[] }) => {
     return (
         <>
-            {blogSlugs.map((blog) => {
+            {Object.values(blogSlugs).map((blog) => {
                 return (
                     <Card className="w-full" key={blog.id}>
                         <CardHeader>
