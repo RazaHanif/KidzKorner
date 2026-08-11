@@ -39,7 +39,7 @@ const Test = () => {
 
             <div className="flex w-full flex-col justify-center items-center gap-8">
                 {Array.from({ length: 31 }, (_, index) => (
-                    <div key={index + 1} className="border">
+                    <div key={index + 1} className="flex flexborder">
                         <Image 
                             src={`/media/Stock/${index+1}.jpg`} 
                             alt='who cares' 
