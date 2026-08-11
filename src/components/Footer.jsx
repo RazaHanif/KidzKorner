@@ -136,9 +136,6 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <p className="w-full">
-                      150 Nipissing Rd. 10 & 11, Milton, On
-                    </p>
                     <address>
                         150 Nipissing Rd. Units 10 & 11, Milton, On
                     </address>
