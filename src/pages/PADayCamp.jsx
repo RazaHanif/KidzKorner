@@ -72,7 +72,7 @@ const PADayCamp = () => {
                         School may be closed, but your child's day can still be full of fun at Kidz Korner. Our PA Day Camp in Milton gives children a fun and active day filled with games, arts and crafts, indoor playground time, creative activities, and plenty of opportunities to play and socialize.
                     </p>
                     <a 
-                        href="/about#contact-form" 
+                        href="#pa-day-form" 
                         className="hover:scale-105 ease-in-out duration-300 flex-1 flex justify-center"
                     >
                         <Button className="cursor-pointer min-w-1/2">
