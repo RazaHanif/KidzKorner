@@ -29,9 +29,9 @@ const Test = () => {
 
             <div>
                 <h2>Format</h2>
-                <p>
+                <pre>
                     {format}
-                </p>
+                </pre>
             </div>
 
             <title>
