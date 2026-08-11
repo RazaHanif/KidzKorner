@@ -42,7 +42,7 @@ const BlogSlug = () => {
             </title>
             <meta 
                 name="description" 
-                content={slug.desc} 
+                content={slug.de} 
             />
             <meta 
                 property="og:title"
