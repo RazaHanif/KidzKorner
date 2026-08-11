@@ -19,8 +19,8 @@ const BlogSlug = () => {
             url: "https://www.kidzkornermilton.com/blog"
         },
         {
-            name: `${slug.title}`,
-            url: `https://www.kidzkornermilton.com/blog/${slug.slug}`
+            name: `${blog.title}`,
+            url: `https://www.kidzkornermilton.com/blog/${blog.slug}`
         },
     ];
 
