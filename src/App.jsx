@@ -101,3 +101,6 @@ function App() {
 }
 
 export default App;
+
+
+// http://192.168.1.70:5173/
