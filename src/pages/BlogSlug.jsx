@@ -86,6 +86,7 @@ const BlogSlug = () => {
                     )
                 })}
             </article>
+            
             <StructData schema={localBusinessSchema} />
             <StructData schema={breadcrumbSchema(breadCrumb)} />
             <StructData schema={articleSchema} />
