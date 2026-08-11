@@ -52,8 +52,7 @@ const Workshops = () => {
                     a chance to try something new while having fun with friends
                     and family. From creative art activities and cooking to
                     Islamic learning and parent-and-child experiences, each
-                    workshop offers a simple and enjoyable way for little ones
-                    to participate, explore, and make memories.
+                    workshop offers a simple and enjoyable way for little ones to participate, explore, and make memories.
                 </p>
             </div>
 
