@@ -227,14 +227,13 @@ const ToddlerDaycare = () => {
                         This approach helps toddlers become comfortable in their environment while gradually developing the skills they need for their next stage of learning.
                     </p>
                     <div className="lg:hidden block">
+                        <Image
+                            src="/media/Stock/19.jpg"
+                            alt="Child Playing with Letters at Kidz Korner in  Milton"
+                            w="w-sm"
+                        />
 
                     </div>
-                    <Image
-                        className="lg:hidden flex"
-                        src="/media/Stock/19.jpg"
-                        alt="Child Playing with Letters at Kidz Korner in  Milton"
-                        w="w-sm"
-                    />
                 </div>
             </div>
 
