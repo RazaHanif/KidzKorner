@@ -15,7 +15,7 @@ const BlogCard = ({ blogSlugs=[] }) => {
         <>
             {blogSlugs.map((slug) => {
                 return (
-                    <Card className="w-full" key>
+                    <Card className="w-full" key={slug.id}>
                         <CardHeader>
                             { slug.img }
                             <CardTitle className="">
