@@ -98,9 +98,7 @@ const Workshops = () => {
                                 key={highlight.title}
                                 className="flex flex-col items-center text-center gap-3 p-5"
                             >
-                                <div className="flex justify-center items-center p-3 rounded-full bg-primary text-primary-foreground">
-                                    <Icon className="w-5 h-5" />
-                                </div>
+                                <Icon className="w-5 h-5" />
 
                                 <h3 className="font-bold text-lg">
                                     {highlight.title}
