@@ -192,7 +192,7 @@ function Navigation() {
                 Camp
               </NavLink>
             </DropdownMenuItem>
-            <DropdownMenuItem  asChild>
+            {/* <DropdownMenuItem  asChild>
               <NavLink
                 to="/blog" 
                 className="cursor-pointer"
@@ -200,7 +200,7 @@ function Navigation() {
               >
                 Blog
               </NavLink>
-            </DropdownMenuItem>
+            </DropdownMenuItem> */}
             <DropdownMenuItem  asChild>
               <NavLink
                 to="/about" 
