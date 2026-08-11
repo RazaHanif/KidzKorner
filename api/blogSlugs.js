@@ -19,6 +19,7 @@ const blogs = {
         slug: "toddler-activities-in-milton",
         description: "This will be a quick listcle",
         image: "/media/Stock/12.jpg",
+        imageAlt: "Child doing ",
         publishedAt: "2026-08-08",
         content: [
             "Choosing the right daycare...",
