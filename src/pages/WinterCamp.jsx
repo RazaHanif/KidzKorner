@@ -106,7 +106,7 @@ const WinterCamp = () => {
                                     Indoor Playground Fun
                                 </CardTitle>
                                 <CardDescription>
-                                    Campers have access to our indoor playground, giving them plenty of opportunities to climb, play, explore, and stay active.
+                                    Campers have access to our indoor playground, giving them plenty of opportunities to climb, play, explore, and stay active indoors.
                                 </CardDescription>
                             </CardHeader>
                         </Card>
