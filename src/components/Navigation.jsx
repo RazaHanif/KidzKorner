@@ -21,7 +21,7 @@ function Navigation() {
   return (
     <>
       <div
-        className="hidden lg:flex flex-row lg:w-3xl w-full text-xl lg:text-2xl justify-between items-center gap-4 text-nowrap"
+        className="hidden lg:flex flex-row lg:w-3xl w-full text-xl lg:text-2xl justify-between items-center gap-4 text-nowrap border-red-500 border-2"
       >
 
 {/*     This works technically but its ugly
