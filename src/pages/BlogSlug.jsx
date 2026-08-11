@@ -68,7 +68,7 @@ const BlogSlug = () => {
                     <Image 
                         src={blog.image} 
                         alt={blog.imageAlt} 
-                        className="rounded-md object-cover" 
+                        className="rounded-md w-ful h-full object-cover" 
                     />
                 </AspectRatio>
                 <h1 className="lg:text-5xl text-3xl font-bold font-serif text-start py-4 w-full">
