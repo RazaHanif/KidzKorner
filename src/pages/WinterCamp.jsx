@@ -91,7 +91,7 @@ const WinterCamp = () => {
                             <CardHeader className="text-start">
                                 <CardTitle className="flex flex-row items-center gap-2">
                                     <PartyPopper className="text-primary" />
-                                    Themed Events & Experiences
+                                        Themed Events & Experiences
                                 </CardTitle>
                                 <CardDescription>
                                     Our summer is filled with fun themes, special activities, and events that give children something new and exciting to look forward to each week.
