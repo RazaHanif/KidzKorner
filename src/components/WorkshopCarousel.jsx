@@ -51,7 +51,7 @@ const WorkshopCarousel = () => {
 
     return (
         <Carousel
-            className="w-full"
+            className="w-3/4"
             opts={{
                 align: "start",
                 loop: true
