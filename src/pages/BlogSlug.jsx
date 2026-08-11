@@ -33,7 +33,7 @@ const BlogSlug = () => {
             </div>
             <div>
                 {blog.title}
-                {blog.desc}
+                {blog.body}
             </div>
             <StructData schema={localBusinessSchema} />
             <StructData schema={breadcrumbSchema(breadCrumb)} />
