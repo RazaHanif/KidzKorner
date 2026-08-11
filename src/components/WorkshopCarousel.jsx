@@ -33,12 +33,6 @@ const workshops = [
             "Fun, age-appropriate cooking and baking activities give children a chance to explore simple recipes while having fun together.",
     },
     {
-        title: "Little Sahabas",
-        icon: BookHeart,
-        description:
-            "Engaging activities inspired by Islamic learning help young children explore stories, values, and lessons in a fun and age-appropriate way.",
-    },
-    {
         title: "Mommy & Me",
         icon: Heart,
         description:
