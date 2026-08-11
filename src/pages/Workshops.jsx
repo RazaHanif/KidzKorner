@@ -130,7 +130,28 @@ const Workshops = () => {
 
             </div>
 
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 text-center">
 
+                <h2 className="lg:text-3xl text-2xl font-bold font-serif mb-4">
+                    See Our Upcoming Workshops
+                </h2>
+
+                <p className="lg:w-3/4 leading-7">
+                    Workshop dates, availability, and activities may change
+                    throughout the year. For the latest workshop announcements
+                    and upcoming activities, follow Kidz Korner on Instagram.
+                </p>
+
+                <a
+                    href="https://www.instagram.com/kidz.kornermilton/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-4 font-semibold hover:underline"
+                >
+                    Follow us on Instagram for updates
+                </a>
+
+            </div>
 
             
 
