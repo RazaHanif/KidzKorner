@@ -246,7 +246,7 @@ const MarchCamp = () => {
             </title>
             <meta 
                 name="description" 
-                content="Join Kidz Korner's fun and engaging kids' camps in Milton, Ontario. Summer and seasonal camps designed to spark curiosity and creativity." 
+                content="Keep your child active and having fun during March Break at Kidz Korner's March Break Camp in Milton, Ontario. Enjoy games, arts and crafts, indoor playground time, and more." 
             />
             <meta 
                 property="og:title"
@@ -254,7 +254,7 @@ const MarchCamp = () => {
             />
             <meta
                 property="og:description"
-                content="Join Kidz Korner's fun and engaging kids' camps in Milton, Ontario. Summer and seasonal camps designed to spark curiosity and creativity."
+                content="Keep your child active and having fun during March Break at Kidz Korner's March Break Camp in Milton, Ontario. Enjoy games, arts and crafts, indoor playground time, and more."
             />
             <meta 
                 property="og:type"
