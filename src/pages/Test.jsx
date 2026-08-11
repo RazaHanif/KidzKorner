@@ -37,7 +37,7 @@ const Test = () => {
                 </pre>
             </div>
 
-            <div>
+            <div className="flex w-full flex-row ">
                 {Array.from({ length: 31 }, (_, index) => (
                     <div key={index + 1} className="border">
                         <Image 
