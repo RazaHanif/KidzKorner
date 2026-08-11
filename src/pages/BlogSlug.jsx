@@ -64,11 +64,10 @@ const BlogSlug = () => {
         <div className="flex flex-col flex-1 justify-center items-center gap-6 w-full lg:py-16 pb-8">
             <div className="flex flex-col flex-1 justify-center items-center lg:w-3/4 w-9/10">
                 <div className="flex flex-col items-center justify-center w-full h-[75vh] lg:h-[70vh] max-h-[750px] overflow-hidden rounded-xl">
-                    <Image
+                    <img
                         src={blog.image}
                         alt={blog.imageAlt}
                         className="w-full h-full object-cover"
-                        w="w-full"
                     />
                 </div>
                 <h1 className="lg:text-5xl text-3xl font-bold font-serif text-start lg:py-4 py-2 w-full">
