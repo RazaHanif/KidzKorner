@@ -171,7 +171,7 @@ const PADayCamp = () => {
                 </h2>
                 <div className="flex flex-col gap-2 w-full">
                     <p className="">
-                       Summer break should give children the chance to step away from the classroom, try new things, and simply enjoy being kids. At Kidz Korner, our summer camp provides a balance of structured activities, active play, creativity, and time to socialize with friends.
+                       PA Days can be a challenge for families when children have a day off from school but parents still have work, errands, or other commitments. At Kidz Korner, our PA Day Camp gives children a fun and active place to spend the day while enjoying a variety of activities.
                     </p>
                     <p className="">
                         Each day includes a variety of activities designed to keep campers engaged throughout the day. Children can take part in arts and crafts, games, sports, creative activities, and themed events, while also having opportunities for free play and exploration. Our indoor playground gives campers another way to stay active and have fun, especially when they need a change of pace.
