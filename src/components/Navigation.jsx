@@ -119,13 +119,13 @@ function Navigation() {
         </NavLink>
 
         <NavLink 
-          to="/camp" 
+          to="/blog" 
           end
           className={({ isActive }) =>
             `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
           }
         >
-          Camp 
+          Blog 
         </NavLink>
 
         <NavLink 
