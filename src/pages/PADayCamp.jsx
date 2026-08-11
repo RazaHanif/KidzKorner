@@ -230,7 +230,7 @@ const PADayCamp = () => {
                 id="pa-day-form"
             >
                 <p className="flex text-center">
-                    Interested in Summer Camp?
+                    Interested in PA Day Camp?
                 </p>
 
                 {/* TODO:MAKE THIS FORM SUMMER SPECIFIC  */}
