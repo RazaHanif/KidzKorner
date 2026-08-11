@@ -112,9 +112,7 @@ const Workshops = () => {
                             </div>
                         )
                     })}
-
                 </div>
-
             </div>
 
             <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border-y lg:py-12 py-8 lg:my-8 my-4">
