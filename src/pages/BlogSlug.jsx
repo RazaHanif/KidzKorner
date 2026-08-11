@@ -8,8 +8,6 @@ const BlogSlug = () => {
     const { slug } = useParams()
     
     const blog = blogs[slug]
-
-    console.log(blog)
     
     if (!blog) {
         return <Navigate to='/404' replace />
@@ -29,6 +27,7 @@ const BlogSlug = () => {
             url: `https://www.kidzkornermilton.com/blog/${blog.slug}`
         },
     ];
+
     const articleSchema = {
         "@context": "https://schema.org",
         "@type": "Article",
