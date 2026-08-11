@@ -62,8 +62,8 @@ const BlogSlug = () => {
 
     return (
         <div className="flex flex-col flex-1 justify-center items-center gap-4 w-full lg:py-16 pb-8">
-            <div>
-                
+            <div className="border w-full">
+
             </div>
             <h1 className="lg:text-5xl text-3xl font-bold font-serif text-start py-4 w-full">
                 {blog.title}
