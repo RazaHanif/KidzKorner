@@ -97,7 +97,7 @@ const ToddlerDaycare = () => {
                 <div className="flex justify-center items-center">
                     <Image 
                         src='/media/Stock/11.jpg' 
-                        alt='Child Playing With Magnetic Toy at Kidz Korner Milton, Ontario' 
+                        alt='Child Playing With Blocks at Kidz Korner Milton, Ontario' 
                         w="w-sm"    
                     />
                 </div>
