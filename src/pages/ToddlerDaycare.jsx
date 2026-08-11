@@ -220,7 +220,7 @@ const ToddlerDaycare = () => {
                     </p>
                     <Image
                         src="/media/Stock/19.jpg"
-                        alt="Child Playing with Letters at Korner in  Milton"
+                        alt="Child Playing with Letters at Kidz Korner in  Milton"
                         w="w-sm"
                     />
                 </div>
