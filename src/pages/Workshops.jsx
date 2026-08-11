@@ -168,14 +168,14 @@ const Workshops = () => {
             </title>
             <meta 
                 name="description" 
-                content="Kidz Korner offers engaging workshops and programs in Milton, Ontario. Early learning, arts, and skill-building activities for children." />
+                content="Discover fun kids workshops in Milton, Ontario at Kidz Korner. Our workshops for toddlers and preschoolers include art, cooking, Islamic learning, and parent-and-child activities." />
             <meta 
                 property="og:title"
                 content="Kids Workshops in Milton, Ontario | Kidz Korner "
             />
             <meta
                 property="og:description"
-                content="Kidz Korner offers engaging workshops and programs in Milton, Ontario. Early learning, arts, and skill-building activities for children."
+                content="Discover fun kids workshops in Milton, Ontario at Kidz Korner. Our workshops for toddlers and preschoolers include art, cooking, Islamic learning, and parent-and-child activities."
             />
             <meta 
                 property="og:type"
