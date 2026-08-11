@@ -75,7 +75,7 @@ const WinterCamp = () => {
                         className="hover:scale-105 ease-in-out duration-300 flex-1 flex justify-center"
                     >
                         <Button className="cursor-pointer min-w-1/2">
-                            Enquire About Summer Camp
+                            Enquire About Winter Camp
                         </Button>
                     </a>
                 </div>
