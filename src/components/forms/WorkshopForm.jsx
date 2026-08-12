@@ -76,9 +76,9 @@ const WorkshopForm = () => {
                         <Input
                             type="text"
                             placeholder="Eugene Harold Krabs"
-                            id="name"
-                            name="name"
-                            value={formData.name}
+                            id="parentName"
+                            name="parentName"
+                            value={formData.parentName}
                             onChange={handleChange}
                             required
                         />
