@@ -26,10 +26,9 @@ const DaycareForm = () => {
         type: "daycare",
     });
 
-    const currentYear = new Date().getFullYear();
     const today = new Date();
-    const minDOB = new Date(today.setMonth(today.getMonth() - 18));
-    const maxDOB = new Date(currentYear - 4, 11, 31);
+    const maxDOB = new Date(today);
+    maxDOB.setFullYear(maxDOB.getFullYear() - 5);
 
     const [submitted, setSubmitted] = useState(false);
     const [isSubmitting, setIsSubmitting] = useState(false);
