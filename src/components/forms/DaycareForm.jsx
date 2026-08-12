@@ -60,7 +60,7 @@ const DaycareForm = () => {
         
         
         setErrorDOB("")
-        setErrorDOB("")
+        setErrorStartDate("")
         setIsSubmitting(true);
 
         try {
