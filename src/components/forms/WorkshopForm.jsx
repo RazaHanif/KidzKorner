@@ -165,7 +165,7 @@ const WorkshopForm = () => {
                             </SelectGroup>
                         </SelectContent>
                     </Select>
-                    </div>
+                </div>
                     
                     <Button
                     type='submit'
