@@ -280,13 +280,7 @@ const Parties = () => {
                     Ready to Party?
                 </h2>
                 <p className="flex text-center lg:w-3/4">
-                    Whether you're looking for daycare, preschool, camps, or
-                    birthday parties, our team is happy to answer your
-                    questions. Complete the form below and we'll get back to you
-                    as soon as possible.
-                </p>
-                <p className="flex text-center">
-                    Ready to Party? Contact us today to secure your date!
+                    Contact us today to secure your date!
                 </p>
                 <PartyForm />
             </div>
