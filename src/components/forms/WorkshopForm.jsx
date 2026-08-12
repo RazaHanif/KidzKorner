@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/select"
 import { useState } from 'react';
 import FormLayout from "../FormLayout"
+import { workshops } from "../../../api/workshopData"
 
 const WorkshopForm = () => {
     const [formData, setFormData] = useState({
@@ -28,6 +29,7 @@ const WorkshopForm = () => {
     });
     const [submitted, setSubmitted] = useState(false);
     const [isSubmitting, setIsSubmitting] = useState(false)
+    const workshopData = workshops
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -146,11 +148,11 @@ const WorkshopForm = () => {
                             <SelectValue placeholder="Choose a workshop"/>
                         </SelectTrigger>
                         <SelectContent>
-                            <SelectGroup>
-                                
+                            <SelectGroup>                                
                                 <SelectLabel>
-                                Workshops
+                                    Workshops
                                 </SelectLabel>
+                                {workshopData.map()}
                                 <SelectItem 
                                 value="Paint Night"
                                 >
