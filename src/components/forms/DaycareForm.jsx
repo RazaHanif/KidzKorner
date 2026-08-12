@@ -42,7 +42,7 @@ const DaycareForm = ({ daycareType }) => {
         email: "",
         phone: "",
         programType: daycareType ? programTypes[daycareType] : "",
-        session: daycareType ? sessionTypes[daycareType] : "",
+        session: "",
         dob: today.toISOString().split("T")[0],
         startDate: "",
         interviewTiming: "",
