@@ -20,7 +20,7 @@ const DaycareForm = () => {
         phone: "",
         ageGroup: "",
         programType: "",
-        dob: "",
+        dob: today.toISOString().split("T")[0],
         startDate: "",
         interviewTiming: "",
         message: "",
