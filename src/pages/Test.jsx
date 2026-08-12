@@ -111,6 +111,17 @@ const Test = () => {
                     <DaycareForm />
                 </div>
 
+                            {/* Before & After School Daycare */}
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6" id="before-after-form">
+                <p className="flex text-center">
+                    Before & After School Daycare
+                </p>
+                
+                {/* TODO:MAKE THIS FORM BEFORE&AFTER SPECIFIC  */}
+                {/* [DaycareForm type="before_after"] */}
+                <DaycareForm />
+            </div>
+
             </div>
 
             {/* Parties */}
