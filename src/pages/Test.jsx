@@ -13,7 +13,9 @@ const Test = () => {
                 
                 {/* Workshop Form */}
                 <div>
-                    <p></p>
+                    <p>
+                        Workshop Form
+                    </p>
                     <WorkshopForm />
                 </div>
             </div>
