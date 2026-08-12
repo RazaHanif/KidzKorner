@@ -29,6 +29,7 @@ const PartyForm = () => {
     const [submitted, setSubmitted] = useState(false);
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [openPartyDate, setOpenPartyDate] = useState(false);
+    const [errorPartyDate, setErrorPartyDate] = useState(false);
     const today = new Date();
 
     const handleChange = (e) => {
@@ -41,6 +42,12 @@ const PartyForm = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        if (!formData.partyDate) {
+            setErrorPartyDate("Please select a date for party.");
+            return;
+        }
+
+        setErrorPartyDate("")
         setIsSubmitting(true);
 
         try {
@@ -113,6 +120,16 @@ const PartyForm = () => {
 
                     <div className="grid items-center gap-2 w-4/5 p-2">
                         <Label htmlFor="partyDate">Party Date</Label>
+                        {errorPartyDate && (
+                            <Alert variant="destructive" className="w-4/5">
+                                <AlertCircle className="h-4 w-4" />
+                                <AlertTitle>Missing information</AlertTitle>
+                                <AlertDescription>
+                                    Please select a date of birth before
+                                    submitting the form.
+                                </AlertDescription>
+                            </Alert>
+                        )}
                         <Popover
                             open={openPartyDate}
                             onOpenChange={setOpenPartyDate}
