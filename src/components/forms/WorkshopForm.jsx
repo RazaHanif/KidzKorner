@@ -19,56 +19,52 @@ import { useState } from 'react';
 // Remove socialMedia, contactAgain, allergies
 // Add childName parentName
 const WorkshopForm = () => {
-    
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    workshop: '',
-    socialMedia: '',
-    contactAgain: '',
-    allergies: '',
-    type: 'workshop'
-  });
-  const [submitted, setSubmitted] = useState(false);
-  const [isSubmitting, setIsSubmitting] = useState(false)
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        phone: '',
+        workshop: '',
+        socialMedia: '',
+        contactAgain: '',
+        allergies: '',
+        type: 'workshop'
     });
-  };
+    const [submitted, setSubmitted] = useState(false);
+    const [isSubmitting, setIsSubmitting] = useState(false)
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setIsSubmitting(true)
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({
+            ...formData,
+            [name]: value,
+        });
+    };
 
-    try {
-      const response = await fetch('/api/send-email', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        setIsSubmitting(true);
 
-      if (response.ok) {
-        setSubmitted(true)
-      }
-      else {
-        alert('Failed to submit the form.')
-      }
+        try {
+            const response = await fetch("/api/send-email", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(formData),
+            });
 
-    } catch (e) {
-      alert('Failed to submit the form.')
-      console.log(e);
-    } finally {
-      setIsSubmitting(false)
-    }
-
-  };
+            if (response.ok) {
+                setSubmitted(true);
+            } else {
+                alert("Failed to submit the form.");
+            }
+        } catch (e) {
+            alert("Failed to submit the form.");
+            console.log(e);
+        } finally {
+            setIsSubmitting(false);
+        }
+    };
 
 return (
 <div className="flex flex-col justify-center items-center w-full p-2">
