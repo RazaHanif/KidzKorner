@@ -12,7 +12,7 @@ const Test = () => {
                 <h2 className="text-xl font-bold">Work Shop Forms</h2>
                 
                 {/* Workshop Form */}
-                <div className="flex justify-center items-center">
+                <div className="flex flex-col justify-center items-center w-full">
                     <p>
                         Workshop Form
                     </p>
