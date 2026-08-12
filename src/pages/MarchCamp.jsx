@@ -282,9 +282,6 @@ const MarchCamp = () => {
                 <p className="flex text-center">
                     Interested in March Break Camp?
                 </p>
-
-                {/* TODO:MAKE THIS FORM MARCH SPECIFIC  */}
-                {/* [CampForm type="march"] */}
                 <CampForm />
             </div>
 
