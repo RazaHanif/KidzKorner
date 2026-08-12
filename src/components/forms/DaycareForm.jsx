@@ -23,7 +23,7 @@ const DaycareForm = () => {
         programType: "",
         interviewTiming: "",
         message: "",
-        type: "childcare",
+        type: "daycare",
     });
 
     const [submitted, setSubmitted] = useState(false);
