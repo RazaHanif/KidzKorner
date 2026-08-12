@@ -328,7 +328,7 @@ const DaycareForm = ({ daycareType }) => {
                     {daycareType ? (
                         <div className="grid gap-2 w-4/5 p-2">
                             <Label>Session</Label>
-                            <Input value={programTypes[daycareType]} disabled />
+                            <Input value={sessionTypes[daycareType]} disabled />
                         </div>
                     ) : (
                         <div className="grid gap-2 w-4/5 p-2">
@@ -343,7 +343,7 @@ const DaycareForm = ({ daycareType }) => {
                                     }))
                                 }
                             >
-                                {Object.entries(programTypes).map(
+                                {Object.entries(sessionTypes).map(
                                     ([key, value]) => (
                                         <div
                                             className="flex items-center gap-3"
