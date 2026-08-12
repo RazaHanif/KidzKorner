@@ -166,23 +166,6 @@ const WorkshopForm = () => {
                         </SelectContent>
                     </Select>
                     </div>
-
-                    <div className="grid items-center gap-2 w-4/5 p-2">
-                    <Label 
-                        htmlFor="message" 
-                    >
-                        Allergies
-                    </Label>
-                    <Input
-                        type="text"
-                        placeholder="List all allergies, n/a if none."
-                        id="allergies"
-                        name="allergies"
-                        value={formData.allergies}
-                        onChange={handleChange}
-                        required
-                    />
-                    </div>
                     
                     <Button
                     type='submit'
