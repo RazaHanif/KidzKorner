@@ -328,7 +328,7 @@ const DaycareForm = ({ daycareType }) => {
 
                     {formData.programType ? (
                         <div className="grid gap-2 w-4/5 p-2">
-                            <Label>Session s </Label>
+                            <Label>Session</Label>
 
                             <RadioGroup
                                 value={formData.session}
