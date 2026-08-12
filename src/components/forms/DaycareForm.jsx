@@ -359,30 +359,6 @@ const DaycareForm = ({ daycareType }) => {
                         </div>
                     )}
 
-                    <div className="grid items-center gap-2 w-4/5 p-2">
-                        <Label>Program Type</Label>
-                        <RadioGroup
-                            value={formData.programType}
-                            onValueChange={(value) =>
-                                setFormData((prev) => ({
-                                    ...prev,
-                                    programType: value,
-                                }))
-                            }
-                        >
-                            <div className="flex items-center gap-3">
-                                <RadioGroupItem
-                                    value="Preschool"
-                                    id="radio-1"
-                                />
-                                <Label htmlFor="radio-1">Preschool</Label>
-                            </div>
-                            <div className="flex items-center gap-3">
-                                <RadioGroupItem value="Toddler" id="radio-2" />
-                                <Label htmlFor="radio-2">Toddler</Label>
-                            </div>
-                        </RadioGroup>
-                    </div>
 
                     <div className="grid items-center gap-2 w-4/5 p-2">
                         <Label>Program Type</Label>
