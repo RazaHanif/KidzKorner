@@ -242,6 +242,7 @@ const DaycareForm = () => {
                                             ? new Date(formData.startDate)
                                             : undefined
                                     }
+                                    disabled
                                     onSelect={(date) => {
                                         if (
                                             date instanceof Date &&
