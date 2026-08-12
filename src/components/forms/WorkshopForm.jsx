@@ -100,18 +100,18 @@ const WorkshopForm = () => {
                     </div>
 
                     <div className="grid items-center gap-2 w-4/5 p-2">
-                    <label htmlFor="email">
-                        Email
-                    </label>
-                    <Input
-                        type="email"
-                        placeholder="agentp@owca.com"
-                        id="email"
-                        name="email"
-                        value={formData.email}
-                        onChange={handleChange}
-                        required
-                    />
+                        <label htmlFor="email">
+                            Email
+                        </label>
+                        <Input
+                            type="email"
+                            placeholder="agentp@owca.com"
+                            id="email"
+                            name="email"
+                            value={formData.email}
+                            onChange={handleChange}
+                            required
+                        />
                     </div>
 
                     <div 
