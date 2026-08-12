@@ -326,7 +326,7 @@ const DaycareForm = ({ daycareType }) => {
                     )}
 
 
-                    {daycareType ? (
+                    {formData.programType ? (
                         <div className="grid gap-2 w-4/5 p-2">
                             <Label>Session</Label>
                             <Input value={sessionTypes[daycareType]} disabled />
