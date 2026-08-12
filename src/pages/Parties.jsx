@@ -1,4 +1,4 @@
-import PartyForm from "@/components/PartyForm";
+import PartyForm from "@/components/forms/PartyForm";
 import PartyCard from "@/components/PartyCard";
 import Image from "@/components/Image";
 import {
@@ -26,29 +26,29 @@ const Parties = () => {
     const faq = [
         {
             q: "Can we bring our own food?",
-            a: "Yes. Families are welcome to bring their own food at no additional cost. We also provide access to a private kitchen space. Please note that our facility follows a strict nut-free policy."
+            a: "Yes. Families are welcome to bring their own food at no additional cost. We also provide access to a private kitchen space. Please note that our facility follows a strict nut-free policy.",
         },
         {
             q: "Is the playground private?",
-            a: "Yes. During your booking, the indoor playground is reserved exclusively for your party and invited guests."
+            a: "Yes. During your booking, the indoor playground is reserved exclusively for your party and invited guests.",
         },
         {
             q: "How many guests can attend?",
-            a: "Our party packages accommodate up to 50 guests."
+            a: "Our party packages accommodate up to 50 guests.",
         },
         {
             q: "Can we decorate?",
-            a: "Absolutely! Your're welcome to bring your own decorations to personalize the space."
+            a: "Absolutely! Your're welcome to bring your own decorations to personalize the space.",
         },
         {
             q: "Do you provide food?",
-            a: "Our Platinum and VIP packages include pizza, while all packages allow you to bring your own food."
+            a: "Our Platinum and VIP packages include pizza, while all packages allow you to bring your own food.",
         },
         {
             q: "Can we stay longer?",
-            a: "Additional party time may be available for $50 per hour, subject to availability."
+            a: "Additional party time may be available for $50 per hour, subject to availability.",
         },
-    ]
+    ];
 
     return (
         <div className="flex flex-col flex-1 justify-center items-center gap-6 w-full lg:py-16 pb-8">
@@ -162,36 +162,46 @@ const Parties = () => {
                 <div className="flex lg:flex-row flex-col p-2 gap-2">
                     <div className="flex flex-col gap-2 w-full flex-1">
                         <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Private Venue Rental
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary" />
+                            Private Venue Rental
                         </p>
                         <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Indoor Playground exclusive to your guests
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary" />
+                            Indoor Playground exclusive to your guests
                         </p>
                         <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Bring your own food
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary" />
+                            Bring your own food
                         </p>
                         <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Private Kitchen Available
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary" />
+                            Private Kitchen Available
                         </p>
                         <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Decorations Welcome
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary" />
+                            Decorations Welcome
                         </p>
                     </div>
                     <div className="flex flex-col gap-2 w-full flex-1">
                         <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Up to 50 guests
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary" />
+                            Up to 50 guests
                         </p>
                         <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Tea & Coffee Station
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary" />
+                            Tea & Coffee Station
                         </p>
                         <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Safe, clean, nut-free environment
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary" />
+                            Safe, clean, nut-free environment
                         </p>
                         <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Convenient Milton location
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary" />
+                            Convenient Milton location
                         </p>
                         <p className="flex items-start gap-3">
-                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary"/>Setup/Take Down Time Included
+                            <CircleCheck className="mt-1 h-5 w-5 shrink-0 text-primary" />
+                            Setup/Take Down Time Included
                         </p>
                     </div>
                 </div>
@@ -213,7 +223,7 @@ const Parties = () => {
                     />
                 </div>
             </div>
-            
+
             <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border-y lg:py-12 py-8 lg:my-12 my-8">
                 <div className="flex flex-col justify-center items-center">
                     <h2 className="text-xl font-bold text-center">
@@ -222,30 +232,38 @@ const Parties = () => {
                     <div className="flex lg:flex-row flex-col p-2 gap-2">
                         <div className="flex flex-col gap-2 w-full flex-1">
                             <p className="flex items-start gap-3">
-                                <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> 1st Birthdays
+                                <PartyPopper className="h-6 w-6 shrink-0 text-primary" />{" "}
+                                1st Birthdays
                             </p>
                             <p className="flex items-start gap-3">
-                                <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> 2nd Birthdays
+                                <PartyPopper className="h-6 w-6 shrink-0 text-primary" />{" "}
+                                2nd Birthdays
                             </p>
                             <p className="flex items-start gap-3">
-                                <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> Preschool Birthdays
+                                <PartyPopper className="h-6 w-6 shrink-0 text-primary" />{" "}
+                                Preschool Birthdays
                             </p>
                             <p className="flex items-start gap-3">
-                                <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> Kindergarten Birthdays
+                                <PartyPopper className="h-6 w-6 shrink-0 text-primary" />{" "}
+                                Kindergarten Birthdays
                             </p>
                         </div>
                         <div className="flex flex-col gap-2 w-full flex-1">
                             <p className="flex items-start gap-3">
-                                <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> School-aged Children
+                                <PartyPopper className="h-6 w-6 shrink-0 text-primary" />{" "}
+                                School-aged Children
                             </p>
                             <p className="flex items-start gap-3">
-                                <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> Family Celebrations
+                                <PartyPopper className="h-6 w-6 shrink-0 text-primary" />{" "}
+                                Family Celebrations
                             </p>
                             <p className="flex items-start gap-3">
-                                <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> Winter Birthday Parties
+                                <PartyPopper className="h-6 w-6 shrink-0 text-primary" />{" "}
+                                Winter Birthday Parties
                             </p>
                             <p className="flex items-start gap-3">
-                                <PartyPopper className="h-6 w-6 shrink-0 text-primary"/> Rainy Day Birthday Parties
+                                <PartyPopper className="h-6 w-6 shrink-0 text-primary" />{" "}
+                                Rainy Day Birthday Parties
                             </p>
                         </div>
                     </div>
@@ -253,15 +271,13 @@ const Parties = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10">
-                <h2 className="text-xl font-bold text-center pb-4">
-                    FAQ
-                </h2>
+                <h2 className="text-xl font-bold text-center pb-4">FAQ</h2>
                 <FAQAccordion faq={faq} />
             </div>
 
             <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 border-t lg:pt-12 pt-8 lg:mt-12 mt-8">
                 <p className="flex text-center">
-                    Ready to Party? Contact us today to secure your date! 
+                    Ready to Party? Contact us today to secure your date!
                 </p>
                 <PartyForm />
             </div>
@@ -277,7 +293,7 @@ const Parties = () => {
                 name="description"
                 content="Host an unforgettable kids birthday party at Kidz Korner in Milton, Ontario. Enjoy private access to our indoor playground, flexible party packages, and a fun, stress-free celebration for up to 50 guests."
             />
-            <meta 
+            <meta
                 property="og:title"
                 content="Kids Birthday Parties in Milton, Ontario | Kidz Korner"
             />
@@ -285,10 +301,7 @@ const Parties = () => {
                 property="og:description"
                 content="Host an unforgettable kids birthday party at Kidz Korner in Milton, Ontario. Enjoy private access to our indoor playground, flexible party packages, and a fun, stress-free celebration for up to 50 guests."
             />
-            <meta 
-                property="og:type"
-                content="website"
-            />
+            <meta property="og:type" content="website" />
             <meta
                 property="og:url"
                 content="https://www.kidzkornermilton.com/birthday-parties"

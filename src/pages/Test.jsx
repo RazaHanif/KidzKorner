@@ -1,7 +1,7 @@
 import CampForm from "../components/forms/CampForm";
 import ContactForm from "../components/forms/ContactForm";
 import DaycareForm from "../components/forms/DaycareForm";
-import PartyForm from "../components/PartyForm";
+import PartyForm from "../components/forms/PartyForm";
 import WorkshopForm from "../components/forms/WorkshopForm";
 
 const Test = () => {
