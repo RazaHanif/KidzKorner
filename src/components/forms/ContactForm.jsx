@@ -57,7 +57,9 @@ const ContactForm = () => {
             form={
                 <>
                     <div className="grid items-center gap-2 w-4/5 p-2">
-                        <Label htmlFor="name">Name</Label>
+                        <Label htmlFor="name">
+                            Name
+                        </Label>
                         <Input
                             type="text"
                             placeholder="Chilli Heeler"
