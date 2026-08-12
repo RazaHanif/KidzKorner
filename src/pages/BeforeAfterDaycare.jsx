@@ -492,7 +492,7 @@ const BeforeAfterDaycare = () => {
                 id="before-after-form"
             >
                 <p className="flex text-center">Ready to join us?</p>
-                <DaycareForm />
+                <DaycareForm daycareType={"before_after"}/>
             </div>
 
             <StructData schema={localBusinessSchema} />
