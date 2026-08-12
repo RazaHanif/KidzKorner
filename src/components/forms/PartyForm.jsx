@@ -125,7 +125,7 @@ const PartyForm = () => {
                                 <AlertCircle className="h-4 w-4" />
                                 <AlertTitle>Missing information</AlertTitle>
                                 <AlertDescription>
-                                    Please select a date of birth before
+                                    Please select a date for the party before
                                     submitting the form.
                                 </AlertDescription>
                             </Alert>
