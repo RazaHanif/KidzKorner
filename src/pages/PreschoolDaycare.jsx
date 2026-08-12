@@ -356,7 +356,7 @@ const PreschoolDaycare = () => {
                 id="preschool-form"
             >
                 <p className="flex text-center">Ready to join us?</p>
-                <DaycareForm />
+                <DaycareForm daycareType={"preschool"} />
             </div>
 
             <StructData schema={localBusinessSchema} />
