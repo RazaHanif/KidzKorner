@@ -242,9 +242,6 @@ const DaycareForm = () => {
                                             ? new Date(formData.startDate)
                                             : undefined
                                     }
-                                    disabled={{
-                                        before: minStartDate
-                                    }}
                                     defaultMonth={minStartDate}
                                     onSelect={(date) => {
                                         if (
