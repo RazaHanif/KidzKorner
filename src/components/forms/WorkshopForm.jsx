@@ -143,9 +143,9 @@ const WorkshopForm = () => {
                         required  
                     >
                         <SelectTrigger className="w-full">
-                        <SelectValue 
-                            placeholder="Choose a workshop" 
-                        />
+                            <SelectValue 
+                                placeholder="Choose a workshop" 
+                            />
                         </SelectTrigger>
                         <SelectContent>
                             <SelectGroup>
