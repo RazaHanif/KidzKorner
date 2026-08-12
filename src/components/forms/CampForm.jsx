@@ -18,7 +18,7 @@ const CampForm = () => {
         email: "",
         phone: "",
         dob: "",
-        startDate: "",
+        session: "",
         message: "",
         type: "camp",
     });
