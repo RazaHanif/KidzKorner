@@ -190,24 +190,6 @@ const CampForm = ({ campType }) => {
                                         </Label>
                                     </div>
                                 ))}
-                                <div className="flex items-center gap-3">
-                                    <RadioGroupItem
-                                        value="March Break"
-                                        id="radio-2"
-                                    />
-                                    <Label htmlFor="radio-2">March Break</Label>
-                                </div>
-                                <div className="flex items-center gap-3">
-                                    <RadioGroupItem
-                                        value="Summer Break"
-                                        id="radio-3"
-                                    />
-                                    <Label htmlFor="radio-3">Summer Break</Label>
-                                </div>
-                                <div className="flex items-center gap-3">
-                                    <RadioGroupItem value="PA Day" id="radio-4" />
-                                    <Label htmlFor="radio-4">PD Day</Label>
-                                </div>
                             </RadioGroup>
                         </div>
                     )}
