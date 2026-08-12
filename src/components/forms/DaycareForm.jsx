@@ -30,7 +30,7 @@ const DaycareForm = ({ daycareType }) => {
             "Half Day - 9:00 AM to 11:30 AM",
             "Half Day - 12:30 PM to 3:00 PM",
         ],
-        before_after: [
+        "before_after": [
             "Before School - 7:30 AM to 9:00 AM",
             "After School - 3:00 PM to 6:00 PM",
         ],
