@@ -282,7 +282,7 @@ const MarchCamp = () => {
                 <p className="flex text-center">
                     Interested in March Break Camp?
                 </p>
-                <CampForm />
+                <CampForm campType={"march"}/>
             </div>
 
             <StructData schema={localBusinessSchema} />
