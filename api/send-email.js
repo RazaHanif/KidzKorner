@@ -42,7 +42,7 @@ export default async function handler(req, res) {
     let subject = ''
 
     switch (data.type) {
-                case 'camp':
+        case 'camp':
             subject = `${data.session} Camp Inquiry - ${data.name}`
             emailContent = `
                 ${data.session} Camp Inquiry\n
