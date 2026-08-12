@@ -1,9 +1,3 @@
-import CampForm from "../components/forms/CampForm";
-import ContactForm from "../components/forms/ContactForm";
-import DaycareForm from "../components/forms/DaycareForm";
-import PartyForm from "../components/forms/PartyForm";
-import WorkshopForm from "../components/forms/WorkshopForm";
-
 const Test = () => {
     return (
         <div className="flex flex-col gap-16 justify-center items-center w-full">
