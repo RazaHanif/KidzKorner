@@ -241,7 +241,6 @@ const CampForm = ({ campType }) => {
                             name="message"
                             value={formData.message}
                             onChange={handleChange}
-                            required
                         />
                     </div>
 
