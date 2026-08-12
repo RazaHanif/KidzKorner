@@ -20,7 +20,7 @@ const CampForm = () => {
         dob: "",
         startDate: "",
         message: "",
-        type: "summercamp",
+        type: "camp",
     });
 
     const [submitted, setSubmitted] = useState(false);
