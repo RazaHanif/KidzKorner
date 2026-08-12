@@ -17,8 +17,6 @@ import {
 import { useState } from 'react';
 import FormLayout from "../FormLayout"
 
-// Remove socialMedia, contactAgain, allergies
-// Add childName parentName
 const WorkshopForm = () => {
     const [formData, setFormData] = useState({
         parentName: '',
@@ -26,9 +24,6 @@ const WorkshopForm = () => {
         email: '',
         phone: '',
         workshop: '',
-        socialMedia: '',
-        contactAgain: '',
-        allergies: '',
         type: 'workshop'
     });
     const [submitted, setSubmitted] = useState(false);
