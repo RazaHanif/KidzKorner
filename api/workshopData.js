@@ -12,7 +12,7 @@ export const workshops = [
             "Toddlers and preschoolers can explore their creativity through fun art projects, crafts, painting, and hands-on activities.",
     },
     {
-        title: "Cooking & Baking",
+        title: "Cooking & Baking Class",
         icon: ChefHat,
         description:
             "Fun, age-appropriate cooking and baking activities give children a chance to explore simple recipes while having fun together.",
