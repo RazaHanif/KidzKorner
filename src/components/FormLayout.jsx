@@ -1,6 +1,6 @@
 const FormLayout = ({ title, form, handleSubmit, submitted }) => {
     return (
-        <div className="w-full md:w-3/4">
+        <div className="w-3/4">
             { submitted ? (
                 <div 
                     className='w-full flex flex-col justify-center items-center gap-2 border-2 bg-card rounded-lg shadow-lg py-4'
