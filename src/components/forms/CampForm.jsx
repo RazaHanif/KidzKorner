@@ -1,4 +1,4 @@
-import { ChevronDownIcon } from "lucide-react";
+import { AlertCircle, ChevronDownIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Calendar } from "@/components/ui/calendar";
 import { Input } from "@/components/ui/input";
@@ -17,7 +17,6 @@ import {
   AlertDescription,
   AlertTitle,
 } from "@/components/ui/alert"
-import { AlertCircle } from "lucide-react";
 
 const CampForm = ({ campType }) => {
     const sessionTypes = {
