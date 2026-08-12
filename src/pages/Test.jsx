@@ -25,7 +25,7 @@ const Test = () => {
                     id="winter-camp-form"    
                 >
                     <p className="flex text-center">
-                        Interested in Winter Break Camp?
+                        Winter Break Camp
                     </p>
 
                     {/* TODO:MAKE THIS FORM WINTER SPECIFIC  */}
