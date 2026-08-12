@@ -10,7 +10,7 @@ const ContactForm = () => {
         email: "",
         phone: "",
         message: "",
-        type: "about",
+        type: "contact",
     });
 
     const [submitted, setSubmitted] = useState(false);
