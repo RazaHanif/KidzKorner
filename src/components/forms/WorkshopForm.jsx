@@ -19,6 +19,7 @@ import { useState } from 'react';
 // Remove socialMedia, contactAgain, allergies
 // Add childName parentName
 const WorkshopForm = () => {
+    
   const [formData, setFormData] = useState({
     name: '',
     email: '',
