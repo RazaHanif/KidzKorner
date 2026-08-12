@@ -95,7 +95,7 @@ const Test = () => {
                     <p className="flex justify-center items-center w-full">
                         Before & After School Daycare
                     </p>
-                    <DaycareForm />
+                    <DaycareForm daycareType={"before_after"}/>
                 </div>
             </div>
 
