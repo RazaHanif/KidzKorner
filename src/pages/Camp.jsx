@@ -259,7 +259,7 @@ const Camp = () => {
                                                 rel="noopener noreferrer"
                                                 className="hover:underline"
                                             >
-                                                Follow us on Instagram to see weekly themes and activities
+                                                Follow us on Instagram to see weekly activities
                                             </a>
                                         </li>
                                     </ul>
