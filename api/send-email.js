@@ -42,6 +42,18 @@ export default async function handler(req, res) {
     let subject = ''
 
     switch (data.type) {
+                case 'camp':
+            subject = `${data.session} Camp Inquiry - ${data.name}`
+            emailContent = `
+                ${data.session} Camp Inquiry\n
+                Name: ${data.name}\n
+                Email: ${data.email}\n
+                Phone: ${data.phone}\n
+                Date of Birth: ${data.dob}\n
+                Session: ${data.session}\n
+                Message: ${data.message}
+            `
+            break
         case 'about':            
             subject = `General Inquiry - ${data.name}`
             emailContent = `
