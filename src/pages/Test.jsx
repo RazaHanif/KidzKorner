@@ -148,9 +148,15 @@ const Test = () => {
 
             </div>
 
+            <div className="flex flex-col justify-center items-center w-full border">
+
+
+
+                <h2 className="text-xl font-bold">Party Forms</h2>
             
 
 
+            </div>
 
 
             {/* Contact Us */}
