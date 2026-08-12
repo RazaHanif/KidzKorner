@@ -24,8 +24,8 @@ const Test = () => {
                 <h2 className="text-xl font-bold">Camp Forms</h2>
 
                 {/* Camp */}
-                <div className="flex flex-col justify-center items-center w-9/10 lg:w-3/4 gap-6">
-                    <p className="flex text-center">
+                <div className="flex flex-col justify-center items-center w-full">
+                    <p className="flex text-center w-full">
                         Camp
                     </p> 
                     <CampForm/>
