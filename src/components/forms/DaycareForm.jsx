@@ -339,17 +339,16 @@ const DaycareForm = ({ daycareType }) => {
                                     }))
                                 }
                             >
-                                {sessionTypes[formData.programType].map(
-                                    ([key, value]) => (
+                                {sessionTypes[formData.programType].map((value, idx) => (
                                         <div
                                             className="flex items-center gap-3"
-                                            key={key}
+                                            key={idx}
                                         >
                                             <RadioGroupItem
                                                 value={value}
-                                                id={`radio-${key}`}
+                                                id={`radio-${idx}`}
                                             />
-                                            <Label htmlFor={`radio-${key}`}>
+                                            <Label htmlFor={`radio-${idx}`}>
                                                 {value}
                                             </Label>
                                         </div>
