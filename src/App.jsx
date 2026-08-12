@@ -83,10 +83,10 @@ function App() {
 
                     <Route path="/indoor-playground" element={<Playground />} />
 
-                                        
+{/*                                         
                         Only activate in dev
                         <Route path="/test" element={<Test />} />
-                   
+                    */}
 
                     <Route path="/workshops" element={<Workshops />} />
 
