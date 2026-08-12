@@ -142,7 +142,7 @@ const WorkshopForm = () => {
                         }}
                         required  
                     >
-                        <SelectTrigger>
+                        <SelectTrigger className="w-full">
                             <SelectValue placeholder="Choose a workshop"/>
                         </SelectTrigger>
                         <SelectContent>
