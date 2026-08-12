@@ -74,9 +74,6 @@ const Test = () => {
                     {/* [CampForm type="march"] */}
                     <CampForm/>
                 </div>
-
-
-
             </div>
 
             {/* Toddler Daycare */}
