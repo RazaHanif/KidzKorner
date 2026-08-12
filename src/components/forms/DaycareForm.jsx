@@ -331,11 +331,11 @@ const DaycareForm = ({ daycareType }) => {
                             <Label>Session</Label>
 
                             <RadioGroup
-                                value={formData.programType}
+                                value={formData.session}
                                 onValueChange={(value) =>
                                     setFormData((prev) => ({
                                         ...prev,
-                                        programType: value,
+                                        session: value,
                                     }))
                                 }
                             >
