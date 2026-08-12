@@ -10,7 +10,7 @@ const FormLayout = ({ title, form, handleSubmit, submitted }) => {
             ) : (
                 <form
                     onSubmit={ handleSubmit }
-                    className='w-full flex flex-col justify-center items-center shadow-lg gap-2 border-2 bg-card rounded-lg shadow-lg py-4'
+                    className='w-full flex flex-col justify-center items-center shadow-lg gap-2 border-2 bg-card rounded-lg py-4'
                 >
                     <div 
                         className='text-2xl font-semibold underline'
