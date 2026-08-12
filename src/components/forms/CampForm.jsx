@@ -25,7 +25,7 @@ const CampForm = ({ campType }) => {
         email: "",
         phone: "",
         dob: "",
-        session: sessionTypes[campType] || "",
+        session: "",
         message: "",
         type: "camp",
     });
@@ -167,6 +167,7 @@ const CampForm = ({ campType }) => {
                         </Popover>
                     </div>
 
+                    {campType }
                     <div className="grid items-center gap-2 w-4/5 p-2">
                         <Label>Session</Label>
                         <RadioGroup
@@ -178,13 +179,17 @@ const CampForm = ({ campType }) => {
                                 }))
                             }
                         >
-                            <div className="flex items-center gap-3">
-                                <RadioGroupItem
-                                    value="Winter Break"
-                                    id="radio-1"
-                                />
-                                <Label htmlFor="radio-1">Winter Break</Label>
-                            </div>
+                            {Object.entries(sessionTypes).map(([key, value, idx]) => (
+                                <div className="flex items-center gap-3" key={key}>
+                                    <RadioGroupItem
+                                        value={value}
+                                        id={`radio-${idx}`}
+                                    />
+                                    <Label htmlFor={`radio-${idx}`}>
+                                        {value}
+                                    </Label>
+                                </div>
+                            ))}
                             <div className="flex items-center gap-3">
                                 <RadioGroupItem
                                     value="March Break"
