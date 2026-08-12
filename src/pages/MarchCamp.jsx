@@ -43,7 +43,7 @@ const MarchCamp = () => {
     const faq = [
         {
             q: "What ages does Kidz Korner March Break Camp serve?",
-            a: "Kidz Korner March Break Camp is available for the same age range as our regular camp program. Families can contact us to confirm whether their child is eligible for the current March Break program.",
+            a: "Kidz Korner March Break Camp is available for children between 4 and 13 years old. Families can contact us to confirm whether their child is eligible for the current March Break program.",
         },
         {
             q: "What are the hours for March Break Camp?",
