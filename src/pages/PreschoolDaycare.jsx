@@ -356,9 +356,6 @@ const PreschoolDaycare = () => {
                 id="preschool-form"
             >
                 <p className="flex text-center">Ready to join us?</p>
-
-                {/* TODO:MAKE THIS FORM PRESCHOOL SPECIFIC  */}
-                {/* [DaycareForm type="preschool"] */}
                 <DaycareForm />
             </div>
 
