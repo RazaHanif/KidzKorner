@@ -98,7 +98,7 @@ export default async function handler(req, res) {
                 Email: ${data.email}\n
                 Phone: ${data.phone}\n
                 Date of Birth: ${data.dob}\n
-                Session: ${data.startDate}\n
+                Session: ${data.session}\n
                 Message: ${data.message}
             `
             break
