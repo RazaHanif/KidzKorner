@@ -75,7 +75,7 @@ const WorkshopForm = () => {
                         </label>
                         <Input
                             type="text"
-                            placeholder="Perry Platypus"
+                            placeholder="Robert 'Bob'"
                             id="name"
                             name="name"
                             value={formData.name}
