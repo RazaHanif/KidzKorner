@@ -25,7 +25,7 @@ const CampForm = ({ campType }) => {
         email: "",
         phone: "",
         dob: "",
-        session: sessionTypes[campType],
+        session: sessionTypes[campType] || "",
         message: "",
         type: "camp",
     });
