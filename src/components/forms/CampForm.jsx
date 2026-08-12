@@ -25,14 +25,10 @@ const CampForm = ({ campType }) => {
         email: "",
         phone: "",
         dob: "",
-        session: "",
+        session: campType ? sessionTypes[campType] : "",
         message: "",
         type: "camp",
     });
-
-    const availableSessions = campType 
-        ? { [campType]: sessionTypes[campType] } 
-        : sessionTypes
 
     const [submitted, setSubmitted] = useState(false);
     const [isSubmitting, setIsSubmitting] = useState(false);
@@ -171,66 +167,41 @@ const CampForm = ({ campType }) => {
                         </Popover>
                     </div>
 
-                    <div className="grid items-center gap-2 w-4/5 p-2">
-                        <Label>Session</Label>
-                        <RadioGroup
-                            value={formData.startDate}
-                            onValueChange={(value) =>
-                                setFormData((prev) => ({
+                    {campType ? (
+                        <div className="grid gap-2 w-4/5 p-2">
+                            <Label>Session</Label>
+                            <Input
+                                value={sessionTypes[campType]}
+                                disabled
+                            />
+                        </div>
+                        ) : (
+                        <div className="grid gap-2 w-4/5 p-2">
+                            <Label>Session</Label>
+
+                            <RadioGroup
+                                value={formData.session}
+                                onValueChange={(value) =>
+                                    setFormData((prev) => ({
                                     ...prev,
-                                    startDate: value,
-                                }))
-                            }
-                        >
-                            {Object.entries(availableSessions).map(([key, value, idx]) => (
+                                    session: value,
+                                    }))
+                                }
+                            >
+                            {Object.entries(sessionTypes).map(([key, value]) => (
                                 <div className="flex items-center gap-3" key={key}>
-                                    <RadioGroupItem
-                                        value={value}
-                                        id={`radio-${idx}`}
-                                    />
-                                    <Label htmlFor={`radio-${idx}`}>
-                                        {value}
-                                    </Label>
+                                <RadioGroupItem
+                                    value={value}
+                                    id={`radio-${key}`}
+                                />
+                                <Label htmlFor={`radio-${key}`}>
+                                    {value}
+                                </Label>
                                 </div>
                             ))}
-                        </RadioGroup>
-                    </div>
-
-                    {campType ? (
-  <div className="grid gap-2 w-4/5 p-2">
-    <Label>Session</Label>
-    <Input
-      value={sessionTypes[campType]}
-      disabled
-    />
-  </div>
-) : (
-  <div className="grid gap-2 w-4/5 p-2">
-    <Label>Session</Label>
-
-    <RadioGroup
-      value={formData.session}
-      onValueChange={(value) =>
-        setFormData((prev) => ({
-          ...prev,
-          session: value,
-        }))
-      }
-    >
-      {Object.entries(sessionTypes).map(([key, value]) => (
-        <div className="flex items-center gap-3" key={key}>
-          <RadioGroupItem
-            value={value}
-            id={`radio-${key}`}
-          />
-          <Label htmlFor={`radio-${key}`}>
-            {value}
-          </Label>
-        </div>
-      ))}
-    </RadioGroup>
-  </div>
-)}
+                            </RadioGroup>
+                        </div>
+                    )}
 
                     <div className="grid items-center gap-2 w-4/5 p-2">
                         <Label htmlFor="message">Tell us more...</Label>
