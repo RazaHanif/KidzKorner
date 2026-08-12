@@ -87,8 +87,7 @@ export default async function handler(req, res) {
                 Child Name: ${data.childName}\n
                 Email: ${data.email}\n
                 Phone: ${data.phone}\n
-                Workshop: ${data.workshop}\n
-
+                Workshop: ${data.workshop}
             `
             break
         case 'summercamp':
