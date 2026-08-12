@@ -26,10 +26,17 @@ const DaycareForm = () => {
         type: "daycare",
     });
 
+    const currentYear = new Date().getFullYear();
+    const today = new Date();
+    const minDOB = new Date(today.setMonth(today.getMonth() - 18));
+    const maxDOB = new Date(currentYear - 4, 11, 31);
+
     const [submitted, setSubmitted] = useState(false);
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [openDOB, setOpenDOB] = useState(false);
     const [openStartDate, setOpenStartDate] = useState(false);
+    const [errorDOB, setErrorDOB] = useState(false)
+    const [errorStartDate, setErrorStartDate] = useState(false)
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -41,6 +48,19 @@ const DaycareForm = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        if (!formData.dob) {
+            setErrorDOB("Please select a date of birth.");
+            return;
+        }
+        
+        if (!formData.startDate) {
+            setErrorStartDate("Please select a date of birth.");
+            return;
+        }
+        
+        
+        setErrorDOB("")
+        setErrorDOB("")
         setIsSubmitting(true);
 
         try {
@@ -112,6 +132,15 @@ const DaycareForm = () => {
 
                     <div className="grid items-center gap-2 w-4/5 p-2">
                         <Label htmlFor="dob">Date of birth</Label>
+                        {errorDOB && (
+                            <Alert variant="destructive" className="w-4/5">
+                                <AlertCircle className="h-4 w-4" />
+                                <AlertTitle>Missing information</AlertTitle>
+                                <AlertDescription>
+                                    Please select a date of birth before submitting the form.
+                                </AlertDescription>
+                            </Alert>
+                        )}
                         <Popover open={openDOB} onOpenChange={setOpenDOB}>
                             <PopoverTrigger asChild>
                                 <Button
@@ -143,6 +172,11 @@ const DaycareForm = () => {
                                             ? new Date(formData.dob)
                                             : undefined
                                     }
+                                    disabled={{
+                                        before: minDOB,
+                                        after: maxDOB
+                                    }}
+                                    defaultMonth={maxDOB}
                                     onSelect={(date) => {
                                         if (
                                             date instanceof Date &&
@@ -165,6 +199,15 @@ const DaycareForm = () => {
 
                     <div className="grid items-center gap-2 w-4/5 p-2">
                         <Label htmlFor="startDate">Enrollment Date</Label>
+                        {errorStartDate && (
+                            <Alert variant="destructive" className="w-4/5">
+                                <AlertCircle className="h-4 w-4" />
+                                <AlertTitle>Missing information</AlertTitle>
+                                <AlertDescription>
+                                    Please select a valid start date before submitting the form.
+                                </AlertDescription>
+                            </Alert>
+                        )}
                         <Popover
                             open={openStartDate}
                             onOpenChange={setOpenStartDate}
