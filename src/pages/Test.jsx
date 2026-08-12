@@ -39,7 +39,7 @@ const Test = () => {
                     id="summer-camp-form"    
                 >
                     <p className="flex text-center">
-                        Interested in Summer Camp?
+                        Interested in Summer Camp 
                     </p>
 
                     {/* TODO:MAKE THIS FORM SUMMER SPECIFIC  */}
