@@ -11,7 +11,6 @@ import {
 } from "@/components/ui/popover";
 import { useState } from "react";
 import FormLayout from "../FormLayout";
-import { before } from "node:test";
 
 const DaycareForm = () => {
     const [formData, setFormData] = useState({
@@ -243,9 +242,10 @@ const DaycareForm = () => {
                                             ? new Date(formData.startDate)
                                             : undefined
                                     }
-                                    disabled={
-                                        before
-                                    }
+                                    disabled={{
+                                        before: minStartDate
+                                    }}
+                                    defaultMonth={minStartDate}
                                     onSelect={(date) => {
                                         if (
                                             date instanceof Date &&
