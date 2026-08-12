@@ -359,60 +359,6 @@ const DaycareForm = ({ daycareType }) => {
                         </div>
                     )}
 
-
-                    <div className="grid items-center gap-2 w-4/5 p-2">
-                        <Label>Program Type</Label>
-                        <RadioGroup
-                            value={formData.session}
-                            onValueChange={(value) =>
-                                setFormData((prev) => ({
-                                    ...prev,
-                                    session: value,
-                                }))
-                            }
-                        >
-                            <div className="flex items-center gap-3">
-                                <RadioGroupItem
-                                    value="Full Day - 9am to 3pm"
-                                    id="radio-1"
-                                />
-                                <Label htmlFor="radio-1">
-                                    Full Day - 9am to 3pm
-                                </Label>
-                            </div>
-
-                            <div className="flex items-center gap-3">
-                                <RadioGroupItem
-                                    value="Half Day - 9am to 11:30am"
-                                    id="radio-2"
-                                />
-                                <Label htmlFor="radio-2">
-                                    Half Day - 9am to 11:30am
-                                </Label>
-                            </div>
-
-                            <div className="flex items-center gap-3">
-                                <RadioGroupItem
-                                    value="Half Day - 12:30pm to 3pm"
-                                    id="radio-3"
-                                />
-                                <Label htmlFor="radio-3">
-                                    Half Day - 12:30pm to 3pm
-                                </Label>
-                            </div>
-
-                            <div className="flex items-center gap-3">
-                                <RadioGroupItem
-                                    value="After School - 3pm to 6pm"
-                                    id="radio-4"
-                                />
-                                <Label htmlFor="radio-4">
-                                    Before / After School Care
-                                </Label>
-                            </div>
-                        </RadioGroup>
-                    </div>
-
                     <div className="grid items-center gap-2 w-4/5 p-2">
                         <Label htmlFor="interviewTiming">
                             Availability for Tour
