@@ -87,7 +87,6 @@ const CampForm = ({ campType }) => {
 
     return (
         <FormLayout
-            title={"Camp Enrollment Form"}
             handleSubmit={handleSubmit}
             submitted={submitted}
             form={
