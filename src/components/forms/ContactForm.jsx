@@ -52,7 +52,6 @@ const ContactForm = () => {
 
     return (
         <FormLayout
-            title={"Contact Form"}
             handleSubmit={handleSubmit}
             submitted={submitted}
             form={
