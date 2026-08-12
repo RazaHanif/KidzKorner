@@ -53,7 +53,7 @@ const Test = () => {
                     id="pa-day-form"
                 >
                     <p className="flex text-center">
-                        Interested in PA Day Camp?
+                        PA Day Camp?
                     </p>
 
                     {/* TODO:MAKE THIS FORM PA DAY SPECIFIC  */}
