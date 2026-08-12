@@ -174,7 +174,6 @@ const DaycareForm = () => {
                                     disabled={{
                                         after: maxDOB,
                                     }}
-                                    defaultMonth={maxDOB}
                                     onSelect={(date) => {
                                         if (
                                             date instanceof Date &&
