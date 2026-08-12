@@ -160,10 +160,7 @@ const Workshops = () => {
                 id="toddler-form"
             >
                 <p className="flex text-center lg:w-3/4">
-                    Whether you're looking for daycare, preschool, camps, or
-                    birthday parties, our team is happy to answer your
-                    questions. Complete the form below and we'll get back to you
-                    as soon as possible.
+                    Join us for our next class!
                 </p>
                 <WorkshopForm />
             </div>
