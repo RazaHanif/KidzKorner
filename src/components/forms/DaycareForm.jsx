@@ -12,7 +12,25 @@ import {
 import { useState } from "react";
 import FormLayout from "../FormLayout";
 
-const DaycareForm = () => {
+const DaycareForm = ({ daycareType }) => {
+    const sessionTypes = {
+        toddler: "Toddler",
+        preschool: "Preschool",
+        before_after: "Before & After School",
+    };
+
+    const programTypes = {
+        daycare: [
+            "Full Day - 9:00 AM to 3:00 PM",
+            "Half Day - 9:00 AM to 11:30 AM",
+            "Half Day - 12:30 PM to 3:00 PM",
+        ],
+        beforeAfter: [
+            "Before School - 7:30 AM to 9:00 AM",
+            "After School - 3:00 PM to 6:00 PM",
+        ],
+    };
+
     const today = new Date();
     const [formData, setFormData] = useState({
         name: "",
@@ -27,8 +45,6 @@ const DaycareForm = () => {
         type: "daycare",
     });
 
-    const maxDOB = new Date(today);
-    maxDOB.setFullYear(maxDOB.getFullYear() - 5);
     const minStartDate = new Date(formData.dob);
     minStartDate.setMonth(minStartDate.getMonth() + 18);
 
@@ -175,7 +191,6 @@ const DaycareForm = () => {
                                     }
                                     disabled={{
                                         after: today,
-                                        before: maxDOB,
                                     }}
                                     onSelect={(date) => {
                                         if (
@@ -205,7 +220,8 @@ const DaycareForm = () => {
                                 <AlertTitle>Missing information</AlertTitle>
                                 <AlertDescription>
                                     Please select a valid start date before
-                                    submitting the form. Start date must be 18 Months after Child's Date of Birth.
+                                    submitting the form. Start date must be 18
+                                    Months after Child's Date of Birth.
                                 </AlertDescription>
                             </Alert>
                         )}
@@ -244,7 +260,7 @@ const DaycareForm = () => {
                                             : undefined
                                     }
                                     disabled={{
-                                        before: minStartDate
+                                        before: minStartDate,
                                     }}
                                     onSelect={(date) => {
                                         if (
