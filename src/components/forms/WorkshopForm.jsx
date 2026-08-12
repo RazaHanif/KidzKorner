@@ -91,9 +91,9 @@ const WorkshopForm = () => {
                         <Input
                             type="text"
                             placeholder="Pearl Krabs"
-                            id="name"
-                            name="name"
-                            value={formData.name}
+                            id="childName"
+                            name="childName"
+                            value={formData.childName}
                             onChange={handleChange}
                             required
                         />
