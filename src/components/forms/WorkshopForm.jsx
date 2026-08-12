@@ -130,9 +130,7 @@ const WorkshopForm = () => {
                     </div>
 
                     <div className="grid items-center gap-2 w-4/5 p-2">
-                    <Label 
-                        htmlFor="workshop"
-                    >
+                    <Label htmlFor="workshop">
                         Workshop
                     </Label>
                     <Select
