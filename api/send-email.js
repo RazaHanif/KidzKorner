@@ -91,7 +91,7 @@ export default async function handler(req, res) {
             `
             break
         case 'camp':
-            subject = `$[data.s] Camp Inquiry - ${data.name}`
+            subject = `${data.session} Camp Inquiry - ${data.name}`
             emailContent = `
                 Summer Camp Inquiry\n
                 Name: ${data.name}\n
