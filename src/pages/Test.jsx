@@ -8,7 +8,7 @@ const Test = () => {
     return (
         <div className="flex flex-col gap-16 justify-center items-center w-full">
 
-            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border">
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border ">
                 <h2 className="text-xl font-bold">Work Shop Forms</h2>
                 
                 {/* Workshop Form */}
@@ -20,7 +20,7 @@ const Test = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border">
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border ">
                 <h2 className="text-xl font-bold">Camp Forms</h2>
 
                 {/* Camp */}
@@ -72,7 +72,7 @@ const Test = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border">
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border ">
                 <h2 className="text-xl font-bold">Daycare Forms</h2>
 
                 {/* Daycare */}
@@ -115,7 +115,7 @@ const Test = () => {
             </div>
 
 
-            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border">
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border ">
                 <h2 className="text-xl font-bold">Party Form</h2>
 
                 {/* Parties */}
@@ -127,7 +127,7 @@ const Test = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border">
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border ">
                 <h2 className="text-xl font-bold">Contact Form</h2>
 
                 {/* Contact Us */}
