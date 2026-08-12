@@ -6,7 +6,7 @@ import {
 
 export const workshops = [
     {
-        title: "Art & Creative Activities",
+        title: "Paint Night",
         icon: Palette,
         description:
             "Toddlers and preschoolers can explore their creativity through fun art projects, crafts, painting, and hands-on activities.",
