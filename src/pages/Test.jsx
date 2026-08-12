@@ -13,7 +13,7 @@ const Test = () => {
                 
                 {/* Workshop Form */}
                 <div className="flex flex-col justify-center items-center w-full">
-                    <p className="flex just w-full">
+                    <p className="flex justify-center items-center w-full">
                         Workshop Form
                     </p>
                     <WorkshopForm />
@@ -25,7 +25,7 @@ const Test = () => {
 
                 {/* Camp */}
                 <div className="flex flex-col justify-center items-center w-full">
-                    <p className="flex just w-full">
+                    <p className="flex justify-center items-center w-full">
                         Camp
                     </p> 
                     <CampForm/>
