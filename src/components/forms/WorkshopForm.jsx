@@ -72,20 +72,20 @@ const WorkshopForm = () => {
                     <div 
                         className="grid items-center gap-2 w-4/5 p-2"
                     >
-                    <label 
-                        htmlFor="name" 
-                    >
-                        Name
-                    </label>
-                    <Input
-                        type="text"
-                        placeholder="Perry Platypus"
-                        id="name"
-                        name="name"
-                        value={formData.name}
-                        onChange={handleChange}
-                        required
-                    />
+                        <label 
+                            htmlFor="name" 
+                        >
+                            Name
+                        </label>
+                        <Input
+                            type="text"
+                            placeholder="Perry Platypus"
+                            id="name"
+                            name="name"
+                            value={formData.name}
+                            onChange={handleChange}
+                            required
+                        />
                     </div>
 
                     <div 
