@@ -289,34 +289,8 @@ const DaycareForm = ({ daycareType }) => {
 
                     {daycareType ? (
                         <div className="grid gap-2 w-4/5 p-2">
-                            <Label>Session Type</Label>
-
-                            <RadioGroup
-                                value={formData.session}
-                                onValueChange={(value) =>
-                                    setFormData((prev) => ({
-                                        ...prev,
-                                        session: value,
-                                    }))
-                                }
-                            >
-                                {sessionTypes[formData.programType].map(
-                                    ([key, value]) => (
-                                        <div
-                                            className="flex items-center gap-3"
-                                            key={key}
-                                        >
-                                            <RadioGroupItem
-                                                value={value}
-                                                id={`radio-${key}`}
-                                            />
-                                            <Label htmlFor={`radio-${key}`}>
-                                                {value}
-                                            </Label>
-                                        </div>
-                                    ),
-                                )}
-                            </RadioGroup>
+                            <Label>Program Type</Label>
+                            <Input value={programTypes[daycareType]} disabled />
                         </div>
                     ) : (
                         <div className="grid gap-2 w-4/5 p-2">
