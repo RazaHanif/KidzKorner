@@ -19,18 +19,18 @@ const Test = () => {
             <div className="flex flex-col justify-center items-center w-full">
 
                 <h2 className="text-xl font-bold">Work Shop Forms</h2>
-            <div 
-                className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 border-y lg:pt-12 pt-8 lg:mt-12 mt-8"
-                id="winter-camp-form"    
-                >
-                <p className="flex text-center">
-                    Interested in Winter Break Camp?
-                </p>
+                <div 
+                    className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 border-y lg:pt-12 pt-8 lg:mt-12 mt-8"
+                    id="winter-camp-form"    
+                    >
+                    <p className="flex text-center">
+                        Interested in Winter Break Camp?
+                    </p>
 
-                {/* TODO:MAKE THIS FORM WINTER SPECIFIC  */}
-                {/* [CampForm type="winter"] */}
-                <CampForm/>
-            </div>
+                    {/* TODO:MAKE THIS FORM WINTER SPECIFIC  */}
+                    {/* [CampForm type="winter"] */}
+                    <CampForm/>
+                </div>
             </div>
 
             {/* Toddler Daycare */}
