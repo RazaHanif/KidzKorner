@@ -158,7 +158,7 @@ const WorkshopForm = () => {
                                             value={workshop.title}
                                             key={idx}    
                                         >
-                                            
+                                            {workshop.title}
                                         </SelectItem>
                                     )
                                 })}
