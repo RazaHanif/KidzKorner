@@ -43,7 +43,7 @@ const SummerCamp = () => {
     const faq = [
         {
             q: "What ages does Kidz Korner summer camp serve?",
-            a: "Kidz Korner summer camp is available for the same age range as our regular camp program. Families can contact us to confirm whether their child is eligible for the current summer program.",
+            a: "Kidz Korner Summer Camp is available for children between 4 and 13 years old. Families can contact us to confirm whether their child is eligible for the current summer program.",
         },
         {
             q: "What are the hours for summer camp?",
