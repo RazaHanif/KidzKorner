@@ -105,7 +105,7 @@ const WorkshopForm = () => {
                         </label>
                         <Input
                             type="email"
-                            placeholder="agentp@owca.com"
+                            placeholder="mrkrabs@krustykrab.com"
                             id="email"
                             name="email"
                             value={formData.email}
