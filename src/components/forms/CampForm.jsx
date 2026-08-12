@@ -167,7 +167,7 @@ const CampForm = ({ campType }) => {
                         </Popover>
                     </div>
 
-                    {campType }
+                    {campType && (
                     <div className="grid items-center gap-2 w-4/5 p-2">
                         <Label>Session</Label>
                         <RadioGroup
@@ -210,6 +210,7 @@ const CampForm = ({ campType }) => {
                             </div>
                         </RadioGroup>
                     </div>
+                    )}
 
                     <div className="grid items-center gap-2 w-4/5 p-2">
                         <Label htmlFor="message">Tell us more...</Label>
