@@ -79,7 +79,7 @@ const Test = () => {
                     <p className="flex justify-center items-center w-full">
                         Toddler Daycare
                     </p>
-                    <DaycareForm />
+                    <DaycareForm daycareType={"toddler"}/>
                 </div>
 
                 {/* Preschool Daycare */}
