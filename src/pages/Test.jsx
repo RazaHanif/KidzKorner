@@ -48,6 +48,16 @@ const Test = () => {
                 <CampForm/>
             </div>
 
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6" id="preschool-form">
+                <p className="flex text-center">
+                    Ready to join us?
+                </p>
+                
+                {/* TODO:MAKE THIS FORM PRESCHOOL SPECIFIC  */}
+                {/* [DaycareForm type="preschool"] */}
+                <DaycareForm />
+            </div>
+
 
         </>
     )
