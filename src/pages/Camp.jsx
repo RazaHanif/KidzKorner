@@ -48,7 +48,7 @@ const Camp = () => {
         },
         {
             q: "What age groups can attend your camps?",
-            a: "Our camp programs are designed for school-aged children. If you're unsure whether your child meets the age requirements, feel free to contact us and we'll be happy to help.",
+            a: "Our camp programs are designed for school-aged children between 4 and 13 years of old. If you're unsure whether your child meets the age requirements, feel free to contact us and we'll be happy to help.",
         },
         {
             q: "What should my child bring to camp?",
