@@ -6,6 +6,8 @@ import {
   TableRow,
 } from "@/components/ui/table"
 
+// Add Blog & FAQ links
+
 const Footer = () => {
   return (
     <footer className="flex flex-col lg:flex-row justify-center w-full bg-primary border-t border-chart-4 p-2 text-primary-foreground">
