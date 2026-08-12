@@ -339,7 +339,7 @@ const DaycareForm = ({ daycareType }) => {
                                     }))
                                 }
                             >
-                                {Object.entries(sessionTypes).map(
+                                {sessionTypes[formData.programType].map(
                                     ([key, value]) => (
                                         <div
                                             className="flex items-center gap-3"
