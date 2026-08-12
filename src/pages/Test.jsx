@@ -10,7 +10,7 @@ const Test = () => {
             {/* Workshop Form */}
             <div className="flex flex-col justify-center items-center w-full border">
                 <h2 className="text-xl font-bold">Work Shop Forms</h2>
-                <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 border-y" id="toddler-form">
+                <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6" id="toddler-form">
                     <WorkshopForm />
                 </div>
             </div>
@@ -21,7 +21,7 @@ const Test = () => {
                 <h2 className="text-xl font-bold">Camp Forms</h2>
                 
                 <div 
-                    className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 border-y lg:pt-12 pt-8 lg:mt-12 mt-8"
+                    className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 lg:pt-12 pt-8 lg:mt-12 mt-8"
                     id="winter-camp-form"    
                 >
                     <p className="flex text-center">
@@ -35,7 +35,7 @@ const Test = () => {
             </div>
 
             {/* Toddler Daycare */}
-            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 border-y" id="toddler-form">
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6" id="toddler-form">
                 <p className="flex text-center">
                     Ready to join us?
                 </p>
@@ -47,7 +47,7 @@ const Test = () => {
 
             {/* SummerCamp */}
             <div 
-                className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 border-y lg:pt-12 pt-8 lg:mt-12 mt-8"
+                className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 lg:pt-12 pt-8 lg:mt-12 mt-8"
                 id="summer-camp-form"    
             >
                 <p className="flex text-center">
@@ -60,7 +60,7 @@ const Test = () => {
             </div>
 
             {/* Preschool Daycare */}
-            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 border-y" id="preschool-form">
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6" id="preschool-form">
                 <p className="flex text-center">
                     Ready to join us?
                 </p>
@@ -71,7 +71,7 @@ const Test = () => {
             </div>
 
             {/* Parties */}
-            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 border-y lg:pt-12 pt-8 lg:mt-12 mt-8">
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 lg:pt-12 pt-8 lg:mt-12 mt-8">
                 <p className="flex text-center">
                     Ready to Party? Contact us today to secure your date! 
                 </p>
@@ -80,7 +80,7 @@ const Test = () => {
 
             {/* PA Day Camp */}
             <div 
-                className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 border-y lg:pt-12 pt-8 lg:mt-12 mt-8"
+                className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 lg:pt-12 pt-8 lg:mt-12 mt-8"
                 id="pa-day-form"
             >
                 <p className="flex text-center">
@@ -94,7 +94,7 @@ const Test = () => {
 
             {/* March Break Camp */}
             <div
-                className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 border-y lg:pt-12 pt-8 lg:mt-12 mt-8"
+                className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 lg:pt-12 pt-8 lg:mt-12 mt-8"
                 id="march-camp-form"
             >
                 <p className="flex text-center">
@@ -107,7 +107,7 @@ const Test = () => {
             </div>
 
             {/* Daycare */}
-            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 border-y lg:py-12 py-8 lg:my-12 my-8">
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 lg:py-12 py-8 lg:my-12 my-8">
                 <p className="flex text-center">
                     Ready to join us? Contact us today to learn more about our preschool programs and schedule a tour of our facility! 
                 </p>
@@ -123,7 +123,7 @@ const Test = () => {
             </div>
 
             {/* Before & After School Daycare */}
-            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 border-y" id="before-after-form">
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6" id="before-after-form">
                 <p className="flex text-center">
                     Ready to join us?
                 </p>
@@ -134,7 +134,7 @@ const Test = () => {
             </div>
 
             {/* Contact Us */}
-            <div className="flex flex-col justify-center items-center w-9/10 lg:w-3/4 gap-6 border-y lg:pt-12 pt-8 lg:mt-12 mt-8" id="contact-form">
+            <div className="flex flex-col justify-center items-center w-9/10 lg:w-3/4 gap-6 lg:pt-12 pt-8 lg:mt-12 mt-8" id="contact-form">
                 <h2 className="w-full flex justify-center items-center font-bold text-xl flex-1">
                     Book a Tour or Ask a Question
                 </h2>
