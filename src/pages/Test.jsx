@@ -119,17 +119,15 @@ const Test = () => {
                 <h2 className="text-xl font-bold">Party Form</h2>
 
                 {/* Parties */}
-                <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 lg:pt-12 pt-8 lg:mt-12 mt-8">
-                    <p className="flex text-center">
+                <div className="flex flex-col justify-center items-center w-full">
+                    <p className="flex justify-center items-center w-full">
                         Party Form 
                     </p>
                     <PartyForm />
                 </div>
-
             </div>
 
             <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border">
-
                 <h2 className="text-xl font-bold">Contact Form</h2>
 
                 {/* Contact Us */}
