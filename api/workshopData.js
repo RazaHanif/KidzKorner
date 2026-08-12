@@ -1,3 +1,9 @@
+import {
+    Palette,
+    ChefHat,
+    Heart,
+} from "lucide-react"
+
 export const workshops = [
     {
         title: "Art & Creative Activities",
