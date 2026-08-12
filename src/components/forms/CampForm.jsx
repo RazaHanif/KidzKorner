@@ -177,6 +177,7 @@ const CampForm = ({ campType }) => {
                                         before: minDOB,
                                         after: maxDOB
                                     }}
+                                    defaultMonth={minDOB}
                                     onSelect={(date) => {
                                         if (
                                             date instanceof Date &&
