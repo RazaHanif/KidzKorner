@@ -276,6 +276,15 @@ const Parties = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-2 border-t lg:pt-12 pt-8 lg:mt-12 mt-8">
+                <h2 className="w-full flex justify-center items-center font-bold text-xl flex-1 mb-4">
+                    Book a Tour or Ask a Question
+                </h2>
+                <p className="flex text-center lg:w-3/4">
+                    Whether you're looking for daycare, preschool, camps, or
+                    birthday parties, our team is happy to answer your
+                    questions. Complete the form below and we'll get back to you
+                    as soon as possible.
+                </p>
                 <p className="flex text-center">
                     Ready to Party? Contact us today to secure your date!
                 </p>
