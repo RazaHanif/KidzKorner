@@ -76,6 +76,13 @@ const Test = () => {
                 </div>
             </div>
 
+            <div className="flex flex-col justify-center items-center w-full border">
+
+
+                <h2 className="text-xl font-bold">Camp Forms</h2>
+                
+
+            </div>
             {/* Toddler Daycare */}
             <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6" id="toddler-form">
                 <p className="flex text-center">
