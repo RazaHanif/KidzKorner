@@ -1,5 +1,6 @@
 import ContactForm from "@/components/ContactForm";
 import WorkshopForm from "@/components/WorkshopForm";
+import CampForm from "@/components/CampForm";
 
 const Test = () => {
     return (
