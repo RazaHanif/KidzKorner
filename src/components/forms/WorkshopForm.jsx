@@ -115,18 +115,18 @@ const WorkshopForm = () => {
                     </div>
 
                     <div className="grid items-center gap-2 w-4/5 p-2">
-                    <label htmlFor="phone">
-                        Phone Number
-                    </label>
-                    <Input
-                        type="tel"
-                        placeholder="905-878-4697"
-                        id="phone"
-                        name="phone"
-                        value={formData.phone}
-                        onChange={handleChange}
-                        required
-                    />
+                        <label htmlFor="phone">
+                            Phone Number
+                        </label>
+                        <Input
+                            type="tel"
+                            placeholder="905-878-4697"
+                            id="phone"
+                            name="phone"
+                            value={formData.phone}
+                            onChange={handleChange}
+                            required
+                        />
                     </div>
 
                     <div 
