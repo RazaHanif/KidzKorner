@@ -19,7 +19,7 @@ const DaycareForm = () => {
         phone: "",
         ageGroup: "",
         programType: "",
-        dob: "",
+        dob: new Date(),
         startDate: "",
         interviewTiming: "",
         message: "",
