@@ -324,6 +324,7 @@ const DaycareForm = ({ daycareType }) => {
                             </RadioGroup>
                         </div>
                     )}
+                    
                     {daycareType ? (
                         <div className="grid gap-2 w-4/5 p-2">
                             <Label>Program Type</Label>
