@@ -42,13 +42,12 @@ const Test = () => {
                 </div>
 
                 {/* SummerCamp */}
+                {/* TODO:MAKE THIS FORM SUMMER SPECIFIC  */}
+                {/* [CampForm type="summer"] */}
                 <div className="flex flex-col justify-center items-center w-full">
                     <p className="flex justify-center items-center w-full">
                         Summer Break Camp 
                     </p>
-
-                    {/* TODO:MAKE THIS FORM SUMMER SPECIFIC  */}
-                    {/* [CampForm type="summer"] */}
                     <CampForm/>
                 </div>
 
