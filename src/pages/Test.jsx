@@ -1,5 +1,4 @@
-import { Shapes } from "lucide-react";
-import Image from "@/components/Image";
+import ContactForm from "@/components/ContactForm";
 
 const Test = () => {
     return (
