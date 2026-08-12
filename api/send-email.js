@@ -79,17 +79,6 @@ export default async function handler(req, res) {
                 Message: ${data.message}
                 `
             break
-        case 'workshop':
-            subject = `Workshop Inquiry - ${data.name}`
-            emailContent = `
-                WorkShop Inquiry\n
-                Parent Name: ${data.parentName}\n
-                Child Name: ${data.childName}\n
-                Email: ${data.email}\n
-                Phone: ${data.phone}\n
-                Workshop: ${data.workshop}
-            `
-            break
         case 'camp':
             subject = `${data.session} Camp Inquiry - ${data.name}`
             emailContent = `
@@ -100,6 +89,17 @@ export default async function handler(req, res) {
                 Date of Birth: ${data.dob}\n
                 Session: ${data.session}\n
                 Message: ${data.message}
+            `
+            break
+                    case 'workshop':
+            subject = `Workshop Inquiry - ${data.name}`
+            emailContent = `
+                WorkShop Inquiry\n
+                Parent Name: ${data.parentName}\n
+                Child Name: ${data.childName}\n
+                Email: ${data.email}\n
+                Phone: ${data.phone}\n
+                Workshop: ${data.workshop}
             `
             break
     
