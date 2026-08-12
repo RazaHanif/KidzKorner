@@ -91,7 +91,7 @@ export default async function handler(req, res) {
                 Message: ${data.message}
             `
             break
-                    case 'workshop':
+        case 'workshop':
             subject = `Workshop Inquiry - ${data.name}`
             emailContent = `
                 WorkShop Inquiry\n
