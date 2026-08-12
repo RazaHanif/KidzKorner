@@ -70,7 +70,7 @@ const WorkshopForm = () => {
             form={
                 <>
                     <div 
-                    className="grid items-center gap-2 w-4/5 p-2"
+                        className="grid items-center gap-2 w-4/5 p-2"
                     >
                     <label 
                         htmlFor="name" 
