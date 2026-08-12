@@ -79,7 +79,7 @@ const Test = () => {
             <div className="flex flex-col justify-center items-center w-full border">
 
 
-                <h2 className="text-xl font-bold">Camp Forms</h2>
+                <h2 className="text-xl font-bold">Daycare Forms</h2>
 
                 {/* Daycare */}
                 <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 lg:py-12 py-8 lg:my-12 my-8">
