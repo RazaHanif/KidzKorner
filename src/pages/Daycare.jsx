@@ -263,6 +263,9 @@ const Daycare = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-2 border-t lg:py-12 py-8 lg:my-12 my-8">
+                <h2>
+                    
+                </h2>
                 <p className="flex text-center">
                     Ready to join us? Contact us today to learn more about our
                     preschool programs and schedule a tour of our facility!
