@@ -168,12 +168,12 @@ const WorkshopForm = () => {
                     </div>
                     
                     <Button
-                    type='submit'
-                    variant='outline'
-                    disabled={isSubmitting}
-                    className="mb-4"
+                        type='submit'
+                        variant='outline'
+                        disabled={isSubmitting}
+                        className="mb-4"
                     >
-                    Submit
+                       Submit
                     </Button>
                 </>
             }
