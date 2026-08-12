@@ -18,6 +18,14 @@ const Test = () => {
             <div className="flex flex-col justify-center items-center w-full border">
 
                 <h2 className="text-xl font-bold">Camp Forms</h2>
+
+                {/* Camp */}
+                <div className="flex flex-col justify-center items-center w-9/10 lg:w-3/4 gap-6">
+                    <p className="flex text-center">
+                        Contact us today to lock in your spot! 
+                    </p> 
+                    <CampForm/>
+                </div>
                 
                 {/* WinterCamp */}
                 <div 
