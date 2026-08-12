@@ -81,28 +81,28 @@ const Test = () => {
 
                 <h2 className="text-xl font-bold">Camp Forms</h2>
                 
+                {/* Toddler Daycare */}
+                <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6" id="toddler-form">
+                    <p className="flex text-center">
+                        Ready to join us?
+                    </p>
+                    
+                    {/* TODO:MAKE THIS FORM TODDLER SPECIFIC  */}
+                    {/* [DaycareForm type="toddler"] */}
+                    <DaycareForm />
+                </div>
 
-            </div>
-            {/* Toddler Daycare */}
-            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6" id="toddler-form">
-                <p className="flex text-center">
-                    Ready to join us?
-                </p>
-                
-                {/* TODO:MAKE THIS FORM TODDLER SPECIFIC  */}
-                {/* [DaycareForm type="toddler"] */}
-                <DaycareForm />
-            </div>
+                {/* Preschool Daycare */}
+                <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6" id="preschool-form">
+                    <p className="flex text-center">
+                        Ready to join us?
+                    </p>
+                    
+                    {/* TODO:MAKE THIS FORM PRESCHOOL SPECIFIC  */}
+                    {/* [DaycareForm type="preschool"] */}
+                    <DaycareForm />
+                </div>
 
-            {/* Preschool Daycare */}
-            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6" id="preschool-form">
-                <p className="flex text-center">
-                    Ready to join us?
-                </p>
-                
-                {/* TODO:MAKE THIS FORM PRESCHOOL SPECIFIC  */}
-                {/* [DaycareForm type="preschool"] */}
-                <DaycareForm />
             </div>
 
             {/* Parties */}
