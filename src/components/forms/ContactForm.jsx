@@ -106,7 +106,7 @@ const ContactForm = () => {
                             Ask us something...
                         </Label>
                         <Input
-                            type="text"
+                            type="textarea"
                             id="message"
                             name="message"
                             value={formData.message}
