@@ -20,12 +20,12 @@ const DaycareForm = ({ daycareType }) => {
     };
 
     const sessionTypes = {
-        toddler: [
+        "Toddler": [
             "Full Day - 9:00 AM to 3:00 PM",
             "Half Day - 9:00 AM to 11:30 AM",
             "Half Day - 12:30 PM to 3:00 PM",
         ],
-        preschool: [
+        "Preschool": [
             "Full Day - 9:00 AM to 3:00 PM",
             "Half Day - 9:00 AM to 11:30 AM",
             "Half Day - 12:30 PM to 3:00 PM",
