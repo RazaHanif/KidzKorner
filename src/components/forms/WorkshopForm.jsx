@@ -71,7 +71,7 @@ const WorkshopForm = () => {
             submitted={submitted}
             form={
                 <>
-                    <div className="grid items-center gap-2 w-4/5">
+                    <div className="grid items-center gap-4 w-4/5">
                         <label htmlFor="parentName">
                             Parent Name
                         </label>
@@ -86,7 +86,7 @@ const WorkshopForm = () => {
                         />
                     </div>
 
-                    <div className="grid items-center gap-2 w-4/5">
+                    <div className="grid items-center gap-4 w-4/5">
                         <label htmlFor="childName">
                             Child Name
                         </label>
@@ -101,7 +101,7 @@ const WorkshopForm = () => {
                         />
                     </div>
 
-                    <div className="grid items-center gap-2 w-4/5">
+                    <div className="grid items-center gap-4 w-4/5">
                         <label htmlFor="email">
                             Email
                         </label>
@@ -116,7 +116,7 @@ const WorkshopForm = () => {
                         />
                     </div>
 
-                    <div className="grid items-center gap-2 w-4/5">
+                    <div className="grid items-center gap-4 w-4/5">
                         <label htmlFor="phone">
                             Phone Number
                         </label>
@@ -131,7 +131,7 @@ const WorkshopForm = () => {
                         />
                     </div>
 
-                    <div className="grid items-center gap-2 w-4/5">
+                    <div className="grid items-center gap-4 w-4/5">
                         <Label htmlFor="workshop">
                             Workshop
                         </Label>
