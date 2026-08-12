@@ -54,7 +54,7 @@ export default async function handler(req, res) {
                 Message: ${data.message}
             `
             break
-        case 'about':            
+        case 'contact':            
             subject = `General Inquiry - ${data.name}`
             emailContent = `
                 General Inquiry\n
