@@ -277,7 +277,7 @@ const Parties = () => {
 
             <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-2 border-t lg:pt-12 pt-8 lg:mt-12 mt-8">
                 <h2 className="w-full flex justify-center items-center font-bold text-xl flex-1 mb-4">
-                    Book a Tour or Ask a Question
+                    Ready to Party?
                 </h2>
                 <p className="flex text-center lg:w-3/4">
                     Whether you're looking for daycare, preschool, camps, or
