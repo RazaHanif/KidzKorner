@@ -8,7 +8,7 @@ const Test = () => {
     return (
         <div className="flex flex-col gap-6 justify-center items-center">
             {/* Workshop Form */}
-            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6" id="toddler-form">
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6  " id="toddler-form">
                 <WorkshopForm />
             </div>
 
