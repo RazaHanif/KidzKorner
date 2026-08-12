@@ -33,19 +33,19 @@ const Test = () => {
                     <CampForm/>
                 </div>
 
-                            {/* SummerCamp */}
-            <div 
-                className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 lg:pt-12 pt-8 lg:mt-12 mt-8"
-                id="summer-camp-form"    
-            >
-                <p className="flex text-center">
-                    Interested in Summer Camp?
-                </p>
+                {/* SummerCamp */}
+                <div 
+                    className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 lg:pt-12 pt-8 lg:mt-12 mt-8"
+                    id="summer-camp-form"    
+                >
+                    <p className="flex text-center">
+                        Interested in Summer Camp?
+                    </p>
 
-                {/* TODO:MAKE THIS FORM SUMMER SPECIFIC  */}
-                {/* [CampForm type="summer"] */}
-                <CampForm/>
-            </div>
+                    {/* TODO:MAKE THIS FORM SUMMER SPECIFIC  */}
+                    {/* [CampForm type="summer"] */}
+                    <CampForm/>
+                </div>
 
 
             </div>
