@@ -265,11 +265,11 @@ const ToddlerDaycare = () => {
             </div>
 
             <div
-                className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6"
+                className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-2"
                 id="toddler-form"
             >
                 <p className="flex text-center">Ready to join us?</p>
-                <DaycareForm />
+                <DaycareForm daycareType={"toddler"} />
             </div>
 
             <StructData schema={localBusinessSchema} />
