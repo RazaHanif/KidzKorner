@@ -13,7 +13,7 @@ const Test = () => {
                 
                 {/* Workshop Form */}
                 <div className="flex flex-col justify-center items-center w-full">
-                    <p>
+                    <p className="">
                         Workshop Form
                     </p>
                     <WorkshopForm />
