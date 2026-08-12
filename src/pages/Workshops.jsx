@@ -159,7 +159,12 @@ const Workshops = () => {
                 className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-2"
                 id="toddler-form"
             >
-                
+                <p className="flex text-center lg:w-3/4">
+                    Whether you're looking for daycare, preschool, camps, or
+                    birthday parties, our team is happy to answer your
+                    questions. Complete the form below and we'll get back to you
+                    as soon as possible.
+                </p>
                 <WorkshopForm />
             </div>
 
