@@ -57,7 +57,7 @@ const ContactForm = () => {
             submitted={submitted}
             form={
                 <>
-                    <div className="grid items-center gap-2 w-4/5 p-2">
+                    <div className="flex">
                         <Label htmlFor="name">Name</Label>
                         <Input
                             type="text"
