@@ -6,7 +6,7 @@ import PartyForm from "../components/PartyForm";
 
 const Test = () => {
     return (
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-6 just">
             {/* Workshop Form */}
             <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6" id="toddler-form">
                 <WorkshopForm />
