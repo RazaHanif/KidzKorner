@@ -12,13 +12,13 @@ import {
 import { useState } from "react";
 import FormLayout from "../FormLayout";
 
-const CampForm = () => {
+const CampForm = ({ campType }) => {
     const [formData, setFormData] = useState({
         name: "",
         email: "",
         phone: "",
         dob: "",
-        session: "",
+        session: campType,
         message: "",
         type: "camp",
     });
