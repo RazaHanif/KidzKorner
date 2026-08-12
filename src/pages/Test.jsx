@@ -16,7 +16,7 @@ const Test = () => {
             </div>
 
             {/* Winter Camp */}
-            <div className="flex flex-col justify-center items-center w-full ">
+            <div className="flex flex-col justify-center items-center w-full border">
 
                 <h2 className="text-xl font-bold">Camp Forms</h2>
                 
