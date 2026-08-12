@@ -276,7 +276,7 @@ const PADayCamp = () => {
                 id="pa-day-form"
             >
                 <p className="flex text-center">Interested in PA Day Camp?</p>
-                <CampForm />
+                <CampForm campType={"pa"} />
             </div>
 
             <StructData schema={localBusinessSchema} />
