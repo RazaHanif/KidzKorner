@@ -55,7 +55,7 @@ const Test = () => {
                 {/* [CampForm type="pa"] */}
                 <div className="flex flex-col justify-center items-center w-full">
                     <p className="flex justify-center items-center w-full">
-                        PA Day Camp?
+                        PA Day Camp
                     </p>
                     <CampForm campType={"pa"}/>
                 </div>
