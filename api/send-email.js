@@ -88,9 +88,7 @@ export default async function handler(req, res) {
                 Email: ${data.email}\n
                 Phone: ${data.phone}\n
                 Workshop: ${data.workshop}\n
-                Social Media Consent: ${data.socialMedia}\n
-                Contact Again Consent: ${data.contactAgain}\n
-                Allergies: ${data.allergies}
+
             `
             break
         case 'summercamp':
