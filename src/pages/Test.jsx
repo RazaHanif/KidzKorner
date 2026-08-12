@@ -75,8 +75,6 @@ const Test = () => {
                 </div>
 
                 {/* Toddler Daycare */}
-                {/* TODO:MAKE THIS FORM TODDLER SPECIFIC  */}
-                {/* [DaycareForm type="toddler"] */}
                 <div className="flex flex-col justify-center items-center w-full">
                     <p className="flex justify-center items-center w-full">
                         Toddler Daycare
