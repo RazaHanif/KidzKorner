@@ -51,7 +51,7 @@ const CampForm = ({ campType }) => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         if (!formData.dob) {
-            Toast.error("Please select a date of birth.");
+            alert("Please select a date of birth.");
             return;
         }
         setIsSubmitting(true);
