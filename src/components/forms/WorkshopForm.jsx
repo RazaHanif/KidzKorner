@@ -22,6 +22,7 @@ import FormLayout from "../FormLayout"
 const WorkshopForm = () => {
     const [formData, setFormData] = useState({
         name: '',
+        childName: '',
         email: '',
         phone: '',
         workshop: '',
