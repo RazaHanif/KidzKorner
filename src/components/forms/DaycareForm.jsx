@@ -174,6 +174,7 @@ const DaycareForm = () => {
                                             : undefined
                                     }
                                     disabled={{
+                                        after: today,
                                         before: maxDOB,
                                     }}
                                     onSelect={(date) => {
