@@ -67,7 +67,6 @@ const DaycareForm = () => {
 
     return (
         <FormLayout
-            title={"Enrollment Form"}
             handleSubmit={handleSubmit}
             submitted={submitted}
             form={
