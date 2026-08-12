@@ -279,10 +279,7 @@ const SummerCamp = () => {
                 id="summer-camp-form"
             >
                 <p className="flex text-center">Interested in Summer Camp?</p>
-
-                {/* TODO:MAKE THIS FORM SUMMER SPECIFIC  */}
-                {/* [CampForm type="summer"] */}
-                <CampForm />
+                <CampForm campType={"summer"} />
             </div>
 
             <StructData schema={localBusinessSchema} />
