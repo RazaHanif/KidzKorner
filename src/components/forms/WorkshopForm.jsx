@@ -162,26 +162,6 @@ const WorkshopForm = () => {
                                         </SelectItem>
                                     )
                                 })}
-                                <SelectItem 
-                                value="Paint Night"
-                                >
-                                Paint Night
-                                </SelectItem>
-                                <SelectItem 
-                                value="Cooking Class"
-                                >
-                                Cooking Class
-                                </SelectItem>
-                                <SelectItem 
-                                value="Little Sahaba's"
-                                >
-                                Little Sahaba's
-                                </SelectItem>
-                                <SelectItem 
-                                value="Mommy & Me"
-                                >
-                                Mommy & Me
-                                </SelectItem>
                             </SelectGroup>
                         </SelectContent>
                     </Select>
