@@ -492,7 +492,6 @@ const BeforeAfterDaycare = () => {
                 id="before-after-form"
             >
                 <p className="flex text-center">Ready to join us?</p>
-
                 {/* TODO:MAKE THIS FORM BEFORE&AFTER SPECIFIC  */}
                 {/* [DaycareForm type="before_after"] */}
                 <DaycareForm />
