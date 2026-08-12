@@ -21,7 +21,7 @@ import FormLayout from "../FormLayout"
 // Add childName parentName
 const WorkshopForm = () => {
     const [formData, setFormData] = useState({
-        name: '',
+        parentName: '',
         childName: '',
         email: '',
         phone: '',
