@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/popover";
 import { useState } from "react";
 import FormLayout from "../FormLayout";
+import { Toast } from "radix-ui";
 
 const CampForm = ({ campType }) => {
     const sessionTypes = {
@@ -49,6 +50,10 @@ const CampForm = ({ campType }) => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        if (!formData.dob) {
+            Toast.error("Please select a date of birth.");
+            return;
+        }
         setIsSubmitting(true);
 
         try {
