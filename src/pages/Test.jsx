@@ -136,7 +136,8 @@ const Test = () => {
             <div className="flex flex-col justify-center items-center w-full border">
 
 
-                <h2 className="text-xl font-bold">Camp Forms</h2>
+                <h2 className="text-xl font-bold">Party Forms</h2>
+                
                 {/* Parties */}
                 <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 lg:pt-12 pt-8 lg:mt-12 mt-8">
                     <p className="flex text-center">
