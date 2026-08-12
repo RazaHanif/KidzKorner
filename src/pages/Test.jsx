@@ -80,34 +80,6 @@ const Test = () => {
                 <PartyForm />
             </div>
 
-            {/* PA Day Camp */}
-            <div 
-                className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 lg:pt-12 pt-8 lg:mt-12 mt-8"
-                id="pa-day-form"
-            >
-                <p className="flex text-center">
-                    Interested in PA Day Camp?
-                </p>
-
-                {/* TODO:MAKE THIS FORM PA DAY SPECIFIC  */}
-                {/* [CampForm type="pa"] */}
-                <CampForm/>
-            </div>
-
-            {/* March Break Camp */}
-            <div
-                className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 lg:pt-12 pt-8 lg:mt-12 mt-8"
-                id="march-camp-form"
-            >
-                <p className="flex text-center">
-                    Interested in March Break Camp?
-                </p>
-
-                {/* TODO:MAKE THIS FORM MARCH SPECIFIC  */}
-                {/* [CampForm type="march"] */}
-                <CampForm/>
-            </div>
-
             {/* Daycare */}
             <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 lg:py-12 py-8 lg:my-12 my-8">
                 <p className="flex text-center">
