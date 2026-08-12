@@ -204,7 +204,7 @@ const DaycareForm = () => {
                                 <AlertTitle>Missing information</AlertTitle>
                                 <AlertDescription>
                                     Please select a valid start date before
-                                    submitting the form. 
+                                    submitting the form. Start date must be 
                                 </AlertDescription>
                             </Alert>
                         )}
