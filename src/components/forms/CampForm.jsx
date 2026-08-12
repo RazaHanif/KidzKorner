@@ -168,48 +168,48 @@ const CampForm = ({ campType }) => {
                     </div>
 
                     {campType && (
-                    <div className="grid items-center gap-2 w-4/5 p-2">
-                        <Label>Session</Label>
-                        <RadioGroup
-                            value={formData.startDate}
-                            onValueChange={(value) =>
-                                setFormData((prev) => ({
-                                    ...prev,
-                                    startDate: value,
-                                }))
-                            }
-                        >
-                            {Object.entries(sessionTypes).map(([key, value, idx]) => (
-                                <div className="flex items-center gap-3" key={key}>
+                        <div className="grid items-center gap-2 w-4/5 p-2">
+                            <Label>Session</Label>
+                            <RadioGroup
+                                value={formData.startDate}
+                                onValueChange={(value) =>
+                                    setFormData((prev) => ({
+                                        ...prev,
+                                        startDate: value,
+                                    }))
+                                }
+                            >
+                                {Object.entries(sessionTypes).map(([key, value, idx]) => (
+                                    <div className="flex items-center gap-3" key={key}>
+                                        <RadioGroupItem
+                                            value={value}
+                                            id={`radio-${idx}`}
+                                        />
+                                        <Label htmlFor={`radio-${idx}`}>
+                                            {value}
+                                        </Label>
+                                    </div>
+                                ))}
+                                <div className="flex items-center gap-3">
                                     <RadioGroupItem
-                                        value={value}
-                                        id={`radio-${idx}`}
+                                        value="March Break"
+                                        id="radio-2"
                                     />
-                                    <Label htmlFor={`radio-${idx}`}>
-                                        {value}
-                                    </Label>
+                                    <Label htmlFor="radio-2">March Break</Label>
                                 </div>
-                            ))}
-                            <div className="flex items-center gap-3">
-                                <RadioGroupItem
-                                    value="March Break"
-                                    id="radio-2"
-                                />
-                                <Label htmlFor="radio-2">March Break</Label>
-                            </div>
-                            <div className="flex items-center gap-3">
-                                <RadioGroupItem
-                                    value="Summer Break"
-                                    id="radio-3"
-                                />
-                                <Label htmlFor="radio-3">Summer Break</Label>
-                            </div>
-                            <div className="flex items-center gap-3">
-                                <RadioGroupItem value="PA Day" id="radio-4" />
-                                <Label htmlFor="radio-4">PD Day</Label>
-                            </div>
-                        </RadioGroup>
-                    </div>
+                                <div className="flex items-center gap-3">
+                                    <RadioGroupItem
+                                        value="Summer Break"
+                                        id="radio-3"
+                                    />
+                                    <Label htmlFor="radio-3">Summer Break</Label>
+                                </div>
+                                <div className="flex items-center gap-3">
+                                    <RadioGroupItem value="PA Day" id="radio-4" />
+                                    <Label htmlFor="radio-4">PD Day</Label>
+                                </div>
+                            </RadioGroup>
+                        </div>
                     )}
 
                     <div className="grid items-center gap-2 w-4/5 p-2">
