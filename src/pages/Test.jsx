@@ -57,7 +57,7 @@ const Test = () => {
                     <p className="flex justify-center items-center w-full">
                         PA Day Camp?
                     </p>
-                    <CampForm />
+                    <CampForm campType={"pa"}/>
                 </div>
 
                 {/* March Break Camp */}
