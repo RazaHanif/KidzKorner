@@ -30,6 +30,10 @@ const CampForm = ({ campType }) => {
         type: "camp",
     });
 
+    const availableSessions = campType 
+        ? { [campType]: sessionTypes[campType] } 
+        : sessionTypes
+
     const [submitted, setSubmitted] = useState(false);
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [openDOB, setOpenDOB] = useState(false);
@@ -167,32 +171,30 @@ const CampForm = ({ campType }) => {
                         </Popover>
                     </div>
 
-                    {!campType && (
-                        <div className="grid items-center gap-2 w-4/5 p-2">
-                            <Label>Session</Label>
-                            <RadioGroup
-                                value={formData.startDate}
-                                onValueChange={(value) =>
-                                    setFormData((prev) => ({
-                                        ...prev,
-                                        startDate: value,
-                                    }))
-                                }
-                            >
-                                {Object.entries(sessionTypes).map(([key, value, idx]) => (
-                                    <div className="flex items-center gap-3" key={key}>
-                                        <RadioGroupItem
-                                            value={value}
-                                            id={`radio-${idx}`}
-                                        />
-                                        <Label htmlFor={`radio-${idx}`}>
-                                            {value}
-                                        </Label>
-                                    </div>
-                                ))}
-                            </RadioGroup>
-                        </div>
-                    )}
+                    <div className="grid items-center gap-2 w-4/5 p-2">
+                        <Label>Session</Label>
+                        <RadioGroup
+                            value={formData.startDate}
+                            onValueChange={(value) =>
+                                setFormData((prev) => ({
+                                    ...prev,
+                                    startDate: value,
+                                }))
+                            }
+                        >
+                            {Object.entries(availableSessions).map(([key, value, idx]) => (
+                                <div className="flex items-center gap-3" key={key}>
+                                    <RadioGroupItem
+                                        value={value}
+                                        id={`radio-${idx}`}
+                                    />
+                                    <Label htmlFor={`radio-${idx}`}>
+                                        {value}
+                                    </Label>
+                                </div>
+                            ))}
+                        </RadioGroup>
+                    </div>
 
                     <div className="grid items-center gap-2 w-4/5 p-2">
                         <Label htmlFor="message">Tell us more...</Label>
