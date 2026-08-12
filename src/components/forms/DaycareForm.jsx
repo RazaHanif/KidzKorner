@@ -13,6 +13,7 @@ import { useState } from "react";
 import FormLayout from "../FormLayout";
 
 const DaycareForm = () => {
+    const today = new Date();
     const [formData, setFormData] = useState({
         name: "",
         email: "",
@@ -26,7 +27,6 @@ const DaycareForm = () => {
         type: "daycare",
     });
 
-    const today = new Date();
     const maxDOB = new Date(today);
     maxDOB.setFullYear(maxDOB.getFullYear() - 5);
     const minStartDate = new Date(formData.dob);
