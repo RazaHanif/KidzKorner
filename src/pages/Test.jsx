@@ -1,8 +1,8 @@
-import ContactForm from "@/components/ContactForm";
-import WorkshopForm from "@/components/WorkshopForm";
-import CampForm from "@/components/CampForm";
-import DaycareForm from "@/components/DaycareForm";
-import PartyForm from "@/components/PartyForm";
+import ContactForm from "../components/ContactForm";
+import WorkshopForm from "../components/WorkshopForm";
+import CampForm from "../components/CampForm";
+import DaycareForm from "../components/DaycareForm";
+import PartyForm from "../components/PartyForm";
 
 const Test = () => {
     return (
