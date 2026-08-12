@@ -140,13 +140,6 @@ const Test = () => {
                 <DaycareForm/>
             </div>
 
-            {/* Camp */}
-            <div className="flex flex-col justify-center items-center w-9/10 lg:w-3/4 gap-6">
-                <p className="flex text-center">
-                    Contact us today to lock in your spot! 
-                </p> 
-                <CampForm/>
-            </div>
 
 
             {/* Contact Us */}
