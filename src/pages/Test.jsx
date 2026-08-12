@@ -8,7 +8,7 @@ const Test = () => {
     return (
         <div className="flex flex-col gap-6 justify-center items-center w-full">
 
-            <div className="flex flex-col justify-center items-center w-full border">
+            <div className="flex flex-col justify-center items-center w-3/4 border">
                 <h2 className="text-xl font-bold">Work Shop Forms</h2>
                 
                 {/* Workshop Form */}
