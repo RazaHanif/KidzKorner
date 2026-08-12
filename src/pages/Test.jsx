@@ -67,8 +67,22 @@ const Test = () => {
                 <PartyForm />
             </div>
 
-            {/*  */}
+            {/* PA Day Camp */}
+            <div 
+                className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 border-t lg:pt-12 pt-8 lg:mt-12 mt-8"
+                id="pa-day-form"
+            >
+                <p className="flex text-center">
+                    Interested in PA Day Camp?
+                </p>
 
+                {/* TODO:MAKE THIS FORM PA DAY SPECIFIC  */}
+                {/* [CampForm type="pa"] */}
+                <CampForm/>
+            </div>
+
+
+            
         </>
     )
 
