@@ -325,6 +325,7 @@ const DaycareForm = ({ daycareType }) => {
                         </div>
                     )}
 
+
                     {daycareType ? (
                         <div className="grid gap-2 w-4/5 p-2">
                             <Label>Session</Label>
