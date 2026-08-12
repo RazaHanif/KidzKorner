@@ -137,16 +137,6 @@ const Test = () => {
                 <CampForm/>
             </div>
 
-            {/* Before & After School Daycare */}
-            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6" id="before-after-form">
-                <p className="flex text-center">
-                    Before & After School Daycare
-                </p>
-                
-                {/* TODO:MAKE THIS FORM BEFORE&AFTER SPECIFIC  */}
-                {/* [DaycareForm type="before_after"] */}
-                <DaycareForm />
-            </div>
 
             {/* Contact Us */}
             <div className="flex flex-col justify-center items-center w-9/10 lg:w-3/4 gap-6 lg:pt-12 pt-8 lg:mt-12 mt-8" id="contact-form">
