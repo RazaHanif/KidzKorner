@@ -167,7 +167,7 @@ const About = () => {
                 className="flex flex-col justify-center items-center w-9/10 lg:w-3/4 gap-2 border-t lg:pt-12 pt-8 lg:mt-12 mt-8"
                 id="contact-form"
             >
-                <h2 className="w-full flex justify-center items-center font-bold text-xl flex-1">
+                <h2 className="w-full flex justify-center items-center font-bold text-xl flex-1 mb-4">
                     Book a Tour or Ask a Question
                 </h2>
                 <p className="flex text-center lg:w-3/4">
