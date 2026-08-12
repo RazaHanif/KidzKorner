@@ -60,7 +60,14 @@ const Test = () => {
             </div>
 
             {/* Parties */}
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 border-t lg:pt-12 pt-8 lg:mt-12 mt-8">
+                <p className="flex text-center">
+                    Ready to Party? Contact us today to secure your date! 
+                </p>
+                <PartyForm />
+            </div>
 
+            {/*  */}
 
         </>
     )
