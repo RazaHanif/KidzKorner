@@ -12,7 +12,7 @@ const Test = () => {
                 <h2 className="text-xl font-bold">Work Shop Forms</h2>
                 
                 {/* Workshop Form */}
-                <div>
+                <div className="">
                     <p>
                         Workshop Form
                     </p>
