@@ -276,9 +276,6 @@ const PADayCamp = () => {
                 id="pa-day-form"
             >
                 <p className="flex text-center">Interested in PA Day Camp?</p>
-
-                {/* TODO:MAKE THIS FORM PA DAY SPECIFIC  */}
-                {/* [CampForm type="pa"] */}
                 <CampForm />
             </div>
 
