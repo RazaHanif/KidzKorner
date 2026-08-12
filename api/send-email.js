@@ -83,7 +83,7 @@ export default async function handler(req, res) {
             subject = `Workshop Inquiry - ${data.name}`
             emailContent = `
                 General Inquiry\n
-                Name: ${data.name}\n
+                Parent Name: ${data.name}\n
                 Email: ${data.email}\n
                 Phone: ${data.phone}\n
                 Workshop: ${data.workshop}\n
