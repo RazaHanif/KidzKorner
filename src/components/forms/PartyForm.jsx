@@ -24,6 +24,7 @@ const PartyForm = () => {
     const [submitted, setSubmitted] = useState(false);
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [openPartyDate, setOpenPartyDate] = useState(false);
+    const today = new Date();
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -141,6 +142,9 @@ const PartyForm = () => {
                                             ? new Date(formData.partyDate)
                                             : undefined
                                     }
+                                    disabled={{
+                                        after: today,
+                                    }}
                                     onSelect={(date) => {
                                         if (
                                             date instanceof Date &&
