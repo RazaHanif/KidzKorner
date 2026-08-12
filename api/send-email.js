@@ -74,7 +74,7 @@ export default async function handler(req, res) {
                 Date of Birth: ${data.dob}\n
                 Enrollment Date: ${data.startDate}\n
                 Age Group: ${data.programType}\n
-                Program Type: ${data.session}\n
+                Session: ${data.session}\n
                 Availability for Tour: ${data.interviewTiming}\n
                 Message: ${data.message}
             `
