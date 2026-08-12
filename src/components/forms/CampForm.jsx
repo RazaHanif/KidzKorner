@@ -11,7 +11,12 @@ import {
 } from "@/components/ui/popover";
 import { useState } from "react";
 import FormLayout from "../FormLayout";
-import { toast } from "sonner";
+import {
+  Alert,
+  AlertAction,
+  AlertDescription,
+  AlertTitle,
+} from "@/components/ui/alert"
 
 const CampForm = ({ campType }) => {
     const sessionTypes = {
@@ -39,6 +44,7 @@ const CampForm = ({ campType }) => {
     const [submitted, setSubmitted] = useState(false);
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [openDOB, setOpenDOB] = useState(false);
+    const [errorDOB, setErrorDOB] = useState(false)
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -51,7 +57,7 @@ const CampForm = ({ campType }) => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         if (!formData.dob) {
-            toast.error("Please select a date of birth.");
+            setErrorDOB("Please select a date of birth.");
             return;
         }
         setIsSubmitting(true);
@@ -126,6 +132,15 @@ const CampForm = ({ campType }) => {
 
                     <div className="grid items-center gap-2 w-4/5 p-2">
                         <Label htmlFor="dob">Date of birth</Label>
+                        {errorDOB && (
+                            <Alert variant="destructive" className="w-4/5">
+                                <AlertCircle className="h-4 w-4" />
+                                <AlertTitle>Missing information</AlertTitle>
+                                <AlertDescription>
+                                    Please select a date of birth before submitting the form.
+                                </AlertDescription>
+                            </Alert>
+                        )}
                         <Popover open={openDOB} onOpenChange={setOpenDOB}>
                             <PopoverTrigger asChild>
                                 <Button
