@@ -84,13 +84,13 @@ const Test = () => {
                 </div>
                 
                 {/* Toddler Daycare */}
-                <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6" id="toddler-form">
-                    <p className="flex text-center">
+                {/* TODO:MAKE THIS FORM TODDLER SPECIFIC  */}
+                {/* [DaycareForm type="toddler"] */}
+                <div className="flex flex-col justify-center items-center w-full">
+                    <p className="flex justify-center items-center w-full">
                         Toddler Daycare
                     </p>
                     
-                    {/* TODO:MAKE THIS FORM TODDLER SPECIFIC  */}
-                    {/* [DaycareForm type="toddler"] */}
                     <DaycareForm />
                 </div>
 
