@@ -1,16 +1,15 @@
-import CampForm from "../components/CampForm";
-import ContactForm from "../components/ContactForm";
-import DaycareForm from "../components/DaycareForm";
+import CampForm from "../components/forms/CampForm";
+import ContactForm from "../components/forms/ContactForm";
+import DaycareForm from "../components/forms/DaycareForm";
 import PartyForm from "../components/PartyForm";
-import WorkshopForm from "../components/WorkshopForm";
+import WorkshopForm from "../components/forms/WorkshopForm";
 
 const Test = () => {
     return (
         <div className="flex flex-col gap-16 justify-center items-center w-full">
-
             <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border py-16">
                 <h2 className="text-xl font-bold">Work Shop Forms</h2>
-                
+
                 {/* Workshop Form */}
                 <div className="flex flex-col justify-center items-center w-full">
                     <p className="flex justify-center items-center w-full">
@@ -27,10 +26,10 @@ const Test = () => {
                 <div className="flex flex-col justify-center items-center w-full">
                     <p className="flex justify-center items-center w-full">
                         Camp
-                    </p> 
-                    <CampForm/>
+                    </p>
+                    <CampForm />
                 </div>
-                
+
                 {/* WinterCamp */}
                 {/* TODO:MAKE THIS FORM WINTER SPECIFIC  */}
                 {/* [CampForm type="winter"] */}
@@ -38,7 +37,7 @@ const Test = () => {
                     <p className="flex justify-center items-center w-full">
                         Winter Break Camp
                     </p>
-                    <CampForm/>
+                    <CampForm />
                 </div>
 
                 {/* SummerCamp */}
@@ -46,9 +45,9 @@ const Test = () => {
                 {/* [CampForm type="summer"] */}
                 <div className="flex flex-col justify-center items-center w-full">
                     <p className="flex justify-center items-center w-full">
-                        Summer Break Camp 
+                        Summer Break Camp
                     </p>
-                    <CampForm/>
+                    <CampForm />
                 </div>
 
                 {/* PA Day Camp */}
@@ -58,7 +57,7 @@ const Test = () => {
                     <p className="flex justify-center items-center w-full">
                         PA Day Camp?
                     </p>
-                    <CampForm/>
+                    <CampForm />
                 </div>
 
                 {/* March Break Camp */}
@@ -68,7 +67,7 @@ const Test = () => {
                     <p className="flex justify-center items-center w-full">
                         March Break Camp
                     </p>
-                    <CampForm/>
+                    <CampForm />
                 </div>
             </div>
 
@@ -80,9 +79,9 @@ const Test = () => {
                     <p className="flex justify-center items-center w-full">
                         Regular Daycare
                     </p>
-                    <DaycareForm/>
+                    <DaycareForm />
                 </div>
-                
+
                 {/* Toddler Daycare */}
                 {/* TODO:MAKE THIS FORM TODDLER SPECIFIC  */}
                 {/* [DaycareForm type="toddler"] */}
@@ -114,14 +113,13 @@ const Test = () => {
                 </div>
             </div>
 
-
             <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border py-16">
                 <h2 className="text-xl font-bold">Party Form</h2>
 
                 {/* Parties */}
                 <div className="flex flex-col justify-center items-center w-full">
                     <p className="flex justify-center items-center w-full">
-                        Party Form 
+                        Party Form
                     </p>
                     <PartyForm />
                 </div>
@@ -134,14 +132,12 @@ const Test = () => {
                 <div className="flex flex-col justify-center items-center w-full">
                     <p className="flex justify-center items-center w-full">
                         Contact Form
-                    </p> 
-                    <ContactForm/>
+                    </p>
+                    <ContactForm />
                 </div>
             </div>
-
         </div>
-    )
+    );
+};
 
-}
-  
 export default Test;

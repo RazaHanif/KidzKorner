@@ -4,62 +4,73 @@ import {
     CardDescription,
     CardHeader,
     CardTitle,
-} from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import CampForm from "@/components/CampForm";
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import CampForm from "@/components/forms/CampForm";
 import Image from "@/components/Image";
-import { breadcrumbSchema, faqSchema, localBusinessSchema } from "../schema/structDataSchema";
+import {
+    breadcrumbSchema,
+    faqSchema,
+    localBusinessSchema,
+} from "../schema/structDataSchema";
 import StructData from "../components/StructData";
-import { BadgeDollarSign, Blocks, CalendarDays, PartyPopper, Sparkles, Sun, UsersRound } from "lucide-react";
+import {
+    BadgeDollarSign,
+    Blocks,
+    CalendarDays,
+    PartyPopper,
+    Sparkles,
+    Sun,
+    UsersRound,
+} from "lucide-react";
 import FAQAccordion from "../components/FAQAccordion";
 
 const PADayCamp = () => {
     const breadCrumb = [
         {
             name: "Home",
-            url: "https://www.kidzkornermilton.com/"
+            url: "https://www.kidzkornermilton.com/",
         },
         {
             name: "Camp",
-            url: "https://www.kidzkornermilton.com/camp"
+            url: "https://www.kidzkornermilton.com/camp",
         },
         {
             name: "PA Day Camp",
-            url: "https://www.kidzkornermilton.com/camp/pa-day-camp"
+            url: "https://www.kidzkornermilton.com/camp/pa-day-camp",
         },
     ];
 
-    
-    const faq = [ 
-        { 
-            q: "What ages does Kidz Korner PA Day Camp serve?", 
-            a: "Kidz Korner PA Day Camp is available for the same age range as our regular camp program. Families can contact us to confirm whether their child is eligible for the current PA Day program." 
-        }, 
-        { 
-            q: "What are the hours for PA Day Camp?", 
-            a: "PA Day Camp runs from 9:00 a.m. to 5:00 p.m. before and after camp care may also be available depending on space. Families interested in extended hours can contact us to ask about availability." 
-        }, 
-        { 
-            q: "How much does PA Day Camp cost?", 
-            a: "PA Day Camp is $45 per child per day. The daily price includes the regular camp activities and programming offered throughout the day." 
-        }, 
-        { 
-            q: "What activities are offered at PA Day Camp?", 
-            a: "Children participate in a variety of activities throughout the day, including arts and crafts, games, sports, creative activities, free play, indoor playground time, and other fun camp activities." 
-        }, 
-        { 
-            q: "Does PA Day Camp include indoor playground time?", 
-            a: "Yes. Children have access to Kidz Korner's indoor playground as part of the PA Day Camp program. Indoor play gives children plenty of opportunities to stay active and have fun throughout the day." 
-        }, 
-        { 
-            q: "How many children are in PA Day Camp?", 
-            a: "PA Day Camp is currently limited to a maximum of 13 children. Keeping the program small allows children to participate comfortably in activities and enjoy a more manageable group environment." 
-        }, 
-        { 
-            q: "What should my child bring to PA Day Camp?", 
-            a: "Children should bring a nut-free packed lunch, snacks, a reusable water bottle, comfortable clothing, indoor shoes, and any personal items they may need throughout the day. We recommend labeling personal belongings with your child's name." 
-        }, 
-    ]
+    const faq = [
+        {
+            q: "What ages does Kidz Korner PA Day Camp serve?",
+            a: "Kidz Korner PA Day Camp is available for the same age range as our regular camp program. Families can contact us to confirm whether their child is eligible for the current PA Day program.",
+        },
+        {
+            q: "What are the hours for PA Day Camp?",
+            a: "PA Day Camp runs from 9:00 a.m. to 5:00 p.m. before and after camp care may also be available depending on space. Families interested in extended hours can contact us to ask about availability.",
+        },
+        {
+            q: "How much does PA Day Camp cost?",
+            a: "PA Day Camp is $45 per child per day. The daily price includes the regular camp activities and programming offered throughout the day.",
+        },
+        {
+            q: "What activities are offered at PA Day Camp?",
+            a: "Children participate in a variety of activities throughout the day, including arts and crafts, games, sports, creative activities, free play, indoor playground time, and other fun camp activities.",
+        },
+        {
+            q: "Does PA Day Camp include indoor playground time?",
+            a: "Yes. Children have access to Kidz Korner's indoor playground as part of the PA Day Camp program. Indoor play gives children plenty of opportunities to stay active and have fun throughout the day.",
+        },
+        {
+            q: "How many children are in PA Day Camp?",
+            a: "PA Day Camp is currently limited to a maximum of 13 children. Keeping the program small allows children to participate comfortably in activities and enjoy a more manageable group environment.",
+        },
+        {
+            q: "What should my child bring to PA Day Camp?",
+            a: "Children should bring a nut-free packed lunch, snacks, a reusable water bottle, comfortable clothing, indoor shoes, and any personal items they may need throughout the day. We recommend labeling personal belongings with your child's name.",
+        },
+    ];
 
     return (
         <div className="flex flex-col flex-1 justify-center items-center gap-6 w-full lg:py-16 pb-8">
@@ -69,10 +80,15 @@ const PADayCamp = () => {
                 </h1>
                 <div className="flex flex-col justify-center items-center text-center gap-6 pt-4">
                     <p className="lg:w-3/4 w-9/10">
-                        School may be closed, but your child's day can still be full of fun at Kidz Korner. Our PA Day Camp in Milton gives children a fun and active day filled with games, arts and crafts, indoor playground time, creative activities, and plenty of opportunities to play and socialize.
+                        School may be closed, but your child's day can still be
+                        full of fun at Kidz Korner. Our PA Day Camp in Milton
+                        gives children a fun and active day filled with games,
+                        arts and crafts, indoor playground time, creative
+                        activities, and plenty of opportunities to play and
+                        socialize.
                     </p>
-                    <a 
-                        href="#pa-day-form" 
+                    <a
+                        href="#pa-day-form"
                         className="hover:scale-105 ease-in-out duration-300 flex-1 flex justify-center"
                     >
                         <Button className="cursor-pointer min-w-1/2">
@@ -95,7 +111,9 @@ const PADayCamp = () => {
                                     Fun on School Days Off
                                 </CardTitle>
                                 <CardDescription>
-                                    When school is closed for a PA Day, children can spend the day playing, creating, and having fun in a welcoming camp environment.
+                                    When school is closed for a PA Day, children
+                                    can spend the day playing, creating, and
+                                    having fun in a welcoming camp environment.
                                 </CardDescription>
                             </CardHeader>
                         </Card>
@@ -107,7 +125,10 @@ const PADayCamp = () => {
                                     Indoor Playground Fun
                                 </CardTitle>
                                 <CardDescription>
-                                    Campers have access to our indoor playground, giving them plenty of opportunities to climb, play, explore, and stay active.
+                                    Campers have access to our indoor
+                                    playground, giving them plenty of
+                                    opportunities to climb, play, explore, and
+                                    stay active.
                                 </CardDescription>
                             </CardHeader>
                         </Card>
@@ -115,11 +136,14 @@ const PADayCamp = () => {
                         <Card className="flex-1 flex">
                             <CardHeader className="text-start">
                                 <CardTitle className="flex flex-row items-center gap-2">
-                                    <Sparkles className="text-primary" />
-                                    A Mix of Activities
+                                    <Sparkles className="text-primary" />A Mix
+                                    of Activities
                                 </CardTitle>
                                 <CardDescription>
-                                    From arts and crafts to games, sports, creative activities, and free play, children have plenty of ways to stay engaged throughout the day.
+                                    From arts and crafts to games, sports,
+                                    creative activities, and free play, children
+                                    have plenty of ways to stay engaged
+                                    throughout the day.
                                 </CardDescription>
                             </CardHeader>
                         </Card>
@@ -133,7 +157,10 @@ const PADayCamp = () => {
                                     Small Group Setting
                                 </CardTitle>
                                 <CardDescription>
-                                    With a maximum of 13 campers, we keep our PA Day program intentionally small so children can enjoy a more comfortable and engaging group experience.
+                                    With a maximum of 13 campers, we keep our PA
+                                    Day program intentionally small so children
+                                    can enjoy a more comfortable and engaging
+                                    group experience.
                                 </CardDescription>
                             </CardHeader>
                         </Card>
@@ -145,7 +172,10 @@ const PADayCamp = () => {
                                     Full Day of Fun
                                 </CardTitle>
                                 <CardDescription>
-                                    Camp runs from 9:00 a.m. to 5:00 p.m., giving children a full day of activities, play, and social time while school is closed.
+                                    Camp runs from 9:00 a.m. to 5:00 p.m.,
+                                    giving children a full day of activities,
+                                    play, and social time while school is
+                                    closed.
                                 </CardDescription>
                             </CardHeader>
                         </Card>
@@ -157,7 +187,9 @@ const PADayCamp = () => {
                                     Simple Daily Pricing
                                 </CardTitle>
                                 <CardDescription>
-                                    PA Day Camp is $45 per child per day, making it easy for families to book care for individual school closure days.
+                                    PA Day Camp is $45 per child per day, making
+                                    it easy for families to book care for
+                                    individual school closure days.
                                 </CardDescription>
                             </CardHeader>
                         </Card>
@@ -171,19 +203,37 @@ const PADayCamp = () => {
                 </h2>
                 <div className="flex flex-col gap-2 w-full">
                     <p className="">
-                       PA Days can be a challenge for families when children have a day off from school but parents still have work, errands, or other commitments. At Kidz Korner, our PA Day Camp gives children a fun and active place to spend the day while enjoying a variety of activities.
+                        PA Days can be a challenge for families when children
+                        have a day off from school but parents still have work,
+                        errands, or other commitments. At Kidz Korner, our PA
+                        Day Camp gives children a fun and active place to spend
+                        the day while enjoying a variety of activities.
                     </p>
                     <p className="">
-                        Each day includes a mix of activities designed to keep children engaged and entertained. Campers can take part in arts and crafts, games, sports, creative activities, and free play, while also having plenty of opportunities to explore and stay active on our indoor playground.
+                        Each day includes a mix of activities designed to keep
+                        children engaged and entertained. Campers can take part
+                        in arts and crafts, games, sports, creative activities,
+                        and free play, while also having plenty of opportunities
+                        to explore and stay active on our indoor playground.
                     </p>
                     <p className="">
-                        Rather than following a regular school-day routine, PA Day Camp gives children the chance to enjoy a more relaxed day filled with play, creativity, movement, and time with friends.
+                        Rather than following a regular school-day routine, PA
+                        Day Camp gives children the chance to enjoy a more
+                        relaxed day filled with play, creativity, movement, and
+                        time with friends.
                     </p>
                     <p className="">
-                        PA Day Camp runs from 9:00 a.m. to 5:00 p.m. and is limited to 13 children, allowing us to maintain a smaller group environment while campers participate in activities and enjoy their day away from school.
+                        PA Day Camp runs from 9:00 a.m. to 5:00 p.m. and is
+                        limited to 13 children, allowing us to maintain a
+                        smaller group environment while campers participate in
+                        activities and enjoy their day away from school.
                     </p>
                     <p className="">
-                        The cost is <b>$45 per child per day</b>, and regular PA Day Camp activities are included. Before- and after-camp care may also be available based on space, so families interested in extended hours can contact us to ask about availability.
+                        The cost is <b>$45 per child per day</b>, and regular PA
+                        Day Camp activities are included. Before- and after-camp
+                        care may also be available based on space, so families
+                        interested in extended hours can contact us to ask about
+                        availability.
                     </p>
                 </div>
             </div>
@@ -210,57 +260,46 @@ const PADayCamp = () => {
                             <p className="lg:border-r-2 lg:border-b-0 border-b-2 p-4">
                                 9AM to 5PM
                             </p>
-                            <p className="p-4">
-                                $45 per day
-                            </p>
+                            <p className="p-4">$45 per day</p>
                         </div>
                     </CardContent>
                 </Card>
             </div>
 
             <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10">
-                <h2 className="text-xl font-bold text-center pb-4">
-                    FAQ
-                </h2>
+                <h2 className="text-xl font-bold text-center pb-4">FAQ</h2>
                 <FAQAccordion faq={faq} />
             </div>
 
-            <div 
+            <div
                 className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 border-t lg:pt-12 pt-8 lg:mt-12 mt-8"
                 id="pa-day-form"
             >
-                <p className="flex text-center">
-                    Interested in PA Day Camp?
-                </p>
+                <p className="flex text-center">Interested in PA Day Camp?</p>
 
                 {/* TODO:MAKE THIS FORM PA DAY SPECIFIC  */}
                 {/* [CampForm type="pa"] */}
-                <CampForm/>
+                <CampForm />
             </div>
 
             <StructData schema={localBusinessSchema} />
             <StructData schema={breadcrumbSchema(breadCrumb)} />
             <StructData schema={faqSchema(faq)} />
 
-            <title>
-                PA Day Camp in Milton, Ontario | Kidz Korner 
-            </title>
-            <meta 
-                name="description" 
-                content="Join Kidz Korner's fun and educational kids' camps in Milton, Ontario. Summer and seasonal camps designed to spark curiosity and creativity." 
+            <title>PA Day Camp in Milton, Ontario | Kidz Korner</title>
+            <meta
+                name="description"
+                content="Join Kidz Korner's fun and educational kids' camps in Milton, Ontario. Summer and seasonal camps designed to spark curiosity and creativity."
             />
-            <meta 
+            <meta
                 property="og:title"
                 content="PA Day Camp in Milton, Ontario | Kidz Korner"
             />
             <meta
                 property="og:description"
-                content="Join Kidz Korner's fun and educational kids' camps in Milton, Ontario. Summer and seasonal camps designed to spark curiosity and creativity." 
+                content="Join Kidz Korner's fun and educational kids' camps in Milton, Ontario. Summer and seasonal camps designed to spark curiosity and creativity."
             />
-            <meta 
-                property="og:type"
-                content="website"
-            />
+            <meta property="og:type" content="website" />
             <meta
                 property="og:url"
                 content="https://www.kidzkornermilton.com/camp/pa-day-camp"
@@ -275,6 +314,6 @@ const PADayCamp = () => {
             />
         </div>
     );
-}
-  
+};
+
 export default PADayCamp;

@@ -1,4 +1,4 @@
-import DaycareForm from "@/components/DaycareForm";
+import DaycareForm from "@/components/forms/DaycareForm";
 import DaycareTimeTable from "@/components/DaycareTimeTable";
 import CareSchedule from "@/components/CareSchedule";
 import {
@@ -7,9 +7,12 @@ import {
     CardDescription,
     CardHeader,
     CardTitle,
-} from "@/components/ui/card"
-import Image from "@/components/Image"
-import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
+} from "@/components/ui/card";
+import Image from "@/components/Image";
+import {
+    breadcrumbSchema,
+    localBusinessSchema,
+} from "../schema/structDataSchema";
 import StructData from "../components/StructData";
 
 // Childcare -> Daycare
@@ -17,29 +20,36 @@ const Childcare = () => {
     const breadCrumb = [
         {
             name: "Home",
-            url: "https://www.kidzkornermilton.com/"
+            url: "https://www.kidzkornermilton.com/",
         },
         {
             name: "Childcare",
-            url: "https://www.kidzkornermilton.com/childcare"
+            url: "https://www.kidzkornermilton.com/childcare",
         },
     ];
 
     return (
         <div className="flex flex-col justify-center items-center gap-4 w-full text-justify">
             <div className="flex flex-col justify-center items-center w-full mb-4">
-                <h1 className="text-3xl font-bold font-serif">
-                    Child Care 
-                </h1>
+                <h1 className="text-3xl font-bold font-serif">Child Care</h1>
                 <p className="text-xl font-bold text-center">
                     Toddler, Preschool, and Before/After School Programs
-                </p>    
+                </p>
             </div>
-            
+
             <div className="flex lg:flex-row flex-col justify-between items-center w-3/4 gap-4">
-                <Image src='/media/KK/20251010_122316.jpg' alt='Child Playing With Magnetic Toy at Kidz Korner Milton, Ontario' />
-                <Image src='/media/KK/IMG-20260108-WA0007.jpg' alt='Child Tracing Alphabets at Kidz Korner Milton, Ontario' />
-                <Image src='/media/KK/IMG-20260209-WA0006.jpg' alt='Child Playing With Play-Doh at Kidz Korner Milton, Ontario' />
+                <Image
+                    src="/media/KK/20251010_122316.jpg"
+                    alt="Child Playing With Magnetic Toy at Kidz Korner Milton, Ontario"
+                />
+                <Image
+                    src="/media/KK/IMG-20260108-WA0007.jpg"
+                    alt="Child Tracing Alphabets at Kidz Korner Milton, Ontario"
+                />
+                <Image
+                    src="/media/KK/IMG-20260209-WA0006.jpg"
+                    alt="Child Playing With Play-Doh at Kidz Korner Milton, Ontario"
+                />
             </div>
 
             <div className="flex lg:flex-row flex-col justify-evenly items-center w-3/4">
@@ -55,15 +65,24 @@ const Childcare = () => {
                     <CardContent>
                         <p className="flex flex-col justify-center items-center w-full text-center">
                             <span>
-                                Kidz Korner is a licensed child care centre dedicated to providing high quality early learning and care. We offer toddler, preschool, and before/after school programs. Our curriculum is guided by the
+                                Kidz Korner is a licensed child care centre
+                                dedicated to providing high quality early
+                                learning and care. We offer toddler, preschool,
+                                and before/after school programs. Our curriculum
+                                is guided by the
                             </span>
                             <span className="italic self-center">
-                                Ministry of Education's "How Does Learning Happen?" (HDLH) 
+                                Ministry of Education's "How Does Learning
+                                Happen?" (HDLH)
                             </span>
                             <span>
-                                framework. Focusing on the well-being, engagement, expression, and belonging of each individual child. 
-                                Our educators provide a high quality programs and a vibrant learning environment, including our most unique feature, the indoor playground.
-                                We provide a variety of care options to meet each families unique needs.
+                                framework. Focusing on the well-being,
+                                engagement, expression, and belonging of each
+                                individual child. Our educators provide a high
+                                quality programs and a vibrant learning
+                                environment, including our most unique feature,
+                                the indoor playground. We provide a variety of
+                                care options to meet each families unique needs.
                             </span>
                         </p>
                     </CardContent>
@@ -78,7 +97,11 @@ const Childcare = () => {
                     <div className="flex flex-col justify-center m-4 lg:m-0">
                         <CareSchedule />
                     </div>
-                    <Image src='/media/KK/20250822_121126.jpg' alt='Child Playing With Blocks at Kidz Korner Milton, Ontario' w="w-sm"/>
+                    <Image
+                        src="/media/KK/20250822_121126.jpg"
+                        alt="Child Playing With Blocks at Kidz Korner Milton, Ontario"
+                        w="w-sm"
+                    />
                 </div>
             </div>
 
@@ -116,20 +139,27 @@ const Childcare = () => {
                     </CardContent>
                 </Card>
             </div>
-            
+
             <div className="flex lg:flex-row flex-col justify-between items-center w-3/4 gap-4">
-                    <Image src='/media/KK/20251023_124356.jpg' alt='Child Carving Pumpkin at Kidz Korner Milton, Ontario' />
-                    <Image src='/media/KK/Photo from Ansa.jpg' alt='Child Whisking Eggs at Kidz Korner Milton, Ontario' />
-                    <Image src='/media/KK/20250811_104025.jpg' alt='Child Making Sea Shell at Kidz Korner Milton, Ontario' />
+                <Image
+                    src="/media/KK/20251023_124356.jpg"
+                    alt="Child Carving Pumpkin at Kidz Korner Milton, Ontario"
+                />
+                <Image
+                    src="/media/KK/Photo from Ansa.jpg"
+                    alt="Child Whisking Eggs at Kidz Korner Milton, Ontario"
+                />
+                <Image
+                    src="/media/KK/20250811_104025.jpg"
+                    alt="Child Making Sea Shell at Kidz Korner Milton, Ontario"
+                />
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-1 m-4 overflow-x-auto">
-               <h2 className="text-xl font-bold self-center">
+                <h2 className="text-xl font-bold self-center">
                     Kidz Korner Daily Routine
                 </h2>
-                <p className="text-sm">
-                    Here's what our day looks like!
-                </p>
+                <p className="text-sm">Here's what our day looks like!</p>
                 <div className="lg:w-3/4">
                     <DaycareTimeTable />
                 </div>
@@ -137,25 +167,31 @@ const Childcare = () => {
 
             <div className="flex flex-col justify-center items-center lg:w-3/4 gap-1">
                 <p className="flex w-2/3 text-center">
-                    Ready to join us? Contact us today to learn more about our preschool programs and schedule a tour of our facility! 
+                    Ready to join us? Contact us today to learn more about our
+                    preschool programs and schedule a tour of our facility!
                 </p>
-
             </div>
 
             <div className="flex flex-col justify-center items-center w-3/4 gap-4">
-                <DaycareForm/>
+                <DaycareForm />
             </div>
-
 
             <StructData schema={localBusinessSchema} />
             <StructData schema={breadcrumbSchema(breadCrumb)} />
 
             <title>
-                Childcare Programs in Milton, Ontario | Licensed Daycare | Kidz Korner
+                Childcare Programs in Milton, Ontario | Licensed Daycare | Kidz
+                Korner
             </title>
-            <meta name="keywords" content="childcare Milton, daycare programs Milton, preschool programs Milton, infant care Milton, toddler care Milton" />
-            <meta name="description" content="Explore Kidz Korner's licensed childcare programs in Milton. Safe, engaging, and fun learning experiences for infants, toddlers, and preschoolers." />
-            <meta 
+            <meta
+                name="keywords"
+                content="childcare Milton, daycare programs Milton, preschool programs Milton, infant care Milton, toddler care Milton"
+            />
+            <meta
+                name="description"
+                content="Explore Kidz Korner's licensed childcare programs in Milton. Safe, engaging, and fun learning experiences for infants, toddlers, and preschoolers."
+            />
+            <meta
                 property="og:title"
                 content="Licensed Daycare in Milton, Ontario | Kidz Korner"
             />
@@ -163,10 +199,7 @@ const Childcare = () => {
                 property="og:description"
                 content="Looking for a licensed daycare in Milton? Kidz Korner provides trusted childcare, toddler daycare, preschool programs, before and after school care, and licensed camps for local families."
             />
-            <meta 
-                property="og:type"
-                content="website"
-            />
+            <meta property="og:type" content="website" />
             <meta
                 property="og:url"
                 content="https://www.kidzkornermilton.com/"
@@ -181,6 +214,6 @@ const Childcare = () => {
             />
         </div>
     );
-}
-  
+};
+
 export default Childcare;

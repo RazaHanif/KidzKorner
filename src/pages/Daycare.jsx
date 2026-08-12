@@ -1,4 +1,4 @@
-import DaycareForm from "@/components/DaycareForm";
+import DaycareForm from "@/components/forms/DaycareForm";
 import DaycareTimeTable from "@/components/DaycareTimeTable";
 import CareSchedule from "@/components/CareSchedule";
 import {
@@ -7,22 +7,25 @@ import {
     CardDescription,
     CardHeader,
     CardTitle,
-} from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { NavLink } from 'react-router-dom';
-import Image from "@/components/Image"
-import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { NavLink } from "react-router-dom";
+import Image from "@/components/Image";
+import {
+    breadcrumbSchema,
+    localBusinessSchema,
+} from "../schema/structDataSchema";
 import StructData from "../components/StructData";
 
 const Daycare = () => {
     const breadCrumb = [
         {
             name: "Home",
-            url: "https://www.kidzkornermilton.com/"
+            url: "https://www.kidzkornermilton.com/",
         },
         {
             name: "Daycare",
-            url: "https://www.kidzkornermilton.com/daycare"
+            url: "https://www.kidzkornermilton.com/daycare",
         },
     ];
 
@@ -34,13 +37,22 @@ const Daycare = () => {
                 </h1>
                 <h2 className="text-xl font-bold text-center w-3/4">
                     Toddler, Preschool, and Before & After School Programs
-                </h2>    
+                </h2>
             </div>
-            
+
             <div className="flex lg:flex-row flex-col justify-between items-center lg:w-3/4 w-9/10 gap-6 lg:py-12 py-8 lg:my-12 my-8">
-                <Image src='/media/KK/20251010_122316.jpg' alt='Child Playing With Magnetic Toy at Kidz Korner Milton, Ontario' />
-                <Image src='/media/KK/IMG-20260108-WA0007.jpg' alt='Child Tracing Alphabets at Kidz Korner Milton, Ontario' />
-                <Image src='/media/KK/IMG-20260209-WA0006.jpg' alt='Child Playing With Play-Doh at Kidz Korner Milton, Ontario' />
+                <Image
+                    src="/media/KK/20251010_122316.jpg"
+                    alt="Child Playing With Magnetic Toy at Kidz Korner Milton, Ontario"
+                />
+                <Image
+                    src="/media/KK/IMG-20260108-WA0007.jpg"
+                    alt="Child Tracing Alphabets at Kidz Korner Milton, Ontario"
+                />
+                <Image
+                    src="/media/KK/IMG-20260209-WA0006.jpg"
+                    alt="Child Playing With Play-Doh at Kidz Korner Milton, Ontario"
+                />
             </div>
 
             <div className="flex lg:flex-row flex-col justify-evenly items-center lg:w-3/4 w-9/10 border-y lg:py-12 py-8 lg:my-12 my-8">
@@ -56,15 +68,23 @@ const Daycare = () => {
                     <CardContent>
                         <p className="flex flex-col justify-center items-center w-full text-center">
                             <span>
-                                Kidz Korner is a licensed child care centre dedicated to providing high quality early learning and care. Our curriculum is guided by the
+                                Kidz Korner is a licensed child care centre
+                                dedicated to providing high quality early
+                                learning and care. Our curriculum is guided by
+                                the
                             </span>
                             <span className="italic self-center">
-                                Ministry of Education's "How Does Learning Happen?" (HDLH) 
+                                Ministry of Education's "How Does Learning
+                                Happen?" (HDLH)
                             </span>
                             <span>
-                                framework. Focusing on the well-being, engagement, expression, and belonging of each individual child. 
-                                Our educators provide a high quality programs and a vibrant learning environment, including our most unique feature, the indoor playground.
-                                We provide a variety of care options to meet each families unique needs.
+                                framework. Focusing on the well-being,
+                                engagement, expression, and belonging of each
+                                individual child. Our educators provide a high
+                                quality programs and a vibrant learning
+                                environment, including our most unique feature,
+                                the indoor playground. We provide a variety of
+                                care options to meet each families unique needs.
                             </span>
                         </p>
                     </CardContent>
@@ -77,22 +97,27 @@ const Daycare = () => {
                 </h2>
                 <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
                     <div className="flex flex-col lg:flex-row flex-1 lg:w-3/4 w-full gap-6">
-                        <NavLink 
-                            to="/daycare/toddler" 
-                            end 
+                        <NavLink
+                            to="/daycare/toddler"
+                            end
                             className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                         >
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
-                                    <CardTitle>
-                                        Toddler Program
-                                    </CardTitle>
+                                    <CardTitle>Toddler Program</CardTitle>
                                     <CardDescription>
-                                       A nurturing environment where toddlers learn through play, exploration, and hands-on activities that support their early development and growing independence.
+                                        A nurturing environment where toddlers
+                                        learn through play, exploration, and
+                                        hands-on activities that support their
+                                        early development and growing
+                                        independence.
                                     </CardDescription>
                                 </CardHeader>
                                 <CardContent className="flex-1 flex justify-end items-end">
-                                    <Button className="pointer-events-none" variant="secondary">
+                                    <Button
+                                        className="pointer-events-none"
+                                        variant="secondary"
+                                    >
                                         Learn More
                                     </Button>
                                 </CardContent>
@@ -100,21 +125,26 @@ const Daycare = () => {
                         </NavLink>
 
                         <NavLink
-                            to="/daycare/preschool" 
-                            end 
+                            to="/daycare/preschool"
+                            end
                             className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                         >
                             <Card className="flex-1 flex">
                                 <CardHeader className="text-start">
-                                    <CardTitle>
-                                        Preschool Program
-                                    </CardTitle>
+                                    <CardTitle>Preschool Program</CardTitle>
                                     <CardDescription>
-                                        A play-based learning program designed to help children build confidence, creativity, and essential skills while preparing them for their next stage of learning.
+                                        A play-based learning program designed
+                                        to help children build confidence,
+                                        creativity, and essential skills while
+                                        preparing them for their next stage of
+                                        learning.
                                     </CardDescription>
                                 </CardHeader>
                                 <CardContent className="flex-1 flex justify-end items-end">
-                                    <Button className="pointer-events-none" variant="secondary">
+                                    <Button
+                                        className="pointer-events-none"
+                                        variant="secondary"
+                                    >
                                         Learn More
                                     </Button>
                                 </CardContent>
@@ -122,8 +152,8 @@ const Daycare = () => {
                         </NavLink>
 
                         <NavLink
-                            to="/daycare/before-after-school-care" 
-                            end 
+                            to="/daycare/before-after-school-care"
+                            end
                             className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                         >
                             <Card className="flex-1 flex">
@@ -132,11 +162,18 @@ const Daycare = () => {
                                         Before & After School Program
                                     </CardTitle>
                                     <CardDescription>
-                                        A safe and engaging program for school-age children offering before and after school care, with opportunities for learning, activities, and social connection.
+                                        A safe and engaging program for
+                                        school-age children offering before and
+                                        after school care, with opportunities
+                                        for learning, activities, and social
+                                        connection.
                                     </CardDescription>
                                 </CardHeader>
                                 <CardContent className="flex-1 flex justify-end items-end">
-                                    <Button className="pointer-events-none" variant="secondary">
+                                    <Button
+                                        className="pointer-events-none"
+                                        variant="secondary"
+                                    >
                                         Learn More
                                     </Button>
                                 </CardContent>
@@ -154,9 +191,9 @@ const Daycare = () => {
                     <div className="flex flex-col justify-center m-4 lg:m-0">
                         <CareSchedule />
                     </div>
-                    <Image 
-                        src='/media/Stock/5.jpg' 
-                        alt='Child Painting at Kidz Korner Milton, Ontario' 
+                    <Image
+                        src="/media/Stock/5.jpg"
+                        alt="Child Painting at Kidz Korner Milton, Ontario"
                         w="w-sm"
                     />
                 </div>
@@ -196,19 +233,29 @@ const Daycare = () => {
                     </CardContent>
                 </Card>
             </div>
-            
+
             <div className="flex lg:flex-row flex-col justify-between items-center lg:w-3/4 w-9/10 gap-6 border-y lg:py-12 py-8 lg:my-12 my-8">
-                    <Image src='/media/KK/20251023_124356.jpg' alt='Child Carving Pumpkin at Kidz Korner Milton, Ontario' />
-                    <Image src='/media/KK/Photo from Ansa.jpg' alt='Child Whisking Eggs at Kidz Korner Milton, Ontario' />
-                    <Image src='/media/KK/20250811_104025.jpg' alt='Child Making Sea Shell at Kidz Korner Milton, Ontario' />
+                <Image
+                    src="/media/KK/20251023_124356.jpg"
+                    alt="Child Carving Pumpkin at Kidz Korner Milton, Ontario"
+                />
+                <Image
+                    src="/media/KK/Photo from Ansa.jpg"
+                    alt="Child Whisking Eggs at Kidz Korner Milton, Ontario"
+                />
+                <Image
+                    src="/media/KK/20250811_104025.jpg"
+                    alt="Child Making Sea Shell at Kidz Korner Milton, Ontario"
+                />
             </div>
 
             <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 m-4 overflow-x-auto">
-               <h2 className="text-xl font-bold self-center">
+                <h2 className="text-xl font-bold self-center">
                     A Day at Kidz Korner
                 </h2>
                 <p className="text-sm">
-                    Every day includes a balance of learning, creativity, play, and rest designed to support each child's development.
+                    Every day includes a balance of learning, creativity, play,
+                    and rest designed to support each child's development.
                 </p>
                 <div className="lg:w-3/4">
                     <DaycareTimeTable />
@@ -217,24 +264,25 @@ const Daycare = () => {
 
             <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 border-t lg:py-12 py-8 lg:my-12 my-8">
                 <p className="flex text-center">
-                    Ready to join us? Contact us today to learn more about our preschool programs and schedule a tour of our facility! 
+                    Ready to join us? Contact us today to learn more about our
+                    preschool programs and schedule a tour of our facility!
                 </p>
-                <DaycareForm/>
+                <DaycareForm />
             </div>
-
 
             <StructData schema={localBusinessSchema} />
             <StructData schema={breadcrumbSchema(breadCrumb)} />
 
             <title>
-                Licensed Daycare in Milton, Ontario | Toddler & Preschool Care | Kidz Korner
+                Licensed Daycare in Milton, Ontario | Toddler & Preschool Care |
+                Kidz Korner
             </title>
-            <meta 
-                name="description" 
-                content="Kidz Korner is a licensed daycare in Milton, Ontario offering toddler, preschool, and before & after school programs with experienced RECE educators, play-based learning, and a safe indoor environment." 
+            <meta
+                name="description"
+                content="Kidz Korner is a licensed daycare in Milton, Ontario offering toddler, preschool, and before & after school programs with experienced RECE educators, play-based learning, and a safe indoor environment."
             />
 
-            <meta 
+            <meta
                 property="og:title"
                 content="Licensed Daycare in Milton, Ontario | Toddler & Preschool Care | Kidz Korner"
             />
@@ -242,10 +290,7 @@ const Daycare = () => {
                 property="og:description"
                 content="Kidz Korner is a licensed daycare in Milton, Ontario offering toddler, preschool, and before & after school programs with experienced RECE educators, play-based learning, and a safe indoor environment."
             />
-            <meta 
-                property="og:type"
-                content="website"
-            />
+            <meta property="og:type" content="website" />
             <meta
                 property="og:url"
                 content="https://www.kidzkornermilton.com/daycare"
@@ -258,10 +303,8 @@ const Daycare = () => {
                 property="og:image:alt"
                 content="Kidz Korner licensed daycare in Milton"
             />
-
-
         </div>
     );
-}
-  
+};
+
 export default Daycare;
