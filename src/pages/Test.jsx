@@ -137,14 +137,14 @@ const Test = () => {
 
 
                 <h2 className="text-xl font-bold">Camp Forms</h2>
+                {/* Parties */}
+                <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 lg:pt-12 pt-8 lg:mt-12 mt-8">
+                    <p className="flex text-center">
+                        Ready to Party? Contact us today to secure your date! 
+                    </p>
+                    <PartyForm />
+                </div>
 
-            </div>
-            {/* Parties */}
-            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 lg:pt-12 pt-8 lg:mt-12 mt-8">
-                <p className="flex text-center">
-                    Ready to Party? Contact us today to secure your date! 
-                </p>
-                <PartyForm />
             </div>
 
             {/* Daycare */}
