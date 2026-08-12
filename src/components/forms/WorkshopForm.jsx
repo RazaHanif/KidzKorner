@@ -152,10 +152,13 @@ const WorkshopForm = () => {
                                 <SelectLabel>
                                     Workshops
                                 </SelectLabel>
-                                {workshopData.map((workshop) => {
+                                {workshopData.map((workshop, idx) => {
                                     return (
-                                        <SelectItem value={workshop.title} key>
-
+                                        <SelectItem 
+                                            value={workshop.title}
+                                            key={idx}    
+                                        >
+                                            
                                         </SelectItem>
                                     )
                                 })}
