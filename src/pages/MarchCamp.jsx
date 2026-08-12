@@ -276,7 +276,7 @@ const MarchCamp = () => {
             </div>
 
             <div
-                className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 border-t lg:pt-12 pt-8 lg:mt-12 mt-8"
+                className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-2 border-t lg:pt-12 pt-8 lg:mt-12 mt-8"
                 id="march-camp-form"
             >
                 <p className="flex text-center">
