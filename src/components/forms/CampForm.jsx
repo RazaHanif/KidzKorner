@@ -60,6 +60,8 @@ const CampForm = ({ campType }) => {
             setErrorDOB("Please select a date of birth.");
             return;
         }
+
+        setErrorDOB("")
         setIsSubmitting(true);
 
         try {
