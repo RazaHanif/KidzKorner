@@ -76,8 +76,8 @@ const Test = () => {
                 <h2 className="text-xl font-bold">Daycare Forms</h2>
 
                 {/* Daycare */}
-                <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 lg:py-12 py-8 lg:my-12 my-8">
-                    <p className="flex text-center">
+                <div className="flex flex-col justify-center items-center w-full">
+                    <p className="flex justify-center items-center w-full">
                         Regular Daycare
                     </p>
                     <DaycareForm/>
