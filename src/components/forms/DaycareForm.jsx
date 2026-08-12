@@ -16,16 +16,21 @@ const DaycareForm = ({ daycareType }) => {
     const programTypes = {
         toddler: "Toddler",
         preschool: "Preschool",
-        before_after: "Before & After School",
+        before_after: "Before or After School",
     };
 
     const sessionTypes = {
-        daycare: [
+        toddler: [
             "Full Day - 9:00 AM to 3:00 PM",
             "Half Day - 9:00 AM to 11:30 AM",
             "Half Day - 12:30 PM to 3:00 PM",
         ],
-        beforeAfter: [
+        preschool: [
+            "Full Day - 9:00 AM to 3:00 PM",
+            "Half Day - 9:00 AM to 11:30 AM",
+            "Half Day - 12:30 PM to 3:00 PM",
+        ],
+        before_after: [
             "Before School - 7:30 AM to 9:00 AM",
             "After School - 3:00 PM to 6:00 PM",
         ],
@@ -37,7 +42,7 @@ const DaycareForm = ({ daycareType }) => {
         email: "",
         phone: "",
         programType: daycareType ? programTypes[daycareType] : "",
-        session: "",
+        session: daycareType ? sessionTypes[daycareType] : "",
         dob: today.toISOString().split("T")[0],
         startDate: "",
         interviewTiming: "",
