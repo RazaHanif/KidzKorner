@@ -17,6 +17,7 @@ import {
   AlertDescription,
   AlertTitle,
 } from "@/components/ui/alert"
+import { AlertCircle } from "lucide-react";
 
 const CampForm = ({ campType }) => {
     const sessionTypes = {
