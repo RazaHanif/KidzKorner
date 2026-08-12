@@ -35,8 +35,8 @@ const DaycareForm = () => {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [openDOB, setOpenDOB] = useState(false);
     const [openStartDate, setOpenStartDate] = useState(false);
-    const [errorDOB, setErrorDOB] = useState(false)
-    const [errorStartDate, setErrorStartDate] = useState(false)
+    const [errorDOB, setErrorDOB] = useState(false);
+    const [errorStartDate, setErrorStartDate] = useState(false);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -52,15 +52,14 @@ const DaycareForm = () => {
             setErrorDOB("Please select a date of birth.");
             return;
         }
-        
+
         if (!formData.startDate) {
             setErrorStartDate("Please select a date of birth.");
             return;
         }
-        
-        
-        setErrorDOB("")
-        setErrorStartDate("")
+
+        setErrorDOB("");
+        setErrorStartDate("");
         setIsSubmitting(true);
 
         try {
@@ -137,7 +136,8 @@ const DaycareForm = () => {
                                 <AlertCircle className="h-4 w-4" />
                                 <AlertTitle>Missing information</AlertTitle>
                                 <AlertDescription>
-                                    Please select a date of birth before submitting the form.
+                                    Please select a date of birth before
+                                    submitting the form.
                                 </AlertDescription>
                             </Alert>
                         )}
@@ -173,8 +173,7 @@ const DaycareForm = () => {
                                             : undefined
                                     }
                                     disabled={{
-                                        before: minDOB,
-                                        after: maxDOB
+                                        after: maxDOB,
                                     }}
                                     defaultMonth={maxDOB}
                                     onSelect={(date) => {
@@ -204,7 +203,8 @@ const DaycareForm = () => {
                                 <AlertCircle className="h-4 w-4" />
                                 <AlertTitle>Missing information</AlertTitle>
                                 <AlertDescription>
-                                    Please select a valid start date before submitting the form.
+                                    Please select a valid start date before
+                                    submitting the form.
                                 </AlertDescription>
                             </Alert>
                         )}
