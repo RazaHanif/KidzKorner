@@ -31,8 +31,6 @@ const Test = () => {
                 </div>
 
                 {/* WinterCamp */}
-                {/* TODO:MAKE THIS FORM WINTER SPECIFIC  */}
-                {/* [CampForm type="winter"] */}
                 <div className="flex flex-col justify-center items-center w-full">
                     <p className="flex justify-center items-center w-full">
                         Winter Break Camp
@@ -41,8 +39,6 @@ const Test = () => {
                 </div>
 
                 {/* SummerCamp */}
-                {/* TODO:MAKE THIS FORM SUMMER SPECIFIC  */}
-                {/* [CampForm type="summer"] */}
                 <div className="flex flex-col justify-center items-center w-full">
                     <p className="flex justify-center items-center w-full">
                         Summer Break Camp
@@ -51,8 +47,6 @@ const Test = () => {
                 </div>
 
                 {/* PA Day Camp */}
-                {/* TODO:MAKE THIS FORM PA DAY SPECIFIC  */}
-                {/* [CampForm type="pa"] */}
                 <div className="flex flex-col justify-center items-center w-full">
                     <p className="flex justify-center items-center w-full">
                         PA Day Camp
@@ -61,8 +55,6 @@ const Test = () => {
                 </div>
 
                 {/* March Break Camp */}
-                {/* TODO:MAKE THIS FORM MARCH SPECIFIC  */}
-                {/* [CampForm type="march"] */}
                 <div className="flex flex-col justify-center items-center w-full">
                     <p className="flex justify-center items-center w-full">
                         March Break Camp
