@@ -90,16 +90,14 @@ const Test = () => {
                     <p className="flex justify-center items-center w-full">
                         Toddler Daycare
                     </p>
-                    
                     <DaycareForm />
                 </div>
 
                 {/* Preschool Daycare */}
-                <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6" id="preschool-form">
-                    <p className="flex text-center">
+                <div className="flex flex-col justify-center items-center w-full">
+                    <p className="flex justify-center items-center w-full">
                         Preschool Daycare
-                    </p>
-                    
+                    </p>                    
                     {/* TODO:MAKE THIS FORM PRESCHOOL SPECIFIC  */}
                     {/* [DaycareForm type="preschool"] */}
                     <DaycareForm />
