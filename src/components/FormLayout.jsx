@@ -12,11 +12,11 @@ const FormLayout = ({ title, form, handleSubmit, submitted }) => {
                     onSubmit={ handleSubmit }
                     className='w-full flex flex-col justify-center items-center shadow-lg bg-card gap-4 border-2 rounded-lg lg:py-16 py-8'
                 >
-                    <div 
+                    <h2 
                         className='lg:text-3xl text-2xl font-serif'
                     >
                         {title}
-                    </div>
+                    </h2>
                     { form }
                 </form>
             )}
