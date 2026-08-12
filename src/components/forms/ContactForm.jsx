@@ -105,7 +105,7 @@ const ContactForm = () => {
                         <Label htmlFor="message" className="form-label">
                             Ask us something...
                         </Label>
-                        <Textarea
+                        <Input
                             type="text"
                             id="message"
                             name="message"
