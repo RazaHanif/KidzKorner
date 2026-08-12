@@ -16,6 +16,8 @@ import {
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu"
 
+// Fix this with new NaivigationMenu
+
 function Navigation() {
 
   return (
