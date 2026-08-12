@@ -1,4 +1,4 @@
-import WorkshopForm from "@/components/WorkshopFrom"
+import WorkshopForm from "@/components/WorkshopForm"
 import WorkshopCarousel from "@/components/WorkshopCarousel";
 import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
 import StructData from "../components/StructData";
