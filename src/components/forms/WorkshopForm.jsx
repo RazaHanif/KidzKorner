@@ -99,9 +99,7 @@ const WorkshopForm = () => {
                         />
                     </div>
 
-                    <div 
-                    className="grid items-center gap-2 w-4/5 p-2"
-                    >
+                    <div className="grid items-center gap-2 w-4/5 p-2">
                     <label 
                         htmlFor="email"
                     >
