@@ -44,7 +44,7 @@ const WinterCamp = () => {
     const faq = [
         {
             q: "What ages does Kidz Korner Winter Break Camp serve?",
-            a: "Kidz Korner Winter Break Camp is available for the same age range as our regular camp program. Families can contact us to confirm whether their child is eligible for the current Winter Break program.",
+            a: "Kidz Korner Winter Break Camp is available for children between 4 and 13 years old. Families can contact us to confirm whether their child is eligible for the current Winter Break program.",
         },
         {
             q: "What are the hours for Winter Break Camp?",
