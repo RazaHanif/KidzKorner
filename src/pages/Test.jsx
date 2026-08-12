@@ -134,8 +134,6 @@ const Test = () => {
 
 
             <div className="flex flex-col justify-center items-center w-full border">
-
-
                 <h2 className="text-xl font-bold">Party Form</h2>
 
                 {/* Parties */}
