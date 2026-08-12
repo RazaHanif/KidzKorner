@@ -151,11 +151,11 @@ const Test = () => {
             <div className="flex flex-col justify-center items-center w-full border">
 
                 <h2 className="text-xl font-bold">Contact Form</h2>
-                
+
                 {/* Contact Us */}
                 <div className="flex flex-col justify-center items-center w-9/10 lg:w-3/4 gap-6 lg:pt-12 pt-8 lg:mt-12 mt-8" id="contact-form">
                     <h2 className="w-full flex justify-center items-center font-bold text-xl flex-1">
-                        Book a Tour or Ask a Question
+                        Contact
                     </h2>
                     <p className="flex text-center lg:w-3/4">
                         Whether you're looking for daycare, preschool, camps, or birthday parties, our team is happy to answer your questions.
