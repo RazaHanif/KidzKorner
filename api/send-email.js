@@ -52,7 +52,7 @@ export default async function handler(req, res) {
                 Message: ${data.message}
             `
             break;
-        case 'childcare':
+        case 'daycare':
             subject = `Childcare Inquiry - ${data.name}`
             emailContent = `
                 Childcare Inquiry\n
