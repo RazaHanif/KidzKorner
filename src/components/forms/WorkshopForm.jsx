@@ -132,40 +132,40 @@ const WorkshopForm = () => {
                     </div>
 
                     <div className="grid items-center gap-2 w-4/5 p-2">
-                    <Label htmlFor="workshop">
-                        Workshop
-                    </Label>
-                    <Select
-                        id="workshop"
-                        name="workshop"
-                        value={formData.workshop}
-                        onValueChange={(value) => {
-                        setFormData(prev => ({ ...prev, workshop: value}))
-                        }}
-                        required  
-                    >
-                        <SelectTrigger className="w-full">
-                            <SelectValue placeholder="Choose a workshop"/>
-                        </SelectTrigger>
-                        <SelectContent>
-                            <SelectGroup>                                
-                                <SelectLabel>
-                                    Workshops
-                                </SelectLabel>
-                                {workshopData.map((workshop, idx) => {
-                                    return (
-                                        <SelectItem 
-                                            value={workshop.title}
-                                            key={idx}    
-                                        >
-                                            {workshop.title}
-                                        </SelectItem>
-                                    )
-                                })}
-                            </SelectGroup>
-                        </SelectContent>
-                    </Select>
-                </div>
+                        <Label htmlFor="workshop">
+                            Workshop
+                        </Label>
+                        <Select
+                            id="workshop"
+                            name="workshop"
+                            value={formData.workshop}
+                            onValueChange={(value) => {
+                            setFormData(prev => ({ ...prev, workshop: value}))
+                            }}
+                            required  
+                        >
+                            <SelectTrigger className="w-full">
+                                <SelectValue placeholder="Choose a workshop"/>
+                            </SelectTrigger>
+                            <SelectContent>
+                                <SelectGroup>                                
+                                    <SelectLabel>
+                                        Workshops
+                                    </SelectLabel>
+                                    {workshopData.map((workshop, idx) => {
+                                        return (
+                                            <SelectItem 
+                                                value={workshop.title}
+                                                key={idx}    
+                                            >
+                                                {workshop.title}
+                                            </SelectItem>
+                                        )
+                                    })}
+                                </SelectGroup>
+                            </SelectContent>
+                        </Select>
+                    </div>
                     
                     <Button
                     type='submit'
