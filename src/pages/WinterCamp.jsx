@@ -284,9 +284,6 @@ const WinterCamp = () => {
                 <p className="flex text-center">
                     Interested in Winter Break Camp?
                 </p>
-
-                {/* TODO:MAKE THIS FORM WINTER SPECIFIC  */}
-                {/* [CampForm type="winter"] */}
                 <CampForm />
             </div>
 
