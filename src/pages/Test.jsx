@@ -33,21 +33,7 @@ const Test = () => {
                     <CampForm/>
                 </div>
 
-                
-            </div>
-
-            {/* Toddler Daycare */}
-            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6" id="toddler-form">
-                <p className="flex text-center">
-                    Ready to join us?
-                </p>
-                
-                {/* TODO:MAKE THIS FORM TODDLER SPECIFIC  */}
-                {/* [DaycareForm type="toddler"] */}
-                <DaycareForm />
-            </div>
-
-            {/* SummerCamp */}
+                            {/* SummerCamp */}
             <div 
                 className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 lg:pt-12 pt-8 lg:mt-12 mt-8"
                 id="summer-camp-form"    
@@ -59,6 +45,20 @@ const Test = () => {
                 {/* TODO:MAKE THIS FORM SUMMER SPECIFIC  */}
                 {/* [CampForm type="summer"] */}
                 <CampForm/>
+            </div>
+
+
+            </div>
+
+            {/* Toddler Daycare */}
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6" id="toddler-form">
+                <p className="flex text-center">
+                    Ready to join us?
+                </p>
+                
+                {/* TODO:MAKE THIS FORM TODDLER SPECIFIC  */}
+                {/* [DaycareForm type="toddler"] */}
+                <DaycareForm />
             </div>
 
             {/* Preschool Daycare */}
