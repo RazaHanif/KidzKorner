@@ -164,7 +164,7 @@ const About = () => {
             </div>
 
             <div
-                className="flex flex-col justify-center items-center w-9/10 lg:w-3/4 gap-6 border-t lg:pt-12 pt-8 lg:mt-12 mt-8"
+                className="flex flex-col justify-center items-center w-9/10 lg:w-3/4 gap-2 border-t lg:pt-12 pt-8 lg:mt-12 mt-8"
                 id="contact-form"
             >
                 <h2 className="w-full flex justify-center items-center font-bold text-xl flex-1">
