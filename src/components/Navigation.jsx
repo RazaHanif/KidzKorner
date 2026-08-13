@@ -65,17 +65,22 @@ function Navigation() {
                         Camp
                     </NavigationMenuLink>
                 </NavigationMenuItem>
-                
-                <NavigationMenuItem>
-                    <NavLink 
-                        to='/workshops' 
-                        end
-                        className={({ isActive }) =>
-                            `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
-                        }
-                    >
-                            Workshops
-                    </NavLink>
+
+                                <NavigationMenuItem>
+                    <NavigationMenuTrigger className='bg-primary text-primary-foreground text-2xl' onClick={() => navigate('/daycare')}>
+                        Day Care
+                    </NavigationMenuTrigger>
+                    <NavigationMenuContent>
+                        <NavigationMenuLink onClick={() => navigate('/daycare/toddler')}>
+                            Toddler
+                        </NavigationMenuLink>
+                        <NavigationMenuLink onClick={() => navigate('/daycare/preschool')}>
+                            Preschool
+                        </NavigationMenuLink>
+                        <NavigationMenuLink onClick={() => navigate('/daycare/before-after-school-care')}>
+                            Before & After School
+                        </NavigationMenuLink>
+                    </NavigationMenuContent>
                 </NavigationMenuItem>
 
             </NavigationMenuList>
