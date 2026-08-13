@@ -35,7 +35,7 @@ function Navigation() {
                         Day Care
                     </NavigationMenuTrigger>
                     <NavigationMenuContent>
-                        <NavigationMenuLink onClick={() => navigate()}
+                        <NavigationMenuLink onClick={() => navigate('/daycare/toddler')}
                         
                         href='/daycare/toddler'>
                             Toddler
