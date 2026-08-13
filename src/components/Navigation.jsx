@@ -49,14 +49,13 @@ function Navigation() {
 
                 <NavigationMenuItem>
                     <NavigationMenuLink onClick={() => navigate('/parties')} className='text-primary-foreground'>
-                            Parties
+                        Parties
                     </NavigationMenuLink>
                 </NavigationMenuItem>
 
-
                 <NavigationMenuItem>
                     <NavigationMenuLink onClick={() => navigate('/playground')} className='text-primary-foreground'>
-                            Playground
+                        Playground
                     </NavigationMenuLink>
                 </NavigationMenuItem>
 
