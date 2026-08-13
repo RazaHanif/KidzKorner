@@ -55,13 +55,13 @@ function Navigation() {
 
                 <NavigationMenuItem>
                     <NavigationMenuLink className='text-primary-foreground' href='/parties'>
-                            Parties
+                            Playground
                     </NavigationMenuLink>
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
                     <NavigationMenuLink className='text-primary-foreground' href='/parties'>
-                            Parties
+                            Workshop
                     </NavigationMenuLink>
                 </NavigationMenuItem>
             </NavigationMenuList>
