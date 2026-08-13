@@ -116,6 +116,15 @@ function Navigation() {
                                 </NavigationMenuLink>
                             </NavigationMenuContent>
                         </NavigationMenuItem>
+
+                        <NavigationMenuItem>
+                            <NavigationMenuLink
+                                onClick={() => navigate("/about")}
+                                className="text-primary-foreground"
+                            >
+                                Workshops
+                            </NavigationMenuLink>
+                        </NavigationMenuItem>
                     </NavigationMenuList>
                 </NavigationMenu>
 
