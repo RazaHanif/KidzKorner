@@ -57,7 +57,8 @@ const components = [
 function ListItem({ title, children, href, ...props}) {
   return (
     <li {...props}>
-      <NavigationMenuLink render={<Link href={href}><div className="flex flex-col gap-1 text-sm">
+      <NavigationMenuLink 
+        render={<Link href={href}><div className="flex flex-col gap-1 text-sm">
           <div className="leading-none font-medium">{title}</div>
           <div className="line-clamp-2 text-muted-foreground">{children}</div>
         </div></Link>} />
