@@ -61,25 +61,25 @@ function Navigation() {
 
                 <NavigationMenuItem>
                     <NavLink 
-                        to='/parties' 
+                        to='/playground' 
                         end
                         className={({ isActive }) =>
                             `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
                         }
                     >
-                            Parties
+                            Playground
                     </NavLink>
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
                     <NavLink 
-                        to='/parties' 
+                        to='/workshops' 
                         end
                         className={({ isActive }) =>
                             `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
                         }
                     >
-                            Parties
+                            Workshops
                     </NavLink>
                 </NavigationMenuItem>
 
