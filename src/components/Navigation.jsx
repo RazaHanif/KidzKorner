@@ -52,6 +52,18 @@ function Navigation() {
                             Parties
                     </NavigationMenuLink>
                 </NavigationMenuItem>
+
+                <NavigationMenuItem>
+                    <NavigationMenuLink className='text-primary-foreground' href='/parties'>
+                            Parties
+                    </NavigationMenuLink>
+                </NavigationMenuItem>
+
+                <NavigationMenuItem>
+                    <NavigationMenuLink className='text-primary-foreground' href='/parties'>
+                            Parties
+                    </NavigationMenuLink>
+                </NavigationMenuItem>
             </NavigationMenuList>
         </NavigationMenu> 
 
