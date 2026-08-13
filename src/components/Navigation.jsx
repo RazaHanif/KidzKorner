@@ -120,66 +120,6 @@ function Navigation() {
                 </NavigationMenu>
 
                 <NavLink
-                    to="/daycare"
-                    end
-                    className={({ isActive }) =>
-                        `text-primary-foreground duration-300 ease-in-out ${isActive ? "underline underline-offset-2" : "hover:scale-110"}`
-                    }
-                >
-                    Day Care
-                </NavLink>
-
-                <NavLink
-                    to="/parties"
-                    end
-                    className={({ isActive }) =>
-                        `text-primary-foreground duration-300 ease-in-out ${isActive ? "underline underline-offset-2" : "hover:scale-110"}`
-                    }
-                >
-                    Parties
-                </NavLink>
-
-                <NavLink
-                    to="/playground"
-                    end
-                    className={({ isActive }) =>
-                        `text-primary-foreground duration-300 ease-in-out ${isActive ? "underline underline-offset-2" : "hover:scale-110"}`
-                    }
-                >
-                    Playground
-                </NavLink>
-
-                <NavLink
-                    to="/workshops"
-                    end
-                    className={({ isActive }) =>
-                        `text-primary-foreground duration-300 ease-in-out ${isActive ? "underline underline-offset-2" : "hover:scale-110"}`
-                    }
-                >
-                    Workshops
-                </NavLink>
-
-                <NavLink
-                    to="/camp"
-                    end
-                    className={({ isActive }) =>
-                        `text-primary-foreground duration-300 ease-in-out ${isActive ? "underline underline-offset-2" : "hover:scale-110"}`
-                    }
-                >
-                    Camp
-                </NavLink>
-
-                {/* <NavLink 
-          to="/blog" 
-          end
-          className={({ isActive }) =>
-            `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
-          }
-        >
-          Blog 
-        </NavLink> */}
-
-                <NavLink
                     to="/about"
                     end
                     className={({ isActive }) =>
