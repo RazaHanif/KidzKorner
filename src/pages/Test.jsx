@@ -97,42 +97,6 @@ const Test = () => {
                                 </ul>
                             </NavigationMenuContent>
                         </NavigationMenuItem>
-
-                        <NavigationMenuItem>
-                            <NavigationMenuTrigger>
-                                With Icon
-                            </NavigationMenuTrigger>
-                            <NavigationMenuContent>
-                                <ul className="grid w-[200px]">
-                                    <li>
-                                        <NavLink
-                                            to="/#" 
-                                            className="cursor-pointer"
-                                            end
-                                        >
-                                            <CircleAlertIcon />
-                                            Backlog
-                                        </NavLink>
-                                        <NavLink
-                                            to="/#" 
-                                            className="cursor-pointer"
-                                            end
-                                        >
-                                            <CircleDashedIcon />
-                                            To Do
-                                        </NavLink>
-                                        <NavLink
-                                            to="/#" 
-                                            className="cursor-pointer"
-                                            end
-                                        >
-                                            <CircleCheckIcon />
-                                            Done
-                                        </NavLink>
-                                    </li>
-                                </ul>
-                            </NavigationMenuContent>
-                        </NavigationMenuItem>
                     </NavigationMenuList>
                 </NavigationMenu>
 
