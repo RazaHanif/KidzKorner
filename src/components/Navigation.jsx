@@ -26,7 +26,7 @@ function Navigation() {
         className="hidden lg:flex flex-row w-4xl text-2xl justify-between items-center gap-4 text-nowrap"
       >
 
-{/*     This works technically but its ugly
+    This works technically but its ugly
 
         <NavigationMenu>
             <NavigationMenuList>
@@ -68,7 +68,7 @@ function Navigation() {
                 </NavigationMenuItem>
             </NavigationMenuList>
         </NavigationMenu> 
-*/}
+
 
         <NavLink 
           to="/daycare" 
