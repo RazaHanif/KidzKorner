@@ -122,7 +122,7 @@ function Navigation() {
                                 onClick={() => navigate("/about")}
                                 className="text-primary-foreground"
                             >
-                                Workshops
+                                About Us
                             </NavigationMenuLink>
                         </NavigationMenuItem>
                     </NavigationMenuList>
