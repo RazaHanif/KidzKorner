@@ -56,7 +56,6 @@ function Navigation() {
                                         hands-on activities that support their
                                         early development and growing
                                         independence.</p>
-                                    Toddler
                                 </NavigationMenuLink>
                                 <NavigationMenuLink
                                     onClick={() =>
