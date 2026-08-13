@@ -66,14 +66,14 @@ function Navigation() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger >
+                    <NavigationMenuLink >
                         <NavLink 
                             to="/parties" 
                             end
                         >
                             Parties
                         </NavLink>
-                    </NavigationMenuTrigger>
+                    </NavigationMenuLink>
                 </NavigationMenuItem>
             </NavigationMenuList>
         </NavigationMenu> 
