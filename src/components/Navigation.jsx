@@ -71,7 +71,7 @@ function Navigation() {
                     </NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <NavigationMenuLink onClick={() => navigate('/daycare/toddler')}>
-                            Toddler
+                            Summer Camp
                         </NavigationMenuLink>
                         <NavigationMenuLink onClick={() => navigate('/daycare/preschool')}>
                             Preschool
