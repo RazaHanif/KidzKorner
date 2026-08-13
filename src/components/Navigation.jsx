@@ -62,17 +62,17 @@ function Navigation() {
                                         navigate("/daycare/preschool")
                                     }
                                 >
-                                    <div>
-                                        
+                                    <div className="">
+                                        <h2>Preschool</h2>
+                                        <p>
+                                            A play-based learning program designed
+                                            to help children build confidence,
+                                            creativity, and essential skills while
+                                            preparing them for their next stage of
+                                            learning.
+                                        </p>
+
                                     </div>
-                                    <h2>Preschool</h2>
-                                    <p>
-                                        A play-based learning program designed
-                                        to help children build confidence,
-                                        creativity, and essential skills while
-                                        preparing them for their next stage of
-                                        learning.
-                                    </p>
                                 </NavigationMenuLink>
                                 <NavigationMenuLink
                                     onClick={() =>
