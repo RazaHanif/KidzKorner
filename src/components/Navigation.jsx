@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import { Button } from "@/components/ui/button"
 import { Menu } from 'lucide-react';
 import {
@@ -20,6 +20,8 @@ import {
 
 function Navigation() {
 
+    const navigate = useNavigate()
+
   return (
     <>
       <div
@@ -29,7 +31,7 @@ function Navigation() {
         <NavigationMenu>
             <NavigationMenuList>
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger className='bg-primary text-primary-foreground'>
+                    <NavigationMenuTrigger className='bg-primary text-primary-foreground' onClick={navigate}>
                         <NavLink to="/daycare" end>
                             Day Care
                         </NavLink>
