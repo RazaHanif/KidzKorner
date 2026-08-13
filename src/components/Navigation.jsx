@@ -48,7 +48,13 @@ function Navigation() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                    <NavLink className='text-primary-foreground' to='/parties' end>
+                    <NavLink 
+                        to='/parties' 
+                        end
+                                  className={({ isActive }) =>
+            `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
+          }
+                    >
                             Parties
                     </NavLink>
                 </NavigationMenuItem>
