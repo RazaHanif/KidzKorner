@@ -60,8 +60,8 @@ function Navigation() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                    <NavigationMenuLink href="/daycare/preschool" >
-                        Preschool
+                    <NavigationMenuLink href="/camp" >
+                        Camp
                     </NavigationMenuLink>
                 </NavigationMenuItem>
 
