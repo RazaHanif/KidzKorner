@@ -84,7 +84,6 @@ function Navigation() {
                         </NavigationMenuLink>
                     </NavigationMenuContent>
                 </NavigationMenuItem>
-
             </NavigationMenuList>
         </NavigationMenu> 
 
