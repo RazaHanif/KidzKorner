@@ -48,9 +48,9 @@ function Navigation() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                    <NavigationMenuLink className='text-primary-foreground' href='/parties'>
+                    <NavLink className='text-primary-foreground' href='/parties'>
                             Parties
-                    </NavigationMenuLink>
+                    </NavLink>
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
