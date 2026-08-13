@@ -80,7 +80,7 @@ function Navigation() {
                             Winter Break Camp
                         </NavigationMenuLink>
                         <NavigationMenuLink onClick={() => navigate('/camp/summer')}>
-                            Summer Camp
+                            PA Day Camp
                         </NavigationMenuLink>
                     </NavigationMenuContent>
                 </NavigationMenuItem>
