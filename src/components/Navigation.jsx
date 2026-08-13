@@ -66,7 +66,7 @@ function Navigation() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                    <NavigationMenuLink >
+                    <NavigationMenuLink bg- >
                         <NavLink 
                             to="/parties" 
                             end
