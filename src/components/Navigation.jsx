@@ -57,7 +57,7 @@ function Navigation() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                    <NavigationMenuLink href="/camp"                         >
+                    <NavigationMenuLink href="/camp">
                         Camp
                     </NavigationMenuLink>
                 </NavigationMenuItem>
