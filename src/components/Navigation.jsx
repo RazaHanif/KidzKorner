@@ -17,6 +17,8 @@ import {
 } from "@/components/ui/navigation-menu";
 
 /* 
+This is how to do the underline on active
+
 <NavLink
     to="/about"
     end
@@ -26,8 +28,6 @@ import {
 >
     About Us
 </NavLink>
-
-
 */
 
 function Navigation() {
