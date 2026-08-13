@@ -50,6 +50,8 @@ function Navigation() {
                                 <NavigationMenuLink
                                     onClick={() => navigate("/daycare/toddler")}
                                 >
+                                    <h2>Toddler</h2>
+                                    <p></p>
                                     Toddler
                                 </NavigationMenuLink>
                                 <NavigationMenuLink
