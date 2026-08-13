@@ -66,10 +66,10 @@ const Test = () => {
                             </NavigationMenuTrigger>
                             <NavigationMenuContent>
                                 <ul className="w-96">
-                                    <ListItem href="/docs" title="Introduction">
+                                    <ListItem href="#" title="Introduction">
                                         Re-usable components built with Tailwind CSS.
                                     </ListItem>
-                                    <ListItem href="/docs/installation" title="Installation">
+                                    <ListItem href="#" title="Installation">
                                         How to install dependencies and structure your app.
                                     </ListItem>
                                     <ListItem href="/docs/primitives/typography" title="Typography">
