@@ -71,7 +71,7 @@ function Navigation() {
                             to="/daycare" 
                             end
                         >
-                            Day Care
+                            Parties
                         </NavLink>
                     </NavigationMenuTrigger>
                 </NavigationMenuItem>
