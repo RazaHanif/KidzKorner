@@ -38,13 +38,8 @@ function Navigation() {
                         </NavLink>
                     </NavigationMenuTrigger>
                     <NavigationMenuContent>
-                        <NavigationMenuLink href=''>
-                            <NavLink 
-                                to="/daycare/toddler" 
-                                end
-                            >
+                        <NavigationMenuLink href='/daycare/toddler'>
                                 Toddler
-                            </NavLink>
                         </NavigationMenuLink>
                         <NavigationMenuLink>
                             <NavLink 
