@@ -60,7 +60,7 @@ function Navigation() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                    <NavigationMenuLink onClick={() => navigate('/parties')} className='text-primary-foreground'>
+                    <NavigationMenuLink onClick={() => navigate('/playground')} className='text-primary-foreground'>
                             Playground
                     </NavigationMenuLink>
                 </NavigationMenuItem>
