@@ -72,7 +72,7 @@ const Test = () => {
                                     <ListItem href="#" title="Installation">
                                         How to install dependencies and structure your app.
                                     </ListItem>
-                                    <ListItem href="/docs/primitives/typography" title="Typography">
+                                    <ListItem href="#" title="Typography">
                                         Styles for headings, paragraphs, lists...etc
                                     </ListItem>
                                 </ul>
