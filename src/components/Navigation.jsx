@@ -77,6 +77,9 @@ function Navigation() {
                                             to help children build confidence,
                                             creativity, and 
                                             
+                                        </p>
+                                        <p className="text-sm font-light font-sans text-muted-foreground wrap-break-word">
+                                            
                                             essential skills while
                                             preparing them for their next stage of
                                             learning.
