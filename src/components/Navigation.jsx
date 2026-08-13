@@ -41,7 +41,7 @@ function Navigation() {
                     <NavigationMenuList className="gap-6">
                         <NavigationMenuItem>
                             <NavigationMenuTrigger
-                                className="{bg-primary text-primary-foreground text-2xl cursor-pointer"
+                                className="{({ isActive }) = > bg-primary text-primary-foreground text-2xl cursor-pointer"
                                 onClick={() => navigate("/daycare")}
                             >
                                 Day Care
