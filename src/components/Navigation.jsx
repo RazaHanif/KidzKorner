@@ -41,7 +41,7 @@ function Navigation() {
                     <NavigationMenuList className="gap-6">
                         <NavigationMenuItem>
                             <NavigationMenuTrigger
-                                className="bg-primary text-primary-foreground text-2xl"
+                                className="bg-primary text-primary-foreground text-2xl curs"
                                 onClick={() => navigate("/daycare")}
                             >
                                 Day Care
@@ -98,7 +98,7 @@ function Navigation() {
 
                         <NavigationMenuItem>
                             <NavigationMenuTrigger
-                                className="bg-primary text-primary-foreground text-2xl"
+                                className="bg-primary text-primary-foreground text-2xl curs"
                                 onClick={() => navigate("/camp")}
                             >
                                 Camp
