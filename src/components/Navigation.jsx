@@ -57,10 +57,7 @@ function Navigation() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                    <NavigationMenuLink href="/camp"                         
-                        className={({ isActive }) =>
-                            `text-primary-foreground duration-300 ease-in-out ${ isActive ? "underline underline-offset-2" : "hover:scale-110" }`
-                        } >
+                    <NavigationMenuLink href="/camp"                         >
                         Camp
                     </NavigationMenuLink>
                 </NavigationMenuItem>
