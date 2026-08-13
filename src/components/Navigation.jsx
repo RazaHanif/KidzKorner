@@ -82,12 +82,6 @@ function Navigation() {
                         <NavigationMenuLink onClick={() => navigate('/camp/summer')}>
                             Summer Camp
                         </NavigationMenuLink>
-                        <NavigationMenuLink onClick={() => navigate('/daycare/preschool')}>
-                            Preschool
-                        </NavigationMenuLink>
-                        <NavigationMenuLink onClick={() => navigate('/daycare/before-after-school-care')}>
-                            Before & After School
-                        </NavigationMenuLink>
                     </NavigationMenuContent>
                 </NavigationMenuItem>
 
