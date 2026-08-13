@@ -66,8 +66,8 @@ function Navigation() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger className='bg-primary text-primary-foreground text-2xl' onClick={() => navigate('/daycare')}>
-                        Day Care
+                    <NavigationMenuTrigger className='bg-primary text-primary-foreground text-2xl' onClick={() => navigate('/camp')}>
+                        Camp
                     </NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <NavigationMenuLink onClick={() => navigate('/daycare/toddler')}>
