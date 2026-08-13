@@ -76,7 +76,7 @@ function Navigation() {
                         <NavigationMenuLink onClick={() => navigate('/camp/march-camp')}>
                             March Break Camp
                         </NavigationMenuLink>
-                        <NavigationMenuLink onClick={() => navigate('/camp/summer')}>
+                        <NavigationMenuLink onClick={() => navigate('/camp/winter-camp')}>
                             Winter Break Camp
                         </NavigationMenuLink>
                         <NavigationMenuLink onClick={() => navigate('/camp/summer')}>
