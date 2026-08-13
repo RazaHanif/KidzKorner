@@ -51,14 +51,16 @@ function Navigation() {
                                     onClick={() => navigate("/daycare/toddler")}
                                 >
                                     <div>
-                                        
+                                        <h2>Toddler</h2>
+                                        <p>
+                                            A nurturing environment where toddlers
+                                            learn through play, exploration, and
+                                            hands-on activities that support their
+                                            early development and growing
+                                            independence.
+                                        </p>
+
                                     </div>
-                                    <h2>Toddler</h2>
-                                    <p>A nurturing environment where toddlers
-                                        learn through play, exploration, and
-                                        hands-on activities that support their
-                                        early development and growing
-                                        independence.</p>
                                 </NavigationMenuLink>
                                 <NavigationMenuLink
                                     onClick={() =>
