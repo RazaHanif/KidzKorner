@@ -54,13 +54,13 @@ function Navigation() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                    <NavigationMenuLink className='text-primary-foreground' href='/parties'>
+                    <NavigationMenuLink className='text-primary-foreground' href='/playground'>
                             Playground
                     </NavigationMenuLink>
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                    <NavigationMenuLink className='text-primary-foreground' href='/parties'>
+                    <NavigationMenuLink className='text-primary-foreground' href='/workshops'>
                             Workshop
                     </NavigationMenuLink>
                 </NavigationMenuItem>
