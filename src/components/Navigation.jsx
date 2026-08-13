@@ -36,7 +36,7 @@ function Navigation() {
     return (
         <>
             {/* Desktop Navigation */}
-            <div className="hidden lg:flex flex-row w-4xl text-2xl justify-between items-center gap-4 text-nowrap border">
+            <div className="hidden lg:flex flex-row w-4xl text-2xl justify-between items-center gap-4 text-nowrap border border-red-500">
                 <NavigationMenu>
                     <NavigationMenuList>
                         <NavigationMenuItem>
