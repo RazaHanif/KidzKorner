@@ -48,7 +48,7 @@ function Navigation() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                    <NavLink className='text-primary-foreground' href='/parties'>
+                    <NavLink className='text-primary-foreground' to='/parties'>
                             Parties
                     </NavLink>
                 </NavigationMenuItem>
