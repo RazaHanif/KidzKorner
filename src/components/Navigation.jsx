@@ -54,7 +54,9 @@ function Navigation() {
                                         <h2>Toddler</h2>
                                         <p className="text-sm font-light font-sans text-muted-foreground wrap-break-word">
                                             A nurturing environment where toddlers
-                                            learn through play, exploration, and
+                                            learn through play, 
+                                            
+                                            exploration, and
                                             hands-on activities that support their
                                             early development and growing
                                             independence.
