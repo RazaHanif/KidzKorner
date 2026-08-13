@@ -54,7 +54,7 @@ function Navigation() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                    <NavigationMenuLink onClick={() => navigate('/camp')}>
+                    <NavigationMenuLink onClick={() => navigate('/camp')} clas>
                         Camp
                     </NavigationMenuLink>
                 </NavigationMenuItem>
