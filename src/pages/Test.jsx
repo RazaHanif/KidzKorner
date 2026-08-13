@@ -73,7 +73,7 @@ const Test = () => {
                 <NavigationMenu>
                     <NavigationMenuList>
                         <NavigationMenuItem>
-                            <NavigationMenuTrigger className="bg-primary">
+                            <NavigationMenuTrigger className="bg-primary text-primary-foreground">
                                 Getting started
                             </NavigationMenuTrigger>
                             <NavigationMenuContent>
