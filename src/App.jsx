@@ -31,9 +31,9 @@ import BlogSlug from "./pages/BlogSlug.jsx";
 /daycare/before-after-school
 /camp
 /camp/summer
-/camp/march-camp
-/camp/winter-camp
-/camp/pa-day-camp
+/camp/march-break
+/camp/winter-break
+/camp/pa-day
 /indoor-playground
 /birthday-parties
 /workshops
