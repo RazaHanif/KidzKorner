@@ -50,7 +50,7 @@ function Navigation() {
                                 <NavigationMenuLink
                                     onClick={() => navigate("/daycare/toddler")}
                                 >
-                                    <div>
+                                    <div className="flex flex-col">
                                         <h2>Toddler</h2>
                                         <p>
                                             A nurturing environment where toddlers
@@ -67,7 +67,7 @@ function Navigation() {
                                         navigate("/daycare/preschool")
                                     }
                                 >
-                                    <div className="flex flex-col w-full">
+                                    <div className="flex flex-col">
                                         <h2>Preschool</h2>
                                         <p>
                                             A play-based learning program designed
