@@ -68,7 +68,7 @@ function Navigation() {
                 <NavigationMenuItem>
                     <NavigationMenuTrigger >
                         <NavLink 
-                            to="/daycare" 
+                            to="/parties" 
                             end
                         >
                             Parties
