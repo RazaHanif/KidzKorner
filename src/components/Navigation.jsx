@@ -140,7 +140,6 @@ function Navigation() {
                     </NavigationMenuItem>
                 </NavigationMenuList>
             </NavigationMenu>
-        {/* </div> */}
 
             {/* Mobile Navigation */}
             <div className="lg:hidden flex flex-col justify-center items-center">
