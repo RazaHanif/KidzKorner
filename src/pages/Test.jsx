@@ -113,7 +113,6 @@ const Test = () => {
                                                 <CircleAlertIcon />
                                                 Backlog
                                             </NavLink>
-                                        <NavigationMenuLink render={
                                             <NavLink
                                                 to="/#" 
                                                 className="cursor-pointer"
@@ -122,8 +121,6 @@ const Test = () => {
                                                 <CircleDashedIcon />
                                                 To Do
                                             </NavLink>
-                                        } />
-                                        <NavigationMenuLink render={
                                             <NavLink
                                                 to="/#" 
                                                 className="cursor-pointer"
@@ -132,7 +129,6 @@ const Test = () => {
                                                 <CircleCheckIcon />
                                                 Done
                                             </NavLink>
-                                        } />
                                     </li>
                                 </ul>
                             </NavigationMenuContent>
