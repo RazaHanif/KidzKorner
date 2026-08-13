@@ -73,13 +73,13 @@ function Navigation() {
                         <NavigationMenuLink onClick={() => navigate('/camp/summer')}>
                             Summer Camp
                         </NavigationMenuLink>
-                        <NavigationMenuLink onClick={() => navigate('/camp/march-camp')}>
+                        <NavigationMenuLink onClick={() => navigate('/camp/march-break')}>
                             March Break Camp
                         </NavigationMenuLink>
-                        <NavigationMenuLink onClick={() => navigate('/camp/winter-camp')}>
+                        <NavigationMenuLink onClick={() => navigate('/camp/winter-break')}>
                             Winter Break Camp
                         </NavigationMenuLink>
-                        <NavigationMenuLink onClick={() => navigate('/camp/pa-day-camp')}>
+                        <NavigationMenuLink onClick={() => navigate('/camp/pa-day')}>
                             PA Day Camp
                         </NavigationMenuLink>
                     </NavigationMenuContent>
