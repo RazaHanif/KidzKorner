@@ -70,21 +70,7 @@ function Navigation() {
                                         navigate("/daycare/preschool")
                                     }
                                 >
-                                    <div className="flex flex-col">
-                                        <h2>Preschool</h2>
-                                        <p className="text-sm font-light font-sans text-muted-foreground wrap-break-word">
-                                            A play-based learning program designed
-                                            to help children build confidence,
-                                            creativity, and 
-                                            
-                                        </p>
-                                        <p className="text-sm font-light font-sans text-muted-foreground wrap-break-word">
-                                            essential skills while
-                                            preparing them for their next stage of
-                                            learning.
-                                        </p>
-
-                                    </div>
+                                    Preschool
                                 </NavigationMenuLink>
                                 <NavigationMenuLink
                                     onClick={() =>
