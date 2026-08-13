@@ -30,9 +30,9 @@ function Navigation() {
             <NavigationMenuList>
                 <NavigationMenuItem>
                     <NavigationMenuTrigger className='bg-primary text-primary-foreground'>
-                        <NavigationMenuLink to="/daycare" end>
+                        <NavLink to="/daycare" end>
                             Day Care
-                        </NavigationMenuLink>
+                        </NavLink>
                     </NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <NavigationMenuLink href='/daycare/toddler'>
