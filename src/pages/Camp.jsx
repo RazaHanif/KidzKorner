@@ -90,7 +90,7 @@ const Camp = () => {
                 <div className="flex lg:flex-row flex-col lg:justify-evenly justify-center items-center w-full">
                     <div className="flex flex-col lg:flex-row flex-1 lg:w-3/4 w-full gap-6">
                         <NavLink
-                            to="/camp/summer-camp"
+                            to="/camp/summer"
                             end
                             className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                         >
@@ -118,7 +118,7 @@ const Camp = () => {
                         </NavLink>
 
                         <NavLink
-                            to="/camp/pa-day-camp"
+                            to="/camp/pa-day"
                             end
                             className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                         >
@@ -145,7 +145,7 @@ const Camp = () => {
                         </NavLink>
 
                         <NavLink
-                            to="/camp/winter-break-camp"
+                            to="/camp/winter-break"
                             end
                             className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                         >
@@ -173,7 +173,7 @@ const Camp = () => {
                         </NavLink>
 
                         <NavLink
-                            to="/camp/march-break-camp"
+                            to="/camp/march-break"
                             end
                             className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                         >
