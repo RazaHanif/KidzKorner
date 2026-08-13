@@ -48,7 +48,7 @@ function Navigation() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                    <NavigationMenuLink onClick={() => navigate('/parties')} className=''>
+                    <NavigationMenuLink onClick={() => navigate('/parties')} className='text-primary-foreground'>
                             Parties
                     </NavigationMenuLink>
                 </NavigationMenuItem>
