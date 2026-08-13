@@ -105,7 +105,6 @@ const Test = () => {
                             <NavigationMenuContent>
                                 <ul className="grid w-[200px]">
                                     <li>
-                                        <NavigationMenuLink render={
                                             <NavLink
                                                 to="/#" 
                                                 className="cursor-pointer"
@@ -114,7 +113,6 @@ const Test = () => {
                                                 <CircleAlertIcon />
                                                 Backlog
                                             </NavLink>
-                                        } />
                                         <NavigationMenuLink render={
                                             <NavLink
                                                 to="/#" 
