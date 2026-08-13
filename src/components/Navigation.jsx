@@ -127,16 +127,6 @@ function Navigation() {
                         </NavigationMenuItem>
                     </NavigationMenuList>
                 </NavigationMenu>
-
-                <NavLink
-                    to="/about"
-                    end
-                    className={({ isActive }) =>
-                        `text-primary-foreground duration-300 ease-in-out ${isActive ? "underline underline-offset-2" : "hover:scale-110"}`
-                    }
-                >
-                    About Us
-                </NavLink>
             </div>
 
             <div className="lg:hidden flex flex-col justify-center items-center">
