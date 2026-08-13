@@ -29,7 +29,7 @@ function Navigation() {
         <NavigationMenu>
             <NavigationMenuList>
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger className='bg-primary te'>
+                    <NavigationMenuTrigger className='bg-primary text-primary-foreground'>
                         <NavLink 
                             to="/daycare" 
                             end
