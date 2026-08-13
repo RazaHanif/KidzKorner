@@ -64,6 +64,43 @@ function Navigation() {
                         </NavigationMenuLink>
                     </NavigationMenuContent>
                 </NavigationMenuItem>
+
+                <NavigationMenuItem>
+                    <NavigationMenuTrigger >
+                        <NavLink 
+                            to="/daycare" 
+                            end
+                        >
+                            Day Care
+                        </NavLink>
+                    </NavigationMenuTrigger>
+                    <NavigationMenuContent>
+                        <NavigationMenuLink>
+                            <NavLink 
+                                to="/daycare/toddler" 
+                                end
+                            >
+                                Toddler
+                            </NavLink>
+                        </NavigationMenuLink>
+                        <NavigationMenuLink>
+                            <NavLink 
+                                to="/daycare/preschool" 
+                                end
+                            >
+                                Preschool
+                            </NavLink>
+                        </NavigationMenuLink>
+                        <NavigationMenuLink>
+                            <NavLink 
+                                to="/daycare/before-after-school-care" 
+                                end
+                            >
+                                Before & After School
+                            </NavLink>
+                        </NavigationMenuLink>
+                    </NavigationMenuContent>
+                </NavigationMenuItem>
             </NavigationMenuList>
         </NavigationMenu> 
 
