@@ -41,7 +41,7 @@ function Navigation() {
                     <NavigationMenuList className="gap-6">
                         <NavigationMenuItem>
                             <NavigationMenuTrigger
-                                className={({ isActive }) => `bg-primary text-primary-foreground text-2xl cursor-pointer ${isActive ? 'underline underline-offset-2' : 'underline'}` }
+                                className={({ isActive }) => `bg-primary text-primary-foreground text-2xl cursor-pointer ${isActive ? 'underline underline-offset-2' : 'no-underline'}` }
                                 onClick={() => navigate("/daycare")}
                             >
                                 Day Care
