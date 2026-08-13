@@ -60,8 +60,8 @@ function Navigation() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                    <NavigationMenuLink onClick={() => navigate('/camp')} className='text-primary-foreground'>
-                        Workshop
+                    <NavigationMenuLink onClick={() => navigate('/workshops')} className='text-primary-foreground'>
+                        Workshops
                     </NavigationMenuLink>
                 </NavigationMenuItem>
 
