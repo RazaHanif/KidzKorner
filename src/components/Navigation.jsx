@@ -57,7 +57,7 @@ function Navigation() {
                                             learn through play, 
                                         </p>
 
-                                        <p>
+                                        <p className="text-sm font-light font-sans text-muted-foreground wrap-break-word">
                                             exploration, and
                                             hands-on activities that support their
                                             early development and growing
