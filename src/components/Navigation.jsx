@@ -41,7 +41,7 @@ function Navigation() {
                         <NavigationMenuLink onClick={() => navigate('/daycare/preschool')}>
                             Preschool
                         </NavigationMenuLink>
-                        <NavigationMenuLink href="/daycare/before-after-school-care" onClick={() => navigate('/daycare/toddler')}>
+                        <NavigationMenuLink href="/daycare/before-after-school-care" onClick={() => navigate('/daycare/before-after-school-care')}>
                             Before & After School
                         </NavigationMenuLink>
                     </NavigationMenuContent>
