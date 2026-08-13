@@ -48,7 +48,7 @@ function Navigation() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                    <NavLink 
+                    <NavigationMenuLink 
                         to='/parties' 
                         end
                         className={({ isActive }) =>
@@ -56,7 +56,7 @@ function Navigation() {
                         }
                     >
                             Parties
-                    </NavLink>
+                    </NavigationMenuLink>
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
