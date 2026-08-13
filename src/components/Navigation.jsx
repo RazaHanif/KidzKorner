@@ -54,7 +54,7 @@ function Navigation() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                    <NavigationMenuLink onClick={() => navigate('/daycare/toddler')} href="/camp">
+                    <NavigationMenuLink onClick={() => navigate('/camp')}>
                         Camp
                     </NavigationMenuLink>
                 </NavigationMenuItem>
