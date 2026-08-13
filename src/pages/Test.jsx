@@ -66,13 +66,13 @@ const Test = () => {
                             </NavigationMenuTrigger>
                             <NavigationMenuContent>
                                 <ul className="w-96">
-                                    <ListItem href="#" title="Introduction">
+                                    <ListItem href="/docs" title="Introduction">
                                         Re-usable components built with Tailwind CSS.
                                     </ListItem>
-                                    <ListItem href="#" title="Installation">
+                                    <ListItem href="/docs/installation" title="Installation">
                                         How to install dependencies and structure your app.
                                     </ListItem>
-                                    <ListItem href="#" title="Typography">
+                                    <ListItem href="/docs/primitives/typography" title="Typography">
                                         Styles for headings, paragraphs, lists...etc
                                     </ListItem>
                                 </ul>
@@ -94,6 +94,42 @@ const Test = () => {
                                         {component.description}
                                         </ListItem>
                                     ))}
+                                </ul>
+                            </NavigationMenuContent>
+                        </NavigationMenuItem>
+
+                        <NavigationMenuItem>
+                            <NavigationMenuTrigger>
+                                With Icon
+                            </NavigationMenuTrigger>
+                            <NavigationMenuContent>
+                                <ul className="grid w-[200px]">
+                                    <li>
+                                            <NavLink
+                                                to="/#" 
+                                                className="cursor-pointer"
+                                                end
+                                            >
+                                                <CircleAlertIcon />
+                                                Backlog
+                                            </NavLink>
+                                            <NavLink
+                                                to="/#" 
+                                                className="cursor-pointer"
+                                                end
+                                            >
+                                                <CircleDashedIcon />
+                                                To Do
+                                            </NavLink>
+                                            <NavLink
+                                                to="/#" 
+                                                className="cursor-pointer"
+                                                end
+                                            >
+                                                <CircleCheckIcon />
+                                                Done
+                                            </NavLink>
+                                    </li>
                                 </ul>
                             </NavigationMenuContent>
                         </NavigationMenuItem>
