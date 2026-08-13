@@ -39,7 +39,7 @@ function Navigation() {
             {/* <div className="hidden lg:flex flex-row w-4xl text-2xl justify-between items-center gap-4 text-nowrap border border-red-500"> */}
                 <NavigationMenu className="hidden lg:flex">
                     <NavigationMenuList className="gap-6">
-                        <NavigationMenuItem className="relative">
+                        <NavigationMenuItem>
                             <NavigationMenuTrigger
                                 className="bg-primary text-primary-foreground text-2xl"
                                 onClick={() => navigate("/daycare")}
@@ -69,7 +69,7 @@ function Navigation() {
                             </NavigationMenuContent>
                         </NavigationMenuItem>
 
-                        <NavigationMenuItem className="relative">
+                        <NavigationMenuItem>
                             <NavigationMenuLink
                                 onClick={() => navigate("/parties")}
                                 className="text-primary-foreground"
@@ -78,7 +78,7 @@ function Navigation() {
                             </NavigationMenuLink>
                         </NavigationMenuItem>
 
-                        <NavigationMenuItem className="relative">
+                        <NavigationMenuItem>
                             <NavigationMenuLink
                                 onClick={() => navigate("/playground")}
                                 className="text-primary-foreground"
@@ -87,7 +87,7 @@ function Navigation() {
                             </NavigationMenuLink>
                         </NavigationMenuItem>
 
-                        <NavigationMenuItem className="relative">
+                        <NavigationMenuItem>
                             <NavigationMenuLink
                                 onClick={() => navigate("/workshops")}
                                 className="text-primary-foreground"
@@ -96,7 +96,7 @@ function Navigation() {
                             </NavigationMenuLink>
                         </NavigationMenuItem>
 
-                        <NavigationMenuItem className="relative">
+                        <NavigationMenuItem>
                             <NavigationMenuTrigger
                                 className="bg-primary text-primary-foreground text-2xl"
                                 onClick={() => navigate("/camp")}
@@ -131,7 +131,7 @@ function Navigation() {
                             </NavigationMenuContent>
                         </NavigationMenuItem>
 
-                        <NavigationMenuItem className="relative">
+                        <NavigationMenuItem>
                             <NavigationMenuLink
                                 onClick={() => navigate("/about")}
                                 className="text-primary-foreground"
