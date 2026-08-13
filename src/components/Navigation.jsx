@@ -53,11 +53,6 @@ function Navigation() {
                     </NavigationMenuLink>
                 </NavigationMenuItem>
 
-                <NavigationMenuItem>
-                    <NavigationMenuLink onClick={() => navigate('/camp')} className='text-primary-foreground'>
-                        Camp
-                    </NavigationMenuLink>
-                </NavigationMenuItem>
 
                 <NavigationMenuItem>
                     <NavigationMenuLink onClick={() => navigate('/playground')} className='text-primary-foreground'>
@@ -65,6 +60,12 @@ function Navigation() {
                     </NavigationMenuLink>
                 </NavigationMenuItem>
 
+                <NavigationMenuItem>
+                    <NavigationMenuLink onClick={() => navigate('/camp')} className='text-primary-foreground'>
+                        Camp
+                    </NavigationMenuLink>
+                </NavigationMenuItem>
+                
                 <NavigationMenuItem>
                     <NavLink 
                         to='/workshops' 
