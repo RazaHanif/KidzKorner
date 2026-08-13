@@ -52,7 +52,7 @@ function Navigation() {
                                 >
                                     <div className="flex flex-col">
                                         <h2>Toddler</h2>
-                                        <p className="text-sm font-light font-sans text-muted-foreground text-wrap">
+                                        <p className="text-sm font-light font-sans text-muted-foreground wrap-break-word">
                                             A nurturing environment where toddlers
                                             learn through play, exploration, and
                                             hands-on activities that support their
@@ -69,7 +69,7 @@ function Navigation() {
                                 >
                                     <div className="flex flex-col">
                                         <h2>Preschool</h2>
-                                        <p className="text-sm font-light font-sans text-muted-foreground text-wrap">
+                                        <p className="text-sm font-light font-sans text-muted-foreground wrap-break-word">
                                             A play-based learning program designed
                                             to help children build confidence,
                                             creativity, and essential skills while
