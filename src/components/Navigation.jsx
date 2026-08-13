@@ -36,7 +36,7 @@ function Navigation() {
     return (
         <>
             {/* Desktop Navigation */}
-            <div className="hidden lg:flex flex-row w-4xl text-2xl justify-between items-center gap-4 text-nowrap border border-red-500">
+            {/* <div className="hidden lg:flex flex-row w-4xl text-2xl justify-between items-center gap-4 text-nowrap border border-red-500"> */}
                 <NavigationMenu className="hidden lg:flex flex-row justify-between items-center gap-4 text-nowrap w-4xl text-2xl border border-blue-500">
                     <NavigationMenuList className="bg-orange-500 w-full">
                         <NavigationMenuItem>
@@ -141,7 +141,7 @@ function Navigation() {
                         </NavigationMenuItem>
                     </NavigationMenuList>
                 </NavigationMenu>
-            </div>
+            {/* </div> */}
 
             {/* Mobile Navigation */}
             <div className="lg:hidden flex flex-col justify-center items-center">
