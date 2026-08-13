@@ -152,7 +152,7 @@ const Daycare = () => {
                         </NavLink>
 
                         <NavLink
-                            to="/daycare/before-after-school-care"
+                            to="/daycare/before-after-school"
                             end
                             className="hover:scale-102 ease-in-out duration-300 flex flex-1"
                         >
