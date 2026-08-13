@@ -74,7 +74,7 @@ function Navigation() {
                             Summer Camp
                         </NavigationMenuLink>
                         <NavigationMenuLink onClick={() => navigate('/camp/summer')}>
-                            Summer Camp
+                            March Break Camp
                         </NavigationMenuLink>
                         <NavigationMenuLink onClick={() => navigate('/camp/summer')}>
                             Summer Camp
