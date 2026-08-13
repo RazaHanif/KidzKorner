@@ -75,7 +75,9 @@ function Navigation() {
                                         <p className="text-sm font-light font-sans text-muted-foreground wrap-break-word">
                                             A play-based learning program designed
                                             to help children build confidence,
-                                            creativity, and essential skills while
+                                            creativity, and 
+                                            
+                                            essential skills while
                                             preparing them for their next stage of
                                             learning.
                                         </p>
