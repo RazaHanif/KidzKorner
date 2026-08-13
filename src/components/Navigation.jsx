@@ -62,7 +62,7 @@ function Navigation() {
                                         navigate("/daycare/preschool")
                                     }
                                 >
-                                    Preschool
+                                    <h2>Preschool</h2>Preschool
                                 </NavigationMenuLink>
                                 <NavigationMenuLink
                                     onClick={() =>
