@@ -159,7 +159,7 @@ function Navigation() {
                         <DropdownMenuGroup>
                             <DropdownMenuSub>
                                 <DropdownMenuSubTrigger 
-                                    className="cursor-pointer text-xl border "
+                                    className="cursor-pointer text-xl border p-4"
                                 >
                                     Day Care
                                 </DropdownMenuSubTrigger>
