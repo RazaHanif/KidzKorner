@@ -80,7 +80,9 @@ export function DropdownMenuSubmenu() {
                 </DropdownMenuSub>
                 <DropdownMenuItem>
                     New Team
-                    <DropdownMenuShortcut>⌘+T</DropdownMenuShortcut>
+                    <DropdownMenuShortcut>
+                        ⌘+T
+                    </DropdownMenuShortcut>
                 </DropdownMenuItem>
             </DropdownMenuGroup>
         </DropdownMenuContent>
