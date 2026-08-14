@@ -149,7 +149,7 @@ function Navigation() {
             </NavigationMenu>
 
             <div className="lg:hidden flex flex-col justify-center items-center">
-                <DropdownMenu className="">
+                <DropdownMenu className="text-xl">
                     <DropdownMenuTrigger asChild className="cursor-pointer">
                         <Button variant="secondary">
                             <Menu />
