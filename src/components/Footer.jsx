@@ -162,16 +162,15 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-                
-            <div>
-
+                 
+            <div class>
+                <p>
+                    Blog
+                </p>
+                <p>
+                    FAQ
+                </p>
             </div>
-            <p>
-                Blog
-            </p>
-            <p>
-                FAQ
-            </p>
         </footer>
     );
 };
