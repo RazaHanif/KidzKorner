@@ -136,7 +136,7 @@ function DesktopNavigation() {
 
 function MobileNavigation() {
     return (
-        <DropdownMenu>
+        <DropdownMenu className="">
             <DropdownMenuTrigger asChild className="cursor-pointer">
                 <Button variant="secondary">
                     <Menu />
