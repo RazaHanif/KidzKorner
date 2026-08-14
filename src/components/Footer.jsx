@@ -163,7 +163,7 @@ const Footer = () => {
                 </div>
             </div>
                  
-            <div className="">
+            <div className="border-y">
                 <p>
                     Blog
                 </p>
