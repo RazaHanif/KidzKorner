@@ -39,6 +39,8 @@ function App() {
                     {/* Blog */}
                     <Route path="/blog" element={<Blog />} />
                     <Route path="/blog/:slug" element={<BlogSlug />} />
+                    
+                    <Route path="/birthday-parties" element={<Parties />} />
 
                     {/* Camp */}
                     <Route path="/camp" element={<Camp />} />
@@ -54,7 +56,6 @@ function App() {
                     <Route path="/daycare/before-after-school" element={<BeforeAfterDaycare />} />
                     
 
-                    <Route path="/birthday-parties" element={<Parties />} />
 
                     <Route path="/indoor-playground" element={<Playground />} />
 
