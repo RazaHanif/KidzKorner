@@ -269,7 +269,7 @@ function Navigation() {
                                                 className="cursor-pointer"
                                                 end
                                             >
-                                                Winter Break Camp
+                                                PA Day Camp
                                             </NavLink>
                                         </DropdownMenuItem>
                                     </DropdownMenuSubContent>
