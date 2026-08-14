@@ -33,9 +33,12 @@ export function DropdownMenuSubmenu() {
         />
         <DropdownMenuContent>
             <DropdownMenuGroup>
-                <DropdownMenuItem>Team</DropdownMenuItem>
+                <DropdownMenuItem>
+                    Team
+                </DropdownMenuItem>
                 <DropdownMenuSub>
-                    <DropdownMenuSubTrigger>Invite users</DropdownMenuSubTrigger>
+                    <DropdownMenuSubTrigger>
+                        Invite users</DropdownMenuSubTrigger>
                     <DropdownMenuPortal>
                     <DropdownMenuSubContent>
                         <DropdownMenuItem>Email</DropdownMenuItem>
