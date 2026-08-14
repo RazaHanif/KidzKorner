@@ -260,7 +260,7 @@ function Navigation() {
                                                 className="cursor-pointer"
                                                 end
                                             >
-                                                Before & After School
+                                                Winter Break Camp
                                             </NavLink>
                                         </DropdownMenuItem>
                                     </DropdownMenuSubContent>
