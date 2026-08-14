@@ -1,5 +1,6 @@
 import { Instagram, Mail, MapPin, Phone } from "lucide-react";
 import { Table, TableBody, TableCell, TableRow } from "@/components/ui/table";
+import { NavLink } from "react-router";
 
 // Add Blog & FAQ links
 
@@ -164,7 +165,12 @@ const Footer = () => {
             </div>
                  
             <div className="flex flex-row w-full justify-around items-center bg-secondary">
-                
+                <NavLink
+                    to={"/blog"}
+                    end
+                >
+                    Blog
+                </NavLink>
                 <p>
                     Blog
                 </p>
