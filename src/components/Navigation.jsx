@@ -159,7 +159,7 @@ function Navigation() {
                         side="bottom"
                         align="end"
                         sideOffset={4}
-                        className="font-mono"
+                        className="font-light"
                     >
                         <DropdownMenuGroup>
                             <DropdownMenuSub>
