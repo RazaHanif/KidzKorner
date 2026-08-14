@@ -157,6 +157,8 @@ function Navigation() {
                     </DropdownMenuTrigger>
                     <DropdownMenuContent>
                         <DropdownMenuGroup>
+
+
                             <DropdownMenuItem asChild>
                                 <NavLink
                                     to="/parties"
@@ -166,6 +168,7 @@ function Navigation() {
                                     Parties
                                 </NavLink>
                             </DropdownMenuItem>
+
                             <DropdownMenuItem asChild>
                                 <NavLink
                                     to="/playground"
@@ -175,6 +178,7 @@ function Navigation() {
                                     Playground
                                 </NavLink>
                             </DropdownMenuItem>
+
                             <DropdownMenuItem asChild>
                                 <NavLink
                                     to="/workshops"
@@ -191,9 +195,7 @@ function Navigation() {
                                     About Us
                                 </NavLink>
                             </DropdownMenuItem>
-                            <DropdownMenuItem>
-                                Team
-                            </DropdownMenuItem>
+
                             <DropdownMenuSub>
                                 <DropdownMenuSubTrigger>
                                     Invite users
