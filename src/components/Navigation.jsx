@@ -23,119 +23,122 @@ import {
 } from "@/components/ui/navigation-menu";
 
 function DesktopNavigation() {
+    const navigate = useNavigate();
     
+    return (
+        <NavigationMenu className="hidden lg:flex" viewport={false}>
+            <NavigationMenuList className="gap-6">
+                <NavigationMenuItem>
+                    <NavigationMenuTrigger
+                        className="bg-primary text-primary-foreground text-2xl cursor-pointer"
+                        onClick={() => navigate("/daycare")}
+                    >
+                        Day Care
+                    </NavigationMenuTrigger>
+                    <NavigationMenuContent>
+                        <NavigationMenuLink
+                            onClick={() => navigate("/daycare/toddler")}
+                        >
+                            Toddler
+                        </NavigationMenuLink>
+                        <NavigationMenuLink
+                            onClick={() =>
+                                navigate("/daycare/preschool")
+                            }
+                        >
+                            Preschool
+                        </NavigationMenuLink>
+                        <NavigationMenuLink
+                            onClick={() =>
+                                navigate("/daycare/before-after-school")
+                            }
+                        >
+                            Before & After School
+                        </NavigationMenuLink>
+                    </NavigationMenuContent>
+                </NavigationMenuItem>
+
+                <NavigationMenuItem>
+                    <NavigationMenuLink
+                        onClick={() => navigate("/parties")}
+                        className="text-primary-foreground"
+                    >
+                        Parties
+                    </NavigationMenuLink>
+                </NavigationMenuItem>
+
+                <NavigationMenuItem>
+                    <NavigationMenuLink
+                        onClick={() => navigate("/playground")}
+                        className="text-primary-foreground"
+                    >
+                        Playground
+                    </NavigationMenuLink>
+                </NavigationMenuItem>
+
+                <NavigationMenuItem>
+                    <NavigationMenuLink
+                        onClick={() => navigate("/workshops")}
+                        className="text-primary-foreground"
+                    >
+                        Workshops
+                    </NavigationMenuLink>
+                </NavigationMenuItem>
+
+                <NavigationMenuItem>
+                    <NavigationMenuTrigger
+                        className="bg-primary text-primary-foreground text-2xl cursor-pointer"
+                        onClick={() => navigate("/camp")}
+                    >
+                        Camp
+                    </NavigationMenuTrigger>
+                    <NavigationMenuContent>
+                        <NavigationMenuLink
+                            onClick={() => navigate("/camp/summer")}
+                        >
+                            Summer Camp
+                        </NavigationMenuLink>
+                        <NavigationMenuLink
+                            onClick={() =>
+                                navigate("/camp/march-break")
+                            }
+                        >
+                            March Break Camp
+                        </NavigationMenuLink>
+                        <NavigationMenuLink
+                            onClick={() =>
+                                navigate("/camp/winter-break")
+                            }
+                        >
+                            Winter Break Camp
+                        </NavigationMenuLink>
+                        <NavigationMenuLink
+                            onClick={() => navigate("/camp/pa-day")}
+                        >
+                            PA Day Camp
+                        </NavigationMenuLink>
+                    </NavigationMenuContent>
+                </NavigationMenuItem>
+
+                <NavigationMenuItem>
+                    <NavigationMenuLink
+                        onClick={() => navigate("/about")}
+                        className="text-primary-foreground"
+                    >
+                        About Us
+                    </NavigationMenuLink>
+                </NavigationMenuItem>
+            </NavigationMenuList>
+        </NavigationMenu>
+    )
+
 }
 
 function Navigation() {
-    const navigate = useNavigate();
-
     return (
         <>
             {/* Desktop Navigation */}
-            <NavigationMenu className="hidden lg:flex" viewport={false}>
-                <NavigationMenuList className="gap-6">
-                    <NavigationMenuItem>
-                        <NavigationMenuTrigger
-                            className="bg-primary text-primary-foreground text-2xl cursor-pointer"
-                            onClick={() => navigate("/daycare")}
-                        >
-                            Day Care
-                        </NavigationMenuTrigger>
-                        <NavigationMenuContent>
-                            <NavigationMenuLink
-                                onClick={() => navigate("/daycare/toddler")}
-                            >
-                                Toddler
-                            </NavigationMenuLink>
-                            <NavigationMenuLink
-                                onClick={() =>
-                                    navigate("/daycare/preschool")
-                                }
-                            >
-                                Preschool
-                            </NavigationMenuLink>
-                            <NavigationMenuLink
-                                onClick={() =>
-                                    navigate("/daycare/before-after-school")
-                                }
-                            >
-                                Before & After School
-                            </NavigationMenuLink>
-                        </NavigationMenuContent>
-                    </NavigationMenuItem>
 
-                    <NavigationMenuItem>
-                        <NavigationMenuLink
-                            onClick={() => navigate("/parties")}
-                            className="text-primary-foreground"
-                        >
-                            Parties
-                        </NavigationMenuLink>
-                    </NavigationMenuItem>
-
-                    <NavigationMenuItem>
-                        <NavigationMenuLink
-                            onClick={() => navigate("/playground")}
-                            className="text-primary-foreground"
-                        >
-                            Playground
-                        </NavigationMenuLink>
-                    </NavigationMenuItem>
-
-                    <NavigationMenuItem>
-                        <NavigationMenuLink
-                            onClick={() => navigate("/workshops")}
-                            className="text-primary-foreground"
-                        >
-                            Workshops
-                        </NavigationMenuLink>
-                    </NavigationMenuItem>
-
-                    <NavigationMenuItem>
-                        <NavigationMenuTrigger
-                            className="bg-primary text-primary-foreground text-2xl cursor-pointer"
-                            onClick={() => navigate("/camp")}
-                        >
-                            Camp
-                        </NavigationMenuTrigger>
-                        <NavigationMenuContent>
-                            <NavigationMenuLink
-                                onClick={() => navigate("/camp/summer")}
-                            >
-                                Summer Camp
-                            </NavigationMenuLink>
-                            <NavigationMenuLink
-                                onClick={() =>
-                                    navigate("/camp/march-break")
-                                }
-                            >
-                                March Break Camp
-                            </NavigationMenuLink>
-                            <NavigationMenuLink
-                                onClick={() =>
-                                    navigate("/camp/winter-break")
-                                }
-                            >
-                                Winter Break Camp
-                            </NavigationMenuLink>
-                            <NavigationMenuLink
-                                onClick={() => navigate("/camp/pa-day")}
-                            >
-                                PA Day Camp
-                            </NavigationMenuLink>
-                        </NavigationMenuContent>
-                    </NavigationMenuItem>
-
-                    <NavigationMenuItem>
-                        <NavigationMenuLink
-                            onClick={() => navigate("/about")}
-                            className="text-primary-foreground"
-                        >
-                            About Us
-                        </NavigationMenuLink>
-                    </NavigationMenuItem>
-                </NavigationMenuList>
-            </NavigationMenu>
 
 
 
