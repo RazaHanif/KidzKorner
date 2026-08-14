@@ -183,7 +183,7 @@ const Footer = () => {
         </NavLink>
     </div>
 
-    <div className="lg:w-3/4 w-9/10 border border-b-amber-700" />
+    <div className="lg:w-3/4 w-9/10 border border-" />
 
     <span className="font-light">
         © {new Date().getFullYear()} Kidz Korner Milton. All rights reserved.
