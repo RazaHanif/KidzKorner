@@ -26,42 +26,42 @@ import {
 export function DropdownMenuSubmenu() {
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger 
+    <DropdownMenuTrigger 
         render={
             <Button variant="outline">Open</Button>
         } 
     />
-      <DropdownMenuContent>
+    <DropdownMenuContent>
         <DropdownMenuGroup>
-          <DropdownMenuItem>Team</DropdownMenuItem>
-          <DropdownMenuSub>
+        <DropdownMenuItem>Team</DropdownMenuItem>
+        <DropdownMenuSub>
             <DropdownMenuSubTrigger>Invite users</DropdownMenuSubTrigger>
             <DropdownMenuPortal>
-              <DropdownMenuSubContent>
+            <DropdownMenuSubContent>
                 <DropdownMenuItem>Email</DropdownMenuItem>
                 <DropdownMenuItem>Message</DropdownMenuItem>
                 <DropdownMenuSub>
-                  <DropdownMenuSubTrigger>More options</DropdownMenuSubTrigger>
-                  <DropdownMenuPortal>
+                <DropdownMenuSubTrigger>More options</DropdownMenuSubTrigger>
+                <DropdownMenuPortal>
                     <DropdownMenuSubContent>
-                      <DropdownMenuItem>Calendly</DropdownMenuItem>
-                      <DropdownMenuItem>Slack</DropdownMenuItem>
-                      <DropdownMenuSeparator />
-                      <DropdownMenuItem>Webhook</DropdownMenuItem>
+                    <DropdownMenuItem>Calendly</DropdownMenuItem>
+                    <DropdownMenuItem>Slack</DropdownMenuItem>
+                    <DropdownMenuSeparator />
+                    <DropdownMenuItem>Webhook</DropdownMenuItem>
                     </DropdownMenuSubContent>
-                  </DropdownMenuPortal>
+                </DropdownMenuPortal>
                 </DropdownMenuSub>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem>Advanced...</DropdownMenuItem>
-              </DropdownMenuSubContent>
+            </DropdownMenuSubContent>
             </DropdownMenuPortal>
-          </DropdownMenuSub>
-          <DropdownMenuItem>
+        </DropdownMenuSub>
+        <DropdownMenuItem>
             New Team
             <DropdownMenuShortcut>⌘+T</DropdownMenuShortcut>
-          </DropdownMenuItem>
+        </DropdownMenuItem>
         </DropdownMenuGroup>
-      </DropdownMenuContent>
+    </DropdownMenuContent>
     </DropdownMenu>
   )
 }
