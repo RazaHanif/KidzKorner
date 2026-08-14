@@ -184,11 +184,8 @@ function Navigation() {
                                     Workshop
                                 </NavLink>
                             </DropdownMenuItem>
-                            <DropdownMenuItem asChild>
-                                <NavLink to="/camp" className="cursor-pointer" end>
-                                    Camp
-                                </NavLink>
-                            </DropdownMenuItem>
+
+
                             <DropdownMenuItem asChild>
                                 <NavLink to="/about" className="cursor-pointer" end>
                                     About Us
