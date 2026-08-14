@@ -24,7 +24,7 @@ import {
 
 function DesktopNavigation() {
     const navigate = useNavigate();
-    
+
     return (
         <NavigationMenu className="hidden lg:flex" viewport={false}>
             <NavigationMenuList className="gap-6">
@@ -138,7 +138,7 @@ function Navigation() {
     return (
         <>
             {/* Desktop Navigation */}
-
+            
 
 
 
