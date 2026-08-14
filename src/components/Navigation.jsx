@@ -204,10 +204,11 @@ function Navigation() {
                                                 end
                                             >
                                                 <p>
-
+                                                    Before & After
                                                 </p>
-                                                Before & After
-                                                 School
+                                                <p>
+                                                    School
+                                                </p>
                                             </NavLink>
                                         </DropdownMenuItem>
                                     </DropdownMenuSubContent>
