@@ -160,6 +160,9 @@ const Footer = () => {
                     </Table>
                 </div>
             </div>
+            <p>
+                Blog
+            </p>
         </footer>
     );
 };
