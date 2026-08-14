@@ -238,7 +238,7 @@ function Navigation() {
                                     <DropdownMenuSubContent>
                                         <DropdownMenuItem>
                                             <NavLink 
-                                                to="/daycare/toddler" 
+                                                to="/camp/toddler" 
                                                 className="cursor-pointer"
                                                 end
                                             >
@@ -247,7 +247,7 @@ function Navigation() {
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
                                             <NavLink 
-                                                to="/daycare/preschool" 
+                                                to="/camp/preschool" 
                                                 className="cursor-pointer"
                                                 end
                                             >
@@ -256,7 +256,7 @@ function Navigation() {
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
                                             <NavLink 
-                                                to="/daycare/before-after-school" 
+                                                to="/camp/before-after-school" 
                                                 className="cursor-pointer"
                                                 end
                                             >
