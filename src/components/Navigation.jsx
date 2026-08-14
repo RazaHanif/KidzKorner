@@ -159,6 +159,7 @@ function Navigation() {
                         side="bottom"
                         align="end"
                         sideOffset={8}
+                        className="border"
                     >
                         <DropdownMenuGroup>
                             <DropdownMenuSub>
