@@ -182,7 +182,8 @@ const Footer = () => {
                     >
                         FAQ
                     </NavLink>
-                </div> */}
+                </div> 
+            */}
 
                 <div className="flex justify-center items-center font-serif">
                     &copy; {new Date().getFullYear()} Kidz Korner Milton. All rights reserved.
