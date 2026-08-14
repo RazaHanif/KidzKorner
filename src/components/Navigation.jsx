@@ -159,7 +159,7 @@ function Navigation() {
                         <DropdownMenuGroup>
                             <DropdownMenuSub>
                                 <DropdownMenuSubTrigger 
-                                    className="cursor-pointer"
+                                    className="cursor-pointer "
                                 >
                                     Day Care
                                 </DropdownMenuSubTrigger>
