@@ -148,7 +148,7 @@ function Navigation() {
                 </NavigationMenuList>
             </NavigationMenu>
 
-            <div className="hidden lg:flex flex-col justify-center items-center">
+            <div className="lg:hidden flex flex-col justify-center items-center">
                 <DropdownMenu>
                     <DropdownMenuTrigger asChild className="cursor-pointer">
                         <Button variant="secondary">
