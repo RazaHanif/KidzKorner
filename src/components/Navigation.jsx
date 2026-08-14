@@ -22,20 +22,6 @@ import {
     NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
 
-/* 
-This is how to do the underline on active
-
-<NavLink
-    to="/about"
-    end
-    className={({ isActive }) =>
-        `text-primary-foreground duration-300 ease-in-out ${isActive ? "underline underline-offset-2" : "hover:scale-110"}`
-    }
->
-    About Us
-</NavLink>
-*/
-
 function Navigation() {
     const navigate = useNavigate();
 
