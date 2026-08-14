@@ -164,29 +164,29 @@ const Footer = () => {
                 </div>
             </div>
                  
-<div className="flex flex-col w-full justify-center items-center gap-2 bg-secondary py-3 px-4 text-sm">
-    <div className="flex flex-row gap-6">
-        <NavLink
-            className="font-light hover:underline"
-            to="/blog"
-            end
-        >
-            Blog
-        </NavLink>
+            <div className="flex flex-col w-full justify-center items-center gap-2 bg-secondary py-3 px-4 text-sm">
+                <div className="flex flex-row gap-6">
+                    <NavLink
+                        className="font-light hover:underline"
+                        to="/blog"
+                        end
+                    >
+                        Blog
+                    </NavLink>
 
-        <NavLink
-            className="font-light hover:underline"
-            to="/faq"
-            end
-        >
-            FAQ
-        </NavLink>
-    </div>
+                    <NavLink
+                        className="font-light hover:underline"
+                        to="/faq"
+                        end
+                    >
+                        FAQ
+                    </NavLink>
+                </div>
 
-    <div className="flex justify-center items-center font-light font-serif">
-        &copy; {new Date().getFullYear()} Kidz Korner Milton. All rights reserved.
-    </div>
-</div>
+                <div className="flex justify-center items-center font-light font-serif">
+                    &copy; {new Date().getFullYear()} Kidz Korner Milton. All rights reserved.
+                </div>
+            </div>
         </footer>
     );
 };
