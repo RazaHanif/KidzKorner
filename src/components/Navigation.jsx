@@ -182,7 +182,7 @@ function Navigation() {
                                         <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/daycare/toddler" 
-                                                className="cursor-pointer"
+                                                className="cursor-pointer p-2 text-xl"
                                                 end
                                             >
                                                 Toddler
@@ -191,7 +191,7 @@ function Navigation() {
                                         <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/daycare/preschool" 
-                                                className="cursor-pointer"
+                                                className="cursor-pointer p-2 text-xl"
                                                 end
                                             >
                                                 Preschool
@@ -200,7 +200,7 @@ function Navigation() {
                                         <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/daycare/before-after-school"
-                                                className="cursor-pointer"
+                                                className="cursor-pointer p-2 text-xl"
                                                 end
                                             >
                                                 Before & After School
@@ -213,7 +213,7 @@ function Navigation() {
                             <DropdownMenuItem asChild>
                                 <NavLink
                                     to="/parties"
-                                    className="cursor-pointer"
+                                    className="cursor-pointer p-2 text-xl"
                                     end
                                 >
                                     Parties
@@ -223,7 +223,7 @@ function Navigation() {
                             <DropdownMenuItem asChild>
                                 <NavLink
                                     to="/playground"
-                                    className="cursor-pointer"
+                                    className="cursor-pointer p-2 text-xl"
                                     end
                                 >
                                     Playground
@@ -233,7 +233,7 @@ function Navigation() {
                             <DropdownMenuItem asChild>
                                 <NavLink
                                     to="/workshops"
-                                    className="cursor-pointer"
+                                    className="cursor-pointer p-2 text-xl"
                                     end
                                 >
                                     Workshop
@@ -251,7 +251,7 @@ function Navigation() {
                                         <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/camp" 
-                                                className="cursor-pointer"
+                                                className="cursor-pointer p-2 text-xl"
                                                 end
                                             >
                                                 All Camps
@@ -260,7 +260,7 @@ function Navigation() {
                                         <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/camp/summer" 
-                                                className="cursor-pointer"
+                                                className="cursor-pointer p-2 text-xl"
                                                 end
                                             >
                                                 Summer Camp
@@ -269,7 +269,7 @@ function Navigation() {
                                         <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/camp/march-break" 
-                                                className="cursor-pointer"
+                                                className="cursor-pointer p-2 text-xl"
                                                 end
                                             >
                                                 March Break Camp
@@ -278,7 +278,7 @@ function Navigation() {
                                         <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/camp/winter-break" 
-                                                className="cursor-pointer"
+                                                className="cursor-pointer p-2 text-xl"
                                                 end
                                             >
                                                 Winter Break Camp
@@ -287,7 +287,7 @@ function Navigation() {
                                         <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/camp/pa-day" 
-                                                className="cursor-pointer"
+                                                className="cursor-pointer p-2 text-xl"
                                                 end
                                             >
                                                 PA Day
@@ -298,7 +298,7 @@ function Navigation() {
                             </DropdownMenuSub>
 
                             <DropdownMenuItem asChild>
-                                <NavLink to="/about" className="cursor-pointer" end>
+                                <NavLink to="/about" className="cursor-pointer p-2 text-xl" end>
                                     About Us
                                 </NavLink>
                             </DropdownMenuItem>
