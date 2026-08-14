@@ -163,7 +163,7 @@ const Footer = () => {
                 </div>
             </div>
                  
-            <div className="bg-muted">
+            <div className="bg-">
                 <p>
                     Blog
                 </p>
