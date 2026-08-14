@@ -7,32 +7,80 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- Core pages -->
+  <!-- Daycare -->
   <url>
     <loc>https://www.kidzkornermilton.com/daycare</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.kidzkornermilton.com/daycare/toddler-daycare-milton</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.kidzkornermilton.com/parties</loc>
+    <loc>https://www.kidzkornermilton.com/daycare/preschool-milton</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.kidzkornermilton.com/playground</loc>
+    <loc>https://www.kidzkornermilton.com/daycare/before-after-school-care-milton</loc>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://www.kidzkornermilton.com/workshop</loc>
-    <priority>0.8</priority>
-  </url>
+
+  <!-- Camps -->
   <url>
     <loc>https://www.kidzkornermilton.com/camp</loc>
     <priority>0.8</priority>
   </url>
-
-  <!-- About page -->
   <url>
-    <loc>https://www.kidzkornermilton.com/about</loc>
+    <loc>https://www.kidzkornermilton.com/camp/summer-break</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.kidzkornermilton.com/camp/march-break</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.kidzkornermilton.com/camp/winter-break</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.kidzkornermilton.com/camp/pa-days</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Indoor Playground -->
+  <url>
+    <loc>https://www.kidzkornermilton.com/indoor-playground</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Birthday Parties -->
+  <url>
+    <loc>https://www.kidzkornermilton.com/birthday-parties</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Workshops -->
+  <url>
+    <loc>https://www.kidzkornermilton.com/workshops</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://www.kidzkornermilton.com/about-us</loc>
     <priority>0.6</priority>
+  </url>
+
+  <!-- Blog -->
+  <url>
+    <loc>https://www.kidzkornermilton.com/blog</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- FAQ -->
+  <url>
+    <loc>https://www.kidzkornermilton.com/faq</loc>
+    <priority>0.7</priority>
   </url>
 
 </urlset>
