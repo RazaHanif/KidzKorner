@@ -339,10 +339,8 @@ function Navigation() {
             {/* Desktop Navigation */}
             <DesktopNavigation />
 
-
-
             {/* Mobile Navigation */}
-            
+            <MobileNavigation />
         </>
     );
 }
