@@ -36,27 +36,22 @@ function App() {
 
                     <Route path="/about" element={<About />} />
 
-                    {/* Blog */}
                     <Route path="/blog" element={<Blog />} />
                     <Route path="/blog/:slug" element={<BlogSlug />} />
                     
                     <Route path="/birthday-parties" element={<Parties />} />
 
-                    {/* Camp */}
                     <Route path="/camp" element={<Camp />} />
                     <Route path="/camp/summer" element={<SummerCamp />} />
                     <Route path="/camp/march-break" element={<MarchCamp />} />
                     <Route path="/camp/winter-break" element={<WinterCamp />} />
                     <Route path="/camp/pa-day" element={<PADayCamp />} />
 
-                    {/* Daycare */}
                     <Route path="/daycare" element={<Daycare />} />
                     <Route path="/daycare/toddler" element={<ToddlerDaycare />} />
                     <Route path="/daycare/preschool" element={<PreschoolDaycare />} />
                     <Route path="/daycare/before-after-school" element={<BeforeAfterDaycare />} />
                     
-
-
                     <Route path="/indoor-playground" element={<Playground />} />
 
                     {/* <Route path="/test" element={<Test />} /> */}
