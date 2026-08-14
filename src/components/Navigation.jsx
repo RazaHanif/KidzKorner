@@ -136,198 +136,200 @@ function DesktopNavigation() {
 
 function MobileNavigation() {
     return (
-        <DropdownMenu className="lg:hidden flex">
-            <DropdownMenuTrigger asChild className="cursor-pointer">
-                <Button variant="secondary">
-                    <Menu />
-                </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent
-                side="bottom"
-                align="end"
-                sideOffset={4}
-                className="font-light"
-            >
-                <DropdownMenuGroup>
-                    <DropdownMenuSub>
-                        <DropdownMenuSubTrigger 
-                            className="cursor-pointer p-2 text-xl"
-                        >
-                            Day Care
-                        </DropdownMenuSubTrigger>
-                        <DropdownMenuPortal>
-                            <DropdownMenuSubContent
-                                className="font-light max-w-50"
-                            >
-                                <DropdownMenuItem asChild>
-                                    <NavLink 
-                                        to="/daycare" 
-                                        className="cursor-pointer p-2 text-xl"
-                                        end
+        <div className="lg:hidden flex flex-col justify-center items-center">
+                <DropdownMenu>
+                    <DropdownMenuTrigger asChild className="cursor-pointer">
+                        <Button variant="secondary">
+                            <Menu />
+                        </Button>
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent
+                        side="bottom"
+                        align="end"
+                        sideOffset={4}
+                        className="font-light"
+                    >
+                        <DropdownMenuGroup>
+                            <DropdownMenuSub>
+                                <DropdownMenuSubTrigger 
+                                    className="cursor-pointer p-2 text-xl"
+                                >
+                                    Day Care
+                                </DropdownMenuSubTrigger>
+                                <DropdownMenuPortal>
+                                    <DropdownMenuSubContent
+                                        className="font-light max-w-50"
                                     >
-                                        All Day Care
-                                    </NavLink>
-                                </DropdownMenuItem>
+                                        <DropdownMenuItem asChild>
+                                            <NavLink 
+                                                to="/daycare" 
+                                                className="cursor-pointer p-2 text-xl"
+                                                end
+                                            >
+                                                All Day Care
+                                            </NavLink>
+                                        </DropdownMenuItem>
 
-                                <DropdownMenuSeparator />
+                                        <DropdownMenuSeparator />
 
-                                <DropdownMenuItem asChild>
-                                    <NavLink 
-                                        to="/daycare/toddler" 
-                                        className="cursor-pointer p-2 text-xl"
-                                        end
+                                        <DropdownMenuItem asChild>
+                                            <NavLink 
+                                                to="/daycare/toddler" 
+                                                className="cursor-pointer p-2 text-xl"
+                                                end
+                                            >
+                                                Toddler
+                                            </NavLink>
+                                        </DropdownMenuItem>
+
+                                        <DropdownMenuSeparator />
+
+                                        <DropdownMenuItem asChild>
+                                            <NavLink 
+                                                to="/daycare/preschool" 
+                                                className="cursor-pointer p-2 text-xl"
+                                                end
+                                            >
+                                                Preschool
+                                            </NavLink>
+                                        </DropdownMenuItem>
+
+                                        <DropdownMenuSeparator />
+
+                                        <DropdownMenuItem asChild>
+                                            <NavLink 
+                                                to="/daycare/before-after-school"
+                                                className="cursor-pointer p-2 text-xl"
+                                                end
+                                            >
+                                                Before & After School
+                                            </NavLink>
+                                        </DropdownMenuItem>
+                                    </DropdownMenuSubContent>
+                                </DropdownMenuPortal>
+                            </DropdownMenuSub>
+
+                            <DropdownMenuSeparator />
+
+                            <DropdownMenuItem asChild>
+                                <NavLink
+                                    to="/parties"
+                                    className="cursor-pointer p-2 text-xl"
+                                    end
+                                >
+                                    Parties
+                                </NavLink>
+                            </DropdownMenuItem>
+
+                            <DropdownMenuSeparator />
+
+                            <DropdownMenuItem asChild>
+                                <NavLink
+                                    to="/playground"
+                                    className="cursor-pointer p-2 text-xl"
+                                    end
+                                >
+                                    Playground
+                                </NavLink>
+                            </DropdownMenuItem>
+
+                            <DropdownMenuSeparator />
+                            
+                            <DropdownMenuItem asChild>
+                                <NavLink
+                                    to="/workshops"
+                                    className="cursor-pointer p-2 text-xl"
+                                    end
+                                >
+                                    Workshop
+                                </NavLink>
+                            </DropdownMenuItem>
+
+                            <DropdownMenuSeparator />
+
+                            <DropdownMenuSub>
+                                <DropdownMenuSubTrigger 
+                                    className="cursor-pointer p-2 text-xl"
+                                >
+                                    Camp
+                                </DropdownMenuSubTrigger>
+                                <DropdownMenuPortal>
+                                    <DropdownMenuSubContent
+                                        className="font-light max-w-50"
                                     >
-                                        Toddler
-                                    </NavLink>
-                                </DropdownMenuItem>
+                                        <DropdownMenuItem asChild>
+                                            <NavLink 
+                                                to="/camp" 
+                                                className="cursor-pointer p-2 text-xl"
+                                                end
+                                            >
+                                                All Camps
+                                            </NavLink>
+                                        </DropdownMenuItem>
 
-                                <DropdownMenuSeparator />
+                                        <DropdownMenuSeparator />
 
-                                <DropdownMenuItem asChild>
-                                    <NavLink 
-                                        to="/daycare/preschool" 
-                                        className="cursor-pointer p-2 text-xl"
-                                        end
-                                    >
-                                        Preschool
-                                    </NavLink>
-                                </DropdownMenuItem>
+                                        <DropdownMenuItem asChild>
+                                            <NavLink 
+                                                to="/camp/summer" 
+                                                className="cursor-pointer p-2 text-xl"
+                                                end
+                                            >
+                                                Summer Camp
+                                            </NavLink>
+                                        </DropdownMenuItem>
 
-                                <DropdownMenuSeparator />
+                                        <DropdownMenuSeparator />
 
-                                <DropdownMenuItem asChild>
-                                    <NavLink 
-                                        to="/daycare/before-after-school"
-                                        className="cursor-pointer p-2 text-xl"
-                                        end
-                                    >
-                                        Before & After School
-                                    </NavLink>
-                                </DropdownMenuItem>
-                            </DropdownMenuSubContent>
-                        </DropdownMenuPortal>
-                    </DropdownMenuSub>
+                                        <DropdownMenuItem asChild>
+                                            <NavLink 
+                                                to="/camp/march-break" 
+                                                className="cursor-pointer p-2 text-xl"
+                                                end
+                                            >
+                                                March Break Camp
+                                            </NavLink>
+                                        </DropdownMenuItem>
 
-                    <DropdownMenuSeparator />
+                                        <DropdownMenuSeparator />
 
-                    <DropdownMenuItem asChild>
-                        <NavLink
-                            to="/parties"
-                            className="cursor-pointer p-2 text-xl"
-                            end
-                        >
-                            Parties
-                        </NavLink>
-                    </DropdownMenuItem>
+                                        <DropdownMenuItem asChild>
+                                            <NavLink 
+                                                to="/camp/winter-break" 
+                                                className="cursor-pointer p-2 text-xl"
+                                                end
+                                            >
+                                                Winter Break Camp
+                                            </NavLink>
+                                        </DropdownMenuItem>
 
-                    <DropdownMenuSeparator />
+                                        <DropdownMenuSeparator />
 
-                    <DropdownMenuItem asChild>
-                        <NavLink
-                            to="/playground"
-                            className="cursor-pointer p-2 text-xl"
-                            end
-                        >
-                            Playground
-                        </NavLink>
-                    </DropdownMenuItem>
+                                        <DropdownMenuItem asChild>
+                                            <NavLink 
+                                                to="/camp/pa-day" 
+                                                className="cursor-pointer p-2 text-xl"
+                                                end
+                                            >
+                                                PA Day
+                                            </NavLink>
+                                        </DropdownMenuItem>
+                                    </DropdownMenuSubContent>
+                                </DropdownMenuPortal>
+                            </DropdownMenuSub>
 
-                    <DropdownMenuSeparator />
-                    
-                    <DropdownMenuItem asChild>
-                        <NavLink
-                            to="/workshops"
-                            className="cursor-pointer p-2 text-xl"
-                            end
-                        >
-                            Workshop
-                        </NavLink>
-                    </DropdownMenuItem>
+                            <DropdownMenuSeparator />
 
-                    <DropdownMenuSeparator />
+                            <DropdownMenuItem asChild>
+                                <NavLink to="/about" className="cursor-pointer p-2 text-xl" end>
+                                    About Us
+                                </NavLink>
+                            </DropdownMenuItem>
 
-                    <DropdownMenuSub>
-                        <DropdownMenuSubTrigger 
-                            className="cursor-pointer p-2 text-xl"
-                        >
-                            Camp
-                        </DropdownMenuSubTrigger>
-                        <DropdownMenuPortal>
-                            <DropdownMenuSubContent
-                                className="font-light max-w-50"
-                            >
-                                <DropdownMenuItem asChild>
-                                    <NavLink 
-                                        to="/camp" 
-                                        className="cursor-pointer p-2 text-xl"
-                                        end
-                                    >
-                                        All Camps
-                                    </NavLink>
-                                </DropdownMenuItem>
-
-                                <DropdownMenuSeparator />
-
-                                <DropdownMenuItem asChild>
-                                    <NavLink 
-                                        to="/camp/summer" 
-                                        className="cursor-pointer p-2 text-xl"
-                                        end
-                                    >
-                                        Summer Camp
-                                    </NavLink>
-                                </DropdownMenuItem>
-
-                                <DropdownMenuSeparator />
-
-                                <DropdownMenuItem asChild>
-                                    <NavLink 
-                                        to="/camp/march-break" 
-                                        className="cursor-pointer p-2 text-xl"
-                                        end
-                                    >
-                                        March Break Camp
-                                    </NavLink>
-                                </DropdownMenuItem>
-
-                                <DropdownMenuSeparator />
-
-                                <DropdownMenuItem asChild>
-                                    <NavLink 
-                                        to="/camp/winter-break" 
-                                        className="cursor-pointer p-2 text-xl"
-                                        end
-                                    >
-                                        Winter Break Camp
-                                    </NavLink>
-                                </DropdownMenuItem>
-
-                                <DropdownMenuSeparator />
-
-                                <DropdownMenuItem asChild>
-                                    <NavLink 
-                                        to="/camp/pa-day" 
-                                        className="cursor-pointer p-2 text-xl"
-                                        end
-                                    >
-                                        PA Day
-                                    </NavLink>
-                                </DropdownMenuItem>
-                            </DropdownMenuSubContent>
-                        </DropdownMenuPortal>
-                    </DropdownMenuSub>
-
-                    <DropdownMenuSeparator />
-
-                    <DropdownMenuItem asChild>
-                        <NavLink to="/about" className="cursor-pointer p-2 text-xl" end>
-                            About Us
-                        </NavLink>
-                    </DropdownMenuItem>
-
-                </DropdownMenuGroup>
-            </DropdownMenuContent>
-        </DropdownMenu>
+                        </DropdownMenuGroup>
+                    </DropdownMenuContent>
+                </DropdownMenu>
+            </div>
     )
 }
 
