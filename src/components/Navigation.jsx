@@ -150,11 +150,10 @@ function Navigation() {
 
             <div>
                 <DropdownMenu className='bg-red-500'>
-                    <DropdownMenuTrigger 
-                        render={
+                    <DropdownMenuTrigger asChild>
                             <Button variant="outline">Open</Button>
-                        } 
-                    />
+                    
+                    </DropdownMenuTrigger> 
                     <DropdownMenuContent>
                         <DropdownMenuGroup>
                             <DropdownMenuItem>
