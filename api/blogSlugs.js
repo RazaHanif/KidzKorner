@@ -35,7 +35,7 @@ const blogs = {
         imageAlt: "Child playing with blocks at Kidz Korner Milton ",
         publishedAt: "2026-08-08",
         content: [
-            "We are just putting the final touches on for you before we launch",
+            "We are just putting the final touches on for you before we launch.",
             "Stay tuned for Kidz Korner Blogs!"
         ]
     },
