@@ -55,7 +55,7 @@ const About = () => {
                     />
                 </div>
 
-                <div className="flex justify-center items-center">
+                <div>
                     <HoursTimeTable />
                 </div>
             </div>
