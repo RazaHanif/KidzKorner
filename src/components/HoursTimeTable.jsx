@@ -34,11 +34,11 @@ const HoursTimeTable = () => {
             <Table className="text-start">
                 <TableBody>
                     {timetable.map((item, idx) => (
-                    <TableRow key={idx} className="">
-                            <TableCell className='font-semibold whitespace-normal wrap-break-word'>
+                    <TableRow key={idx} className="flex">
+                            <TableCell className='font-semibold whitespace-normal wrap-break-word flex-1'>
                                 {item.session}
                             </TableCell>
-                            <TableCell className="flex justify-center items-center w-full">
+                            <TableCell className="flex justify-center items-center flex-2 w-full">
                                 <p className="text-end w-full">
                                     {item.time}
                                 </p>
@@ -47,22 +47,6 @@ const HoursTimeTable = () => {
                     ))}
                 </TableBody>
             </Table>
-            <div className="w-full">
-                {timetable.map((item, idx) => (
-                    <div
-                        key={idx}
-                        className="grid grid-cols-2 gap-2 py-2"
-                    >
-                        <div className="font-semibold min-w-0 break-words">
-                            {item.session}
-                        </div>
-
-                        <div className="min-w-0 text-end break-words">
-                            {item.time}
-                        </div>
-                    </div>
-                ))}
-            </div>
         </div>
     )
 }
