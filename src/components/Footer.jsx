@@ -183,7 +183,7 @@ const Footer = () => {
         </NavLink>
     </div>
 
-    <div className="lg:w-3/4 w-9/10 border border-primary" />
+    <div className="lg:w-3/4 w-9/10 border-t border-primary" />
     <div className="border-t border-primary-4 flex m-2" />
 
     <span className="font-light">
