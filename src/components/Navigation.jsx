@@ -221,6 +221,8 @@ function Navigation() {
                                 </DropdownMenuPortal>
                             </DropdownMenuSub>
 
+                            <DropdownMenuSeparator />
+
                             <DropdownMenuItem asChild>
                                 <NavLink
                                     to="/parties"
