@@ -239,14 +239,18 @@ function Navigation() {
                                         <DropdownMenuItem>
                                             <NavLink 
                                                 to="/daycare/toddler" 
-                                                
+                                                className="cursor-pointer"
                                                 end
                                             >
                                                 Toddler
                                             </NavLink>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <NavLink to="/daycare/preschool" end>
+                                            <NavLink 
+                                                to="/daycare/preschool" 
+                                                className="cursor-pointer"
+                                                end
+                                            >
                                                 Preschool
                                             </NavLink>
                                         </DropdownMenuItem>
