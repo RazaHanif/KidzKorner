@@ -157,6 +157,52 @@ function Navigation() {
                     </DropdownMenuTrigger>
                     <DropdownMenuContent>
                         <DropdownMenuGroup>
+                                                    <DropdownMenuItem asChild>
+                            <NavLink
+                                to="/parties"
+                                className="cursor-pointer"
+                                end
+                            >
+                                Parties
+                            </NavLink>
+                        </DropdownMenuItem>
+                        <DropdownMenuItem asChild>
+                            <NavLink
+                                to="/playground"
+                                className="cursor-pointer"
+                                end
+                            >
+                                Playground
+                            </NavLink>
+                        </DropdownMenuItem>
+                        <DropdownMenuItem asChild>
+                            <NavLink
+                                to="/workshops"
+                                className="cursor-pointer"
+                                end
+                            >
+                                Workshop
+                            </NavLink>
+                        </DropdownMenuItem>
+                        <DropdownMenuItem asChild>
+                            <NavLink to="/camp" className="cursor-pointer" end>
+                                Camp
+                            </NavLink>
+                        </DropdownMenuItem>
+                        {/* <DropdownMenuItem  asChild>
+              <NavLink
+                to="/blog" 
+                className="cursor-pointer"
+                end
+              >
+                Blog
+              </NavLink>
+            </DropdownMenuItem> */}
+                        <DropdownMenuItem asChild>
+                            <NavLink to="/about" className="cursor-pointer" end>
+                                About Us
+                            </NavLink>
+                        </DropdownMenuItem>
                             <DropdownMenuItem>
                                 Team
                             </DropdownMenuItem>
