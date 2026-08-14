@@ -73,7 +73,8 @@ export function DropdownMenuSubmenu() {
                         <DropdownMenuSeparator />
 
                         <DropdownMenuItem>
-                            Advanced...</DropdownMenuItem>
+                            Advanced...
+                        </DropdownMenuItem>
                     </DropdownMenuSubContent>
                     </DropdownMenuPortal>
                 </DropdownMenuSub>
