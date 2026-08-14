@@ -155,7 +155,12 @@ function Navigation() {
                             <Menu />
                         </Button>
                     </DropdownMenuTrigger>
-                    <DropdownMenuContent className="w-64">
+                    <DropdownMenuContent
+                        side="bottom"
+                        align="end"
+                        sideOffset={8}
+                        className="w-72"
+                    >
                         <DropdownMenuGroup>
                             <DropdownMenuSub>
                                 <DropdownMenuSubTrigger 
