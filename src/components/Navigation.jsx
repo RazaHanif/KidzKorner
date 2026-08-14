@@ -198,7 +198,9 @@ function Navigation() {
 
                             <DropdownMenuSub>
                                 <DropdownMenuSubTrigger asChild>
-                                    <NavLink to/>
+                                    <NavLink to="/daycare" className="cursor-pointer" end>
+                                        Day Care
+                                    </NavLink>
                                 </DropdownMenuSubTrigger>
                                 <DropdownMenuPortal>
                                 <DropdownMenuSubContent>
