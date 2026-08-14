@@ -136,7 +136,6 @@ function DesktopNavigation() {
 
 function MobileNavigation() {
     return (
-        <div className="lg:hidden flex flex-col justify-center items-center">
                 <DropdownMenu>
                     <DropdownMenuTrigger asChild className="cursor-pointer">
                         <Button variant="secondary">
@@ -329,7 +328,6 @@ function MobileNavigation() {
                         </DropdownMenuGroup>
                     </DropdownMenuContent>
                 </DropdownMenu>
-            </div>
     )
 }
 
