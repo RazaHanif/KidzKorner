@@ -169,7 +169,7 @@ function Navigation() {
                                     Day Care
                                 </DropdownMenuSubTrigger>
                                 <DropdownMenuPortal>
-                                    <DropdownMenuSubContent>
+                                    <DropdownMenuSubContent className="font-light">
                                         <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/daycare" 
