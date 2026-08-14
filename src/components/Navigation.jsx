@@ -229,12 +229,6 @@ function Navigation() {
                                                 </DropdownMenuSubContent>
                                             </DropdownMenuPortal>
                                         </DropdownMenuSub>
-
-                                        <DropdownMenuSeparator />
-
-                                        <DropdownMenuItem>
-                                            Advanced...
-                                        </DropdownMenuItem>
                                     </DropdownMenuSubContent>
                                 </DropdownMenuPortal>
                             </DropdownMenuSub>
