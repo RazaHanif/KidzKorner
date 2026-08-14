@@ -166,7 +166,7 @@ const Footer = () => {
                  
             <div className="flex flex-row w-full justify-around items-center bg-secondary">
                 <NavLink
-                    className="text-sm"
+                    className="text-sm font-light"
                     to={"/blog"}
                     end
                 >
