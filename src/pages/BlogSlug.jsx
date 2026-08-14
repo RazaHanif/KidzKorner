@@ -72,7 +72,7 @@ const BlogSlug = () => {
                     {blog.title}
                 </h1>
             </div>
-            <article className="flex flex-2 flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 lg:py-12 py-8 lg:my-12 my-8 text-start border">
+            <article className="flex flex-2 flex-col justify-center items-center lg:w-3/4 w-9/10 gap-6 lg:py-12 py-8 lg:my-12 my-8 text-start">
                 {blog.content.map((section, idx) => {
                     return (
                         <p 
