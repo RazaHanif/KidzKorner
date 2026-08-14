@@ -197,8 +197,8 @@ function Navigation() {
                             </DropdownMenuItem>
 
                             <DropdownMenuSub>
-                                <DropdownMenuSubTrigger>
-                                    Invite users
+                                <DropdownMenuSubTrigger asChild>
+                                    
                                 </DropdownMenuSubTrigger>
                                 <DropdownMenuPortal>
                                 <DropdownMenuSubContent>
