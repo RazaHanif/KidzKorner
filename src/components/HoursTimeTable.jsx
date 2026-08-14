@@ -34,7 +34,7 @@ const HoursTimeTable = () => {
             <Table className="text-start">
                 <TableBody>
                     {timetable.map((item, idx) => (
-                    <TableRow key={idx} className="flex min-w-0 w-full">
+                    <TableRow key={idx} className="flex w-full">
                             <TableCell className="font-semibold whitespace-normal wrap-break-word min-w-0 flex-1">
                                 {item.session}
                             </TableCell>
