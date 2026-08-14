@@ -165,7 +165,7 @@ function Navigation() {
                                 </DropdownMenuSubTrigger>
                                 <DropdownMenuPortal>
                                     <DropdownMenuSubContent>
-                                        <DropdownMenuItem>
+                                        <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/daycare" 
                                                 className="cursor-pointer"
@@ -174,7 +174,7 @@ function Navigation() {
                                                 All Day Care
                                             </NavLink>
                                         </DropdownMenuItem>
-                                        <DropdownMenuItem>
+                                        <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/daycare/toddler" 
                                                 className="cursor-pointer"
@@ -183,7 +183,7 @@ function Navigation() {
                                                 Toddler
                                             </NavLink>
                                         </DropdownMenuItem>
-                                        <DropdownMenuItem>
+                                        <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/daycare/preschool" 
                                                 className="cursor-pointer"
@@ -192,7 +192,7 @@ function Navigation() {
                                                 Preschool
                                             </NavLink>
                                         </DropdownMenuItem>
-                                        <DropdownMenuItem>
+                                        <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/daycare/before-after-school"
                                                 className="cursor-pointer"
@@ -243,7 +243,7 @@ function Navigation() {
                                 </DropdownMenuSubTrigger>
                                 <DropdownMenuPortal>
                                     <DropdownMenuSubContent>
-                                        <DropdownMenuItem>
+                                        <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/camp" 
                                                 className="cursor-pointer"
@@ -252,7 +252,7 @@ function Navigation() {
                                                 All Camps
                                             </NavLink>
                                         </DropdownMenuItem>
-                                        <DropdownMenuItem>
+                                        <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/camp/summer" 
                                                 className="cursor-pointer"
@@ -261,7 +261,7 @@ function Navigation() {
                                                 Summer Camp
                                             </NavLink>
                                         </DropdownMenuItem>
-                                        <DropdownMenuItem>
+                                        <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/camp/march-break" 
                                                 className="cursor-pointer"
@@ -270,7 +270,7 @@ function Navigation() {
                                                 March Break Camp
                                             </NavLink>
                                         </DropdownMenuItem>
-                                        <DropdownMenuItem>
+                                        <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/camp/winter-break" 
                                                 className="cursor-pointer"
@@ -279,7 +279,7 @@ function Navigation() {
                                                 Winter Break Camp
                                             </NavLink>
                                         </DropdownMenuItem>
-                                        <DropdownMenuItem>
+                                        <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/camp/pa-day" 
                                                 className="cursor-pointer"
