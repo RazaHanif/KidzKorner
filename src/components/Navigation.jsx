@@ -42,8 +42,12 @@ export function DropdownMenuSubmenu() {
                     </DropdownMenuSubTrigger>
                     <DropdownMenuPortal>
                     <DropdownMenuSubContent>
-                        <DropdownMenuItem>Email</DropdownMenuItem>
-                        <DropdownMenuItem>Message</DropdownMenuItem>
+                        <DropdownMenuItem>
+                            Email
+                        </DropdownMenuItem>
+                        <DropdownMenuItem>
+                            Message
+                        </DropdownMenuItem>
                         <DropdownMenuSub>
                         <DropdownMenuSubTrigger>More options</DropdownMenuSubTrigger>
                         <DropdownMenuPortal>
