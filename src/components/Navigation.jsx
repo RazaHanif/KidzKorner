@@ -203,7 +203,11 @@ function Navigation() {
                                                 className="cursor-pointer p-2 text-xl"
                                                 end
                                             >
-                                                Before & After School
+                                                <p>
+
+                                                </p>
+                                                Before & After
+                                                 School
                                             </NavLink>
                                         </DropdownMenuItem>
                                     </DropdownMenuSubContent>
