@@ -148,12 +148,13 @@ function Navigation() {
                 </NavigationMenuList>
             </NavigationMenu>
 
-            <div>
-                <DropdownMenu className='bg-red-500'>
-                    <DropdownMenuTrigger asChild>
-                            <Button variant="outline">Open</Button>
-                    
-                    </DropdownMenuTrigger> 
+            <div className="hidden lg:flex flex-col justify-center items-center">
+                <DropdownMenu>
+                    <DropdownMenuTrigger asChild className="cursor-pointer">
+                        <Button variant="secondary">
+                            <Menu />
+                        </Button>
+                    </DropdownMenuTrigger>
                     <DropdownMenuContent>
                         <DropdownMenuGroup>
                             <DropdownMenuItem>
