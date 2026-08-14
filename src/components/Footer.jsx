@@ -184,6 +184,8 @@ const Footer = () => {
     </div>
 
     <div className="lg:w-3/4 w-9/10 border border-primary" />
+    <div className="border-r border-chart-4 lg:flex hidden" />
+    <div className="border-t border-chart-4 lg:hidden flex m-2" />
 
     <span className="font-light">
         © {new Date().getFullYear()} Kidz Korner Milton. All rights reserved.
