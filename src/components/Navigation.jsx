@@ -251,7 +251,7 @@ function Navigation() {
                                                 className="cursor-pointer"
                                                 end
                                             >
-                                                March 
+                                                March Break Camp
                                             </NavLink>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
