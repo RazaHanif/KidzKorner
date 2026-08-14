@@ -263,6 +263,15 @@ function Navigation() {
                                                 Winter Break Camp
                                             </NavLink>
                                         </DropdownMenuItem>
+                                        <DropdownMenuItem>
+                                            <NavLink 
+                                                to="/camp/winter-break" 
+                                                className="cursor-pointer"
+                                                end
+                                            >
+                                                Winter Break Camp
+                                            </NavLink>
+                                        </DropdownMenuItem>
                                     </DropdownMenuSubContent>
                                 </DropdownMenuPortal>
                             </DropdownMenuSub>
