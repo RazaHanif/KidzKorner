@@ -5,7 +5,7 @@ import { Table, TableBody, TableCell, TableRow } from "@/components/ui/table";
 
 const Footer = () => {
     return (
-        <footer className="flex flex-col ">
+        <footer className="flex flex-col justify-center">
             <div className="flex flex-col lg:flex-row justify-center w-full bg-primary border-t border-chart-4 p-2 text-primary-foreground">
                 <div className="flex-1 flex flex-col justify-start items-center">
                     <h3 className="text-xl flex justify-center items-center w-full text-center">
