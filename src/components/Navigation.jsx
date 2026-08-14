@@ -173,7 +173,7 @@ function Navigation() {
                                         <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/daycare" 
-                                                className="cursor-pointer"
+                                                className="cursor-pointer p-2 text-xl"
                                                 end
                                             >
                                                 All Day Care
