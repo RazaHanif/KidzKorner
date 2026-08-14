@@ -225,7 +225,9 @@ function Navigation() {
                             </DropdownMenuItem>
 
                             <DropdownMenuSub>
-                                <DropdownMenuSubTrigger onClick={() => navigate("/daycare")}>
+                                <DropdownMenuSubTrigger 
+                                    onClick={() => navigate("/daycare")}
+                                >
                                     Day Care
                                 </DropdownMenuSubTrigger>
                                 <DropdownMenuPortal>
