@@ -10,15 +10,15 @@ const HoursTimeTable = () => {
     const timetable = [
         {
             session: "Child Care",
-            time: `Monday to Friday -\n 9:00am - 3:00pm`
+            time: `Monday to Friday - 9:00am to 3:00pm`
         },
         {
             session: "After School",
-            time: "Monday to Friday - 3:00pm - 6:00pm"
+            time: "Monday to Friday - 3:00pm to 6:00pm"
         },
         {
             session: "Indoor Playground Drop In",
-            time: "Monday to Friday - 3:00pm - 6:00pm"
+            time: "Monday to Friday - 3:00pm to 6:00pm"
         },
         {
             session: "Playground Open For Parties",
