@@ -135,19 +135,8 @@ function DesktopNavigation() {
 }
 
 function MobileNavigation() {
-    
-}
-
-function Navigation() {
     return (
-        <>
-            {/* Desktop Navigation */}
-            <DesktopNavigation />
-
-
-
-            {/* Mobile Navigation */}
-            <div className="lg:hidden flex flex-col justify-center items-center">
+        <div className="lg:hidden flex flex-col justify-center items-center">
                 <DropdownMenu>
                     <DropdownMenuTrigger asChild className="cursor-pointer">
                         <Button variant="secondary">
@@ -341,6 +330,19 @@ function Navigation() {
                     </DropdownMenuContent>
                 </DropdownMenu>
             </div>
+    )
+}
+
+function Navigation() {
+    return (
+        <>
+            {/* Desktop Navigation */}
+            <DesktopNavigation />
+
+
+
+            {/* Mobile Navigation */}
+            
         </>
     );
 }
