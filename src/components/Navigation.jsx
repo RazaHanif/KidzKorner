@@ -57,7 +57,9 @@ export function DropdownMenuSubmenu() {
                                     <DropdownMenuItem>
                                         Calendly
                                     </DropdownMenuItem>
-                                    <DropdownMenuItem>Slack</DropdownMenuItem>
+                                    <DropdownMenuItem>
+                                        Slack
+                                    </DropdownMenuItem>
                                     <DropdownMenuSeparator />
                                     <DropdownMenuItem>Webhook</DropdownMenuItem>
                                 </DropdownMenuSubContent>
