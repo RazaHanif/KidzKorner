@@ -6,7 +6,7 @@ import { Table, TableBody, TableCell, TableRow } from "@/components/ui/table";
 const Footer = () => {
     return (
         <footer className="flex flex-col justify-center items-center w-full bg-primary text-primary-foreground">
-            <div className="flex flex-col lg:flex-row justify-center w-full border-t border-chart-4 p-2 text-primary-foreground">
+            <div className="flex flex-col lg:flex-row justify-center w-full border-t border-chart-4 p-2">
                 <div className="flex-1 flex flex-col justify-start items-center">
                     <h3 className="text-xl flex justify-center items-center w-full text-center">
                         Child Care Hours
