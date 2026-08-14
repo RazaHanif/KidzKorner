@@ -249,7 +249,7 @@ function Navigation() {
                                                 className="cursor-pointer"
                                                 end
                                             >
-                                                All Camp
+                                                All Camps
                                             </NavLink>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
