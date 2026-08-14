@@ -22,6 +22,10 @@ import {
     NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
 
+function DesktopNavigation() {
+    
+}
+
 function Navigation() {
     const navigate = useNavigate();
 
