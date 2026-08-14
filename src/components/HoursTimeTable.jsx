@@ -31,7 +31,23 @@ const HoursTimeTable = () => {
             <h2 className="text-xl font-semibold text-center lg:text-end lg:ml-2">
                 Hours of Operation
             </h2>
-<div className="w-full">
+            <Table className="text-start">
+                <TableBody>
+                    {timetable.map((item, idx) => (
+                    <TableRow key={idx} className="">
+                            <TableCell className='font-semibold whitespace-normal wrap-break-word'>
+                                {item.session}
+                            </TableCell>
+                            <TableCell className="flex justify-center items-center w-full">
+                                <p className="text-end w-full">
+                                    {item.time}
+                                </p>
+                            </TableCell>
+                        </TableRow>
+                    ))}
+                </TableBody>
+            </Table>
+            <div className="w-full">
                 {timetable.map((item, idx) => (
                     <div
                         key={idx}
