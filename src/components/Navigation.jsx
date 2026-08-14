@@ -280,7 +280,7 @@ function Navigation() {
                                         </DropdownMenuItem>
 
                                         <DropdownMenuSeparator />
-                                        
+
                                         <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/camp/summer" 
@@ -292,7 +292,7 @@ function Navigation() {
                                         </DropdownMenuItem>
 
                                         <DropdownMenuSeparator />
-                                        
+
                                         <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/camp/march-break" 
@@ -304,7 +304,7 @@ function Navigation() {
                                         </DropdownMenuItem>
 
                                         <DropdownMenuSeparator />
-                                        
+
                                         <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/camp/winter-break" 
@@ -314,6 +314,9 @@ function Navigation() {
                                                 Winter Break Camp
                                             </NavLink>
                                         </DropdownMenuItem>
+
+                                        <DropdownMenuSeparator />
+                                        
                                         <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/camp/pa-day" 
