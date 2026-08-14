@@ -134,7 +134,9 @@ function DesktopNavigation() {
 
 }
 
-
+function MobileNavigation() {
+    
+}
 
 function Navigation() {
     return (
