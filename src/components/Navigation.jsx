@@ -38,7 +38,8 @@ export function DropdownMenuSubmenu() {
                 </DropdownMenuItem>
                 <DropdownMenuSub>
                     <DropdownMenuSubTrigger>
-                        Invite users</DropdownMenuSubTrigger>
+                        Invite users
+                    </DropdownMenuSubTrigger>
                     <DropdownMenuPortal>
                     <DropdownMenuSubContent>
                         <DropdownMenuItem>Email</DropdownMenuItem>
