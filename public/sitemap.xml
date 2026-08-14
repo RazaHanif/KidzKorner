@@ -70,7 +70,7 @@
     <loc>https://www.kidzkornermilton.com/about</loc>
     <priority>0.6</priority>
   </url>
-
+<!-- 
   <!-- Blog -->
   <url>
     <loc>https://www.kidzkornermilton.com/blog</loc>
@@ -82,5 +82,6 @@
     <loc>https://www.kidzkornermilton.com/faq</loc>
     <priority>0.7</priority>
   </url>
+  -->
 
 </urlset>
