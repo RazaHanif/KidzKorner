@@ -184,7 +184,6 @@ const Footer = () => {
     </div>
 
     <div className="lg:w-3/4 w-9/10 border border-primary" />
-    <div className="border-r border-primary lg:flex hidden" />
     <div className="border-t border-primary lg:hidden flex m-2" />
 
     <span className="font-light">
