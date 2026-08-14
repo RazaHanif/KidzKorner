@@ -184,10 +184,10 @@ const Footer = () => {
     </div>
 
     <div className="flex justify-center items-center font-light">
-        <p className="">
+        <p className="border">
             ©
         </p>
-        <p className="">
+        <p className="border">
             {new Date().getFullYear()} Kidz Korner Milton. All rights reserved.
         </p>
     </div>
