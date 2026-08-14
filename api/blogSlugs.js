@@ -28,7 +28,7 @@ const blogs = {
     //     ]
     // },
     "coming-soon" : {
-        title: "Toddler Activities in Milton",
+        title: "Coming Soon",
         slug: "coming-soon",
         description: "This will be a quick listcle",
         image: "/media/Stock/12.jpg",
