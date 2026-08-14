@@ -160,6 +160,10 @@ const Footer = () => {
                     </Table>
                 </div>
             </div>
+            
+            <div>
+
+            </div>
             <p>
                 Blog
             </p>
