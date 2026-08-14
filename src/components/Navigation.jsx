@@ -155,7 +155,7 @@ function Navigation() {
                             <Menu />
                         </Button>
                     </DropdownMenuTrigger>
-                    <DropdownMenuContent className="w-64">
+                    <DropdownMenuContent className="w-64 text-xl">
                         <DropdownMenuGroup>
                             <DropdownMenuSub>
                                 <DropdownMenuSubTrigger 
