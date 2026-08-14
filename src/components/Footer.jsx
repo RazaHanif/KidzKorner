@@ -163,6 +163,9 @@ const Footer = () => {
             <p>
                 Blog
             </p>
+            <p>
+                FAQ
+            </p>
         </footer>
     );
 };
