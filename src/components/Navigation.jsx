@@ -257,6 +257,8 @@ function Navigation() {
                                 </NavLink>
                             </DropdownMenuItem>
 
+                            <DropdownMenuSeparator />
+
                             <DropdownMenuSub>
                                 <DropdownMenuSubTrigger 
                                     className="cursor-pointer p-2 text-xl"
