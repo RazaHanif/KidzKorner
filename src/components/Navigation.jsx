@@ -237,7 +237,6 @@ function Navigation() {
 
                             <DropdownMenuSub>
                                 <DropdownMenuSubTrigger 
-                                    onClick={() => navigate("/daycare")}
                                     className="cursor-pointer"
                                 >
                                     Camp
