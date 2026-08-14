@@ -165,7 +165,7 @@ const Footer = () => {
             </div>
                  
 <div className="flex flex-col w-full justify-center items-center gap-2 bg-secondary py-3 px-4 text-sm">
-    <div className="flex flex-row gap-6 lg:w-3/4 w-9/10 justify-around items-center">
+    <div className="flex flex-row gap-6 lg:w-1/4 w-3/4 justify-around items-center">
         <NavLink
             className="font-light hover:underline"
             to="/blog"
