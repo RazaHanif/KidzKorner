@@ -167,7 +167,7 @@ function Navigation() {
                                     <DropdownMenuSubContent>
                                         <DropdownMenuItem>
                                             <NavLink 
-                                                to="/daycare/toddler" 
+                                                to="/daycare" 
                                                 className="cursor-pointer"
                                                 end
                                             >
