@@ -47,22 +47,6 @@ const HoursTimeTable = () => {
                     ))}
                 </TableBody>
             </Table>
-            <div className="w-full">
-                {timetable.map((item, idx) => (
-                    <div
-                        key={idx}
-                        className="grid grid-cols-2 gap-2 py-2"
-                    >
-                        <div className="font-semibold min-w-0 break-words">
-                            {item.session}
-                        </div>
-
-                        <div className="min-w-0 text-end break-words">
-                            {item.time}
-                        </div>
-                    </div>
-                ))}
-            </div>
         </div>
     )
 }
