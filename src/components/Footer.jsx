@@ -183,7 +183,7 @@ const Footer = () => {
         </NavLink>
     </div>
 
-    <div className="flex flex-col justify-center items-center font-light">
+    <div className="flex justify-center items-center font-light">
         <p>
             ©
         </p>
