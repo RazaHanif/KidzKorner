@@ -161,9 +161,9 @@ const Footer = () => {
                         </Table>
                     </div>
                 </div>
+            </div>
                 
             <div>
-                </div>
 
             </div>
             <p>
