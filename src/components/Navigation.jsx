@@ -23,7 +23,7 @@ import {
     NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
 
-export function Mobile() {
+function MobileNavigation() {
   return (
     <DropdownMenu>
         <DropdownMenuTrigger 
