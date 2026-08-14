@@ -171,7 +171,7 @@ function Navigation() {
                                                 className="cursor-pointer"
                                                 end
                                             >
-                                                Toddler
+                                                All Day Care
                                             </NavLink>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
