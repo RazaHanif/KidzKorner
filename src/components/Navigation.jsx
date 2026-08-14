@@ -48,15 +48,11 @@ function Navigation() {
                     <NavigationMenuItem>
                         <NavigationMenuTrigger
                             className="bg-primary text-primary-foreground text-2xl cursor-pointer"
+                            onClick={() => navigate("/daycare")}
                         >
                             Day Care
                         </NavigationMenuTrigger>
                         <NavigationMenuContent>
-                            <NavigationMenuLink
-                                onClick={() => navigate("/daycare")}
-                            >
-                                All Day Care
-                            </NavigationMenuLink>
                             <NavigationMenuLink
                                 onClick={() => navigate("/daycare/toddler")}
                             >
@@ -109,12 +105,13 @@ function Navigation() {
                     <NavigationMenuItem>
                         <NavigationMenuTrigger
                             className="bg-primary text-primary-foreground text-2xl cursor-pointer"
+                            onClick={() => navigate("/camp")}
                         >
                             Camp
                         </NavigationMenuTrigger>
                         <NavigationMenuContent>
                             <NavigationMenuLink
-                                onClick={() => navigate("/camp")}
+                                onClick={() => navigate("/camp/summer")}
                             >
                                 All Camp
                             </NavigationMenuLink>
