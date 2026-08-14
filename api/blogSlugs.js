@@ -27,19 +27,19 @@ const blogs = {
     //         "A good childcare program...",
     //     ]
     // },
-    // "toddler-activities-in-milton" : {
-    //     title: "Toddler Activities in Milton",
-    //     slug: "toddler-activities-in-milton",
-    //     description: "This will be a quick listcle",
-    //     image: "/media/Stock/12.jpg",
-    //     imageAlt: "Child playing with blocks at Kidz Korner Milton ",
-    //     publishedAt: "2026-08-08",
-    //     content: [
-    //         "Choosing the right daycare...",
-    //         "What should you look for in a daycare?",
-    //         "A good childcare program...",
-    //     ]
-    // },
+    "toddler-activities-in-milton" : {
+        title: "Toddler Activities in Milton",
+        slug: "toddler-activities-in-milton",
+        description: "This will be a quick listcle",
+        image: "/media/Stock/12.jpg",
+        imageAlt: "Child playing with blocks at Kidz Korner Milton ",
+        publishedAt: "2026-08-08",
+        content: [
+            "Choosing the right daycare...",
+            "What should you look for in a daycare?",
+            "A good childcare program...",
+        ]
+    },
 }
 
 export default blogs
