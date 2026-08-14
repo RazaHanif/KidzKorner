@@ -183,8 +183,6 @@ const Footer = () => {
         </NavLink>
     </div>
 
-    <span className="hidden sm:block opacity-50">|</span>
-
     <span className="font-light">
         © {new Date().getFullYear()} Kidz Korner Milton. All rights reserved.
     </span>
