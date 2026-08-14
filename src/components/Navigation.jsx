@@ -48,7 +48,6 @@ function Navigation() {
                     <NavigationMenuItem>
                         <NavigationMenuTrigger
                             className="bg-primary text-primary-foreground text-2xl cursor-pointer"
-                            onClick={() => navigate("/daycare")}
                         >
                             Day Care
                         </NavigationMenuTrigger>
