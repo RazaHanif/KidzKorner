@@ -318,6 +318,8 @@ function Navigation() {
                                 </DropdownMenuPortal>
                             </DropdownMenuSub>
 
+                            <DropdownMenuSeparator />
+
                             <DropdownMenuItem asChild>
                                 <NavLink to="/about" className="cursor-pointer p-2 text-xl" end>
                                     About Us
