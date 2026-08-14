@@ -30,7 +30,7 @@ const blogs = {
     "coming-soon" : {
         title: "Coming Soon",
         slug: "coming-soon",
-        description: "This will be a quick listcle",
+        description: "Our writers are ",
         image: "/media/Stock/12.jpg",
         imageAlt: "Child playing with blocks at Kidz Korner Milton ",
         publishedAt: "2026-08-08",
