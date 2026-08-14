@@ -111,9 +111,9 @@ function Navigation() {
                         </NavigationMenuTrigger>
                         <NavigationMenuContent>
                             <NavigationMenuLink
-                                onClick={() => navigate("/camp/summer")}
+                                onClick={() => navigate("/camp")}
                             >
-                                Summer Camp
+                                All Camp
                             </NavigationMenuLink>
                             <NavigationMenuLink
                                 onClick={() => navigate("/camp/summer")}
