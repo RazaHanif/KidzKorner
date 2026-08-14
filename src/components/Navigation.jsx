@@ -265,7 +265,7 @@ function Navigation() {
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
                                             <NavLink 
-                                                to="/camp/winter-break" 
+                                                to="/camp/pa-day" 
                                                 className="cursor-pointer"
                                                 end
                                             >
