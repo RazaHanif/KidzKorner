@@ -183,7 +183,7 @@ const Footer = () => {
         </NavLink>
     </div>
 
-    <div className="flex justify-center items-center font-light">
+    <div className="flex justify-center items-center font-light font-mono">
         &copy; {new Date().getFullYear()} Kidz Korner Milton. All rights reserved.
     </div>
 </div>
