@@ -163,7 +163,7 @@ const Footer = () => {
                 </div>
             </div>
                  
-            <div className="flex flex-row w-full just">
+            <div className="flex flex-row w-full justify-between items-center">
                 <p>
                     Blog
                 </p>
