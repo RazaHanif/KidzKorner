@@ -113,11 +113,6 @@ function Navigation() {
                             <NavigationMenuLink
                                 onClick={() => navigate("/camp/summer")}
                             >
-                                All Camp
-                            </NavigationMenuLink>
-                            <NavigationMenuLink
-                                onClick={() => navigate("/camp/summer")}
-                            >
                                 Summer Camp
                             </NavigationMenuLink>
                             <NavigationMenuLink
@@ -274,7 +269,7 @@ function Navigation() {
                                                 className="cursor-pointer"
                                                 end
                                             >
-                                                PA Day Camp
+                                                PA Day
                                             </NavLink>
                                         </DropdownMenuItem>
                                     </DropdownMenuSubContent>
