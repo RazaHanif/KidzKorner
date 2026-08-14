@@ -22,28 +22,6 @@ import PADayCamp from "./pages/PADayCamp.jsx";
 import Blog from "./pages/Blog.jsx";
 import BlogSlug from "./pages/BlogSlug.jsx";
 
-/* 
-
-/
-/daycare
-/daycare/toddler
-/daycare/preschool
-/daycare/before-after-school
-/camp
-/camp/summer
-/camp/march-break
-/camp/winter-break
-/camp/pa-day
-/indoor-playground
-/birthday-parties
-/workshops
-/about
-/blog
-/blog/:slug
-/faq
-
-*/
-
 function App() {
     return (
         <div className="flex-1 flex flex-col w-full min-h-screen">
