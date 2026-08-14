@@ -242,7 +242,7 @@ function Navigation() {
 
                             <DropdownMenuSub>
                                 <DropdownMenuSubTrigger 
-                                    className="cursor-pointer p-2"
+                                    className="cursor-pointer p-2 text-md"
                                 >
                                     Camp
                                 </DropdownMenuSubTrigger>
