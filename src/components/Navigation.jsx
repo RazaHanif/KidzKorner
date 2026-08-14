@@ -278,6 +278,9 @@ function Navigation() {
                                                 All Camps
                                             </NavLink>
                                         </DropdownMenuItem>
+
+                                        <DropdownMenuSeparator />
+                                        
                                         <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/camp/summer" 
@@ -287,6 +290,9 @@ function Navigation() {
                                                 Summer Camp
                                             </NavLink>
                                         </DropdownMenuItem>
+
+                                        <DropdownMenuSeparator />
+                                        
                                         <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/camp/march-break" 
@@ -296,6 +302,9 @@ function Navigation() {
                                                 March Break Camp
                                             </NavLink>
                                         </DropdownMenuItem>
+
+                                        <DropdownMenuSeparator />
+                                        
                                         <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/camp/winter-break" 
