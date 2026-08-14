@@ -157,7 +157,7 @@ function Navigation() {
                     </DropdownMenuTrigger>
                     <DropdownMenuContent>
                         <DropdownMenuGroup>
-                                                    <DropdownMenuItem asChild>
+                            <DropdownMenuItem asChild>
                             <NavLink
                                 to="/parties"
                                 className="cursor-pointer"
