@@ -164,6 +164,7 @@ const Footer = () => {
             </div>
                  
             <div className="flex flex-row w-full justify-around items-center bg-secondary">
+                
                 <p>
                     Blog
                 </p>
