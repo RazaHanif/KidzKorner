@@ -184,10 +184,7 @@ const Footer = () => {
     </div>
 
     <div className="flex justify-center items-center font-light">
-        <p className="border border-red-500 flex justify-center items-center text-center">
-
-            {new Date().getFullYear()} Kidz Korner Milton. All rights reserved.
-        </p>
+        {new Date().getFullYear()} Kidz Korner Milton. All rights reserved.
     </div>
 </div>
         </footer>
