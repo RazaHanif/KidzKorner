@@ -171,7 +171,12 @@ const Footer = () => {
                 >
                     Blog
                 </NavLink>
-
+                <NavLink
+                    to={"/blog"}
+                    end
+                >
+                    FAQ
+                </NavLink>
             </div>
         </footer>
     );
