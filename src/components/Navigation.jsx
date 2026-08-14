@@ -8,7 +8,6 @@ import {
     DropdownMenuItem,
     DropdownMenuPortal,
     DropdownMenuSeparator,
-    DropdownMenuShortcut,
     DropdownMenuSub,
     DropdownMenuSubContent,
     DropdownMenuSubTrigger,
