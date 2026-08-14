@@ -27,9 +27,9 @@ const blogs = {
     //         "A good childcare program...",
     //     ]
     // },
-    "toddler-activities-in-milton" : {
+    "coming-soon" : {
         title: "Toddler Activities in Milton",
-        slug: "toddler-activities-in-milton",
+        slug: "coming-soon",
         description: "This will be a quick listcle",
         image: "/media/Stock/12.jpg",
         imageAlt: "Child playing with blocks at Kidz Korner Milton ",
