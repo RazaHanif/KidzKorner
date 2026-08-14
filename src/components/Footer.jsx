@@ -163,7 +163,7 @@ const Footer = () => {
                 </div>
             </div>
                  
-            <div className="flex flex-row w-full ">
+            <div className="flex flex-row w-full just">
                 <p>
                     Blog
                 </p>
