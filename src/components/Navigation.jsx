@@ -284,8 +284,6 @@ function Navigation() {
                     </DropdownMenuContent>
                 </DropdownMenu>
             </div>
-
-            <MobileNavigation />
         </>
     );
 }
