@@ -71,8 +71,9 @@ export function DropdownMenuSubmenu() {
                         </DropdownMenuSub>
 
                         <DropdownMenuSeparator />
-                        
-                        <DropdownMenuItem>Advanced...</DropdownMenuItem>
+
+                        <DropdownMenuItem>
+                            Advanced...</DropdownMenuItem>
                     </DropdownMenuSubContent>
                     </DropdownMenuPortal>
                 </DropdownMenuSub>
