@@ -173,6 +173,7 @@ const Footer = () => {
                     Blog
                 </NavLink>
                 <NavLink
+                    className="text-sm font-light"
                     to="/faq"
                     end
                 >
