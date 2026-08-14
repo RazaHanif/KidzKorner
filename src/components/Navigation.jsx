@@ -195,7 +195,7 @@ function Navigation() {
                                         </DropdownMenuItem>
 
                                         <DropdownMenuSeparator />
-                                        
+
                                         <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/daycare/preschool" 
@@ -205,6 +205,10 @@ function Navigation() {
                                                 Preschool
                                             </NavLink>
                                         </DropdownMenuItem>
+
+                                        <DropdownMenuSeparator />
+
+                                        
                                         <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/daycare/before-after-school"
