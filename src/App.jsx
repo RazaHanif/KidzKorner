@@ -53,15 +53,13 @@ function App() {
                     <Route path="/daycare/preschool" element={<PreschoolDaycare />} />
                     <Route path="/daycare/before-after-school" element={<BeforeAfterDaycare />} />
                     
-                    {/*                     
-                    <Route path="/faq" element={<Test />} /> 
-                    */}
 
                     <Route path="/birthday-parties" element={<Parties />} />
 
                     <Route path="/indoor-playground" element={<Playground />} />
 
                     {/* <Route path="/test" element={<Test />} /> */}
+                    {/* <Route path="/faq" element={<Test />} />  */}
 
                     <Route path="/workshops" element={<Workshops />} />
 
