@@ -256,7 +256,10 @@ function Navigation() {
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
                                             <NavLink 
-                                                to="/daycare/before-after-school" end>
+                                                to="/daycare/before-after-school" 
+                                                className="cursor-pointer"
+                                                end
+                                            >
                                                 Before & After School
                                             </NavLink>
                                         </DropdownMenuItem>
