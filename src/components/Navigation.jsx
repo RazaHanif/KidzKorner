@@ -157,7 +157,7 @@ function Navigation() {
                     </DropdownMenuTrigger>
                     <DropdownMenuContent
                         side="bottom"
-                        align="center"
+                        align="end"
                         sideOffset={0}
                         className=""
                     >
