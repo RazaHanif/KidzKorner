@@ -7,8 +7,6 @@ const Footer = () => {
     return (
         <footer className="flex flex-col lg:flex-row justify-center w-full bg-primary border-t border-chart-4 p-2 text-primary-foreground">
             <div>
-                
-            </div>
                 <div className="flex-1 flex flex-col justify-start items-center">
                     <h3 className="text-xl flex justify-center items-center w-full text-center">
                         Child Care Hours
@@ -165,6 +163,7 @@ const Footer = () => {
                 </div>
                 
             <div>
+                </div>
 
             </div>
             <p>
