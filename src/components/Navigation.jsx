@@ -25,7 +25,7 @@ import {
 
 function MobileNavigation() {
   return (
-    <DropdownMenu>
+    <DropdownMenu className='bg-red-500'>
         <DropdownMenuTrigger 
             render={
                 <Button variant="outline">Open</Button>
