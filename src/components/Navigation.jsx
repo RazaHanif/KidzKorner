@@ -155,7 +155,7 @@ function Navigation() {
                             <Menu />
                         </Button>
                     </DropdownMenuTrigger>
-                    <DropdownMenuContent className="w-64 text-2xl font-bold gap-6">
+                    <DropdownMenuContent className="">
                         <DropdownMenuGroup>
                             <DropdownMenuSub>
                                 <DropdownMenuSubTrigger 
