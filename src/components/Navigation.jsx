@@ -208,7 +208,7 @@ function Navigation() {
                                             </NavLink>
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
-                                            <NavLink to="/daycare/toddler" end>
+                                            <NavLink to="/daycare/preschool" end>
                                                 Toddler
                                             </NavLink>
                                         </DropdownMenuItem>
