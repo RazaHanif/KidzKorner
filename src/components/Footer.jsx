@@ -167,13 +167,13 @@ const Footer = () => {
             <div className="flex flex-row w-full justify-around items-center bg-secondary">
                 <NavLink
                     className="text-sm font-light"
-                    to={"/blog"}
+                    to="/blog"
                     end
                 >
                     Blog
                 </NavLink>
                 <NavLink
-                    to={"/faq"}
+                    to="/faq"
                     end
                 >
                     FAQ
