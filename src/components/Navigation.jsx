@@ -193,6 +193,8 @@ function Navigation() {
                                                 Toddler
                                             </NavLink>
                                         </DropdownMenuItem>
+
+                                        <DropdownMenuSeparator />
                                         <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/daycare/preschool" 
