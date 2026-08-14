@@ -42,7 +42,7 @@ function App() {
                     <Route path="/birthday-parties" element={<Parties />} />
 
                     <Route path="/camp" element={<Camp />} />
-                    <Route path="/camp/summer" element={<SummerCamp />} />
+                    <Route path="/camp/summer-break" element={<SummerCamp />} />
                     <Route path="/camp/march-break" element={<MarchCamp />} />
                     <Route path="/camp/winter-break" element={<WinterCamp />} />
                     <Route path="/camp/pa-day" element={<PADayCamp />} />
