@@ -27,7 +27,10 @@ export function DropdownMenuSubmenu() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger 
-        render={<Button variant="outline">Open</Button>} />
+        render={
+            <Button variant="outline">Open</Button>
+        } 
+    />
       <DropdownMenuContent>
         <DropdownMenuGroup>
           <DropdownMenuItem>Team</DropdownMenuItem>
