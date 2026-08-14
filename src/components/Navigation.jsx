@@ -203,7 +203,7 @@ function Navigation() {
                                 <DropdownMenuPortal>
                                     <DropdownMenuSubContent>
                                         <DropdownMenuItem>
-                                            Email
+                                            
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
                                             Message
