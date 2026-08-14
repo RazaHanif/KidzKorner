@@ -217,6 +217,8 @@ function Navigation() {
                 </NavigationMenuList>
             </NavigationMenu>
 
+            <MobileNavigation />
+
             {/* Mobile Navigation */}
             <div className="lg:hidden flex flex-col justify-center items-center">
                 <DropdownMenu>
