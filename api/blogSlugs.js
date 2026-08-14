@@ -36,8 +36,6 @@ const blogs = {
         publishedAt: "2026-08-08",
         content: [
             "Choosing the right daycare...",
-            "What should you look for in a daycare?",
-            "A good childcare program...",
         ]
     },
 }
