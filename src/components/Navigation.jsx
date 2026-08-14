@@ -200,7 +200,7 @@ function Navigation() {
                                         <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/daycare/before-after-school"
-                                                className="cursor-pointer p-2 text-xl word"
+                                                className="cursor-pointer p-2 text-xl text-wrap"
                                                 end
                                             >
                                                 Before & After School
