@@ -157,7 +157,30 @@ function Navigation() {
                     </DropdownMenuTrigger>
                     <DropdownMenuContent>
                         <DropdownMenuGroup>
-
+                            <DropdownMenuSub>
+                                <DropdownMenuSubTrigger onClick={() => navigate("/daycare")}>
+                                    Day Care
+                                </DropdownMenuSubTrigger>
+                                <DropdownMenuPortal>
+                                    <DropdownMenuSubContent>
+                                        <DropdownMenuItem>
+                                            <NavLink to="/daycare/toddler" end>
+                                                Toddler
+                                            </NavLink>
+                                        </DropdownMenuItem>
+                                        <DropdownMenuItem>
+                                            <NavLink to="/daycare/preschool" end>
+                                                Preschool
+                                            </NavLink>
+                                        </DropdownMenuItem>
+                                        <DropdownMenuItem>
+                                            <NavLink to="/daycare/before-after-school" end>
+                                                Before & After School
+                                            </NavLink>
+                                        </DropdownMenuItem>
+                                    </DropdownMenuSubContent>
+                                </DropdownMenuPortal>
+                            </DropdownMenuSub>
 
                             <DropdownMenuItem asChild>
                                 <NavLink
