@@ -149,7 +149,6 @@ function Navigation() {
             </NavigationMenu>
 
             <div>
-
                 <DropdownMenu className='bg-red-500'>
                     <DropdownMenuTrigger 
                         render={
@@ -212,7 +211,7 @@ function Navigation() {
                         </DropdownMenuGroup>
                     </DropdownMenuContent>
                 </DropdownMenu>
-                                </div>
+            </div>
 
 
             {/* Mobile Navigation */}
