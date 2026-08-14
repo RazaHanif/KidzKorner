@@ -181,6 +181,9 @@ function Navigation() {
                                                 All Day Care
                                             </NavLink>
                                         </DropdownMenuItem>
+
+                                        <DropdownMenuSeparator />
+
                                         <DropdownMenuItem asChild>
                                             <NavLink 
                                                 to="/daycare/toddler" 
