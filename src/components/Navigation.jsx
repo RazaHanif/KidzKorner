@@ -60,8 +60,11 @@ export function DropdownMenuSubmenu() {
                                     <DropdownMenuItem>
                                         Slack
                                     </DropdownMenuItem>
+
                                     <DropdownMenuSeparator />
-                                    <DropdownMenuItem>Webhook</DropdownMenuItem>
+                                    
+                                    <DropdownMenuItem>
+                                        Webhook</DropdownMenuItem>
                                 </DropdownMenuSubContent>
                             </DropdownMenuPortal>
                         </DropdownMenuSub>
