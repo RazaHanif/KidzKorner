@@ -208,27 +208,6 @@ function Navigation() {
                                         <DropdownMenuItem>
                                             Message
                                         </DropdownMenuItem>
-                                        <DropdownMenuSub>
-                                            <DropdownMenuSubTrigger>
-                                                More options
-                                            </DropdownMenuSubTrigger>
-                                            <DropdownMenuPortal>
-                                                <DropdownMenuSubContent>
-                                                    <DropdownMenuItem>
-                                                        Calendly
-                                                    </DropdownMenuItem>
-                                                    <DropdownMenuItem>
-                                                        Slack
-                                                    </DropdownMenuItem>
-
-                                                    <DropdownMenuSeparator />
-                                                    
-                                                    <DropdownMenuItem>
-                                                        Webhook
-                                                    </DropdownMenuItem>
-                                                </DropdownMenuSubContent>
-                                            </DropdownMenuPortal>
-                                        </DropdownMenuSub>
                                     </DropdownMenuSubContent>
                                 </DropdownMenuPortal>
                             </DropdownMenuSub>
