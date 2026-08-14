@@ -150,68 +150,68 @@ function Navigation() {
 
                                 <div>
 
-    <DropdownMenu className='bg-red-500'>
-        <DropdownMenuTrigger 
-            render={
-                <Button variant="outline">Open</Button>
-            } 
-        />
-        <DropdownMenuContent>
-            <DropdownMenuGroup>
-                <DropdownMenuItem>
-                    Team
-                </DropdownMenuItem>
-                <DropdownMenuSub>
-                    <DropdownMenuSubTrigger>
-                        Invite users
-                    </DropdownMenuSubTrigger>
-                    <DropdownMenuPortal>
-                    <DropdownMenuSubContent>
-                        <DropdownMenuItem>
-                            Email
-                        </DropdownMenuItem>
-                        <DropdownMenuItem>
-                            Message
-                        </DropdownMenuItem>
-                        <DropdownMenuSub>
-                            <DropdownMenuSubTrigger>
-                                More options
-                            </DropdownMenuSubTrigger>
-                            <DropdownMenuPortal>
+                <DropdownMenu className='bg-red-500'>
+                    <DropdownMenuTrigger 
+                        render={
+                            <Button variant="outline">Open</Button>
+                        } 
+                    />
+                    <DropdownMenuContent>
+                        <DropdownMenuGroup>
+                            <DropdownMenuItem>
+                                Team
+                            </DropdownMenuItem>
+                            <DropdownMenuSub>
+                                <DropdownMenuSubTrigger>
+                                    Invite users
+                                </DropdownMenuSubTrigger>
+                                <DropdownMenuPortal>
                                 <DropdownMenuSubContent>
                                     <DropdownMenuItem>
-                                        Calendly
+                                        Email
                                     </DropdownMenuItem>
                                     <DropdownMenuItem>
-                                        Slack
+                                        Message
                                     </DropdownMenuItem>
+                                    <DropdownMenuSub>
+                                        <DropdownMenuSubTrigger>
+                                            More options
+                                        </DropdownMenuSubTrigger>
+                                        <DropdownMenuPortal>
+                                            <DropdownMenuSubContent>
+                                                <DropdownMenuItem>
+                                                    Calendly
+                                                </DropdownMenuItem>
+                                                <DropdownMenuItem>
+                                                    Slack
+                                                </DropdownMenuItem>
+
+                                                <DropdownMenuSeparator />
+                                                
+                                                <DropdownMenuItem>
+                                                    Webhook
+                                                </DropdownMenuItem>
+                                            </DropdownMenuSubContent>
+                                        </DropdownMenuPortal>
+                                    </DropdownMenuSub>
 
                                     <DropdownMenuSeparator />
-                                    
+
                                     <DropdownMenuItem>
-                                        Webhook
+                                        Advanced...
                                     </DropdownMenuItem>
                                 </DropdownMenuSubContent>
-                            </DropdownMenuPortal>
-                        </DropdownMenuSub>
-
-                        <DropdownMenuSeparator />
-
-                        <DropdownMenuItem>
-                            Advanced...
-                        </DropdownMenuItem>
-                    </DropdownMenuSubContent>
-                    </DropdownMenuPortal>
-                </DropdownMenuSub>
-                <DropdownMenuItem>
-                    New Team
-                    <DropdownMenuShortcut>
-                        ⌘+T
-                    </DropdownMenuShortcut>
-                </DropdownMenuItem>
-            </DropdownMenuGroup>
-        </DropdownMenuContent>
-    </DropdownMenu>
+                                </DropdownMenuPortal>
+                            </DropdownMenuSub>
+                            <DropdownMenuItem>
+                                New Team
+                                <DropdownMenuShortcut>
+                                    ⌘+T
+                                </DropdownMenuShortcut>
+                            </DropdownMenuItem>
+                        </DropdownMenuGroup>
+                    </DropdownMenuContent>
+                </DropdownMenu>
                                 </div>
 
 
