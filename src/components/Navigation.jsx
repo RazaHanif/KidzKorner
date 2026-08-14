@@ -49,7 +49,9 @@ export function DropdownMenuSubmenu() {
                             Message
                         </DropdownMenuItem>
                         <DropdownMenuSub>
-                            <DropdownMenuSubTrigger>More options</DropdownMenuSubTrigger>
+                            <DropdownMenuSubTrigger>
+                                More options
+                            </DropdownMenuSubTrigger>
                             <DropdownMenuPortal>
                                 <DropdownMenuSubContent>
                                 <DropdownMenuItem>Calendly</DropdownMenuItem>
