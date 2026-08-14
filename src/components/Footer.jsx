@@ -172,7 +172,7 @@ const Footer = () => {
                     Blog
                 </NavLink>
                 <NavLink
-                    to={"/blog"}
+                    to={"/faq"}
                     end
                 >
                     FAQ
