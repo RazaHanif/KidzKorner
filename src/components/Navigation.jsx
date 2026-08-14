@@ -233,6 +233,8 @@ function Navigation() {
                                 </NavLink>
                             </DropdownMenuItem>
 
+                            <DropdownMenuSeparator />
+
                             <DropdownMenuItem asChild>
                                 <NavLink
                                     to="/playground"
