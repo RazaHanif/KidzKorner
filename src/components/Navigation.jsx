@@ -26,7 +26,8 @@ import {
 export function DropdownMenuSubmenu() {
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger render={<Button variant="outline">Open</Button>} />
+      <DropdownMenuTrigger 
+        render={<Button variant="outline">Open</Button>} />
       <DropdownMenuContent>
         <DropdownMenuGroup>
           <DropdownMenuItem>Team</DropdownMenuItem>
