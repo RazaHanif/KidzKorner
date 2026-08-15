@@ -31,7 +31,7 @@ const HoursTimeTable = () => {
             <h2 className="text-xl font-semibold text-center lg:text-end lg:ml-2">
                 Hours of Operation
             </h2>
-            <Table className="text-start">
+            <Table className="text-start border-t">
                 <TableBody>
                     {timetable.map((item, idx) => (
                     <TableRow key={idx} className="flex ">
