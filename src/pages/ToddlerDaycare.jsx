@@ -102,7 +102,7 @@ const ToddlerDaycare = () => {
                     <Image
                         src="/media/Stock/7.jpg"
                         alt="Child Playing With Blocks at Kidz Korner Milton, Ontario"
-                        w="w-sm"
+                        w="w-md"
                     />
                 </div>
             </div>
