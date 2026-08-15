@@ -34,7 +34,7 @@ const ContactUsTable = () => {
                 <TableBody>
                     {timetable.map((item, idx) => (
                        <TableRow key={idx} className="flex ">
-                            <TableCell className='font-semibold flex justify-start items-center whitespace-normal wrap-break-word flex-1'>
+                            <TableCell className='font-semibold flex justify-start items-center whitespace-normal wrap-break-word flex-1 border'>
                                 {item.title}
                             </TableCell>
                             <TableCell className="flex justify-center items-center whitespace-normal wrap-break-word flex-2 w-full">
