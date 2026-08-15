@@ -51,7 +51,7 @@ const About = () => {
                     <Image
                         src="/media/Stock/25.jpg"
                         alt="Child painting at Kidz Korner childcare centre in Milton Ontario"
-                        w=""
+                        w="w-lg"
                     />
                 </div>
 
