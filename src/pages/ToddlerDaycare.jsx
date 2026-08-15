@@ -229,7 +229,7 @@ const ToddlerDaycare = () => {
                         <Image
                             src="/media/Stock/19.jpg"
                             alt="Child Playing with Letters at Kidz Korner in  Milton"
-                            w="lg:w-md w-sm"
+                            w="w-lg"
                         />
                     </div>
                     <p className="flex flex-col justify-center items-center w-full text-center">
