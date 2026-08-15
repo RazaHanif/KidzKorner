@@ -47,7 +47,7 @@ const About = () => {
                     <ContactUsTable />
                 </div>
 
-                <div className="flex justify-center items-center flex-1">
+                <div className="flex justify-center items-center flex-2">
                     <Image
                         src="/media/Stock/25.jpg"
                         alt="Child painting at Kidz Korner childcare centre in Milton Ontario"
