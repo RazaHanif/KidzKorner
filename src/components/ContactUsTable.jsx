@@ -27,7 +27,7 @@ const ContactUsTable = () => {
 
     return (
         <div className="flex flex-col gap-2">
-            <h2 className="text-xl font-semibold text-center lg:ml-2">
+            <h2 className="text-xl font-semibold text-center">
                 Contact Us
             </h2>
             <Table className="border-t lg:border-b">
