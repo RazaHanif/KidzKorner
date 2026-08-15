@@ -232,7 +232,7 @@ const ToddlerDaycare = () => {
                             w="lg:w-md w-sm"
                         />
                     </div>
-                    <p className="flex flex-1 flex-col justify-center items-center w-full text-center">
+                    <p className="flex flex-col justify-center items-center w-full text-center">
                         The toddler years are an important time for children to
                         develop new skills and become more confident in their
                         abilities. At Kidz Korner, development is supported
