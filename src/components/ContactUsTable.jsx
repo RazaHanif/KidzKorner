@@ -37,7 +37,7 @@ const ContactUsTable = () => {
                             <TableCell className='font-semibold flex justify-start items-center whitespace-normal wrap-break-word flex-1 border'>
                                 {item.title}
                             </TableCell>
-                            <TableCell className="flex justify-center items-center whitespace-normal wrap-break-word flex-1 w-full border">
+                            <TableCell className="flex justify-center items-center whitespace-normal wrap-break-word flex-2 w-full border">
                                 <a
                                     target="_blank"
                                     rel="noopener noreferrer" 
