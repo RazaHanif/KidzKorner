@@ -79,7 +79,7 @@ const Camp = () => {
                 <Image
                     src="/media/Stock/18.jpg"
                     alt="Toys lined up in a row at Kidz Korner Milton, Ontario"
-                    w="w-sm"
+                    w="w-lg"
                 />
             </div>
 
