@@ -101,7 +101,7 @@ const BeforeAfterDaycare = () => {
                     <Image
                         src="/media/Stock/31.jpg"
                         alt="Child Doing Arts & Crafts at Kidz Korner Milton, Ontario"
-                        w="w-lg"
+                        w="w-sm"
                     />
                 </div>
             </div>
