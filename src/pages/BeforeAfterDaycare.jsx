@@ -492,7 +492,7 @@ const BeforeAfterDaycare = () => {
                 id="before-after-form"
             >
                 <p className="flex text-center">Ready to join us?</p>
-                <DaycareForm daycareType={"before_after"}/>
+                <DaycareForm daycareType={"before_after"} />
             </div>
 
             <StructData schema={localBusinessSchema} />
@@ -521,11 +521,11 @@ const BeforeAfterDaycare = () => {
             />
             <meta
                 property="og:image"
-                content="https://www.kidzkornermilton.com/og-image.jpg"
+                content="https://www.kidzkornermilton.com/media/KK/og-image.jpg"
             />
             <meta
                 property="og:image:alt"
-                content="Kidz Korner licensed daycare in Milton"
+                content="Kidz Korner Store Front in Milton, Ontario"
             />
         </div>
     );

@@ -1,18 +1,21 @@
-import { breadcrumbSchema, localBusinessSchema } from "../schema/structDataSchema";
+import {
+    breadcrumbSchema,
+    localBusinessSchema,
+} from "../schema/structDataSchema";
 import StructData from "../components/StructData";
 import blogSlugs from "../../api/blogSlugs";
 import BlogCard from "../components/BlogCard";
 
 const Blog = () => {
-    const blogSlug = blogSlugs
+    const blogSlug = blogSlugs;
     const breadCrumb = [
         {
             name: "Home",
-            url: "https://www.kidzkornermilton.com/"
+            url: "https://www.kidzkornermilton.com/",
         },
         {
             name: "Blog",
-            url: "https://www.kidzkornermilton.com/blog"
+            url: "https://www.kidzkornermilton.com/blog",
         },
     ];
 
@@ -23,8 +26,9 @@ const Blog = () => {
                     Kidz Korner Milton Blog
                 </h1>
                 <p className="text-center lg:w-3/4 w-9/10">
-                    Helpful tips, ideas, and resources for Milton parents and families.
-                    Explore our latest articles on childcare, preschool, parenting, kids activities, camps, and more!
+                    Helpful tips, ideas, and resources for Milton parents and
+                    families. Explore our latest articles on childcare,
+                    preschool, parenting, kids activities, camps, and more!
                 </p>
             </div>
 
@@ -36,38 +40,30 @@ const Blog = () => {
             <StructData schema={breadcrumbSchema(breadCrumb)} />
 
             <title>
-                Kidz Korner Blog | Childcare & Kids Activities in Milton, Ontario
+                Kidz Korner Blog | Childcare & Kids Activities in Milton,
+                Ontario
             </title>
-            <meta 
-                name="description" 
-                content="" 
-            />
-            <meta 
+            <meta name="description" content="" />
+            <meta
                 property="og:title"
                 content="Kidz Korner Blog | Childcare & Kids Activities in Milton, Ontario"
             />
-            <meta
-                property="og:description"
-                content=""
-            />
-            <meta 
-                property="og:type"
-                content="website"
-            />
+            <meta property="og:description" content="" />
+            <meta property="og:type" content="website" />
             <meta
                 property="og:url"
                 content="https://www.kidzkornermilton.com/blog"
             />
             <meta
                 property="og:image"
-                content="https://www.kidzkornermilton.com/og-image.jpg"
+                content="https://www.kidzkornermilton.com/media/KK/og-image.jpg"
             />
             <meta
                 property="og:image:alt"
-                content="Kidz Korner licensed daycare in Milton"
+                content="Kidz Korner Store Front in Milton, Ontario"
             />
         </div>
     );
-}
-  
+};
+
 export default Blog;

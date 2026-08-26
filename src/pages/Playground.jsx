@@ -1,67 +1,68 @@
 import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
+    Card,
+    CardContent,
+    CardDescription,
+    CardHeader,
+    CardTitle,
+} from "@/components/ui/card";
 import Image from "@/components/Image";
-import { breadcrumbSchema, faqSchema, localBusinessSchema } from "../schema/structDataSchema";
+import {
+    breadcrumbSchema,
+    faqSchema,
+    localBusinessSchema,
+} from "../schema/structDataSchema";
 import StructData from "../components/StructData";
 import { CheckCircle } from "lucide-react";
 import FAQAccordion from "../components/FAQAccordion";
 
-const PlaygroundCard = ({title, price, desc}) => {
+const PlaygroundCard = ({ title, price, desc }) => {
     return (
         <Card>
             <CardHeader>
                 <CardTitle className="p-2 bg-primary text-primary-foreground flex justify-center items-center rounded-md text-lg">
-                    { title }
+                    {title}
                 </CardTitle>
                 <CardDescription className="p-2 bg-accent flex justify-center items-center rounded-md text-bold text-lg">
                     ${price}
                 </CardDescription>
             </CardHeader>
             <CardContent>
-                <p className="p-2 text-center">
-                    { desc }
-                </p>
+                <p className="p-2 text-center">{desc}</p>
             </CardContent>
         </Card>
-    )
-}
+    );
+};
 
 const Playground = () => {
     const breadCrumb = [
         {
             name: "Home",
-            url: "https://www.kidzkornermilton.com/"
+            url: "https://www.kidzkornermilton.com/",
         },
         {
             name: "Playground",
-            url: "https://www.kidzkornermilton.com/indoor-playground"
+            url: "https://www.kidzkornermilton.com/indoor-playground",
         },
-    ]; 
-    
+    ];
+
     const faq = [
         {
             q: "What ages is the indoor playground suitable for?",
-            a: "Our indoor playground is designed for children of various ages, with play areas that encourage safe, active fun. Whether your child is a toddler or school-aged, there are engaging activities for them to enjoy. Adult supervision is required at all times."
+            a: "Our indoor playground is designed for children of various ages, with play areas that encourage safe, active fun. Whether your child is a toddler or school-aged, there are engaging activities for them to enjoy. Adult supervision is required at all times.",
         },
         {
             q: "Do I need to book in advance?",
-            a: "While walk-ins may be available depending on capacity, we recommend booking ahead to guarantee your preferred date and time, especially during weekends, holidays, and school breaks."
+            a: "While walk-ins may be available depending on capacity, we recommend booking ahead to guarantee your preferred date and time, especially during weekends, holidays, and school breaks.",
         },
         {
             q: "Can I host a birthday party at Kidz Korner's indoor playground?",
-            a: "Yes! We offer birthday party packages that include access to our indoor playground, a private party space, and plenty of fun for children and guests. Visit our Birthday Parties page for package details."
+            a: "Yes! We offer birthday party packages that include access to our indoor playground, a private party space, and plenty of fun for children and guests. Visit our Birthday Parties page for package details.",
         },
         {
             q: "Where is your indoor playground located?",
-            a: "Our indoor playground is conveniently located in Milton, Ontario, making it an excellent destination for families looking for indoor activities, birthday parties, and year-round play."
+            a: "Our indoor playground is conveniently located in Milton, Ontario, making it an excellent destination for families looking for indoor activities, birthday parties, and year-round play.",
         },
-    ]
-
+    ];
 
     return (
         <div className="flex flex-col flex-1 justify-center items-center gap-6 w-full lg:py-16 pb-8">
@@ -76,23 +77,24 @@ const Playground = () => {
 
             <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10">
                 <p className="flex lg:flex-row flex-col justify-center items-center lg:text-justify text-center">
-                    Looking for an indoor playground in Milton where your child can play, explore, and build new skills? 
-                    Kidz Korner offers a safe and engaging indoor play space designed for toddlers and young children. 
-                    Our play areas encourage climbing, imaginative play, and active exploration in a clean, welcoming environment. 
-                    Whether you're escaping the summer heat, rainy afternoons, or snowy winter days, our indoor playground gives families a fun place to spend quality time together year-round.
+                    Looking for an indoor playground in Milton where your child
+                    can play, explore, and build new skills? Kidz Korner offers
+                    a safe and engaging indoor play space designed for toddlers
+                    and young children. Our play areas encourage climbing,
+                    imaginative play, and active exploration in a clean,
+                    welcoming environment. Whether you're escaping the summer
+                    heat, rainy afternoons, or snowy winter days, our indoor
+                    playground gives families a fun place to spend quality time
+                    together year-round.
                 </p>
             </div>
 
-            <div 
-                className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border-y lg:py-12 py-8 lg:my-12 my-8"
-            >
+            <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10 border-y lg:py-12 py-8 lg:my-12 my-8">
                 <PlaygroundCard
                     title={"Drop-In Playground Pricing"}
                     price={"15 per Family"}
                     tax={false}
-                    desc={
-                        "Bring the whole family for one low price"
-                    }
+                    desc={"Bring the whole family for one low price"}
                 />
             </div>
 
@@ -104,25 +106,25 @@ const Playground = () => {
                     <div className="flex lg:flex-row flex-col p-2 gap-2">
                         <div className="flex flex-col gap-2 w-full flex-1">
                             <p className="flex items-start gap-3">
-                                <CheckCircle className="h-6 w-6 shrink-0 text-primary"/>
+                                <CheckCircle className="h-6 w-6 shrink-0 text-primary" />
                                 Climbing Structure
                             </p>
                             <p className="flex items-start gap-3">
-                                <CheckCircle className="h-6 w-6 shrink-0 text-primary"/> 
+                                <CheckCircle className="h-6 w-6 shrink-0 text-primary" />
                                 Active Play Areas
                             </p>
                             <p className="flex items-start gap-3">
-                                <CheckCircle className="h-6 w-6 shrink-0 text-primary"/>
+                                <CheckCircle className="h-6 w-6 shrink-0 text-primary" />
                                 Toddler Friendly Spaces
                             </p>
                         </div>
                         <div className="flex flex-col gap-2 w-full flex-1">
                             <p className="flex items-start gap-3">
-                                <CheckCircle className="h-6 w-6 shrink-0 text-primary"/> 
+                                <CheckCircle className="h-6 w-6 shrink-0 text-primary" />
                                 Imaginative Play Opportunities
                             </p>
                             <p className="flex items-start gap-3">
-                                <CheckCircle className="h-6 w-6 shrink-0 text-primary"/> 
+                                <CheckCircle className="h-6 w-6 shrink-0 text-primary" />
                                 Year-Round Indoor Fun
                             </p>
                         </div>
@@ -130,16 +132,20 @@ const Playground = () => {
                 </div>
             </div>
 
-
             <div className="flex lg:flex-row flex-col gap-8 lg:justify-around justify-center items-center lg:w-3/4 w-9/10 border-y lg:py-12 py-8 lg:my-12 my-8">
-                <Image src='/media/KK/20250930_142748.jpg' alt="Children playing on the indoor playground at Kidz Korner in Milton Ontario" w="w-md"/>
-                <Image src='/media/KK/20250930_142442.jpg' alt="Indoor climbing structure at Kidz Korner playground in Milton Ontario" />
+                <Image
+                    src="/media/KK/20250930_142748.jpg"
+                    alt="Children playing on the indoor playground at Kidz Korner in Milton Ontario"
+                    w="w-md"
+                />
+                <Image
+                    src="/media/KK/20250930_142442.jpg"
+                    alt="Indoor climbing structure at Kidz Korner playground in Milton Ontario"
+                />
             </div>
 
             <div className="flex flex-col justify-center items-center lg:w-3/4 w-9/10">
-                <h2 className="text-xl font-bold text-center pb-4">
-                    FAQ
-                </h2>
+                <h2 className="text-xl font-bold text-center pb-4">FAQ</h2>
                 <FAQAccordion faq={faq} />
             </div>
 
@@ -147,14 +153,12 @@ const Playground = () => {
             <StructData schema={breadcrumbSchema(breadCrumb)} />
             <StructData schema={faqSchema(faq)} />
 
-            <title>
-                Indoor Playground in Milton, Ontario | Kidz Korner
-            </title>
-            <meta 
-                name="description" 
-                content="Visit Kidz Korner's indoor playground in Milton, Ontario. Enjoy safe drop-in play, toddler-friendly play areas, climbing structures, and year-round indoor fun for the whole family." 
+            <title>Indoor Playground in Milton, Ontario | Kidz Korner</title>
+            <meta
+                name="description"
+                content="Visit Kidz Korner's indoor playground in Milton, Ontario. Enjoy safe drop-in play, toddler-friendly play areas, climbing structures, and year-round indoor fun for the whole family."
             />
-            <meta 
+            <meta
                 property="og:title"
                 content="Indoor Playground in Milton, Ontario | Kidz Korner"
             />
@@ -162,24 +166,21 @@ const Playground = () => {
                 property="og:description"
                 content="Visit Kidz Korner's indoor playground in Milton, Ontario. Enjoy safe drop-in play, toddler-friendly play areas, climbing structures, and year-round indoor fun for the whole family."
             />
-            <meta 
-                property="og:type"
-                content="website"
-            />
+            <meta property="og:type" content="website" />
             <meta
                 property="og:url"
                 content="https://www.kidzkornermilton.com/indoor-playground"
             />
             <meta
                 property="og:image"
-                content="https://www.kidzkornermilton.com/og-image.jpg"
+                content="https://www.kidzkornermilton.com/media/KK/og-image.jpg"
             />
             <meta
                 property="og:image:alt"
-                content="Kidz Korner licensed daycare in Milton"
+                content="Kidz Korner Store Front in Milton, Ontario"
             />
         </div>
     );
-}
-  
+};
+
 export default Playground;

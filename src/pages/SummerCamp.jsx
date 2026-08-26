@@ -306,11 +306,11 @@ const SummerCamp = () => {
             />
             <meta
                 property="og:image"
-                content="https://www.kidzkornermilton.com/og-image.jpg"
+                content="https://www.kidzkornermilton.com/media/KK/og-image.jpg"
             />
             <meta
                 property="og:image:alt"
-                content="Kidz Korner licensed daycare in Milton"
+                content="Kidz Korner Store Front in Milton, Ontario"
             />
         </div>
     );

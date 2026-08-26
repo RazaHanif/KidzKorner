@@ -29,7 +29,7 @@ const BlogCard = ({ blogSlugs=[] }) => {
                             <NavLink 
                                 to={`/blog/${blog.slug}`}
                                 end 
-                                className="hover:scale-102 ease-in-out duration-300 flex flex-1"
+                                className="flex flex-1"
                             >
                                 <Button 
                                     className="cursor-pointer" 

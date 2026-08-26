@@ -171,8 +171,10 @@ const About = () => {
                     Book a Tour or Ask a Question
                 </h2>
                 <p className="flex text-center lg:w-3/4">
-                    Whether you're looking for daycare, preschool, camps, or birthday parties, our team is happy to answer your questions. 
-                    Complete the form below and we'll get back to you as soon as possible.
+                    Whether you're looking for daycare, preschool, camps, or
+                    birthday parties, our team is happy to answer your
+                    questions. Complete the form below and we'll get back to you
+                    as soon as possible.
                 </p>
                 <ContactForm />
             </div>
@@ -202,11 +204,11 @@ const About = () => {
             />
             <meta
                 property="og:image"
-                content="https://www.kidzkornermilton.com/og-image.jpg"
+                content="https://www.kidzkornermilton.com/media/KK/og-image.jpg"
             />
             <meta
                 property="og:image:alt"
-                content="Kidz Korner licensed daycare in Milton"
+                content="Kidz Korner Store Front in Milton, Ontario"
             />
         </div>
     );

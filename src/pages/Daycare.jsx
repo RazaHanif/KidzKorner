@@ -267,8 +267,8 @@ const Daycare = () => {
                     Ready to join us?
                 </h2>
                 <p className="flex text-center lg:w-3/4">
-                    Contact us today to learn more about our
-                    preschool programs and schedule a tour of our facility!
+                    Contact us today to learn more about our preschool programs
+                    and schedule a tour of our facility!
                 </p>
                 <DaycareForm />
             </div>
@@ -300,11 +300,11 @@ const Daycare = () => {
             />
             <meta
                 property="og:image"
-                content="https://www.kidzkornermilton.com/og-image.jpg"
+                content="https://www.kidzkornermilton.com/media/KK/og-image.jpg"
             />
             <meta
                 property="og:image:alt"
-                content="Kidz Korner licensed daycare in Milton"
+                content="Kidz Korner Store Front in Milton, Ontario"
             />
         </div>
     );
