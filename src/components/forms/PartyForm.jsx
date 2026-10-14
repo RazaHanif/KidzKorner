@@ -165,7 +165,7 @@ const PartyForm = () => {
                                             : undefined
                                     }
                                     disabled={{
-                                        after: today,
+                                        before: today,
                                     }}
                                     onSelect={(date) => {
                                         if (

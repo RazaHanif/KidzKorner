@@ -220,13 +220,13 @@ const CampForm = ({ campType }) => {
                             >
                             {Object.entries(sessionTypes).map(([key, value]) => (
                                 <div className="flex items-center gap-3" key={key}>
-                                <RadioGroupItem
-                                    value={value}
-                                    id={`radio-${key}`}
-                                />
-                                <Label htmlFor={`radio-${key}`}>
-                                    {value}
-                                </Label>
+                                    <RadioGroupItem
+                                        value={value}
+                                        id={`radio-${key}`}
+                                    />
+                                    <Label htmlFor={`radio-${key}`}>
+                                        {value}
+                                    </Label>
                                 </div>
                             ))}
                             </RadioGroup>
